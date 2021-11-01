@@ -2038,10 +2038,10 @@ function cacheSet(request,setName,color)
   local decoded=json.parse(string.gsub(request.text,"\\u0026","&"))
 --credit to dzikakulka and Larikk 
 --use the below line in the parse instead if this line of code ever breaks
---string.gsub(request.text,[[\u([0-9a-fA-F]+)]],function(s)return([[\u{%s}]]):format(s)end) 
+--string.gsub(request.text,[[\u([0-9a-fA-F]+)]],function(s)return([[\u{%s}]]):format(s)end)
   for c,cardData in ipairs(decoded.data)do
    local card=spawnObject({type="CardCustom",position={x=spawnPos.x,y=spawnPos.y+(0.01*c),z=spawnPos.z},rotation=self.GetRotation()})
-   card.setCustomObject({face=cardData.images.large,back="http://cloud-3.steamusercontent.com/ugc/809997459557414686/9ABD9158841F1167D295FD1295D7A597E03A7487/"})
+   card.setCustomObject({face=cardData.images.large.."?count="..tostring(c),back="http://cloud-3.steamusercontent.com/ugc/809997459557414686/9ABD9158841F1167D295FD1295D7A597E03A7487/"})
    card.setName(cardData.name)
    card.setDescription(setName.." #"..cardData.number)
    card.setGMNotes(enumTypes(cardData.supertype,cardData.subtypes)..convertNatDex(cardData.nationalPokedexNumbers)or"")
