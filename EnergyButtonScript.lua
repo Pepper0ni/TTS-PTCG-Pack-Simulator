@@ -1,18 +1,21 @@
 function turnBlue(settings)
  settings.energy="2"
  Global.SetTable("PPacks",settings)
+ self.script_state=settings.energy
  self.setColorTint({r=0,g=0,b=255})
 end
 
 function turnOn(settings)
  settings.energy="1"
  Global.SetTable("PPacks",settings)
+ self.script_state=settings.energy
  self.setColorTint({r=0,g=255,b=0})
 end
 
 function turnOff(settings)
  settings.energy="0"
  Global.SetTable("PPacks",settings)
+ self.script_state=settings.energy
  self.setColorTint({r=255,g=0,b=0})
 end
 
@@ -46,10 +49,6 @@ function onLoad(state)
    turnOff(settings)
   end
  end
-end
-
-function onSave()
- return Global.GetVar("PPacks.energy")
 end
  
 function energyBut()

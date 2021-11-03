@@ -9,6 +9,7 @@ genPoints={1,9,18,40,63}
 
 setData={
 {setName="Base",--1
+ size=102,
  custom={
   mesh=EARLYBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1023948379565016265/9FFC737C34160C4BB6E2E0328DB4597F65CF92CD/",
@@ -41,6 +42,7 @@ setData={
   }]]
  }},
 {setName="Jungle",
+ size=64,
  custom={
   mesh=EARLYBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1023948379565017775/CA98F688F50E3C7B809AE219B13022BA1DFAF78E/",
@@ -71,12 +73,14 @@ setData={
   }]]
  }},
 {setName="Wizards Black Star Promos",
+ size=53,
  custom={
   mesh=TINMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/968725783503128833/A70313105D2DF941D9689E149AD6941E4B1EDE7A/",
   normal=""
  }},
 {setName="Fossil",
+ size=62,
  custom={
   mesh=EARLYBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1023948522906512409/4E66BB37B04B1EB686E550DDC8BBC51E9B1F300E/",
@@ -107,6 +111,7 @@ setData={
   }]]
  }},
 {setName="Base Set 2",
+ size=130,
  custom={
   mesh=EARLYBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1023948522906513994/AAF83D2F6AF5FAAF92BF26CBB7B377B266B4D0F2/",
@@ -140,6 +145,7 @@ setData={
   }]]
  }},
 {setName="Team Rocket",--6
+ size=83,
  custom={
   mesh=EARLYBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1023948522907487754/A2AC9FD599924035612CBD44CE258D9E22C3001F/",
@@ -174,6 +180,7 @@ setData={
 }]]
  }},
 {setName="Gym Heroes",
+ size=132,
  custom={
   mesh=EARLYBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1023948522910123099/D8ADAF0804A55DBF5DE6E1A17007E11450A2007A/",
@@ -207,6 +214,7 @@ setData={
   }]]
  }},
 {setName="Gym Challenge",
+ size=132,
  custom={
   mesh=EARLYBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1023948522913409641/C5F391E19D855BB19A147F1F54B8AC0F13AFCCD7/",
@@ -240,6 +248,7 @@ setData={
   }]]
  }},
 {setName="Neo Genesis",--9
+ size=111,
  custom={
   mesh=EARLYBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1023948522915278961/14DECE258DEFA3E51377114BD75BEC0F17CAB7B7/",
@@ -273,6 +282,7 @@ setData={
   }]]
  }},
 {setName="Neo Discovery",
+ size=75,
  custom={
   mesh=EARLYBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1023948676532830815/C477AF8498FF0EFC50DDC2193B666DA5F9032D8B/",
@@ -304,12 +314,14 @@ setData={
   }]]
  }},
 {setName="Southern Islands",
+ size=18,
  custom={
   mesh=TINMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/968725783503129849/113C2D2767FD989E7EF6546A0AF0636AC82B6BE8/",
   normal=""
  }},
 {setName="Neo Revelation",
+ size=66,
  custom={
   mesh=EARLYBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1023948676533623578/0457F9D4CFE2C627F1E65C75815D65F909A294C2/",
@@ -344,6 +356,7 @@ setData={
   }]]
  }},
 {setName="Neo Destiny",
+ size=113,
  custom={
   mesh=EARLYBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1023948676537146300/D2B45519127336923D440D4F4AC058251E177766/",
@@ -378,6 +391,7 @@ setData={
 }]]
  }},
 {setName="Legendary Collection",
+ size=110,
  custom={
   mesh=EARLYBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1023948676537233973/CDE9FE9BF2B67B1AE376ECD8D0C7EC7016C60464/",
@@ -409,6 +423,7 @@ setData={
 }]]
  }},
 {setName="Expedition Base Set",--14
+ size=165,
  custom={
   mesh=EARLYBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1023948871894973494/418189C39F0CB7C83979596955D036909E7F0778/",
@@ -442,6 +457,7 @@ setData={
 }]]
  }},
 {setName="Aquapolis",
+ size=182,
  custom={
   mesh=EARLYBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1023948871895074389/307DAA13A7CF038C6E33C4759CD0B28924EB854C/",
@@ -478,6 +494,7 @@ setData={
 }]]
  }},
 {setName="Skyridge",
+ size=182,
  custom={
   mesh=EARLYBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1023948871895136685/5C19D133252CCCAE3EF7015EE0D5A277D816D936/",
@@ -514,11 +531,13 @@ setData={
 }]]
  }},
 {setName="Nintendo Black Star Promos",--18
+ size=40,
  custom={
   mesh=TINMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/968725783503127953/A80DA05A30BA633BBAFD59842B16AD1078DE0005/",
   normal=""}},
 {setName="Ruby & Sapphire",
+ size=109,
  custom={
   mesh=EARLYBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1023948871899160416/C1F917D2C3A24B0811C8BE1A5219ED77EC0A5E5D/",
@@ -558,6 +577,7 @@ setData={
 }]]
  }},
 {setName="Sandstorm",
+ size=100,
  custom={
   mesh=EARLYBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1023948871899871274/747FA0132E50AAA7BF9E23F0D767D0A3E9AE2263/",
@@ -594,6 +614,7 @@ setData={
 }]]
  }},
 {setName="Dragon",
+ size=100,
  custom={
   mesh=EARLYBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1023948871900846659/6A25F4F4A7FEA3EBBAAA90548584C16372CBD7E8/",
@@ -633,6 +654,7 @@ setData={
 }]]
  }},
 {setName="Team Magma vs Team Aqua",
+ size=97,
  custom={
   mesh=EARLYBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1023948871903667608/801EC89B9C0E3B08E8FEF030C626FA0A55605D1C/",
@@ -672,6 +694,7 @@ setData={
 }]]
  }},
 {setName="Hidden Legends",--23
+ size=102,
  custom={
   mesh=EARLYBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1023949075505507229/D88E57AC7CDF3AF3660DC83A9E85092185760507/",
@@ -708,6 +731,7 @@ setData={
 }]]
  }},
 {setName="FireRed & LeafGreen",
+ size=116,
  custom={
   mesh=EARLYBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1023949075505512434/FF2375AE5CE74CEF43A52FA9655B61D2D4EBB399/",
@@ -747,11 +771,13 @@ setData={
 }]]
  }},
 {setName="POP Series 1",
+ size=17,
  custom={
-   mesh=PACKMESH,
+  mesh=PACKMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/975479281169885966/313E41A20B3608461D37E2693560F9E4E662F8FD/",
   normal=PACKNORMAL}},
 {setName="Team Rocket Returns",
+ size=111,
  custom={
   mesh=EARLYBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1023949075505514522/7BDE9C6FAFA77F7F7423ACACE886F7B1D3076FE5/",
@@ -794,6 +820,7 @@ setData={
 }]]
  }},
 {setName="Deoxys",--27
+ size=108,
  custom={
   mesh=EARLYBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1023949075506717818/41B79532DC2A7000714F05642B2266809A8EEB3D/",
@@ -833,6 +860,7 @@ setData={
 }]]
  }},
 {setName="Emerald",
+ size=107,
  custom={
   mesh=EARLYBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1023949183707548694/101817125AA0A6D4ED7FDF6BED5B22FFBAFEC4F3/",
@@ -876,12 +904,14 @@ setData={
 }]]
  }},
 {setName="POP Series 2",
+ size=17,
  custom={
   mesh=PACKMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/975479281169886474/698A59A92DB1EE82607A780863B40F706ED8364F/",
   normal=PACKNORMAL
  }},
 {setName="Unseen Forces",
+ size=145,
  custom={
   mesh=EARLYBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1023949183707549994/C1285DF2E83C3170AC04AAC098549978FD10E4FB/",
@@ -931,6 +961,7 @@ setData={
 }]]
  }},
 {setName="Delta Species",
+ size=114,
  custom={
   mesh=EARLYBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1023949183707551046/FA6E7FB53982D644B78FBA68FBDF3BF49D2972BE/",
@@ -970,6 +1001,7 @@ setData={
 }]]
  }},
 {setName="Legend Maker",
+ size=93,
  custom={
   mesh=EARLYBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1023949183707552070/DC48126B95E83849D6BA1F0C3EFDC01F7586ED1D/",
@@ -1009,12 +1041,14 @@ setData={
 }]]
  }},
 {setName="POP Series 3",
+ size=17,
  custom={
   mesh=PACKMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/975479281169887419/6B067A4AE30DB0ECEFA7CC022B008C00E57372A2/",
   normal=PACKNORMAL
  }},
 {setName="Holon Phantoms",--34
+ size=111,
  custom={
   mesh=EARLYBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1023949183707553041/0CC06242D0FBC2CBCFE5F9A60E26A9ECB8EF92F5/",
@@ -1061,12 +1095,14 @@ setData={
 }]]
  }},
 {setName="POP Series 4",
+ size=17,
  custom={
   mesh=PACKMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/975479281169888199/A719AE48B1FF73C6FC0D2A72DE79DD2B9E7A4E7B/",
   normal=PACKNORMAL
  }},
 {setName="Crystal Guardians",
+ size=111,
  custom={
   mesh=EARLYBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1023949183707554039/6D01087E5F6B9AE0DC23981208DD4F254E470693/",
@@ -1106,6 +1142,7 @@ setData={
 }]]
  }},
 {setName="Dragon Frontiers",
+ size=101,
  custom={
   mesh=EARLYBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1023949183707554988/ED96FE955F09533A5DFE499DC3992490BB77372A/",
@@ -1145,6 +1182,7 @@ setData={
 }]]
  }},
 {setName="Power Keepers",
+ size=108,
  custom={
   mesh=EARLYBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1023949183707556006/56D84ACD77C7F2CBB7AF9B6F6BC206A8C22D6601/",
@@ -1191,17 +1229,20 @@ setData={
 }]]
  }},
 {setName="POP Series 5",
+ size=17,
  custom={
   mesh=PACKMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/975479281169889066/5B3E6BB221E05ED4DECF4A6BA9813F655EF89ED5/",
   normal=PACKNORMAL
  }},
 {setName="DP Black Star Promos",--40
+ size=56,
  custom={mesh=TINMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/966473786650425856/ED85BF6CAFC88EE1717A1BE3F68E8B760E1832DA/",
   normal=""
  }},
 {setName="Diamond & Pearl",
+ size=130,
  custom={
   mesh=MODERNBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1023949287961090582/8F5F92770B83A2FC7A784CAF9AFE03E1B3EC9D66/",
@@ -1245,6 +1286,7 @@ setData={
 }]]
  }},
 {setName="Mysterious Treasures",
+ size=124,
  custom={
   mesh=MODERNBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1023949287961183727/3D9CF44C807EFC465ED8B72F48C19F398974D83B/",
@@ -1284,12 +1326,14 @@ setData={
 }]]
  }},
 {setName="POP Series 6",
+ size=17,
  custom={
   mesh=PACKMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/975479281169889617/A27578C4087933521AA9FD73C942AC21AB6ADD87/",
   normal=PACKNORMAL
  }},
 {setName="Secret Wonders",
+ size=132,
  custom={
   mesh=MODERNBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1023949287962269845/59FBD86DE099C405B487AF370B45236C2394D8B9/",
@@ -1326,6 +1370,7 @@ setData={
 }]]
  }},
 {setName="Great Encounters",
+ size=106,
  custom={
   mesh=MODERNBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1023949287962270639/7933A0737670CA764DD465F7C8511C89810890B7/",
@@ -1362,12 +1407,14 @@ setData={
 }]]
  }},
 {setName="POP Series 7",
+ size=17,
  custom={
   mesh=PACKMESH,
    diffuse="http://cloud-3.steamusercontent.com/ugc/975479281169890134/DD42A0E149D6D9A64AD135AD9F3D8282D4411BEC/",
    normal=PACKNORMAL
  }},
 {setName="Majestic Dawn",
+ size=100,
  custom={
   mesh=MODERNBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1023949287964118942/414432C1CC54856BB916F486D3A70984AE4D4B08/",
@@ -1404,6 +1451,7 @@ setData={
 }]]
  }},
 {setName="Legends Awakened",
+ size=146,
  custom={
   mesh=MODERNBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1023949287964120039/4380019D4A594B5A44321272B89B4AD0C0F6A492/",
@@ -1440,12 +1488,14 @@ setData={
 }]]
  }},
 {setName="POP Series 8",
+ size=17,
  custom={
   mesh=PACKMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/975479281169890613/35D8E0C6FF0FA12A87518CB79C1A53C604713D70/",
   normal=PACKNORMAL
  }},
 {setName="Stormfront",
+ size=106,
  custom={
   mesh=MODERNBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1023949287964121071/83431B4452328A8DCF04A4B368870F35342B778F/",
@@ -1492,6 +1542,7 @@ setData={
 }]]
  }},
 {setName="Platinum",
+ size=133,
  custom={
   mesh=MODERNBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1023949407635780794/C03BC05DCCEF45F8E5595088BFA258712CC4299C/",
@@ -1538,12 +1589,14 @@ setData={
 }]]
  }},
 {setName="POP Series 9",
+ size=17,
  custom={
   mesh=PACKMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/975479281169891089/ACF4363E14F0E6C6E9FDE771287089C85250EC17/",
   normal=PACKNORMAL
  }},
 {setName="Rising Rivals",
+ size=120,
  custom={
   mesh=MODERNBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1023949420062860989/38D63EDDE25CA793AD617A62167C1688D5A06C94/",
@@ -1590,6 +1643,7 @@ setData={
 }]]
  }},
 {setName="Supreme Victors",
+ size=153,
  custom={
   mesh=MODERNBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1023949420062862012/5167746C2FAFC0F8B8E3FB0F9431E2B3D6A6E557/",
@@ -1636,6 +1690,7 @@ setData={
 }]]
  }},
 {setName="Arceus",
+ size=111,
  custom={
   mesh=MODERNBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1023949420062862791/F1CF79AF0C9409BDD574ADE6EF0ADA769DC827D8/",
@@ -1682,18 +1737,21 @@ setData={
 }]]
  }},
 {setName="Pokémon Rumble",
+ size=16,
  custom={
   mesh=TINMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/968725783503126946/4B2735F4DF641BEC1978F512488195F23B0EBC12/",
   normal=""
  }},
 {setName="HGSS Black Star Promos",
+ size=25,
  custom={
   mesh=TINMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/966473467911533530/AFDEFB276D510D093106981B8DD73DD369BC1367/",
   normal=""
  }},
 {setName="HeartGold & SoulSilver",
+ size=124,
  custom={
   mesh=MODERNBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1023949420066941449/4509C74BFAFEA01FBB30843F21C3A4B826D7A13A/",
@@ -1750,6 +1808,7 @@ setData={
 }]]
  }},
 {setName="HS—Unleashed",
+ size=96,
  custom={
   mesh=MODERNBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1023949420067819266/24E46C4953C3946F30D890053F4E921B64E91444/",
@@ -1796,6 +1855,7 @@ setData={
 }]]
  }},
 {setName="HS—Undaunted",
+ size=91,
  custom={
   mesh=MODERNBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1023949420067820579/066D0F6EA1F2E529C6301BD2A815CFC1C293A5DE/",
@@ -1842,6 +1902,7 @@ setData={
 }]]
  }},
 {setName="HS—Triumphant",
+ size=103,
  custom={
   mesh=MODERNBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1023949420067821513/94133B2A14747D598976D059432060A95F9064AA/",
@@ -1888,6 +1949,7 @@ setData={
 }]]
  }},
 {setName="Call of Legends",
+ size=106,
  custom={
   mesh=MODERNBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1025076409792413170/5BE65F0FA827D5FCF29D8BF44BF2286BDD13766F/",
@@ -1930,11 +1992,70 @@ setData={
  },num=1},
 }]]
  }},
-{setName="BW Black Star Promos",custom={mesh=TINMESH,diffuse="http://cloud-3.steamusercontent.com/ugc/966473467903509409/E901F00A9DE4C845E1CEE4D1B62EAEF3FD67351E/",normal=""}},--63
-{setName="XY Black Star Promos",custom={mesh=TINMESH,diffuse="http://cloud-3.steamusercontent.com/ugc/966473053148158881/78D6C18B73964ADE74C7904E5C4B9E2500744C04/",normal=""}},
-{setName="SM Black Star Promos",custom={mesh=TINMESH,diffuse="http://cloud-3.steamusercontent.com/ugc/970979204690618490/99C2E6F978D9099ECA2489A31BF4CCCBAEEE4F45/",normal=""}},
+{setName="BW Black Star Promos", size=101,custom={mesh=TINMESH,diffuse="http://cloud-3.steamusercontent.com/ugc/966473467903509409/E901F00A9DE4C845E1CEE4D1B62EAEF3FD67351E/",normal=""}},--63
+{setName="XY Black Star Promos", size=216,custom={mesh=TINMESH,diffuse="http://cloud-3.steamusercontent.com/ugc/966473053148158881/78D6C18B73964ADE74C7904E5C4B9E2500744C04/",normal=""}},
+{setName="SM Black Star Promos", size=247,custom={mesh=TINMESH,diffuse="http://cloud-3.steamusercontent.com/ugc/970979204690618490/99C2E6F978D9099ECA2489A31BF4CCCBAEEE4F45/",normal=""}},
+{setName="Cosmic Eclipse",
+ size=272,
+ custom={
+  mesh=MODERNBOXMESH,
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1030706720825080729/547B540502EB3BF5F8E9F6E78EA2F1C6FF98DCC9/",
+  normal=""
+ },
+ packData={
+  art={
+   "http://cloud-3.steamusercontent.com/ugc/1025076138124030488/5091D1800C3179E4DA87668E069881C4A01FBE7B/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138124031123/9D46B54BEEABE9294E54CD025D08316FFA330DB0/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138124031644/6958CA790B3255C8310B9D4F0AF04F5C454FAAE6/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138124032169/9EEBE6E91C4495F8990C5768CBB40B0C3F2445F5/",
+  },
+  dropSlots=[[{
+--1 uncommon
+   {cards={184,186,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,206,207,208,209,210,65,70,73,81,84,86,96,98,101,109,111,118,120,3,6,9,10,12,14,19,24,25,29,32,34,37,41,42,51,55,133,135,140,141,145,152,163,169,171,174,176},num=3},
+--2 energy TODO find a way to get energies reliably
+   {cards={},num=0,size=8,energy=true},
+--3 shiny
+   {cards={264,265,266,267,268,269,270,271,272,238,239,240},num=0},
+--4 Rainbow
+   {cards={250,251,252,253,254,255,256,257,258,259,260,261,262,263},num=0},
+--5 full art mon
+   {cards={211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,144},num=0},
+--6 full art trainer
+   {cards={229,230,231,232,233,234,235,236,237},num=0},
+--7 GX
+   {cards={1,4,22,35,38,185,63,75,95,110,129,143,157,158,159,166},num=0},
+--8 holo
+   {cards={16,20,21,30,205,61,62,69,82,85,102,104,115,124,136,139,142,146,153,164,165,177},num=0},
+--9 rare
+   {cards={8,11,27,28,33,44,46,48,52,53,56,57,60,181,183,67,72,77,79,88,90,92,94,97,103,112,113,117,122,127,131,138,149,155,156,160,173,179},num=0},
+--10 poke&trainer secret
+   {cards={241,242,243,244,245,246,247,248,249},num=0},
+--11 reverse
+   {cards={181,183,67,72,77,79,88,90,92,94,97,103,112,113,117,8,11,27,28,33,44,46,48,52,53,56,57,60,122,127,131,138,149,155,156,160,173,179,182,64,66,68,71,74,76,78,80,83,87,89,91,93,99,100,105,106,107,108,114,116,119,2,5,7,13,15,17,18,23,26,31,36,39,40,43,45,47,49,50,54,58,59,121,123,125,126,128,130,132,134,137,147,148,150,151,154,161,162,167,168,170,172,175,178,180,184,186,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,206,207,208,209,210,65,70,73,81,84,86,96,98,101,109,111,118,120,3,6,9,10,12,14,19,24,25,29,32,34,37,41,42,51,55,133,135,140,141,145,152,163,169,171,174,176,205,61,62,69,82,85,102,104,115,16,20,21,30,124,136,139,142,146,153,164,165,177},num=0},
+--12 common
+   {cards={2,5,7,13,15,17,18,23,26,31,36,39,40,43,45,47,49,50,54,58,59,182,64,66,68,71,74,76,78,80,83,87,89,91,93,99,100,105,106,107,108,114,116,119,121,123,125,126,128,130,132,134,137,147,148,150,151,154,161,162,167,168,170,172,175,178,180},num=5},
+  }]],
+  pullRate=[[{
+--rare
+ {rates={
+  {slot=3,odds=1/112},--shiny
+  {slot=4,odds=1/66.5},--Rainbow
+  {slot=5,odds=1/37},--full art mon
+  {slot=6,odds=1/101},--full art trainer
+  {slot=7,odds=1/8},--GX
+  {slot=8,odds=1/4},--holo TODO confirm
+  {slot=9}--rare
+ },num=1},
+ {rates={
+  {slot=10,odds=1/10},--poke&trainer secret
+  {slot=11}--reverse
+ },num=1},
+}]]
+ }},
 {setName="SWSH Black Star Promos",custom={mesh=TINMESH,diffuse="http://cloud-3.steamusercontent.com/ugc/794258704672243938/D2657D9105DDAE7C48866D4BA06BD6C170AEE71C/",normal=""}},
+{setName="Chilling Reign", size=233,custom={mesh=MODERNBOXMESH,diffuse="http://cloud-3.steamusercontent.com/ugc/1628605006376251100/250CDB30DB2597E4F06F9BC4F9E01A8908C1C8C7/",normal=""}},
 {setName="Evolving Skies",
+ size=237,
  custom={
   mesh=MODERNBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1628605006376252241/6E5CD0B9CA93CCF81A4D4E0994372D32425261A0/",
@@ -1949,7 +2070,7 @@ setData={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={3,12,23,25,27,33,45,47,53,55,62,69,72,79,85,87,89,96,99,108,114,127,130,134,137,139,{141,165}},num=3,size=42},
+   {cards={3,12,23,25,27,33,45,47,53,55,62,69,72,79,85,87,89,96,99,108,114,127,130,134,137,139,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165},num=3},
 --2 energy TODO find a way to get energies reliably
    {cards={},num=0,size=8,energy=true},
 --3 shiny
@@ -1958,23 +2079,21 @@ setData={
    {cards={204,{206,208},210,211,213,214,216,217,219,{212,225}},num=0,size=16},
 --5 alt Vmax
    {cards={205,209,212,215,218,220},num=0},
---6 FA trainer
-   {cards={{199,203}},num=0,size=5},
---7 alt V
+--6 alt V
    {cards={167,175,180,182,184,186,189,192,194,196,198},num=0},
---8 full V
-   {cards={166,{168,174},{176,179},181,183,185,187,188,190,191,193,195,197},num=0,size=22},
---9 Vmax
-   {cards={8,14,18,29,30,41,51,59,65,75,92,95,101,111,122},num=0},
---10 V
-   {cards={7,13,21,28,31,40,48,58,64,70,74,83,91,94,100,110,117,121},num=0},
---11 holo
+--7 full art
+   {cards={166,{168,174},{176,179},181,183,185,187,188,190,191,193,195,197,{199,203}},num=0,size=27},
+--8 Vmax
+   {cards={8,14,18,29,30,41,51,59,65,75,92,95,101,111,123},num=0},
+--9 V
+   {cards={7,13,21,28,31,40,48,58,64,70,74,83,91,94,100,110,117,122},num=0},
+--10 holo
    {cards={4,16,19,20,34,50,60,63,73,80,82,93,103,109,112,115,116,118,124,131},num=0},
---12 rare
+--11 rare
    {cards={1,6,10,36,38,46,56,77,88,90,97,105,106,119,120,121,128,135,140},num=0},
---13 reverse
+--12 reverse
    {cards={{1,6},{9,12},{15,17},19,20,{22,27},{32,39},{42,47},49,50,{52,57},{60,63},{66,69},{71,73},{76,82},{84,90},93,{96,99},{102,109},{112,116},{118,121},{124,165}},num=1,size=132},
---14 common
+--13 common
    {cards={2,5,9,11,15,17,22,24,26,32,35,37,39,42,43,44,49,52,54,57,61,66,67,68,71,76,78,81,84,86,98,102,104,107,113,125,126,129,132,133,136,138},num=5},
   }]],
   pullRate=[[{
@@ -1983,19 +2102,31 @@ setData={
   {slot=3,odds=1/100},--shiny
   {slot=4,odds=1/82},--Rainbow
   {slot=5,odds=1/283},--alt Vmax
-  {slot=6,odds=1/197},--FA trainer
-  {slot=7,odds=1/100},--alt V
-  {slot=8,odds=1/56},--full V
-  {slot=9,odds=1/11},--Vmax
-  {slot=10,odds=1/9},--V
-  {slot=11,odds=1/5},--holo
-  {slot=12}--rare
+  {slot=6,odds=1/93.7},--alt V
+  {slot=7,odds=1/39.4},--full art
+  {slot=8,odds=1/18},--Vmax
+  {slot=9,odds=1/9},--V
+  {slot=10,odds=1/5},--holo
+  {slot=11}--rare
  },num=1},
 }]]
  }},
-{setName="Celebrations",custom={mesh=PACKMESH,diffuse="http://cloud-3.steamusercontent.com/ugc/1731063025325961700/E2A47E91A07BFF268BCD7494EB259E140D0955D6/",normal=PACKNORMAL}},
-{setName="Celebrations: Classic Collection",custom={mesh=PACKMESH,diffuse="http://cloud-3.steamusercontent.com/ugc/1731063025325961700/E2A47E91A07BFF268BCD7494EB259E140D0955D6/",normal=PACKNORMAL}},
+{setName="Celebrations",size=25,custom={mesh=PACKMESH,diffuse="http://cloud-3.steamusercontent.com/ugc/1731063025325961700/E2A47E91A07BFF268BCD7494EB259E140D0955D6/",normal=PACKNORMAL}},
+{setName="Celebrations: Classic Collection",size=25,custom={mesh=PACKMESH,diffuse="http://cloud-3.steamusercontent.com/ugc/1731063025325961700/E2A47E91A07BFF268BCD7494EB259E140D0955D6/",normal=PACKNORMAL}},
 }
+
+function onObjectLeaveContainer(cont,leaving)
+ if cont~=self then return end
+ if not setData[curSet].packData then
+  local text="This set has no Pack."
+  if leaving.held_by_color then broadcastToColor(text,leaving.held_by_color,{1,0,0})else broadcastToAll(text,{1,0,0})end
+  leaving.destruct()
+  return
+ end
+ packData=setData[curSet].packData
+ leaving.setCustomObject({diffuse=packData.art[math.random(1,#packData.art)]})
+ leaving.setLuaScript("dropSlots="..packData.dropSlots.."\npullRate="..packData.pullRate.."\nsetName='"..setData[curSet].setName.."'\n".."setSize="..tostring(setData[curSet].size or 300).."\n"..leaving.getLuaScript())
+end
 
 function onLoad(state)
  curSet=tonumber(state)or 1
@@ -2026,36 +2157,75 @@ function onLoad(state)
 
  self.createButton(params)
  self.addContextMenuItem("Deal 36 Packs", function() self.deal(36) end)
+ self.addContextMenuItem("Clear pack Cache", function() clearCache() end)
 end
 
-function cacheSet(request,setName,color)
+function clearCache()
+ Global.setTable("PPacksCache["..setData[curSet].setName.."]",{loading=0,cache=nil})
+end
+
+function getSet(obj,color,alt)
+ local setPos=self.GetPosition()
+ setPos.x=setPos.x+3
+ local setName=setData[curSet].setName
+ spawnPos=self.positionToWorld({0,1,7})
+ setCache=Global.getTable("PPacksCache["..setName.."]")
+
+ if setCache and setCache.cache then
+   setDeck=spawnObjectData({data=setCache.cache,position=spawnPos,rotation=self.GetRotation()})
+ else
+  if not setCache or not setCache.loading or setCache.loading==0 then
+   local settings=Global.GetTable("PPacks") 
+   if settings and settings.APICalls then pageCount=tonumber(settings.APICalls) else pageCount=3 end
+   r={}
+   decoded={}
+   Global.setTable("PPacksCache["..setName.."]",{loading=pageCount,cache=nil})
+   for c=1,pageCount do
+    r[c]=WebRequest.get('https://api.pokemontcg.io/v2/cards?q=!set.name:"'..string.gsub(setName,"&","%%26")..'"&page='..tostring(c)..'&pageSize='..tostring(math.ceil((setData[curSet].size or 300)/pageCount)), function() cacheSet(r[c],setName,color,c)end)
+   end
+  else
+   broadcastToColor("Loading Cards, Please Wait",color,{0,1,0})
+  end
+ end
+end
+
+function cacheSet(request,setName,color,page)
+ local cache=Global.GetTable("PPacksCache["..setName.."]")
  if request.is_error or request.response_code>=400 then
   log(request.error)
   log(request.text)
   broadcastToColor("Error: "..tostring(request.response_code),color,{1,0,0})
-  Global.setTable("PPacksCache["..setName.."]",{loading=false,cache=nil})
- else
-  local decoded=json.parse(string.gsub(request.text,"\\u0026","&"))
+  Global.setTable("PPacksCache["..setName.."]",{loading=0,cache=nil})
+ elseif cache.loading>=1 then
+  decoded[page]=json.parse(string.gsub(request.text,"\\u0026","&"))
 --credit to dzikakulka and Larikk 
 --use the below line in the parse instead if this line of code ever breaks
 --string.gsub(request.text,[[\u([0-9a-fA-F]+)]],function(s)return([[\u{%s}]]):format(s)end)
-  for c,cardData in ipairs(decoded.data)do
-   local card=spawnObject({type="CardCustom",position={x=spawnPos.x,y=spawnPos.y+(0.01*c),z=spawnPos.z},rotation=self.GetRotation()})
-   card.setCustomObject({face=cardData.images.large.."?count="..tostring(c),back="http://cloud-3.steamusercontent.com/ugc/809997459557414686/9ABD9158841F1167D295FD1295D7A597E03A7487/"})
-   card.setName(cardData.name)
-   card.setDescription(setName.." #"..cardData.number)
-   card.setGMNotes(enumTypes(cardData.supertype,cardData.subtypes)..convertNatDex(cardData.nationalPokedexNumbers)or"")
-   card.memo=string.gsub(cardData.set.releaseDate,"/","")..string.gsub(cardData.number,"[^%d]","")
-   if setDeck==nil then
-    setDeck=card
-   elseif setDeck.type=="Card"then
-    setDeck=setDeck.putObject(card)
-   else
-    setDeck=setDeck.putObject(card)
-    card.destruct()
+  if cache.loading==1 then
+   local count=1
+   for _,jsons in ipairs(decoded)do
+    for _,cardData in ipairs(jsons.data)do
+     local card=spawnObject({type="CardCustom",position={x=spawnPos.x,y=spawnPos.y+(0.01*count),z=spawnPos.z},rotation=self.GetRotation()})
+     card.setCustomObject({face=cardData.images.large.."?count="..tostring(count),back="http://cloud-3.steamusercontent.com/ugc/809997459557414686/9ABD9158841F1167D295FD1295D7A597E03A7487/"})
+     card.setName(cardData.name)
+     card.setDescription(setName.." #"..cardData.number)
+     card.setGMNotes(enumTypes(cardData.supertype,cardData.subtypes)..convertNatDex(cardData.nationalPokedexNumbers)or"")
+     card.memo=string.gsub(cardData.set.releaseDate,"/","")..string.gsub(cardData.number,"[^%d]","")
+     if setDeck==nil then
+      setDeck=card
+     elseif setDeck.type=="Card"then
+      setDeck=setDeck.putObject(card)
+     else
+      setDeck=setDeck.putObject(card)
+      card.destruct()
+     end
+     count=count+1
+    end
    end
+   Global.setTable("PPacksCache["..setName.."]",{loading=0,cache=setDeck.getData()})
+  else
+   Global.SetTable("PPacksCache["..setName.."]",{loading=cache.loading-1,cache=nil})
   end
-  Global.setTable("PPacksCache["..setName.."]",{loading=false,cache=setDeck.getData()})
  end
 end
 
@@ -2077,23 +2247,14 @@ function enumTypes(Type,subTypes)
  return tostring(enum)
 end
 
-function getSet(obj,color,alt)
- local setPos=self.GetPosition()
- setPos.x=setPos.x+3
- local setName=setData[curSet].setName
- spawnPos=self.positionToWorld({0,1,7})
- setCache=Global.getTable("PPacksCache["..setName.."]")
-
- if setCache and setCache.cache then
-  if not setCache.loading then
-   setDeck=spawnObjectData({data=setCache.cache,position=spawnPos,rotation=self.GetRotation()})
-  else
-   broadcastToColor("Loading Cards, Please Wait",color,{0,1,0})
-  end
+function prevSet(obj,color,alt)
+ if alt then
+  SetAsPreviousGen()
  else
-  Global.setTable("PPacksCache["..setName.."]",{loading=true,cache=nil})
-  r=WebRequest.get('https://api.pokemontcg.io/v2/cards?q=!set.name:"'..string.gsub(setName,"&","%%26")..'"&page=1&pageSize=300', function() cacheSet(r,setName,color)end)
+  curSet=curSet-1
+  if curSet==0 then curSet=#setData end
  end
+ changeSet()
 end
 
 function SetAsPreviousGen()
@@ -2106,26 +2267,6 @@ function SetAsPreviousGen()
  curSet=genPoints[#genPoints]
 end
 
-function SetAsNextGen()
- for c=1,#genPoints do
-  if genPoints[c]>curSet then
-   curSet=genPoints[c]
-   return
-  end
- end
- curSet=genPoints[1]
-end
-
-function prevSet(obj,color,alt)
- if alt then
-  SetAsPreviousGen()
- else
-  curSet=curSet-1
-  if curSet==0 then curSet=#setData end
- end
- changeSet()
-end
-
 function nextSet(obj,color,alt)
  if alt then
   SetAsNextGen()
@@ -2136,24 +2277,21 @@ function nextSet(obj,color,alt)
  changeSet()
 end
 
+function SetAsNextGen()
+ for c=1,#genPoints do
+  if genPoints[c]>curSet then
+   curSet=genPoints[c]
+   return
+  end
+ end
+ curSet=genPoints[1]
+end
+
 function changeSet()
  self.setCustomObject(setData[curSet].custom)
  self.setDescription(setData[curSet].setName)
  self.script_state=tostring(curSet)
  self.reload()
-end
-
-function onObjectLeaveContainer(cont,leaving)
- if cont~=self then return end
- if not setData[curSet].packData then
-  local text="This set has no Pack."
-  if leaving.held_by_color then broadcastToColor(text,leaving.held_by_color,{1,0,0})else broadcastToAll(text,{1,0,0})end
-  leaving.destruct()
-  return
- end
- packData=setData[curSet].packData
- leaving.setCustomObject({diffuse=packData.art[math.random(1,#packData.art)]})
- leaving.setLuaScript("dropSlots="..packData.dropSlots.."\npullRate="..packData.pullRate.."\nsetName='"..setData[curSet].setName.."'\n"..leaving.getLuaScript())
 end
 
 TypeNums={

@@ -1,12 +1,14 @@
 function turnOn(settings)
  settings.spread="1"
  Global.SetTable("PPacks",settings)
+ self.script_state=settings.spread
  self.setColorTint({r=0,g=255,b=0})
 end
 
 function turnOff(settings)
  settings.spread="0"
  Global.SetTable("PPacks",settings)
+ self.script_state=settings.spread
  self.setColorTint({r=255,g=0,b=0})
 end
 

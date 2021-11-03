@@ -1,7 +1,7 @@
 curCard=0
 
 function tryObjectEnter(enter_object)
- if Global.GetVar("PPacks").on=="0" then return true end
+ if Global.GetTable("PPacks").on=="0" then return true end
  return false
 end
 
@@ -34,19 +34,24 @@ end
 
 function ProcessPack(loop,loading)
  setCache=Global.getTable("PPacksCache["..setName.."]")
- if setCache then
-  if setCache.loading then
+ if not setCache or not setCache.cache then
+  if setCache and setCache.loading and setCache.loading!=0 then
    if not loading then broadcastToAll("Loading Cards...",{0,1,0})end
-    Wait.frames(ProcessPack(loop,true),10)
+   Wait.frames(ProcessPack(loop,true),10)
    return
   end
- elseif not loop then
-  Global.setTable("PPacksCache["..setName.."]",{loading=true,cache=nil})
+  if loop then
+   broadcastToAll("Pack loop detected",{1,0,0})
+   return
+  end
+  local pageCount=tonumber(gloData.APICalls)or 3
+  r={}
+  decoded={}
+  Global.setTable("PPacksCache["..setName.."]",{loading=pageCount,cache=nil})
   broadcastToAll("Loading Cards...",{0,1,0})
-  r=WebRequest.get('https://api.pokemontcg.io/v2/cards?q=!set.name:"'..string.gsub(setName,"&","%%26")..'"&page=1&pageSize=300', function() cacheSet(r) end)
-  return
- else
-  broadcastToAll("Pack loop detected",{1,0,0})
+  for c=1,pageCount do
+   r[c]=WebRequest.get('https://api.pokemontcg.io/v2/cards?q=!set.name:"'..string.gsub(setName,"&","%%26")..'"&page='..tostring(c)..'&pageSize='..tostring(math.ceil(setSize/pageCount)), function() cacheSet(r[c],c)end)
+  end
   return
  end
 
@@ -63,28 +68,38 @@ function ProcessPack(loop,loading)
  if pulls then pulls.use_hands=true end
 end
 
-function cacheSet(request)
+function cacheSet(request,page)
+ local cache=Global.GetTable("PPacksCache["..setName.."]")
  if request.is_error or request.response_code>=400 then
   log(request.error)
   log(request.text)
   broadcastToAll("Error: "..tostring(request.response_code),{1,0,0})
+  Global.setTable("PPacksCache["..setName.."]",{loading=0,cache=nil})
  else
-  local decoded=json.parse(string.gsub(request.text,"\\u0026","&"))
+  decoded[page]=json.parse(string.gsub(request.text,"\\u0026","&"))
 --credit to dzikakulka and Larikk
 --use the below line in the parse if this line of code ever breaks
 --string.gsub(request.text,[[\u([0-9a-fA-F]+)]],function(s)return([[\u{%s}]]):format(s)end)
-  for c,cardData in ipairs(decoded.data)do
-   local card=spawnObject({type="CardCustom",position={x=packPos.x,y=packPos.y+(0.01*c),z=packPos.z}})
-   card.setCustomObject({face=cardData.images.large.."?count="..tostring(c),back="http://cloud-3.steamusercontent.com/ugc/809997459557414686/9ABD9158841F1167D295FD1295D7A597E03A7487/"})
-   card.setName(cardData.name)
-   card.setDescription(setName.." #"..cardData.number)
-   card.setGMNotes(enumTypes(cardData.supertype,cardData.subtypes)..convertNatDex(cardData.nationalPokedexNumbers)or"")
-   card.memo=string.gsub(cardData.set.releaseDate,"/","")..string.gsub(cardData.number,"[^%d]","")
-   setDeck=addToDeck(card,setDeck)
-  end
-  Global.setTable("PPacksCache["..setName.."]",{loading=false,cache=setDeck.getData()})
+  if cache.loading==1 then
+   local count=1
+   for _,jsons in ipairs(decoded)do
+    for _,cardData in ipairs(jsons.data)do
+     local card=spawnObject({type="CardCustom",position={x=packPos.x,y=packPos.y+(0.01*count),z=packPos.z}})
+     card.setCustomObject({face=cardData.images.large.."?count="..tostring(count),back="http://cloud-3.steamusercontent.com/ugc/809997459557414686/9ABD9158841F1167D295FD1295D7A597E03A7487/"})
+     card.setName(cardData.name)
+     card.setDescription(setName.." #"..cardData.number)
+     card.setGMNotes(enumTypes(cardData.supertype,cardData.subtypes)..convertNatDex(cardData.nationalPokedexNumbers)or"")
+     card.memo=string.gsub(cardData.set.releaseDate,"/","")..string.gsub(cardData.number,"[^%d]","")
+     setDeck=addToDeck(card,setDeck)
+     count=count+1
+    end
+   end
+  Global.setTable("PPacksCache["..setName.."]",{loading=0,cache=setDeck.getData()})
   setDeck.destruct()
   ProcessPack(true,false)
+  else
+  Global.SetTable("PPacksCache["..setName.."]",{loading=cache.loading-1,cache=nil})
+  end
  end
 end
 
