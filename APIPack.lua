@@ -1,19 +1,19 @@
 curCard=0
 
 function tryObjectEnter(enter_object)
- if Global.GetTable("PPacks").on=="0" then return true end
+ if Global.GetTable("PPacks").on==false then return true end
  return false
 end
 
 function onObjectLeaveContainer(cont,leaving)
- gloData=Global.GetTable("PPacks")or{energy="1"}
- if cont~=self or gloData.on=="0" then return end
+ settings=Global.GetTable("PPacks")or{energy=1,on=true,spread=false,APICalls=3}
+ if cont~=self or settings.on==false then return end
 
- if not gloData then
-  Global.SetTable("PPacks",gloData)
+ if not settings then
+  Global.SetTable("PPacks",settings)
  end
 
- if not gloData.rand then
+ if not settings.rand then
   local globalMath=Global.getVar("math")
   Global.setVar("PPacks.rand",globalMath.random)
  end
@@ -24,7 +24,7 @@ function onObjectLeaveContainer(cont,leaving)
  cardMov={x=packPos.x-secondCard.x,y=packPos.y-secondCard.y,z=packPos.z-secondCard.z}
  secondCard=self.positionToWorld({x=0,y=0.1,z=0})
  cardSpawn={x=packPos.x-secondCard.x,y=packPos.y-secondCard.y,z=packPos.z-secondCard.z}
- if gloData.spread=="1" then cardRot.z=0 else cardRot.z=cardRot.z+180 end
+ if settings.spread then cardRot.z=0 else cardRot.z=cardRot.z+180 end
 
  ProcessPack(false,false)
 
@@ -44,13 +44,12 @@ function ProcessPack(loop,loading)
    broadcastToAll("Pack loop detected",{1,0,0})
    return
   end
-  local pageCount=tonumber(gloData.APICalls)or 3
   r={}
   decoded={}
-  Global.setTable("PPacksCache["..setName.."]",{loading=pageCount,cache=nil})
+  Global.setTable("PPacksCache["..setName.."]",{loading=settings.APICalls,cache=nil})
   broadcastToAll("Loading Cards...",{0,1,0})
-  for c=1,pageCount do
-   r[c]=WebRequest.get('https://api.pokemontcg.io/v2/cards?q=!set.name:"'..string.gsub(setName,"&","%%26")..'"&page='..tostring(c)..'&pageSize='..tostring(math.ceil(setSize/pageCount)), function() cacheSet(r[c],c)end)
+  for c=1,settings.APICalls do
+   r[c]=WebRequest.get('https://api.pokemontcg.io/v2/cards?q=!set.name:"'..string.gsub(setName,"&","%%26")..'"&page='..tostring(c)..'&pageSize='..tostring(math.ceil(setSize/settings.APICalls)), function() cacheSet(r[c],c)end)
   end
   return
  end
@@ -63,7 +62,7 @@ function ProcessPack(loop,loading)
 
  for _,slot in pairs(dropSlots)do
   if slot.fixed then doFixed(slot)
-  elseif not slot.energy or gloData.energy=="1" then chooseCard(slot)end
+  elseif not slot.energy or settings.energy==1 then chooseCard(slot)end
  end
  if pulls then pulls.use_hands=true end
 end
@@ -125,7 +124,7 @@ function doPullRates(rate)
  local rand=Global.call("PPacks.rand")
  for _,slot in pairs(rate.rates)do
   rand=rand-(slot.odds or 1)
-  if rand<=0 and (gloData.energy!="2"or not dropSlots[slot.slot].energy) then
+  if rand<=0 and (settings.energy!=2 or not dropSlots[slot.slot].energy) then
    dropSlots[slot.slot].num=dropSlots[slot.slot].num+1
    return
   end
@@ -179,7 +178,7 @@ end
 function spawnCard(index)
  local card=spawnObjectData({data=setCache.cache.ContainedObjects[index],position={x=packPos.x+(cardSpawn.x*curCard),y=packPos.y+(cardSpawn.y*curCard),z=packPos.z+(cardSpawn.z*curCard)},rotation=cardRot})
 
- if gloData.spread=="1" then
+ if settings.spread then
   card.setPositionSmooth({x=packPos.x+(cardMov.x*curCard),y=packPos.y+(cardMov.y*curCard),z=packPos.z+(cardMov.z*curCard)},false,false)
  else
   pulls=addToDeck(card,pulls)

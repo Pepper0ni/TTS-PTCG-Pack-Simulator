@@ -2129,14 +2129,30 @@ function onObjectLeaveContainer(cont,leaving)
 end
 
 function onLoad(state)
- curSet=tonumber(state)or 1
+ settings=Global.GetTable("PPacks")
+ if state=="" then
+  curSet=1
+ else
+  state=json.parse(state)
+  curSet=state.set or 1
+ end
 
+ if not settings then
+  settings={energy=1,on=true,spread=false,APICalls=3}
+  Global.SetTable("PPacks",settings)
+ end
+ saveData()
+ setUpButtons()
+ setUpContextMenu()
+end
+
+function setUpButtons()
  local selfScale=self.getScale()
  local params={
  click_function='getSet',
  function_owner=self,
  label='Get Whole Set',
- position={0,0.5,3.5},
+ position={0,0.5,4},
  width=3500,
  height=500,
  font_size=450,
@@ -2148,20 +2164,103 @@ function onLoad(state)
  params.click_function='prevSet'
  params.label='<'
  params.position[1]=-4.2
-
  self.createButton(params)
 
  params.click_function='nextSet'
  params.label='>'
  params.position[1]=4.2
-
  self.createButton(params)
- self.addContextMenuItem("Deal 36 Packs", function() self.deal(36) end)
+
+ params.tooltip='Toggle the number of simultainious API calls used when fetching sets. More connections will use up API rate limit (30 per minute) faster but may speed up initial pack/set loading'
+ params.width=6000
+ params.position={0,0.5,3}
+ params.click_function='dummyFunc'
+ params.label="Num of API calls per fetch: "..settings.APICalls
+ self.createButton(params)
+
+ params.label="+"
+ params.width=550
+ params.position[1]=6.5
+ params.click_function='incAPI'
+ self.createButton(params)
+ 
+ params.label="-"
+ params.position[1]=-6.5
+ params.click_function='decAPI'
+ self.createButton(params)
+end
+
+function setUpContextMenu()
+ self.addContextMenuItem("Deal 36 Packs", function(player_color) dealPacks(player_color,36) end)
+ if settings.energy!=1 then
+  self.addContextMenuItem("Enable Energy", function() changeSettings("energy",1) end)
+ end
+ if settings.energy!=0 then
+  self.addContextMenuItem("Disable Energy", function() changeSettings("energy",0) end)
+ end
+ if settings.energy!=2 then
+  self.addContextMenuItem("Replace Energy", function() changeSettings("energy",2) end)
+ end
+ if settings.spread then
+  self.addContextMenuItem("Disable Spread", function() changeSettings("spread",false) end)
+ else
+  self.addContextMenuItem("Enable Spread", function() changeSettings("spread",true) end)
+ end
+ if settings.on then
+  self.addContextMenuItem("Disable Packs", function() changeSettings("on",false) end)
+ else
+  self.addContextMenuItem("Enable Packs", function() changeSettings("on",true) end)
+ end
  self.addContextMenuItem("Clear pack Cache", function() clearCache() end)
+end
+
+function dealPacks(colour,number)
+ if setData[curSet].packData then
+  self.deal(number)
+ else
+  broadcastToColor("This set has no Pack.",colour,{1,0,0})
+ end
+end
+
+function changeSettings(setting,value)
+ settings[setting]=value
+ self.clearContextMenu()
+ setUpContextMenu(settings)
+ Global.SetTable("PPacks",settings)
+ saveData()
 end
 
 function clearCache()
  Global.setTable("PPacksCache["..setData[curSet].setName.."]",{loading=0,cache=nil})
+end
+
+function incAPI(obj,color,alt)
+ if settings.APICalls==10 then
+  broadcastToColor("API rate maxed",color,{1,0,0})
+  return
+ else
+  settings.APICalls=settings.APICalls+1
+ end
+ Global.SetTable("PPacks",settings)
+ saveData()
+ self.clearButtons()
+ setUpButtons()
+end
+
+function decAPI(obj,color,alt)
+ if settings.APICalls==2 then
+  broadcastToColor("API rate at minimum",color,{1,0,0})
+  return
+ else
+  settings.APICalls=settings.APICalls-1
+ end
+ Global.SetTable("PPacks",settings)
+ saveData()
+ self.clearButtons()
+ setUpButtons()
+end
+
+function dummyFunc()
 end
 
 function getSet(obj,color,alt)
@@ -2175,13 +2274,11 @@ function getSet(obj,color,alt)
    setDeck=spawnObjectData({data=setCache.cache,position=spawnPos,rotation=self.GetRotation()})
  else
   if not setCache or not setCache.loading or setCache.loading==0 then
-   local settings=Global.GetTable("PPacks") 
-   if settings and settings.APICalls then pageCount=tonumber(settings.APICalls) else pageCount=3 end
    r={}
    decoded={}
-   Global.setTable("PPacksCache["..setName.."]",{loading=pageCount,cache=nil})
-   for c=1,pageCount do
-    r[c]=WebRequest.get('https://api.pokemontcg.io/v2/cards?q=!set.name:"'..string.gsub(setName,"&","%%26")..'"&page='..tostring(c)..'&pageSize='..tostring(math.ceil((setData[curSet].size or 300)/pageCount)), function() cacheSet(r[c],setName,color,c)end)
+   Global.setTable("PPacksCache["..setName.."]",{loading=settings.APICalls,cache=nil})
+   for c=1,settings.APICalls do
+    r[c]=WebRequest.get('https://api.pokemontcg.io/v2/cards?q=!set.name:"'..string.gsub(setName,"&","%%26")..'"&page='..tostring(c)..'&pageSize='..tostring(math.ceil((setData[curSet].size or 300)/settings.APICalls)), function() cacheSet(r[c],setName,color,c)end)
    end
   else
    broadcastToColor("Loading Cards, Please Wait",color,{0,1,0})
@@ -2290,8 +2387,12 @@ end
 function changeSet()
  self.setCustomObject(setData[curSet].custom)
  self.setDescription(setData[curSet].setName)
- self.script_state=tostring(curSet)
+ saveData()
  self.reload()
+end
+
+function saveData()
+ self.script_state=json.serialize({set=curSet,settings=settings})
 end
 
 TypeNums={
