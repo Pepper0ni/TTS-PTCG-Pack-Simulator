@@ -754,7 +754,7 @@ setData={
 --4 holo
    {cards={{1,17}},num=0,size=17},
 --5 rare
-   {cards={{18,30},103},num=0,size=15},
+   {cards={{18,30},103},num=0,size=14},
 --6 reverse
    {cards={{1,103}},num=1,size=103},
 --7 common
