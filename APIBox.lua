@@ -2153,7 +2153,11 @@ function onLoad(state)
  end
 
  if not settings then
-  settings={energy=1,on=true,spread=false,APICalls=3}
+  if state.settings then
+   settings=state.settings
+  else
+   settings={energy=1,on=true,spread=false,APICalls=3}
+  end
   Global.SetTable("PPacks",settings)
  end
  saveData()
