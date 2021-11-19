@@ -2128,7 +2128,65 @@ setData={
   normal=PACKNORMAL
  }
 },
-{setName="Fusion Strike",unordered=true,size=284,custom={mesh=PACKMESH,diffuse="https://f.eu1.jwwb.nl/public/h/t/i/temp-zjpebgcobmaxydcmrfwb/1py7fz/Pokemon_TCG_Sword_ShieldFusion_Strike_Booster_Wrap_Gengar.jpg",normal=PACKNORMAL}},
+{setName="Fusion Strike",
+ unordered=true,
+ size=284,
+ custom={
+  mesh=PACKMESH,
+  diffuse="https://f.eu1.jwwb.nl/public/h/t/i/temp-zjpebgcobmaxydcmrfwb/1py7fz/Pokemon_TCG_Sword_ShieldFusion_Strike_Booster_Wrap_Gengar.jpg",
+  normal=PACKNORMAL
+ },
+ packData={
+  art={
+   "https://f.eu1.jwwb.nl/public/h/t/i/temp-zjpebgcobmaxydcmrfwb/yxdux6/Pokemon_TCG_Sword_ShieldFusion_Strike_Booster_Wrap_Boltund.jpg",
+   "https://f.eu1.jwwb.nl/public/h/t/i/temp-zjpebgcobmaxydcmrfwb/emgwx6/Pokemon_TCG_Sword_ShieldFusion_Strike_Booster_Wrap_Genesect.jpg",
+   "https://f.eu1.jwwb.nl/public/h/t/i/temp-zjpebgcobmaxydcmrfwb/1py7fz/Pokemon_TCG_Sword_ShieldFusion_Strike_Booster_Wrap_Gengar.jpg",
+   "https://f.eu1.jwwb.nl/public/h/t/i/temp-zjpebgcobmaxydcmrfwb/28m8os/Pokemon_TCG_Sword_ShieldFusion_Strike_Booster_Wrap_Mew.jpg",
+  },
+  dropSlots=[[{
+--1 uncommon
+   {cards={2,5,8,10,17,25,27,30,31,35,36,38,41,49,111,122,129,132,134,136,141,143,207,208,211,213,215,216,220,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,151,153,154,160,163,167,169,171,173,174,177,181,183,187,192,196,198,200,54,56,63,69,72,75,77,81,83,85,92,96,99,100},num=3},
+--2 energy TODO find a way to get energies reliably
+   {cards={},num=0,size=8,energy=true},
+--3 gold
+   {cards={280,281,282,283,284},num=0},
+--4 Rainbow
+   {cards={265,267,268,272,273,274,275,276,277,278,279},num=0},
+--5 alt Vmax
+   {cards={266,271,269,270},num=0},
+--6 alt V
+   {cards={251,245,252,255,257},num=0},
+--7 full art
+   {cards={253,254,256,258,259,260,261,262,263,264,246,247,248,249,250},num=0},
+--8 Vmax
+   {cards={23,40,45,104,114,218,157,79},num=0},
+--9 V
+   {cards={6,21,22,26,39,43,44,103,113,146,201,217,156,158,185,73,76,78,86},num=0},
+--10 holo
+   {cards={3,107,108,120,130,139,148,161,178,189,53,57,64},num=0},
+--11 rare
+   {cards={11,12,14,15,20,33,42,48,101,102,116,118,124,126,137,145,203,204,164,166,175,190,193,194,197,51,59,66,67,88,93,97},num=0},
+--12 reverse
+   {cards={1,4,7,9,13,16,18,19,24,28,29,32,34,37,46,47,50,105,106,109,110,112,115,117,119,121,123,125,127,128,131,133,135,138,140,142,144,147,149,150,202,205,206,209,210,212,214,219,221,222,152,155,159,162,165,168,170,172,176,179,180,182,184,186,188,191,195,199,52,55,58,60,61,62,65,68,70,71,74,80,82,84,87,89,90,91,94,95,98,11,12,14,15,20,33,42,48,101,102,116,118,124,126,137,145,203,204,164,166,175,190,193,194,197,51,59,66,67,88,93,97,2,5,8,10,17,25,27,30,31,35,36,38,41,49,111,122,129,132,134,136,141,143,207,208,211,213,215,216,220,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,151,153,154,160,163,167,169,171,173,174,177,181,183,187,192,196,198,200,54,56,63,69,72,75,77,81,83,85,92,96,99,100,3,107,108,120,130,139,148,161,178,189,53,57,64},num=1},
+--13 common
+   {cards={1,4,7,9,13,16,18,19,24,28,29,32,34,37,46,47,50,105,106,109,110,112,115,117,119,121,123,125,127,128,131,133,135,138,140,142,144,147,149,150,202,205,206,209,210,212,214,219,221,222,152,155,159,162,165,168,170,172,176,179,180,182,184,186,188,191,195,199,52,55,58,60,61,62,65,68,70,71,74,80,82,84,87,89,90,91,94,95,98},num=5},
+  }]],
+  pullRate=[[{
+--rare TODO get foil rate
+ {rates={
+  {slot=3,odds=1/125},--gold
+  {slot=4,odds=1/125},--Rainbow
+  {slot=5,odds=1/303},--alt Vmax
+  {slot=6,odds=1/138},--alt V
+  {slot=7,odds=1/33},--full art
+  {slot=8,odds=1/29},--Vmax
+  {slot=9,odds=1/8},--V
+  {slot=10,odds=1/5},--holo
+  {slot=11}--rare
+ },num=1},
+}]]
+ }
+},
 }
 
 function onObjectLeaveContainer(cont,leaving)
@@ -2145,7 +2203,7 @@ function onObjectLeaveContainer(cont,leaving)
   scriptAddOn=scriptAddOn.."setUnordered=true\n"
  end
  if setData[curSet].subSet then
-  scriptAddOn=scriptAddOn.."subSetName="..setData[curSet].subSet.name.."\nsubSetSize="..tostring(setData[curSet].size or 300).."\n"
+  scriptAddOn=scriptAddOn.."subSetName="..setData[curSet].subSet.name.."\nsubSetSize="..tostring(setData[curSet].subSet.size or 300).."\n"
  end
  leaving.setCustomObject({diffuse=packData.art[math.random(1,#packData.art)]})
  leaving.setLuaScript(scriptAddOn..leaving.getLuaScript())
