@@ -2111,8 +2111,16 @@ setData={
  },num=1},
 }]]
  }},
-{setName="Celebrations",size=25,custom={mesh=PACKMESH,diffuse="http://cloud-3.steamusercontent.com/ugc/1731063025325961700/E2A47E91A07BFF268BCD7494EB259E140D0955D6/",normal=PACKNORMAL}},
-{setName="Celebrations: Classic Collection",size=25,custom={mesh=PACKMESH,diffuse="http://cloud-3.steamusercontent.com/ugc/1731063025325961700/E2A47E91A07BFF268BCD7494EB259E140D0955D6/",normal=PACKNORMAL}},
+{setName="Celebrations",
+ size=25,
+ unordered=true,
+ subSet={setName="Celebrations: Classic Collection",size=25},
+ custom={
+  mesh=PACKMESH,
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1731063025325961700/E2A47E91A07BFF268BCD7494EB259E140D0955D6/",
+  normal=PACKNORMAL
+ }
+},
 }
 
 function onObjectLeaveContainer(cont,leaving)
@@ -2123,9 +2131,16 @@ function onObjectLeaveContainer(cont,leaving)
   leaving.destruct()
   return
  end
- packData=setData[curSet].packData
+ local packData=setData[curSet].packData
+ local scriptAddOn="dropSlots="..packData.dropSlots.."\npullRate="..packData.pullRate.."\nsetName='"..setData[curSet].setName.."'\nsetSize="..tostring(setData[curSet].size or 300).."\n"
+ if setData[curSet].unordered then
+  scriptAddOn=scriptAddOn.."setUnordered=true\n"
+ end
+ if setData[curSet].subSet then
+  scriptAddOn=scriptAddOn.."subSetName="..setData[curSet].subSet.name.."\nsubSetSize="..tostring(setData[curSet].size or 300).."\n"
+ end
  leaving.setCustomObject({diffuse=packData.art[math.random(1,#packData.art)]})
- leaving.setLuaScript("dropSlots="..packData.dropSlots.."\npullRate="..packData.pullRate.."\nsetName='"..setData[curSet].setName.."'\n".."setSize="..tostring(setData[curSet].size or 300).."\n"..leaving.getLuaScript())
+ leaving.setLuaScript(scriptAddOn..leaving.getLuaScript())
 end
 
 function onLoad(state)
@@ -2263,6 +2278,9 @@ end
 function dummyFunc()
 end
 
+r={}
+decoded={}
+
 function getSet(obj,color,alt)
  local setPos=self.GetPosition()
  setPos.x=setPos.x+3
@@ -2276,14 +2294,30 @@ function getSet(obj,color,alt)
   if not setCache or not setCache.loading or setCache.loading==0 then
    r={}
    decoded={}
-   Global.setTable("PPacksCache["..setName.."]",{loading=settings.APICalls,cache=nil})
-   for c=1,settings.APICalls do
-    r[c]=WebRequest.get('https://api.pokemontcg.io/v2/cards?q=!set.name:"'..string.gsub(setName,"&","%%26")..'"&page='..tostring(c)..'&pageSize='..tostring(math.ceil((setData[curSet].size or 300)/settings.APICalls)), function() cacheSet(r[c],setName,color,c)end)
+   local orderText=""
+   if setData[curSet].unordered then orderText='&orderBy=number'end
+   local callPerSet=settings.APICalls
+   if setData[curSet].subSet then
+    callPerSet=math.ceil(settings.APICalls/2)
+    Global.setTable("PPacksCache["..setName.."]",{loading=callPerSet*2,cache=nil})
+   else
+    Global.setTable("PPacksCache["..setName.."]",{loading=callPerSet,cache=nil})
    end
+   local count=requestSet(1,callPerSet,setName,setName,setData[curSet].size or 300,orderText)
+   if setData[curSet].subSet then count=requestSet(count,callPerSet,setData[curSet].subSet.setName,setName,setData[curSet].subSet.size or 300,orderText) end
   else
    broadcastToColor("Loading Cards, Please Wait",color,{0,1,0})
   end
  end
+end
+
+function requestSet(count,calls,setToLoad,setName,size,orderText)
+ for c=1,calls do
+  local page=count
+  r[count]=WebRequest.get('https://api.pokemontcg.io/v2/cards?q=!set.name:"'..string.gsub(setToLoad,"&","%%26")..'"&page='..tostring(c)..'&pageSize='..tostring(math.ceil(size/calls))..orderText, function() cacheSet(r[page],setName,color,page)end)
+  count=count+1
+ end
+ return count
 end
 
 function cacheSet(request,setName,color,page)

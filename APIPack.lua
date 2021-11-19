@@ -46,11 +46,18 @@ function ProcessPack(loop,loading)
   end
   r={}
   decoded={}
-  Global.setTable("PPacksCache["..setName.."]",{loading=settings.APICalls,cache=nil})
-  broadcastToAll("Loading Cards...",{0,1,0})
-  for c=1,settings.APICalls do
-   r[c]=WebRequest.get('https://api.pokemontcg.io/v2/cards?q=!set.name:"'..string.gsub(setName,"&","%%26")..'"&page='..tostring(c)..'&pageSize='..tostring(math.ceil(setSize/settings.APICalls)), function() cacheSet(r[c],c)end)
+  local orderText=""
+  if setUnordered then orderText='&orderBy=number'end
+  local callPerSet=settings.APICalls
+  if subSetName then
+   callPerSet=math.ceil(settings.APICalls/2)
+   Global.setTable("PPacksCache["..setName.."]",{loading=callPerSet*2,cache=nil})
+  else
+   Global.setTable("PPacksCache["..setName.."]",{loading=callPerSet,cache=nil})
   end
+  broadcastToAll("Loading Cards...",{0,1,0})
+  local count=requestSet(1,callPerSet,setName,setSize,orderText)
+  if subSetName then count=requestSet(count,callPerSet,subSetName,subSetSize,orderText) end
   return
  end
 
@@ -65,6 +72,15 @@ function ProcessPack(loop,loading)
   elseif not slot.energy or settings.energy==1 then chooseCard(slot)end
  end
  if pulls then pulls.use_hands=true end
+end
+
+function requestSet(count,calls,setToLoad,size,orderText)
+ for c=1,calls do
+  local page=count
+  r[count]=WebRequest.get('https://api.pokemontcg.io/v2/cards?q=!set.name:"'..string.gsub(setToLoad,"&","%%26")..'"&page='..tostring(c)..'&pageSize='..tostring(math.ceil(size/calls))..orderText, function() cacheSet(r[page],page)end)
+  count=count+1
+ end
+ return count
 end
 
 function cacheSet(request,page)
