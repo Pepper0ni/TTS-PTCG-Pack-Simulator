@@ -5,7 +5,7 @@ TINMESH="http://cloud-3.steamusercontent.com/ugc/1030706251249348501/4E69F41EAEE
 PACKMESH="http://pastebin.com/raw/PqfGKtKR"
 PACKNORMAL="http://cloud-3.steamusercontent.com/ugc/861734852198391028/D75480247FA058266F0D423501D867407458666D/"
 
-genPoints={1,9,18,40,63}
+genPoints={1,9,19,41,64}
 
 setData={
 {setName="Base",--1
@@ -455,6 +455,13 @@ setData={
   {slot=5}--common
  },num=1},
 }]]
+ }},
+{setName="Best of Game",
+ size=9,
+ custom={
+  mesh=TINMESH,
+  diffuse="http://cloud-3.steamusercontent.com/ugc/968725783503131051/2575CF394E08C1A8459E375526AC8D606E6067FB/",
+  normal=""
  }},
 {setName="Aquapolis",
  size=182,
@@ -2121,6 +2128,7 @@ setData={
   normal=PACKNORMAL
  }
 },
+{setName="Fusion Strike",unordered=true,size=284,custom={mesh=PACKMESH,diffuse="https://f.eu1.jwwb.nl/public/h/t/i/temp-zjpebgcobmaxydcmrfwb/1py7fz/Pokemon_TCG_Sword_ShieldFusion_Strike_Booster_Wrap_Gengar.jpg",normal=PACKNORMAL}},
 }
 
 function onObjectLeaveContainer(cont,leaving)
