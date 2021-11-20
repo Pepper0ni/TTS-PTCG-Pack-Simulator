@@ -2061,6 +2061,63 @@ setData={
 }]]
  }},
 {setName="SWSH Black Star Promos",custom={mesh=TINMESH,diffuse="http://cloud-3.steamusercontent.com/ugc/794258704672243938/D2657D9105DDAE7C48866D4BA06BD6C170AEE71C/",normal=""}},
+{setName="Battle Styles",
+ size=183,
+ custom={
+  mesh=MODERNBOXMESH,
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1628605006376249632/DF216367D85CED7ABF2BE20A424289FB147F735B/",
+  normal=""
+ },
+ packData={
+  art={
+   "http://cloud-3.steamusercontent.com/ugc/1809862209417091834/B66908B3C40E22ECEF2F66C131394998523142D7/",
+   "http://cloud-3.steamusercontent.com/ugc/1809862209417189421/BED84E077121DFB733A74049F1B9C022A55398DD/",
+   "http://cloud-3.steamusercontent.com/ugc/1809862209417190280/5D5D896917E924AD96955ECF58B7105283BDDF7E/",
+   "http://cloud-3.steamusercontent.com/ugc/1809862209417190980/41442ED8DAF5B5EF39F4BE8F28E17697D6CF3D75/",
+  },
+  dropSlots=[[{
+--1 uncommon
+   {cards={64,72,74,79,90,94,98,104,106,112,116,118,120,2,5,9,10,12,24,26,32,39,43,47,56,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141},num=3},
+--2 energy TODO find a way to get energies reliably
+   {cards={},num=0,size=8,energy=true},
+--3 gold
+   {cards={181,182,183,178,179,180},num=0},
+--4 Rainbow
+   {cards={164,165,166,167,169,171,172,173,174,175,176,177},num=0},
+--5 alt Vmax
+   {cards={168,170},num=0},
+--6 alt V
+   {cards={146,151,153,155},num=0},
+--7 full art
+   {cards={142,143,144,145,147,148,149,150,152,154,156,157,158,159,160,161,162,163},num=0},
+--8 Vmax
+   {cards={86,88,110,19,22,51},num=0},
+--9 V
+   {cards={62,63,85,87,97,109,117,6,18,21,40,50},num=0},
+--10 holo
+   {cards={61,65,80,82,91,96,99,102,107,8,16,20,25,33,37,48},num=0},
+--11 rare
+   {cards={67,70,75,77,83,84,92,108,114,119,3,13,15,28,30,35,42,45,53,58},num=0},
+--12 reverse
+   {cards={61,65,80,82,91,96,99,102,107,8,16,20,25,33,37,48,64,72,74,79,90,94,98,104,106,112,116,118,120,2,5,9,10,12,24,26,32,39,43,47,56,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,66,68,69,71,73,76,78,81,89,93,95,100,101,103,105,111,113,115,1,4,7,11,14,17,23,27,29,31,34,36,38,41,44,46,49,52,54,55,57,59,60,67,70,75,77,83,84,92,108,114,119,3,13,15,28,30,35,42,45,53,58},num=1},
+--13 common
+   {cards={66,68,69,71,73,76,78,81,89,93,95,100,101,103,105,111,113,115,1,4,7,11,14,17,23,27,29,31,34,36,38,41,44,46,49,52,54,55,57,59,60},num=5},
+  }]],
+  pullRate=[[{
+--rare TODO get foil rate, vmax rate
+ {rates={
+  {slot=3,odds=1/106.5},--gold
+  {slot=4,odds=1/91},--Rainbow
+  {slot=5,odds=1/697},--alt Vmax
+  {slot=6,odds=1/159.5},--alt V
+  {slot=7,odds=1/31},--full art
+  {slot=8,odds=1/29},--Vmax
+  {slot=9,odds=1/8},--V
+  {slot=10,odds=1/5},--holo
+  {slot=11}--rare
+ },num=1},
+}]]
+ }},
 {setName="Chilling Reign",
  size=233,
  custom={
