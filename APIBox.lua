@@ -2126,6 +2126,51 @@ setData={
   mesh=PACKMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1731063025325961700/E2A47E91A07BFF268BCD7494EB259E140D0955D6/",
   normal=PACKNORMAL
+ },
+ packData={
+  art={
+   "http://cloud-3.steamusercontent.com/ugc/1731063025325961700/E2A47E91A07BFF268BCD7494EB259E140D0955D6/",
+  },
+  dropSlots=[[{
+--1 rare
+   {cards={1,2,3,4,10,12,13,14,17,19,20,22},num=2},
+--2 classic rare
+   {cards={27,35,38,39,40,42,44,45,46,47,48,49,50},num=0},
+--3 classic chomp
+   {cards={43},num=0},
+--4 classic common
+   {cards={26,28,29,30,31,32,33,34,36,37,41},num=0},
+--5 gold mew
+   {cards={25},num=0},
+--6 Oak FA
+   {cards={24},num=0},
+--7 Vmax
+   {cards={7,9},num=0},
+--8 pikachu
+   {cards={5},num=0},
+--9 V
+   {cards={6,8,16,18},num=0},
+--10 holo
+   {cards={11,15,21,23},num=0},
+  }]],
+  pullRate=[[{
+--classic
+   {rates={
+    {slot=2,odds=1/8.3},--classic rare
+    {slot=3,odds=1/64.2},--classic chomp
+    {slot=4,odds=1/3.75},--classic common
+    {slot=1}--rare
+   },num=1},
+--foil
+   {rates={
+    {slot=5,odds=1/147},--gold mew
+    {slot=6,odds=1/24.5},--Oak FA
+    {slot=7,odds=1/13},--Vmax
+    {slot=8,odds=1/9},--Pikachu
+    {slot=9,odds=1/4},--V
+    {slot=10}--holo
+   },num=1},
+  }]]
  }
 },
 {setName="Fusion Strike",
@@ -2203,7 +2248,7 @@ function onObjectLeaveContainer(cont,leaving)
   scriptAddOn=scriptAddOn.."setUnordered=true\n"
  end
  if setData[curSet].subSet then
-  scriptAddOn=scriptAddOn.."subSetName="..setData[curSet].subSet.name.."\nsubSetSize="..tostring(setData[curSet].subSet.size or 300).."\n"
+  scriptAddOn=scriptAddOn.."subSetName='"..setData[curSet].subSet.setName.."'\nsubSetSize="..tostring(setData[curSet].subSet.size or 300).."\n"
  end
  leaving.setCustomObject({diffuse=packData.art[math.random(1,#packData.art)]})
  leaving.setLuaScript(scriptAddOn..leaving.getLuaScript())
