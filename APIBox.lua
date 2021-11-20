@@ -2061,7 +2061,63 @@ setData={
 }]]
  }},
 {setName="SWSH Black Star Promos",custom={mesh=TINMESH,diffuse="http://cloud-3.steamusercontent.com/ugc/794258704672243938/D2657D9105DDAE7C48866D4BA06BD6C170AEE71C/",normal=""}},
-{setName="Chilling Reign", size=233,custom={mesh=MODERNBOXMESH,diffuse="http://cloud-3.steamusercontent.com/ugc/1628605006376251100/250CDB30DB2597E4F06F9BC4F9E01A8908C1C8C7/",normal=""}},
+{setName="Chilling Reign",
+ size=233,
+ custom={
+  mesh=MODERNBOXMESH,
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1628605006376251100/250CDB30DB2597E4F06F9BC4F9E01A8908C1C8C7/",
+  normal=""
+ },
+ packData={
+  art={
+   "http://cloud-3.steamusercontent.com/ugc/1701782454894595916/8B9DE9168AC8C4B0BEFEC92296E92C6A58C6AD2E/",
+   "http://cloud-3.steamusercontent.com/ugc/1701782454894592625/638361FC59EF309F57123F1D9D36429A45E74584/",
+   "http://cloud-3.steamusercontent.com/ugc/1701782454894599508/8912FF96BC321F94E66093CAA0EBE7FDC0F953AF/",
+   "http://cloud-3.steamusercontent.com/ugc/1701782454894597609/2C84DC9286363ABEF243368D112172C30A79620D/",
+  },
+  dropSlots=[[{
+--1 uncommon
+   {cards={129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,72,85,106,110,117,2,5,14,17,27,38,42,48,56,60},num=3},
+--2 energy TODO find a way to get energies reliably
+   {cards={},num=0,size=8,energy=true},
+--3 gold
+   {cards={222,223,224,225,226,227,228,229,230,231,232,233},num=0},
+--4 Rainbow
+   {cards={199,200,202,204,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221},num=0},
+--5 alt Vmax
+   {cards={201,203,205},num=0},
+--6 alt V
+   {cards={164,166,168,170,172,174,177,179,183,185},num=0},
+--7 full art
+   {cards={181,182,184,186,187,188,189,190,191,192,193,194,195,196,197,198,160,161,162,163,165,167,169,171,173,175,176,178,180},num=0},
+--8 Vmax
+   {cards={125,75,90,100,113,8,21,46},num=0},
+--9 V
+   {cards={124,74,80,89,97,99,104,112,119,7,20,25,45,53,58},num=0},
+--10 holo
+   {cards={123,128,61,64,73,83,87,92,98,108,114,115,118,3,18,19,28,31,36,40,43,44,52,57},num=0},
+--11 rare
+   {cards={122,63,66,68,70,77,79,81,88,95,96,102,103,107,111,120,10,12,15,24,39,49,51},num=0},
+--12 reverse
+   {cards={121,126,127,62,65,67,69,71,76,78,82,84,86,91,93,94,101,105,109,116,1,4,6,9,11,13,16,22,23,26,29,30,32,33,34,35,37,41,47,50,54,55,59,122,63,66,68,70,77,79,81,88,95,96,102,103,107,111,120,10,12,15,24,39,49,51,123,128,61,64,73,83,87,92,98,108,114,115,118,3,18,19,28,31,36,40,43,44,52,57,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,72,85,106,110,117,2,5,14,17,27,38,42,48,56,60},num=1},
+--13 common
+   {cards={121,126,127,62,65,67,69,71,76,78,82,84,86,91,93,94,101,105,109,116,1,4,6,9,11,13,16,22,23,26,29,30,32,33,34,35,37,41,47,50,54,55,59},num=5},
+  }]],
+  pullRate=[[{
+--rare TODO get foil rate
+ {rates={
+  {slot=3,odds=1/125},--gold
+  {slot=4,odds=1/125},--Rainbow
+  {slot=5,odds=1/303},--alt Vmax
+  {slot=6,odds=1/138},--alt V
+  {slot=7,odds=1/33},--full art
+  {slot=8,odds=1/29},--Vmax
+  {slot=9,odds=1/8},--V
+  {slot=10,odds=1/5},--holo
+  {slot=11}--rare
+ },num=1},
+}]]
+ }},
 {setName="Evolving Skies",
  size=237,
  custom={
@@ -2105,14 +2161,14 @@ setData={
    {cards={2,5,9,11,15,17,22,24,26,32,35,37,39,42,43,44,49,52,54,57,61,66,67,68,71,76,78,81,84,86,98,102,104,107,113,125,126,129,132,133,136,138},num=5},
   }]],
   pullRate=[[{
---rare TODO get better numbers
+--rare TODO get foil odds, V odds
  {rates={
-  {slot=3,odds=1/100},--shiny
-  {slot=4,odds=1/82},--Rainbow
-  {slot=5,odds=1/283},--alt Vmax
-  {slot=6,odds=1/93.7},--alt V
-  {slot=7,odds=1/39.4},--full art
-  {slot=8,odds=1/18},--Vmax
+  {slot=3,odds=1/107.5},--shiny
+  {slot=4,odds=1/98.3},--Rainbow
+  {slot=5,odds=1/604},--alt Vmax
+  {slot=6,odds=1/135.5},--alt V
+  {slot=7,odds=1/31.9},--full art
+  {slot=8,odds=1/24},--Vmax
   {slot=9,odds=1/9},--V
   {slot=10,odds=1/5},--holo
   {slot=11}--rare
@@ -2312,7 +2368,7 @@ function setUpButtons()
  params.position[1]=6.5
  params.click_function='incAPI'
  self.createButton(params)
- 
+
  params.label="-"
  params.position[1]=-6.5
  params.click_function='decAPI'
@@ -2444,7 +2500,7 @@ function cacheSet(request,setName,color,page)
   Global.setTable("PPacksCache["..setName.."]",{loading=0,cache=nil})
  elseif cache.loading>=1 then
   decoded[page]=json.parse(string.gsub(request.text,"\\u0026","&"))
---credit to dzikakulka and Larikk 
+--credit to dzikakulka and Larikk
 --use the below line in the parse instead if this line of code ever breaks
 --string.gsub(request.text,[[\u([0-9a-fA-F]+)]],function(s)return([[\u{%s}]]):format(s)end)
   if cache.loading==1 then
