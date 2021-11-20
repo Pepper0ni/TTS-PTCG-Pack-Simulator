@@ -46,8 +46,8 @@ function ProcessPack(loop,loading)
   end
   r={}
   decoded={}
-  local orderText=""
-  if setUnordered then orderText='&orderBy=number'end
+  local orderText="&orderBy=number"
+  if setUnordered then orderText=''end
   local callPerSet=settings.APICalls
   if subSetName then
    callPerSet=math.ceil(settings.APICalls/2)

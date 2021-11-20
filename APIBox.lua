@@ -918,6 +918,7 @@ setData={
   normal=PACKNORMAL
  }},
 {setName="Unseen Forces",
+ unordered=true,
  size=145,
  custom={
   mesh=EARLYBOXMESH,
@@ -1720,9 +1721,9 @@ setData={
 --4 rare
    {cards={{13,32}},num=0,size=20},
 --5 arceus
-   {cards={{103,111}},num=0,size=9},
+   {cards={{100,108}},num=0,size=9},
 --6 shiny
-   {cards={100,101,102},num=0},
+   {cards={109,110,111},num=0},
 --7 reverse
    {cards={{1,93}},num=0,size=93},
 --8 common
@@ -1773,25 +1774,25 @@ setData={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={{35,56},{89,104}},num=3,size=38},
+   {cards={{36,57},{90,105}},num=3,size=38},
 --2 secret
-   {cards={124},num=0},
+   {cards={1},num=0},
 --3 shiny
-   {cards={123},num=0},
+   {cards={124},num=0},
 --4 legend
-   {cards={111,112,113,114},num=0},
+   {cards={112,113,114,115},num=0},
 --5 holo
-   {cards={{1,13}},num=0,size=13},
+   {cards={{2,14}},num=0,size=13},
 --6 rare
-   {cards={{14,34}},num=0,size=21},
+   {cards={{15,35}},num=0,size=21},
 --7 prime
-   {cards={{105,110}},num=0,size=6},
+   {cards={{106,111}},num=0,size=6},
 --8 reverse
-   {cards={{1,104}},num=0,size=104},
+   {cards={{2,105}},num=0,size=104},
 --9 energy
-   {cards={{115,122}},num=0,size=8,energy=true},
+   {cards={{116,123}},num=0,size=8,energy=true},
 --10 common
-   {cards={{57,88}},num=4,size=32},
+   {cards={{58,89}},num=4,size=32},
   }]],
   pullRate=[[{
 --rare
@@ -1830,21 +1831,21 @@ setData={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={{28,42},{71,83}},num=3,size=28},
+   {cards={{29,43},{72,84}},num=3,size=28},
 --2 secret
-   {cards={96},num=0},
+   {cards={1},num=0},
 --3 legend
-   {cards={90,91,92,93,94,95},num=0},
+   {cards={91,92,93,94,95,96},num=0},
 --4 holo
-   {cards={{1,11}},num=0,size=11},
+   {cards={{2,12}},num=0,size=11},
 --5 rare
-   {cards={{12,27}},num=0,size=16},
+   {cards={{13,28}},num=0,size=16},
 --6 prime
-   {cards={{84,89}},num=0,size=6},
+   {cards={{85,90}},num=0,size=6},
 --7 reverse
-   {cards={{1,83}},num=0,size=83},
+   {cards={{2,84}},num=0,size=83},
 --8 common
-   {cards={{43,70}},num=5,size=28},
+   {cards={{44,71}},num=5,size=28},
   }]],
   pullRate=[[{
 --rare
@@ -1877,21 +1878,21 @@ setData={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={{26,41},{71,80}},num=3,size=26},
+   {cards={{27,42},{72,81}},num=3,size=26},
 --2 secret
-   {cards={91},num=0},
+   {cards={1},num=0},
 --3 legend
-   {cards={87,88,89,90},num=0},
+   {cards={88,89,90,91},num=0},
 --4 holo
-   {cards={{1,10}},num=0,size=10},
+   {cards={{2,11}},num=0,size=10},
 --5 rare
-   {cards={{11,25}},num=0,size=15},
+   {cards={{12,26}},num=0,size=15},
 --6 prime
-   {cards={{81,86}},num=0,size=6},
+   {cards={{82,87}},num=0,size=6},
 --7 reverse
-   {cards={{1,80}},num=0,size=80},
+   {cards={{2,81}},num=0,size=80},
 --8 common
-   {cards={{42,70}},num=5,size=29},
+   {cards={{43,71}},num=5,size=29},
   }]],
   pullRate=[[{
 --rare
@@ -1924,21 +1925,21 @@ setData={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={{32,54},{85,90}},num=3,size=29},
+   {cards={{33,55},{86,91}},num=3,size=29},
 --2 secret
-   {cards={103},num=0},
+   {cards={1},num=0},
 --3 legend
-   {cards={99,100,101,102},num=0},
+   {cards={100,101,102,103},num=0},
 --4 holo
-   {cards={{1,12}},num=0,size=12},
+   {cards={{2,13}},num=0,size=12},
 --5 rare
-   {cards={{13,31}},num=0,size=19},
+   {cards={{14,32}},num=0,size=19},
 --6 prime
-   {cards={{91,98}},num=0,size=8},
+   {cards={{92,99}},num=0,size=8},
 --7 reverse
-   {cards={{1,90}},num=0,size=90},
+   {cards={{2,91}},num=0,size=90},
 --8 common
-   {cards={{55,84}},num=5,size=30},
+   {cards={{56,85}},num=5,size=30},
   }]],
   pullRate=[[{
 --rare
@@ -2120,7 +2121,6 @@ setData={
  }},
 {setName="Celebrations",
  size=25,
- unordered=true,
  subSet={setName="Celebrations: Classic Collection",size=25},
  custom={
   mesh=PACKMESH,
@@ -2174,7 +2174,6 @@ setData={
  }
 },
 {setName="Fusion Strike",
- unordered=true,
  size=284,
  custom={
   mesh=PACKMESH,
@@ -2409,8 +2408,8 @@ function getSet(obj,color,alt)
   if not setCache or not setCache.loading or setCache.loading==0 then
    r={}
    decoded={}
-   local orderText=""
-   if setData[curSet].unordered then orderText='&orderBy=number'end
+   local orderText="&orderBy=number"
+   if setData[curSet].unordered then orderText=''end
    local callPerSet=settings.APICalls
    if setData[curSet].subSet then
     callPerSet=math.ceil(settings.APICalls/2)
@@ -2440,6 +2439,7 @@ function cacheSet(request,setName,color,page)
  if request.is_error or request.response_code>=400 then
   log(request.error)
   log(request.text)
+  log(request.response_code)
   broadcastToColor("Error: "..tostring(request.response_code),color,{1,0,0})
   Global.setTable("PPacksCache["..setName.."]",{loading=0,cache=nil})
  elseif cache.loading>=1 then
