@@ -15,7 +15,10 @@ Once you have your packs you can open them by simply click-dragging on top of th
 
 By default the packs will not spread, and will contain energy as normal. If you want to configure these otherwise you can do so in the right-click menu of the main box. These settings will be saved between games or if you carry the box around. Note that it is not reccomended to have multiple boxes in the game room, as they may get confused about the current settings. The only option not in the right click menu is the "API calls per pack" option. As these packs need to fetch data from an API to function, the first use of them in a set has a loading time while the mod fetches and caches the data. Increasing the number of parallel API calls speeds up this loading, especially for larger sets, but runs the risk of getting ratelimited if you load a number of new sets in quick succession.
 
+Note that in a few cases where packs have energy replacing random common slots, the energy is not in a random slot.
+
 ### Credits:
 - dzikakulka and Larikk for helping with the code to decode the json properly.
 - dzikakulka again for helping me solve RNG seeding issues.
 - The rest of the TTS discord #scripting room for random answers and help.
+- Everyone responsible for my data in my sources spreadsheet.
