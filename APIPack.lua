@@ -56,8 +56,8 @@ function ProcessPack(loop,loading)
    Global.setTable("PPacksCache["..setName.."]",{loading=callPerSet,cache=nil})
   end
   broadcastToAll("Loading Cards...",{0,1,0})
-  local count=requestSet(1,callPerSet,setName,setSize,orderText)
-  if subSetName then count=requestSet(count,callPerSet,subSetName,subSetSize,orderText) end
+  local count=requestSet(1,callPerSet,setID,setSize,orderText)
+  if subSetName then count=requestSet(count,callPerSet,subSetID,subSetSize,orderText) end
   return
  end
 
@@ -74,10 +74,10 @@ function ProcessPack(loop,loading)
  if pulls then pulls.use_hands=true end
 end
 
-function requestSet(count,calls,setToLoad,size,orderText)
+function requestSet(count,calls,setIDToLoad,size,orderText)
  for c=1,calls do
   local page=count
-  r[count]=WebRequest.get('https://api.pokemontcg.io/v2/cards?q=!set.name:"'..string.gsub(setToLoad,"&","%%26")..'"&page='..tostring(c)..'&pageSize='..tostring(math.ceil(size/calls))..orderText, function() cacheSet(r[page],page)end)
+  r[count]=WebRequest.get('https://api.pokemontcg.io/v2/cards?q=!set.id:"'..setIDToLoad..'"&page='..tostring(c)..'&pageSize='..tostring(math.ceil(size/calls))..orderText, function() cacheSet(r[page],page)end)
   count=count+1
  end
  return count
