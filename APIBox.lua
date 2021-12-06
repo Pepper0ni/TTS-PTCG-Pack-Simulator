@@ -13,8 +13,7 @@ setData={
  setID="base1",
  custom={
   mesh=EARLYBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1023948379565016265/9FFC737C34160C4BB6E2E0328DB4597F65CF92CD/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1023948379565016265/9FFC737C34160C4BB6E2E0328DB4597F65CF92CD/"
  },
  packData={
   art={
@@ -47,8 +46,7 @@ setData={
  setID="base2",
  custom={
   mesh=EARLYBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1023948379565017775/CA98F688F50E3C7B809AE219B13022BA1DFAF78E/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1023948379565017775/CA98F688F50E3C7B809AE219B13022BA1DFAF78E/"
  },
  packData={
   art={
@@ -79,16 +77,14 @@ setData={
  setID="basep",
  custom={
   mesh=TINMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/968725783503128833/A70313105D2DF941D9689E149AD6941E4B1EDE7A/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/968725783503128833/A70313105D2DF941D9689E149AD6941E4B1EDE7A/"
  }},
 {setName="Fossil",
  size=62,
  setID="base3",
  custom={
   mesh=EARLYBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1023948522906512409/4E66BB37B04B1EB686E550DDC8BBC51E9B1F300E/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1023948522906512409/4E66BB37B04B1EB686E550DDC8BBC51E9B1F300E/"
  },
  packData={
   art={
@@ -119,8 +115,7 @@ setData={
  setID="base4",
  custom={
   mesh=EARLYBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1023948522906513994/AAF83D2F6AF5FAAF92BF26CBB7B377B266B4D0F2/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1023948522906513994/AAF83D2F6AF5FAAF92BF26CBB7B377B266B4D0F2/"
  },
  packData={
   art={
@@ -154,8 +149,7 @@ setData={
  setID="base5",
  custom={
   mesh=EARLYBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1023948522907487754/A2AC9FD599924035612CBD44CE258D9E22C3001F/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1023948522907487754/A2AC9FD599924035612CBD44CE258D9E22C3001F/"
  },
  packData={
   art={
@@ -190,8 +184,7 @@ setData={
  setID="gym1",
  custom={
   mesh=EARLYBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1023948522910123099/D8ADAF0804A55DBF5DE6E1A17007E11450A2007A/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1023948522910123099/D8ADAF0804A55DBF5DE6E1A17007E11450A2007A/"
  },
  packData={
   art={
@@ -225,8 +218,7 @@ setData={
  setID="gym2",
  custom={
   mesh=EARLYBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1023948522913409641/C5F391E19D855BB19A147F1F54B8AC0F13AFCCD7/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1023948522913409641/C5F391E19D855BB19A147F1F54B8AC0F13AFCCD7/"
  },
  packData={
   art={
@@ -260,8 +252,7 @@ setData={
  setID="neo1",
  custom={
   mesh=EARLYBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1023948522915278961/14DECE258DEFA3E51377114BD75BEC0F17CAB7B7/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1023948522915278961/14DECE258DEFA3E51377114BD75BEC0F17CAB7B7/"
  },
  packData={
   art={
@@ -295,8 +286,7 @@ setData={
  setID="neo2",
  custom={
   mesh=EARLYBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1023948676532830815/C477AF8498FF0EFC50DDC2193B666DA5F9032D8B/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1023948676532830815/C477AF8498FF0EFC50DDC2193B666DA5F9032D8B/"
  },
  packData={
   art={
@@ -328,16 +318,14 @@ setData={
  setID="si1",
  custom={
   mesh=TINMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/968725783503129849/113C2D2767FD989E7EF6546A0AF0636AC82B6BE8/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/968725783503129849/113C2D2767FD989E7EF6546A0AF0636AC82B6BE8/"
  }},
 {setName="Neo Revelation",
  size=66,
  setID="neo3",
  custom={
   mesh=EARLYBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1023948676533623578/0457F9D4CFE2C627F1E65C75815D65F909A294C2/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1023948676533623578/0457F9D4CFE2C627F1E65C75815D65F909A294C2/"
  },
  packData={
   art={
@@ -372,8 +360,7 @@ setData={
  setID="neo4",
  custom={
   mesh=EARLYBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1023948676537146300/D2B45519127336923D440D4F4AC058251E177766/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1023948676537146300/D2B45519127336923D440D4F4AC058251E177766/"
  },
  packData={
   art={
@@ -408,8 +395,7 @@ setData={
  setID="base6",
  custom={
   mesh=EARLYBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1023948676537233973/CDE9FE9BF2B67B1AE376ECD8D0C7EC7016C60464/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1023948676537233973/CDE9FE9BF2B67B1AE376ECD8D0C7EC7016C60464/"
  },
  packData={
   art={
@@ -441,8 +427,7 @@ setData={
  setID="ecard1",
  custom={
   mesh=EARLYBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1023948871894973494/418189C39F0CB7C83979596955D036909E7F0778/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1023948871894973494/418189C39F0CB7C83979596955D036909E7F0778/"
  },
  packData={
   art={
@@ -476,16 +461,14 @@ setData={
  setID="bp",
  custom={
   mesh=TINMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/968725783503131051/2575CF394E08C1A8459E375526AC8D606E6067FB/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/968725783503131051/2575CF394E08C1A8459E375526AC8D606E6067FB/"
  }},
 {setName="Aquapolis",
  size=182,
  setID="ecard2",
  custom={
   mesh=EARLYBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1023948871895074389/307DAA13A7CF038C6E33C4759CD0B28924EB854C/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1023948871895074389/307DAA13A7CF038C6E33C4759CD0B28924EB854C/"
  },
  packData={
   art={
@@ -522,8 +505,7 @@ setData={
  setID="ecard3",
  custom={
   mesh=EARLYBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1023948871895136685/5C19D133252CCCAE3EF7015EE0D5A277D816D936/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1023948871895136685/5C19D133252CCCAE3EF7015EE0D5A277D816D936/"
  },
  packData={
   art={
@@ -560,15 +542,13 @@ setData={
  setID="np",
  custom={
   mesh=TINMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/968725783503127953/A80DA05A30BA633BBAFD59842B16AD1078DE0005/",
-  normal=""}},
+  diffuse="http://cloud-3.steamusercontent.com/ugc/968725783503127953/A80DA05A30BA633BBAFD59842B16AD1078DE0005/"}},
 {setName="Ruby & Sapphire",
  size=109,
  setID="ex1",
  custom={
   mesh=EARLYBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1023948871899160416/C1F917D2C3A24B0811C8BE1A5219ED77EC0A5E5D/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1023948871899160416/C1F917D2C3A24B0811C8BE1A5219ED77EC0A5E5D/"
  },
  packData={
   art={
@@ -608,8 +588,7 @@ setData={
  setID="ex2",
  custom={
   mesh=EARLYBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1023948871899871274/747FA0132E50AAA7BF9E23F0D767D0A3E9AE2263/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1023948871899871274/747FA0132E50AAA7BF9E23F0D767D0A3E9AE2263/"
  },
  packData={
   art={
@@ -646,8 +625,7 @@ setData={
  setID="ex3",
  custom={
   mesh=EARLYBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1023948871900846659/6A25F4F4A7FEA3EBBAAA90548584C16372CBD7E8/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1023948871900846659/6A25F4F4A7FEA3EBBAAA90548584C16372CBD7E8/"
  },
  packData={
   art={
@@ -687,8 +665,7 @@ setData={
  setID="ex4",
  custom={
   mesh=EARLYBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1023948871903667608/801EC89B9C0E3B08E8FEF030C626FA0A55605D1C/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1023948871903667608/801EC89B9C0E3B08E8FEF030C626FA0A55605D1C/"
  },
  packData={
   art={
@@ -728,8 +705,7 @@ setData={
  setID="ex5",
  custom={
   mesh=EARLYBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949075505507229/D88E57AC7CDF3AF3660DC83A9E85092185760507/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949075505507229/D88E57AC7CDF3AF3660DC83A9E85092185760507/"
  },
  packData={
   art={
@@ -766,8 +742,7 @@ setData={
  setID="ex6",
  custom={
   mesh=EARLYBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949075505512434/FF2375AE5CE74CEF43A52FA9655B61D2D4EBB399/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949075505512434/FF2375AE5CE74CEF43A52FA9655B61D2D4EBB399/"
  },
  packData={
   art={
@@ -814,8 +789,7 @@ setData={
  setID="ex7",
  custom={
   mesh=EARLYBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949075505514522/7BDE9C6FAFA77F7F7423ACACE886F7B1D3076FE5/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949075505514522/7BDE9C6FAFA77F7F7423ACACE886F7B1D3076FE5/"
  },
  packData={
   art={
@@ -858,8 +832,7 @@ setData={
  setID="ex8",
  custom={
   mesh=EARLYBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949075506717818/41B79532DC2A7000714F05642B2266809A8EEB3D/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949075506717818/41B79532DC2A7000714F05642B2266809A8EEB3D/"
  },
  packData={
   art={
@@ -899,8 +872,7 @@ setData={
  setID="ex9",
  custom={
   mesh=EARLYBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949183707548694/101817125AA0A6D4ED7FDF6BED5B22FFBAFEC4F3/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949183707548694/101817125AA0A6D4ED7FDF6BED5B22FFBAFEC4F3/"
  },
  packData={
   art={
@@ -953,8 +925,7 @@ setData={
  setID="ex10",
  custom={
   mesh=EARLYBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949183707549994/C1285DF2E83C3170AC04AAC098549978FD10E4FB/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949183707549994/C1285DF2E83C3170AC04AAC098549978FD10E4FB/"
  },
  packData={
   art={
@@ -1004,8 +975,7 @@ setData={
  setID="ex11",
  custom={
   mesh=EARLYBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949183707551046/FA6E7FB53982D644B78FBA68FBDF3BF49D2972BE/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949183707551046/FA6E7FB53982D644B78FBA68FBDF3BF49D2972BE/"
  },
  packData={
   art={
@@ -1045,8 +1015,7 @@ setData={
  setID="ex12",
  custom={
   mesh=EARLYBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949183707552070/DC48126B95E83849D6BA1F0C3EFDC01F7586ED1D/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949183707552070/DC48126B95E83849D6BA1F0C3EFDC01F7586ED1D/"
  },
  packData={
   art={
@@ -1094,8 +1063,7 @@ setData={
  setID="ex13",
  custom={
   mesh=EARLYBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949183707553041/0CC06242D0FBC2CBCFE5F9A60E26A9ECB8EF92F5/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949183707553041/0CC06242D0FBC2CBCFE5F9A60E26A9ECB8EF92F5/"
  },
  packData={
   art={
@@ -1150,8 +1118,7 @@ setData={
  setID="ex14",
  custom={
   mesh=EARLYBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949183707554039/6D01087E5F6B9AE0DC23981208DD4F254E470693/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949183707554039/6D01087E5F6B9AE0DC23981208DD4F254E470693/"
  },
  packData={
   art={
@@ -1191,8 +1158,7 @@ setData={
  setID="ex15",
  custom={
   mesh=EARLYBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949183707554988/ED96FE955F09533A5DFE499DC3992490BB77372A/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949183707554988/ED96FE955F09533A5DFE499DC3992490BB77372A/"
  },
  packData={
   art={
@@ -1232,8 +1198,7 @@ setData={
  setID="ex16",
  custom={
   mesh=EARLYBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949183707556006/56D84ACD77C7F2CBB7AF9B6F6BC206A8C22D6601/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949183707556006/56D84ACD77C7F2CBB7AF9B6F6BC206A8C22D6601/"
  },
  packData={
   art={
@@ -1287,16 +1252,14 @@ setData={
  size=56,
  setID="dpp",
  custom={mesh=TINMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/966473786650425856/ED85BF6CAFC88EE1717A1BE3F68E8B760E1832DA/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/966473786650425856/ED85BF6CAFC88EE1717A1BE3F68E8B760E1832DA/"
  }},
 {setName="Diamond & Pearl",
  size=130,
  setID="dp1",
  custom={
   mesh=MODERNBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949287961090582/8F5F92770B83A2FC7A784CAF9AFE03E1B3EC9D66/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949287961090582/8F5F92770B83A2FC7A784CAF9AFE03E1B3EC9D66/"
  },
  packData={
   art={
@@ -1340,8 +1303,7 @@ setData={
  setID="dp2",
  custom={
   mesh=MODERNBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949287961183727/3D9CF44C807EFC465ED8B72F48C19F398974D83B/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949287961183727/3D9CF44C807EFC465ED8B72F48C19F398974D83B/"
  },
  packData={
   art={
@@ -1389,8 +1351,7 @@ setData={
  setID="dp3",
  custom={
   mesh=MODERNBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949287962269845/59FBD86DE099C405B487AF370B45236C2394D8B9/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949287962269845/59FBD86DE099C405B487AF370B45236C2394D8B9/"
  },
  packData={
   art={
@@ -1427,8 +1388,7 @@ setData={
  setID="dp4",
  custom={
   mesh=MODERNBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949287962270639/7933A0737670CA764DD465F7C8511C89810890B7/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949287962270639/7933A0737670CA764DD465F7C8511C89810890B7/"
  },
  packData={
   art={
@@ -1473,8 +1433,7 @@ setData={
  setID="dp5",
  custom={
   mesh=MODERNBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949287964118942/414432C1CC54856BB916F486D3A70984AE4D4B08/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949287964118942/414432C1CC54856BB916F486D3A70984AE4D4B08/"
  },
  packData={
   art={
@@ -1511,8 +1470,7 @@ setData={
  setID="dp6",
  custom={
   mesh=MODERNBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949287964120039/4380019D4A594B5A44321272B89B4AD0C0F6A492/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949287964120039/4380019D4A594B5A44321272B89B4AD0C0F6A492/"
  },
  packData={
   art={
@@ -1557,8 +1515,7 @@ setData={
  setID="dp7",
  custom={
   mesh=MODERNBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949287964121071/83431B4452328A8DCF04A4B368870F35342B778F/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949287964121071/83431B4452328A8DCF04A4B368870F35342B778F/"
  },
  packData={
   art={
@@ -1605,8 +1562,7 @@ setData={
  setID="pl1",
  custom={
   mesh=MODERNBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949407635780794/C03BC05DCCEF45F8E5595088BFA258712CC4299C/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949407635780794/C03BC05DCCEF45F8E5595088BFA258712CC4299C/"
  },
  packData={
   art={
@@ -1661,8 +1617,7 @@ setData={
  setID="pl2",
  custom={
   mesh=MODERNBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949420062860989/38D63EDDE25CA793AD617A62167C1688D5A06C94/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949420062860989/38D63EDDE25CA793AD617A62167C1688D5A06C94/"
  },
  packData={
   art={
@@ -1709,8 +1664,7 @@ setData={
  setID="pl3",
  custom={
   mesh=MODERNBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949420062862012/5167746C2FAFC0F8B8E3FB0F9431E2B3D6A6E557/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949420062862012/5167746C2FAFC0F8B8E3FB0F9431E2B3D6A6E557/"
  },
  packData={
   art={
@@ -1757,8 +1711,7 @@ setData={
  setID="pl4",
  custom={
   mesh=MODERNBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949420062862791/F1CF79AF0C9409BDD574ADE6EF0ADA769DC827D8/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949420062862791/F1CF79AF0C9409BDD574ADE6EF0ADA769DC827D8/"
  },
  packData={
   art={
@@ -1805,24 +1758,21 @@ setData={
  setID="ru1",
  custom={
   mesh=TINMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/968725783503126946/4B2735F4DF641BEC1978F512488195F23B0EBC12/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/968725783503126946/4B2735F4DF641BEC1978F512488195F23B0EBC12/"
  }},
 {setName="HGSS Black Star Promos",
  size=25,
  setID="hsp",
  custom={
   mesh=TINMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/966473467911533530/AFDEFB276D510D093106981B8DD73DD369BC1367/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/966473467911533530/AFDEFB276D510D093106981B8DD73DD369BC1367/"
  }},
 {setName="HeartGold & SoulSilver",
  size=124,
  setID="hgss1",
  custom={
   mesh=MODERNBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949420066941449/4509C74BFAFEA01FBB30843F21C3A4B826D7A13A/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949420066941449/4509C74BFAFEA01FBB30843F21C3A4B826D7A13A/"
  },
  packData={
   art={
@@ -1879,8 +1829,7 @@ setData={
  setID="hgss2",
  custom={
   mesh=MODERNBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949420067819266/24E46C4953C3946F30D890053F4E921B64E91444/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949420067819266/24E46C4953C3946F30D890053F4E921B64E91444/"
  },
  packData={
   art={
@@ -1927,8 +1876,7 @@ setData={
  setID="hgss3",
  custom={
   mesh=MODERNBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949420067820579/066D0F6EA1F2E529C6301BD2A815CFC1C293A5DE/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949420067820579/066D0F6EA1F2E529C6301BD2A815CFC1C293A5DE/"
  },
  packData={
   art={
@@ -1975,8 +1923,7 @@ setData={
  setID="hgss4",
  custom={
   mesh=MODERNBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949420067821513/94133B2A14747D598976D059432060A95F9064AA/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1023949420067821513/94133B2A14747D598976D059432060A95F9064AA/"
  },
  packData={
   art={
@@ -2023,8 +1970,7 @@ setData={
  setID="col1",
  custom={
   mesh=MODERNBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1025076409792413170/5BE65F0FA827D5FCF29D8BF44BF2286BDD13766F/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1025076409792413170/5BE65F0FA827D5FCF29D8BF44BF2286BDD13766F/"
  },
  packData={
   art={
@@ -2070,8 +2016,7 @@ setData={
  setID="g1",
  custom=
   {mesh=SQUAREBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1030706251248906884/4DD17D273D0FCD9F1E135DBD48950BE77728BA7E/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1030706251248906884/4DD17D273D0FCD9F1E135DBD48950BE77728BA7E/"
  },
  packData={
   art={
@@ -2138,14 +2083,19 @@ setData={
  },num=1},
 }]]
  }},
-{setName="SM Black Star Promos", size=247,setID="smp",custom={mesh=TINMESH,diffuse="http://cloud-3.steamusercontent.com/ugc/970979204690618490/99C2E6F978D9099ECA2489A31BF4CCCBAEEE4F45/",normal=""}},
+{setName="SM Black Star Promos",
+ size=247,
+ setID="smp",
+ custom={
+  mesh=TINMESH,
+  diffuse="http://cloud-3.steamusercontent.com/ugc/970979204690618490/99C2E6F978D9099ECA2489A31BF4CCCBAEEE4F45/"
+}},
 {setName="Cosmic Eclipse",
  size=272,
  setID="sm12",
  custom={
   mesh=MODERNBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1030706720825080729/547B540502EB3BF5F8E9F6E78EA2F1C6FF98DCC9/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1030706720825080729/547B540502EB3BF5F8E9F6E78EA2F1C6FF98DCC9/"
  },
  packData={
   art={
@@ -2184,27 +2134,31 @@ setData={
 --rare
  {rates={
   {slot=3,odds=1/112},--shiny
-  {slot=4,odds=1/66.5},--Rainbow
-  {slot=5,odds=1/37},--full art mon
-  {slot=6,odds=1/101},--full art trainer
-  {slot=7,odds=1/8},--GX
+  {slot=4,odds=1/66.75},--Rainbow
+  {slot=5,odds=1/37.33},--full art mon
+  {slot=6,odds=1/101.15},--full art trainer
+  {slot=7,odds=1/8.4},--GX
   {slot=8,odds=1/4},--holo TODO confirm
   {slot=9}--rare
  },num=1},
  {rates={
-  {slot=10,odds=1/10},--poke&trainer secret
+  {slot=10,odds=1/9.9},--poke&trainer secret
   {slot=11}--reverse
  },num=1},
 }]]
  }},
-{setName="SWSH Black Star Promos",setID="swshp",custom={mesh=TINMESH,diffuse="http://cloud-3.steamusercontent.com/ugc/794258704672243938/D2657D9105DDAE7C48866D4BA06BD6C170AEE71C/",normal=""}},
+{setName="SWSH Black Star Promos",
+ setID="swshp",
+ custom={
+  mesh=TINMESH,
+  diffuse="http://cloud-3.steamusercontent.com/ugc/794258704672243938/D2657D9105DDAE7C48866D4BA06BD6C170AEE71C/"
+ }},
 {setName="Sword & Shield",
  size=216,
  setID="swsh1",
  custom={
   mesh=MODERNBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1030706720825082020/0AAAA7E1DF0E01F4BFD0507730FD13F932F67A26/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1030706720825082020/0AAAA7E1DF0E01F4BFD0507730FD13F932F67A26/"
  },
  packData={
   art={
@@ -2257,8 +2211,7 @@ setData={
  setID="swsh2",
  custom={
   mesh=MODERNBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1030706720825082984/3B3DF2C77401CEEE48BA474A3003FE2DCAD01A9F/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1030706720825082984/3B3DF2C77401CEEE48BA474A3003FE2DCAD01A9F/"
  },
  packData={
   art={
@@ -2311,8 +2264,7 @@ setData={
  setID="swsh3",
  custom={
   mesh=MODERNBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1487830240381946586/BEEA97242BA2B94213DB3C121273A21EE64E75AE/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1487830240381946586/BEEA97242BA2B94213DB3C121273A21EE64E75AE/"
  },
  packData={
   art={
@@ -2372,8 +2324,7 @@ setData={
  setID="swsh35",
  custom={
   mesh=SQUAREBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1639829753513359249/E8E086E52B72A0AB816802A76069835E0C36445C/",
-  normal=""},
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1639829753513359249/E8E086E52B72A0AB816802A76069835E0C36445C/"},
  packData={
   art={
    "http://cloud-3.steamusercontent.com/ugc/1639829753513215776/AEA849BB453D28EFA8FB6F9BAAD323F783AE197C/",
@@ -2431,8 +2382,7 @@ setData={
  setID="swsh4",
  custom={
   mesh=MODERNBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1696129331814883637/B2A0615B601068EFFB5B3E8838ED947FB5F5E423/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1696129331814883637/B2A0615B601068EFFB5B3E8838ED947FB5F5E423/"
  },
  packData={
   art={
@@ -2489,11 +2439,10 @@ setData={
 {setName="Shining Fates",
  size=73,
  setID="swsh45",
- subSet={setName="Shiny Vault",size=122,setID="swsh45sv"},
+ subSet={size=122,setID="swsh45sv"},
  custom={
   mesh=SQUAREBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1773825330007107488/EA5783CE54C9EAA33CE5AA02597D84AA12E56A70/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1773825330007107488/EA5783CE54C9EAA33CE5AA02597D84AA12E56A70/"
  },
  packData={
   art={
@@ -2561,8 +2510,7 @@ setData={
  setID="swsh5",
  custom={
   mesh=MODERNBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1628605006376249632/DF216367D85CED7ABF2BE20A424289FB147F735B/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1628605006376249632/DF216367D85CED7ABF2BE20A424289FB147F735B/"
  },
  packData={
   art={
@@ -2622,8 +2570,7 @@ setData={
  setID="swsh6",
  custom={
   mesh=MODERNBOXMESH,
-  diffuse="http://cloud-3.steamusercontent.com/ugc/1628605006376251100/250CDB30DB2597E4F06F9BC4F9E01A8908C1C8C7/",
-  normal=""
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1628605006376251100/250CDB30DB2597E4F06F9BC4F9E01A8908C1C8C7/"
  },
  packData={
   art={
@@ -2684,7 +2631,6 @@ setData={
  custom={
   mesh=MODERNBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1628605006376252241/6E5CD0B9CA93CCF81A4D4E0994372D32425261A0/",
-  normal=""
  },
  packData={
   art={
@@ -2742,7 +2688,7 @@ setData={
 {setName="Celebrations",
  size=25,
  setID="cel25",
- subSet={setName="Celebrations: Classic Collection",size=25,setID="cel25c"},
+ subSet={size=25,setID="cel25c"},
  custom={
   mesh=PACKMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1731063025325961700/E2A47E91A07BFF268BCD7494EB259E140D0955D6/",
@@ -2871,7 +2817,7 @@ function onObjectLeaveContainer(cont,leaving)
   scriptAddOn=scriptAddOn..'setUnordered=true\n'
  end
  if setData[curSet].subSet then
-  scriptAddOn=scriptAddOn..'subSetName="'..setData[curSet].subSet.setName..'"\nsubSetSize='..tostring(setData[curSet].subSet.size or 300)..'\nsubSetID="'..setData[curSet].subSet.setID..'"\n'
+  scriptAddOn=scriptAddOn..'subSetSize='..tostring(setData[curSet].subSet.size or 300)..'\nsubSetID="'..setData[curSet].subSet.setID..'"\n'
  end
  leaving.setCustomObject({diffuse=packData.art[math.random(1,#packData.art)]})
  leaving.setLuaScript(scriptAddOn..leaving.getLuaScript())
@@ -3078,7 +3024,7 @@ function cacheSet(request,setName,color,page)
      local card=spawnObject({type="CardCustom",position={x=spawnPos.x,y=spawnPos.y+(0.01*count),z=spawnPos.z},rotation=self.GetRotation()})
      card.setCustomObject({face=cardData.images.large.."?count="..tostring(count),back="http://cloud-3.steamusercontent.com/ugc/809997459557414686/9ABD9158841F1167D295FD1295D7A597E03A7487/"})
      card.setName(cardData.name)
-     card.setDescription(setName.." #"..cardData.number)
+     card.setDescription(cardData.set.name.." #"..cardData.number)
      card.setGMNotes(enumTypes(cardData.supertype,cardData.subtypes)..convertNatDex(cardData.nationalPokedexNumbers)or"")
      card.memo=string.gsub(cardData.set.releaseDate,"/","")..string.gsub(cardData.number,"[^%d]","")
      if setDeck==nil then
@@ -3158,7 +3104,10 @@ function SetAsNextGen()
 end
 
 function changeSet()
- self.setCustomObject(setData[curSet].custom)
+ local custom=setData[curSet].custom
+ custom.normal=custom.normal or""
+ custom.collider=custom.mesh or""
+ self.setCustomObject(custom)
  self.setDescription(setData[curSet].setName)
  saveData()
  self.reload()

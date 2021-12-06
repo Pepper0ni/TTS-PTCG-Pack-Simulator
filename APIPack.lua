@@ -49,7 +49,7 @@ function ProcessPack(loop,loading)
   local orderText="&orderBy=number"
   if setUnordered then orderText=''end
   local callPerSet=settings.APICalls
-  if subSetName then
+  if subSetID then
    callPerSet=math.ceil(settings.APICalls/2)
    Global.setTable("PPacksCache["..setName.."]",{loading=callPerSet*2,cache=nil})
   else
@@ -57,7 +57,7 @@ function ProcessPack(loop,loading)
   end
   broadcastToAll("Loading Cards...",{0,1,0})
   local count=requestSet(1,callPerSet,setID,setSize,orderText)
-  if subSetName then count=requestSet(count,callPerSet,subSetID,subSetSize,orderText) end
+  if subSetID then count=requestSet(count,callPerSet,subSetID,subSetSize,orderText) end
   return
  end
 
@@ -102,7 +102,7 @@ function cacheSet(request,page)
      local card=spawnObject({type="CardCustom",position={x=packPos.x,y=packPos.y+(0.01*count),z=packPos.z}})
      card.setCustomObject({face=cardData.images.large.."?count="..tostring(count),back="http://cloud-3.steamusercontent.com/ugc/809997459557414686/9ABD9158841F1167D295FD1295D7A597E03A7487/"})
      card.setName(cardData.name)
-     card.setDescription(setName.." #"..cardData.number)
+     card.setDescription(cardData.set.name.." #"..cardData.number)
      card.setGMNotes(enumTypes(cardData.supertype,cardData.subtypes)..convertNatDex(cardData.nationalPokedexNumbers)or"")
      card.memo=string.gsub(cardData.set.releaseDate,"/","")..string.gsub(cardData.number,"[^%d]","")
      setDeck=addToDeck(card,setDeck)
