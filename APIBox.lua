@@ -2198,6 +2198,168 @@ setData={
 }]]
  }},
 {setName="SWSH Black Star Promos",setID="swshp",custom={mesh=TINMESH,diffuse="http://cloud-3.steamusercontent.com/ugc/794258704672243938/D2657D9105DDAE7C48866D4BA06BD6C170AEE71C/",normal=""}},
+{setName="Sword & Shield",
+ size=216,
+ setID="swsh1",
+ custom={
+  mesh=MODERNBOXMESH,
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1030706720825082020/0AAAA7E1DF0E01F4BFD0507730FD13F932F67A26/",
+  normal=""
+ },
+ packData={
+  art={
+   "http://cloud-3.steamusercontent.com/ugc/1025076138124035786/D10D2E28399B794344BA889D484BDD3CC4D92EE4/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138124036173/3AFF11E8D57E140EA07EA3246581C72CFAD3F57E/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138124036633/F52CBC4E422F0011AC1F5EE78EE785689D498F53/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138124036999/42F360700859B76A4E10E65745261791274ACBE5/",
+  },
+  dropSlots=[[{
+--1 uncommon
+   {cards={151,154,156,157,158,159,160,161,162,163,164,165,166,167,168,170,171,172,173,174,175,176,177,179,180,181,182,183,184,185,186,12,13,18,21,26,28,32,33,44,47,51,52,56,57,71,84,93,94,95,98,100,118,131,132,134},num=3},
+--2 energy TODO find a way to get energies reliably
+   {cards={},num=0,size=8,energy=true},
+--3 gold
+   {cards={211,212,213,214,215,216},num=0},
+--4 Rainbow
+   {cards={203,204,205,206,207,208,209,210},num=0},
+--5 FA trainer
+   {cards={199,200,201,202},num=0},
+--6 FA mon
+   {cards={187,188,189,190,191,192,193,194,195,196,197,198},num=0},
+--7 Vmax
+   {cards={50,80,116,142},num=0},
+--8 V
+   {cards={155,1,9,24,25,49,53,72,79,86,91,104,115,120,138,139,141},num=0},
+--9 holo
+   {cards={169,178,14,34,35,58,64,75,76,85,99,110,119,124,128,137,148},num=0},
+--10 rare
+   {cards={4,6,8,15,19,23,29,36,39,41,48,59,61,62,66,69,78,82,88,90,103,106,109,113,114,122,126,135,140,144,147,149},num=0},
+--11 reverse
+   {cards={151,154,156,157,158,159,160,161,162,163,164,165,166,167,168,170,171,172,173,174,175,176,177,179,180,181,182,183,184,185,186,12,13,18,21,26,28,32,33,44,47,51,52,56,57,71,84,93,94,95,98,100,118,131,132,134,152,153,2,3,5,7,10,11,16,17,20,22,27,30,31,37,38,40,42,43,45,46,54,55,60,63,65,67,68,70,73,74,77,81,83,87,89,92,96,97,101,102,105,107,108,111,112,117,121,123,125,127,129,130,133,136,143,145,146,150,169,178,14,34,35,58,64,75,76,85,99,110,119,124,128,137,148,4,6,8,15,19,23,29,36,39,41,48,59,61,62,66,69,78,82,88,90,103,106,109,113,114,122,126,135,140,144,147,149},num=1},
+--12 common
+   {cards={152,153,2,3,5,7,10,11,16,17,20,22,27,30,31,37,38,40,42,43,45,46,54,55,60,63,65,67,68,70,73,74,77,81,83,87,89,92,96,97,101,102,105,107,108,111,112,117,121,123,125,127,129,130,133,136,143,145,146,150},num=5},
+  }]],
+  pullRate=[[{
+ {rates={ --TODO get foil rate
+  {slot=3,odds=1/110.2},--gold
+  {slot=4,odds=1/81.2},--Rainbow
+  {slot=5,odds=1/113},--FA trainer
+  {slot=6,odds=1/35},--FA mon
+  {slot=7,odds=1/45.3},--Vmax
+  {slot=8,odds=1/7},--V
+  {slot=9,odds=1/5},--holo
+  {slot=10}--rare
+ },num=1}
+}]]
+ }},
+{setName="Rebel Clash",
+ size=209,
+ setID="swsh2",
+ custom={
+  mesh=MODERNBOXMESH,
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1030706720825082984/3B3DF2C77401CEEE48BA474A3003FE2DCAD01A9F/",
+  normal=""
+ },
+ packData={
+  art={
+   "http://cloud-3.steamusercontent.com/ugc/1025076138124038650/CB37F51CB9048BB4E458D83EF26E6D98353D58AE/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138124039031/D9BF2F065A24A522DCCD4B33CCA661BB1ACEC2CB/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138124039452/2AEB643F8ED696EA78290B97DEA0A80CC821BC4E/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138124039811/0305B15D69EB7336D6A49929AC7AC8C1778B2097/",
+  },
+  dropSlots=[[{
+--1 uncommon
+   {cards={155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,2,5,6,8,11,32,34,42,45,57,61,64,65,73,77,82,84,88,90,98,106,109,115,124,130,132,134,142,144,148,150},num=3},
+--2 energy TODO find a way to get energies reliably
+   {cards={},num=0,size=8,energy=true},
+--3 gold
+   {cards={204,205,206,207,208,209},num=0},
+--4 Rainbow
+   {cards={193,194,195,196,197,198,199,200,201,202,203},num=0},
+--5 FA trainer
+   {cards={189,190,191,192},num=0},
+--6 FA mon
+   {cards={175,176,177,178,179,180,181,182,183,184,185,186,187,188},num=0},
+--7 Vmax
+   {cards={18,36,50,71,93,122,137},num=0},
+--8 V
+   {cards={153,17,19,26,35,43,49,55,67,70,72,92,108,110,121,136},num=0},
+--9 holo
+   {cards={154,22,23,33,40,54,62,66,75,79,85,91,95,107,111,113,125,138},num=0},
+--10 rare
+   {cards={152,3,9,13,15,25,28,30,38,46,48,51,53,59,69,80,87,100,102,104,116,118,120,127,128,131,135,139,140,141,145,147},num=0},
+--11 reverse
+   {cards={151,1,4,7,10,12,14,16,20,21,24,27,29,31,37,39,41,44,47,52,56,58,60,63,68,74,76,78,81,83,86,89,94,96,97,99,101,103,105,112,114,117,119,123,126,129,133,143,146,149,152,3,9,13,15,25,28,30,38,46,48,51,53,59,69,80,87,100,102,104,116,118,120,127,128,131,135,139,140,141,145,147,154,22,23,33,40,54,62,66,75,79,85,91,95,107,111,113,125,138,155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,2,5,6,8,11,32,34,42,45,57,61,64,65,73,77,82,84,88,90,98,106,109,115,124,130,132,134,142,144,148,150},num=1},
+--12 common
+   {cards={151,1,4,7,10,12,14,16,20,21,24,27,29,31,37,39,41,44,47,52,56,58,60,63,68,74,76,78,81,83,86,89,94,96,97,99,101,103,105,112,114,117,119,123,126,129,133,143,146,149},num=5},
+  }]],
+  pullRate=[[{
+ {rates={ --TODO get foil rate
+  {slot=3,odds=1/105.2},--gold
+  {slot=4,odds=1/66.7},--Rainbow
+  {slot=5,odds=1/137},--FA trainer
+  {slot=6,odds=1/33},--FA mon
+  {slot=7,odds=1/29.5},--Vmax
+  {slot=8,odds=1/8},--V
+  {slot=9,odds=1/5},--holo
+  {slot=10}--rare
+ },num=1}
+}]]
+ }},
+{setName="Darkness Ablaze",
+ size=201,
+ setID="swsh3",
+ custom={
+  mesh=MODERNBOXMESH,
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1487830240381946586/BEEA97242BA2B94213DB3C121273A21EE64E75AE/",
+  normal=""
+ },
+ packData={
+  art={
+   "http://cloud-3.steamusercontent.com/ugc/1268275191472325325/A64582F78F563EFD87D3A44463842EE75B7EA48E/",
+   "http://cloud-3.steamusercontent.com/ugc/1268275191472325878/F48B241F812AD6A268E168FE153F7D611CDF0A6B/",
+   "http://cloud-3.steamusercontent.com/ugc/1268275191472326378/3DD2DBF5421D0E378D602F3413FC28F685D3A167/",
+   "http://cloud-3.steamusercontent.com/ugc/1268275191472326920/B02E109B03E5E0F60338A7975DEA14EFAEA7D0FB/",
+  },
+  dropSlots=[[{
+--1 uncommon
+   {cards={155,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,78,80,83,85,87,90,92,103,109,122,126,136,139,146,4,5,7,12,15,23,27,31,40,42,46,52,56,72,74},num=3},
+--2 energy TODO find a way to get energies reliably
+   {cards={},num=0,size=8,energy=true},
+--3 gold
+   {cards={197,198,199,200,201},num=0},
+--4 Rainbow
+   {cards={190,191,192,193,194,195,196},num=0},
+--5 FA trainer
+   {cards={186,187,188,189},num=0},
+--6 FA mon
+   {cards={177,178,179,180,181,182,183,184,185},num=0},
+--7 Vmax
+   {cards={115,117,119,144,2,20,34},num=0},
+--8 V
+   {cards={95,99,104,114,116,118,128,143,1,19,21,33,60,69},num=0},
+--9 holo
+   {cards={156,88,105,111,123,132,133,13,18,24,25,37,39,53,61,63,64,66},num=0},
+--10 rare
+   {cards={153,77,81,91,94,96,98,101,107,110,113,124,127,130,140,142,147,149,10,16,28,30,32,36,44,47,49,54,57,59,65,68,71,75},num=0},
+--11 reverse
+   {cards={155,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,78,80,83,85,87,90,92,103,109,122,126,136,139,146,4,5,7,12,15,23,27,31,40,42,46,52,56,72,74,151,152,154,76,79,82,84,86,89,93,97,100,102,106,108,112,120,121,125,129,131,134,135,137,138,141,145,148,150,3,6,8,9,11,14,17,22,26,29,35,38,41,43,45,48,50,51,55,58,62,67,70,73,153,77,81,91,94,96,98,101,107,110,113,124,127,130,140,142,147,149,10,16,28,30,32,36,44,47,49,54,57,59,65,68,71,75,156,88,105,111,123,132,133,13,18,24,25,37,39,53,61,63,64,66},num=1},
+--12 common
+   {cards={151,152,154,76,79,82,84,86,89,93,97,100,102,106,108,112,120,121,125,129,131,134,135,137,138,141,145,148,150,3,6,8,9,11,14,17,22,26,29,35,38,41,43,45,48,50,51,55,58,62,67,70,73},num=5},
+  }]],
+  pullRate=[[{
+ {rates={ --TODO get foil rate
+  {slot=3,odds=1/114.5},--gold
+  {slot=4,odds=1/84},--Rainbow
+  {slot=5,odds=1/88.4},--FA trainer
+  {slot=6,odds=1/36.8},--FA mon
+  {slot=7,odds=1/26},--Vmax
+  {slot=8,odds=1/8},--V
+  {slot=9,odds=1/5},--holo
+  {slot=10}--rare
+ },num=1}
+}]]
+ }},
 {setName="Pokémon Futsal Collection",
  size=5,
  setID="fut20",
@@ -2205,6 +2367,65 @@ setData={
   mesh=PACKMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1731063025334437315/A9C528804E76E497DF7432F5A79FAD1CAE656205/",
   normal=PACKNORMAL}},
+{setName="Champion's Path",
+ size=80,
+ setID="swsh35",
+ custom={
+  mesh=SQUAREBOXMESH,
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1639829753513359249/E8E086E52B72A0AB816802A76069835E0C36445C/",
+  normal=""},
+ packData={
+  art={
+   "http://cloud-3.steamusercontent.com/ugc/1639829753513215776/AEA849BB453D28EFA8FB6F9BAAD323F783AE197C/",
+   "http://cloud-3.steamusercontent.com/ugc/1639829753513217095/03B2ECA4ACB82A8489C26F05CCDAB9AE13B459D7/",
+   "http://cloud-3.steamusercontent.com/ugc/1639829753513218013/D32F6DAD053A95D77769DD59AD61A1FB590DBAD1/",
+   "http://cloud-3.steamusercontent.com/ugc/1639829753513219001/0B4A75FF76AA77532A88D4F2E3F9A7B705109DBF/",
+  },
+  dropSlots=[[{
+--1 uncommon
+   {cards={4,7,12,19,25,34,38,40,45,50,51,52,53,54,55,57,58,60,63,64,65,66,67,68},num=3},
+--2 energy TODO find a way to get energies reliably
+   {cards={},num=0,size=8,energy=true},
+--3 shiny zard
+   {cards={79},num=0},
+--4 gold can
+   {cards={80},num=0},
+--5 Rainbow
+   {cards={74,75,76,77,78},num=0},
+--6 FA trainer
+   {cards={73},num=0},
+--7 FA mon
+   {cards={69,70,71,72},num=0},
+--8 Vmax
+   {cards={15,17,23},num=0},
+--9 V
+   {cards={1,5,8,13,14,16,21,22,27,32,47},num=0},
+--10 holo
+   {cards={10,20,26,28,30,37,42,49,56,62},num=0},
+--11 rev energy TODO find a way to add energy
+   {cards={},num=0},
+--12 reverse
+   {cards={2,3,6,9,11,18,24,29,31,33,35,36,39,41,43,44,46,48,59,61,4,7,12,19,25,34,38,40,45,50,51,52,53,54,55,57,58,60,63,64,65,66,67,68,10,20,26,28,30,37,42,49,56,62},num=0},
+--13 common
+   {cards={2,3,6,9,11,18,24,29,31,33,35,36,39,41,43,44,46,48,59,61},num=5},
+  }]],
+  pullRate=[[{
+ {rates={
+  {slot=3,odds=1/97},--shiny zard
+  {slot=4,odds=1/97},--gold can
+  {slot=5,odds=1/71},--Rainbow
+  {slot=6,odds=1/82},--FA trainer
+  {slot=7,odds=1/36},--FA mon
+  {slot=8,odds=1/22.5},--Vmax
+  {slot=9,odds=1/7.5},--V
+  {slot=10}--holo
+ },num=1},
+ {rates={
+  --{slot=11,odds=1/18},--rev energy
+  {slot=12}--reverse
+ },num=1}
+}]]
+ }},
 {setName="Vivid Voltage",
  size=203,
  setID="swsh4",
@@ -2645,12 +2866,12 @@ function onObjectLeaveContainer(cont,leaving)
   return
  end
  local packData=setData[curSet].packData
- local scriptAddOn="dropSlots="..packData.dropSlots.."\npullRate="..packData.pullRate.."\nsetName='"..setData[curSet].setName.."'\nsetSize="..tostring(setData[curSet].size or 300).."\nsetID='"..setData[curSet].setID.."'\n"
+ local scriptAddOn='dropSlots='..packData.dropSlots..'\npullRate='..packData.pullRate..'\nsetName="'..setData[curSet].setName..'"\nsetSize='..tostring(setData[curSet].size or 300)..'\nsetID="'..setData[curSet].setID..'"\n'
  if setData[curSet].unordered then
-  scriptAddOn=scriptAddOn.."setUnordered=true\n"
+  scriptAddOn=scriptAddOn..'setUnordered=true\n'
  end
  if setData[curSet].subSet then
-  scriptAddOn=scriptAddOn.."subSetName='"..setData[curSet].subSet.setName.."'\nsubSetSize="..tostring(setData[curSet].subSet.size or 300).."\nsubSetID='"..setData[curSet].subSet.setID.."'\n"
+  scriptAddOn=scriptAddOn..'subSetName="'..setData[curSet].subSet.setName..'"\nsubSetSize='..tostring(setData[curSet].subSet.size or 300)..'\nsubSetID="'..setData[curSet].subSet.setID..'"\n'
  end
  leaving.setCustomObject({diffuse=packData.art[math.random(1,#packData.art)]})
  leaving.setLuaScript(scriptAddOn..leaving.getLuaScript())
