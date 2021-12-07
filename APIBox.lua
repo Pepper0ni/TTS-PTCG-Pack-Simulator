@@ -2090,6 +2090,117 @@ setData={
   mesh=TINMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/970979204690618490/99C2E6F978D9099ECA2489A31BF4CCCBAEEE4F45/"
 }},
+{setName="Celestial Storm",
+ size=187,
+ setID="sm7",
+ custom={
+  mesh=MODERNBOXMESH,
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1030706720824247370/81750F9DE0A1BD33974E3B8C495A1F06C38E5966/"
+ },
+ packData={
+  art={
+   "http://cloud-3.steamusercontent.com/ugc/1025076138124002970/F3C016E5EC54C4DDF3A189E17BE4BE1CE512AAD8/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138124003891/286B0FF069A4042470CC4CDE9644612407022998/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138124004506/5B36FC4AAD32A032F5EF9287E01D2037F5989CE2/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138124005142/3BFFB8F1F56388EAA683BD6290602DAF2FF995AD/",
+  },
+  dropSlots=[[{
+--1 uncommon
+   {cards={2,4,9,13,16,17,18,20,21,27,29,30,34,37,42,43,50,53,54,55,58,62,73,75,83,88,91,94,105,110,112,114,118,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,146,147,148,149,150,151},num=3},
+--2 energy TODO find a way to get energies reliably
+   {cards={},num=0,size=8,energy=true},
+--3 gold
+   {cards={178,179,180,181,182,183},num=0},
+--4 Rainbow
+   {cards={169,170,171,172,173,174,175,176,177},num=0},
+--5 full art mon
+   {cards={152,153,154,155,156,157,158,159,160},num=0},
+--6 full art trainer
+   {cards={161,162,163,164,165,166,167,168},num=0},
+--7 GX
+   {cards={14,28,31,48,56,66,82,85,90,102,109},num=0},
+--8 holo
+   {cards={3,6,38,46,61,67,70,81,87,89,95,98,99,100,106,115,121,145},num=0},
+--9 rare
+   {cards={10,22,24,35,40,45,52,60,65,68,69,77,79,80,96,101,119},num=0},
+--10 prism star
+   {cards={97,107,108},num=0},
+--11 reverse
+   {cards={1,5,7,8,11,12,15,19,23,25,26,32,33,36,39,41,44,47,49,51,57,59,63,64,71,72,74,76,78,84,86,92,93,103,104,111,113,116,117,120,2,4,9,13,16,17,18,20,21,27,29,30,34,37,42,43,50,53,54,55,58,62,73,75,83,88,91,94,105,110,112,114,118,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,146,147,148,149,150,151,3,6,38,46,61,67,70,81,87,89,95,98,99,100,106,115,121,145,10,22,24,35,40,45,52,60,65,68,69,77,79,80,96,101,119},num=0},
+--12 common
+   {cards={1,5,7,8,11,12,15,19,23,25,26,32,33,36,39,41,44,47,49,51,57,59,63,64,71,72,74,76,78,84,86,92,93,103,104,111,113,116,117,120},num=5}
+  }]],
+  pullRate=[[{
+--rare
+ {rates={
+  {slot=3,odds=1/113.8},--gold
+  {slot=4,odds=1/82.2},--Rainbow
+  {slot=5,odds=1/47.7},--full art mon
+  {slot=6,odds=1/59.2},--full art trainer
+  {slot=7,odds=1/9.67},--GX
+  {slot=8,odds=1/4},--holo TODO confirm
+  {slot=9}--rare
+ },num=1},
+ {rates={
+  {slot=10,odds=1/18.2},--prism star
+  {slot=11}--reverse
+ },num=1},
+}]]
+ }},
+{setName="Dragon Majesty",
+ size=80,
+ setID="sm75",
+ custom={
+  mesh=SQUAREBOXMESH,
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1030706720824692197/92ABF851389DB7FC2AA2BA945D5C4B0491D929BB/"
+ },
+ packData={
+  art={
+   "http://cloud-3.steamusercontent.com/ugc/1025076138124007176/8595364E19D3ACF4290AF13B2F6499064AEDCB9E/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138124007759/0E6888D940C60726F7E085AE8C9ECA9FF26BA6D0/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138124008288/90A134728CAE72597289BBDFA4221E8B322B820A/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138124008914/23F02422A9DB26537E8C06D23BD673294F1A4D3C/",
+  },
+  dropSlots=[[{
+--1 uncommon
+   {cards={2,5,9,10,14,17,21,23,26,29,30,36,39,43,45,49,50,51,59,60,62,63,64},num=3},
+--2 energy TODO find a way to get energies reliably
+   {cards={},num=0,size=8,energy=true},
+--3 gold
+   {cards={75,76,77,78},num=0},
+--4 Rainbow
+   {cards={71,72,73,74},num=0},
+--5 full art mon
+   {cards={65,66,67,68},num=0},
+--6 full art trainer
+   {cards={69,70},num=0},
+--7 GX
+   {cards={11,18,37,41,44,48},num=0},
+--8 holo
+   {cards={3,6,20,24,33,40,46,47,54,58},num=0},
+--9 prism star
+   {cards={7,61},num=0},
+--10 reverse
+   {cards={1,4,8,12,13,15,16,19,22,25,27,28,31,32,34,35,38,42,52,53,55,56,57,2,5,9,10,14,17,21,23,26,29,30,36,39,43,45,49,50,51,59,60,62,63,64,3,6,20,24,33,40,46,47,54,58},num=0},
+--11 common
+   {cards={1,4,8,12,13,15,16,19,22,25,27,28,31,32,34,35,38,42,52,53,55,56,57},num=5}
+  }]],
+  pullRate=[[{
+--rare
+ {rates={
+  {slot=3,odds=1/129.6},--gold
+  {slot=4,odds=1/43.2},--Rainbow
+  {slot=5,odds=1/32.4},--full art mon
+  {slot=6,odds=1/26},--full art trainer
+  {slot=7,odds=1/6.5},--GX
+  {slot=8}--holo
+ },num=1},
+ {rates={
+  {slot=9,odds=1/9.25},--prism star
+  {slot=10}--reverse
+ },num=1},
+}]]
+ }},
 {setName="Lost Thunder",
  size=240,
  setID="sm8",
