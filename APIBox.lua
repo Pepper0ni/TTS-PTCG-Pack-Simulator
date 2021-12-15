@@ -33,7 +33,7 @@ setData={
 --5 common
    {cards={{43,69},{91,95}},num=5,size=32},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
    {rates={
     {slot=2,odds=1/3},--holo
@@ -64,7 +64,7 @@ setData={
 --4 common
    {cards={{49,64}},num=7,size=16},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
    {rates={
     {slot=2,odds=1/3},--holo
@@ -102,7 +102,7 @@ setData={
 --4 common
    {cards={{46,57},{59,62}},num=7,size=16},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
    {rates={
     {slot=2,odds=1/3},--holo
@@ -136,7 +136,7 @@ setData={
 --5 uncommon
    {cards={{33,64},{109,117},124},num=3,size=42},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
    {rates={
     {slot=2,odds=1/3},--holo
@@ -170,7 +170,7 @@ setData={
 --5 uncommon
    {cards={{32,48},{73,77},81,82},num=3,size=24},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
  {rates={
   {slot=2,odds=1/54},--secret
@@ -205,7 +205,7 @@ setData={
 --5 common
    {cards={{61,96},{121,126}},num=6,size=42},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
    {rates={
     {slot=3,odds=1/3},--holo
@@ -239,7 +239,7 @@ setData={
 --5 common
    {cards={{60,99},{124,126}},num=6,size=43},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
    {rates={
     {slot=3,odds=1/3},--holo
@@ -273,7 +273,7 @@ setData={
 --5 energy
    {cards={{106,111}},size=6,num=1,energy=true},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
    {rates={
     {slot=3,odds=1/3},--holo
@@ -305,7 +305,7 @@ setData={
 --4 uncommon
    {cards={{37,52},{72,74}},num=3,size=19},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
    {rates={
     {slot=2,odds=1/3},--holo
@@ -346,7 +346,7 @@ setData={
 --5 common
    {cards={{41,59},64},num=7,size=20},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
    {rates={
     {slot=2,odds=1/18},--shiny
@@ -381,7 +381,7 @@ setData={
 --5 common
    {cards={{61,91},104,105},num=7,size=33},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
  {rates={
   {slot=2,odds=1/12},--shiny
@@ -414,7 +414,7 @@ setData={
 --4 others
    {cards={97,63,86,80,65,86,97,105,80,72,38,72,93,106,93,76,46,76,73,64,73,67,49,67,94,42,94,99,50,99,83,56,83,78,100,75,78,53,75,108,82,55,82,69,54,69,68,47,68,89,61,89,108,36,74,98,107,98,87,60,87,70,37,70,110,45,85,71,41,71,90,91,62,91,90,101,84,81,59,81,79,51,79,77,44,77,84,48,109,109,57,110,96,66,96,95,39,95,85,58,74,92,40,92,88,43,88,110,52,108},num=9,fixed=true},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
  {rates={
   {slot=2,odds=1/3},--holo
@@ -448,7 +448,7 @@ setData={
 --5 common
    {cards={{93,136},{153,157}},num=4,size=49},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --premium
  {rates={
   {slot=4,odds=1/3},--holo
@@ -491,7 +491,7 @@ setData={
 --6 common
    {cards={{67,117},{121,125}},num=4,size=51},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --premium
  {rates={
   {slot=4,odds=1/36},--crystal
@@ -528,7 +528,7 @@ setData={
 --6 common
    {cards={{46,118}},num=4,size=73},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --premium
  {rates={
   {slot=4,odds=1/12},--crystal
@@ -573,7 +573,7 @@ setData={
 --7 common
    {cards={{49,79},{90,92}},num=4,size=34},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --premium
  {rates={
   {slot=5,odds=1/6},--ex
@@ -611,7 +611,7 @@ setData={
 --6 common
    {cards={{56,85},{90,92}},num=4,size=33},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --premium
  {rates={
   {slot=4,odds=1/6},--ex
@@ -650,7 +650,7 @@ setData={
 --7 common
    {cards={{49,81}},num=4,size=33},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --premium
  {rates={
   {slot=3,odds=1/36},--secret
@@ -690,7 +690,7 @@ setData={
 --7 common
    {cards={{39,70}},num=5,size=32},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
  {rates={
   {slot=2,odds=1/108},--secret
@@ -728,7 +728,7 @@ setData={
 --6 common
    {cards={{52,83}},num=5,size=32},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
  {rates={
   {slot=2,odds=1/12},--ex
@@ -767,7 +767,7 @@ setData={
 --7 common
    {cards={{53,86},101,102},num=5,size=36},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
  {rates={
   {slot=2,odds=1/108},--secret
@@ -816,7 +816,7 @@ setData={
 --8 common
    {cards={{51,82}},num=5,size=32},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
  {rates={
   {slot=2,odds=1/72},--gold
@@ -857,7 +857,7 @@ setData={
 --7 common
    {cards={{52,83}},num=5,size=32},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
  {rates={
   {slot=2,odds=1/72},--gold
@@ -897,7 +897,7 @@ setData={
 --7 common
    {cards={{43,74}},num=5,size=32},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --premium
  {rates={
   {slot=2,odds=1/12},--ex
@@ -954,7 +954,7 @@ setData={
 --9 common
    {cards={{51,79},94,95},num=5,size=31},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
  {rates={
   {slot=2,odds=1/72},--gold
@@ -1000,7 +1000,7 @@ setData={
 --7 common
    {cards={{57,88},101,102},num=5,size=34},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
  {rates={
   {slot=2,odds=1/72},--gold
@@ -1040,7 +1040,7 @@ setData={
 --7 common
    {cards={{48,71},{78,80}},num=5,size=27},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
  {rates={
   {slot=2,odds=1/72},--gold
@@ -1090,7 +1090,7 @@ setData={
 --8 common
    {cards={{57,84},{91,93}},num=5,size=31},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --premium
  {rates={
   {slot=2,odds=1/72},--star
@@ -1143,7 +1143,7 @@ setData={
 --7 common
    {cards={{44,70},86,87},num=5,size=29},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
  {rates={
   {slot=2,odds=1/72},--gold
@@ -1183,7 +1183,7 @@ setData={
 --7 common
    {cards={{43,71},83},num=5,size=30},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
  {rates={
   {slot=2,odds=1/72},--gold
@@ -1225,7 +1225,7 @@ setData={
 --8 common
    {cards={{42,70},{84,86}},num=5,size=32},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --premium
  {rates={
   {slot=2,odds=1/36},--star
@@ -1284,7 +1284,7 @@ setData={
 --7 energy
    {cards={{123,130}},num=0,size=8,energy=true},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
  {rates={
   {slot=2,odds=1/36},--lvx
@@ -1328,7 +1328,7 @@ setData={
 --7 common
    {cards={{69,108},116,117},num=5,size=42},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
  {rates={
   {slot=2,odds=1/72},--secret
@@ -1374,7 +1374,7 @@ setData={
 --6 common
    {cards={{76,118},127,128},num=5,size=45},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
  {rates={
   {slot=2,odds=1/36},--lvx
@@ -1411,7 +1411,7 @@ setData={
 --6 common
    {cards={{60,96}},num=5,size=37},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
  {rates={
   {slot=2,odds=1/36},--lvx
@@ -1456,7 +1456,7 @@ setData={
 --6 common
    {cards={{50,78},{89,91}},num=5,size=32},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
  {rates={
   {slot=2,odds=1/36},--lvx
@@ -1493,7 +1493,7 @@ setData={
 --6 common
    {cards={{83,128},138,139},num=5,size=48},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
  {rates={
   {slot=2,odds=1/12},--lvx
@@ -1542,7 +1542,7 @@ setData={
 --8 common
    {cards={{53,81},92,93},num=5,size=31},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
  {rates={
   {slot=2,odds=1/36},--secret
@@ -1589,7 +1589,7 @@ setData={
 --8 common
    {cards={{67,103},119,120},num=5,size=39},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
  {rates={
   {slot=2,odds=1/36},--secret
@@ -1644,7 +1644,7 @@ setData={
 --8 common
    {cards={{55,87}},num=5,size=33},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
  {rates={
   {slot=2,odds=1/36},--secret
@@ -1691,7 +1691,7 @@ setData={
 --8 common
    {cards={{89,133}},num=5,size=45},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
  {rates={
   {slot=2,odds=1/36},--secret
@@ -1738,7 +1738,7 @@ setData={
 --8 common
    {cards={{52,81},92,93},num=5,size=32},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
  {rates={
   {slot=2,odds=1/12},--lvx
@@ -1803,7 +1803,7 @@ setData={
 --10 common
    {cards={{58,89}},num=4,size=32},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
  {rates={
   {slot=2,odds=1/108},--secret
@@ -1856,7 +1856,7 @@ setData={
 --8 common
    {cards={{44,71}},num=5,size=28},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
  {rates={
   {slot=2,odds=1/108},--secret
@@ -1903,7 +1903,7 @@ setData={
 --8 common
    {cards={{43,71}},num=5,size=29},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
  {rates={
   {slot=2,odds=1/108},--secret
@@ -1950,7 +1950,7 @@ setData={
 --8 common
    {cards={{56,85}},num=5,size=30},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
  {rates={
   {slot=2,odds=1/108},--secret
@@ -1995,7 +1995,7 @@ setData={
 --7 common
    {cards={{53,75}},num=5,size=23},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
  {rates={
   {slot=2,odds=1/3},--holo
@@ -2055,7 +2055,7 @@ setData={
 --14 energy
    {cards={75,76,77,78,79,80,81,82,83},num=0,energy=true},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
  {rates={
   {slot=3,odds=1/43.5},--FA
@@ -2084,15 +2084,397 @@ setData={
 }]]
  }},
 {setName="SM Black Star Promos",
- size=247,
+ size=250,
  setID="smp",
  custom={
   mesh=TINMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/970979204690618490/99C2E6F978D9099ECA2489A31BF4CCCBAEEE4F45/"
 }},
+{setName="Sun & Moon",
+ size=173,
+ setID="sm1",
+ custom={
+  mesh=MODERNBOXMESH,
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1030706720823954375/2DADFD593E993D681745692B776B18AC0B52A8E1/"
+ },
+ packData={
+  art={
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123977723/FB7D25D2F362670606EAFA9500E62BEC6D01E94E/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123978276/4038575200A30144555D46FC11507917427A5708/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123978790/F83C54EF8B9756E5B98F970ED3387D4EBD658935/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123979294/866649351BC90328494B6E1850DD7C4FBB4CF4C4/",
+  },
+  dropSlots=[[{
+--1 uncommon
+   {cards={102,104,107,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,2,6,10,19,25,31,36,38,40,44,46,47,51,55,60,70,73,77,79,84,91,95},num=3},
+--2 energy
+   {cards={{164,172}},num=1,size=9,energy=true},
+--3 gold
+   {cards={158,159,160,161,162,163},num=0},
+--4 Rainbow
+   {cards={150,151,152,153,154,155,156,157},num=0},
+--5 full art mon
+   {cards={138,139,140,141,142,143,144,145},num=0},
+--6 full art trainer
+   {cards={146,147,148,149},num=0},
+--7 GX
+   {cards={110,12,15,27,35,42,61,66,80,89,100},num=0},
+--8 holo
+   {cards={113,17,20,22,32,52,56,58,63,71,82,85,87,93,96,99},num=0},
+--9 rare
+   {cards={105,108,112,3,5,8,11,26,29,34,41,43,48,50,65,68,75},num=0},
+--10 reverse
+   {cards={101,103,106,109,111,1,4,7,9,13,14,16,18,21,23,24,28,30,33,37,39,45,49,53,54,57,59,62,64,67,69,72,74,76,78,81,83,86,88,90,92,94,97,98,102,104,107,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,2,6,10,19,25,31,36,38,40,44,46,47,51,55,60,70,73,77,79,84,91,95,105,108,112,3,5,8,11,26,29,34,41,43,48,50,65,68,75,113,17,20,22,32,52,56,58,63,71,82,85,87,93,96,99},num=1},
+--11 common
+   {cards={101,103,106,109,111,1,4,7,9,13,14,16,18,21,23,24,28,30,33,37,39,45,49,53,54,57,59,62,64,67,69,72,74,76,78,81,83,86,88,90,92,94,97,98},num=5}
+  }]],
+  pullRates=[[{
+--rare
+ {rates={
+  {slot=3,odds=1/122.8},--gold
+  {slot=4,odds=1/77.33},--Rainbow
+  {slot=5,odds=1/34.8},--full art mon
+  {slot=6,odds=1/139.2},--full art trainer
+  {slot=7,odds=1/9},--GX
+  {slot=8,odds=1/4},--holo TODO confirm
+  {slot=9}--rare
+ },num=1},
+}]]
+ }},
+{setName="Guardians Rising",
+ size=180,
+ setID="sm2",
+ SMEnergy=true,
+ custom={
+  mesh=MODERNBOXMESH,
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1030706720823956185/60075FB1319D192E842BE12A06E862ABE328F821/"
+ },
+ packData={
+  art={
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123981197/91BCA069727102D4D31E3611FCCA2B5F66376DC2/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123981911/862CBB2A61D034B5F328263BF545D0747F97360F/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123982436/598880509D6B36E1ABC4E0575A4A138FB50F9D66/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123982901/4E7E585E42C954398B04A3A8E5F774B56BFBD454/",
+  },
+  dropSlots=[[{
+--1 uncommon
+   {cards={108,110,113,114,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,2,12,24,32,34,36,39,41,49,53,64,66,68,80,84,89,91,95,99},num=3},
+--2 energy
+   {cards={{181,189}},num=1,size=9,energy=true},
+--3 gold
+   {cards={161,162,163,164,165,166,167,168,169},num=0},
+--4 Rainbow
+   {cards={146,147,148,149,150,151,152,153,154,155,156,157,158,159,160},num=0},
+--5 full art mon
+   {cards={131,132,133,134,135,136,137,138,139,140,141,142},num=0},
+--6 full art trainer
+   {cards={143,144,145},num=0},
+--7 GX
+   {cards={115,18,22,38,45,47,57,60,74,85,92,100},num=0},
+--8 holo
+   {cards={102,9,10,13,25,42,58,59,65,76,77,81,93,96,97},num=0},
+--9 rare
+   {cards={104,106,111,3,5,7,14,16,17,20,28,30,35,44,46,51,54,55,56,61,71,79,82,86,87},num=0},
+--10 reverse
+   {cards={101,103,105,107,109,112,1,4,6,8,11,15,19,21,23,26,27,29,31,33,37,40,43,48,50,52,62,63,67,69,70,72,73,75,78,83,88,90,94,98,102,9,10,13,25,42,58,59,65,76,77,81,93,96,97,104,106,111,3,5,7,14,16,17,20,28,30,35,44,46,51,54,55,56,61,71,79,82,86,87,108,110,113,114,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,2,12,24,32,34,36,39,41,49,53,64,66,68,80,84,89,91,95,99},num=1},
+--11 common
+   {cards={101,103,105,107,109,112,1,4,6,8,11,15,19,21,23,26,27,29,31,33,37,40,43,48,50,52,62,63,67,69,70,72,73,75,78,83,88,90,94,98},num=5}
+  }]],
+  pullRates=[[{
+--rare
+ {rates={
+  {slot=3,odds=1/122.8},--gold
+  {slot=4,odds=1/77.33},--Rainbow
+  {slot=5,odds=1/34.8},--full art mon
+  {slot=6,odds=1/139.2},--full art trainer
+  {slot=7,odds=1/9},--GX
+  {slot=8,odds=1/4},--holo TODO confirm
+  {slot=9}--rare
+ },num=1},
+}]]
+ }},
+{setName="Burning Shadows",
+ size=177,
+ setID="sm3",
+ SMEnergy=true,
+ custom={
+  mesh=MODERNBOXMESH,
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1030706720823957781/1282DBB0D55245AD1EC81097DA9716B07F614762/"
+ },
+ packData={
+  art={
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123985222/F8071C5E4B19B0A0481DBAD4B317F4BA03CA9D0F/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123985862/E0DCC4FB74E6EBF1B36AFFA53DC1FDFEE6A228E5/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123986832/775FE2EB526D9A4B363EBE4519271CFCAB61E273/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123987388/45652369C49E4E7F9D4DB5736F029A6EFF20FBEA/",
+  },
+  dropSlots=[[{
+--1 uncommon
+   {cards={104,107,108,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,2,5,13,19,23,24,30,37,42,45,49,50,52,57,66,68,69,92,96},num=3},
+--2 energy
+   {cards={{178,186}},num=1,size=9,energy=true},
+--3 gold
+   {cards={161,162,163,164,165,166,167,168,169},num=0},
+--4 Rainbow
+   {cards={148,149,150,151,152,153,154,155,156,157,158,159,160},num=0},
+--5 full art mon
+   {cards={129,130,131,132,133,134,135,136,137,138,139,140,141},num=0},
+--6 full art trainer
+   {cards={142,143,144,145,146,147},num=0},
+--7 GX
+   {cards={17,20,21,25,39,63,64,80,84,88,93,99},num=0},
+--8 holo
+   {cards={105,6,31,33,41,53,62,67,71,75,87,94,100},num=0},
+--9 rare
+   {cards={102,111,3,8,10,11,15,26,28,35,38,43,46,48,55,58,60,74,76,78,79,82,86,90,98},num=0},
+--10 reverse
+   {cards={101,103,106,109,110,1,4,7,9,12,14,16,18,22,27,29,32,34,36,40,44,47,51,54,56,59,61,65,70,72,73,77,81,83,85,89,91,95,97,102,111,3,8,10,11,15,26,28,35,38,43,46,48,55,58,60,74,76,78,79,82,86,90,98,104,107,108,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,2,5,13,19,23,24,30,37,42,45,49,50,52,57,66,68,69,92,96,105,6,31,33,41,53,62,67,71,75,87,94,100},num=1},
+--11 common
+   {cards={101,103,106,109,110,1,4,7,9,12,14,16,18,22,27,29,32,34,36,40,44,47,51,54,56,59,61,65,70,72,73,77,81,83,85,89,91,95,97},num=5}
+  }]],
+  pullRates=[[{
+--rare
+ {rates={
+  {slot=3,odds=1/105.8},--gold
+  {slot=4,odds=1/62.8},--Rainbow
+  {slot=5,odds=1/37.2},--full art mon
+  {slot=6,odds=1/80.4},--full art trainer
+  {slot=7,odds=1/9.14},--GX
+  {slot=8,odds=1/4},--holo TODO confirm
+  {slot=9}--rare
+ },num=1},
+}]]
+ }},
+{setName="Shining Legends",
+ size=81,
+ setID="sm35",
+ SMEnergy=true,
+ custom={
+  mesh=SQUAREBOXMESH,
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1030706720824004414/449EDB8EC75FC286834DB0D300A87B15275728AF/"
+ },
+ packData={
+  art={
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123989446/E22808CF47BF91820B8CBBF74F41222811D37C42/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123989939/3BABD2B3F7C021A18CAE7FB1C868CB7085C7E9E1/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123990585/1A5EF465A39AC3DB7601190965B55EEF4DF20ED3/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123991122/823C5257958656415E64511A5D4B217E1B147C4A/",
+  },
+  dropSlots=[[{
+--1 uncommon
+   {cards={3,6,13,17,20,23,31,37,44,47,49,51,58,59,60,61,62,63,64,65,66,67,68,69,70},num=3},
+--2 energy
+   {cards={{82,90}},num=1,size=9,energy=true},
+--3 tube mewtwo
+   {cards={78},num=0},
+--4 Rainbow
+   {cards={74,75,76,77},num=0},
+--5 FA mon
+   {cards={71,72},num=0},
+--6 FA trainer
+   {cards={73},num=0},
+--7 shiny
+   {cards={9,27,40,42,56,57},num=0},
+--8 GX
+   {cards={10,29,39,53},num=0},
+--9 holo
+   {cards={7,8,14,24,25,26,32,35,41,45,54,55},num=0},
+--10 reverse energy
+   {cards={{82,90}},num=0,size=9,energy=true},
+--11 reverse
+   {cards={1,2,4,5,11,12,15,16,18,19,21,22,28,30,33,34,36,38,43,46,48,50,52,3,6,13,17,20,23,31,37,44,47,49,51,58,59,60,61,62,63,64,65,66,67,68,69,70,7,8,14,24,25,26,32,35,41,45,54,55},num=0},
+--12 common
+   {cards={1,2,4,5,11,12,15,16,18,19,21,22,28,30,33,34,36,38,43,46,48,50,52},num=5}
+  }]],
+  pullRates=[[{
+--rare
+ {rates={
+  {slot=3,odds=1/109.7},--tube mewtwo
+  {slot=4,odds=1/66.8},--Rainbow
+  {slot=5,odds=1/35.7},--FA mon
+  {slot=6,odds=1/85.33},--FA trainer
+  {slot=7,odds=1/11.45},--shiny
+  {slot=8,odds=1/8.44},--GX
+  {slot=9}--holo
+ },num=1},
+ {rates={
+  {slot=10,odds=1/3.78},--rev energy
+  {slot=11}--reverse
+ },num=1}
+}]]
+ }},
+{setName="Crimson Invasion",
+ size=126,
+ setID="sm4",
+ SMEnergy=true,
+ custom={
+  mesh=MODERNBOXMESH,
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1030706720824242297/CBC0D03220E8C19924EC8B85C62ECB50C57E45A6/"
+ },
+ packData={
+  art={
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123993050/B13C2B820B8A8A3826CE1465BEC5C0D7DE84358A/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123993547/E073B0F688CB21FF0BD601DB6445148C76145525/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123994188/EE47F3836D20B75939CDF874823D89FA327C0D38/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123994653/5ED86875C494D97F4299360E58A04162A8A7E343/",
+  },
+  dropSlots=[[{
+--1 uncommon
+   {cards={2,9,20,33,35,37,42,54,61,64,66,76,78,82,86,88,91,92,93,94,95,96,97,98,99,100},num=3},
+--2 energy
+   {cards={{127,135}},num=1,size=9,energy=true},
+--3 gold
+   {cards={120,121,122,123,124},num=0},
+--4 Rainbow
+   {cards={112,113,114,115,116,117,118,119},num=0},
+--5 full art mon
+   {cards={101,102,103,104,105,106,107,108},num=0},
+--6 full art trainer
+   {cards={109,110,111},num=0},
+--7 GX
+   {cards={18,34,49,57,63,70,74,90},num=0},
+--8 holo
+   {cards={11,12,27,28,31,38,47,56,67,73,84,89},num=0},
+--9 rare
+   {cards={3,6,14,16,21,23,25,40,45,48,51,53,59,62,68,69,72,77,80,83},num=0},
+--10 reverse
+   {cards={1,4,5,7,8,10,13,15,17,19,22,24,26,29,30,32,36,39,41,43,44,46,50,52,55,58,60,65,71,75,79,81,85,87,2,9,20,33,35,37,42,54,61,64,66,76,78,82,86,88,91,92,93,94,95,96,97,98,99,100,3,6,14,16,21,23,25,40,45,48,51,53,59,62,68,69,72,77,80,83,11,12,27,28,31,38,47,56,67,73,84,89},num=1},
+--11 common
+   {cards={1,4,5,7,8,10,13,15,17,19,22,24,26,29,30,32,36,39,41,43,44,46,50,52,55,58,60,65,71,75,79,81,85,87},num=5}
+  }]],
+  pullRates=[[{
+--rare
+ {rates={
+  {slot=3,odds=1/90},--gold
+  {slot=4,odds=1/90},--Rainbow
+  {slot=5,odds=1/30.6},--full art mon
+  {slot=6,odds=1/85},--full art trainer
+  {slot=7,odds=1/12},--GX
+  {slot=8,odds=1/4},--holo TODO confirm
+  {slot=9}--rare
+ },num=1},
+}]]
+ }},
+{setName="Ultra Prism",
+ size=178,
+ setID="sm5",
+ SMEnergy=true,
+ custom={
+  mesh=MODERNBOXMESH,
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1030706720824244168/24479CA1896814BC190B9096C9A5597DC4C983A0/"
+ },
+ packData={
+  art={
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123996265/3C6DBD395F38DA05CDBD19BD851FA3B1DF21CD18/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123996745/4680A24837D8A10A593973470328C2FBFC3E6A65/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123997203/D4E78DFC273F25FCF134ADA52C07EAD1628BBA45/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123997661/E56FC6C7C5486522A54D5472E8F3EAE525953A0E/",
+  },
+  dropSlots=[[{
+--1 uncommon
+   {cards={107,109,113,114,118,119,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,137,138,3,8,11,22,27,33,36,42,47,50,52,53,61,64,72,76,79,82,84,87,98},num=3},
+--2 energy
+   {cards={{179,187}},num=1,size=9,energy=true},
+--3 gold
+   {cards={166,167,168,169,170,171,172,173},num=0},
+--4 Rainbow
+   {cards={157,158,159,160,161,162,163,164,165},num=0},
+--5 full art mon
+   {cards={139,140,141,142,143,144,145,146,147},num=0},
+--6 full art trainer
+   {cards={148,149,150,151,152,153,154,155,156},num=0},
+--7 GX
+   {cards={101,116,13,39,63,90,100},num=0},
+--8 holo
+   {cards={117,9,15,19,23,48,59,65,67,74,83,85,88},num=0},
+--9 rare
+   {cards={103,110,111,115,5,14,17,24,26,29,34,38,40,41,44,55,57,69,91,93,94,95,99},num=0},
+--10 prism star
+   {cards={120,136,58,62,77,89},num=0},
+--11 reverse
+   {cards={102,104,105,106,108,112,1,2,4,6,7,10,12,16,18,20,21,25,28,30,31,32,35,37,43,45,46,49,51,54,56,60,66,68,70,71,73,75,78,80,81,86,92,96,97,103,110,111,115,5,14,17,24,26,29,34,38,40,41,44,55,57,69,91,93,94,95,99,107,109,113,114,118,119,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,137,138,3,8,11,22,27,33,36,42,47,50,52,53,61,64,72,76,79,82,84,87,98,117,9,15,19,23,48,59,65,67,74,83,85,88},num=0},
+--12 common
+   {cards={102,104,105,106,108,112,1,2,4,6,7,10,12,16,18,20,21,25,28,30,31,32,35,37,43,45,46,49,51,54,56,60,66,68,70,71,73,75,78,80,81,86,92,96,97},num=5}
+  }]],
+  pullRates=[[{
+--rare
+ {rates={
+  {slot=3,odds=1/140.44},--gold
+  {slot=4,odds=1/74.35},--Rainbow
+  {slot=5,odds=1/43.6},--full art mon
+  {slot=6,odds=1/79},--full art trainer
+  {slot=7,odds=1/13.45},--GX
+  {slot=8,odds=1/4},--holo TODO confirm
+  {slot=9}--rare
+ },num=1},
+ {rates={
+  {slot=10,odds=1/12.64},--prism star
+  {slot=11}--reverse
+ },num=1},
+}]]
+ }},
+{setName="Forbidden Light",
+ size=150,
+ setID="sm6",
+ SMEnergy=true,
+ custom={
+  mesh=MODERNBOXMESH,
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1030706720824245898/0961DED4D289C19B4B0E511684214BEF17C0CB70/"
+ },
+ packData={
+  art={
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123999383/B6D8E70BA2C31AA69AC1FA12008EF8717D7829F3/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123999934/799AAB7C4E39A5CC7687734E24000AB02302F0E3/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138124000497/1FF793D2D4F15AD7DAEB9A25033F0AD3FDCF0D6B/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138124001048/2A098D20E3F333F2B0052B7A782FBC8B5F5FCEC0/",
+  },
+  dropSlots=[[{
+--1 uncommon
+   {cards={103,104,106,107,108,109,111,112,113,114,115,116,118,7,10,16,23,27,33,35,38,41,42,43,48,54,55,61,68,70,71,85,88,89,93,98},num=3},
+--2 energy
+   {cards={{151,159}},num=1,size=9,energy=true},
+--3 gold
+   {cards={141,142,143,144,145,146},num=0},
+--4 Rainbow
+   {cards={132,133,134,135,136,137,138,139,140},num=0},
+--5 full art mon
+   {cards={119,120,121,122,123,124,125,126,127},num=0},
+--6 full art trainer
+   {cards={128,129,130,131},num=0},
+--7 GX
+   {cards={20,24,56,73,79,82,90,95},num=0},
+--8 holo
+   {cards={105,11,17,19,28,59,62,69,80,81,94},num=0},
+--9 rare
+   {cards={101,102,2,4,8,12,13,26,30,36,39,40,45,49,51,53,58,64,67,72,76,77,78,86,87},num=0},
+--10 prism star
+   {cards={110,117,31,74,96},num=0},
+--11 reverse
+   {cards={101,102,2,4,8,12,13,26,30,36,39,40,45,49,51,53,58,64,67,72,76,77,78,86,87,103,104,106,107,108,109,111,112,113,114,115,116,118,7,10,16,23,27,33,35,38,41,42,43,48,54,55,61,68,70,71,85,88,89,93,98,105,11,17,19,28,59,62,69,80,81,94,1,3,5,6,9,14,15,18,21,22,25,29,32,34,37,44,46,47,50,52,57,60,63,65,66,75,83,84,91,92,97,99,100},num=0},
+--12 common
+   {cards={1,3,5,6,9,14,15,18,21,22,25,29,32,34,37,44,46,47,50,52,57,60,63,65,66,75,83,84,91,92,97,99,100},num=5}
+  }]],
+  pullRates=[[{
+--rare
+ {rates={
+  {slot=3,odds=1/140.44},--gold
+  {slot=4,odds=1/74.35},--Rainbow
+  {slot=5,odds=1/43.6},--full art mon
+  {slot=6,odds=1/79},--full art trainer
+  {slot=7,odds=1/13.45},--GX
+  {slot=8,odds=1/4},--holo TODO confirm
+  {slot=9}--rare
+ },num=1},
+ {rates={
+  {slot=10,odds=1/12.64},--prism star
+  {slot=11}--reverse
+ },num=1},
+}]]
+ }},
 {setName="Celestial Storm",
  size=187,
  setID="sm7",
+ SMEnergy=true,
  custom={
   mesh=MODERNBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1030706720824247370/81750F9DE0A1BD33974E3B8C495A1F06C38E5966/"
@@ -2107,8 +2489,8 @@ setData={
   dropSlots=[[{
 --1 uncommon
    {cards={2,4,9,13,16,17,18,20,21,27,29,30,34,37,42,43,50,53,54,55,58,62,73,75,83,88,91,94,105,110,112,114,118,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,146,147,148,149,150,151},num=3},
---2 energy TODO find a way to get energies reliably
-   {cards={},num=0,size=8,energy=true},
+--2 energy
+   {cards={{188,196}},num=1,size=9,energy=true},
 --3 gold
    {cards={178,179,180,181,182,183},num=0},
 --4 Rainbow
@@ -2130,7 +2512,7 @@ setData={
 --12 common
    {cards={1,5,7,8,11,12,15,19,23,25,26,32,33,36,39,41,44,47,49,51,57,59,63,64,71,72,74,76,78,84,86,92,93,103,104,111,113,116,117,120},num=5}
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
  {rates={
   {slot=3,odds=1/113.8},--gold
@@ -2150,6 +2532,7 @@ setData={
 {setName="Dragon Majesty",
  size=80,
  setID="sm75",
+ SMEnergy=true,
  custom={
   mesh=SQUAREBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1030706720824692197/92ABF851389DB7FC2AA2BA945D5C4B0491D929BB/"
@@ -2164,8 +2547,8 @@ setData={
   dropSlots=[[{
 --1 uncommon
    {cards={2,5,9,10,14,17,21,23,26,29,30,36,39,43,45,49,50,51,59,60,62,63,64},num=3},
---2 energy TODO find a way to get energies reliably
-   {cards={},num=0,size=8,energy=true},
+--2 energy
+   {cards={{81,89}},num=1,size=9,energy=true},
 --3 gold
    {cards={75,76,77,78},num=0},
 --4 Rainbow
@@ -2185,7 +2568,7 @@ setData={
 --11 common
    {cards={1,4,8,12,13,15,16,19,22,25,27,28,31,32,34,35,38,42,52,53,55,56,57},num=5}
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
  {rates={
   {slot=3,odds=1/129.6},--gold
@@ -2204,6 +2587,7 @@ setData={
 {setName="Lost Thunder",
  size=240,
  setID="sm8",
+ SMEnergy=true,
  custom={
   mesh=MODERNBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1030706720825070893/C1C2D405AB9EC4499F0FF30507050DD746481DD8/"
@@ -2218,8 +2602,8 @@ setData={
   dropSlots=[[{
 --1 uncommon
    {cards={102,110,113,116,123,131,140,142,143,148,156,161,162,165,167,168,169,170,171,172,173,174,175,176,177,179,181,183,184,185,186,187,188,189,190,192,193,194,4,7,10,13,16,18,21,25,27,30,32,36,41,57,58,66,71,77,88,94,96},num=3},
---2 energy TODO find a way to get energies reliably
-   {cards={},num=0,size=8,energy=true},
+--2 energy
+   {cards={{241,249}},num=1,size=9,energy=true},
 --3 gold
    {cards={228,229,230,231,232,233,234,235,236},num=0},
 --4 Rainbow
@@ -2241,7 +2625,7 @@ setData={
 --12 common
    {cards={101,105,107,109,111,114,115,117,118,122,128,133,135,137,139,145,147,152,155,163,164,1,3,5,6,9,11,12,15,20,23,24,29,31,35,39,40,43,45,50,53,54,61,64,65,68,70,73,75,76,80,81,83,84,87,99},num=5}
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
  {rates={
   {slot=3,odds=1/98},--gold
@@ -2298,7 +2682,7 @@ setData={
 --12 common
    {cards={2,3,6,8,11,12,15,17,20,22,23,26,28,29,34,35,38,41,44,46,47,49,54,57,60,62,69,71,79,81,83,86,90,92,100,102,104,107,110,116,117,121,122,123,125},num=5}
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
  {rates={
   {slot=3,odds=1/145},--gold
@@ -2334,7 +2718,7 @@ setData={
 --3 common
    {cards={1,3,4,7,8,14,15,16},num=3},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
    {rates={
     {slot=1,odds=1/2.7},--white star
@@ -2380,7 +2764,7 @@ setData={
 --12 common
    {cards={2,5,6,9,10,13,16,18,21,23,26,27,30,33,36,37,40,42,44,46,48,51,54,62,64,67,68,71,73,77,79,83,85,87,90,92,93,96,98,102,104,108,110,113,114,118,121,123,128,132,134,136,139,141,143,145,147,150,152,154,155,159},num=5},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
  {rates={
   {slot=3,odds=1/111.01},--gold
@@ -2431,7 +2815,7 @@ setData={
 --12 common
    {cards={102,103,105,109,112,115,116,118,127,128,129,131,135,137,143,147,148,154,157,158,161,165,167,168,171,174,179,180,2,5,6,7,10,12,13,15,17,21,23,27,28,31,33,37,39,41,46,48,50,55,56,58,61,63,64,67,73,80,82,88,92,93,96,98,100},num=5},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
  {rates={
   {slot=3,odds=1/111.1},--gold
@@ -2485,13 +2869,13 @@ setData={
 --12 shiny
    {cards={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45},num=0},
 --13 reverse energy TODO find a way to get energies reliably
-   {cards={},num=0},
+   {cards={},num=0,energy=true},
 --14 reverse
    {cards={1,4,7,11,12,13,15,19,21,25,26,28,33,37,38,39,41,49,2,5,8,10,30,34,45,46,53,54,57,59,60,61,62,64,65,3,17,22,23,27,29,32,35,40,43,47,50,51,52,56,18,24,48,55,58,63},num=0},
 --15 common
    {cards={1,4,7,11,12,13,15,19,21,25,26,28,33,37,38,39,41,49},num=5}
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
  {rates={
   {slot=3,odds=1/63},--Rainbow
@@ -2551,7 +2935,7 @@ setData={
 --12 common
    {cards={2,5,7,13,15,17,18,23,26,31,36,39,40,43,45,47,49,50,54,58,59,182,64,66,68,71,74,76,78,80,83,87,89,91,93,99,100,105,106,107,108,114,116,119,121,123,125,126,128,130,132,134,137,147,148,150,151,154,161,162,167,168,170,172,175,178,180},num=5},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare
  {rates={
   {slot=3,odds=1/112},--gold
@@ -2614,7 +2998,7 @@ setData={
 --12 common
    {cards={152,153,2,3,5,7,10,11,16,17,20,22,27,30,31,37,38,40,42,43,45,46,54,55,60,63,65,67,68,70,73,74,77,81,83,87,89,92,96,97,101,102,105,107,108,111,112,117,121,123,125,127,129,130,133,136,143,145,146,150},num=5},
   }]],
-  pullRate=[[{
+  pullRates=[[{
  {rates={ --TODO get foil rate
   {slot=3,odds=1/110.2},--gold
   {slot=4,odds=1/81.2},--Rainbow
@@ -2667,7 +3051,7 @@ setData={
 --12 common
    {cards={151,1,4,7,10,12,14,16,20,21,24,27,29,31,37,39,41,44,47,52,56,58,60,63,68,74,76,78,81,83,86,89,94,96,97,99,101,103,105,112,114,117,119,123,126,129,133,143,146,149},num=5},
   }]],
-  pullRate=[[{
+  pullRates=[[{
  {rates={ --TODO get foil rate
   {slot=3,odds=1/105.2},--gold
   {slot=4,odds=1/66.7},--Rainbow
@@ -2720,7 +3104,7 @@ setData={
 --12 common
    {cards={151,152,154,76,79,82,84,86,89,93,97,100,102,106,108,112,120,121,125,129,131,134,135,137,138,141,145,148,150,3,6,8,9,11,14,17,22,26,29,35,38,41,43,45,48,50,51,55,58,62,67,70,73},num=5},
   }]],
-  pullRate=[[{
+  pullRates=[[{
  {rates={ --TODO get foil rate
   {slot=3,odds=1/114.5},--gold
   {slot=4,odds=1/84},--Rainbow
@@ -2781,7 +3165,7 @@ setData={
 --13 common
    {cards={2,3,6,9,11,18,24,29,31,33,35,36,39,41,43,44,46,48,59,61},num=5},
   }]],
-  pullRate=[[{
+  pullRates=[[{
  {rates={
   {slot=3,odds=1/97},--shiny zard
   {slot=4,odds=1/97},--gold can
@@ -2840,7 +3224,7 @@ setData={
 --13 common
    {cards={77,80,83,86,90,91,94,96,100,103,107,110,112,116,123,130,133,135,139,143,1,4,6,8,10,13,17,23,27,31,33,38,41,45,51,53,55,57,63,67,69,72,73,75},num=5},
   }]],
-  pullRate=[[{
+  pullRates=[[{
  {rates={
   {slot=3,odds=1/97},--gold
   {slot=4,odds=1/71},--Rainbow
@@ -2906,7 +3290,7 @@ setData={
 --16 common
    {cards={1,4,6,11,14,20,22,26,29,31,35,36,40,41,43,47,49,52},num=5},
   }]],
-  pullRate=[[{
+  pullRates=[[{
  {rates={
   {slot=3,odds=1/111},--gold
   {slot=4,odds=1/83},--Rainbow
@@ -2970,7 +3354,7 @@ setData={
 --14 common
    {cards={66,68,69,71,73,76,78,81,89,93,95,100,101,103,105,111,113,115,1,4,7,11,14,17,23,27,29,31,34,36,38,41,44,46,49,52,54,55,57,59,60},num=5},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare TODO get foil rate
  {rates={
   {slot=3,odds=1/106.5},--gold
@@ -3030,7 +3414,7 @@ setData={
 --14 common
    {cards={121,126,127,62,65,67,69,71,76,78,82,84,86,91,93,94,101,105,109,116,1,4,6,9,11,13,16,22,23,26,29,30,32,33,34,35,37,41,47,50,54,55,59},num=5},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare TODO get foil rate
  {rates={
   {slot=3,odds=1/106.5},--gold
@@ -3090,7 +3474,7 @@ setData={
 --14 common
    {cards={2,5,9,11,15,17,22,24,26,32,35,37,39,42,43,44,49,52,54,57,61,66,67,68,71,76,78,81,84,86,98,102,104,107,113,125,126,129,132,133,136,138},num=5},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --rare TODO get foil odds
  {rates={
   {slot=3,odds=1/106},--shiny
@@ -3141,7 +3525,7 @@ setData={
 --10 holo
    {cards={11,15,21,23},num=0},
   }]],
-  pullRate=[[{
+  pullRates=[[{
 --classic
    {rates={
     {slot=2,odds=1/8.3},--classic rare
@@ -3206,7 +3590,7 @@ setData={
 --14 common
    {cards={1,4,7,9,13,16,18,19,24,28,29,32,34,37,46,47,50,105,106,109,110,112,115,117,119,121,123,125,127,128,131,133,135,138,140,142,144,147,149,150,202,205,206,209,210,212,214,219,221,222,152,155,159,162,165,168,170,172,176,179,180,182,184,186,188,191,195,199,52,55,58,60,61,62,65,68,70,71,74,80,82,84,87,89,90,91,94,95,98},num=5},
   }]],
-  pullRate=[[{
+  pullRates=[[{
  {rates={
   {slot=3,odds=1/124},--gold
   {slot=4,odds=1/125},--Rainbow
@@ -3233,12 +3617,15 @@ function onObjectLeaveContainer(cont,leaving)
   return
  end
  local packData=setData[curSet].packData
- local scriptAddOn='dropSlots='..packData.dropSlots..'\npullRate='..packData.pullRate..'\nsetName="'..setData[curSet].setName..'"\nsetSize='..tostring(setData[curSet].size or 300)..'\nsetID="'..setData[curSet].setID..'"\n'
+ local scriptAddOn='dropSlots='..packData.dropSlots..'\npullRates='..packData.pullRates..'\nsetName="'..setData[curSet].setName..'"\nsetSize='..tostring(setData[curSet].size or 300)..'\nsetID="'..setData[curSet].setID..'"\n'
  if setData[curSet].unordered then
   scriptAddOn=scriptAddOn..'setUnordered=true\n'
  end
  if setData[curSet].subSet then
   scriptAddOn=scriptAddOn..'subSetSize='..tostring(setData[curSet].subSet.size or 300)..'\nsubSetID="'..setData[curSet].subSet.setID..'"\n'
+ end
+ if setData[curSet].SMEnergy then
+  scriptAddOn=scriptAddOn..'SMEnergy=true\n'
  end
  leaving.setCustomObject({diffuse=packData.art[math.random(1,#packData.art)]})
  leaving.setLuaScript(scriptAddOn..leaving.getLuaScript())
@@ -3257,7 +3644,7 @@ function onLoad(state)
   if state.settings then
    settings=state.settings
   else
-   settings={energy=1,on=true,spread=false,APICalls=3}
+   settings={energy=1,on=true,spread=false,APICalls=3,hundred=false}
   end
   Global.SetTable("PPacks",settings)
  end
@@ -3332,6 +3719,11 @@ function setUpContextMenu()
   self.addContextMenuItem("Enable Packs", function() changeSettings("on",true) end)
  end
  self.addContextMenuItem("Clear pack Cache", function() clearCache() end)
+ if settings.hundred then
+  self.addContextMenuItem("Disable 100 packs", function() changeSettings("hundred",false) end)
+ else
+  self.addContextMenuItem("Enable 100 packs", function() changeSettings("hundred",true) end)
+ end
 end
 
 function dealPacks(colour,number)
@@ -3402,14 +3794,16 @@ function getSet(obj,color,alt)
    local orderText="&orderBy=number"
    if setData[curSet].unordered then orderText=''end
    local callPerSet=settings.APICalls
+   local loadingNum=callPerSet
    if setData[curSet].subSet then
     callPerSet=math.ceil(settings.APICalls/2)
-    Global.setTable("PPacksCache["..setName.."]",{loading=callPerSet*2,cache=nil})
-   else
-    Global.setTable("PPacksCache["..setName.."]",{loading=callPerSet,cache=nil})
+    loadingNum=callPerSet*2
    end
+   if setData[curSet].SMEnergy then loadingNum=loadingNum+1 end
+   Global.setTable("PPacksCache["..setName.."]",{loading=loadingNum,cache=nil})
    local count=requestSet(1,callPerSet,setData[curSet].setID,setName,setData[curSet].size or 300,orderText,color)
    if setData[curSet].subSet then count=requestSet(count,callPerSet,setData[curSet].subSet.setID,setName,setData[curSet].subSet.size or 300,orderText,color) end
+   if setData[curSet].SMEnergy then requestSMEnergy(count,setName,color) end
   else
    broadcastToColor("Loading Cards, Please Wait",color,{0,1,0})
   end
@@ -3422,6 +3816,13 @@ function requestSet(count,calls,setIDToLoad,setName,size,orderText,color)
   r[count]=WebRequest.get('https://api.pokemontcg.io/v2/cards?q=!set.id:"'..setIDToLoad..'"&page='..tostring(c)..'&pageSize='..tostring(math.ceil(size/calls))..orderText, function() cacheSet(r[page],setName,color,page)end)
   count=count+1
  end
+ return count
+end
+
+function requestSMEnergy(count,setName,color)
+ local page=count
+ r[count]=WebRequest.get("https://api.pokemontcg.io/v2/cards?q=number:%5B164%20TO%20172%5D%20!set.id:sm1&order_by=number", function() cacheSet(r[page],setName,color,page)end)
+ count=count+1
  return count
 end
 

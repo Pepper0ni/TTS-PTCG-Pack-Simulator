@@ -49,29 +49,34 @@ function ProcessPack(loop,loading)
   local orderText="&orderBy=number"
   if setUnordered then orderText=''end
   local callPerSet=settings.APICalls
+  local loadingNum=callPerSet
   if subSetID then
    callPerSet=math.ceil(settings.APICalls/2)
-   Global.setTable("PPacksCache["..setName.."]",{loading=callPerSet*2,cache=nil})
-  else
-   Global.setTable("PPacksCache["..setName.."]",{loading=callPerSet,cache=nil})
+   loadingNum=callPerSet*2
   end
+  if SMEnergy then loadingNum=loadingNum+1 end
+  Global.setTable("PPacksCache["..setName.."]",{loading=loadingNum,cache=nil})
   broadcastToAll("Loading Cards...",{0,1,0})
   local count=requestSet(1,callPerSet,setID,setSize,orderText)
   if subSetID then count=requestSet(count,callPerSet,subSetID,subSetSize,orderText) end
+  if SMEnergy then requestSMEnergy(count) end
   return
  end
-
- for _,rate in pairs(pullRate)do
-  for c=1,rate.num do
-   doPullRates(rate)
+ for count=1,100 do
+  local slotsAdded={}
+  for _,rate in pairs(pullRates)do
+   for c=1,rate.num do
+    slotsAdded=doPullRates(rate,slotsAdded)
+   end
   end
- end
 
- for _,slot in pairs(dropSlots)do
-  if slot.fixed then doFixed(slot)
-  elseif not slot.energy or settings.energy==1 then chooseCard(slot)end
+  for slotNum,slot in pairs(dropSlots)do
+   if slot.fixed then doFixed(slot,slotsAdded[slotNum] or 0)elseif not slot.energy or settings.energy==1 then chooseCard(slot,slotsAdded[slotNum] or 0)end
+  end
+  if pulls then pulls.use_hands=true end
+  if not settings.hundred then return end
+  curCard=0
  end
- if pulls then pulls.use_hands=true end
 end
 
 function requestSet(count,calls,setIDToLoad,size,orderText)
@@ -80,6 +85,13 @@ function requestSet(count,calls,setIDToLoad,size,orderText)
   r[count]=WebRequest.get('https://api.pokemontcg.io/v2/cards?q=!set.id:"'..setIDToLoad..'"&page='..tostring(c)..'&pageSize='..tostring(math.ceil(size/calls))..orderText, function() cacheSet(r[page],page)end)
   count=count+1
  end
+ return count
+end
+
+function requestSMEnergy(count)
+ local page=count
+ r[count]=WebRequest.get("https://api.pokemontcg.io/v2/cards?q=number:%5B164%20TO%20172%5D%20!set.id:sm1&order_by=number", function() cacheSet(r[page],page)end)
+ count=count+1
  return count
 end
 
@@ -136,21 +148,23 @@ function enumTypes(Type,subTypes)
  return tostring(enum)
 end
 
-function doPullRates(rate)
+function doPullRates(rate,slotsAdded)
  local rand=Global.call("PPacks.rand")
  for _,slot in pairs(rate.rates)do
   rand=rand-(slot.odds or 1)
-  if rand<=0 and (settings.energy!=2 or not dropSlots[slot.slot].energy) then
-   dropSlots[slot.slot].num=dropSlots[slot.slot].num+1
-   return
+  if rand<=0 and(settings.energy!=2 or not dropSlots[slot.slot].energy)then
+   if not slotsAdded[slot.slot]then slotsAdded[slot.slot]=0 end
+   slotsAdded[slot.slot]=slotsAdded[slot.slot]+1
+   return slotsAdded
   end
  end
+ return slotsAdded
 end
 
-function chooseCard(slot)
+function chooseCard(slot,added)
  local chosen={}
  local c=1
- while c<=slot.num do
+ while c<=slot.num+added do
   local choice=nil
   if slot.size then
    choice=chooseRandCard(slot)
@@ -177,9 +191,9 @@ function chooseRandCard(slot)
  end
 end
 
-function doFixed(slot)
+function doFixed(slot,added)
  local deckPos=randomFromRange(1,#slot.cards)
- for c=1,slot.num do
+ for c=1,slot.num+added do
   spawnCard(slot.cards[deckPos])
   if deckPos==#slot.cards then deckPos=1 else deckPos=deckPos+1 end
  end
@@ -195,7 +209,11 @@ function spawnCard(index)
  local card=spawnObjectData({data=setCache.cache.ContainedObjects[index],position={x=packPos.x+(cardSpawn.x*curCard),y=packPos.y+(cardSpawn.y*curCard),z=packPos.z+(cardSpawn.z*curCard)},rotation=cardRot})
 
  if settings.spread then
-  card.setPositionSmooth({x=packPos.x+(cardMov.x*curCard),y=packPos.y+(cardMov.y*curCard),z=packPos.z+(cardMov.z*curCard)},false,false)
+  if settings.hundred then
+   card.setPosition({x=packPos.x+(cardMov.x*curCard),y=packPos.y+(cardMov.y*curCard),z=packPos.z+(cardMov.z*curCard)})
+  else
+   card.setPositionSmooth({x=packPos.x+(cardMov.x*curCard),y=packPos.y+(cardMov.y*curCard),z=packPos.z+(cardMov.z*curCard)},false,false)
+  end
  else
   pulls=addToDeck(card,pulls)
  end
