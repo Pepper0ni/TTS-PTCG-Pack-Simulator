@@ -2069,7 +2069,7 @@ setData={
   {slot=8,odds=1/15},--FA EX
   {slot=9,odds=1/36},--FA
   {slot=10,odds=1/6},--EX
-  {slot=11}--rare
+  {slot=11}--unc
  },num=1},
 --common 1
  {rates={
@@ -2080,6 +2080,70 @@ setData={
  {rates={
   {slot=13,odds=1/14},--common
   {slot=14}--energy
+ },num=1},
+}]]
+ }},
+{setName="Evolutions",
+ size=113,
+ setID="xy12",
+ custom=
+  {mesh=MODERNBOXMESH,
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1030706571718913642/EB294ACD087552797F76C33724BCF60A72712DD6/"
+ },
+ packData={
+  art={
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123973941/EBA604EDBF788EAD37036809ECEA406303583ADD/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123974339/3BA934CFFBD121CB70B314B7C36004CD35167C7E/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123974758/05268AD8C3E415EE02BF988484042C9614E0341C/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123975144/63E8587ADF26BDE49571261BBC748C356E1CF5A5/",
+  },
+  dropSlots=[[{
+--1 secret
+   {cards={109,110,111,112,113},num=0},
+--2 uncommon
+   {cards={4,6,10,20,24,44,48,50,58,71,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90},num=0},
+--3 ultra
+   {cards={101,102,103,104,105,106,107,108,100},num=0},
+--4 mega ex
+   {cards={2,13,22,27,65},num=0},
+--5 ex
+   {cards={1,12,21,26,52,64,72},num=0},
+--6 holo
+   {cards={11,15,25,34,36,38,42,45,53,59,62,63,70},num=0},
+--7 rare
+   {cards={7,18,29,31,40,51,56,67,68},num=0},
+--8 BREAK
+   {cards={16,32,46,60},num=0},
+--9 reverse (energy is placed twice to simulator higher pull rate)
+   {cards={3,5,8,9,14,17,19,23,28,30,33,35,37,39,41,43,47,49,54,55,57,61,66,69,4,6,10,20,24,44,48,50,58,71,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,7,18,29,31,40,51,56,67,68,11,15,25,34,36,38,42,45,53,59,62,63,70,91,92,93,94,95,96,97,98,99,91,92,93,94,95,96,97,98,99},num=0},
+--10 common
+   {cards={3,5,8,9,14,17,19,23,28,30,33,35,37,39,41,43,47,49,54,55,57,61,66,69},num=4},
+--11 energy
+   {cards={91,92,93,94,95,96,97,98,99},num=0,energy=true},
+  }]],
+  pullRates=[[{
+--uncommons
+ {rates={
+  {slot=1,odds=1/23.2},
+  {slot=2}--unc
+ },num=3},
+--rare
+ {rates={
+  {slot=3,odds=1/15,flag=true},--ultra
+  {slot=4,odds=1/20.3,flag=true},--mega
+  {slot=5,odds=1/14,flag=true},--EX
+  {slot=6,odds=1/10.1,flag=true},--holo
+  {slot=7}--rare
+ },num=1},
+--reverse
+ {rates={
+  {slot=8,odds=1/15.75,flagExclude=true},--break
+  {slot=9}--reverse
+ },num=1},
+--common
+ {rates={
+  {slot=10,odds=2/3},--common
+  {slot=11}--energy
  },num=1},
 }]]
  }},

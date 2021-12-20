@@ -1,5 +1,3 @@
-curCard=0
-
 function tryObjectEnter(enter_object)
  if Global.GetTable("PPacks").on==false then return true end
  return false
@@ -63,6 +61,8 @@ function ProcessPack(loop,loading)
   return
  end
  for count=1,100 do
+  curCard=0
+  packFlag=false
   local slotsAdded={}
   for _,rate in pairs(pullRates)do
    for c=1,rate.num do
@@ -75,7 +75,6 @@ function ProcessPack(loop,loading)
   end
   if pulls then pulls.use_hands=true end
   if not settings.hundred then return end
-  curCard=0
  end
 end
 
@@ -151,11 +150,14 @@ end
 function doPullRates(rate,slotsAdded)
  local rand=Global.call("PPacks.rand")
  for _,slot in pairs(rate.rates)do
-  rand=rand-(slot.odds or 1)
-  if rand<=0 and(settings.energy!=2 or not dropSlots[slot.slot].energy)then
-   if not slotsAdded[slot.slot]then slotsAdded[slot.slot]=0 end
-   slotsAdded[slot.slot]=slotsAdded[slot.slot]+1
-   return slotsAdded
+  if(not packFlag or not slot.flagExclude) then
+   rand=rand-(slot.odds or 1)
+   if rand<=0 and(settings.energy!=2 or not dropSlots[slot.slot].energy)then
+    if not slotsAdded[slot.slot]then slotsAdded[slot.slot]=0 end
+    slotsAdded[slot.slot]=slotsAdded[slot.slot]+1
+    if slot.flag then packFlag=true end
+    return slotsAdded
+   end
   end
  end
  return slotsAdded
