@@ -120,7 +120,7 @@ function cacheSet(request,page)
      count=count+1
     end
    end
-  Global.setTable("PPacksCache["..setName.."]",{loading=0,cache=setDeck.getData()})
+  Global.setTable("PPacksCache["..setName.."]",{loading=nil,cache=setDeck.getData()})
   setDeck.destruct()
   ProcessPack(true,false)
   else

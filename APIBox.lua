@@ -3987,7 +3987,7 @@ function cacheSet(request,setName,color,page)
   log(request.text)
   log(request.response_code)
   broadcastToColor("Error: "..tostring(request.response_code),color,{1,0,0})
-  Global.setTable("PPacksCache["..setName.."]",{loading=0,cache=nil})
+  Global.setTable("PPacksCache["..setName.."]",{loading=nil,cache=nil})
  elseif cache.loading>=1 then
   decoded[page]=json.parse(string.gsub(request.text,"\\u0026","&"))
 --credit to dzikakulka and Larikk
