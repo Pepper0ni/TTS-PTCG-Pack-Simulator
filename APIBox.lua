@@ -2051,15 +2051,52 @@ custom={
   pullRates=[[{
 --rare
  {rates={
-  {slot=3,odds=1/72},--secret
-  {slot=4,odds=1/32},--ultra
-  {slot=5,odds=21/72},--holo
-  {slot=6}--rare
+  {slot=2,odds=1/72},--secret
+  {slot=3,odds=1/36},--ultra
+  {slot=4,odds=21/72},--holo
+  {slot=5}--rare
  },num=1},
---common 2
+--common
  {rates={
   {slot=8,odds=1/2.545},--energy
   {slot=7}--common
+ },num=1},
+}]]
+ }},
+{setName="Emerging Powers",
+ size=98,
+ setID="bw2",
+ custom=
+  {mesh=MODERNBOXMESH,
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1025076409792415392/E2FB8B6FAB75778CA9895DD5EAE0830F3AD6565A/"
+ },
+ packData={
+  art={
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123199763/064B1A84EEF96D15939AD8C9F914820F42407DAD/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123200240/5E1356E213EC033DA9B4E381BE8C5B8629B9FB26/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123200708/783E9FE8A06C5CF8C48B490AC4D5DC298A25C2DF/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123201055/D7DE8EFA1CDBA173ABEAC81484D9C1A06BC1C487/",
+  },
+  dropSlots=[[{
+--1 uncommon
+   {cards={79,81,83,85,90,91,92,93,94,95,96,5,6,11,14,25,34,39,41,42,45,46,51,52,54,58,59,61,66,73,75},num=3},
+--2 ultra
+   {cards={97,98},num=0},
+--3 holo
+   {cards={77,88,89,17,30,35,47,56,63,67},num=0},
+--4 rare
+   {cards={76,82,2,7,8,12,16,19,21,23,27,31,37,40,48,53,57,62,65,69,72},num=0},
+--5 reverse
+   {cards={76,82,2,7,8,12,16,19,21,23,27,31,37,40,48,53,57,62,65,69,72,77,88,89,17,30,35,47,56,63,67,78,80,84,86,87,1,3,4,9,10,13,15,18,20,22,24,26,28,29,32,33,36,38,43,44,49,50,55,60,64,68,70,71,74,79,81,83,85,90,91,92,93,94,95,96,5,6,11,14,25,34,39,41,42,45,46,51,52,54,58,59,61,66,73,75},num=1},
+--6 common
+   {cards={78,80,84,86,87,1,3,4,9,10,13,15,18,20,22,24,26,28,29,32,33,36,38,43,44,49,50,55,60,64,68,70,71,74},num=5}
+  }]],
+  pullRates=[[{
+--rare
+ {rates={
+  {slot=2,odds=1/36},--ultra
+  {slot=3,odds=11/36},--holo
+  {slot=4}--rare
  },num=1},
 }]]
  }},
