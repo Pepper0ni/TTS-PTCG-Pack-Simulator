@@ -4,8 +4,9 @@ SQUAREBOXMESH="http://cloud-3.steamusercontent.com/ugc/1030706251248908108/5E55F
 TINMESH="http://cloud-3.steamusercontent.com/ugc/1030706251249348501/4E69F41EAEE557C7909B9ED16D2C6EFF5CABD7F9/"
 PACKMESH="http://pastebin.com/raw/PqfGKtKR"
 PACKNORMAL="http://cloud-3.steamusercontent.com/ugc/861734852198391028/D75480247FA058266F0D423501D867407458666D/"
+BLISTERMESH="http://cloud-3.steamusercontent.com/ugc/1670239067235311651/D0BD0C84FF352C54A9C26E5BBB86FDE15BF57173/"
 
-genPoints={1,9,19,41,64}
+genPoints={1,9,19,41,64,77,93,110}
 
 setData={
 {setName="Base",--1
@@ -76,7 +77,7 @@ setData={
  size=53,
  setID="basep",
  custom={
-  mesh=TINMESH,
+  mesh=SQUAREBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/968725783503128833/A70313105D2DF941D9689E149AD6941E4B1EDE7A/"
  }},
 {setName="Fossil",
@@ -174,7 +175,7 @@ setData={
 --rare
  {rates={
   {slot=2,odds=1/54},--secret
-  {slot=3,odds=1/3},--holo
+  {slot=3,remaining=true,odds=1/3},--holo
   {slot=4}--rare
  },num=1},
 }]]
@@ -317,7 +318,7 @@ setData={
  size=18,
  setID="si1",
  custom={
-  mesh=TINMESH,
+  mesh=SQUAREBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/968725783503129849/113C2D2767FD989E7EF6546A0AF0636AC82B6BE8/"
  }},
 {setName="Neo Revelation",
@@ -346,14 +347,14 @@ setData={
 --5 common
    {cards={{41,59},64},num=7,size=20},
   }]],
-  pullRates=[[{
+ pullRates=[[{
 --rare
-   {rates={
-    {slot=2,odds=1/18},--shiny
-    {slot=3,odds=1/3},--holo
-    {slot=4}--rare
-   },num=1},
-  }]]
+ {rates={
+  {slot=2,odds=1/18},--shiny
+  {slot=3,remaining=true,odds=1/3},--holo
+  {slot=4}--rare
+  },num=1},
+ }]]
  }},
 {setName="Neo Destiny",
  size=113,
@@ -385,7 +386,7 @@ setData={
 --rare
  {rates={
   {slot=2,odds=1/12},--shiny
-  {slot=3,odds=1/3},--holo
+  {slot=3,remaining=true,odds=1/3},--holo
   {slot=4}--rare
  },num=1},
 }]]
@@ -460,7 +461,7 @@ setData={
  size=9,
  setID="bp",
  custom={
-  mesh=TINMESH,
+  mesh=SQUAREBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/968725783503131051/2575CF394E08C1A8459E375526AC8D606E6067FB/"
  }},
 {setName="Aquapolis",
@@ -495,7 +496,7 @@ setData={
 --premium
  {rates={
   {slot=4,odds=1/36},--crystal
-  {slot=5,odds=1/3},--holo
+  {slot=5,remaining=true,odds=1/3},--holo
   {slot=6}--common
  },num=1},
 }]]
@@ -532,7 +533,7 @@ setData={
 --premium
  {rates={
   {slot=4,odds=1/12},--crystal
-  {slot=5,odds=1/3},--holo
+  {slot=5,remaining=true,odds=1/3},--holo
   {slot=6}--common
  },num=1},
 }]]
@@ -541,7 +542,7 @@ setData={
  size=40,
  setID="np",
  custom={
-  mesh=TINMESH,
+  mesh=SQUAREBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/968725783503127953/A80DA05A30BA633BBAFD59842B16AD1078DE0005/"}},
 {setName="Ruby & Sapphire",
  size=109,
@@ -695,7 +696,7 @@ setData={
  {rates={
   {slot=2,odds=1/108},--secret
   {slot=3,odds=1/12},--ex
-  {slot=4,odds=26/108},--holo
+  {slot=4,remaining=true,odds=1/3},--holo
   {slot=5}--rare
  },num=1},
 }]]
@@ -732,7 +733,7 @@ setData={
 --rare
  {rates={
   {slot=2,odds=1/12},--ex
-  {slot=3,odds=1/4},--holo
+  {slot=3,remaining=true,odds=1/3},--holo
   {slot=4}--rare
  },num=1},
 }]]
@@ -772,7 +773,7 @@ setData={
  {rates={
   {slot=2,odds=1/108},--secret
   {slot=3,odds=1/12},--ex
-  {slot=4,odds=26/108},--holo
+  {slot=4,remaining=true,odds=1/3},--holo
   {slot=5}--rare
  },num=1},
 }]]
@@ -822,7 +823,7 @@ setData={
   {slot=2,odds=1/72},--gold
   {slot=3,odds=1/108},--secret
   {slot=4,odds=1/12},--ex
-  {slot=5,odds=49/216},--holo
+  {slot=5,remaining=true,odds=1/3},--holo
   {slot=6}--rare
  },num=1},
 }]]
@@ -862,7 +863,7 @@ setData={
  {rates={
   {slot=2,odds=1/72},--gold
   {slot=3,odds=1/12},--ex
-  {slot=4,odds=17/72},--holo
+  {slot=4,remaining=true,odds=1/3},--holo
   {slot=5}--rare
  },num=1},
 }]]
@@ -901,7 +902,7 @@ setData={
 --premium
  {rates={
   {slot=2,odds=1/12},--ex
-  {slot=3,odds=1/4},--holo
+  {slot=3,remaining=true,odds=1/3},--holo
   {slot=4}--rare
  },num=1},
 --reverse
@@ -959,7 +960,7 @@ setData={
   {slot=2,odds=1/72},--gold
   {slot=3,odds=1/36},--secret
   {slot=4,odds=1/12},--ex
-  {slot=5,odds=15/72},--holo
+  {slot=5,remaining=true,odds=1/3},--holo
   {slot=6}--rare
  },num=1},
 --reverse
@@ -1004,7 +1005,7 @@ setData={
  {rates={
   {slot=2,odds=1/72},--gold
   {slot=3,odds=1/36},--ex
-  {slot=4,odds=21/72},--holo
+  {slot=4,remaining=true,odds=1/3},--holo
   {slot=5}--rare
  },num=1},
 }]]
@@ -1044,7 +1045,7 @@ setData={
  {rates={
   {slot=2,odds=1/72},--gold
   {slot=3,odds=1/12},--ex
-  {slot=4,odds=17/72},--holo
+  {slot=4,remaining=true,odds=1/3},--holo
   {slot=5}--rare
  },num=1},
 }]]
@@ -1094,7 +1095,7 @@ setData={
  {rates={
   {slot=2,odds=1/72},--star
   {slot=3,odds=1/36},--ex
-  {slot=4,odds=21/72},--holo
+  {slot=4,remaining=true,odds=1/3},--holo
   {slot=5}--rare
  },num=1},
 --reverse
@@ -1147,7 +1148,7 @@ setData={
  {rates={
   {slot=2,odds=1/72},--gold
   {slot=3,odds=1/12},--ex
-  {slot=4,odds=17/72},--holo
+  {slot=4,remaining=true,odds=1/3},--holo
   {slot=5}--rare
  },num=1},
 }]]
@@ -1187,7 +1188,7 @@ setData={
  {rates={
   {slot=2,odds=1/72},--gold
   {slot=3,odds=1/12},--ex
-  {slot=4,odds=17/72},--holo
+  {slot=4,remaining=true,odds=1/3},--holo
   {slot=5}--rare
  },num=1},
 }]]
@@ -1229,7 +1230,7 @@ setData={
  {rates={
   {slot=2,odds=1/36},--star
   {slot=3,odds=1/12},--ex
-  {slot=4,odds=8/36},--holo
+  {slot=4,remaining=true,odds=1/3},--holo
   {slot=5}--rare
  },num=1},
 --reverse
@@ -1250,7 +1251,7 @@ setData={
 {setName="DP Black Star Promos",--40
  size=56,
  setID="dpp",
- custom={mesh=TINMESH,
+ custom={mesh=SQUAREBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/966473786650425856/ED85BF6CAFC88EE1717A1BE3F68E8B760E1832DA/"
  }},
 {setName="Diamond & Pearl",
@@ -1287,7 +1288,7 @@ setData={
 --rare
  {rates={
   {slot=2,odds=1/36},--lvx
-  {slot=3,odds=11/36},--holo
+  {slot=3,remaining=true,odds=1/3},--holo
   {slot=4}--rare
  },num=1},
 --energy
@@ -1332,7 +1333,7 @@ setData={
  {rates={
   {slot=2,odds=1/72},--secret
   {slot=3,odds=1/36},--lvx
-  {slot=4,odds=21/72},--holo
+  {slot=4,remaining=true,odds=1/3},--holo
   {slot=5}--rare
  },num=1},
 }]]
@@ -1377,7 +1378,7 @@ setData={
 --rare
  {rates={
   {slot=2,odds=1/36},--lvx
-  {slot=3,odds=11/36},--holo
+  {slot=3,remaining=true,odds=1/3},--holo
   {slot=4}--rare
  },num=1},
 }]]
@@ -1414,7 +1415,7 @@ setData={
 --rare
  {rates={
   {slot=2,odds=1/36},--lvx
-  {slot=3,odds=11/36},--holo
+  {slot=3,remaining=true,odds=1/3},--holo
   {slot=4}--rare
  },num=1},
 }]]
@@ -1459,7 +1460,7 @@ setData={
 --rare
  {rates={
   {slot=2,odds=1/36},--lvx
-  {slot=3,odds=11/36},--holo
+  {slot=3,remaining=true,odds=1/3},--holo
   {slot=4}--rare
  },num=1},
 }]]
@@ -1496,7 +1497,7 @@ setData={
 --rare
  {rates={
   {slot=2,odds=1/12},--lvx
-  {slot=3,odds=1/4},--holo
+  {slot=3,remaining=true,odds=1/3},--holo
   {slot=4}--rare
  },num=1},
 }]]
@@ -1546,7 +1547,7 @@ setData={
  {rates={
   {slot=2,odds=1/36},--secret
   {slot=3,odds=1/12},--lvx
-  {slot=4,odds=2/9},--holo
+  {slot=4,remaining=true,odds=1/3},--holo
   {slot=5}--rare
  },num=1},
 --reverse
@@ -1593,7 +1594,7 @@ setData={
  {rates={
   {slot=2,odds=1/36},--secret
   {slot=3,odds=1/12},--lvx
-  {slot=4,odds=2/9},--holo
+  {slot=4,remaining=true,odds=1/3},--holo
   {slot=5}--rare
  },num=1},
 --reverse
@@ -1648,7 +1649,7 @@ setData={
  {rates={
   {slot=2,odds=1/36},--secret
   {slot=3,odds=1/12},--lvx
-  {slot=4,odds=2/9},--holo
+  {slot=4,remaining=true,odds=1/3},--holo
   {slot=5}--rare
  },num=1},
 --reverse
@@ -1695,7 +1696,7 @@ setData={
  {rates={
   {slot=2,odds=1/36},--secret
   {slot=3,odds=1/9},--lvx
-  {slot=4,odds=7/36},--holo
+  {slot=4,remaining=true,odds=1/3},--holo
   {slot=5}--rare
  },num=1},
 --reverse
@@ -1741,7 +1742,7 @@ setData={
 --rare
  {rates={
   {slot=2,odds=1/12},--lvx
-  {slot=3,odds=1/4},--holo
+  {slot=3,remaining=true,odds=1/3},--holo
   {slot=4}--rare
  },num=1},
 --reverse
@@ -1756,14 +1757,14 @@ setData={
  size=16,
  setID="ru1",
  custom={
-  mesh=TINMESH,
+  mesh=SQUAREBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/968725783503126946/4B2735F4DF641BEC1978F512488195F23B0EBC12/"
  }},
 {setName="HGSS Black Star Promos",
  size=25,
  setID="hsp",
  custom={
-  mesh=TINMESH,
+  mesh=SQUAREBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/966473467911533530/AFDEFB276D510D093106981B8DD73DD369BC1367/"
  }},
 {setName="HeartGold & SoulSilver",
@@ -1808,7 +1809,7 @@ setData={
   {slot=2,odds=1/108},--secret
   {slot=3,odds=1/36},--shiny
   {slot=4,odds=1/18},--legend
-  {slot=5,odds=13/54},--holo
+  {slot=5,remaining=true,odds=1/3},--holo
   {slot=6}--rare
  },num=1},
 --reverse
@@ -1816,7 +1817,7 @@ setData={
   {slot=7,odds=1/6},--prime
   {slot=8}--reverse
  },num=1},
---energy NOTE:implemnted wrong on purpose,the energy can replace any common.
+--energy
  {rates = {
   {slot=9,odds=1/4},--energy
   {slot=10}--common
@@ -1860,7 +1861,7 @@ setData={
  {rates={
   {slot=2,odds=1/108},--secret
   {slot=3,odds=1/12},--legend
-  {slot=4,odds=10/54},--holo
+  {slot=4,remaining=true,odds=1/3},--holo
   {slot=5}--rare
  },num=1},
 --reverse
@@ -1907,7 +1908,7 @@ setData={
  {rates={
   {slot=2,odds=1/108},--secret
   {slot=3,odds=1/18},--legend
-  {slot=4,odds=29/108},--holo
+  {slot=4,remaining=true,odds=1/3},--holo
   {slot=5}--rare
  },num=1},
 --reverse
@@ -1954,7 +1955,7 @@ setData={
  {rates={
   {slot=2,odds=1/108},--secret
   {slot=3,odds=1/18},--legend
-  {slot=4,odds=29/108},--holo
+  {slot=4,remaining=true,odds=1/3},--holo
   {slot=5}--rare
  },num=1},
 --reverse
@@ -2012,7 +2013,7 @@ setData={
  size=101,
  setID="bwp",
 custom={
-  mesh=TINMESH,
+  mesh=SQUAREBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/966473467903509409/E901F00A9DE4C845E1CEE4D1B62EAEF3FD67351E/",
   normal=""
   }},--63
@@ -2053,7 +2054,7 @@ custom={
  {rates={
   {slot=2,odds=1/72},--secret
   {slot=3,odds=1/36},--ultra
-  {slot=4,odds=21/72},--holo
+  {slot=4,remaining=true,odds=1/3},--holo
   {slot=5}--rare
  },num=1},
 --common
@@ -2095,7 +2096,7 @@ custom={
 --rare
  {rates={
   {slot=2,odds=1/36},--ultra
-  {slot=3,odds=11/36},--holo
+  {slot=3,remaining=true,odds=1/3},--holo
   {slot=4}--rare
  },num=1},
 }]]
@@ -2135,7 +2136,7 @@ custom={
  {rates={
   {slot=2,odds=1/72},--secret
   {slot=3,odds=1/18},--ultra
-  {slot=4,odds=19/72},--holo
+  {slot=4,remaining=true,odds=1/3},--holo
   {slot=5}--rare
  },num=1}
 }]]
@@ -2178,7 +2179,7 @@ custom={
   {slot=2,odds=1/72},--secret
   {slot=3,odds=1/36},--ultra
   {slot=4,odds=1/18},--ex
-  {slot=5,odds=17/72},--holo
+  {slot=5,remaining=true,odds=1/3},--holo
   {slot=6}--rare
  },num=1}
 }]]
@@ -2221,7 +2222,7 @@ custom={
   {slot=2,odds=1/72},--secret
   {slot=3,odds=1/36},--ultra
   {slot=4,odds=1/18},--ex
-  {slot=5,odds=17/72},--holo
+  {slot=5,remaining=true,odds=1/3},--holo
   {slot=6}--rare
  },num=1}
 }]]
@@ -2264,12 +2265,722 @@ custom={
   {slot=2,odds=1/72},--secret
   {slot=3,odds=1/36},--ultra
   {slot=4,odds=1/18},--ex
-  {slot=5,odds=17/72},--holo
+  {slot=5,remaining=true,odds=1/3},--holo
   {slot=6}--rare
  },num=1}
 }]]
  }},
-{setName="XY Black Star Promos", size=216,setID="xyp",custom={mesh=TINMESH,diffuse="http://cloud-3.steamusercontent.com/ugc/966473053148158881/78D6C18B73964ADE74C7904E5C4B9E2500744C04/",normal=""}},
+{setName="Dragon Vault",
+ size=21,
+ setID="dv1",
+ custom={
+  mesh=BLISTERMESH,
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1670239067234150993/599C07557270AC2171B79D3E32FA5763C2EF1D79/"
+ },
+ packData={
+  art={
+   "http://cloud-3.steamusercontent.com/ugc/1670239067234179496/200AAC5664314AC94E0CE812A354CB10E3D65BAD/",
+   "http://cloud-3.steamusercontent.com/ugc/1670239067234180169/ACC1AC53ECB73C4356E4E61E635E156AE12A251E/",
+   "http://cloud-3.steamusercontent.com/ugc/1670239067234180975/363A5DE1EE47C35CDF9433BA22F26751C3250E91/",
+   "http://cloud-3.steamusercontent.com/ugc/1670239067234181489/435EDFF34FDC909CC5E390C1C054DF9FB473AE9B/",
+   "http://cloud-3.steamusercontent.com/ugc/1670239067234182038/93E79A7B77090AE4B0F7A73E26159E30C6C0CB2B/",
+  },
+  dropSlots=[[{
+--1 secret --randomly positioned in real packs
+   {cards={21},num=0},
+--2 holo
+   {cards={{1,20}},num=4,size=20},
+  }]],
+  pullRates=[[{
+--rare
+   {rates={
+    {slot=1,odds=1/72},--secret
+    {slot=2}--holo
+   },num=1},
+  }]]
+ }},
+{setName="Boundries Crossed",
+ size=153,
+ setID="bw7",
+ custom=
+  {mesh=MODERNBOXMESH,
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1030706086619689491/CBC8DE00F646D64A03A828CFAFA8DD1C6C3337A1/"
+ },
+ packData={
+  art={
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123905669/6B87FD766C379628B7BAEE46FBDBF289D6CA50B1/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123906211/76676C3D0FD9C2DB4CFCD8CE46FBA87F98B89D6D/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123906639/CDDE967E1AB6D628C83514D5BEE66A02E2EB1522/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123907161/1CDCF027860B353EED3ADA3E449F8AB659442F0B/",
+  },
+  dropSlots=[[{
+--1 uncommon
+   {cards={76,79,87,88,93,95,96,97,98,105,107,109,114,117,119,121,124,127,129,130,133,134,136,2,8,12,16,19,25,28,30,34,37,38,40,43,46,52,58,62,65,68,73},num=3},
+--2 secret
+   {cards={151,152,153,150},num=0},
+--3 ultra
+   {cards={141,142,143,144,145,146,147,148,149},num=0},
+--4 ex
+   {cards={89,101,103,9,49,67},num=0},
+--5 holo
+   {cards={77,81,85,91,94,99,108,122,3,6,13,20,26,31,41,47,54,57,63,74},num=0},
+--6 rare
+   {cards={100,102,125,126,4,10,15,17,22,23,35,45,48,60,66,69,71},num=0},
+--7 ace
+   {cards={137,138,139,140},num=0},
+--8 reverse
+   {cards={76,79,87,88,93,95,96,97,98,105,107,109,114,117,119,121,124,127,129,130,133,134,136,2,8,12,16,19,25,28,30,34,37,38,40,43,46,52,58,62,65,68,73,77,81,85,91,94,99,108,122,3,6,13,20,26,31,41,47,54,57,63,74,78,80,82,83,84,86,90,92,104,106,110,111,112,113,115,116,118,120,123,128,131,132,135,1,5,7,11,14,18,21,24,27,29,32,33,36,39,42,44,50,51,53,55,56,59,61,64,70,72,75,100,102,125,126,4,10,15,17,22,23,35,45,48,60,66,69,71},num=0},
+--9 common
+   {cards={78,80,82,83,84,86,90,92,104,106,110,111,112,113,115,116,118,120,123,128,131,132,135,1,5,7,11,14,18,21,24,27,29,32,33,36,39,42,44,50,51,53,55,56,59,61,64,70,72,75},num=5},
+  }]],
+  pullRates=[[{
+--rare
+ {rates={
+  {slot=2,odds=1/72},--secret
+  {slot=3,odds=1/36},--ultra
+  {slot=4,odds=1/18},--ex
+  {slot=5,remaining=true,odds=1/3},--holo
+  {slot=6}--rare
+ },num=1},
+ {rates={
+  {slot=7,odds=1/18},--ace
+  {slot=8}--reverse
+ },num=1}
+}]]
+ }},
+{setName="Plasma Storm",
+ size=138,
+ setID="bw8",
+ custom=
+  {mesh=MODERNBOXMESH,
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1030706251252245800/5669F2FFCD916D7D2534E200FAABABB1251A8707/"
+ },
+ packData={
+  art={
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123909767/6B23D81C6DCF224F97C9FE5878F9E1064DD3EE9D/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123910315/80C69E9736C6362926F1DC549ADBEF574D5997E5/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123910852/EAC45F6EAA8BC2E36686F755B0039B371E0E3134/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123911476/D99281E681F17A1D00AE731C701C5831B954A287/",
+  },
+  dropSlots=[[{
+--1 uncommon
+   {cards={77,80,89,91,92,103,106,112,117,118,119,120,121,122,123,124,125,126,127,2,9,11,13,16,20,22,23,27,30,36,44,45,49,51,54,57,60,63,69,72,73,74},num=3},
+--2 secret
+   {cards={136,137,138},num=0},
+--3 ultra
+   {cards={131,132,133,134,135},num=0},
+--4 ex
+   {cards={93,95,96,108,14,18,25,48},num=0},
+--5 holo
+   {cards={78,90,104,17,34,46,55,58,61,66},num=0},
+--6 rare
+   {cards={81,84,86,87,94,98,100,101,107,113,114,116,3,5,7,10,28,31,33,37,39,41,47,62,67,70},num=0},
+--7 ace
+   {cards={128,129,130},num=0},
+--8 reverse
+   {cards={76,79,82,83,85,88,97,99,102,105,109,110,111,115,1,4,6,8,12,15,19,21,24,26,29,32,35,38,40,42,43,50,52,53,56,59,64,65,68,71,75,77,80,89,91,92,103,106,112,117,118,119,120,121,122,123,124,125,126,127,2,9,11,13,16,20,22,23,27,30,36,44,45,49,51,54,57,60,63,69,72,73,74,78,90,104,17,34,46,55,58,61,66,81,84,86,87,94,98,100,101,107,113,114,116,3,5,7,10,28,31,33,37,39,41,47,62,67,70},num=0},
+--9 common
+   {cards={76,79,82,83,85,88,97,99,102,105,109,110,111,115,1,4,6,8,12,15,19,21,24,26,29,32,35,38,40,42,43,50,52,53,56,59,64,65,68,71,75},num=5},
+  }]],
+  pullRates=[[{
+--rare
+ {rates={
+  {slot=2,odds=1/72},--secret
+  {slot=3,odds=1/36},--ultra
+  {slot=4,odds=1/18},--ex
+  {slot=5,remaining=true,odds=1/3},--holo
+  {slot=6}--rare
+ },num=1},
+ {rates={
+  {slot=7,odds=1/18},--ace
+  {slot=8}--reverse
+ },num=1}
+}]]
+ }},
+{setName="Plasma Freeze",
+ size=122,
+ setID="bw9",
+ custom=
+  {mesh=MODERNBOXMESH,
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1030706251252244163/8F8AF582A8A331B88347706D62748B6725CC2E11/"
+ },
+ packData={
+  art={
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123913552/F0A44C00C3195E803A3DC51FABA841C8A88253D0/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123913994/B8C171175EE6D4575F47C340BEB1D04FFC9EF3C5/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123914479/5A2F52568415EC3199D018D75E4928E51916653C/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123914864/8AF4649EA8CFE6E3163BFBFE6AF98B08C045EF04/",
+  },
+  dropSlots=[[{
+--1 uncommon
+   {cards={77,80,82,92,93,96,99,100,102,103,104,105,106,2,4,7,12,15,19,20,25,28,30,34,36,41,44,48,51,61,69,74},num=3},
+--2 secret
+   {cards={117,118,119,120,121,122},num=0},
+--3 ultra
+   {cards={109,110,111,112,113,114,115,116},num=0},
+--4 ex
+   {cards={85,86,98,13,38,53},num=0},
+--5 holo
+   {cards={78,83,84,101,8,16,17,31,33,39,52,56,64,67},num=0},
+--6 rare
+   {cards={79,88,94,97,3,5,10,11,22,23,26,29,42,46,47,49,57,58,63,66,70,73},num=0},
+--7 ace
+   {cards={107,108},num=0},
+--8 reverse
+   {cards={76,81,87,89,90,91,95,1,6,9,14,18,21,24,27,32,35,37,40,43,45,50,54,55,59,60,62,65,68,71,72,75,77,80,82,92,93,96,99,100,102,103,104,105,106,2,4,7,12,15,19,20,25,28,30,34,36,41,44,48,51,61,69,74,78,83,84,101,8,16,17,31,33,39,52,56,64,67,79,88,94,97,3,5,10,11,22,23,26,29,42,46,47,49,57,58,63,66,70,73},num=0},
+--9 common
+   {cards={76,81,87,89,90,91,95,1,6,9,14,18,21,24,27,32,35,37,40,43,45,50,54,55,59,60,62,65,68,71,72,75},num=5},
+  }]],
+  pullRates=[[{
+--rare
+ {rates={
+  {slot=2,odds=1/72},--secret
+  {slot=3,odds=1/36},--ultra
+  {slot=4,odds=1/18},--ex
+  {slot=5,remaining=true,odds=1/3},--holo
+  {slot=6}--rare
+ },num=1},
+ {rates={
+  {slot=7,odds=1/18},--ace
+  {slot=8}--reverse
+ },num=1}
+}]]
+ }},
+{setName="Plasma Blast",
+ size=105,
+ setID="bw10",
+ custom=
+  {mesh=MODERNBOXMESH,
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1030706251252006225/701F5CCDA3435A3E3D9AFAA4B4E58E44D6964D76/"
+ },
+ packData={
+  art={
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123916519/AEB3BA5A5352C48BA36AAC1827F8EB32F8694053/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123916966/E31508FC2902DF1927E58B5D134B722FB2A248B5/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123917476/6E31C6068BF55A5FE99DBD50382362E87885669E/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123917899/F2A9C1F6A5536BC0A2691CDFF32D47B6A1AF6DB2/",
+  },
+  dropSlots=[[{
+--1 uncommon
+   {cards={76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,3,5,15,19,22,24,26,27,32,40,43,48,53,58,63,68,73},num=3},
+--2 secret
+   {cards={102,103,104,105},num=0},
+--3 ultra
+   {cards={96,97,98,99,100,101},num=0},
+--4 ex
+   {cards={9,11,30,60,65,66},num=0},
+--5 holo
+   {cards={16,33,37,41,46,49,54,56,64,69,74},num=0},
+--6 rare
+   {cards={2,4,8,10,13,20,23,28,35,36,38,44,50,59,61},num=0},
+--7 ace
+   {cards={92,93,94,95},num=0},
+--8 reverse
+   {cards={76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,3,5,15,19,22,24,26,27,32,40,43,48,53,58,63,68,73,1,6,7,12,14,17,18,21,25,29,31,34,39,42,45,47,51,52,55,57,62,67,70,71,72,75,2,4,8,10,13,20,23,28,35,36,38,44,50,59,61,16,33,37,41,46,49,54,56,64,69,74},num=0},
+--9 common
+   {cards={1,6,7,12,14,17,18,21,25,29,31,34,39,42,45,47,51,52,55,57,62,67,70,71,72,75},num=5},
+  }]],
+  pullRates=[[{
+--rare
+ {rates={
+  {slot=2,odds=1/72},--secret
+  {slot=3,odds=1/36},--ultra
+  {slot=4,odds=1/18},--ex
+  {slot=5,remaining=true,odds=1/3},--holo
+  {slot=6}--rare
+ },num=1},
+ {rates={
+  {slot=7,odds=1/18},--ace
+  {slot=8}--reverse
+ },num=1}
+}]]
+ }},
+{setName="Legendary Treasures",
+ size=140,
+ setID="bw11",
+ custom=
+  {mesh=MODERNBOXMESH,
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1030706251252186507/356FEB93D7164E472DEFE7FF33FECB6FBE8093AC/"
+ },
+ packData={
+  art={
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123919725/11ED5EF47DCA08BBA80BD46E594ABC8BB611B5F1/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123920092/52D1725A3D92083147CDB70F4D28AE22BB3E4901/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123920504/E38235F2F852553D356CF7F02F48F943549B8CF6/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123920853/59C6971540E7C9009E4B6F476C073403D672B0E3/",
+  },
+  dropSlots=[[{
+--1 uncommon
+   {cards={79,83,87,92,95,98,106,107,109,110,111,112,113,3,4,5,7,11,14,18,26,34,38,41,47,48,49,60,61,65,71,75},num=2},
+--2 RC common
+   {cards={116,117,120,123,124,130,131,132,133,135},num=1},
+--3 RC EX
+   {cards={126},num=0},
+--4 RC FA
+   {cards={136,137,138,139,140},num=0},
+--5 RC unc
+   {cards={118,119,121,122,125,127,128,129,134},num=0},
+--6 gold
+   {cards={114,115},num=0},
+--7 EX
+   {cards={77,82,88,100,101,102,24,29,44,45,52,54},num=0},
+--8 rare
+   {cards={76,81,86,2,21,31,35,36,42,56,58,63},num=0},
+--9 holo
+   {cards={78,80,84,85,90,91,93,96,99,105,108,8,12,15,16,19,22,23,27,28,32,39,43,46,50,51,53,66,68,72},num=0},
+--10 reverse
+   {cards={76,81,86,2,21,31,35,36,42,56,58,63,78,80,84,85,90,91,93,96,99,105,108,8,12,15,16,19,22,23,27,28,32,39,43,46,50,51,53,66,68,72,79,83,87,92,95,98,106,107,109,110,111,112,113,3,4,5,7,11,14,18,26,34,38,41,47,48,49,60,61,65,71,75,89,94,97,103,104,1,6,9,10,13,17,20,25,30,33,37,40,55,57,59,62,64,67,69,70,73,74},num=0},
+--11 common
+   {cards={89,94,97,103,104,1,6,9,10,13,17,20,25,30,33,37,40,55,57,59,62,64,67,69,70,73,74},num=4},
+  }]],
+  pullRates=[[{
+--RC
+ {rates={
+  {slot=3,odds=1/29},--RC EX
+  {slot=4,odds=1/4},--RC FA
+  {slot=5}--unc
+ },num=1},
+--rare
+ {rates={
+  {slot=6,odds=1/72},--gold
+  {slot=7,odds=1/7},--EX
+  {slot=8}--rare
+ },num=1},
+--reverse
+ {rates={
+  {slot=9,odds=1/2},--holo
+  {slot=10}--reverse
+ },num=1}
+}]]
+ }},
+{setName="XY Black Star Promos",
+ size=216,
+ setID="xyp",
+ custom={
+  mesh=SQUAREBOXMESH,
+  diffuse="http://cloud-3.steamusercontent.com/ugc/966473053148158881/78D6C18B73964ADE74C7904E5C4B9E2500744C04/",
+  normal=""
+ }},--77
+{setName="Kalos Starter Set",
+ size=39,
+ setID="xy0",
+ custom={
+  mesh=SQUAREBOXMESH,
+  diffuse="http://cloud-3.steamusercontent.com/ugc/966473053148163964/B19E66B0F50076C0625523C67B353BEA1E1B7D85/",
+  normal=""
+ }},
+{setName="XY",
+ size=146,
+ setID="xy1",
+ custom=
+  {mesh=MODERNBOXMESH,
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1030706397109029279/9C4C896ECABC71761CD577226F790092368187DB/"
+ },
+ packData={
+  art={
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123923570/510E0D0E59007660B0A57B413DC373BF9063E700/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123924326/0FA1599BD751C7522DBABF6BC3C06972676342ED/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123924969/FB55DB137B3319CA57B4279CC4DAAE831B70D4CD/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123925654/4BC13BE2CCA2AA3B4355AFE414AE4FAD06C4DC0A/",
+  },
+  dropSlots=[[{
+--1 uncommon
+   {cards={121,122,123,124,125,126,127,128,129,130,131,63,64,66,68,70,74,84,91,99,101,105,109,112,115,116,117,118,119,120,4,7,8,9,13,16,25,27,36,40,45,52},num=3},
+--2 FA
+   {cards={141,142,143,144,145,146},num=0},
+--3 ex
+   {cards={79,80,97,1,2,29,30,46},num=0},
+--4 holo
+   {cards={62,73,86,93,95,114,14,17,19,26,28,35,41,43,55,57},num=0},
+--5 rare
+   {cards={61,67,71,76,77,78,82,85,89,90,96,100,103,107,110,5,11,21,23,32,34,38,48,50,53,59},num=0},
+--6 reverse
+   {cards={121,122,123,124,125,126,127,128,129,130,131,63,64,66,68,70,74,84,91,99,101,105,109,112,115,116,117,118,119,120,4,7,8,9,13,16,25,27,36,40,45,52,65,69,72,75,81,83,87,88,92,94,98,102,104,106,108,111,113,3,6,10,12,15,18,20,22,24,31,33,37,39,42,44,47,49,51,54,56,58,60,61,67,71,76,77,78,82,85,89,90,96,100,103,107,110,5,11,21,23,32,34,38,48,50,53,59,62,73,86,93,95,114,14,17,19,26,28,35,41,43,55,57},num=1},
+--7 common
+   {cards={65,69,72,75,81,83,87,88,92,94,98,102,104,106,108,111,113,3,6,10,12,15,18,20,22,24,31,33,37,39,42,44,47,49,51,54,56,58,60},num=4},
+--8 energy
+   {cards={132,133,134,135,136,137,138,139,140},num=0,energy=true},
+  }]],
+  pullRates=[[{
+--rare
+ {rates={
+  {slot=2,odds=1/36},--ultra
+  {slot=3,odds=1/18},--ex
+  {slot=4,remaining=true,odds=1/3},--holo
+  {slot=5}--rare
+ },num=1},
+--energy
+ {rates={
+  {slot=8,odds=1/2},--energy
+  {slot=7}--common
+ },num=1},
+}]]
+ }},
+{setName="Flashfire",
+ size=110,
+ setID="xy2",
+ custom=
+  {mesh=MODERNBOXMESH,
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1030706397109119887/02FAA069D6277C790F05F1A465596512678D5A83/"
+ },
+ packData={
+  art={
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123928039/BB40020A94ECD043454AEB89A4F9A58442FCB901/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123928604/FFE53438DA82B2976F4D77BE06AA4CC893E8B817/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123929026/BD060F902B7B971FAC8D0FB1C28B77ACB354615C/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123929583/5715A37E097CEFCD3A7B2325E91FFB731DF8AF5B/",
+  },
+  dropSlots=[[{
+--1 uncommon
+   {cards={65,73,76,83,87,88,90,91,92,93,94,95,96,97,98,99,100,2,6,9,10,15,16,17,25,27,31,33,39,46,50,57},num=3},
+--2 secret
+   {cards={108,109,110},num=0},
+--3 FA
+   {cards={101,102,103,104,105,106,107},num=0},
+--4 ex
+   {cards={69,78,79,11,12,13,35,41},num=0},
+--5 holo
+   {cards={66,68,70,74,7,20,23,40},num=0},
+--6 rare
+   {cards={61,64,71,77,80,82,85,3,21,26,29,34,37,43,47,49,52,55,59,60},num=0},
+--8 reverse
+   {cards={61,64,71,77,80,82,85,3,21,26,29,34,37,43,47,49,52,55,59,60,62,63,67,72,75,81,84,86,1,4,5,8,14,18,19,22,24,28,30,32,36,38,42,44,45,48,51,53,54,56,58,65,73,76,83,87,88,90,91,92,93,94,95,96,97,98,99,100,2,6,9,10,15,16,17,25,27,31,33,39,46,50,57,66,68,70,74,7,20,23,40},num=1},
+--9 common
+   {cards={62,63,67,72,75,81,84,86,1,4,5,8,14,18,19,22,24,28,30,32,36,38,42,44,45,48,51,53,54,56,58},num=5},
+  }]],
+  pullRates=[[{
+--rare
+ {rates={
+  {slot=2,odds=1/72},--secret
+  {slot=3,odds=1/36},--ultra
+  {slot=4,odds=1/18},--ex
+  {slot=5,remaining=true,odds=1/3},--holo
+  {slot=6}--rare
+ },num=1},
+}]]
+ }},
+{setName="Furious Fists",
+ size=114,
+ setID="xy3",
+ custom=
+  {mesh=MODERNBOXMESH,
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1030706468201494869/F06F4D8BE4CB307672B755D7A1A2285E6962F660/"
+ },
+ packData={
+  art={
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123932012/910FD9942CBA5C0B06576E173B33C272432469EF/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123932465/8E60AB2FD1CD9EE126B36D9E2DB4509335986DBF/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123932856/8996C68B6392C89BA50E06B5EC58795BF8A82E49/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123933316/2D59921A6989A6C3118978992120B2D285FB980C/",
+  },
+  dropSlots=[[{
+--1 uncommon
+   {cards={62,68,72,74,76,80,83,86,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,2,9,13,16,25,28,34,40,45,47,48,49,58,60},num=3},
+--2 secret
+   {cards={113,114},num=0},
+--3 FA
+   {cards={106,107,108,109,110,111,112},num=0},
+--4 ex
+   {cards={65,75,4,5,20,54,55},num=0},
+--5 holo
+   {cards={64,78,84,3,14,17,24,46,59},num=0},
+--6 rare
+   {cards={63,66,69,73,77,87,7,11,18,19,22,26,30,33,36,37,41,43,50,52},num=0},
+--8 reverse
+   {cards={61,67,70,71,79,81,82,85,88,1,6,8,10,12,15,21,23,27,29,31,32,35,38,39,42,44,51,53,57,62,68,72,74,76,80,83,86,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,2,9,13,16,25,28,34,40,45,47,48,49,58,60,63,66,69,73,77,87,7,11,18,19,22,26,30,33,36,37,41,43,50,52,64,78,84,3,14,17,24,46,59},num=1},
+--9 common
+   {cards={61,67,70,71,79,81,82,85,88,1,6,8,10,12,15,21,23,27,29,31,32,35,38,39,42,44,51,53,57},num=5},
+  }]],
+  pullRates=[[{
+--rare
+ {rates={
+  {slot=2,odds=1/72},--secret
+  {slot=3,odds=1/36},--ultra
+  {slot=4,odds=1/18},--ex
+  {slot=5,remaining=true,odds=1/3},--holo
+  {slot=6}--rare
+ },num=1},
+}]]
+ }},
+{setName="Phantom Forces",
+ size=124,
+ setID="xy4",
+ custom=
+  {mesh=MODERNBOXMESH,
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1030706468201496427/352D807D0E8CD3D1BEF93DAC89C1BA7A55EDBA91/"
+ },
+ packData={
+  art={
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123935174/26D365C03C91E498F4521EDFBE267C55FEC7F496/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123935632/60AD75C06307C0D29924194C81F1EDEF85731CD5/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123936069/332BDC3765CBD7CF8611ABB0428D605BC64E556C/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123936569/902F159B1BE879AA5CD872B15855AFE03AB013D1/",
+  },
+  dropSlots=[[{
+--1 uncommon
+   {cards={68,75,78,81,84,86,92,93,94,95,96,97,98,101,102,103,104,105,106,107,108,109,110,111,112,113,114,6,9,14,16,19,33,37,43,50,58},num=3},
+--2 secret
+   {cards={122,123,124},num=0},
+--3 FA
+   {cards={121,115,116,117,118,119,120},num=0},
+--4 ex
+   {cards={63,66,69,23,24,35,36,59},num=0},
+--5 holo
+   {cards={64,71,73,76,79,88,99,100,12,17,31,44,46,51},num=0},
+--6 rare
+   {cards={62,65,83,87,90,2,4,7,10,21,26,28,34,39,41,48,53,55,56},num=0},
+--8 reverse
+   {cards={68,75,78,81,84,86,92,93,94,95,96,97,98,101,102,103,104,105,106,107,108,109,110,111,112,113,114,6,9,14,16,19,33,37,43,50,58,61,70,72,74,77,80,82,85,89,91,1,3,5,8,11,13,15,18,20,22,27,29,30,32,38,40,42,45,47,49,52,54,57,60,62,65,83,87,90,2,4,7,10,21,26,28,34,39,41,48,53,55,56,64,71,73,76,79,88,99,100,12,17,31,44,46,51},num=1},
+--9 common
+   {cards={61,70,72,74,77,80,82,85,89,91,1,3,5,8,11,13,15,18,20,22,27,29,30,32,38,40,42,45,47,49,52,54,57,60},num=5},
+  }]],
+  pullRates=[[{
+--rare
+ {rates={
+  {slot=2,odds=1/72},--secret
+  {slot=3,odds=1/36},--ultra
+  {slot=4,odds=1/18},--ex
+  {slot=5,remaining=true,odds=1/3},--holo
+  {slot=6}--rare
+ },num=1},
+}]]
+ }},
+{setName="Primal Clash",
+ size=164,
+ setID="xy5",
+ custom=
+  {mesh=MODERNBOXMESH,
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1030706468201497625/8CF3E1D14D1F196AB763780035DC674BBEC59668/"
+ },
+ packData={
+  art={
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123939009/B332E6DBA0539FAC3F2CEDFBB8309ABE97E64C9D/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123939537/71E69B7C38134F588182546B61AEACFF67E57F65/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123939998/5862BDD24094032223CBAF07D6FE4B8208D4D726/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123940461/5AE3E1CF73F0A239B3D6D2E85D21FA2BCD2DD156/",
+  },
+  dropSlots=[[{
+--1 uncommon
+   {cards={2,7,11,14,23,26,27,31,34,40,47,51,58,60,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,63,67,68,71,75,99,101,109,112,117,118,119},num=3},
+--2 secret
+   {cards={161,162,163,164},num=0},
+--3 FA
+   {cards={145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160},num=0},
+--4 ex
+   {cards={19,29,38,54,55,85,86,91,93,94,105,106},num=0},
+--5 holo
+   {cards={9,12,28,36,44,50,56,61,65,77,80,88,92,97,100,104,108,110},num=0},
+--6 rare
+   {cards={3,5,8,16,21,24,35,37,41,48,52,53,64,69,72,73,76,81,84,90,95,96,103,107,114},num=0},
+--8 reverse
+   {cards={1,4,6,10,13,15,17,18,20,22,25,30,32,33,39,42,43,45,46,49,57,59,62,66,70,74,78,79,82,83,87,89,98,102,111,113,115,116,120,2,7,11,14,23,26,27,31,34,40,47,51,58,60,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,63,67,68,71,75,99,101,109,112,117,118,119,3,5,8,16,21,24,35,37,41,48,52,53,64,69,72,73,76,81,84,90,95,96,103,107,114,9,12,28,36,44,50,56,61,65,77,80,88,92,97,100,104,108,110},num=1},
+--9 common
+   {cards={1,4,6,10,13,15,17,18,20,22,25,30,32,33,39,42,43,45,46,49,57,59,62,66,70,74,78,79,82,83,87,89,98,102,111,113,115,116,120},num=5},
+  }]],
+  pullRates=[[{
+--rare
+ {rates={
+  {slot=2,odds=1/72},--secret
+  {slot=3,odds=1/36},--ultra
+  {slot=4,odds=1/18},--ex
+  {slot=5,remaining=true,odds=1/3},--holo
+  {slot=6}--rare
+ },num=1},
+}]]
+ }},
+{setName="Double Crisis",
+ size=34,
+ setID="dc1",
+ custom=
+  {mesh=BLISTERMESH,
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1670239067235925410/6046B505EB56839C2F534965D880B5D44A3005A1/"
+ }},
+{setName="Roaring Skies",
+ size=112,
+ setID="xy6",
+ custom=
+  {mesh=MODERNBOXMESH,
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1030706468201802017/CCA116ADAA5F580325DFCFF5BD1159BC81A2BD81/"
+ },
+ packData={
+  art={
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123942538/0D95AB7F7B415B958125D250F38D6181E7E728C8/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123943196/C9EA2985883F4D49D0416C873A8D350309AD3F21/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123943654/B990F219C0ABE84C5054FEFABF63BFB3F0385FB2/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123944147/F57E7545DC09981E524308A77C60DD30B04D98F0/",
+  },
+  dropSlots=[[{
+--1 uncommon
+   {cards={66,80,81,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,2,4,7,10,12,14,19,22,25,37,44,50,53,56},num=3},
+--2 secret
+   {cards={111,112},num=0},
+--3 FA
+   {cards={100,101,102,103,104,105,106,107,108,109,110},num=0},
+--4 ex
+   {cards={61,62,75,76,77,78,26,34,35,58,59,60},num=0},
+--5 holo
+   {cards={63,64,72,5,33,40,42,46,52,57},num=0},
+--6 rare
+   {cards={69,71,74,82,8,11,13,15,16,17,23,29,31,32,45,47,48,51},num=0},
+--8 reverse
+   {cards={65,67,68,70,73,79,83,1,3,6,9,18,20,21,24,27,28,30,36,38,39,41,43,49,54,55,63,64,72,5,33,40,42,46,52,57,66,80,81,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,2,4,7,10,12,14,19,22,25,37,44,50,53,56,69,71,74,82,8,11,13,15,16,17,23,29,31,32,45,47,48,51},num=1},
+--9 common
+   {cards={65,67,68,70,73,79,83,1,3,6,9,18,20,21,24,27,28,30,36,38,39,41,43,49,54,55},num=5},
+  }]],
+  pullRates=[[{
+--rare
+ {rates={
+  {slot=2,odds=1/111.11,flag=true},--secret
+  {slot=3,odds=1/18.8,flag=true},--FA
+  {slot=4,odds=1/9,flag=true},--EX
+  {slot=5,remaining=true,odds=1/3},--holo
+  {slot=6}--rare
+ },num=1},
+}]]
+ }},
+{setName="Ancient Origins",
+ size=100,
+ setID="xy7",
+ custom=
+  {mesh=MODERNBOXMESH,
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1030706468201803295/731E62F9C1CB889E5654AE2C785E8146B4B11927/"
+ },
+ packData={
+  art={
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123955569/902CCC8382A5D9D0238386BEEA7454ECE27C0D3A/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123956007/4386A9FCDB9899B0D388673171156241CF0BB750/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123956413/C6E87EAFE4561AF623DD35B852A40635D0E80C72/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123956815/F86548EEAD485928076AB71DD5A3BF932D5913F3/",
+  },
+  dropSlots=[[{
+--1 uncommon
+   {cards={65,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,2,4,6,10,13,22,29,44,48,53,56,59},num=3},
+--2 secret
+   {cards={96,97,98,99,100},num=0},
+--3 FA
+   {cards={84,85,86,87,88,89,90,91,92,93,94,95},num=0},
+--4 ex
+   {cards={68,7,8,25,27,28,36,37,42,43,57},num=0},
+--5 holo
+   {cards={67,12,15,17,21,26,54,60},num=0},
+--6 rare
+   {cards={66,3,11,14,18,20,24,33,35,40,49,50,51},num=0},
+--8 reverse
+   {cards={61,62,63,64,1,5,9,16,19,23,30,31,32,34,38,39,41,45,46,47,52,55,58,65,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,2,4,6,10,13,22,29,44,48,53,56,59,66,3,11,14,18,20,24,33,35,40,49,50,51,67,12,15,17,21,26,54,60},num=1},
+--9 common
+   {cards={61,62,63,64,1,5,9,16,19,23,30,31,32,34,38,39,41,45,46,47,52,55,58},num=5},
+  }]],
+  pullRates=[[{
+--rare
+ {rates={
+  {slot=2,odds=1/125,flag=true},--secret
+  {slot=3,odds=1/18,flag=true},--FA
+  {slot=4,odds=1/9,flag=true},--EX
+  {slot=5,remaining=true,odds=1/3},--holo
+  {slot=6}--rare
+ },num=1},
+}]]
+ }},
+{setName="BREAKthrough",
+ size=165,
+ setID="xy8",
+ custom=
+  {mesh=MODERNBOXMESH,
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1030706571718909580/F33E628154C8537D87A55B9F8630AEFBE9C67A73/"
+ },
+ packData={
+  art={
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123955569/902CCC8382A5D9D0238386BEEA7454ECE27C0D3A/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123956007/4386A9FCDB9899B0D388673171156241CF0BB750/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123956413/C6E87EAFE4561AF623DD35B852A40635D0E80C72/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123956815/F86548EEAD485928076AB71DD5A3BF932D5913F3/",
+  },
+  dropSlots=[[{
+--1 uncommon
+   {cards={67,69,72,74,76,81,88,99,102,110,118,122,126,133,134,135,136,137,138,139,140,141,142,143,144,145,146,148,149,150,151,152,153,3,10,14,17,19,26,28,30,37,44,47,53,56,57,59},num=3},
+--2 secret
+   {cards={164,165},num=0},
+--3 FA
+   {cards={154,155,156,157,158,159,160,161,162,163},num=0},
+--4 ex
+   {cards={61,62,63,64,21,22,34,35},num=0},
+--5 holo
+   {cards={66,82,84,85,91,94,107,111,11,15,20,33,38,54,55,60},num=0},
+--6 rare
+   {cards={70,78,87,96,97,103,106,112,117,120,123,127,128,130,2,6,24,40,42,45,49},num=0},
+--7 BREAK
+   {cards={79,92,104,113,12,50},num=0},
+--8 reverse
+   {cards={65,68,71,73,75,77,80,83,86,89,90,93,95,98,100,101,105,108,109,114,115,116,119,121,124,125,129,131,132,1,4,5,7,8,9,13,16,18,23,25,27,29,31,32,36,39,41,43,46,48,51,52,58,66,82,84,85,91,94,107,111,11,15,20,33,38,54,55,60,67,69,72,74,76,81,88,99,102,110,118,122,126,133,134,135,136,137,138,139,140,141,142,143,144,145,146,148,149,150,151,152,153,3,10,14,17,19,26,28,30,37,44,47,53,56,57,59,70,78,87,96,97,103,106,112,117,120,123,127,128,130,2,6,24,40,42,45,49},num=0},
+--9 common
+   {cards={65,68,71,73,75,77,80,83,86,89,90,93,95,98,100,101,105,108,109,114,115,116,119,121,124,125,129,131,132,1,4,5,7,8,9,13,16,18,23,25,27,29,31,32,36,39,41,43,46,48,51,52,58},num=5},
+  }]],
+  pullRates=[[{
+--rare
+ {rates={
+  {slot=2,odds=1/136.36,flag=true},--secret
+  {slot=3,odds=1/18.5,flag=true},--FA
+  {slot=4,odds=1/11.11,flag=true},--EX
+  {slot=5,remaining=true,odds=1/3},--holo
+  {slot=6}--rare
+ },num=1},
+--reverse
+ {rates={
+  {slot=7,odds=1/8.32,flagExclude=true},--break
+  {slot=8}--reverse
+ },num=1}
+}]]
+ }},
+{setName="BREAKpoint",
+ size=126,
+ setID="xy9",
+ custom=
+  {mesh=MODERNBOXMESH,
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1030706571718910900/D03FC43A4EFCCC0135C65072862E0E32FC9CAE7B/"
+ },
+ packData={
+  art={
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123959908/1B4597F342E000268762A03EBE207DDC724F5E19/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123960577/2C81044AE3205ACC736BA511402A79C7F43DF94A/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123961070/F7B66193E4A6400D55EFDDFFAE3C76DF01ADF91B/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123961574/F1FB362BD6FD591932E42C896ED56DC115B32C8B/",
+  },
+  dropSlots=[[{
+--1 uncommon
+   {cards={2,6,9,11,15,20,24,28,34,37,39,43,45,55,61,67,69,72,78,85,90,91,94,96,97,98,101,102,103,104,105,106,107,108,109,111,112,113,114,115,116},num=3},
+--2 secret
+   {cards={126},num=0},
+--3 FA
+   {cards={121,122,123,124,125,117,118,119,120},num=0},
+--4 ex
+   {cards={14,26,27,31,32,52,74,76,77,83,92},num=0},
+--5 holo
+   {cards={3,21,30,57,62,70,86},num=0},
+--6 rare
+   {cards={8,13,17,35,40,46,49,51,54,59,65,73,75,80,82,88},num=0},
+--7 BREAK
+   {cards={18,41,47,66,89},num=0},
+--8 reverse
+   {cards={1,4,5,7,10,12,16,19,22,23,25,29,33,36,38,42,44,48,50,53,56,58,60,63,64,68,71,79,81,84,87,93,95,2,6,9,11,15,20,24,28,34,37,39,43,45,55,61,67,69,72,78,85,90,91,94,96,97,98,101,102,103,104,105,106,107,108,109,111,112,113,114,115,116,3,21,30,57,62,70,86,8,13,17,35,40,46,49,51,54,59,65,73,75,80,82,88},num=0},
+--9 common
+   {cards={1,4,5,7,10,12,16,19,22,23,25,29,33,36,38,42,44,48,50,53,56,58,60,63,64,68,71,79,81,84,87,93,95},num=5},
+  }]],
+  pullRates=[[{
+--rare
+ {rates={
+  {slot=2,odds=1/166.66,flag=true},--secret
+  {slot=3,odds=1/18,flag=true},--FA
+  {slot=4,odds=1/10.5,flag=true},--EX
+  {slot=5,remaining=true,odds=1/3},--holo
+  {slot=6}--rare
+ },num=1},
+--reverse
+ {rates={
+  {slot=7,odds=1/10,flagExclude=true},--break
+  {slot=8}--reverse
+ },num=1}
+}]]
+ }},
 {setName="Generations",
  size=117,
  setID="g1",
@@ -2342,6 +3053,106 @@ custom={
  },num=1},
 }]]
  }},
+{setName="Fates Collide",
+ size=129,
+ setID="xy10",
+ custom=
+  {mesh=MODERNBOXMESH,
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1030706571718911789/BCCDD5753E72013744C51ED53AC113F3B50705A6/"
+ },
+ packData={
+  art={
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123967364/C961580D8CA348590D90E423217CD8FBA72B4F47/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123967857/AEF37A3475C045B3DECA99131650C11245FB3C8D/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123968313/99A8455244A1468577D0CB1E8FE0FD815676CD97/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123968839/28D8BF3F873F26587F0CA8E531E599B26B8452C1/",
+  },
+  dropSlots=[[{
+--1 uncommon
+   {cards={61,68,73,77,83,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,109,110,111,112,113,114,116,117,118,119,1,3,6,12,16,17,28,34,38,42,45,49,53},num=3},
+--2 secret
+   {cards={129},num=0},
+--3 FA
+   {cards={121,122,123,124,125,126,127,128,120},num=0},
+--4 ex
+   {cards={66,71,74,75,85,86,87,20,25,26,43,55,57},num=0},
+--5 holo
+   {cards={65,13,21,29,58},num=0},
+--6 rare
+   {cards={63,69,78,79,80,84,4,7,9,18,23,24,31,35,37,39,48,50,54,60},num=0},
+--7 BREAK
+   {cards={64,81,14,19,52},num=0},
+--8 reverse
+   {cards={61,68,73,77,83,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,109,110,111,112,113,114,116,117,118,119,1,3,6,12,16,17,28,34,38,42,45,49,53,62,67,70,72,76,82,88,89,2,5,8,10,11,15,22,27,30,32,33,36,40,41,46,47,51,59,63,69,78,79,80,84,4,7,9,18,23,24,31,35,37,39,48,50,54,60,65,13,21,29,58},num=0},
+--9 common
+   {cards={62,67,70,72,76,82,88,89,2,5,8,10,11,15,22,27,30,32,33,36,40,41,46,47,51,59},num=5},
+  }]],
+  pullRates=[[{
+--rare
+ {rates={
+  {slot=2,odds=1/102.85,flag=true},--secret
+  {slot=3,odds=1/18,flag=true},--FA
+  {slot=4,odds=1/7.6,flag=true},--EX
+  {slot=5,remaining=true,odds=1/3},--holo
+  {slot=6}--rare
+ },num=1},
+--reverse
+ {rates={
+  {slot=7,odds=1/10,flagExclude=true},--break
+  {slot=8}--reverse
+ },num=1}
+}]]
+ }},
+{setName="Steam Siege",
+ size=116,
+ setID="xy11",
+ custom=
+  {mesh=MODERNBOXMESH,
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1030706571718912615/294FA3405B7143F115C2D4E749AC7F7817F64C7B/"
+ },
+ packData={
+  art={
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123970620/A526EAD7DDE6F0CC0D3C0A300197619A6624BEF8/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123971032/7138095FB7A1641757B380CD0A6F4F970F184AEA/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123971445/2A2D098CC0BF9030B74159FEF3888B8793816B48/",
+   "http://cloud-3.steamusercontent.com/ugc/1025076138123972143/4919ACB916E36CFC34965CA012099757B79066E2/",
+  },
+  dropSlots=[[{
+--1 uncommon
+   {cards={69,72,77,80,85,89,91,93,95,97,98,99,100,101,102,103,104,105,106,2,4,10,17,19,31,39,44,47,49,56},num=3},
+--2 secret
+   {cards={115,116},num=0},
+--3 FA
+   {cards={107,108,109,110,111,112,113,114},num=0},
+--4 ex
+   {cards={67,68,75,78,79,26},num=0},
+--5 holo
+   {cards={64,65,73,81,86,11,20,40,50},num=0},
+--6 rare
+   {cards={61,62,70,74,83,96,5,7,13,15,23,25,29,32,34,37,42,45,51,53,55,57,59},num=0},
+--7 BREAK
+   {cards={66,82,87,8,21,24,35},num=0},
+--8 reverse
+   {cards={61,62,70,74,83,96,5,7,13,15,23,25,29,32,34,37,42,45,51,53,55,57,59,63,71,76,84,88,90,92,94,1,3,6,9,12,14,16,18,22,27,28,30,33,36,38,41,43,46,48,52,54,58,60,64,65,73,81,86,11,20,40,50,69,72,77,80,85,89,91,93,95,97,98,99,100,101,102,103,104,105,106,2,4,10,17,19,31,39,44,47,49,56},num=0},
+--9 common
+   {cards={63,71,76,84,88,90,92,94,1,3,6,9,12,14,16,18,22,27,28,30,33,36,38,41,43,46,48,52,54,58,60},num=5},
+  }]],
+  pullRates=[[{
+--rare
+ {rates={
+  {slot=2,odds=1/132.4,flag=true},--secret
+  {slot=3,odds=1/17.7,flag=true},--FA
+  {slot=4,odds=1/14.45,flag=true},--EX
+  {slot=5,remaining=true,odds=1/3},--holo
+  {slot=6}--rare
+ },num=1},
+--reverse
+ {rates={
+  {slot=7,odds=1/10,flagExclude=true},--break
+  {slot=8}--reverse
+ },num=1}
+}]]
+ }},
 {setName="Evolutions",
  size=113,
  setID="xy12",
@@ -2410,9 +3221,9 @@ custom={
  size=250,
  setID="smp",
  custom={
-  mesh=TINMESH,
+  mesh=SQUAREBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/970979204690618490/99C2E6F978D9099ECA2489A31BF4CCCBAEEE4F45/"
-}},
+}},--93
 {setName="Sun & Moon",
  size=173,
  setID="sm1",
@@ -2454,12 +3265,12 @@ custom={
   pullRates=[[{
 --rare
  {rates={
-  {slot=3,odds=1/122.8},--gold
-  {slot=4,odds=1/77.33},--Rainbow
-  {slot=5,odds=1/34.8},--full art mon
-  {slot=6,odds=1/139.2},--full art trainer
+  {slot=3,odds=1/121.14},--gold
+  {slot=4,odds=1/69.1},--Rainbow
+  {slot=5,odds=1/35.5},--full art mon
+  {slot=6,odds=1/72.1},--full art trainer
   {slot=7,odds=1/9},--GX
-  {slot=8,odds=1/4},--holo TODO confirm
+  {slot=8,remaining=true,odds=1/3},--holo
   {slot=9}--rare
  },num=1},
 }]]
@@ -2511,7 +3322,7 @@ custom={
   {slot=5,odds=1/34.8},--full art mon
   {slot=6,odds=1/139.2},--full art trainer
   {slot=7,odds=1/9},--GX
-  {slot=8,odds=1/4},--holo TODO confirm
+  {slot=8,remaining=true,odds=1/3},--holo
   {slot=9}--rare
  },num=1},
 }]]
@@ -2563,7 +3374,7 @@ custom={
   {slot=5,odds=1/37.2},--full art mon
   {slot=6,odds=1/80.4},--full art trainer
   {slot=7,odds=1/9.14},--GX
-  {slot=8,odds=1/4},--holo TODO confirm
+  {slot=8,remaining=true,odds=1/3},--holo
   {slot=9}--rare
  },num=1},
 }]]
@@ -2673,7 +3484,7 @@ custom={
   {slot=5,odds=1/30.6},--FA mon
   {slot=6,odds=1/85},--FA trainer
   {slot=7,odds=1/12},--GX
-  {slot=8,odds=1/4},--holo TODO confirm
+  {slot=8,remaining=true,odds=1/3},--holo
   {slot=9}--rare
  },num=1},
 }]]
@@ -2727,7 +3538,7 @@ custom={
   {slot=5,odds=1/43.6},--full art mon
   {slot=6,odds=1/79},--full art trainer
   {slot=7,odds=1/13.45},--GX
-  {slot=8,odds=1/4},--holo TODO confirm
+  {slot=8,remaining=true,odds=1/3},--holo
   {slot=9}--rare
  },num=1},
  {rates={
@@ -2785,7 +3596,7 @@ custom={
   {slot=5,odds=1/43.6},--FA mon
   {slot=6,odds=1/79},--FA trainer
   {slot=7,odds=1/13.45},--GX
-  {slot=8,odds=1/4},--holo TODO confirm
+  {slot=8,remaining=true,odds=1/3},--holo
   {slot=9}--rare
  },num=1},
  {rates={
@@ -2843,7 +3654,7 @@ custom={
   {slot=5,odds=1/47.7},--FA mon
   {slot=6,odds=1/59.2},--FA trainer
   {slot=7,odds=1/9.67},--GX
-  {slot=8,odds=1/4},--holo TODO confirm
+  {slot=8,remaining=true,odds=1/3},--holo
   {slot=9}--rare
  },num=1},
  {rates={
@@ -2956,7 +3767,7 @@ custom={
   {slot=5,odds=1/32},--FA mon
   {slot=6,odds=1/80},--FA trainer
   {slot=7,odds=1/9.75},--GX
-  {slot=8,odds=1/4},--holo TODO confirm
+  {slot=8,remaining=true,odds=1/3},--holo
   {slot=9}--rare
  },num=1},
  {rates={
@@ -3013,7 +3824,7 @@ custom={
   {slot=5,odds=1/41.5},--FA mon
   {slot=6,odds=1/41.5},--FA trainer
   {slot=7,odds=1/10.75},--GX
-  {slot=8,odds=1/4},--holo TODO confirm
+  {slot=8,remaining=true,odds=1/3},--holo
   {slot=9}--rare
  },num=1},
  {rates={
@@ -3095,7 +3906,7 @@ custom={
   {slot=5,odds=1/32.1},--full art mon
   {slot=6,odds=1/99.69},--full art trainer
   {slot=7,odds=1/10.13},--GX
-  {slot=8,odds=1/4},--holo TODO confirm
+  {slot=8,remaining=true,odds=1/3},--holo
   {slot=9}--rare
  },num=1}
 }]]
@@ -3146,7 +3957,7 @@ custom={
   {slot=5,odds=1/31.3},--full art mon
   {slot=6,odds=1/85.4},--full art trainer
   {slot=7,odds=1/8.2},--GX
-  {slot=8,odds=1/4},--holo TODO confirm
+  {slot=8,remaining=true,odds=1/3},--holo
   {slot=9}--rare
  },num=1}
 }]]
@@ -3205,7 +4016,7 @@ custom={
   {slot=4,odds=1/78.2},--FA mon
   {slot=5,odds=1/47.7},--FA trainer
   {slot=6,odds=1/6.6},--GX
-  {slot=7,odds=1/4},--holo TODO confirm
+  {slot=7,remaining=true,odds=1/3},--holo
   {slot=8}--rare
  },num=1},
  {rates={
@@ -3266,7 +4077,7 @@ custom={
   {slot=5,odds=1/37.33},--full art mon
   {slot=6,odds=1/101.15},--full art trainer
   {slot=7,odds=1/8.4},--GX
-  {slot=8,odds=1/4},--holo TODO confirm
+  {slot=8,remaining=true,odds=1/3},--holo
   {slot=9}--rare
  },num=1},
  {rates={
@@ -3278,9 +4089,9 @@ custom={
 {setName="SWSH Black Star Promos",
  setID="swshp",
  custom={
-  mesh=TINMESH,
+  mesh=SQUAREBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/794258704672243938/D2657D9105DDAE7C48866D4BA06BD6C170AEE71C/"
- }},
+ }},--110
 {setName="Sword & Shield",
  size=216,
  setID="swsh1",
@@ -3329,7 +4140,7 @@ custom={
   {slot=6,odds=1/35},--FA mon
   {slot=7,odds=1/45.3},--Vmax
   {slot=8,odds=1/7},--V
-  {slot=9,odds=1/5},--holo
+  {slot=9,remaining=true,odds=0.4},--holo
   {slot=10}--rare
  },num=1}
 }]]
@@ -3382,7 +4193,7 @@ custom={
   {slot=6,odds=1/33},--FA mon
   {slot=7,odds=1/29.5},--Vmax
   {slot=8,odds=1/8},--V
-  {slot=9,odds=1/5},--holo
+  {slot=9,remaining=true,odds=0.4},--holo
   {slot=10}--rare
  },num=1}
 }]]
@@ -3435,7 +4246,7 @@ custom={
   {slot=6,odds=1/36.8},--FA mon
   {slot=7,odds=1/26},--Vmax
   {slot=8,odds=1/8},--V
-  {slot=9,odds=1/5},--holo
+  {slot=9,remaining=true,odds=0.4},--holo
   {slot=10}--rare
  },num=1}
 }]]
@@ -3555,7 +4366,7 @@ custom={
   {slot=6,odds=1/36},--FA mon
   {slot=7,odds=1/22.5},--Vmax
   {slot=8,odds=1/7.5},--V
-  {slot=9,odds=1/6},--holo
+  {slot=9,remaining=true,odds=0.4},--holo
   {slot=10}--rare
  },num=1},
  {rates={
@@ -3621,7 +4432,7 @@ custom={
   {slot=6,odds=1/192.5},--alcreme
   {slot=7,odds=1/19},--Vmax
   {slot=8,odds=1/9},--V
-  {slot=9,odds=0.1753},--holo
+  {slot=9,remaining=true,odds=0.4},--holo
   {slot=10}--rare
  },num=1},
  {rates={
@@ -3688,7 +4499,7 @@ custom={
   {slot=8,odds=1/55},--FA mon
   {slot=9,odds=1/23},--Vmax
   {slot=10,odds=1/8},--V
-  {slot=11,odds=1/5},--holo
+  {slot=11,remaining=true,odds=0.4},--holo
   {slot=12}--rare
  },num=1},
 }]]
@@ -3748,7 +4559,7 @@ custom={
   {slot=8,odds=1/56.5},--FA mon
   {slot=9,odds=1/24},--Vmax
   {slot=10,odds=1/8},--V
-  {slot=11,odds=1/5},--holo
+  {slot=11,remaining=true,odds=0.4},--holo
   {slot=12}--rare
  },num=1},
 }]]
@@ -3808,7 +4619,7 @@ custom={
   {slot=8,odds=1/162},--FA trainer
   {slot=9,odds=1/18},--Vmax
   {slot=10,odds=1/11},--V
-  {slot=11,odds=1/5},--holo
+  {slot=11,remaining=true,odds=0.4},--holo
   {slot=12}--rare
  },num=1},
 }]]
@@ -3923,7 +4734,7 @@ custom={
   {slot=8,odds=1/70},--FA trainer
   {slot=9,odds=1/29},--Vmax
   {slot=10,odds=1/8},--V
-  {slot=11,odds=1/5.5},--holo
+  {slot=11,remaining=true,odds=0.4},--holo
   {slot=12}--rare
  },num=1},
 }]]

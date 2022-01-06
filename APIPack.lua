@@ -149,9 +149,10 @@ end
 
 function doPullRates(rate,slotsAdded)
  local rand=Global.call("PPacks.rand")
+ local initrand=rand
  for _,slot in pairs(rate.rates)do
   if(not packFlag or not slot.flagExclude) then
-   rand=rand-(slot.odds or 1)
+   if slot.remaining then rand=initrand-(slot.odds or 1) else rand=rand-(slot.odds or 1) end
    if rand<=0 and(settings.energy!=2 or not dropSlots[slot.slot].energy)then
     if not slotsAdded[slot.slot]then slotsAdded[slot.slot]=0 end
     slotsAdded[slot.slot]=slotsAdded[slot.slot]+1
