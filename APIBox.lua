@@ -24,23 +24,23 @@ setData={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={{23,42},{80,90},96},num=3,size=32},
+  {cards={{23,42},{80,90},96},num=3,size=32},
 --2 holo
-   {cards={{1,7},{9,16}},num=0,size=15},
+  {cards={{1,7},{9,16}},num=0,size=15},
 --3 rare
-   {cards={{17,22},{70,79}},num=0,size=16},
+  {cards={{17,22},{70,79}},num=0,size=16},
 --4 energy
-   {energy=true,cards={{97,102}},num=2,size=6},
+  {energy=true,cards={{97,102}},num=2,size=6},
 --5 common
-   {cards={{43,69},{91,95}},num=5,size=32},
-  }]],
+  {cards={{43,69},{91,95}},num=5,size=32},
+}]],
   pullRates=[[{
 --rare
-   {rates={
-    {slot=2,odds=1/3},--holo
-    {slot=3}--rare
-   },num=1},
-  }]]
+ {rates={
+  {slot=2,odds=1/3},--holo
+  {slot=3}--rare
+ },num=1},
+}]]
  }},
 {setName="Jungle",
  size=64,
@@ -57,21 +57,21 @@ setData={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={{33,48}},num=3,size=16},
+  {cards={{33,48}},num=3,size=16},
 --2 holo
-   {cards={{1,16}},num=0,size=16},
+  {cards={{1,16}},num=0,size=16},
 --3 rare
-   {cards={{17,32}},num=0,size=16},
+  {cards={{17,32}},num=0,size=16},
 --4 common
-   {cards={{49,64}},num=7,size=16},
-  }]],
+  {cards={{49,64}},num=7,size=16},
+}]],
   pullRates=[[{
 --rare
-   {rates={
-    {slot=2,odds=1/3},--holo
-    {slot=3}--rare
-   },num=1},
-  }]]
+ {rates={
+  {slot=2,odds=1/3},--holo
+  {slot=3}--rare
+ },num=1},
+}]]
  }},
 {setName="Wizards Black Star Promos",
  size=53,
@@ -95,21 +95,21 @@ setData={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={{31,45},58},num=3,size=16},
+  {cards={{31,45},58},num=3,size=16},
 --2 holo
-   {cards={{1,15}},num=0,size=15},
+  {cards={{1,15}},num=0,size=15},
 --3 rare
-   {cards={{16,30}},num=0,size=15},
+  {cards={{16,30}},num=0,size=15},
 --4 common
-   {cards={{46,57},{59,62}},num=7,size=16},
-  }]],
+  {cards={{46,57},{59,62}},num=7,size=16},
+}]],
   pullRates=[[{
 --rare
-   {rates={
-    {slot=2,odds=1/3},--holo
-    {slot=3}--rare
-   },num=1},
-  }]]
+ {rates={
+  {slot=2,odds=1/3},--holo
+  {slot=3}--rare
+ },num=1},
+}]]
  }},
 {setName="Base Set 2",
  size=130,
@@ -127,23 +127,23 @@ setData={
   },
   dropSlots=[[{
 --1 energy
-   {cards={{125,130}},size=6,num=2,energy=true},
+  {cards={{125,130}},size=6,num=2,energy=true},
 --2 holo
-   {cards={{1,20}},num=0,size=20},
+  {cards={{1,20}},num=0,size=20},
 --3 rare
-   {cards={{21,32},{101,108}},num=0,size=20},
+  {cards={{21,32},{101,108}},num=0,size=20},
 --4 common
-   {cards={{65,100},{118,123}},num=5,size=42},
+  {cards={{65,100},{118,123}},num=5,size=42},
 --5 uncommon
-   {cards={{33,64},{109,117},124},num=3,size=42},
-  }]],
+  {cards={{33,64},{109,117},124},num=3,size=42},
+}]],
   pullRates=[[{
 --rare
-   {rates={
-    {slot=2,odds=1/3},--holo
-    {slot=3}--rare
-   },num=1},
-  }]]
+ {rates={
+  {slot=2,odds=1/3},--holo
+  {slot=3}--rare
+ },num=1},
+}]]
  }},
 {setName="Team Rocket",--6
  size=83,
@@ -161,16 +161,16 @@ setData={
   },
   dropSlots=[[{
 --1 common
-   {cards={{49,70},78,79},num=7,size=24},
+  {cards={{49,70},78,79},num=7,size=24},
 --2 secret
-   {cards={83},size=1,num=0},
+  {cards={83},size=1,num=0},
 --3 holo
-   {cards={{1,17}},num=0,size=17},
+  {cards={{1,17}},num=0,size=17},
 --4 rare
-   {cards={{18,31},71,72,80},num=0,size=17},
+  {cards={{18,31},71,72,80},num=0,size=17},
 --5 uncommon
-   {cards={{32,48},{73,77},81,82},num=3,size=24},
-  }]],
+  {cards={{32,48},{73,77},81,82},num=3,size=24},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -196,23 +196,23 @@ setData={
   },
   dropSlots=[[{
 --1 energy
-   {cards={{127,132}},size=6,num=1,energy=true},
+  {cards={{127,132}},size=6,num=1,energy=true},
 --2 uncommon
-   {cards={{35,60},{105,120}},num=3,size=42},
+  {cards={{35,60},{105,120}},num=3,size=42},
 --3 holo
-   {cards={{1,19}},num=0,size=19},
+  {cards={{1,19}},num=0,size=19},
 --4 rare
-   {cards={{20,34},{97,104}},num=0,size=23},
+  {cards={{20,34},{97,104}},num=0,size=23},
 --5 common
-   {cards={{61,96},{121,126}},num=6,size=42},
-  }]],
+  {cards={{61,96},{121,126}},num=6,size=42},
+}]],
   pullRates=[[{
 --rare
-   {rates={
-    {slot=3,odds=1/3},--holo
-    {slot=4}--rare
-   },num=1},
-  }]]
+ {rates={
+  {slot=3,odds=1/3},--holo
+  {slot=4}--rare
+ },num=1},
+}]]
  }},
 {setName="Gym Challenge",
  size=132,
@@ -230,23 +230,23 @@ setData={
   },
   dropSlots=[[{
 --1 energy
-   {cards={{127,132}},size=6,num=1,energy=true},
+  {cards={{127,132}},size=6,num=1,energy=true},
 --2 uncommon
-   {cards={{31,59},{111,123}},num=3,size=42},
+  {cards={{31,59},{111,123}},num=3,size=42},
 --3 holo
-   {cards={{1,20}},num=0,size=20},
+  {cards={{1,20}},num=0,size=20},
 --4 rare
-   {cards={{21,30},{100,110}},num=0,size=21},
+  {cards={{21,30},{100,110}},num=0,size=21},
 --5 common
-   {cards={{60,99},{124,126}},num=6,size=43},
-  }]],
+  {cards={{60,99},{124,126}},num=6,size=43},
+}]],
   pullRates=[[{
 --rare
-   {rates={
-    {slot=3,odds=1/3},--holo
-    {slot=4}--rare
-   },num=1},
-  }]]
+ {rates={
+  {slot=3,odds=1/3},--holo
+  {slot=4}--rare
+ },num=1},
+}]]
  }},
 {setName="Neo Genesis",--9
  size=111,
@@ -264,23 +264,23 @@ setData={
   },
   dropSlots=[[{
 --1 common
-   {cards={{53,82},{99,103}},num=6,size=35},
+  {cards={{53,82},{99,103}},num=6,size=35},
 --2 uncommon
-   {cards={{26,52},{91,98}},num=3,size=35},
+  {cards={{26,52},{91,98}},num=3,size=35},
 --3 holo
-   {cards={{1,19}},num=0,size=19},
+  {cards={{1,19}},num=0,size=19},
 --4 rare
-   {cards={{20,25},{83,90},104,105},num=0,size=16},
+  {cards={{20,25},{83,90},104,105},num=0,size=16},
 --5 energy
-   {cards={{106,111}},size=6,num=1,energy=true},
-  }]],
+  {cards={{106,111}},size=6,num=1,energy=true},
+}]],
   pullRates=[[{
 --rare
-   {rates={
-    {slot=3,odds=1/3},--holo
-    {slot=4}--rare
-   },num=1},
-  }]]
+ {rates={
+  {slot=3,odds=1/3},--holo
+  {slot=4}--rare
+ },num=1},
+}]]
  }},
 {setName="Neo Discovery",
  size=75,
@@ -298,21 +298,21 @@ setData={
   },
   dropSlots=[[{
 --1 common
-   {cards={{53,71},75},num=7,size=20},
+  {cards={{53,71},75},num=7,size=20},
 --2 holo
-   {cards={{1,17}},num=0,size=17},
+  {cards={{1,17}},num=0,size=17},
 --3 rare
-   {cards={{18,36}},num=0,size=19},
+  {cards={{18,36}},num=0,size=19},
 --4 uncommon
-   {cards={{37,52},{72,74}},num=3,size=19},
-  }]],
+  {cards={{37,52},{72,74}},num=3,size=19},
+}]],
   pullRates=[[{
 --rare
-   {rates={
-    {slot=2,odds=1/3},--holo
-    {slot=3}--rare
-   },num=1},
-  }]]
+ {rates={
+  {slot=2,odds=1/3},--holo
+  {slot=3}--rare
+ },num=1},
+}]]
  }},
 {setName="Southern Islands",
  size=18,
@@ -337,16 +337,16 @@ setData={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={{28,40},{60,63}},num=3,size=17},
+  {cards={{28,40},{60,63}},num=3,size=17},
 --2 shiny
-   {cards={65,66},num=0,size=2},
+  {cards={65,66},num=0,size=2},
 --3 holo
-   {cards={{1,14}},num=0,size=14},
+  {cards={{1,14}},num=0,size=14},
 --4 rare
-   {cards={{15,27}},num=0,size=13},
+  {cards={{15,27}},num=0,size=13},
 --5 common
-   {cards={{41,59},64},num=7,size=20},
-  }]],
+  {cards={{41,59},64},num=7,size=20},
+}]],
  pullRates=[[{
 --rare
  {rates={
@@ -372,16 +372,16 @@ setData={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={{31,60},{97,103}},num=3,size=37},
+  {cards={{31,60},{97,103}},num=3,size=37},
 --2 shiny
-   {cards={{106,113}},num=0,size=8},
+  {cards={{106,113}},num=0,size=8},
 --3 holo
-   {cards={{1,16}},num=0,size=16},
+  {cards={{1,16}},num=0,size=16},
 --4 rare
-   {cards={{17,30},{92,96}},num=0,size=19},
+  {cards={{17,30},{92,96}},num=0,size=19},
 --5 common
-   {cards={{61,91},104,105},num=7,size=33},
-  }]],
+  {cards={{61,91},104,105},num=7,size=33},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -407,14 +407,14 @@ setData={
   },
   dropSlots=[[{
 --1 reverse
-   {cards={{1,110}},num=1,size=110},
+  {cards={{1,110}},num=1,size=110},
 --2 holo
-   {cards={{1,19}},num=0,size=19},
+  {cards={{1,19}},num=0,size=19},
 --3 rare
-   {cards={{20,35},{102,104}},num=0,size=19},
+  {cards={{20,35},{102,104}},num=0,size=19},
 --4 others
-   {cards={97,63,86,80,65,86,97,105,80,72,38,72,93,106,93,76,46,76,73,64,73,67,49,67,94,42,94,99,50,99,83,56,83,78,100,75,78,53,75,108,82,55,82,69,54,69,68,47,68,89,61,89,108,36,74,98,107,98,87,60,87,70,37,70,110,45,85,71,41,71,90,91,62,91,90,101,84,81,59,81,79,51,79,77,44,77,84,48,109,109,57,110,96,66,96,95,39,95,85,58,74,92,40,92,88,43,88,110,52,108},num=9,fixed=true},
-  }]],
+  {cards={97,63,86,80,65,86,97,105,80,72,38,72,93,106,93,76,46,76,73,64,73,67,49,67,94,42,94,99,50,99,83,56,83,78,100,75,78,53,75,108,82,55,82,69,54,69,68,47,68,89,61,89,108,36,74,98,107,98,87,60,87,70,37,70,110,45,85,71,41,71,90,91,62,91,90,101,84,81,59,81,79,51,79,77,44,77,84,48,109,109,57,110,96,66,96,95,39,95,85,58,74,92,40,92,88,43,88,110,52,108},num=9,fixed=true},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -439,16 +439,16 @@ setData={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={{71,92},{137,152}},num=2,size=38},
+  {cards={{71,92},{137,152}},num=2,size=38},
 --2 rare
-   {cards={{33,70},158,159},num=1,size=40},
+  {cards={{33,70},158,159},num=1,size=40},
 --3 reverse
-   {cards={{33,159}},num=1,size=127},
+  {cards={{33,159}},num=1,size=127},
 --4 holo
-   {cards={{1,32}},num=0,size=32},
+  {cards={{1,32}},num=0,size=32},
 --5 common
-   {cards={{93,136},{153,157}},num=4,size=49},
-  }]],
+  {cards={{93,136},{153,157}},num=4,size=49},
+}]],
   pullRates=[[{
 --premium
  {rates={
@@ -480,18 +480,18 @@ setData={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={{45,66},{119,141},{145,147}},num=2,size=48},
+  {cards={{45,66},{119,141},{145,147}},num=2,size=48},
 --2 rare
-   {cards={{1,44},118,{142,144}},num=1,size=48},
+  {cards={{1,44},118,{142,144}},num=1,size=48},
 --3 reverse
-   {cards={{1,147}},num=1,size=147},
+  {cards={{1,147}},num=1,size=147},
 --4 crystal
-   {cards={{148,150}},num=0,size=3},
+  {cards={{148,150}},num=0,size=3},
 --5 holo
-   {cards={{151,182}},num=0,size=32},
+  {cards={{151,182}},num=0,size=32},
 --6 common
-   {cards={{67,117},{121,125}},num=4,size=51},
-  }]],
+  {cards={{67,117},{121,125}},num=4,size=51},
+}]],
   pullRates=[[{
 --premium
  {rates={
@@ -517,18 +517,18 @@ setData={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={{36,45},{119,144}},num=2,size=36},
+  {cards={{36,45},{119,144}},num=2,size=36},
 --2 rare
-   {cards={{1,35}},num=1,size=35},
+  {cards={{1,35}},num=1,size=35},
 --3 reverse
-   {cards={{1,144}},num=1,size=144},
+  {cards={{1,144}},num=1,size=144},
 --4 crystal
-   {cards={{145,150}},num=0,size=6},
+  {cards={{145,150}},num=0,size=6},
 --5 holo
-   {cards={{151,182}},num=0,size=32},
+  {cards={{151,182}},num=0,size=32},
 --6 common
-   {cards={{46,118}},num=4,size=73},
-  }]],
+  {cards={{46,118}},num=4,size=73},
+}]],
   pullRates=[[{
 --premium
  {rates={
@@ -560,20 +560,20 @@ setData={
   },
   dropSlots=[[{
 --1 rare
-   {cards={{15,24},{93,95}},num=1,size=13},
+  {cards={{15,24},{93,95}},num=1,size=13},
 --2 reverse
-   {cards={{1,95},{104,109}},num=1,size=101},
+  {cards={{1,95},{104,109}},num=1,size=101},
 --3 uncommon
-   {cards={{25,48},{80,89}},num=2,size=34},
+  {cards={{25,48},{80,89}},num=2,size=34},
 --4 energy
-   {cards={{104,109}},num=0,size=6,energy=true},
+  {cards={{104,109}},num=0,size=6,energy=true},
 --5 ex
-   {cards={{96,103}},num=0,size=8},
+  {cards={{96,103}},num=0,size=8},
 --6 holo
-   {cards={{1,14}},num=0,size=14},
+  {cards={{1,14}},num=0,size=14},
 --7 common
-   {cards={{49,79},{90,92}},num=4,size=34},
-  }]],
+  {cards={{49,79},{90,92}},num=4,size=34},
+}]],
   pullRates=[[{
 --premium
  {rates={
@@ -600,18 +600,18 @@ setData={
   },
   dropSlots=[[{
 --1 rare
-   {cards={{15,26},93},num=1,size=13},
+  {cards={{15,26},93},num=1,size=13},
 --2 reverse
-   {cards={{1,93}},num=1,size=93},
+  {cards={{1,93}},num=1,size=93},
 --3 uncommon
-   {cards={{27,55},{86,89}},num=2,size=33},
+  {cards={{27,55},{86,89}},num=2,size=33},
 --4 ex
-   {cards={{94,100}},num=0,size=7},
+  {cards={{94,100}},num=0,size=7},
 --5 holo
-   {cards={{1,14}},num=0,size=14},
+  {cards={{1,14}},num=0,size=14},
 --6 common
-   {cards={{56,85},{90,92}},num=4,size=33},
-  }]],
+  {cards={{56,85},{90,92}},num=4,size=33},
+}]],
   pullRates=[[{
 --premium
  {rates={
@@ -637,20 +637,20 @@ setData={
   },
   dropSlots=[[{
 --1 rare
-   {cards={{13,22}},num=1,size=10},
+  {cards={{13,22}},num=1,size=10},
 --2 reverse
-   {cards={{1,88}},num=1,size=88},
+  {cards={{1,88}},num=1,size=88},
 --3 secret
-   {cards={{98,100}},num=0,size=3},
+  {cards={{98,100}},num=0,size=3},
 --4 ex
-   {cards={{89,97}},num=0,size=9},
+  {cards={{89,97}},num=0,size=9},
 --5 holo
-   {cards={{1,12}},num=0,size=12},
+  {cards={{1,12}},num=0,size=12},
 --6 uncommon
-   {cards={{23,48},{82,88}},num=2,size=33},
+  {cards={{23,48},{82,88}},num=2,size=33},
 --7 common
-   {cards={{49,81}},num=4,size=33},
-  }]],
+  {cards={{49,81}},num=4,size=33},
+}]],
   pullRates=[[{
 --premium
  {rates={
@@ -677,20 +677,20 @@ setData={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={{24,38},{71,87}},num=2,size=32},
+  {cards={{24,38},{71,87}},num=2,size=32},
 --2 secret
-   {cards={97},num=0},
+  {cards={97},num=0},
 --3 ex
-   {cards={{89,95}},num=0,size=7},
+  {cards={{89,95}},num=0,size=7},
 --4 holo
-   {cards={{1,12}},num=0,size=12},
+  {cards={{1,12}},num=0,size=12},
 --5 rare
-   {cards={{13,23},88},num=0,size=12},
+  {cards={{13,23},88},num=0,size=12},
 --6 reverse
-   {cards={{1,88}},num=1,size=88},
+  {cards={{1,88}},num=1,size=88},
 --7 common
-   {cards={{39,70}},num=5,size=32},
-  }]],
+  {cards={{39,70}},num=5,size=32},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -717,18 +717,18 @@ setData={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={{28,51},{84,92}},num=2,size=33},
+  {cards={{28,51},{84,92}},num=2,size=33},
 --2 ex
-   {cards={{93,101}},num=0,size=9},
+  {cards={{93,101}},num=0,size=9},
 --3 holo
-   {cards={{1,15}},num=0,size=15},
+  {cards={{1,15}},num=0,size=15},
 --4 rare
-   {cards={{16,27}},num=0,size=12},
+  {cards={{16,27}},num=0,size=12},
 --5 reverse
-   {cards={{1,92}},num=1,size=92},
+  {cards={{1,92}},num=1,size=92},
 --6 common
-   {cards={{52,83}},num=5,size=32},
-  }]],
+  {cards={{52,83}},num=5,size=32},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -754,20 +754,20 @@ setData={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={{31,52},{87,100}},num=2,size=36},
+  {cards={{31,52},{87,100}},num=2,size=36},
 --2 secret
-   {cards={114,115,116},num=0},
+  {cards={114,115,116},num=0},
 --3 ex
-   {cards={{104,112}},num=0,size=9},
+  {cards={{104,112}},num=0,size=9},
 --4 holo
-   {cards={{1,17}},num=0,size=17},
+  {cards={{1,17}},num=0,size=17},
 --5 rare
-   {cards={{18,30},103},num=0,size=14},
+  {cards={{18,30},103},num=0,size=14},
 --6 reverse
-   {cards={{1,103}},num=1,size=103},
+  {cards={{1,103}},num=1,size=103},
 --7 common
-   {cards={{53,86},101,102},num=5,size=36},
-  }]],
+  {cards={{53,86},101,102},num=5,size=36},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -801,22 +801,22 @@ setData={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={{29,50},{83,95}},num=2,size=35},
+  {cards={{29,50},{83,95}},num=2,size=35},
 --2 gold
-   {cards={107,108,109},num=0},
+  {cards={107,108,109},num=0},
 --3 secret
-   {cards={111},num=0},
+  {cards={111},num=0},
 --4 ex
-   {cards={{96,106}},num=0,size=11},
+  {cards={{96,106}},num=0,size=11},
 --5 holo
-   {cards={{1,14}},num=0,size=14},
+  {cards={{1,14}},num=0,size=14},
 --6 rare
-   {cards={{15,28}},num=0,size=14},
+  {cards={{15,28}},num=0,size=14},
 --7 reverse
-   {cards={{1,95}},num=1,size=95},
+  {cards={{1,95}},num=1,size=95},
 --8 common
-   {cards={{51,82}},num=5,size=32},
-  }]],
+  {cards={{51,82}},num=5,size=32},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -844,20 +844,20 @@ setData={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={{30,51},{84,95}},num=2,size=34},
+  {cards={{30,51},{84,95}},num=2,size=34},
 --2 gold
-   {cards={105,106,107},num=0},
+  {cards={105,106,107},num=0},
 --3 ex
-   {cards={{96,104}},num=0,size=9},
+  {cards={{96,104}},num=0,size=9},
 --4 holo
-   {cards={{1,15}},num=0,size=15},
+  {cards={{1,15}},num=0,size=15},
 --5 rare
-   {cards={{16,29}},num=0,size=14},
+  {cards={{16,29}},num=0,size=14},
 --6 reverse
-   {cards={{1,95}},num=1,size=95},
+  {cards={{1,95}},num=1,size=95},
 --7 common
-   {cards={{52,83}},num=5,size=32},
-  }]],
+  {cards={{52,83}},num=5,size=32},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -884,20 +884,20 @@ setData={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={{22,42},{75,85}},num=2,size=32},
+  {cards={{22,42},{75,85}},num=2,size=32},
 --2 ex
-   {cards={{90,100}},num=0,size=11},
+  {cards={{90,100}},num=0,size=11},
 --3 holo
-   {cards={{1,11}},num=0,size=11},
+  {cards={{1,11}},num=0,size=11},
 --4 rare
-   {cards={{12,21},{86,89}},num=0,size=14},
+  {cards={{12,21},{86,89}},num=0,size=14},
 --5 energy
-   {cards={{101,106}},num=0,size=6,energy=true},
+  {cards={{101,106}},num=0,size=6,energy=true},
 --6 reverse
-   {cards={{1,89}},num=0,size=89},
+  {cards={{1,89}},num=0,size=89},
 --7 common
-   {cards={{43,74}},num=5,size=32},
-  }]],
+  {cards={{43,74}},num=5,size=32},
+}]],
   pullRates=[[{
 --premium
  {rates={
@@ -936,24 +936,24 @@ setData={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={{34,50},{80,93},{98,100}},num=2,size=34},
+  {cards={{34,50},{80,93},{98,100}},num=2,size=34},
 --2 gold
-   {cards={113,114,115},num=0},
+  {cards={113,114,115},num=0},
 --3 secret
-   {cards={117},num=0},
+  {cards={117},num=0},
 --4 ex
-   {cards={{101,112}},num=0,size=12},
+  {cards={{101,112}},num=0,size=12},
 --5 holo
-   {cards={{1,19}},num=0,size=19},
+  {cards={{1,19}},num=0,size=19},
 --6 rare
-   {cards={{20,33},96,97},num=0,size=16},
+  {cards={{20,33},96,97},num=0,size=16},
 --7 unown
-   {cards={{118,145}},num=0,size=28},
+  {cards={{118,145}},num=0,size=28},
 --8 reverse
-   {cards={{1,100}},num=0,size=100},
+  {cards={{1,100}},num=0,size=100},
 --9 common
-   {cards={{51,79},94,95},num=5,size=31},
-  }]],
+  {cards={{51,79},94,95},num=5,size=31},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -986,20 +986,20 @@ setData={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={{34,56},{89,100}},num=2,size=35},
+  {cards={{34,56},{89,100}},num=2,size=35},
 --2 gold
-   {cards={111,112,113},num=0},
+  {cards={111,112,113},num=0},
 --3 ex
-   {cards={108,109,110},num=0},
+  {cards={108,109,110},num=0},
 --4 holo
-   {cards={{1,18}},num=0,size=18},
+  {cards={{1,18}},num=0,size=18},
 --5 rare
-   {cards={{19,33},{103,107}},num=0,size=20},
+  {cards={{19,33},{103,107}},num=0,size=20},
 --6 reverse
-   {cards={{1,95}},num=1,size=95},
+  {cards={{1,95}},num=1,size=95},
 --7 common
-   {cards={{57,88},101,102},num=5,size=34},
-  }]],
+  {cards={{57,88},101,102},num=5,size=34},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -1026,20 +1026,20 @@ setData={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={{29,47},{72,77},82},num=2,size=26},
+  {cards={{29,47},{72,77},82},num=2,size=26},
 --2 gold
-   {cards={90,91,92},num=0},
+  {cards={90,91,92},num=0},
 --3 ex
-   {cards={{83,89}},num=0,size=7},
+  {cards={{83,89}},num=0,size=7},
 --4 holo
-   {cards={{1,14}},num=0,size=14},
+  {cards={{1,14}},num=0,size=14},
 --5 rare
-   {cards={{15,28},81},num=0,size=15},
+  {cards={{15,28},81},num=0,size=15},
 --6 reverse
-   {cards={{1,82}},num=1,size=82},
+  {cards={{1,82}},num=1,size=82},
 --7 common
-   {cards={{48,71},{78,80}},num=5,size=27},
-  }]],
+  {cards={{48,71},{78,80}},num=5,size=27},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -1074,22 +1074,22 @@ setData={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={{35,56},{85,90},97,98},num=2,size=30},
+  {cards={{35,56},{85,90},97,98},num=2,size=30},
 --2 star
-   {cards={{102,104}},num=0,size=3},
+  {cards={{102,104}},num=0,size=3},
 --3 ex
-   {cards={{99,101}},num=0,size=3},
+  {cards={{99,101}},num=0,size=3},
 --4 holo
-   {cards={{1,17}},num=0,size=17},
+  {cards={{1,17}},num=0,size=17},
 --5 rare
-   {cards={{18,34},{94,96}},num=0,size=20},
+  {cards={{18,34},{94,96}},num=0,size=20},
 --6 energy
-   {cards={{105,110}},num=0,size=6,energy=true},
+  {cards={{105,110}},num=0,size=6,energy=true},
 --7 reverse
-   {cards={{1,98}},num=0,size=98},
+  {cards={{1,98}},num=0,size=98},
 --8 common
-   {cards={{57,84},{91,93}},num=5,size=31},
-  }]],
+  {cards={{57,84},{91,93}},num=5,size=31},
+}]],
   pullRates=[[{
 --premium
  {rates={
@@ -1129,20 +1129,20 @@ setData={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={{29,43},{71,85}},num=2,size=30},
+  {cards={{29,43},{71,85}},num=2,size=30},
 --2 gold
-   {cards={99,100},num=0},
+  {cards={99,100},num=0},
 --3 ex
-   {cards={{89,98}},num=0,size=10},
+  {cards={{89,98}},num=0,size=10},
 --4 holo
-   {cards={{1,13}},num=0,size=13},
+  {cards={{1,13}},num=0,size=13},
 --5 rare
-   {cards={{14,28},88},num=0,size=16},
+  {cards={{14,28},88},num=0,size=16},
 --6 reverse
-   {cards={{1,88}},num=1,size=88},
+  {cards={{1,88}},num=1,size=88},
 --7 common
-   {cards={{44,70},86,87},num=5,size=29},
-  }]],
+  {cards={{44,70},86,87},num=5,size=29},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -1169,20 +1169,20 @@ setData={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={{26,42},{72,82},{87,89}},num=2,size=31},
+  {cards={{26,42},{72,82},{87,89}},num=2,size=31},
 --2 gold
-   {cards={100,101},num=0},
+  {cards={100,101},num=0},
 --3 ex
-   {cards={{90,99}},num=0,size=10},
+  {cards={{90,99}},num=0,size=10},
 --4 holo
-   {cards={{1,13}},num=0,size=12},
+  {cards={{1,13}},num=0,size=12},
 --5 rare
-   {cards={{14,25},{84,86}},num=0,size=16},
+  {cards={{14,25},{84,86}},num=0,size=16},
 --6 reverse
-   {cards={{1,89}},num=1,size=89},
+  {cards={{1,89}},num=1,size=89},
 --7 common
-   {cards={{43,71},83},num=5,size=30},
-  }]],
+  {cards={{43,71},83},num=5,size=30},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -1209,22 +1209,22 @@ setData={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={{26,41},{71,83},90,91},num=2,size=31},
+  {cards={{26,41},{71,83},90,91},num=2,size=31},
 --2 star
-   {cards={{100,102}},num=0,size=3},
+  {cards={{100,102}},num=0,size=3},
 --3 ex
-   {cards={{92,99}},num=0,size=8},
+  {cards={{92,99}},num=0,size=8},
 --4 holo
-   {cards={{1,13}},num=0,size=13},
+  {cards={{1,13}},num=0,size=13},
 --5 rare
-   {cards={{14,25},{87,89}},num=0,size=15},
+  {cards={{14,25},{87,89}},num=0,size=15},
 --6 energy
-   {cards={{103,108}},num=0,size=6,energy=true},
+  {cards={{103,108}},num=0,size=6,energy=true},
 --7 reverse
-   {cards={{1,91}},num=0,size=91},
+  {cards={{1,91}},num=0,size=91},
 --8 common
-   {cards={{42,70},{84,86}},num=5,size=32},
-  }]],
+  {cards={{42,70},{84,86}},num=5,size=32},
+}]],
   pullRates=[[{
 --premium
  {rates={
@@ -1270,20 +1270,20 @@ setData={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={{43,68},{105,116}},num=3,size=38},
+  {cards={{43,68},{105,116}},num=3,size=38},
 --2 lvx
-   {cards={120,121,122},num=0},
+  {cards={120,121,122},num=0},
 --3 holo
-   {cards={{1,17}},num=0,size=17},
+  {cards={{1,17}},num=0,size=17},
 --4 rare
-   {cards={{18,42}},num=0,size=25},
+  {cards={{18,42}},num=0,size=25},
 --5 reverse
-   {cards={{1,119}},num=1,size=119},
+  {cards={{1,119}},num=1,size=119},
 --6 common
-   {cards={{69,104},{117,119}},num=4,size=39},
+  {cards={{69,104},{117,119}},num=4,size=39},
 --7 energy
-   {cards={{123,130}},num=0,size=8,energy=true},
-  }]],
+  {cards={{123,130}},num=0,size=8,energy=true},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -1314,20 +1314,20 @@ setData={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={{41,68},{109,115},119,120},num=3,size=37},
+  {cards={{41,68},{109,115},119,120},num=3,size=37},
 --2 secret
-   {cards={124},num=0},
+  {cards={124},num=0},
 --3 lvx
-   {cards={121,122,123},num=0},
+  {cards={121,122,123},num=0},
 --4 holo
-   {cards={{1,18}},num=0,size=18},
+  {cards={{1,18}},num=0,size=18},
 --5 rare
-   {cards={{19,40},118},num=0,size=23},
+  {cards={{19,40},118},num=0,size=23},
 --6 reverse
-   {cards={{1,119}},num=1,size=119},
+  {cards={{1,119}},num=1,size=119},
 --7 common
-   {cards={{69,108},116,117},num=5,size=42},
-  }]],
+  {cards={{69,108},116,117},num=5,size=42},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -1362,18 +1362,18 @@ setData={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={{45,75},{119,126},129,130},num=3,size=41},
+  {cards={{45,75},{119,126},129,130},num=3,size=41},
 --2 lvx
-   {cards={131,132},num=0},
+  {cards={131,132},num=0},
 --3 holo
-   {cards={{1,20}},num=0,size=20},
+  {cards={{1,20}},num=0,size=20},
 --4 rare
-   {cards={{21,44}},num=0,size=24},
+  {cards={{21,44}},num=0,size=24},
 --5 reverse
-   {cards={{1,130}},num=1,size=130},
+  {cards={{1,130}},num=1,size=130},
 --6 common
-   {cards={{76,118},127,128},num=5,size=45},
-  }]],
+  {cards={{76,118},127,128},num=5,size=45},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -1399,18 +1399,18 @@ setData={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={{33,59},{92,102}},num=3,size=33},
+  {cards={{33,59},{92,102}},num=3,size=33},
 --2 lvx
-   {cards={103,104,105,106},num=0},
+  {cards={103,104,105,106},num=0},
 --3 holo
-   {cards={{1,11}},num=0,size=11},
+  {cards={{1,11}},num=0,size=11},
 --4 rare
-   {cards={{12,32}},num=0,size=21},
+  {cards={{12,32}},num=0,size=21},
 --5 reverse
-   {cards={{1,102}},num=1,size=102},
+  {cards={{1,102}},num=1,size=102},
 --6 common
-   {cards={{60,96}},num=5,size=37},
-  }]],
+  {cards={{60,96}},num=5,size=37},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -1444,18 +1444,18 @@ setData={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={{35,49},{79,88},{92,96}},num=3,size=30},
+  {cards={{35,49},{79,88},{92,96}},num=3,size=30},
 --2 lvx
-   {cards={97,98,99,100},num=0},
+  {cards={97,98,99,100},num=0},
 --3 holo
-   {cards={{1,14}},num=0,size=14},
+  {cards={{1,14}},num=0,size=14},
 --4 rare
-   {cards={{15,34}},num=0,size=20},
+  {cards={{15,34}},num=0,size=20},
 --5 reverse
-   {cards={{1,96}},num=1,size=96},
+  {cards={{1,96}},num=1,size=96},
 --6 common
-   {cards={{50,78},{89,91}},num=5,size=32},
-  }]],
+  {cards={{50,78},{89,91}},num=5,size=32},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -1481,18 +1481,18 @@ setData={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={{46,82},{129,137},{92,96}},num=3,size=46},
+  {cards={{46,82},{129,137},{92,96}},num=3,size=46},
 --2 lvx
-   {cards={{140,146}},num=0,size=7},
+  {cards={{140,146}},num=0,size=7},
 --3 holo
-   {cards={{1,17}},num=0,size=17},
+  {cards={{1,17}},num=0,size=17},
 --4 rare
-   {cards={{18,45}},num=0,size=28},
+  {cards={{18,45}},num=0,size=28},
 --5 reverse
-   {cards={{1,139}},num=1,size=139},
+  {cards={{1,139}},num=1,size=139},
 --6 common
-   {cards={{83,128},138,139},num=5,size=48},
-  }]],
+  {cards={{83,128},138,139},num=5,size=48},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -1526,22 +1526,22 @@ setData={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={{32,52},{82,91},94,95},num=3,size=33},
+  {cards={{32,52},{82,91},94,95},num=3,size=33},
 --2 secret
-   {cards={101,102,103},num=0},
+  {cards={101,102,103},num=0},
 --3 lvx
-   {cards={96,97,98,99,100},num=0},
+  {cards={96,97,98,99,100},num=0},
 --4 holo
-   {cards={{1,11}},num=0,size=11},
+  {cards={{1,11}},num=0,size=11},
 --5 rare
-   {cards={{12,31}},num=0,size=20},
+  {cards={{12,31}},num=0,size=20},
 --6 shiny
-   {cards={104,105,106},num=0},
+  {cards={104,105,106},num=0},
 --7 reverse
-   {cards={{1,95}},num=0,size=95},
+  {cards={{1,95}},num=0,size=95},
 --8 common
-   {cards={{53,81},92,93},num=5,size=31},
-  }]],
+  {cards={{53,81},92,93},num=5,size=31},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -1573,22 +1573,22 @@ setData={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={{41,66},{104,118},94,95},num=3,size=42},
+  {cards={{41,66},{104,118},94,95},num=3,size=42},
 --2 secret
-   {cards={128,129,130},num=0},
+  {cards={128,129,130},num=0},
 --3 lvx
-   {cards={122,123,124,125,126,127},num=0},
+  {cards={122,123,124,125,126,127},num=0},
 --4 holo
-   {cards={{1,17}},num=0,size=17},
+  {cards={{1,17}},num=0,size=17},
 --5 rare
-   {cards={{18,40},121},num=0,size=23},
+  {cards={{18,40},121},num=0,size=23},
 --6 shiny
-   {cards={131,132,133},num=0},
+  {cards={131,132,133},num=0},
 --7 reverse
-   {cards={{1,121}},num=0,size=121},
+  {cards={{1,121}},num=0,size=121},
 --8 common
-   {cards={{67,103},119,120},num=5,size=39},
-  }]],
+  {cards={{67,103},119,120},num=5,size=39},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -1628,22 +1628,22 @@ setData={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={{38,54},{88,102}},num=3,size=32},
+  {cards={{38,54},{88,102}},num=3,size=32},
 --2 secret
-   {cards={112,113,114},num=0},
+  {cards={112,113,114},num=0},
 --3 lvx
-   {cards={103,104,105,106,107,108,109,110,111},num=0},
+  {cards={103,104,105,106,107,108,109,110,111},num=0},
 --4 holo
-   {cards={{1,13}},num=0,size=13},
+  {cards={{1,13}},num=0,size=13},
 --5 rare
-   {cards={{14,37}},num=0,size=24},
+  {cards={{14,37}},num=0,size=24},
 --6 rotom
-   {cards={115,116,117,118,119,120},num=0},
+  {cards={115,116,117,118,119,120},num=0},
 --7 reverse
-   {cards={{1,102}},num=0,size=102},
+  {cards={{1,102}},num=0,size=102},
 --8 common
-   {cards={{55,87}},num=5,size=33},
-  }]],
+  {cards={{55,87}},num=5,size=33},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -1675,22 +1675,22 @@ setData={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={{49,88},{134,140}},num=3,size=47},
+  {cards={{49,88},{134,140}},num=3,size=47},
 --2 secret
-   {cards={148,149,150},num=0},
+  {cards={148,149,150},num=0},
 --3 lvx
-   {cards={141,142,143,144,145,146,147},num=0},
+  {cards={141,142,143,144,145,146,147},num=0},
 --4 holo
-   {cards={{1,14}},num=0,size=14},
+  {cards={{1,14}},num=0,size=14},
 --5 rare
-   {cards={{15,48}},num=0,size=34},
+  {cards={{15,48}},num=0,size=34},
 --6 shiny
-   {cards={151,152,153},num=0},
+  {cards={151,152,153},num=0},
 --7 reverse
-   {cards={{1,140}},num=0,size=140},
+  {cards={{1,140}},num=0,size=140},
 --8 common
-   {cards={{89,133}},num=5,size=45},
-  }]],
+  {cards={{89,133}},num=5,size=45},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -1722,22 +1722,22 @@ setData={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={{33,51},{82,91}},num=3,size=29},
+  {cards={{33,51},{82,91}},num=3,size=29},
 --2 lvx
-   {cards={94,95,96,97,98,99},num=0},
+  {cards={94,95,96,97,98,99},num=0},
 --3 holo
-   {cards={{1,12}},num=0,size=12},
+  {cards={{1,12}},num=0,size=12},
 --4 rare
-   {cards={{13,32}},num=0,size=20},
+  {cards={{13,32}},num=0,size=20},
 --5 arceus
-   {cards={{103,111}},num=0,size=9},
+  {cards={{103,111}},num=0,size=9},
 --6 shiny
-   {cards={{100,102}},num=0,size=3},
+  {cards={{100,102}},num=0,size=3},
 --7 reverse
-   {cards={{1,93}},num=0,size=93},
+  {cards={{1,93}},num=0,size=93},
 --8 common
-   {cards={{52,81},92,93},num=5,size=32},
-  }]],
+  {cards={{52,81},92,93},num=5,size=32},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -1783,26 +1783,26 @@ setData={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={{35,56},{89,104}},num=3,size=38},
+  {cards={{35,56},{89,104}},num=3,size=38},
 --2 secret
-   {cards={124},num=0},
+  {cards={124},num=0},
 --3 shiny
-   {cards={123},num=0},
+  {cards={123},num=0},
 --4 legend
-   {cards={111,112,113,114},num=0},
+  {cards={111,112,113,114},num=0},
 --5 holo
-   {cards={{1,13}},num=0,size=13},
+  {cards={{1,13}},num=0,size=13},
 --6 rare
-   {cards={{14,34}},num=0,size=21},
+  {cards={{14,34}},num=0,size=21},
 --7 prime
-   {cards={{105,110}},num=0,size=6},
+  {cards={{105,110}},num=0,size=6},
 --8 reverse
-   {cards={{1,104}},num=0,size=104},
+  {cards={{1,104}},num=0,size=104},
 --9 energy
-   {cards={{115,122}},num=0,size=8,energy=true},
+  {cards={{115,122}},num=0,size=8,energy=true},
 --10 common
-   {cards={{57,88}},num=4,size=32},
-  }]],
+  {cards={{57,88}},num=4,size=32},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -1840,22 +1840,22 @@ setData={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={{28,42},{71,83}},num=3,size=28},
+  {cards={{28,42},{71,83}},num=3,size=28},
 --2 secret
-   {cards={96},num=0},
+  {cards={96},num=0},
 --3 legend
-   {cards={90,91,92,93,94,95},num=0},
+  {cards={90,91,92,93,94,95},num=0},
 --4 holo
-   {cards={{1,11}},num=0,size=11},
+  {cards={{1,11}},num=0,size=11},
 --5 rare
-   {cards={{12,27}},num=0,size=16},
+  {cards={{12,27}},num=0,size=16},
 --6 prime
-   {cards={{84,89}},num=0,size=6},
+  {cards={{84,89}},num=0,size=6},
 --7 reverse
-   {cards={{1,83}},num=0,size=83},
+  {cards={{1,83}},num=0,size=83},
 --8 common
-   {cards={{43,70}},num=5,size=28},
-  }]],
+  {cards={{43,70}},num=5,size=28},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -1887,22 +1887,22 @@ setData={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={{26,41},{71,80}},num=3,size=26},
+  {cards={{26,41},{71,80}},num=3,size=26},
 --2 secret
-   {cards={91},num=0},
+  {cards={91},num=0},
 --3 legend
-   {cards={87,88,89,90},num=0},
+  {cards={87,88,89,90},num=0},
 --4 holo
-   {cards={{1,10}},num=0,size=10},
+  {cards={{1,10}},num=0,size=10},
 --5 rare
-   {cards={{11,25}},num=0,size=15},
+  {cards={{11,25}},num=0,size=15},
 --6 prime
-   {cards={{81,86}},num=0,size=6},
+  {cards={{81,86}},num=0,size=6},
 --7 reverse
-   {cards={{1,80}},num=0,size=80},
+  {cards={{1,80}},num=0,size=80},
 --8 common
-   {cards={{42,70}},num=5,size=29},
-  }]],
+  {cards={{42,70}},num=5,size=29},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -1934,22 +1934,22 @@ setData={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={{32,54},{85,90}},num=3,size=29},
+  {cards={{32,54},{85,90}},num=3,size=29},
 --2 secret
-   {cards={103},num=0},
+  {cards={103},num=0},
 --3 legend
-   {cards={99,100,101,102},num=0},
+  {cards={99,100,101,102},num=0},
 --4 holo
-   {cards={{1,12}},num=0,size=12},
+  {cards={{1,12}},num=0,size=12},
 --5 rare
-   {cards={{13,31}},num=0,size=19},
+  {cards={{13,31}},num=0,size=19},
 --6 prime
-   {cards={{91,98}},num=0,size=8},
+  {cards={{91,98}},num=0,size=8},
 --7 reverse
-   {cards={{1,90}},num=0,size=90},
+  {cards={{1,90}},num=0,size=90},
 --8 common
-   {cards={{55,84}},num=5,size=30},
-  }]],
+  {cards={{55,84}},num=5,size=30},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -1981,20 +1981,20 @@ setData={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={{40,52},{76,87}},num=3,size=25},
+  {cards={{40,52},{76,87}},num=3,size=25},
 --2 holo
-   {cards={{1,22}},num=0,size=22},
+  {cards={{1,22}},num=0,size=22},
 --3 rare
-   {cards={{23,39}},num=0,size=17},
+  {cards={{23,39}},num=0,size=17},
 --4 shiny
-   {cards={{96,106}},num=0,size=11},
+  {cards={{96,106}},num=0,size=11},
 --5 energy
-   {cards={{88,95}},num=0,size=8,energy=true},
+  {cards={{88,95}},num=0,size=8,energy=true},
 --6 reverse
-   {cards={{1,87}},num=0,size=87},
+  {cards={{1,87}},num=0,size=87},
 --7 common
-   {cards={{53,75}},num=5,size=23},
-  }]],
+  {cards={{53,75}},num=5,size=23},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -2033,22 +2033,22 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={101,102,103,3,4,8,11,17,18,22,24,29,30,34,35,38,42,48,51,53,56,60,64,72,75,79,82,85,87,90,92,94,95,96,97,98,99},num=3},
+  {cards={101,102,103,3,4,8,11,17,18,22,24,29,30,34,35,38,42,48,51,53,56,60,64,72,75,79,82,85,87,90,92,94,95,96,97,98,99},num=3},
 --2 secret
-   {cards={115},num=0},
+  {cards={115},num=0},
 --3 ultra
-   {cards={113,114},num=0},
+  {cards={113,114},num=0},
 --4 holo
-   {cards={5,6,19,20,26,31,32,47,57,65,71,76},num=0},
+  {cards={5,6,19,20,26,31,32,47,57,65,71,76},num=0},
 --5 rare
-   {cards={10,12,14,25,37,39,43,46,49,54,61,62,67,69,73,83,86,89,91},num=0},
+  {cards={10,12,14,25,37,39,43,46,49,54,61,62,67,69,73,83,86,89,91},num=0},
 --6 reverse
-   {cards={101,102,103,3,4,8,11,17,18,22,24,29,30,34,35,38,42,48,51,53,56,60,64,72,75,79,82,85,87,90,92,94,95,96,97,98,99,104,1,2,7,9,13,15,16,21,23,27,28,33,36,40,41,44,45,50,52,55,58,59,63,66,68,70,74,77,78,80,81,84,88,93,100,5,6,19,20,26,31,32,47,57,65,71,76,10,12,14,25,37,39,43,46,49,54,61,62,67,69,73,83,86,89,91},num=1},
+  {cards={101,102,103,3,4,8,11,17,18,22,24,29,30,34,35,38,42,48,51,53,56,60,64,72,75,79,82,85,87,90,92,94,95,96,97,98,99,104,1,2,7,9,13,15,16,21,23,27,28,33,36,40,41,44,45,50,52,55,58,59,63,66,68,70,74,77,78,80,81,84,88,93,100,5,6,19,20,26,31,32,47,57,65,71,76,10,12,14,25,37,39,43,46,49,54,61,62,67,69,73,83,86,89,91},num=1},
 --7 common
-   {cards={104,1,2,7,9,13,15,16,21,23,27,28,33,36,40,41,44,45,50,52,55,58,59,63,66,68,70,74,77,78,80,81,84,88,93,100},num=4},
+  {cards={104,1,2,7,9,13,15,16,21,23,27,28,33,36,40,41,44,45,50,52,55,58,59,63,66,68,70,74,77,78,80,81,84,88,93,100},num=4},
 --8 energy
-   {cards={105,106,107,108,109,110,111,112},num=0,energy=true},
-  }]],
+  {cards={105,106,107,108,109,110,111,112},num=0,energy=true},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -2080,18 +2080,18 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={79,81,83,85,90,91,92,93,94,95,96,5,6,11,14,25,34,39,41,42,45,46,51,52,54,58,59,61,66,73,75},num=3},
+  {cards={79,81,83,85,90,91,92,93,94,95,96,5,6,11,14,25,34,39,41,42,45,46,51,52,54,58,59,61,66,73,75},num=3},
 --2 ultra
-   {cards={97,98},num=0},
+  {cards={97,98},num=0},
 --3 holo
-   {cards={77,88,89,17,30,35,47,56,63,67},num=0},
+  {cards={77,88,89,17,30,35,47,56,63,67},num=0},
 --4 rare
-   {cards={76,82,2,7,8,12,16,19,21,23,27,31,37,40,48,53,57,62,65,69,72},num=0},
+  {cards={76,82,2,7,8,12,16,19,21,23,27,31,37,40,48,53,57,62,65,69,72},num=0},
 --5 reverse
-   {cards={76,82,2,7,8,12,16,19,21,23,27,31,37,40,48,53,57,62,65,69,72,77,88,89,17,30,35,47,56,63,67,78,80,84,86,87,1,3,4,9,10,13,15,18,20,22,24,26,28,29,32,33,36,38,43,44,49,50,55,60,64,68,70,71,74,79,81,83,85,90,91,92,93,94,95,96,5,6,11,14,25,34,39,41,42,45,46,51,52,54,58,59,61,66,73,75},num=1},
+  {cards={76,82,2,7,8,12,16,19,21,23,27,31,37,40,48,53,57,62,65,69,72,77,88,89,17,30,35,47,56,63,67,78,80,84,86,87,1,3,4,9,10,13,15,18,20,22,24,26,28,29,32,33,36,38,43,44,49,50,55,60,64,68,70,71,74,79,81,83,85,90,91,92,93,94,95,96,5,6,11,14,25,34,39,41,42,45,46,51,52,54,58,59,61,66,73,75},num=1},
 --6 common
-   {cards={78,80,84,86,87,1,3,4,9,10,13,15,18,20,22,24,26,28,29,32,33,36,38,43,44,49,50,55,60,64,68,70,71,74},num=5}
-  }]],
+  {cards={78,80,84,86,87,1,3,4,9,10,13,15,18,20,22,24,26,28,29,32,33,36,38,43,44,49,50,55,60,64,68,70,71,74},num=5}
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -2117,20 +2117,20 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={76,78,83,85,87,90,91,92,93,94,95,96,2,7,10,17,18,23,25,28,32,37,40,49,51,59,63,66,68,70},num=3},
+  {cards={76,78,83,85,87,90,91,92,93,94,95,96,2,7,10,17,18,23,25,28,32,37,40,49,51,59,63,66,68,70},num=3},
 --2 secret
-   {cards={102},num=0},
+  {cards={102},num=0},
 --3 ultra
-   {cards={97,98,99,100,101},num=0},
+  {cards={97,98,99,100,101},num=0},
 --4 holo
-   {cards={79,82,84,88,3,13,14,15,34,41,64,73,74},num=0},
+  {cards={79,82,84,88,3,13,14,15,34,41,64,73,74},num=0},
 --5 rare
-   {cards={80,89,5,12,21,24,26,29,31,33,36,43,46,47,52,53,56,60,61,65,67,72},num=0},
+  {cards={80,89,5,12,21,24,26,29,31,33,36,43,46,47,52,53,56,60,61,65,67,72},num=0},
 --6 reverse
-   {cards={76,78,83,85,87,90,91,92,93,94,95,96,2,7,10,17,18,23,25,28,32,37,40,49,51,59,63,66,68,70,77,81,86,1,4,6,8,9,11,16,19,20,22,27,30,35,38,39,42,44,45,48,50,54,55,57,58,62,69,71,75,79,82,84,88,3,13,14,15,34,41,64,73,74},num=1},
+  {cards={76,78,83,85,87,90,91,92,93,94,95,96,2,7,10,17,18,23,25,28,32,37,40,49,51,59,63,66,68,70,77,81,86,1,4,6,8,9,11,16,19,20,22,27,30,35,38,39,42,44,45,48,50,54,55,57,58,62,69,71,75,79,82,84,88,3,13,14,15,34,41,64,73,74},num=1},
 --7 common
-   {cards={77,81,86,1,4,6,8,9,11,16,19,20,22,27,30,35,38,39,42,44,45,48,50,54,55,57,58,62,69,71,75},num=5},
-  }]],
+  {cards={77,81,86,1,4,6,8,9,11,16,19,20,22,27,30,35,38,39,42,44,45,48,50,54,55,57,58,62,69,71,75},num=5},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -2157,22 +2157,22 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={73,78,84,86,87,88,89,90,91,92,93,4,13,19,24,26,30,32,34,40,44,45,49,56,66,68,71},num=3},
+  {cards={73,78,84,86,87,88,89,90,91,92,93,4,13,19,24,26,30,32,34,40,44,45,49,56,66,68,71},num=3},
 --2 secret
-   {cards={100,101,102,103},num=0},
+  {cards={100,101,102,103},num=0},
 --3 ultra
-   {cards={94,95,96,97,98,99},num=0},
+  {cards={94,95,96,97,98,99},num=0},
 --4 ex
-   {cards={82,5,22,38,51,54},num=0},
+  {cards={82,5,22,38,51,54},num=0},
 --5 holo
-   {cards={85,14,20,27,33,41,46,57,64,74},num=0},
+  {cards={85,14,20,27,33,41,46,57,64,74},num=0},
 --6 rare
-   {cards={76,79,81,1,7,9,12,16,21,25,29,35,37,48,50,53,59,60,62,70,72},num=0},
+  {cards={76,79,81,1,7,9,12,16,21,25,29,35,37,48,50,53,59,60,62,70,72},num=0},
 --7 reverse
-   {cards={76,79,81,1,7,9,12,16,21,25,29,35,37,48,50,53,59,60,62,70,72,77,80,83,2,3,6,8,10,11,15,17,18,23,28,31,36,39,42,43,47,52,55,58,61,63,65,67,69,73,75,78,84,86,87,88,89,90,91,92,93,4,13,19,24,26,30,32,34,40,44,45,49,56,66,68,71,85,14,20,27,33,41,46,57,64,74},num=1},
+  {cards={76,79,81,1,7,9,12,16,21,25,29,35,37,48,50,53,59,60,62,70,72,77,80,83,2,3,6,8,10,11,15,17,18,23,28,31,36,39,42,43,47,52,55,58,61,63,65,67,69,73,75,78,84,86,87,88,89,90,91,92,93,4,13,19,24,26,30,32,34,40,44,45,49,56,66,68,71,85,14,20,27,33,41,46,57,64,74},num=1},
 --8 common
-   {cards={77,80,83,2,3,6,8,10,11,15,17,18,23,28,31,36,39,42,43,47,52,55,58,61,63,65,67,69,75},num=5},
-  }]],
+  {cards={77,80,83,2,3,6,8,10,11,15,17,18,23,28,31,36,39,42,43,47,52,55,58,61,63,65,67,69,75},num=5},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -2200,22 +2200,22 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={76,85,87,91,92,93,94,95,96,97,98,99,100,101,102,2,4,8,12,16,18,24,25,28,32,34,37,46,51,59,60,61,62,65,73},num=3},
+  {cards={76,85,87,91,92,93,94,95,96,97,98,99,100,101,102,2,4,8,12,16,18,24,25,28,32,34,37,46,51,59,60,61,62,65,73},num=3},
 --2 secret
-   {cards={109,110,111},num=0},
+  {cards={109,110,111},num=0},
 --3 ultra
-   {cards={103,104,105,106,107,108},num=0},
+  {cards={103,104,105,106,107,108},num=0},
 --4 ex
-   {cards={90,13,26,38,54,63},num=0},
+  {cards={90,13,26,38,54,63},num=0},
 --5 holo
-   {cards={77,82,89,3,17,22,29,47,66},num=0},
+  {cards={77,82,89,3,17,22,29,47,66},num=0},
 --6 rare
-   {cards={79,88,5,6,11,19,30,36,43,48,49,52,53,56,57,68,71,72,74},num=0},
+  {cards={79,88,5,6,11,19,30,36,43,48,49,52,53,56,57,68,71,72,74},num=0},
 --7 reverse
-   {cards={76,85,87,91,92,93,94,95,96,97,98,99,100,101,102,2,4,8,12,16,18,24,25,28,32,34,37,46,51,59,60,61,62,65,73,77,82,89,3,17,22,29,47,66,78,80,81,83,84,86,1,7,9,10,14,15,20,21,23,27,31,33,35,39,40,41,42,44,45,50,55,58,64,67,69,70,75,79,88,5,6,11,19,30,36,43,48,49,52,53,56,57,68,71,72,74},num=1},
+  {cards={76,85,87,91,92,93,94,95,96,97,98,99,100,101,102,2,4,8,12,16,18,24,25,28,32,34,37,46,51,59,60,61,62,65,73,77,82,89,3,17,22,29,47,66,78,80,81,83,84,86,1,7,9,10,14,15,20,21,23,27,31,33,35,39,40,41,42,44,45,50,55,58,64,67,69,70,75,79,88,5,6,11,19,30,36,43,48,49,52,53,56,57,68,71,72,74},num=1},
 --8 common
-   {cards={78,80,81,83,84,86,1,7,9,10,14,15,20,21,23,27,31,33,35,39,40,41,42,44,45,50,55,58,64,67,69,70,75},num=5},
-  }]],
+  {cards={78,80,81,83,84,86,1,7,9,10,14,15,20,21,23,27,31,33,35,39,40,41,42,44,45,50,55,58,64,67,69,70,75},num=5},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -2243,22 +2243,22 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={104,77,79,83,88,89,95,96,102,107,108,110,113,114,115,116,117,118,2,7,9,11,12,14,16,25,30,33,35,39,45,56,66,68,69,70},num=3},
+  {cards={104,77,79,83,88,89,95,96,102,107,108,110,113,114,115,116,117,118,2,7,9,11,12,14,16,25,30,33,35,39,45,56,66,68,69,70},num=3},
 --2 secret
-   {cards={125,126,127,128},num=0},
+  {cards={125,126,127,128},num=0},
 --3 ultra
-   {cards={119,120,121,122,123,124},num=0},
+  {cards={119,120,121,122,123,124},num=0},
 --4 ex
-   {cards={81,85,92,22,46,71},num=0},
+  {cards={81,85,92,22,46,71},num=0},
 --5 holo
-   {cards={80,84,90,97,103,19,26,28,40,52,54,59,67},num=0},
+  {cards={80,84,90,97,103,19,26,28,40,52,54,59,67},num=0},
 --6 rare
-   {cards={82,91,98,100,112,3,5,8,15,21,24,31,36,37,43,44,47,48,51,57,61,64,73,75},num=0},
+  {cards={82,91,98,100,112,3,5,8,15,21,24,31,36,37,43,44,47,48,51,57,61,64,73,75},num=0},
 --7 reverse
-   {cards={76,78,86,87,93,94,99,101,104,105,106,109,111,1,4,6,10,13,17,18,20,23,27,29,32,34,38,41,42,49,50,53,55,58,60,62,63,65,72,74,77,79,83,88,89,95,96,102,107,108,110,113,114,115,116,117,118,2,7,9,11,12,14,16,25,30,33,35,39,45,56,66,68,69,70,80,84,90,97,103,19,26,28,40,52,54,59,67,82,91,98,100,112,3,5,8,15,21,24,31,36,37,43,44,47,48,51,57,61,64,73,75},num=1},
+  {cards={76,78,86,87,93,94,99,101,104,105,106,109,111,1,4,6,10,13,17,18,20,23,27,29,32,34,38,41,42,49,50,53,55,58,60,62,63,65,72,74,77,79,83,88,89,95,96,102,107,108,110,113,114,115,116,117,118,2,7,9,11,12,14,16,25,30,33,35,39,45,56,66,68,69,70,80,84,90,97,103,19,26,28,40,52,54,59,67,82,91,98,100,112,3,5,8,15,21,24,31,36,37,43,44,47,48,51,57,61,64,73,75},num=1},
 --8 common
-   {cards={76,78,86,87,93,94,99,101,105,106,109,111,1,4,6,10,13,17,18,20,23,27,29,32,34,38,41,42,49,50,53,55,58,60,62,63,65,72,74},num=5},
-  }]],
+  {cards={76,78,86,87,93,94,99,101,105,106,109,111,1,4,6,10,13,17,18,20,23,27,29,32,34,38,41,42,49,50,53,55,58,60,62,63,65,72,74},num=5},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -2287,17 +2287,17 @@ custom={
   },
   dropSlots=[[{
 --1 secret --randomly positioned in real packs
-   {cards={21},num=0},
+  {cards={21},num=0},
 --2 holo
-   {cards={{1,20}},num=4,size=20},
-  }]],
+  {cards={{1,20}},num=4,size=20},
+}]],
   pullRates=[[{
 --rare
-   {rates={
-    {slot=1,odds=1/72},--secret
-    {slot=2}--holo
-   },num=1},
-  }]]
+ {rates={
+  {slot=1,odds=1/72},--secret
+  {slot=2}--holo
+ },num=1},
+}]]
  }},
 {setName="Boundries Crossed",
  size=153,
@@ -2315,24 +2315,24 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={76,79,87,88,93,95,96,97,98,105,107,109,114,117,119,121,124,127,129,130,133,134,136,2,8,12,16,19,25,28,30,34,37,38,40,43,46,52,58,62,65,68,73},num=3},
+  {cards={76,79,87,88,93,95,96,97,98,105,107,109,114,117,119,121,124,127,129,130,133,134,136,2,8,12,16,19,25,28,30,34,37,38,40,43,46,52,58,62,65,68,73},num=3},
 --2 secret
-   {cards={151,152,153,150},num=0},
+  {cards={151,152,153,150},num=0},
 --3 ultra
-   {cards={141,142,143,144,145,146,147,148,149},num=0},
+  {cards={141,142,143,144,145,146,147,148,149},num=0},
 --4 ex
-   {cards={89,101,103,9,49,67},num=0},
+  {cards={89,101,103,9,49,67},num=0},
 --5 holo
-   {cards={77,81,85,91,94,99,108,122,3,6,13,20,26,31,41,47,54,57,63,74},num=0},
+  {cards={77,81,85,91,94,99,108,122,3,6,13,20,26,31,41,47,54,57,63,74},num=0},
 --6 rare
-   {cards={100,102,125,126,4,10,15,17,22,23,35,45,48,60,66,69,71},num=0},
+  {cards={100,102,125,126,4,10,15,17,22,23,35,45,48,60,66,69,71},num=0},
 --7 ace
-   {cards={137,138,139,140},num=0},
+  {cards={137,138,139,140},num=0},
 --8 reverse
-   {cards={76,79,87,88,93,95,96,97,98,105,107,109,114,117,119,121,124,127,129,130,133,134,136,2,8,12,16,19,25,28,30,34,37,38,40,43,46,52,58,62,65,68,73,77,81,85,91,94,99,108,122,3,6,13,20,26,31,41,47,54,57,63,74,78,80,82,83,84,86,90,92,104,106,110,111,112,113,115,116,118,120,123,128,131,132,135,1,5,7,11,14,18,21,24,27,29,32,33,36,39,42,44,50,51,53,55,56,59,61,64,70,72,75,100,102,125,126,4,10,15,17,22,23,35,45,48,60,66,69,71},num=0},
+  {cards={76,79,87,88,93,95,96,97,98,105,107,109,114,117,119,121,124,127,129,130,133,134,136,2,8,12,16,19,25,28,30,34,37,38,40,43,46,52,58,62,65,68,73,77,81,85,91,94,99,108,122,3,6,13,20,26,31,41,47,54,57,63,74,78,80,82,83,84,86,90,92,104,106,110,111,112,113,115,116,118,120,123,128,131,132,135,1,5,7,11,14,18,21,24,27,29,32,33,36,39,42,44,50,51,53,55,56,59,61,64,70,72,75,100,102,125,126,4,10,15,17,22,23,35,45,48,60,66,69,71},num=0},
 --9 common
-   {cards={78,80,82,83,84,86,90,92,104,106,110,111,112,113,115,116,118,120,123,128,131,132,135,1,5,7,11,14,18,21,24,27,29,32,33,36,39,42,44,50,51,53,55,56,59,61,64,70,72,75},num=5},
-  }]],
+  {cards={78,80,82,83,84,86,90,92,104,106,110,111,112,113,115,116,118,120,123,128,131,132,135,1,5,7,11,14,18,21,24,27,29,32,33,36,39,42,44,50,51,53,55,56,59,61,64,70,72,75},num=5},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -2364,24 +2364,24 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={77,80,89,91,92,103,106,112,117,118,119,120,121,122,123,124,125,126,127,2,9,11,13,16,20,22,23,27,30,36,44,45,49,51,54,57,60,63,69,72,73,74},num=3},
+  {cards={77,80,89,91,92,103,106,112,117,118,119,120,121,122,123,124,125,126,127,2,9,11,13,16,20,22,23,27,30,36,44,45,49,51,54,57,60,63,69,72,73,74},num=3},
 --2 secret
-   {cards={136,137,138},num=0},
+  {cards={136,137,138},num=0},
 --3 ultra
-   {cards={131,132,133,134,135},num=0},
+  {cards={131,132,133,134,135},num=0},
 --4 ex
-   {cards={93,95,96,108,14,18,25,48},num=0},
+  {cards={93,95,96,108,14,18,25,48},num=0},
 --5 holo
-   {cards={78,90,104,17,34,46,55,58,61,66},num=0},
+  {cards={78,90,104,17,34,46,55,58,61,66},num=0},
 --6 rare
-   {cards={81,84,86,87,94,98,100,101,107,113,114,116,3,5,7,10,28,31,33,37,39,41,47,62,67,70},num=0},
+  {cards={81,84,86,87,94,98,100,101,107,113,114,116,3,5,7,10,28,31,33,37,39,41,47,62,67,70},num=0},
 --7 ace
-   {cards={128,129,130},num=0},
+  {cards={128,129,130},num=0},
 --8 reverse
-   {cards={76,79,82,83,85,88,97,99,102,105,109,110,111,115,1,4,6,8,12,15,19,21,24,26,29,32,35,38,40,42,43,50,52,53,56,59,64,65,68,71,75,77,80,89,91,92,103,106,112,117,118,119,120,121,122,123,124,125,126,127,2,9,11,13,16,20,22,23,27,30,36,44,45,49,51,54,57,60,63,69,72,73,74,78,90,104,17,34,46,55,58,61,66,81,84,86,87,94,98,100,101,107,113,114,116,3,5,7,10,28,31,33,37,39,41,47,62,67,70},num=0},
+  {cards={76,79,82,83,85,88,97,99,102,105,109,110,111,115,1,4,6,8,12,15,19,21,24,26,29,32,35,38,40,42,43,50,52,53,56,59,64,65,68,71,75,77,80,89,91,92,103,106,112,117,118,119,120,121,122,123,124,125,126,127,2,9,11,13,16,20,22,23,27,30,36,44,45,49,51,54,57,60,63,69,72,73,74,78,90,104,17,34,46,55,58,61,66,81,84,86,87,94,98,100,101,107,113,114,116,3,5,7,10,28,31,33,37,39,41,47,62,67,70},num=0},
 --9 common
-   {cards={76,79,82,83,85,88,97,99,102,105,109,110,111,115,1,4,6,8,12,15,19,21,24,26,29,32,35,38,40,42,43,50,52,53,56,59,64,65,68,71,75},num=5},
-  }]],
+  {cards={76,79,82,83,85,88,97,99,102,105,109,110,111,115,1,4,6,8,12,15,19,21,24,26,29,32,35,38,40,42,43,50,52,53,56,59,64,65,68,71,75},num=5},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -2413,24 +2413,24 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={77,80,82,92,93,96,99,100,102,103,104,105,106,2,4,7,12,15,19,20,25,28,30,34,36,41,44,48,51,61,69,74},num=3},
+  {cards={77,80,82,92,93,96,99,100,102,103,104,105,106,2,4,7,12,15,19,20,25,28,30,34,36,41,44,48,51,61,69,74},num=3},
 --2 secret
-   {cards={117,118,119,120,121,122},num=0},
+  {cards={117,118,119,120,121,122},num=0},
 --3 ultra
-   {cards={109,110,111,112,113,114,115,116},num=0},
+  {cards={109,110,111,112,113,114,115,116},num=0},
 --4 ex
-   {cards={85,86,98,13,38,53},num=0},
+  {cards={85,86,98,13,38,53},num=0},
 --5 holo
-   {cards={78,83,84,101,8,16,17,31,33,39,52,56,64,67},num=0},
+  {cards={78,83,84,101,8,16,17,31,33,39,52,56,64,67},num=0},
 --6 rare
-   {cards={79,88,94,97,3,5,10,11,22,23,26,29,42,46,47,49,57,58,63,66,70,73},num=0},
+  {cards={79,88,94,97,3,5,10,11,22,23,26,29,42,46,47,49,57,58,63,66,70,73},num=0},
 --7 ace
-   {cards={107,108},num=0},
+  {cards={107,108},num=0},
 --8 reverse
-   {cards={76,81,87,89,90,91,95,1,6,9,14,18,21,24,27,32,35,37,40,43,45,50,54,55,59,60,62,65,68,71,72,75,77,80,82,92,93,96,99,100,102,103,104,105,106,2,4,7,12,15,19,20,25,28,30,34,36,41,44,48,51,61,69,74,78,83,84,101,8,16,17,31,33,39,52,56,64,67,79,88,94,97,3,5,10,11,22,23,26,29,42,46,47,49,57,58,63,66,70,73},num=0},
+  {cards={76,81,87,89,90,91,95,1,6,9,14,18,21,24,27,32,35,37,40,43,45,50,54,55,59,60,62,65,68,71,72,75,77,80,82,92,93,96,99,100,102,103,104,105,106,2,4,7,12,15,19,20,25,28,30,34,36,41,44,48,51,61,69,74,78,83,84,101,8,16,17,31,33,39,52,56,64,67,79,88,94,97,3,5,10,11,22,23,26,29,42,46,47,49,57,58,63,66,70,73},num=0},
 --9 common
-   {cards={76,81,87,89,90,91,95,1,6,9,14,18,21,24,27,32,35,37,40,43,45,50,54,55,59,60,62,65,68,71,72,75},num=5},
-  }]],
+  {cards={76,81,87,89,90,91,95,1,6,9,14,18,21,24,27,32,35,37,40,43,45,50,54,55,59,60,62,65,68,71,72,75},num=5},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -2462,24 +2462,24 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,3,5,15,19,22,24,26,27,32,40,43,48,53,58,63,68,73},num=3},
+  {cards={76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,3,5,15,19,22,24,26,27,32,40,43,48,53,58,63,68,73},num=3},
 --2 secret
-   {cards={102,103,104,105},num=0},
+  {cards={102,103,104,105},num=0},
 --3 ultra
-   {cards={96,97,98,99,100,101},num=0},
+  {cards={96,97,98,99,100,101},num=0},
 --4 ex
-   {cards={9,11,30,60,65,66},num=0},
+  {cards={9,11,30,60,65,66},num=0},
 --5 holo
-   {cards={16,33,37,41,46,49,54,56,64,69,74},num=0},
+  {cards={16,33,37,41,46,49,54,56,64,69,74},num=0},
 --6 rare
-   {cards={2,4,8,10,13,20,23,28,35,36,38,44,50,59,61},num=0},
+  {cards={2,4,8,10,13,20,23,28,35,36,38,44,50,59,61},num=0},
 --7 ace
-   {cards={92,93,94,95},num=0},
+  {cards={92,93,94,95},num=0},
 --8 reverse
-   {cards={76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,3,5,15,19,22,24,26,27,32,40,43,48,53,58,63,68,73,1,6,7,12,14,17,18,21,25,29,31,34,39,42,45,47,51,52,55,57,62,67,70,71,72,75,2,4,8,10,13,20,23,28,35,36,38,44,50,59,61,16,33,37,41,46,49,54,56,64,69,74},num=0},
+  {cards={76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,3,5,15,19,22,24,26,27,32,40,43,48,53,58,63,68,73,1,6,7,12,14,17,18,21,25,29,31,34,39,42,45,47,51,52,55,57,62,67,70,71,72,75,2,4,8,10,13,20,23,28,35,36,38,44,50,59,61,16,33,37,41,46,49,54,56,64,69,74},num=0},
 --9 common
-   {cards={1,6,7,12,14,17,18,21,25,29,31,34,39,42,45,47,51,52,55,57,62,67,70,71,72,75},num=5},
-  }]],
+  {cards={1,6,7,12,14,17,18,21,25,29,31,34,39,42,45,47,51,52,55,57,62,67,70,71,72,75},num=5},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -2511,28 +2511,28 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={79,83,87,92,95,98,106,107,109,110,111,112,113,3,4,5,7,11,14,18,26,34,38,41,47,48,49,60,61,65,71,75},num=2},
+  {cards={79,83,87,92,95,98,106,107,109,110,111,112,113,3,4,5,7,11,14,18,26,34,38,41,47,48,49,60,61,65,71,75},num=2},
 --2 RC common
-   {cards={116,117,120,123,124,130,131,132,133,135},num=1},
+  {cards={116,117,120,123,124,130,131,132,133,135},num=1},
 --3 RC EX
-   {cards={126},num=0},
+  {cards={126},num=0},
 --4 RC FA
-   {cards={136,137,138,139,140},num=0},
+  {cards={136,137,138,139,140},num=0},
 --5 RC unc
-   {cards={118,119,121,122,125,127,128,129,134},num=0},
+  {cards={118,119,121,122,125,127,128,129,134},num=0},
 --6 gold
-   {cards={114,115},num=0},
+  {cards={114,115},num=0},
 --7 EX
-   {cards={77,82,88,100,101,102,24,29,44,45,52,54},num=0},
+  {cards={77,82,88,100,101,102,24,29,44,45,52,54},num=0},
 --8 rare
-   {cards={76,81,86,2,21,31,35,36,42,56,58,63},num=0},
+  {cards={76,81,86,2,21,31,35,36,42,56,58,63},num=0},
 --9 holo
-   {cards={78,80,84,85,90,91,93,96,99,105,108,8,12,15,16,19,22,23,27,28,32,39,43,46,50,51,53,66,68,72},num=0},
+  {cards={78,80,84,85,90,91,93,96,99,105,108,8,12,15,16,19,22,23,27,28,32,39,43,46,50,51,53,66,68,72},num=0},
 --10 reverse
-   {cards={76,81,86,2,21,31,35,36,42,56,58,63,78,80,84,85,90,91,93,96,99,105,108,8,12,15,16,19,22,23,27,28,32,39,43,46,50,51,53,66,68,72,79,83,87,92,95,98,106,107,109,110,111,112,113,3,4,5,7,11,14,18,26,34,38,41,47,48,49,60,61,65,71,75,89,94,97,103,104,1,6,9,10,13,17,20,25,30,33,37,40,55,57,59,62,64,67,69,70,73,74},num=0},
+  {cards={76,81,86,2,21,31,35,36,42,56,58,63,78,80,84,85,90,91,93,96,99,105,108,8,12,15,16,19,22,23,27,28,32,39,43,46,50,51,53,66,68,72,79,83,87,92,95,98,106,107,109,110,111,112,113,3,4,5,7,11,14,18,26,34,38,41,47,48,49,60,61,65,71,75,89,94,97,103,104,1,6,9,10,13,17,20,25,30,33,37,40,55,57,59,62,64,67,69,70,73,74},num=0},
 --11 common
-   {cards={89,94,97,103,104,1,6,9,10,13,17,20,25,30,33,37,40,55,57,59,62,64,67,69,70,73,74},num=4},
-  }]],
+  {cards={89,94,97,103,104,1,6,9,10,13,17,20,25,30,33,37,40,55,57,59,62,64,67,69,70,73,74},num=4},
+}]],
   pullRates=[[{
 --RC
  {rates={
@@ -2585,22 +2585,22 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={121,122,123,124,125,126,127,128,129,130,131,63,64,66,68,70,74,84,91,99,101,105,109,112,115,116,117,118,119,120,4,7,8,9,13,16,25,27,36,40,45,52},num=3},
+  {cards={121,122,123,124,125,126,127,128,129,130,131,63,64,66,68,70,74,84,91,99,101,105,109,112,115,116,117,118,119,120,4,7,8,9,13,16,25,27,36,40,45,52},num=3},
 --2 FA
-   {cards={141,142,143,144,145,146},num=0},
+  {cards={141,142,143,144,145,146},num=0},
 --3 ex
-   {cards={79,80,97,1,2,29,30,46},num=0},
+  {cards={79,80,97,1,2,29,30,46},num=0},
 --4 holo
-   {cards={62,73,86,93,95,114,14,17,19,26,28,35,41,43,55,57},num=0},
+  {cards={62,73,86,93,95,114,14,17,19,26,28,35,41,43,55,57},num=0},
 --5 rare
-   {cards={61,67,71,76,77,78,82,85,89,90,96,100,103,107,110,5,11,21,23,32,34,38,48,50,53,59},num=0},
+  {cards={61,67,71,76,77,78,82,85,89,90,96,100,103,107,110,5,11,21,23,32,34,38,48,50,53,59},num=0},
 --6 reverse
-   {cards={121,122,123,124,125,126,127,128,129,130,131,63,64,66,68,70,74,84,91,99,101,105,109,112,115,116,117,118,119,120,4,7,8,9,13,16,25,27,36,40,45,52,65,69,72,75,81,83,87,88,92,94,98,102,104,106,108,111,113,3,6,10,12,15,18,20,22,24,31,33,37,39,42,44,47,49,51,54,56,58,60,61,67,71,76,77,78,82,85,89,90,96,100,103,107,110,5,11,21,23,32,34,38,48,50,53,59,62,73,86,93,95,114,14,17,19,26,28,35,41,43,55,57},num=1},
+  {cards={121,122,123,124,125,126,127,128,129,130,131,63,64,66,68,70,74,84,91,99,101,105,109,112,115,116,117,118,119,120,4,7,8,9,13,16,25,27,36,40,45,52,65,69,72,75,81,83,87,88,92,94,98,102,104,106,108,111,113,3,6,10,12,15,18,20,22,24,31,33,37,39,42,44,47,49,51,54,56,58,60,61,67,71,76,77,78,82,85,89,90,96,100,103,107,110,5,11,21,23,32,34,38,48,50,53,59,62,73,86,93,95,114,14,17,19,26,28,35,41,43,55,57},num=1},
 --7 common
-   {cards={65,69,72,75,81,83,87,88,92,94,98,102,104,106,108,111,113,3,6,10,12,15,18,20,22,24,31,33,37,39,42,44,47,49,51,54,56,58,60},num=4},
+  {cards={65,69,72,75,81,83,87,88,92,94,98,102,104,106,108,111,113,3,6,10,12,15,18,20,22,24,31,33,37,39,42,44,47,49,51,54,56,58,60},num=4},
 --8 energy
-   {cards={132,133,134,135,136,137,138,139,140},num=0,energy=true},
-  }]],
+  {cards={132,133,134,135,136,137,138,139,140},num=0,energy=true},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -2632,22 +2632,22 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={65,73,76,83,87,88,90,91,92,93,94,95,96,97,98,99,100,2,6,9,10,15,16,17,25,27,31,33,39,46,50,57},num=3},
+  {cards={65,73,76,83,87,88,90,91,92,93,94,95,96,97,98,99,100,2,6,9,10,15,16,17,25,27,31,33,39,46,50,57},num=3},
 --2 secret
-   {cards={108,109,110},num=0},
+  {cards={108,109,110},num=0},
 --3 FA
-   {cards={101,102,103,104,105,106,107},num=0},
+  {cards={101,102,103,104,105,106,107},num=0},
 --4 ex
-   {cards={69,78,79,11,12,13,35,41},num=0},
+  {cards={69,78,79,11,12,13,35,41},num=0},
 --5 holo
-   {cards={66,68,70,74,7,20,23,40},num=0},
+  {cards={66,68,70,74,7,20,23,40},num=0},
 --6 rare
-   {cards={61,64,71,77,80,82,85,3,21,26,29,34,37,43,47,49,52,55,59,60},num=0},
+  {cards={61,64,71,77,80,82,85,3,21,26,29,34,37,43,47,49,52,55,59,60},num=0},
 --8 reverse
-   {cards={61,64,71,77,80,82,85,3,21,26,29,34,37,43,47,49,52,55,59,60,62,63,67,72,75,81,84,86,1,4,5,8,14,18,19,22,24,28,30,32,36,38,42,44,45,48,51,53,54,56,58,65,73,76,83,87,88,90,91,92,93,94,95,96,97,98,99,100,2,6,9,10,15,16,17,25,27,31,33,39,46,50,57,66,68,70,74,7,20,23,40},num=1},
+  {cards={61,64,71,77,80,82,85,3,21,26,29,34,37,43,47,49,52,55,59,60,62,63,67,72,75,81,84,86,1,4,5,8,14,18,19,22,24,28,30,32,36,38,42,44,45,48,51,53,54,56,58,65,73,76,83,87,88,90,91,92,93,94,95,96,97,98,99,100,2,6,9,10,15,16,17,25,27,31,33,39,46,50,57,66,68,70,74,7,20,23,40},num=1},
 --9 common
-   {cards={62,63,67,72,75,81,84,86,1,4,5,8,14,18,19,22,24,28,30,32,36,38,42,44,45,48,51,53,54,56,58},num=5},
-  }]],
+  {cards={62,63,67,72,75,81,84,86,1,4,5,8,14,18,19,22,24,28,30,32,36,38,42,44,45,48,51,53,54,56,58},num=5},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -2675,22 +2675,22 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={62,68,72,74,76,80,83,86,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,2,9,13,16,25,28,34,40,45,47,48,49,58,60},num=3},
+  {cards={62,68,72,74,76,80,83,86,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,2,9,13,16,25,28,34,40,45,47,48,49,58,60},num=3},
 --2 secret
-   {cards={113,114},num=0},
+  {cards={113,114},num=0},
 --3 FA
-   {cards={106,107,108,109,110,111,112},num=0},
+  {cards={106,107,108,109,110,111,112},num=0},
 --4 ex
-   {cards={65,75,4,5,20,54,55},num=0},
+  {cards={65,75,4,5,20,54,55},num=0},
 --5 holo
-   {cards={64,78,84,3,14,17,24,46,59},num=0},
+  {cards={64,78,84,3,14,17,24,46,59},num=0},
 --6 rare
-   {cards={63,66,69,73,77,87,7,11,18,19,22,26,30,33,36,37,41,43,50,52},num=0},
+  {cards={63,66,69,73,77,87,7,11,18,19,22,26,30,33,36,37,41,43,50,52},num=0},
 --8 reverse
-   {cards={61,67,70,71,79,81,82,85,88,1,6,8,10,12,15,21,23,27,29,31,32,35,38,39,42,44,51,53,57,62,68,72,74,76,80,83,86,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,2,9,13,16,25,28,34,40,45,47,48,49,58,60,63,66,69,73,77,87,7,11,18,19,22,26,30,33,36,37,41,43,50,52,64,78,84,3,14,17,24,46,59},num=1},
+  {cards={61,67,70,71,79,81,82,85,88,1,6,8,10,12,15,21,23,27,29,31,32,35,38,39,42,44,51,53,57,62,68,72,74,76,80,83,86,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,2,9,13,16,25,28,34,40,45,47,48,49,58,60,63,66,69,73,77,87,7,11,18,19,22,26,30,33,36,37,41,43,50,52,64,78,84,3,14,17,24,46,59},num=1},
 --9 common
-   {cards={61,67,70,71,79,81,82,85,88,1,6,8,10,12,15,21,23,27,29,31,32,35,38,39,42,44,51,53,57},num=5},
-  }]],
+  {cards={61,67,70,71,79,81,82,85,88,1,6,8,10,12,15,21,23,27,29,31,32,35,38,39,42,44,51,53,57},num=5},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -2718,22 +2718,22 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={68,75,78,81,84,86,92,93,94,95,96,97,98,101,102,103,104,105,106,107,108,109,110,111,112,113,114,6,9,14,16,19,33,37,43,50,58},num=3},
+  {cards={68,75,78,81,84,86,92,93,94,95,96,97,98,101,102,103,104,105,106,107,108,109,110,111,112,113,114,6,9,14,16,19,33,37,43,50,58},num=3},
 --2 secret
-   {cards={122,123,124},num=0},
+  {cards={122,123,124},num=0},
 --3 FA
-   {cards={121,115,116,117,118,119,120},num=0},
+  {cards={121,115,116,117,118,119,120},num=0},
 --4 ex
-   {cards={63,66,69,23,24,35,36,59},num=0},
+  {cards={63,66,69,23,24,35,36,59},num=0},
 --5 holo
-   {cards={64,71,73,76,79,88,99,100,12,17,31,44,46,51},num=0},
+  {cards={64,71,73,76,79,88,99,100,12,17,31,44,46,51},num=0},
 --6 rare
-   {cards={62,65,83,87,90,2,4,7,10,21,26,28,34,39,41,48,53,55,56},num=0},
+  {cards={62,65,83,87,90,2,4,7,10,21,26,28,34,39,41,48,53,55,56},num=0},
 --8 reverse
-   {cards={68,75,78,81,84,86,92,93,94,95,96,97,98,101,102,103,104,105,106,107,108,109,110,111,112,113,114,6,9,14,16,19,33,37,43,50,58,61,70,72,74,77,80,82,85,89,91,1,3,5,8,11,13,15,18,20,22,27,29,30,32,38,40,42,45,47,49,52,54,57,60,62,65,83,87,90,2,4,7,10,21,26,28,34,39,41,48,53,55,56,64,71,73,76,79,88,99,100,12,17,31,44,46,51},num=1},
+  {cards={68,75,78,81,84,86,92,93,94,95,96,97,98,101,102,103,104,105,106,107,108,109,110,111,112,113,114,6,9,14,16,19,33,37,43,50,58,61,70,72,74,77,80,82,85,89,91,1,3,5,8,11,13,15,18,20,22,27,29,30,32,38,40,42,45,47,49,52,54,57,60,62,65,83,87,90,2,4,7,10,21,26,28,34,39,41,48,53,55,56,64,71,73,76,79,88,99,100,12,17,31,44,46,51},num=1},
 --9 common
-   {cards={61,70,72,74,77,80,82,85,89,91,1,3,5,8,11,13,15,18,20,22,27,29,30,32,38,40,42,45,47,49,52,54,57,60},num=5},
-  }]],
+  {cards={61,70,72,74,77,80,82,85,89,91,1,3,5,8,11,13,15,18,20,22,27,29,30,32,38,40,42,45,47,49,52,54,57,60},num=5},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -2761,22 +2761,22 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={2,7,11,14,23,26,27,31,34,40,47,51,58,60,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,63,67,68,71,75,99,101,109,112,117,118,119},num=3},
+  {cards={2,7,11,14,23,26,27,31,34,40,47,51,58,60,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,63,67,68,71,75,99,101,109,112,117,118,119},num=3},
 --2 secret
-   {cards={161,162,163,164},num=0},
+  {cards={161,162,163,164},num=0},
 --3 FA
-   {cards={145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160},num=0},
+  {cards={145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160},num=0},
 --4 ex
-   {cards={19,29,38,54,55,85,86,91,93,94,105,106},num=0},
+  {cards={19,29,38,54,55,85,86,91,93,94,105,106},num=0},
 --5 holo
-   {cards={9,12,28,36,44,50,56,61,65,77,80,88,92,97,100,104,108,110},num=0},
+  {cards={9,12,28,36,44,50,56,61,65,77,80,88,92,97,100,104,108,110},num=0},
 --6 rare
-   {cards={3,5,8,16,21,24,35,37,41,48,52,53,64,69,72,73,76,81,84,90,95,96,103,107,114},num=0},
+  {cards={3,5,8,16,21,24,35,37,41,48,52,53,64,69,72,73,76,81,84,90,95,96,103,107,114},num=0},
 --8 reverse
-   {cards={1,4,6,10,13,15,17,18,20,22,25,30,32,33,39,42,43,45,46,49,57,59,62,66,70,74,78,79,82,83,87,89,98,102,111,113,115,116,120,2,7,11,14,23,26,27,31,34,40,47,51,58,60,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,63,67,68,71,75,99,101,109,112,117,118,119,3,5,8,16,21,24,35,37,41,48,52,53,64,69,72,73,76,81,84,90,95,96,103,107,114,9,12,28,36,44,50,56,61,65,77,80,88,92,97,100,104,108,110},num=1},
+  {cards={1,4,6,10,13,15,17,18,20,22,25,30,32,33,39,42,43,45,46,49,57,59,62,66,70,74,78,79,82,83,87,89,98,102,111,113,115,116,120,2,7,11,14,23,26,27,31,34,40,47,51,58,60,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,63,67,68,71,75,99,101,109,112,117,118,119,3,5,8,16,21,24,35,37,41,48,52,53,64,69,72,73,76,81,84,90,95,96,103,107,114,9,12,28,36,44,50,56,61,65,77,80,88,92,97,100,104,108,110},num=1},
 --9 common
-   {cards={1,4,6,10,13,15,17,18,20,22,25,30,32,33,39,42,43,45,46,49,57,59,62,66,70,74,78,79,82,83,87,89,98,102,111,113,115,116,120},num=5},
-  }]],
+  {cards={1,4,6,10,13,15,17,18,20,22,25,30,32,33,39,42,43,45,46,49,57,59,62,66,70,74,78,79,82,83,87,89,98,102,111,113,115,116,120},num=5},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -2794,6 +2794,31 @@ custom={
  custom=
   {mesh=BLISTERMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/1670239067235925410/6046B505EB56839C2F534965D880B5D44A3005A1/"
+ },
+ packData={
+  art={
+   "http://cloud-3.steamusercontent.com/ugc/1670239067235979803/A0DEDF5797BCE568472E9FE74F11483C17A87AAA/",
+   "http://cloud-3.steamusercontent.com/ugc/1670239067235984110/DEBA3D12027E1596D21C01307A8F601371594ABC/"
+  },
+  dropSlots=[[{
+--1 uncommon
+  {cards={23,24,25,26,27,28,29,30,31,32,33,34},num=2},
+--2 ex
+  {cards={6,15},num=0},
+--3 holo
+  {cards={2,5,8,11,14,21},num=0},
+--4 reverse
+  {cards={1,3,4,7,9,10,12,13,16,17,18,19,20,22,2,5,8,11,14,21,23,24,25,26,27,28,29,30,31,32,33,34},num=1},
+--5 common
+  {cards={1,3,4,7,9,10,12,13,16,17,18,19,20,22},num=3},
+}]],
+  pullRates=[[{
+--rare
+ {rates={
+  {slot=2,odds=1/6.5},--ex
+  {slot=3}--holo
+ },num=1},
+}]]
  }},
 {setName="Roaring Skies",
  size=112,
@@ -2811,22 +2836,22 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={66,80,81,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,2,4,7,10,12,14,19,22,25,37,44,50,53,56},num=3},
+  {cards={66,80,81,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,2,4,7,10,12,14,19,22,25,37,44,50,53,56},num=3},
 --2 secret
-   {cards={111,112},num=0},
+  {cards={111,112},num=0},
 --3 FA
-   {cards={100,101,102,103,104,105,106,107,108,109,110},num=0},
+  {cards={100,101,102,103,104,105,106,107,108,109,110},num=0},
 --4 ex
-   {cards={61,62,75,76,77,78,26,34,35,58,59,60},num=0},
+  {cards={61,62,75,76,77,78,26,34,35,58,59,60},num=0},
 --5 holo
-   {cards={63,64,72,5,33,40,42,46,52,57},num=0},
+  {cards={63,64,72,5,33,40,42,46,52,57},num=0},
 --6 rare
-   {cards={69,71,74,82,8,11,13,15,16,17,23,29,31,32,45,47,48,51},num=0},
+  {cards={69,71,74,82,8,11,13,15,16,17,23,29,31,32,45,47,48,51},num=0},
 --8 reverse
-   {cards={65,67,68,70,73,79,83,1,3,6,9,18,20,21,24,27,28,30,36,38,39,41,43,49,54,55,63,64,72,5,33,40,42,46,52,57,66,80,81,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,2,4,7,10,12,14,19,22,25,37,44,50,53,56,69,71,74,82,8,11,13,15,16,17,23,29,31,32,45,47,48,51},num=1},
+  {cards={65,67,68,70,73,79,83,1,3,6,9,18,20,21,24,27,28,30,36,38,39,41,43,49,54,55,63,64,72,5,33,40,42,46,52,57,66,80,81,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,2,4,7,10,12,14,19,22,25,37,44,50,53,56,69,71,74,82,8,11,13,15,16,17,23,29,31,32,45,47,48,51},num=1},
 --9 common
-   {cards={65,67,68,70,73,79,83,1,3,6,9,18,20,21,24,27,28,30,36,38,39,41,43,49,54,55},num=5},
-  }]],
+  {cards={65,67,68,70,73,79,83,1,3,6,9,18,20,21,24,27,28,30,36,38,39,41,43,49,54,55},num=5},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -2854,22 +2879,22 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={65,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,2,4,6,10,13,22,29,44,48,53,56,59},num=3},
+  {cards={65,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,2,4,6,10,13,22,29,44,48,53,56,59},num=3},
 --2 secret
-   {cards={96,97,98,99,100},num=0},
+  {cards={96,97,98,99,100},num=0},
 --3 FA
-   {cards={84,85,86,87,88,89,90,91,92,93,94,95},num=0},
+  {cards={84,85,86,87,88,89,90,91,92,93,94,95},num=0},
 --4 ex
-   {cards={68,7,8,25,27,28,36,37,42,43,57},num=0},
+  {cards={68,7,8,25,27,28,36,37,42,43,57},num=0},
 --5 holo
-   {cards={67,12,15,17,21,26,54,60},num=0},
+  {cards={67,12,15,17,21,26,54,60},num=0},
 --6 rare
-   {cards={66,3,11,14,18,20,24,33,35,40,49,50,51},num=0},
+  {cards={66,3,11,14,18,20,24,33,35,40,49,50,51},num=0},
 --8 reverse
-   {cards={61,62,63,64,1,5,9,16,19,23,30,31,32,34,38,39,41,45,46,47,52,55,58,65,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,2,4,6,10,13,22,29,44,48,53,56,59,66,3,11,14,18,20,24,33,35,40,49,50,51,67,12,15,17,21,26,54,60},num=1},
+  {cards={61,62,63,64,1,5,9,16,19,23,30,31,32,34,38,39,41,45,46,47,52,55,58,65,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,2,4,6,10,13,22,29,44,48,53,56,59,66,3,11,14,18,20,24,33,35,40,49,50,51,67,12,15,17,21,26,54,60},num=1},
 --9 common
-   {cards={61,62,63,64,1,5,9,16,19,23,30,31,32,34,38,39,41,45,46,47,52,55,58},num=5},
-  }]],
+  {cards={61,62,63,64,1,5,9,16,19,23,30,31,32,34,38,39,41,45,46,47,52,55,58},num=5},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -2897,24 +2922,24 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={67,69,72,74,76,81,88,99,102,110,118,122,126,133,134,135,136,137,138,139,140,141,142,143,144,145,146,148,149,150,151,152,153,3,10,14,17,19,26,28,30,37,44,47,53,56,57,59},num=3},
+  {cards={67,69,72,74,76,81,88,99,102,110,118,122,126,133,134,135,136,137,138,139,140,141,142,143,144,145,146,148,149,150,151,152,153,3,10,14,17,19,26,28,30,37,44,47,53,56,57,59},num=3},
 --2 secret
-   {cards={164,165},num=0},
+  {cards={164,165},num=0},
 --3 FA
-   {cards={154,155,156,157,158,159,160,161,162,163},num=0},
+  {cards={154,155,156,157,158,159,160,161,162,163},num=0},
 --4 ex
-   {cards={61,62,63,64,21,22,34,35},num=0},
+  {cards={61,62,63,64,21,22,34,35},num=0},
 --5 holo
-   {cards={66,82,84,85,91,94,107,111,11,15,20,33,38,54,55,60},num=0},
+  {cards={66,82,84,85,91,94,107,111,11,15,20,33,38,54,55,60},num=0},
 --6 rare
-   {cards={70,78,87,96,97,103,106,112,117,120,123,127,128,130,2,6,24,40,42,45,49},num=0},
+  {cards={70,78,87,96,97,103,106,112,117,120,123,127,128,130,2,6,24,40,42,45,49},num=0},
 --7 BREAK
-   {cards={79,92,104,113,12,50},num=0},
+  {cards={79,92,104,113,12,50},num=0},
 --8 reverse
-   {cards={65,68,71,73,75,77,80,83,86,89,90,93,95,98,100,101,105,108,109,114,115,116,119,121,124,125,129,131,132,1,4,5,7,8,9,13,16,18,23,25,27,29,31,32,36,39,41,43,46,48,51,52,58,66,82,84,85,91,94,107,111,11,15,20,33,38,54,55,60,67,69,72,74,76,81,88,99,102,110,118,122,126,133,134,135,136,137,138,139,140,141,142,143,144,145,146,148,149,150,151,152,153,3,10,14,17,19,26,28,30,37,44,47,53,56,57,59,70,78,87,96,97,103,106,112,117,120,123,127,128,130,2,6,24,40,42,45,49},num=0},
+  {cards={65,68,71,73,75,77,80,83,86,89,90,93,95,98,100,101,105,108,109,114,115,116,119,121,124,125,129,131,132,1,4,5,7,8,9,13,16,18,23,25,27,29,31,32,36,39,41,43,46,48,51,52,58,66,82,84,85,91,94,107,111,11,15,20,33,38,54,55,60,67,69,72,74,76,81,88,99,102,110,118,122,126,133,134,135,136,137,138,139,140,141,142,143,144,145,146,148,149,150,151,152,153,3,10,14,17,19,26,28,30,37,44,47,53,56,57,59,70,78,87,96,97,103,106,112,117,120,123,127,128,130,2,6,24,40,42,45,49},num=0},
 --9 common
-   {cards={65,68,71,73,75,77,80,83,86,89,90,93,95,98,100,101,105,108,109,114,115,116,119,121,124,125,129,131,132,1,4,5,7,8,9,13,16,18,23,25,27,29,31,32,36,39,41,43,46,48,51,52,58},num=5},
-  }]],
+  {cards={65,68,71,73,75,77,80,83,86,89,90,93,95,98,100,101,105,108,109,114,115,116,119,121,124,125,129,131,132,1,4,5,7,8,9,13,16,18,23,25,27,29,31,32,36,39,41,43,46,48,51,52,58},num=5},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -2947,24 +2972,24 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={2,6,9,11,15,20,24,28,34,37,39,43,45,55,61,67,69,72,78,85,90,91,94,96,97,98,101,102,103,104,105,106,107,108,109,111,112,113,114,115,116},num=3},
+  {cards={2,6,9,11,15,20,24,28,34,37,39,43,45,55,61,67,69,72,78,85,90,91,94,96,97,98,101,102,103,104,105,106,107,108,109,111,112,113,114,115,116},num=3},
 --2 secret
-   {cards={126},num=0},
+  {cards={126},num=0},
 --3 FA
-   {cards={121,122,123,124,125,117,118,119,120},num=0},
+  {cards={121,122,123,124,125,117,118,119,120},num=0},
 --4 ex
-   {cards={14,26,27,31,32,52,74,76,77,83,92},num=0},
+  {cards={14,26,27,31,32,52,74,76,77,83,92},num=0},
 --5 holo
-   {cards={3,21,30,57,62,70,86},num=0},
+  {cards={3,21,30,57,62,70,86},num=0},
 --6 rare
-   {cards={8,13,17,35,40,46,49,51,54,59,65,73,75,80,82,88},num=0},
+  {cards={8,13,17,35,40,46,49,51,54,59,65,73,75,80,82,88},num=0},
 --7 BREAK
-   {cards={18,41,47,66,89},num=0},
+  {cards={18,41,47,66,89},num=0},
 --8 reverse
-   {cards={1,4,5,7,10,12,16,19,22,23,25,29,33,36,38,42,44,48,50,53,56,58,60,63,64,68,71,79,81,84,87,93,95,2,6,9,11,15,20,24,28,34,37,39,43,45,55,61,67,69,72,78,85,90,91,94,96,97,98,101,102,103,104,105,106,107,108,109,111,112,113,114,115,116,3,21,30,57,62,70,86,8,13,17,35,40,46,49,51,54,59,65,73,75,80,82,88},num=0},
+  {cards={1,4,5,7,10,12,16,19,22,23,25,29,33,36,38,42,44,48,50,53,56,58,60,63,64,68,71,79,81,84,87,93,95,2,6,9,11,15,20,24,28,34,37,39,43,45,55,61,67,69,72,78,85,90,91,94,96,97,98,101,102,103,104,105,106,107,108,109,111,112,113,114,115,116,3,21,30,57,62,70,86,8,13,17,35,40,46,49,51,54,59,65,73,75,80,82,88},num=0},
 --9 common
-   {cards={1,4,5,7,10,12,16,19,22,23,25,29,33,36,38,42,44,48,50,53,56,58,60,63,64,68,71,79,81,84,87,93,95},num=5},
-  }]],
+  {cards={1,4,5,7,10,12,16,19,22,23,25,29,33,36,38,42,44,48,50,53,56,58,60,63,64,68,71,79,81,84,87,93,95},num=5},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -2997,34 +3022,34 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={4,20,31,34,41,44,51,52,54,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74},num=2},
+  {cards={4,20,31,34,41,44,51,52,54,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74},num=2},
 --2 rc common
-   {cards={86,87,88,89,92,94,96,97,99,102,108,110,111},num=1},
+  {cards={86,87,88,89,92,94,96,97,99,102,108,110,111},num=1},
 --3 FA
-   {cards={25,29},num=0},
+  {cards={25,29},num=0},
 --4 zard ex
-   {cards={11,12},num=0},
+  {cards={11,12},num=0},
 --5 ex
-   {cards={1,2,10,13,17,18,24,28,37,46},num=0},
+  {cards={1,2,10,13,17,18,24,28,37,46},num=0},
 --6 holo
-   {cards={5,27,35,42,45},num=0},
+  {cards={5,27,35,42,45},num=0},
 --7 rare
-   {cards={7,9,15,23,36,39,47,48,56,57,58},num=0},
+  {cards={7,9,15,23,36,39,47,48,56,57,58},num=0},
 --8 rc FA ex
-   {cards={113,117},num=0},
+  {cards={113,117},num=0},
 --9 rc FA
-   {cards={114,115,116},num=0},
+  {cards={114,115,116},num=0},
 --10 rc ex
-   {cards={91,106},num=0},
+  {cards={91,106},num=0},
 --11 rc uncommon
-   {cards={90,93,95,98,100,101,103,104,105,107,109,112},num=0},
+  {cards={90,93,95,98,100,101,103,104,105,107,109,112},num=0},
 --12 reverse (energy is placed twice to simulator higher pull rate)
-   {cards={75,76,77,78,79,80,81,82,83,4,20,31,34,41,44,51,52,54,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,5,27,35,42,45,7,9,15,23,36,39,47,48,56,57,58,3,6,8,14,16,19,21,22,26,30,32,33,38,40,43,49,50,53,55},num=1},
+  {cards={75,76,77,78,79,80,81,82,83,4,20,31,34,41,44,51,52,54,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,5,27,35,42,45,7,9,15,23,36,39,47,48,56,57,58,3,6,8,14,16,19,21,22,26,30,32,33,38,40,43,49,50,53,55},num=1},
 --13 common
-   {cards={3,6,8,14,16,19,21,22,26,30,32,33,38,40,43,49,50,53,55},num=2},
+  {cards={3,6,8,14,16,19,21,22,26,30,32,33,38,40,43,49,50,53,55},num=2},
 --14 energy
-   {cards={75,76,77,78,79,80,81,82,83},num=0,energy=true},
-  }]],
+  {cards={75,76,77,78,79,80,81,82,83},num=0,energy=true},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -3069,24 +3094,24 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={61,68,73,77,83,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,109,110,111,112,113,114,116,117,118,119,1,3,6,12,16,17,28,34,38,42,45,49,53},num=3},
+  {cards={61,68,73,77,83,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,109,110,111,112,113,114,116,117,118,119,1,3,6,12,16,17,28,34,38,42,45,49,53},num=3},
 --2 secret
-   {cards={129},num=0},
+  {cards={129},num=0},
 --3 FA
-   {cards={121,122,123,124,125,126,127,128,120},num=0},
+  {cards={121,122,123,124,125,126,127,128,120},num=0},
 --4 ex
-   {cards={66,71,74,75,85,86,87,20,25,26,43,55,57},num=0},
+  {cards={66,71,74,75,85,86,87,20,25,26,43,55,57},num=0},
 --5 holo
-   {cards={65,13,21,29,58},num=0},
+  {cards={65,13,21,29,58},num=0},
 --6 rare
-   {cards={63,69,78,79,80,84,4,7,9,18,23,24,31,35,37,39,48,50,54,60},num=0},
+  {cards={63,69,78,79,80,84,4,7,9,18,23,24,31,35,37,39,48,50,54,60},num=0},
 --7 BREAK
-   {cards={64,81,14,19,52},num=0},
+  {cards={64,81,14,19,52},num=0},
 --8 reverse
-   {cards={61,68,73,77,83,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,109,110,111,112,113,114,116,117,118,119,1,3,6,12,16,17,28,34,38,42,45,49,53,62,67,70,72,76,82,88,89,2,5,8,10,11,15,22,27,30,32,33,36,40,41,46,47,51,59,63,69,78,79,80,84,4,7,9,18,23,24,31,35,37,39,48,50,54,60,65,13,21,29,58},num=0},
+  {cards={61,68,73,77,83,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,109,110,111,112,113,114,116,117,118,119,1,3,6,12,16,17,28,34,38,42,45,49,53,62,67,70,72,76,82,88,89,2,5,8,10,11,15,22,27,30,32,33,36,40,41,46,47,51,59,63,69,78,79,80,84,4,7,9,18,23,24,31,35,37,39,48,50,54,60,65,13,21,29,58},num=0},
 --9 common
-   {cards={62,67,70,72,76,82,88,89,2,5,8,10,11,15,22,27,30,32,33,36,40,41,46,47,51,59},num=5},
-  }]],
+  {cards={62,67,70,72,76,82,88,89,2,5,8,10,11,15,22,27,30,32,33,36,40,41,46,47,51,59},num=5},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -3119,24 +3144,24 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={69,72,77,80,85,89,91,93,95,97,98,99,100,101,102,103,104,105,106,2,4,10,17,19,31,39,44,47,49,56},num=3},
+  {cards={69,72,77,80,85,89,91,93,95,97,98,99,100,101,102,103,104,105,106,2,4,10,17,19,31,39,44,47,49,56},num=3},
 --2 secret
-   {cards={115,116},num=0},
+  {cards={115,116},num=0},
 --3 FA
-   {cards={107,108,109,110,111,112,113,114},num=0},
+  {cards={107,108,109,110,111,112,113,114},num=0},
 --4 ex
-   {cards={67,68,75,78,79,26},num=0},
+  {cards={67,68,75,78,79,26},num=0},
 --5 holo
-   {cards={64,65,73,81,86,11,20,40,50},num=0},
+  {cards={64,65,73,81,86,11,20,40,50},num=0},
 --6 rare
-   {cards={61,62,70,74,83,96,5,7,13,15,23,25,29,32,34,37,42,45,51,53,55,57,59},num=0},
+  {cards={61,62,70,74,83,96,5,7,13,15,23,25,29,32,34,37,42,45,51,53,55,57,59},num=0},
 --7 BREAK
-   {cards={66,82,87,8,21,24,35},num=0},
+  {cards={66,82,87,8,21,24,35},num=0},
 --8 reverse
-   {cards={61,62,70,74,83,96,5,7,13,15,23,25,29,32,34,37,42,45,51,53,55,57,59,63,71,76,84,88,90,92,94,1,3,6,9,12,14,16,18,22,27,28,30,33,36,38,41,43,46,48,52,54,58,60,64,65,73,81,86,11,20,40,50,69,72,77,80,85,89,91,93,95,97,98,99,100,101,102,103,104,105,106,2,4,10,17,19,31,39,44,47,49,56},num=0},
+  {cards={61,62,70,74,83,96,5,7,13,15,23,25,29,32,34,37,42,45,51,53,55,57,59,63,71,76,84,88,90,92,94,1,3,6,9,12,14,16,18,22,27,28,30,33,36,38,41,43,46,48,52,54,58,60,64,65,73,81,86,11,20,40,50,69,72,77,80,85,89,91,93,95,97,98,99,100,101,102,103,104,105,106,2,4,10,17,19,31,39,44,47,49,56},num=0},
 --9 common
-   {cards={63,71,76,84,88,90,92,94,1,3,6,9,12,14,16,18,22,27,28,30,33,36,38,41,43,46,48,52,54,58,60},num=5},
-  }]],
+  {cards={63,71,76,84,88,90,92,94,1,3,6,9,12,14,16,18,22,27,28,30,33,36,38,41,43,46,48,52,54,58,60},num=5},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -3169,28 +3194,28 @@ custom={
   },
   dropSlots=[[{
 --1 secret
-   {cards={109,110,111,112,113},num=0},
+  {cards={109,110,111,112,113},num=0},
 --2 uncommon
-   {cards={4,6,10,20,24,44,48,50,58,71,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90},num=0},
+  {cards={4,6,10,20,24,44,48,50,58,71,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90},num=0},
 --3 ultra
-   {cards={101,102,103,104,105,106,107,108,100},num=0},
+  {cards={101,102,103,104,105,106,107,108,100},num=0},
 --4 mega ex
-   {cards={2,13,22,27,65},num=0},
+  {cards={2,13,22,27,65},num=0},
 --5 ex
-   {cards={1,12,21,26,52,64,72},num=0},
+  {cards={1,12,21,26,52,64,72},num=0},
 --6 holo
-   {cards={11,15,25,34,36,38,42,45,53,59,62,63,70},num=0},
+  {cards={11,15,25,34,36,38,42,45,53,59,62,63,70},num=0},
 --7 rare
-   {cards={7,18,29,31,40,51,56,67,68},num=0},
+  {cards={7,18,29,31,40,51,56,67,68},num=0},
 --8 BREAK
-   {cards={16,32,46,60},num=0},
+  {cards={16,32,46,60},num=0},
 --9 reverse (energy is placed twice to simulator higher pull rate)
-   {cards={3,5,8,9,14,17,19,23,28,30,33,35,37,39,41,43,47,49,54,55,57,61,66,69,4,6,10,20,24,44,48,50,58,71,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,7,18,29,31,40,51,56,67,68,11,15,25,34,36,38,42,45,53,59,62,63,70,91,92,93,94,95,96,97,98,99,91,92,93,94,95,96,97,98,99},num=0},
+  {cards={3,5,8,9,14,17,19,23,28,30,33,35,37,39,41,43,47,49,54,55,57,61,66,69,4,6,10,20,24,44,48,50,58,71,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,7,18,29,31,40,51,56,67,68,11,15,25,34,36,38,42,45,53,59,62,63,70,91,92,93,94,95,96,97,98,99,91,92,93,94,95,96,97,98,99},num=0},
 --10 common
-   {cards={3,5,8,9,14,17,19,23,28,30,33,35,37,39,41,43,47,49,54,55,57,61,66,69},num=4},
+  {cards={3,5,8,9,14,17,19,23,28,30,33,35,37,39,41,43,47,49,54,55,57,61,66,69},num=4},
 --11 energy
-   {cards={91,92,93,94,95,96,97,98,99},num=0,energy=true},
-  }]],
+  {cards={91,92,93,94,95,96,97,98,99},num=0,energy=true},
+}]],
   pullRates=[[{
 --uncommons
  {rates={
@@ -3240,28 +3265,28 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={102,104,107,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,2,6,10,19,25,31,36,38,40,44,46,47,51,55,60,70,73,77,79,84,91,95},num=3},
+  {cards={102,104,107,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,2,6,10,19,25,31,36,38,40,44,46,47,51,55,60,70,73,77,79,84,91,95},num=3},
 --2 energy
-   {cards={{164,172}},num=1,size=9,energy=true},
+  {cards={{164,172}},num=1,size=9,energy=true},
 --3 gold
-   {cards={158,159,160,161,162,163},num=0},
+  {cards={158,159,160,161,162,163},num=0},
 --4 Rainbow
-   {cards={150,151,152,153,154,155,156,157},num=0},
+  {cards={150,151,152,153,154,155,156,157},num=0},
 --5 full art mon
-   {cards={138,139,140,141,142,143,144,145},num=0},
+  {cards={138,139,140,141,142,143,144,145},num=0},
 --6 full art trainer
-   {cards={146,147,148,149},num=0},
+  {cards={146,147,148,149},num=0},
 --7 GX
-   {cards={110,12,15,27,35,42,61,66,80,89,100},num=0},
+  {cards={110,12,15,27,35,42,61,66,80,89,100},num=0},
 --8 holo
-   {cards={113,17,20,22,32,52,56,58,63,71,82,85,87,93,96,99},num=0},
+  {cards={113,17,20,22,32,52,56,58,63,71,82,85,87,93,96,99},num=0},
 --9 rare
-   {cards={105,108,112,3,5,8,11,26,29,34,41,43,48,50,65,68,75},num=0},
+  {cards={105,108,112,3,5,8,11,26,29,34,41,43,48,50,65,68,75},num=0},
 --10 reverse
-   {cards={101,103,106,109,111,1,4,7,9,13,14,16,18,21,23,24,28,30,33,37,39,45,49,53,54,57,59,62,64,67,69,72,74,76,78,81,83,86,88,90,92,94,97,98,102,104,107,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,2,6,10,19,25,31,36,38,40,44,46,47,51,55,60,70,73,77,79,84,91,95,105,108,112,3,5,8,11,26,29,34,41,43,48,50,65,68,75,113,17,20,22,32,52,56,58,63,71,82,85,87,93,96,99},num=1},
+  {cards={101,103,106,109,111,1,4,7,9,13,14,16,18,21,23,24,28,30,33,37,39,45,49,53,54,57,59,62,64,67,69,72,74,76,78,81,83,86,88,90,92,94,97,98,102,104,107,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,2,6,10,19,25,31,36,38,40,44,46,47,51,55,60,70,73,77,79,84,91,95,105,108,112,3,5,8,11,26,29,34,41,43,48,50,65,68,75,113,17,20,22,32,52,56,58,63,71,82,85,87,93,96,99},num=1},
 --11 common
-   {cards={101,103,106,109,111,1,4,7,9,13,14,16,18,21,23,24,28,30,33,37,39,45,49,53,54,57,59,62,64,67,69,72,74,76,78,81,83,86,88,90,92,94,97,98},num=5}
-  }]],
+  {cards={101,103,106,109,111,1,4,7,9,13,14,16,18,21,23,24,28,30,33,37,39,45,49,53,54,57,59,62,64,67,69,72,74,76,78,81,83,86,88,90,92,94,97,98},num=5}
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -3292,28 +3317,28 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={84,88,93,95,100,104,113,115,118,119,121,122,123,124,125,126,128,129,130,132,134,135,136,138,139,2,12,26,34,36,38,41,43,51,56,68,70,72},num=3},
+  {cards={84,88,93,95,100,104,113,115,118,119,121,122,123,124,125,126,128,129,130,132,134,135,136,138,139,2,12,26,34,36,38,41,43,51,56,68,70,72},num=3},
 --2 energy
-   {cards={{181,189}},num=1,size=9,energy=true},
+  {cards={{181,189}},num=1,size=9,energy=true},
 --3 gold
-   {cards={172,173,174,175,176,177,178,179,180},num=0},
+  {cards={172,173,174,175,176,177,178,179,180},num=0},
 --4 Rainbow
-   {cards={156,157,158,159,160,161,162,163,164,165,166,167,169,170,171},num=0},
+  {cards={156,157,158,159,160,161,162,163,164,165,166,167,169,170,171},num=0},
 --5 full art mon
-   {cards={151,152,141,142,143,144,145,146,147,148,149,150},num=0},
+  {cards={151,152,141,142,143,144,145,146,147,148,149,150},num=0},
 --6 full art trainer
-   {cards={153,154,155},num=0},
+  {cards={153,154,155},num=0},
 --7 GX
-   {cards={78,89,96,105,120,18,24,40,47,49,60,63},num=0},
+  {cards={78,89,96,105,120,18,24,40,47,49,60,63},num=0},
 --8 holo
-   {cards={80,81,85,98,101,102,107,9,10,13,27,44,61,62,69},num=0},
+  {cards={80,81,85,98,101,102,107,9,10,13,27,44,61,62,69},num=0},
 --9 rare
-   {cards={83,86,90,91,109,111,116,3,5,7,14,16,17,21,30,32,37,46,48,53,57,58,59,65,75},num=0},
+  {cards={83,86,90,91,109,111,116,3,5,7,14,16,17,21,30,32,37,46,48,53,57,58,59,65,75},num=0},
 --10 reverse
-   {cards={76,77,79,82,87,92,94,99,103,106,108,110,112,114,117,1,4,6,8,11,15,19,22,25,28,29,31,33,35,39,42,45,50,52,55,66,67,71,73,74,80,81,85,98,101,102,107,9,10,13,27,44,61,62,69,83,86,90,91,109,111,116,3,5,7,14,16,17,21,30,32,37,46,48,53,57,58,59,65,75,84,88,93,95,100,104,113,115,118,119,121,122,123,124,125,126,128,129,130,132,134,135,136,138,139,2,12,26,34,36,38,41,43,51,56,68,70,72},num=1},
+  {cards={76,77,79,82,87,92,94,99,103,106,108,110,112,114,117,1,4,6,8,11,15,19,22,25,28,29,31,33,35,39,42,45,50,52,55,66,67,71,73,74,80,81,85,98,101,102,107,9,10,13,27,44,61,62,69,83,86,90,91,109,111,116,3,5,7,14,16,17,21,30,32,37,46,48,53,57,58,59,65,75,84,88,93,95,100,104,113,115,118,119,121,122,123,124,125,126,128,129,130,132,134,135,136,138,139,2,12,26,34,36,38,41,43,51,56,68,70,72},num=1},
 --11 common
-   {cards={76,77,79,82,87,92,94,99,103,106,108,110,112,114,117,1,4,6,8,11,15,19,22,25,28,29,31,33,35,39,42,45,50,52,55,66,67,71,73,74},num=5}
-  }]],
+  {cards={76,77,79,82,87,92,94,99,103,106,108,110,112,114,117,1,4,6,8,11,15,19,22,25,28,29,31,33,35,39,42,45,50,52,55,66,67,71,73,74},num=5}
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -3344,28 +3369,28 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={95,100,108,112,113,117,119,120,121,123,125,126,127,128,129,130,131,132,133,134,135,136,2,5,13,20,24,25,31,38,44,47,51,52,54,59,68,70,71},num=3},
+  {cards={95,100,108,112,113,117,119,120,121,123,125,126,127,128,129,130,131,132,133,134,135,136,2,5,13,20,24,25,31,38,44,47,51,52,54,59,68,70,71},num=3},
 --2 energy
-   {cards={{178,186}},num=1,size=9,energy=true},
+  {cards={{178,186}},num=1,size=9,energy=true},
 --3 gold
-   {cards={169,170,171,172,173,174,175,176,177},num=0},
+  {cards={169,170,171,172,173,174,175,176,177},num=0},
 --4 Rainbow
-   {cards={156,157,158,159,160,161,162,163,164,165,166,167,168},num=0},
+  {cards={156,157,158,159,160,161,162,163,164,165,166,167,168},num=0},
 --5 full art mon
-   {cards={151,152,153,154,155,137,138,139,140,141,142,143,144},num=0},
+  {cards={151,152,153,154,155,137,138,139,140,141,142,143,144},num=0},
 --6 full art trainer
-   {cards={145,146,147,148,149,150},num=0},
+  {cards={145,146,147,148,149,150},num=0},
 --7 GX
-   {cards={82,86,90,97,103,17,21,22,26,40,65,66},num=0},
+  {cards={82,86,90,97,103,17,21,22,26,40,65,66},num=0},
 --8 holo
-   {cards={77,89,98,104,109,6,32,34,43,55,64,69,73},num=0},
+  {cards={77,89,98,104,109,6,32,34,43,55,64,69,73},num=0},
 --9 rare
-   {cards={76,78,80,81,84,88,93,102,106,116,3,8,10,11,15,27,29,36,39,45,48,50,57,60,62},num=0},
+  {cards={76,78,80,81,84,88,93,102,106,116,3,8,10,11,15,27,29,36,39,45,48,50,57,60,62},num=0},
 --10 reverse
-   {cards={76,78,80,81,84,88,93,102,106,116,3,8,10,11,15,27,29,36,39,45,48,50,57,60,62,77,89,98,104,109,6,32,34,43,55,64,69,73,79,83,85,87,92,94,99,101,105,107,111,114,115,1,4,7,9,12,14,16,18,23,28,30,33,35,37,42,46,49,53,56,58,61,63,67,72,74,75,95,100,108,112,113,117,119,120,121,123,125,126,127,128,129,130,131,132,133,134,135,136,2,5,13,20,24,25,31,38,44,47,51,52,54,59,68,70,71},num=1},
+  {cards={76,78,80,81,84,88,93,102,106,116,3,8,10,11,15,27,29,36,39,45,48,50,57,60,62,77,89,98,104,109,6,32,34,43,55,64,69,73,79,83,85,87,92,94,99,101,105,107,111,114,115,1,4,7,9,12,14,16,18,23,28,30,33,35,37,42,46,49,53,56,58,61,63,67,72,74,75,95,100,108,112,113,117,119,120,121,123,125,126,127,128,129,130,131,132,133,134,135,136,2,5,13,20,24,25,31,38,44,47,51,52,54,59,68,70,71},num=1},
 --11 common
-   {cards={79,83,85,87,92,94,99,101,105,107,111,114,115,1,4,7,9,12,14,16,18,23,28,30,33,35,37,42,46,49,53,56,58,61,63,67,72,74,75},num=5}
-  }]],
+  {cards={79,83,85,87,92,94,99,101,105,107,111,114,115,1,4,7,9,12,14,16,18,23,28,30,33,35,37,42,46,49,53,56,58,61,63,67,72,74,75},num=5}
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -3396,30 +3421,30 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={3,6,14,18,21,24,32,38,45,48,50,52,59,60,61,62,63,64,65,66,67,68,69,71,72},num=3},
+  {cards={3,6,14,18,21,24,32,38,45,48,50,52,59,60,61,62,63,64,65,66,67,68,69,71,72},num=3},
 --2 energy
-   {cards={{82,90}},num=1,size=9,energy=true},
+  {cards={{82,90}},num=1,size=9,energy=true},
 --3 tube mewtwo
-   {cards={81},num=0},
+  {cards={81},num=0},
 --4 Rainbow
-   {cards={76,77,78,79},num=0},
+  {cards={76,77,78,79},num=0},
 --5 FA mon
-   {cards={73,74},num=0},
+  {cards={73,74},num=0},
 --6 FA trainer
-   {cards={75},num=0},
+  {cards={75},num=0},
 --7 shiny
-   {cards={9,28,41,43,57,58},num=0},
+  {cards={9,28,41,43,57,58},num=0},
 --8 GX
-   {cards={10,30,40,54},num=0},
+  {cards={10,30,40,54},num=0},
 --9 holo
-   {cards={7,8,15,25,26,27,33,36,42,46,55,56},num=0},
+  {cards={7,8,15,25,26,27,33,36,42,46,55,56},num=0},
 --10 reverse energy
-   {cards={{82,90}},num=0,size=9,energy=true},
+  {cards={{82,90}},num=0,size=9,energy=true},
 --11 reverse
-   {cards={1,2,4,5,12,13,16,17,19,20,22,23,29,31,34,35,37,39,44,47,49,51,53,3,6,14,18,21,24,32,38,45,48,50,52,59,60,61,62,63,64,65,66,67,68,69,71,72,7,8,15,25,26,27,33,36,42,46,55,56},num=0},
+  {cards={1,2,4,5,12,13,16,17,19,20,22,23,29,31,34,35,37,39,44,47,49,51,53,3,6,14,18,21,24,32,38,45,48,50,52,59,60,61,62,63,64,65,66,67,68,69,71,72,7,8,15,25,26,27,33,36,42,46,55,56},num=0},
 --12 common
-   {cards={1,2,4,5,12,13,16,17,19,20,22,23,29,31,34,35,37,39,44,47,49,51,53},num=5}
-  }]],
+  {cards={1,2,4,5,12,13,16,17,19,20,22,23,29,31,34,35,37,39,44,47,49,51,53},num=5}
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -3454,28 +3479,28 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={77,79,83,88,90,93,94,95,96,97,98,99,100,101,102,2,9,20,33,35,37,42,54,61,65,67},num=3},
+  {cards={77,79,83,88,90,93,94,95,96,97,98,99,100,101,102,2,9,20,33,35,37,42,54,61,65,67},num=3},
 --2 energy
-   {cards={{127,135}},num=1,size=9,energy=true},
+  {cards={{127,135}},num=1,size=9,energy=true},
 --3 gold
-   {cards={122,123,124,125,126},num=0},
+  {cards={122,123,124,125,126},num=0},
 --4 Rainbow
-   {cards={114,115,116,117,118,119,120,121},num=0},
+  {cards={114,115,116,117,118,119,120,121},num=0},
 --5 FA mon
-   {cards={103,104,105,106,107,108,109,110},num=0},
+  {cards={103,104,105,106,107,108,109,110},num=0},
 --6 FA trainer
-   {cards={111,112,113},num=0},
+  {cards={111,112,113},num=0},
 --7 GX
-   {cards={92,18,34,49,57,63,71,75},num=0},
+  {cards={92,18,34,49,57,63,71,75},num=0},
 --8 holo
-   {cards={85,91,11,12,27,28,31,38,47,56,68,74},num=0},
+  {cards={85,91,11,12,27,28,31,38,47,56,68,74},num=0},
 --9 rare
-   {cards={78,81,84,3,6,14,16,21,23,25,40,45,48,51,53,59,62,69,70,73},num=0},
+  {cards={78,81,84,3,6,14,16,21,23,25,40,45,48,51,53,59,62,69,70,73},num=0},
 --10 reverse
-   {cards={76,80,82,87,89,1,4,5,7,8,10,13,15,17,19,22,24,26,29,30,32,36,39,41,43,44,46,50,52,55,58,60,66,72,77,79,83,88,90,93,94,95,96,97,98,99,100,101,102,2,9,20,33,35,37,42,54,61,65,67,78,81,84,3,6,14,16,21,23,25,40,45,48,51,53,59,62,69,70,73,85,91,11,12,27,28,31,38,47,56,68,74},num=1},
+  {cards={76,80,82,87,89,1,4,5,7,8,10,13,15,17,19,22,24,26,29,30,32,36,39,41,43,44,46,50,52,55,58,60,66,72,77,79,83,88,90,93,94,95,96,97,98,99,100,101,102,2,9,20,33,35,37,42,54,61,65,67,78,81,84,3,6,14,16,21,23,25,40,45,48,51,53,59,62,69,70,73,85,91,11,12,27,28,31,38,47,56,68,74},num=1},
 --11 common
-   {cards={76,80,82,87,89,1,4,5,7,8,10,13,15,17,19,22,24,26,29,30,32,36,39,41,43,44,46,50,52,55,58,60,66,72},num=5}
-  }]],
+  {cards={76,80,82,87,89,1,4,5,7,8,10,13,15,17,19,22,24,26,29,30,32,36,39,41,43,44,46,50,52,55,58,60,66,72},num=5}
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -3506,30 +3531,30 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={3,8,11,22,27,33,36,42,47,50,52,53,61,64,72,76,79,82,84,87,98,107,109,113,114,118,119,122,123,125,126,127,129,130,131,132,133,134,135,136,137,138,141,142},num=3},
+  {cards={3,8,11,22,27,33,36,42,47,50,52,53,61,64,72,76,79,82,84,87,98,107,109,113,114,118,119,122,123,125,126,127,129,130,131,132,133,134,135,136,137,138,141,142},num=3},
 --2 energy
-   {cards={{179,187}},num=1,size=9,energy=true},
+  {cards={{179,187}},num=1,size=9,energy=true},
 --3 gold
-   {cards={171,172,173,174,175,176,177,178},num=0},
+  {cards={171,172,173,174,175,176,177,178},num=0},
 --4 Rainbow
-   {cards={162,163,164,165,166,167,168,169,170},num=0},
+  {cards={162,163,164,165,166,167,168,169,170},num=0},
 --5 full art mon
-   {cards={151,143,144,145,146,147,148,149,150},num=0},
+  {cards={151,143,144,145,146,147,148,149,150},num=0},
 --6 full art trainer
-   {cards={152,153,154,155,156,157,159,160,161},num=0},
+  {cards={152,153,154,155,156,157,159,160,161},num=0},
 --7 GX
-   {cards={13,39,63,90,100,101,116},num=0},
+  {cards={13,39,63,90,100,101,116},num=0},
 --8 holo
-   {cards={9,15,19,23,48,59,65,67,74,83,85,88,117},num=0},
+  {cards={9,15,19,23,48,59,65,67,74,83,85,88,117},num=0},
 --9 rare
-   {cards={5,14,17,24,26,29,34,38,40,41,44,55,57,69,91,93,94,95,99,103,110,111,115},num=0},
+  {cards={5,14,17,24,26,29,34,38,40,41,44,55,57,69,91,93,94,95,99,103,110,111,115},num=0},
 --10 prism star
-   {cards={58,62,77,89,121,140},num=0},
+  {cards={58,62,77,89,121,140},num=0},
 --11 reverse
-   {cards={1,2,4,6,7,10,12,16,18,20,21,25,28,30,31,32,35,37,43,45,46,49,51,54,56,60,66,68,70,71,73,75,78,80,81,86,92,96,97,102,104,105,106,108,112,3,8,11,22,27,33,36,42,47,50,52,53,61,64,72,76,79,82,84,87,98,107,109,113,114,118,119,122,123,125,126,127,129,130,131,132,133,134,135,136,137,138,141,142,5,14,17,24,26,29,34,38,40,41,44,55,57,69,91,93,94,95,99,103,110,111,115,9,15,19,23,48,59,65,67,74,83,85,88,117},num=0},
+  {cards={1,2,4,6,7,10,12,16,18,20,21,25,28,30,31,32,35,37,43,45,46,49,51,54,56,60,66,68,70,71,73,75,78,80,81,86,92,96,97,102,104,105,106,108,112,3,8,11,22,27,33,36,42,47,50,52,53,61,64,72,76,79,82,84,87,98,107,109,113,114,118,119,122,123,125,126,127,129,130,131,132,133,134,135,136,137,138,141,142,5,14,17,24,26,29,34,38,40,41,44,55,57,69,91,93,94,95,99,103,110,111,115,9,15,19,23,48,59,65,67,74,83,85,88,117},num=0},
 --12 common
-   {cards={1,2,4,6,7,10,12,16,18,20,21,25,28,30,31,32,35,37,43,45,46,49,51,54,56,60,66,68,70,71,73,75,78,80,81,86,92,96,97,102,104,105,106,108,112},num=5}
-  }]],
+  {cards={1,2,4,6,7,10,12,16,18,20,21,25,28,30,31,32,35,37,43,45,46,49,51,54,56,60,66,68,70,71,73,75,78,80,81,86,92,96,97,102,104,105,106,108,112},num=5}
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -3564,30 +3589,30 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={86,89,90,94,99,105,106,108,109,110,111,113,114,116,118,119,120,122,8,11,17,24,28,34,36,39,42,43,44,49,55,56,62,69,71,72},num=3},
+  {cards={86,89,90,94,99,105,106,108,109,110,111,113,114,116,118,119,120,122,8,11,17,24,28,34,36,39,42,43,44,49,55,56,62,69,71,72},num=3},
 --2 energy
-   {cards={{151,159}},num=1,size=9,energy=true},
+  {cards={{151,159}},num=1,size=9,energy=true},
 --3 gold
-   {cards={145,146,147,148,149,150},num=0},
+  {cards={145,146,147,148,149,150},num=0},
 --4 Rainbow
-   {cards={136,137,138,139,140,141,142,143,144},num=0},
+  {cards={136,137,138,139,140,141,142,143,144},num=0},
 --5 FA mon
-   {cards={123,124,125,126,127,128,129,130,131},num=0},
+  {cards={123,124,125,126,127,128,129,130,131},num=0},
 --6 FA trainer
-   {cards={132,133,134,135},num=0},
+  {cards={132,133,134,135},num=0},
 --7 GX
-   {cards={80,83,91,96,21,25,57,74},num=0},
+  {cards={80,83,91,96,21,25,57,74},num=0},
 --8 holo
-   {cards={81,82,95,107,12,18,20,29,60,63,70},num=0},
+  {cards={81,82,95,107,12,18,20,29,60,63,70},num=0},
 --9 rare
-   {cards={77,78,79,87,88,102,103,2,5,9,13,14,27,31,37,40,41,46,50,52,54,59,65,68,73},num=0},
+  {cards={77,78,79,87,88,102,103,2,5,9,13,14,27,31,37,40,41,46,50,52,54,59,65,68,73},num=0},
 --10 prism star
-   {cards={97,112,121,32,75},num=0},
+  {cards={97,112,121,32,75},num=0},
 --11 reverse
-   {cards={76,84,85,92,93,98,100,101,1,4,6,7,10,15,16,19,22,23,26,30,33,35,38,45,47,48,51,53,58,61,64,66,67,77,78,79,87,88,102,103,2,5,9,13,14,27,31,37,40,41,46,50,52,54,59,65,68,73,81,82,95,107,12,18,20,29,60,63,70,86,89,90,94,99,105,106,108,109,110,111,113,114,116,118,119,120,122,8,11,17,24,28,34,36,39,42,43,44,49,55,56,62,69,71,72},num=0},
+  {cards={76,84,85,92,93,98,100,101,1,4,6,7,10,15,16,19,22,23,26,30,33,35,38,45,47,48,51,53,58,61,64,66,67,77,78,79,87,88,102,103,2,5,9,13,14,27,31,37,40,41,46,50,52,54,59,65,68,73,81,82,95,107,12,18,20,29,60,63,70,86,89,90,94,99,105,106,108,109,110,111,113,114,116,118,119,120,122,8,11,17,24,28,34,36,39,42,43,44,49,55,56,62,69,71,72},num=0},
 --12 common
-   {cards={76,84,85,92,93,98,100,101,1,4,6,7,10,15,16,19,22,23,26,30,33,35,38,45,47,48,51,53,58,61,64,66,67},num=5}
-  }]],
+  {cards={76,84,85,92,93,98,100,101,1,4,6,7,10,15,16,19,22,23,26,30,33,35,38,45,47,48,51,53,58,61,64,66,67},num=5}
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -3622,30 +3647,30 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={152,153,154,76,84,89,92,95,106,111,113,115,119,123,124,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,148,149,150,2,4,9,14,17,18,19,21,22,28,30,31,35,38,43,44,51,54,55,56,59,63,74},num=3},
+  {cards={152,153,154,76,84,89,92,95,106,111,113,115,119,123,124,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,148,149,150,2,4,9,14,17,18,19,21,22,28,30,31,35,38,43,44,51,54,55,56,59,63,74},num=3},
 --2 energy
-   {cards={{188,196}},num=1,size=9,energy=true},
+  {cards={{188,196}},num=1,size=9,energy=true},
 --3 gold
-   {cards={182,183,184,185,186,187},num=0},
+  {cards={182,183,184,185,186,187},num=0},
 --4 Rainbow
-   {cards={172,173,174,175,176,177,178,179,180},num=0},
+  {cards={172,173,174,175,176,177,178,179,180},num=0},
 --5 FA mon
-   {cards={155,156,157,158,159,160,161,162,163},num=0},
+  {cards={155,156,157,158,159,160,161,162,163},num=0},
 --6 FA trainer
-   {cards={164,165,166,167,168,169,170,171},num=0},
+  {cards={164,165,166,167,168,169,170,171},num=0},
 --7 GX
-   {cards={83,86,91,103,110,15,29,32,49,57,67},num=0},
+  {cards={83,86,91,103,110,15,29,32,49,57,67},num=0},
 --8 holo
-   {cards={82,88,90,96,99,100,101,107,116,122,147,3,6,39,47,62,68,71},num=0},
+  {cards={82,88,90,96,99,100,101,107,116,122,147,3,6,39,47,62,68,71},num=0},
 --9 rare
-   {cards={78,80,81,97,102,120,10,23,25,36,41,46,53,61,66,69,70},num=0},
+  {cards={78,80,81,97,102,120,10,23,25,36,41,46,53,61,66,69,70},num=0},
 --10 prism star
-   {cards={98,108,109},num=0},
+  {cards={98,108,109},num=0},
 --11 reverse
-   {cards={152,153,154,76,84,89,92,95,106,111,113,115,119,123,124,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,148,149,150,2,4,9,14,17,18,19,21,22,28,30,31,35,38,43,44,51,54,55,56,59,63,74,77,79,85,87,93,94,104,105,112,114,117,118,121,1,5,7,8,12,13,16,20,24,26,27,33,34,37,40,42,45,48,50,52,58,60,64,65,72,73,75,78,80,81,97,102,120,10,23,25,36,41,46,53,61,66,69,70,82,88,90,96,99,100,101,107,116,122,147,3,6,39,47,62,68,71},num=0},
+  {cards={152,153,154,76,84,89,92,95,106,111,113,115,119,123,124,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,148,149,150,2,4,9,14,17,18,19,21,22,28,30,31,35,38,43,44,51,54,55,56,59,63,74,77,79,85,87,93,94,104,105,112,114,117,118,121,1,5,7,8,12,13,16,20,24,26,27,33,34,37,40,42,45,48,50,52,58,60,64,65,72,73,75,78,80,81,97,102,120,10,23,25,36,41,46,53,61,66,69,70,82,88,90,96,99,100,101,107,116,122,147,3,6,39,47,62,68,71},num=0},
 --12 common
-   {cards={77,79,85,87,93,94,104,105,112,114,117,118,121,1,5,7,8,12,13,16,20,24,26,27,33,34,37,40,42,45,48,50,52,58,60,64,65,72,73,75},num=5}
-  }]],
+  {cards={77,79,85,87,93,94,104,105,112,114,117,118,121,1,5,7,8,12,13,16,20,24,26,27,33,34,37,40,42,45,48,50,52,58,60,64,65,72,73,75},num=5}
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -3680,28 +3705,28 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={2,5,9,10,14,17,21,23,26,29,30,36,39,44,46,50,51,52,60,61,64,65,66},num=3},
+  {cards={2,5,9,10,14,17,21,23,26,29,30,36,39,44,46,50,51,52,60,61,64,65,66},num=3},
 --2 energy
-   {cards={{81,89}},num=1,size=9,energy=true},
+  {cards={{81,89}},num=1,size=9,energy=true},
 --3 gold
-   {cards={77,78,79,80},num=0},
+  {cards={77,78,79,80},num=0},
 --4 Rainbow
-   {cards={76,73,74,75},num=0},
+  {cards={76,73,74,75},num=0},
 --5 FA mon
-   {cards={67,68,69,70},num=0},
+  {cards={67,68,69,70},num=0},
 --6 FA trainer
-   {cards={71,72},num=0},
+  {cards={71,72},num=0},
 --7 GX
-   {cards={11,18,37,42,45,49},num=0},
+  {cards={11,18,37,42,45,49},num=0},
 --8 holo
-   {cards={3,6,20,24,33,40,47,48,55,59},num=0},
+  {cards={3,6,20,24,33,40,47,48,55,59},num=0},
 --9 prism star
-   {cards={7,63},num=0},
+  {cards={7,63},num=0},
 --10 reverse
-   {cards={1,4,8,12,13,15,16,19,22,25,27,28,31,32,34,35,38,43,53,54,56,57,58,2,5,9,10,14,17,21,23,26,29,30,36,39,44,46,50,51,52,60,61,64,65,66,3,6,20,24,33,40,47,48,55,59},num=0},
+  {cards={1,4,8,12,13,15,16,19,22,25,27,28,31,32,34,35,38,43,53,54,56,57,58,2,5,9,10,14,17,21,23,26,29,30,36,39,44,46,50,51,52,60,61,64,65,66,3,6,20,24,33,40,47,48,55,59},num=0},
 --11 common
-   {cards={1,4,8,12,13,15,16,19,22,25,27,28,31,32,34,35,38,43,53,54,56,57,58},num=5}
-  }]],
+  {cards={1,4,8,12,13,15,16,19,22,25,27,28,31,32,34,35,38,43,53,54,56,57,58},num=5}
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -3735,30 +3760,30 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={4,7,10,13,16,18,21,25,27,30,32,36,41,57,58,66,71,77,88,94,96,102,110,113,116,123,131,140,142,143,148,156,161,162,165,167,168,169,170,171,172,174,175,176,177,178,180,182,184,185,186,187,188,190,192,194,196,197,198},num=3},
+  {cards={4,7,10,13,16,18,21,25,27,30,32,36,41,57,58,66,71,77,88,94,96,102,110,113,116,123,131,140,142,143,148,156,161,162,165,167,168,169,170,171,172,174,175,176,177,178,180,182,184,185,186,187,188,190,192,194,196,197,198},num=3},
 --2 energy
-   {cards={{241,249}},num=1,size=9,energy=true},
+  {cards={{241,249}},num=1,size=9,energy=true},
 --3 gold
-   {cards={232,233,234,235,236,237,238,239,240},num=0},
+  {cards={232,233,234,235,236,237,238,239,240},num=0},
 --4 Rainbow
-   {cards={226,227,228,229,230,231,219,220,221,222,223,224,225},num=0},
+  {cards={226,227,228,229,230,231,219,220,221,222,223,224,225},num=0},
 --5 FA mon
-   {cards={199,200,201,202,203,204,205,206,207,208,209,210,211},num=0},
+  {cards={199,200,201,202,203,204,205,206,207,208,209,210,211},num=0},
 --6 FA trainer
-   {cards={212,213,214,215,216,217,218},num=0},
+  {cards={212,213,214,215,216,217,218},num=0},
 --7 GX
-   {cards={17,22,34,44,52,60,86,98,121,130,132,149,159},num=0},
+  {cards={17,22,34,44,52,60,86,98,121,130,132,149,159},num=0},
 --8 holo
-   {cards={8,14,33,37,42,48,59,63,78,85,97,103,106,108,126,127,129,141,150,151,153},num=0},
+  {cards={8,14,33,37,42,48,59,63,78,85,97,103,106,108,126,127,129,141,150,151,153},num=0},
 --9 rare
-   {cards={2,26,28,38,46,47,49,51,55,56,62,67,69,72,74,79,82,89,90,91,92,93,95,100,104,112,119,120,124,125,134,136,138,146,157,158,160,166},num=0},
+  {cards={2,26,28,38,46,47,49,51,55,56,62,67,69,72,74,79,82,89,90,91,92,93,95,100,104,112,119,120,124,125,134,136,138,146,157,158,160,166},num=0},
 --10 prism star
-   {cards={19,144,154,179,181,183,195},num=0},
+  {cards={19,144,154,179,181,183,195},num=0},
 --11 reverse
-   {cards={1,3,5,6,9,11,12,15,20,23,24,29,31,35,39,40,43,45,50,53,54,61,64,65,68,70,73,75,76,80,81,83,84,87,99,101,105,107,109,111,114,115,117,118,122,128,133,135,137,139,145,147,152,155,163,164,2,26,28,38,46,47,49,51,55,56,62,67,69,72,74,79,82,89,90,91,92,93,95,100,104,112,119,120,124,125,134,136,138,146,157,158,160,166,4,7,10,13,16,18,21,25,27,30,32,36,41,57,58,66,71,77,88,94,96,102,110,113,116,123,131,140,142,143,148,156,161,162,165,167,168,169,170,171,172,174,175,176,177,178,180,182,184,185,186,187,188,190,192,194,196,197,198,8,14,33,37,42,48,59,63,78,85,97,103,106,108,126,127,129,141,150,151,153},num=0},
+  {cards={1,3,5,6,9,11,12,15,20,23,24,29,31,35,39,40,43,45,50,53,54,61,64,65,68,70,73,75,76,80,81,83,84,87,99,101,105,107,109,111,114,115,117,118,122,128,133,135,137,139,145,147,152,155,163,164,2,26,28,38,46,47,49,51,55,56,62,67,69,72,74,79,82,89,90,91,92,93,95,100,104,112,119,120,124,125,134,136,138,146,157,158,160,166,4,7,10,13,16,18,21,25,27,30,32,36,41,57,58,66,71,77,88,94,96,102,110,113,116,123,131,140,142,143,148,156,161,162,165,167,168,169,170,171,172,174,175,176,177,178,180,182,184,185,186,187,188,190,192,194,196,197,198,8,14,33,37,42,48,59,63,78,85,97,103,106,108,126,127,129,141,150,151,153},num=0},
 --12 common
-   {cards={1,3,5,6,9,11,12,15,20,23,24,29,31,35,39,40,43,45,50,53,54,61,64,65,68,70,73,75,76,80,81,83,84,87,99,101,105,107,109,111,114,115,117,118,122,128,133,135,137,139,145,147,152,155,163,164},num=5}
-  }]],
+  {cards={1,3,5,6,9,11,12,15,20,23,24,29,31,35,39,40,43,45,50,53,54,61,64,65,68,70,73,75,76,80,81,83,84,87,99,101,105,107,109,111,114,115,117,118,122,128,133,135,137,139,145,147,152,155,163,164},num=5}
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -3792,30 +3817,30 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={151,152,155,156,157,158,159,4,13,18,21,24,27,36,42,50,55,58,61,68,70,73,74,75,77,80,89,108,118,126,127,128,129,135,136,137,138,139,141,142,143,144,145,146,147,148,149,150},num=3},
+  {cards={151,152,155,156,157,158,159,4,13,18,21,24,27,36,42,50,55,58,61,68,70,73,74,75,77,80,89,108,118,126,127,128,129,135,136,137,138,139,141,142,143,144,145,146,147,148,149,150},num=3},
 --2 energy TODO find a way to get energies reliably
-   {cards={},num=0,size=8,energy=true},
+  {cards={},num=0,size=8,energy=true},
 --3 gold
-   {cards={194,195,196,197,198},num=0},
+  {cards={194,195,196,197,198},num=0},
 --4 Rainbow
-   {cards={184,185,186,187,188,189,190,191,192,193},num=0},
+  {cards={184,185,186,187,188,189,190,191,192,193},num=0},
 --5 FA mon TODO are alt art mons a seperate slot?
-   {cards={161,162,163,164,165,166,167,168,169,170,171,172,173},num=0},
+  {cards={161,162,163,164,165,166,167,168,169,170,171,172,173},num=0},
 --6 FA trainer
-   {cards={174,175,176,177,178,179,180,181,182,183},num=0},
+  {cards={174,175,176,177,178,179,180,181,182,183},num=0},
 --7 GX
-   {cards={1,33,43,53,67,82,96,97,106,113,120},num=0},
+  {cards={1,33,43,53,67,82,96,97,106,113,120},num=0},
 --8 holo
-   {cards={19,30,32,39,40,52,76,85,88,91,95,99,109,111,119,131,132,133,140},num=0},
+  {cards={19,30,32,39,40,52,76,85,88,91,95,99,109,111,119,131,132,133,140},num=0},
 --9 rare
-   {cards={5,7,9,14,16,25,31,37,45,48,56,59,63,64,65,66,72,78,84,87,93,94,98,101,103,105,112,114,115,124,130},num=0},
+  {cards={5,7,9,14,16,25,31,37,45,48,56,59,63,64,65,66,72,78,84,87,93,94,98,101,103,105,112,114,115,124,130},num=0},
 --10 prism star
-   {cards={160,10,51,134},num=0},
+  {cards={160,10,51,134},num=0},
 --11 reverse
-   {cards={151,152,155,156,157,158,159,4,13,18,21,24,27,36,42,50,55,58,61,68,70,73,74,75,77,80,89,108,118,126,127,128,129,135,136,137,138,139,141,142,143,144,145,146,147,148,149,150,2,3,6,8,11,12,15,17,20,22,23,26,28,29,34,35,38,41,44,46,47,49,54,57,60,62,69,71,79,81,83,86,90,92,100,102,104,107,110,116,117,121,122,123,125,5,7,9,14,16,25,31,37,45,48,56,59,63,64,65,66,72,78,84,87,93,94,98,101,103,105,112,114,115,124,130,19,30,32,39,40,52,76,85,88,91,95,99,109,111,119,131,132,133,140},num=0},
+  {cards={151,152,155,156,157,158,159,4,13,18,21,24,27,36,42,50,55,58,61,68,70,73,74,75,77,80,89,108,118,126,127,128,129,135,136,137,138,139,141,142,143,144,145,146,147,148,149,150,2,3,6,8,11,12,15,17,20,22,23,26,28,29,34,35,38,41,44,46,47,49,54,57,60,62,69,71,79,81,83,86,90,92,100,102,104,107,110,116,117,121,122,123,125,5,7,9,14,16,25,31,37,45,48,56,59,63,64,65,66,72,78,84,87,93,94,98,101,103,105,112,114,115,124,130,19,30,32,39,40,52,76,85,88,91,95,99,109,111,119,131,132,133,140},num=0},
 --12 common
-   {cards={2,3,6,8,11,12,15,17,20,22,23,26,28,29,34,35,38,41,44,46,47,49,54,57,60,62,69,71,79,81,83,86,90,92,100,102,104,107,110,116,117,121,122,123,125},num=5}
-  }]],
+  {cards={2,3,6,8,11,12,15,17,20,22,23,26,28,29,34,35,38,41,44,46,47,49,54,57,60,62,69,71,79,81,83,86,90,92,100,102,104,107,110,116,117,121,122,123,125},num=5}
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -3846,19 +3871,19 @@ custom={
   },
   dropSlots=[[{
 --1 white star
-   {cards={5,9,12,17},num=0},
+  {cards={5,9,12,17},num=0},
 --2 black star
-   {cards={2,6,10,11,13,18},num=0},
+  {cards={2,6,10,11,13,18},num=0},
 --3 common
-   {cards={1,3,4,7,8,14,15,16},num=3},
-  }]],
+  {cards={1,3,4,7,8,14,15,16},num=3},
+}]],
   pullRates=[[{
 --rare
-   {rates={
-    {slot=1,odds=1/2.7},--white star
-    {slot=2}--black star
-   },num=1},
-  }]]
+ {rates={
+  {slot=1,odds=1/2.7},--white star
+  {slot=2}--black star
+ },num=1},
+}]]
  }},
 {setName="Unbroken Bonds",
  size=235,
@@ -3876,28 +3901,28 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={3,7,14,28,34,38,41,52,53,58,65,69,88,94,99,100,101,115,124,131,137,144,146,151,156,161,162,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,185,186,187,188,189,190},num=3},
+  {cards={3,7,14,28,34,38,41,52,53,58,65,69,88,94,99,100,101,115,124,131,137,144,146,151,156,161,162,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,185,186,187,188,189,190},num=3},
 --2 energy TODO find a way to get energies reliably
-   {cards={},num=0,size=8,energy=true},
+  {cards={},num=0,size=8,energy=true},
 --3 gold
-   {cards={230,231,232,233,234,235},num=0},
+  {cards={230,231,232,233,234,235},num=0},
 --4 Rainbow
-   {cards={216,217,218,219,220,221,222,223,224,225,226,227,228,229},num=0},
+  {cards={216,217,218,219,220,221,222,223,224,225,226,227,228,229},num=0},
 --5 FA mon TODO are alt art mons a seperate slot?
-   {cards={191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210},num=0},
+  {cards={191,192,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,208,209,210},num=0},
 --6 FA trainer
-   {cards={211,212,213,214,215},num=0},
+  {cards={211,212,213,214,215},num=0},
 --7 GX
-   {cards={1,12,20,35,57,61,82,107,109,120,130,140,149,163},num=0},
+  {cards={1,12,20,35,57,61,82,107,109,120,130,140,149,163},num=0},
 --8 holo
-   {cards={8,19,22,25,43,50,59,66,76,81,89,103,106,112,117,119,126,129,138,157,158,184},num=0},
+  {cards={8,19,22,25,43,50,59,66,76,81,89,103,106,112,117,119,126,129,138,157,158,184},num=0},
 --9 rare
-   {cards={4,11,15,17,24,29,31,32,39,45,47,49,55,56,60,63,70,72,74,75,78,80,84,86,91,95,97,105,111,116,122,125,127,133,135,142,148,153,160},num=0},
+  {cards={4,11,15,17,24,29,31,32,39,45,47,49,55,56,60,63,70,72,74,75,78,80,84,86,91,95,97,105,111,116,122,125,127,133,135,142,148,153,160},num=0},
 --11 reverse
-   {cards={2,5,6,9,10,13,16,18,21,23,26,27,30,33,36,37,40,42,44,46,48,51,54,62,64,67,68,71,73,77,79,83,85,87,90,92,93,96,98,102,104,108,110,113,114,118,121,123,128,132,134,136,139,141,143,145,147,150,152,154,155,159,3,7,14,28,34,38,41,52,53,58,65,69,88,94,99,100,101,115,124,131,137,144,146,151,156,161,162,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,185,186,187,188,189,190,4,11,15,17,24,29,31,32,39,45,47,49,55,56,60,63,70,72,74,75,78,80,84,86,91,95,97,105,111,116,122,125,127,133,135,142,148,153,160,8,19,22,25,43,50,59,66,76,81,89,103,106,112,117,119,126,129,138,157,158,184},num=1},
+  {cards={2,5,6,9,10,13,16,18,21,23,26,27,30,33,36,37,40,42,44,46,48,51,54,62,64,67,68,71,73,77,79,83,85,87,90,92,93,96,98,102,104,108,110,113,114,118,121,123,128,132,134,136,139,141,143,145,147,150,152,154,155,159,3,7,14,28,34,38,41,52,53,58,65,69,88,94,99,100,101,115,124,131,137,144,146,151,156,161,162,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,185,186,187,188,189,190,4,11,15,17,24,29,31,32,39,45,47,49,55,56,60,63,70,72,74,75,78,80,84,86,91,95,97,105,111,116,122,125,127,133,135,142,148,153,160,8,19,22,25,43,50,59,66,76,81,89,103,106,112,117,119,126,129,138,157,158,184},num=1},
 --12 common
-   {cards={2,5,6,9,10,13,16,18,21,23,26,27,30,33,36,37,40,42,44,46,48,51,54,62,64,67,68,71,73,77,79,83,85,87,90,92,93,96,98,102,104,108,110,113,114,118,121,123,128,132,134,136,139,141,143,145,147,150,152,154,155,159},num=5},
-  }]],
+  {cards={2,5,6,9,10,13,16,18,21,23,26,27,30,33,36,37,40,42,44,46,48,51,54,62,64,67,68,71,73,77,79,83,85,87,90,92,93,96,98,102,104,108,110,113,114,118,121,123,128,132,134,136,139,141,143,145,147,150,152,154,155,159},num=5},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -3927,28 +3952,28 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={155,164,166,169,172,173,175,177,178,182,183,185,186,187,188,189,190,191,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,209,210,211,212,213,214,215,76,77,84,85,87,89,90,94,107,108,111,113,120,133,145,149,150,3,8,16,18,20,29,36,40,43,44,45,52,59,65,68},num=3},
+  {cards={155,164,166,169,172,173,175,177,178,182,183,185,186,187,188,189,190,191,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,209,210,211,212,213,214,215,76,77,84,85,87,89,90,94,107,108,111,113,120,133,145,149,150,3,8,16,18,20,29,36,40,43,44,45,52,59,65,68},num=3},
 --2 energy TODO find a way to get energies reliably
-   {cards={},num=0,size=8,energy=true},
+  {cards={},num=0,size=8,energy=true},
 --3 gold
-   {cards={252,253,254,255,256,257,258,259,260},num=0},
+  {cards={252,253,254,255,256,257,258,259,260},num=0},
 --4 Rainbow
-   {cards={239,240,241,242,243,244,245,246,247,248,249,250,251},num=0},
+  {cards={239,240,241,242,243,244,245,246,247,248,249,250,251},num=0},
 --5 full art mon TODO are alt art mons a seperate slot?
-   {cards={226,227,228,229,230,231,232,216,217,218,219,220,221,222,223,224,225},num=0},
+  {cards={226,227,228,229,230,231,232,216,217,218,219,220,221,222,223,224,225},num=0},
 --6 full art trainer
-   {cards={233,234,235,236,237,238},num=0},
+  {cards={233,234,235,236,237,238},num=0},
 --7 GX
-   {cards={106,125,126,132,141,146,152,160,1,25,35,47,54,71,72,78,79},num=0},
+  {cards={106,125,126,132,141,146,152,160,1,25,35,47,54,71,72,78,79},num=0},
 --8 holo
-   {cards={114,122,139,140,156,163,170,184,4,19,26,30,38,51,57,60,66,69,83,86,95},num=0},
+  {cards={114,122,139,140,156,163,170,184,4,19,26,30,38,51,57,60,66,69,83,86,95},num=0},
 --9 rare
-   {cards={101,104,110,117,119,121,123,124,130,134,136,138,142,144,151,153,159,162,176,181,9,11,14,22,24,32,34,42,49,53,62,70,74,75,81,91,97,99},num=0},
+  {cards={101,104,110,117,119,121,123,124,130,134,136,138,142,144,151,153,159,162,176,181,9,11,14,22,24,32,34,42,49,53,62,70,74,75,81,91,97,99},num=0},
 --11 reverse
-   {cards={151,153,159,162,176,181,81,91,97,99,101,104,110,117,119,121,123,124,130,134,136,138,142,144,9,11,14,22,24,32,34,42,49,53,62,70,74,75,154,157,158,161,165,167,168,171,174,179,180,80,82,88,92,93,96,98,100,102,103,105,109,112,115,116,118,127,128,129,131,135,137,143,147,148,2,5,6,7,10,12,13,15,17,21,23,27,28,31,33,37,39,41,46,48,50,55,56,58,61,63,64,67,73,155,164,166,169,172,173,175,177,178,182,183,185,186,187,188,189,190,191,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,209,210,211,212,213,214,215,76,77,84,85,87,89,90,94,107,108,111,113,120,133,145,149,150,3,8,16,18,20,29,36,40,43,44,45,52,59,65,68,156,163,170,184,83,86,95,114,122,139,140,4,19,26,30,38,51,57,60,66,69},num=1},
+  {cards={151,153,159,162,176,181,81,91,97,99,101,104,110,117,119,121,123,124,130,134,136,138,142,144,9,11,14,22,24,32,34,42,49,53,62,70,74,75,154,157,158,161,165,167,168,171,174,179,180,80,82,88,92,93,96,98,100,102,103,105,109,112,115,116,118,127,128,129,131,135,137,143,147,148,2,5,6,7,10,12,13,15,17,21,23,27,28,31,33,37,39,41,46,48,50,55,56,58,61,63,64,67,73,155,164,166,169,172,173,175,177,178,182,183,185,186,187,188,189,190,191,193,194,195,196,197,198,199,200,201,202,203,204,205,206,207,209,210,211,212,213,214,215,76,77,84,85,87,89,90,94,107,108,111,113,120,133,145,149,150,3,8,16,18,20,29,36,40,43,44,45,52,59,65,68,156,163,170,184,83,86,95,114,122,139,140,4,19,26,30,38,51,57,60,66,69},num=1},
 --12 common
-   {cards={102,103,105,109,112,115,116,118,127,128,129,131,135,137,143,147,148,154,157,158,161,165,167,168,171,174,179,180,2,5,6,7,10,12,13,15,17,21,23,27,28,31,33,37,39,41,46,48,50,55,56,58,61,63,64,67,73,80,82,88,92,93,96,98,100},num=5},
-  }]],
+  {cards={102,103,105,109,112,115,116,118,127,128,129,131,135,137,143,147,148,154,157,158,161,165,167,168,171,174,179,180,2,5,6,7,10,12,13,15,17,21,23,27,28,31,33,37,39,41,46,48,50,55,56,58,61,63,64,67,73,80,82,88,92,93,96,98,100},num=5},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -3979,36 +4004,36 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={2,5,8,10,30,34,45,46,53,54,57,59,60,61,62,64,65},num=3},
+  {cards={2,5,8,10,30,34,45,46,53,54,57,59,60,61,62,64,65},num=3},
 --2 energy TODO find a way to get energies reliably
-   {cards={},num=0,size=8,energy=true},
+  {cards={},num=0,size=8,energy=true},
 --3 Rainbow
-   {cards={69},num=0},
+  {cards={69},num=0},
 --4 FA mon TODO are alt art mons a seperate slot?
-   {cards={66},num=0},
+  {cards={66},num=0},
 --5 FA trainer
-   {cards={67,68},num=0},
+  {cards={67,68},num=0},
 --6 GX
-   {cards={6,9,14,16,20,31,36,42,44},num=0},
+  {cards={6,9,14,16,20,31,36,42,44},num=0},
 --7 holo
-   {cards={18,24,48,55,58,63},num=0},
+  {cards={18,24,48,55,58,63},num=0},
 --8 rare
-   {cards={3,17,22,23,27,29,32,35,40,43,47,50,51,52,56},num=0},
+  {cards={3,17,22,23,27,29,32,35,40,43,47,50,51,52,56},num=0},
 --9 gold
-   {cards={87,88,89,90,91,92,93,94},num=0},
+  {cards={87,88,89,90,91,92,93,94},num=0},
 --10 Shiny FA trainer
-   {cards={81,82,83,84,85,86},num=0},
+  {cards={81,82,83,84,85,86},num=0},
 --11 shiny GX
-   {cards={46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80},num=0},
+  {cards={46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80},num=0},
 --12 shiny
-   {cards={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45},num=0},
+  {cards={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45},num=0},
 --13 reverse energy TODO find a way to get energies reliably
-   {cards={},num=0,energy=true},
+  {cards={},num=0,energy=true},
 --14 reverse
-   {cards={1,4,7,11,12,13,15,19,21,25,26,28,33,37,38,39,41,49,2,5,8,10,30,34,45,46,53,54,57,59,60,61,62,64,65,3,17,22,23,27,29,32,35,40,43,47,50,51,52,56,18,24,48,55,58,63},num=0},
+  {cards={1,4,7,11,12,13,15,19,21,25,26,28,33,37,38,39,41,49,2,5,8,10,30,34,45,46,53,54,57,59,60,61,62,64,65,3,17,22,23,27,29,32,35,40,43,47,50,51,52,56,18,24,48,55,58,63},num=0},
 --15 common
-   {cards={1,4,7,11,12,13,15,19,21,25,26,28,33,37,38,39,41,49},num=5}
-  }]],
+  {cards={1,4,7,11,12,13,15,19,21,25,26,28,33,37,38,39,41,49},num=5}
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -4045,30 +4070,30 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={184,186,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,206,207,208,209,210,65,70,73,81,84,86,96,98,101,109,111,118,120,3,6,9,10,12,14,19,24,25,29,32,34,37,41,42,51,55,133,135,140,141,145,152,163,169,171,174,176},num=3},
+  {cards={184,186,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,206,207,208,209,210,65,70,73,81,84,86,96,98,101,109,111,118,120,3,6,9,10,12,14,19,24,25,29,32,34,37,41,42,51,55,133,135,140,141,145,152,163,169,171,174,176},num=3},
 --2 energy TODO find a way to get energies reliably
-   {cards={},num=0,size=8,energy=true},
+  {cards={},num=0,size=8,energy=true},
 --3 gold
-   {cards={264,265,266,267,268,269,270,271,272,238,239,240},num=0},
+  {cards={264,265,266,267,268,269,270,271,272,238,239,240},num=0},
 --4 Rainbow
-   {cards={250,251,252,253,254,255,256,257,258,259,260,261,262,263},num=0},
+  {cards={250,251,252,253,254,255,256,257,258,259,260,261,262,263},num=0},
 --5 full art mon TODO are alt art mons a seperate slot?
-   {cards={211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,144},num=0},
+  {cards={211,212,213,214,215,216,217,218,219,220,221,222,223,224,225,226,227,228,144},num=0},
 --6 full art trainer
-   {cards={229,230,231,232,233,234,235,236,237},num=0},
+  {cards={229,230,231,232,233,234,235,236,237},num=0},
 --7 GX
-   {cards={1,4,22,35,38,185,63,75,95,110,129,143,157,158,159,166},num=0},
+  {cards={1,4,22,35,38,185,63,75,95,110,129,143,157,158,159,166},num=0},
 --8 holo
-   {cards={16,20,21,30,205,61,62,69,82,85,102,104,115,124,136,139,142,146,153,164,165,177},num=0},
+  {cards={16,20,21,30,205,61,62,69,82,85,102,104,115,124,136,139,142,146,153,164,165,177},num=0},
 --9 rare
-   {cards={8,11,27,28,33,44,46,48,52,53,56,57,60,181,183,67,72,77,79,88,90,92,94,97,103,112,113,117,122,127,131,138,149,155,156,160,173,179},num=0},
+  {cards={8,11,27,28,33,44,46,48,52,53,56,57,60,181,183,67,72,77,79,88,90,92,94,97,103,112,113,117,122,127,131,138,149,155,156,160,173,179},num=0},
 --10 poke&trainer secret
-   {cards={241,242,243,244,245,246,247,248,249},num=0},
+  {cards={241,242,243,244,245,246,247,248,249},num=0},
 --11 reverse
-   {cards={181,183,67,72,77,79,88,90,92,94,97,103,112,113,117,8,11,27,28,33,44,46,48,52,53,56,57,60,122,127,131,138,149,155,156,160,173,179,182,64,66,68,71,74,76,78,80,83,87,89,91,93,99,100,105,106,107,108,114,116,119,2,5,7,13,15,17,18,23,26,31,36,39,40,43,45,47,49,50,54,58,59,121,123,125,126,128,130,132,134,137,147,148,150,151,154,161,162,167,168,170,172,175,178,180,184,186,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,206,207,208,209,210,65,70,73,81,84,86,96,98,101,109,111,118,120,3,6,9,10,12,14,19,24,25,29,32,34,37,41,42,51,55,133,135,140,141,145,152,163,169,171,174,176,205,61,62,69,82,85,102,104,115,16,20,21,30,124,136,139,142,146,153,164,165,177},num=0},
+  {cards={181,183,67,72,77,79,88,90,92,94,97,103,112,113,117,8,11,27,28,33,44,46,48,52,53,56,57,60,122,127,131,138,149,155,156,160,173,179,182,64,66,68,71,74,76,78,80,83,87,89,91,93,99,100,105,106,107,108,114,116,119,2,5,7,13,15,17,18,23,26,31,36,39,40,43,45,47,49,50,54,58,59,121,123,125,126,128,130,132,134,137,147,148,150,151,154,161,162,167,168,170,172,175,178,180,184,186,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,206,207,208,209,210,65,70,73,81,84,86,96,98,101,109,111,118,120,3,6,9,10,12,14,19,24,25,29,32,34,37,41,42,51,55,133,135,140,141,145,152,163,169,171,174,176,205,61,62,69,82,85,102,104,115,16,20,21,30,124,136,139,142,146,153,164,165,177},num=0},
 --12 common
-   {cards={2,5,7,13,15,17,18,23,26,31,36,39,40,43,45,47,49,50,54,58,59,182,64,66,68,71,74,76,78,80,83,87,89,91,93,99,100,105,106,107,108,114,116,119,121,123,125,126,128,130,132,134,137,147,148,150,151,154,161,162,167,168,170,172,175,178,180},num=5},
-  }]],
+  {cards={2,5,7,13,15,17,18,23,26,31,36,39,40,43,45,47,49,50,54,58,59,182,64,66,68,71,74,76,78,80,83,87,89,91,93,99,100,105,106,107,108,114,116,119,121,123,125,126,128,130,132,134,137,147,148,150,151,154,161,162,167,168,170,172,175,178,180},num=5},
+}]],
   pullRates=[[{
 --rare
  {rates={
@@ -4108,30 +4133,30 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={151,154,156,157,158,159,160,161,162,163,164,165,166,167,168,170,171,172,173,174,175,176,177,179,180,181,182,183,184,185,186,12,13,18,21,26,28,32,33,44,47,51,52,56,57,71,84,93,94,95,98,100,118,131,132,134},num=3},
+  {cards={151,154,156,157,158,159,160,161,162,163,164,165,166,167,168,170,171,172,173,174,175,176,177,179,180,181,182,183,184,185,186,12,13,18,21,26,28,32,33,44,47,51,52,56,57,71,84,93,94,95,98,100,118,131,132,134},num=3},
 --2 energy TODO find a way to get energies reliably
-   {cards={},num=0,size=8,energy=true},
+  {cards={},num=0,size=8,energy=true},
 --3 gold
-   {cards={211,212,213,214,215,216},num=0},
+  {cards={211,212,213,214,215,216},num=0},
 --4 Rainbow
-   {cards={203,204,205,206,207,208,209,210},num=0},
+  {cards={203,204,205,206,207,208,209,210},num=0},
 --5 FA trainer
-   {cards={199,200,201,202},num=0},
+  {cards={199,200,201,202},num=0},
 --6 FA mon TODO are alt art mons a seperate slot?
-   {cards={187,188,189,190,191,192,193,194,195,196,197,198},num=0},
+  {cards={187,188,189,190,191,192,193,194,195,196,197,198},num=0},
 --7 Vmax
-   {cards={50,80,116,142},num=0},
+  {cards={50,80,116,142},num=0},
 --8 V
-   {cards={155,1,9,24,25,49,53,72,79,86,91,104,115,120,138,139,141},num=0},
+  {cards={155,1,9,24,25,49,53,72,79,86,91,104,115,120,138,139,141},num=0},
 --9 holo
-   {cards={169,178,14,34,35,58,64,75,76,85,99,110,119,124,128,137,148},num=0},
+  {cards={169,178,14,34,35,58,64,75,76,85,99,110,119,124,128,137,148},num=0},
 --10 rare
-   {cards={4,6,8,15,19,23,29,36,39,41,48,59,61,62,66,69,78,82,88,90,103,106,109,113,114,122,126,135,140,144,147,149},num=0},
+  {cards={4,6,8,15,19,23,29,36,39,41,48,59,61,62,66,69,78,82,88,90,103,106,109,113,114,122,126,135,140,144,147,149},num=0},
 --11 reverse
-   {cards={151,154,156,157,158,159,160,161,162,163,164,165,166,167,168,170,171,172,173,174,175,176,177,179,180,181,182,183,184,185,186,12,13,18,21,26,28,32,33,44,47,51,52,56,57,71,84,93,94,95,98,100,118,131,132,134,152,153,2,3,5,7,10,11,16,17,20,22,27,30,31,37,38,40,42,43,45,46,54,55,60,63,65,67,68,70,73,74,77,81,83,87,89,92,96,97,101,102,105,107,108,111,112,117,121,123,125,127,129,130,133,136,143,145,146,150,169,178,14,34,35,58,64,75,76,85,99,110,119,124,128,137,148,4,6,8,15,19,23,29,36,39,41,48,59,61,62,66,69,78,82,88,90,103,106,109,113,114,122,126,135,140,144,147,149},num=1},
+  {cards={151,154,156,157,158,159,160,161,162,163,164,165,166,167,168,170,171,172,173,174,175,176,177,179,180,181,182,183,184,185,186,12,13,18,21,26,28,32,33,44,47,51,52,56,57,71,84,93,94,95,98,100,118,131,132,134,152,153,2,3,5,7,10,11,16,17,20,22,27,30,31,37,38,40,42,43,45,46,54,55,60,63,65,67,68,70,73,74,77,81,83,87,89,92,96,97,101,102,105,107,108,111,112,117,121,123,125,127,129,130,133,136,143,145,146,150,169,178,14,34,35,58,64,75,76,85,99,110,119,124,128,137,148,4,6,8,15,19,23,29,36,39,41,48,59,61,62,66,69,78,82,88,90,103,106,109,113,114,122,126,135,140,144,147,149},num=1},
 --12 common
-   {cards={152,153,2,3,5,7,10,11,16,17,20,22,27,30,31,37,38,40,42,43,45,46,54,55,60,63,65,67,68,70,73,74,77,81,83,87,89,92,96,97,101,102,105,107,108,111,112,117,121,123,125,127,129,130,133,136,143,145,146,150},num=5},
-  }]],
+  {cards={152,153,2,3,5,7,10,11,16,17,20,22,27,30,31,37,38,40,42,43,45,46,54,55,60,63,65,67,68,70,73,74,77,81,83,87,89,92,96,97,101,102,105,107,108,111,112,117,121,123,125,127,129,130,133,136,143,145,146,150},num=5},
+}]],
   pullRates=[[{
  {rates={ --TODO get foil rate
   {slot=3,odds=1/110.2},--gold
@@ -4161,30 +4186,30 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,2,5,6,8,11,32,34,42,45,57,61,64,65,73,77,82,84,88,90,98,106,109,115,124,130,132,134,142,144,148,150},num=3},
+  {cards={155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,2,5,6,8,11,32,34,42,45,57,61,64,65,73,77,82,84,88,90,98,106,109,115,124,130,132,134,142,144,148,150},num=3},
 --2 energy TODO find a way to get energies reliably
-   {cards={},num=0,size=8,energy=true},
+  {cards={},num=0,size=8,energy=true},
 --3 gold
-   {cards={204,205,206,207,208,209},num=0},
+  {cards={204,205,206,207,208,209},num=0},
 --4 Rainbow
-   {cards={193,194,195,196,197,198,199,200,201,202,203},num=0},
+  {cards={193,194,195,196,197,198,199,200,201,202,203},num=0},
 --5 FA trainer
-   {cards={189,190,191,192},num=0},
+  {cards={189,190,191,192},num=0},
 --6 FA mon TODO are alt art mons a seperate slot?
-   {cards={175,176,177,178,179,180,181,182,183,184,185,186,187,188},num=0},
+  {cards={175,176,177,178,179,180,181,182,183,184,185,186,187,188},num=0},
 --7 Vmax
-   {cards={18,36,50,71,93,122,137},num=0},
+  {cards={18,36,50,71,93,122,137},num=0},
 --8 V
-   {cards={153,17,19,26,35,43,49,55,67,70,72,92,108,110,121,136},num=0},
+  {cards={153,17,19,26,35,43,49,55,67,70,72,92,108,110,121,136},num=0},
 --9 holo
-   {cards={154,22,23,33,40,54,62,66,75,79,85,91,95,107,111,113,125,138},num=0},
+  {cards={154,22,23,33,40,54,62,66,75,79,85,91,95,107,111,113,125,138},num=0},
 --10 rare
-   {cards={152,3,9,13,15,25,28,30,38,46,48,51,53,59,69,80,87,100,102,104,116,118,120,127,128,131,135,139,140,141,145,147},num=0},
+  {cards={152,3,9,13,15,25,28,30,38,46,48,51,53,59,69,80,87,100,102,104,116,118,120,127,128,131,135,139,140,141,145,147},num=0},
 --11 reverse
-   {cards={151,1,4,7,10,12,14,16,20,21,24,27,29,31,37,39,41,44,47,52,56,58,60,63,68,74,76,78,81,83,86,89,94,96,97,99,101,103,105,112,114,117,119,123,126,129,133,143,146,149,152,3,9,13,15,25,28,30,38,46,48,51,53,59,69,80,87,100,102,104,116,118,120,127,128,131,135,139,140,141,145,147,154,22,23,33,40,54,62,66,75,79,85,91,95,107,111,113,125,138,155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,2,5,6,8,11,32,34,42,45,57,61,64,65,73,77,82,84,88,90,98,106,109,115,124,130,132,134,142,144,148,150},num=1},
+  {cards={151,1,4,7,10,12,14,16,20,21,24,27,29,31,37,39,41,44,47,52,56,58,60,63,68,74,76,78,81,83,86,89,94,96,97,99,101,103,105,112,114,117,119,123,126,129,133,143,146,149,152,3,9,13,15,25,28,30,38,46,48,51,53,59,69,80,87,100,102,104,116,118,120,127,128,131,135,139,140,141,145,147,154,22,23,33,40,54,62,66,75,79,85,91,95,107,111,113,125,138,155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,2,5,6,8,11,32,34,42,45,57,61,64,65,73,77,82,84,88,90,98,106,109,115,124,130,132,134,142,144,148,150},num=1},
 --12 common
-   {cards={151,1,4,7,10,12,14,16,20,21,24,27,29,31,37,39,41,44,47,52,56,58,60,63,68,74,76,78,81,83,86,89,94,96,97,99,101,103,105,112,114,117,119,123,126,129,133,143,146,149},num=5},
-  }]],
+  {cards={151,1,4,7,10,12,14,16,20,21,24,27,29,31,37,39,41,44,47,52,56,58,60,63,68,74,76,78,81,83,86,89,94,96,97,99,101,103,105,112,114,117,119,123,126,129,133,143,146,149},num=5},
+}]],
   pullRates=[[{
  {rates={ --TODO get foil rate
   {slot=3,odds=1/105.2},--gold
@@ -4214,30 +4239,30 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={155,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,78,80,83,85,87,90,92,103,109,122,126,136,139,146,4,5,7,12,15,23,27,31,40,42,46,52,56,72,74},num=3},
+  {cards={155,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,78,80,83,85,87,90,92,103,109,122,126,136,139,146,4,5,7,12,15,23,27,31,40,42,46,52,56,72,74},num=3},
 --2 energy TODO find a way to get energies reliably
-   {cards={},num=0,size=8,energy=true},
+  {cards={},num=0,size=8,energy=true},
 --3 gold
-   {cards={197,198,199,200,201},num=0},
+  {cards={197,198,199,200,201},num=0},
 --4 Rainbow
-   {cards={190,191,192,193,194,195,196},num=0},
+  {cards={190,191,192,193,194,195,196},num=0},
 --5 FA trainer
-   {cards={186,187,188,189},num=0},
+  {cards={186,187,188,189},num=0},
 --6 FA mon TODO are alt art mons a seperate slot?
-   {cards={177,178,179,180,181,182,183,184,185},num=0},
+  {cards={177,178,179,180,181,182,183,184,185},num=0},
 --7 Vmax
-   {cards={115,117,119,144,2,20,34},num=0},
+  {cards={115,117,119,144,2,20,34},num=0},
 --8 V
-   {cards={95,99,104,114,116,118,128,143,1,19,21,33,60,69},num=0},
+  {cards={95,99,104,114,116,118,128,143,1,19,21,33,60,69},num=0},
 --9 holo
-   {cards={156,88,105,111,123,132,133,13,18,24,25,37,39,53,61,63,64,66},num=0},
+  {cards={156,88,105,111,123,132,133,13,18,24,25,37,39,53,61,63,64,66},num=0},
 --10 rare
-   {cards={153,77,81,91,94,96,98,101,107,110,113,124,127,130,140,142,147,149,10,16,28,30,32,36,44,47,49,54,57,59,65,68,71,75},num=0},
+  {cards={153,77,81,91,94,96,98,101,107,110,113,124,127,130,140,142,147,149,10,16,28,30,32,36,44,47,49,54,57,59,65,68,71,75},num=0},
 --11 reverse
-   {cards={155,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,78,80,83,85,87,90,92,103,109,122,126,136,139,146,4,5,7,12,15,23,27,31,40,42,46,52,56,72,74,151,152,154,76,79,82,84,86,89,93,97,100,102,106,108,112,120,121,125,129,131,134,135,137,138,141,145,148,150,3,6,8,9,11,14,17,22,26,29,35,38,41,43,45,48,50,51,55,58,62,67,70,73,153,77,81,91,94,96,98,101,107,110,113,124,127,130,140,142,147,149,10,16,28,30,32,36,44,47,49,54,57,59,65,68,71,75,156,88,105,111,123,132,133,13,18,24,25,37,39,53,61,63,64,66},num=1},
+  {cards={155,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,78,80,83,85,87,90,92,103,109,122,126,136,139,146,4,5,7,12,15,23,27,31,40,42,46,52,56,72,74,151,152,154,76,79,82,84,86,89,93,97,100,102,106,108,112,120,121,125,129,131,134,135,137,138,141,145,148,150,3,6,8,9,11,14,17,22,26,29,35,38,41,43,45,48,50,51,55,58,62,67,70,73,153,77,81,91,94,96,98,101,107,110,113,124,127,130,140,142,147,149,10,16,28,30,32,36,44,47,49,54,57,59,65,68,71,75,156,88,105,111,123,132,133,13,18,24,25,37,39,53,61,63,64,66},num=1},
 --12 common
-   {cards={151,152,154,76,79,82,84,86,89,93,97,100,102,106,108,112,120,121,125,129,131,134,135,137,138,141,145,148,150,3,6,8,9,11,14,17,22,26,29,35,38,41,43,45,48,50,51,55,58,62,67,70,73},num=5},
-  }]],
+  {cards={151,152,154,76,79,82,84,86,89,93,97,100,102,106,108,112,120,121,125,129,131,134,135,137,138,141,145,148,150,3,6,8,9,11,14,17,22,26,29,35,38,41,43,45,48,50,51,55,58,62,67,70,73},num=5},
+}]],
   pullRates=[[{
  {rates={ --TODO get foil rate
   {slot=3,odds=1/114.5},--gold
@@ -4273,32 +4298,32 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={4,7,12,19,25,34,38,40,45,50,51,52,53,54,55,57,58,60,63,64,65,66,67,68},num=3},
+  {cards={4,7,12,19,25,34,38,40,45,50,51,52,53,54,55,57,58,60,63,64,65,66,67,68},num=3},
 --2 energy TODO find a way to get energies reliably
-   {cards={},num=0,size=8,energy=true},
+  {cards={},num=0,size=8,energy=true},
 --3 shiny zard
-   {cards={79},num=0},
+  {cards={79},num=0},
 --4 gold can
-   {cards={80},num=0},
+  {cards={80},num=0},
 --5 Rainbow
-   {cards={74,75,76,77,78},num=0},
+  {cards={74,75,76,77,78},num=0},
 --6 FA trainer
-   {cards={73},num=0},
+  {cards={73},num=0},
 --7 FA mon TODO are alt art mons a seperate slot?
-   {cards={69,70,71,72},num=0},
+  {cards={69,70,71,72},num=0},
 --8 Vmax
-   {cards={15,17,23},num=0},
+  {cards={15,17,23},num=0},
 --9 V
-   {cards={1,5,8,13,14,16,21,22,27,32,47},num=0},
+  {cards={1,5,8,13,14,16,21,22,27,32,47},num=0},
 --10 holo
-   {cards={10,20,26,28,30,37,42,49,56,62},num=0},
+  {cards={10,20,26,28,30,37,42,49,56,62},num=0},
 --11 rev energy TODO find a way to add energy
-   {cards={},num=0},
+  {cards={},num=0},
 --12 reverse
-   {cards={2,3,6,9,11,18,24,29,31,33,35,36,39,41,43,44,46,48,59,61,4,7,12,19,25,34,38,40,45,50,51,52,53,54,55,57,58,60,63,64,65,66,67,68,10,20,26,28,30,37,42,49,56,62},num=0},
+  {cards={2,3,6,9,11,18,24,29,31,33,35,36,39,41,43,44,46,48,59,61,4,7,12,19,25,34,38,40,45,50,51,52,53,54,55,57,58,60,63,64,65,66,67,68,10,20,26,28,30,37,42,49,56,62},num=0},
 --13 common
-   {cards={2,3,6,9,11,18,24,29,31,33,35,36,39,41,43,44,46,48,59,61},num=5},
-  }]],
+  {cards={2,3,6,9,11,18,24,29,31,33,35,36,39,41,43,44,46,48,59,61},num=5},
+}]],
   pullRates=[[{
  {rates={
   {slot=3,odds=1/97},--shiny zard
@@ -4332,32 +4357,32 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={151,152,153,155,156,157,158,159,160,161,162,163,164,165,85,88,104,105,108,117,122,124,125,134,136,144,146,147,148,149,150,2,11,18,19,24,28,34,40,54,56,58,62,65,70,74},num=3},
+  {cards={151,152,153,155,156,157,158,159,160,161,162,163,164,165,85,88,104,105,108,117,122,124,125,134,136,144,146,147,148,149,150,2,11,18,19,24,28,34,40,54,56,58,62,65,70,74},num=3},
 --2 energy TODO find a way to get energies reliably
-   {cards={},num=0,size=8,energy=true},
+  {cards={},num=0,size=8,energy=true},
 --3 gold
-   {cards={198,199,200,201,202,203},num=0},
+  {cards={198,199,200,201,202,203},num=0},
 --4 Rainbow
-   {cards={186,187,188,189,190,191,192,193,194,195,196,197},num=0},
+  {cards={186,187,188,189,190,191,192,193,194,195,196,197},num=0},
 --5 FA trainer
-   {cards={179,180,181,182,183,184,185},num=0},
+  {cards={179,180,181,182,183,184,185},num=0},
 --6 FA mon TODO are alt art mons a seperate slot?
-   {cards={166,167,168,169,170,171,172,173,174,175,176,177,178},num=0},
+  {cards={166,167,168,169,170,171,172,173,174,175,176,177,178},num=0},
 --7 Vmax
-   {cards={99,127,141,21,37,44},num=0},
+  {cards={99,127,141,21,37,44},num=0},
 --8 V
-   {cards={98,106,115,126,140,20,22,29,36,43,49},num=0},
+  {cards={98,106,115,126,140,20,22,29,36,43,49},num=0},
 --9 holo
-   {cards={154,78,79,89,93,121,128,129,131,132,142,15,16,32,46,48,60,61,71},num=0},
+  {cards={154,78,79,89,93,121,128,129,131,132,142,15,16,32,46,48,60,61,71},num=0},
 --10 rare
-   {cards={76,81,84,87,92,95,97,101,109,111,113,114,118,120,137,145,3,5,7,12,14,25,26,30,35,39,42,47,52,59,64,66,68},num=0},
+  {cards={76,81,84,87,92,95,97,101,109,111,113,114,118,120,137,145,3,5,7,12,14,25,26,30,35,39,42,47,52,59,64,66,68},num=0},
 --11 amazing
-   {cards={82,102,119,138,9,50},num=0},
+  {cards={82,102,119,138,9,50},num=0},
 --12 reverse
-   {cards={151,152,153,155,156,157,158,159,160,161,162,163,164,165,85,88,104,105,108,117,122,124,125,134,136,144,146,147,148,149,150,2,11,18,19,24,28,34,40,54,56,58,62,65,70,74,154,78,79,89,93,121,128,129,131,132,142,15,16,32,46,48,60,61,71,77,80,83,86,90,91,94,96,100,103,107,110,112,116,123,130,133,135,139,143,1,4,6,8,10,13,17,23,27,31,33,38,41,45,51,53,55,57,63,67,69,72,73,75,76,81,84,87,92,95,97,101,109,111,113,114,118,120,137,145,3,5,7,12,14,25,26,30,35,39,42,47,52,59,64,66,68},num=0},
+  {cards={151,152,153,155,156,157,158,159,160,161,162,163,164,165,85,88,104,105,108,117,122,124,125,134,136,144,146,147,148,149,150,2,11,18,19,24,28,34,40,54,56,58,62,65,70,74,154,78,79,89,93,121,128,129,131,132,142,15,16,32,46,48,60,61,71,77,80,83,86,90,91,94,96,100,103,107,110,112,116,123,130,133,135,139,143,1,4,6,8,10,13,17,23,27,31,33,38,41,45,51,53,55,57,63,67,69,72,73,75,76,81,84,87,92,95,97,101,109,111,113,114,118,120,137,145,3,5,7,12,14,25,26,30,35,39,42,47,52,59,64,66,68},num=0},
 --13 common
-   {cards={77,80,83,86,90,91,94,96,100,103,107,110,112,116,123,130,133,135,139,143,1,4,6,8,10,13,17,23,27,31,33,38,41,45,51,53,55,57,63,67,69,72,73,75},num=5},
-  }]],
+  {cards={77,80,83,86,90,91,94,96,100,103,107,110,112,116,123,130,133,135,139,143,1,4,6,8,10,13,17,23,27,31,33,38,41,45,51,53,55,57,63,67,69,72,73,75},num=5},
+}]],
   pullRates=[[{
  {rates={
   {slot=3,odds=1/97},--gold
@@ -4392,38 +4417,38 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={5,7,12,15,23,28,32,34,57,59,61,62,63},num=3},
+  {cards={5,7,12,15,23,28,32,34,57,59,61,62,63},num=3},
 --2 energy TODO find a way to get energies reliably
-   {cards={},num=0,size=8,energy=true},
+  {cards={},num=0,size=8,energy=true},
 --3 gold
-   {cards={194,195},num=0},
+  {cards={194,195},num=0},
 --4 Rainbow
-   {cards={73},num=0},
+  {cards={73},num=0},
 --5 FA trainer
-   {cards={65,66,67,68,69,70,71,72},num=0},
+  {cards={65,66,67,68,69,70,71,72},num=0},
 --6 alcreme
-   {cards={64},num=0},
+  {cards={64},num=0},
 --7 Vmax
-   {cards={10,19,38,45,51,55},num=0},
+  {cards={10,19,38,45,51,55},num=0},
 --8 V
-   {cards={9,18,37,39,44,50,53,54},num=0},
+  {cards={9,18,37,39,44,50,53,54},num=0},
 --9 holo
-   {cards={8,13,30,33,42,48,56},num=0},
+  {cards={8,13,30,33,42,48,56},num=0},
 --10 rare
-   {cards={2,3,16,24,25,27,58,60},num=0},
+  {cards={2,3,16,24,25,27,58,60},num=0},
 --11 amazing
-   {cards={17,21,46},num=0},
+  {cards={17,21,46},num=0},
 --12 shiny Vmax
-   {cards={179,190,182,184,186,190,192},num=0},
+  {cards={179,190,182,184,186,190,192},num=0},
 --13 shiny V
-   {cards={178,181,183,185,187,188,189,191,193},num=0},
+  {cards={178,181,183,185,187,188,189,191,193},num=0},
 --14 shiny
-   {cards={{74,177}},size=104,num=0},
+  {cards={{74,177}},size=104,num=0},
 --15 reverse
-   {cards={1,4,6,11,14,20,22,26,29,31,35,36,40,41,43,47,49,52,2,3,16,24,25,27,58,60,5,7,12,15,23,28,32,34,57,59,61,62,63,8,13,30,33,42,48,56},num=0},
+  {cards={1,4,6,11,14,20,22,26,29,31,35,36,40,41,43,47,49,52,2,3,16,24,25,27,58,60,5,7,12,15,23,28,32,34,57,59,61,62,63,8,13,30,33,42,48,56},num=0},
 --16 common
-   {cards={1,4,6,11,14,20,22,26,29,31,35,36,40,41,43,47,49,52},num=5},
-  }]],
+  {cards={1,4,6,11,14,20,22,26,29,31,35,36,40,41,43,47,49,52},num=5},
+}]],
   pullRates=[[{
  {rates={
   {slot=3,odds=1/111},--gold
@@ -4460,34 +4485,34 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={64,72,74,79,90,94,98,104,106,112,116,118,120,2,5,9,10,12,24,26,32,39,43,47,56,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141},num=3},
+  {cards={64,72,74,79,90,94,98,104,106,112,116,118,120,2,5,9,10,12,24,26,32,39,43,47,56,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141},num=3},
 --2 energy TODO find a way to get energies reliably
-   {cards={},num=0,size=8,energy=true},
+  {cards={},num=0,size=8,energy=true},
 --3 gold
-   {cards={181,182,183,178,179,180},num=0},
+  {cards={181,182,183,178,179,180},num=0},
 --4 Rainbow
-   {cards={164,165,166,167,169,171,172,173,174,175,176,177},num=0},
+  {cards={164,165,166,167,169,171,172,173,174,175,176,177},num=0},
 --5 alt Vmax
-   {cards={168,170},num=0},
+  {cards={168,170},num=0},
 --6 alt V
-   {cards={146,151,153,155},num=0},
+  {cards={146,151,153,155},num=0},
 --7 FA trainer
-   {cards={158,159,160,161,162,163},num=0},
+  {cards={158,159,160,161,162,163},num=0},
 --8 FA mon
-   {cards={142,143,144,145,147,148,149,150,152,154,156,157},num=0},
+  {cards={142,143,144,145,147,148,149,150,152,154,156,157},num=0},
 --9 Vmax
-   {cards={86,88,110,19,22,51},num=0},
+  {cards={86,88,110,19,22,51},num=0},
 --10 V
-   {cards={62,63,85,87,97,109,117,6,18,21,40,50},num=0},
+  {cards={62,63,85,87,97,109,117,6,18,21,40,50},num=0},
 --11 holo
-   {cards={61,65,80,82,91,96,99,102,107,8,16,20,25,33,37,48},num=0},
+  {cards={61,65,80,82,91,96,99,102,107,8,16,20,25,33,37,48},num=0},
 --12 rare
-   {cards={67,70,75,77,83,84,92,108,114,119,3,13,15,28,30,35,42,45,53,58},num=0},
+  {cards={67,70,75,77,83,84,92,108,114,119,3,13,15,28,30,35,42,45,53,58},num=0},
 --13 reverse
-   {cards={61,65,80,82,91,96,99,102,107,8,16,20,25,33,37,48,64,72,74,79,90,94,98,104,106,112,116,118,120,2,5,9,10,12,24,26,32,39,43,47,56,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,66,68,69,71,73,76,78,81,89,93,95,100,101,103,105,111,113,115,1,4,7,11,14,17,23,27,29,31,34,36,38,41,44,46,49,52,54,55,57,59,60,67,70,75,77,83,84,92,108,114,119,3,13,15,28,30,35,42,45,53,58},num=1},
+  {cards={61,65,80,82,91,96,99,102,107,8,16,20,25,33,37,48,64,72,74,79,90,94,98,104,106,112,116,118,120,2,5,9,10,12,24,26,32,39,43,47,56,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,66,68,69,71,73,76,78,81,89,93,95,100,101,103,105,111,113,115,1,4,7,11,14,17,23,27,29,31,34,36,38,41,44,46,49,52,54,55,57,59,60,67,70,75,77,83,84,92,108,114,119,3,13,15,28,30,35,42,45,53,58},num=1},
 --14 common
-   {cards={66,68,69,71,73,76,78,81,89,93,95,100,101,103,105,111,113,115,1,4,7,11,14,17,23,27,29,31,34,36,38,41,44,46,49,52,54,55,57,59,60},num=5},
-  }]],
+  {cards={66,68,69,71,73,76,78,81,89,93,95,100,101,103,105,111,113,115,1,4,7,11,14,17,23,27,29,31,34,36,38,41,44,46,49,52,54,55,57,59,60},num=5},
+}]],
   pullRates=[[{
 --rare TODO get foil rate
  {rates={
@@ -4520,34 +4545,34 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,72,85,106,110,117,2,5,14,17,27,38,42,48,56,60},num=3},
+  {cards={129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,72,85,106,110,117,2,5,14,17,27,38,42,48,56,60},num=3},
 --2 energy TODO find a way to get energies reliably
-   {cards={},num=0,size=8,energy=true},
+  {cards={},num=0,size=8,energy=true},
 --3 gold
-   {cards={222,223,224,225,226,227,228,229,230,231,232,233},num=0},
+  {cards={222,223,224,225,226,227,228,229,230,231,232,233},num=0},
 --4 Rainbow
-   {cards={199,200,202,204,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221},num=0},
+  {cards={199,200,202,204,206,207,208,209,210,211,212,213,214,215,216,217,218,219,220,221},num=0},
 --5 alt Vmax
-   {cards={201,203,205},num=0},
+  {cards={201,203,205},num=0},
 --6 alt V
-   {cards={164,166,168,170,172,174,177,179,183,185},num=0},
+  {cards={164,166,168,170,172,174,177,179,183,185},num=0},
 --7 FA trainer
-   {cards={186,187,188,189,190,191,192,193,194,195,196,197,198},num=0},
+  {cards={186,187,188,189,190,191,192,193,194,195,196,197,198},num=0},
 --8 FA mon
-   {cards={181,182,184,160,161,162,163,165,167,169,171,173,175,176,178,180},num=0},
+  {cards={181,182,184,160,161,162,163,165,167,169,171,173,175,176,178,180},num=0},
 --9 Vmax
-   {cards={125,75,90,100,113,8,21,46},num=0},
+  {cards={125,75,90,100,113,8,21,46},num=0},
 --10 V
-   {cards={124,74,80,89,97,99,104,112,119,7,20,25,45,53,58},num=0},
+  {cards={124,74,80,89,97,99,104,112,119,7,20,25,45,53,58},num=0},
 --11 holo
-   {cards={123,128,61,64,73,83,87,92,98,108,114,115,118,3,18,19,28,31,36,40,43,44,52,57},num=0},
+  {cards={123,128,61,64,73,83,87,92,98,108,114,115,118,3,18,19,28,31,36,40,43,44,52,57},num=0},
 --12 rare
-   {cards={122,63,66,68,70,77,79,81,88,95,96,102,103,107,111,120,10,12,15,24,39,49,51},num=0},
+  {cards={122,63,66,68,70,77,79,81,88,95,96,102,103,107,111,120,10,12,15,24,39,49,51},num=0},
 --13 reverse
-   {cards={121,126,127,62,65,67,69,71,76,78,82,84,86,91,93,94,101,105,109,116,1,4,6,9,11,13,16,22,23,26,29,30,32,33,34,35,37,41,47,50,54,55,59,122,63,66,68,70,77,79,81,88,95,96,102,103,107,111,120,10,12,15,24,39,49,51,123,128,61,64,73,83,87,92,98,108,114,115,118,3,18,19,28,31,36,40,43,44,52,57,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,72,85,106,110,117,2,5,14,17,27,38,42,48,56,60},num=1},
+  {cards={121,126,127,62,65,67,69,71,76,78,82,84,86,91,93,94,101,105,109,116,1,4,6,9,11,13,16,22,23,26,29,30,32,33,34,35,37,41,47,50,54,55,59,122,63,66,68,70,77,79,81,88,95,96,102,103,107,111,120,10,12,15,24,39,49,51,123,128,61,64,73,83,87,92,98,108,114,115,118,3,18,19,28,31,36,40,43,44,52,57,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,72,85,106,110,117,2,5,14,17,27,38,42,48,56,60},num=1},
 --14 common
-   {cards={121,126,127,62,65,67,69,71,76,78,82,84,86,91,93,94,101,105,109,116,1,4,6,9,11,13,16,22,23,26,29,30,32,33,34,35,37,41,47,50,54,55,59},num=5},
-  }]],
+  {cards={121,126,127,62,65,67,69,71,76,78,82,84,86,91,93,94,101,105,109,116,1,4,6,9,11,13,16,22,23,26,29,30,32,33,34,35,37,41,47,50,54,55,59},num=5},
+}]],
   pullRates=[[{
 --rare TODO get foil rate
  {rates={
@@ -4580,34 +4605,34 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={3,12,23,25,27,33,45,47,53,55,62,69,72,79,85,87,89,96,99,108,114,127,130,134,137,139,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165},num=3},
+  {cards={3,12,23,25,27,33,45,47,53,55,62,69,72,79,85,87,89,96,99,108,114,127,130,134,137,139,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165},num=3},
 --2 energy TODO find a way to get energies reliably
-   {cards={},num=0,size=8,energy=true},
+  {cards={},num=0,size=8,energy=true},
 --3 shiny
-   {cards={{226,237}},num=0,size=12},
+  {cards={{226,237}},num=0,size=12},
 --4 Rainbow
-   {cards={204,{206,208},210,211,213,214,216,217,219,{212,225}},num=0,size=16},
+  {cards={204,{206,208},210,211,213,214,216,217,219,{212,225}},num=0,size=16},
 --5 alt Vmax
-   {cards={205,209,212,215,218,220},num=0},
+  {cards={205,209,212,215,218,220},num=0},
 --6 alt V
-   {cards={167,175,180,182,184,186,189,192,194,196,198},num=0},
+  {cards={167,175,180,182,184,186,189,192,194,196,198},num=0},
 --7 FA mon
-   {cards={166,{168,174},{176,179},181,183,185,187,188,190,191,193,195,197},num=0,size=22},
+  {cards={166,{168,174},{176,179},181,183,185,187,188,190,191,193,195,197},num=0,size=22},
 --8 FA trainer
-   {cards={{199,203}},num=0,size=5},
+  {cards={{199,203}},num=0,size=5},
 --9 Vmax
-   {cards={8,14,18,29,30,41,51,59,65,75,92,95,101,111,123},num=0},
+  {cards={8,14,18,29,30,41,51,59,65,75,92,95,101,111,123},num=0},
 --10 V
-   {cards={7,13,21,28,31,40,48,58,64,70,74,83,91,94,100,110,117,122},num=0},
+  {cards={7,13,21,28,31,40,48,58,64,70,74,83,91,94,100,110,117,122},num=0},
 --11 holo
-   {cards={4,16,19,20,34,50,60,63,73,80,82,93,103,109,112,115,116,118,124,131},num=0},
+  {cards={4,16,19,20,34,50,60,63,73,80,82,93,103,109,112,115,116,118,124,131},num=0},
 --12 rare
-   {cards={1,6,10,36,38,46,56,77,88,90,97,105,106,119,120,121,128,135,140},num=0},
+  {cards={1,6,10,36,38,46,56,77,88,90,97,105,106,119,120,121,128,135,140},num=0},
 --13 reverse
-   {cards={{1,6},{9,12},{15,17},19,20,{22,27},{32,39},{42,47},49,50,{52,57},{60,63},{66,69},{71,73},{76,82},{84,90},93,{96,99},{102,109},{112,116},{118,121},{124,165}},num=1,size=132},
+  {cards={{1,6},{9,12},{15,17},19,20,{22,27},{32,39},{42,47},49,50,{52,57},{60,63},{66,69},{71,73},{76,82},{84,90},93,{96,99},{102,109},{112,116},{118,121},{124,165}},num=1,size=132},
 --14 common
-   {cards={2,5,9,11,15,17,22,24,26,32,35,37,39,42,43,44,49,52,54,57,61,66,67,68,71,76,78,81,84,86,98,102,104,107,113,125,126,129,132,133,136,138},num=5},
-  }]],
+  {cards={2,5,9,11,15,17,22,24,26,32,35,37,39,42,43,44,49,52,54,57,61,66,67,68,71,76,78,81,84,86,98,102,104,107,113,125,126,129,132,133,136,138},num=5},
+}]],
   pullRates=[[{
 --rare TODO get foil odds
  {rates={
@@ -4639,44 +4664,44 @@ custom={
   },
   dropSlots=[[{
 --1 rare
-   {cards={1,2,3,4,10,12,13,14,17,19,20,22},num=2},
+  {cards={1,2,3,4,10,12,13,14,17,19,20,22},num=2},
 --2 classic rare
-   {cards={27,35,38,39,40,42,44,45,46,47,48,49,50},num=0},
+  {cards={27,35,38,39,40,42,44,45,46,47,48,49,50},num=0},
 --3 classic chomp
-   {cards={43},num=0},
+  {cards={43},num=0},
 --4 classic common
-   {cards={26,28,29,30,31,32,33,34,36,37,41},num=0},
+  {cards={26,28,29,30,31,32,33,34,36,37,41},num=0},
 --5 gold mew
-   {cards={25},num=0},
+  {cards={25},num=0},
 --6 Oak FA
-   {cards={24},num=0},
+  {cards={24},num=0},
 --7 Vmax
-   {cards={7,9},num=0},
+  {cards={7,9},num=0},
 --8 pikachu
-   {cards={5},num=0},
+  {cards={5},num=0},
 --9 V
-   {cards={6,8,16,18},num=0},
+  {cards={6,8,16,18},num=0},
 --10 holo
-   {cards={11,15,21,23},num=0},
-  }]],
+  {cards={11,15,21,23},num=0},
+}]],
   pullRates=[[{
 --classic
-   {rates={
-    {slot=2,odds=1/8.3},--classic rare
-    {slot=3,odds=1/64},--classic chomp
-    {slot=4,odds=1/3.75},--classic common
-    {slot=1}--rare
-   },num=1},
+ {rates={
+  {slot=2,odds=1/8.3},--classic rare
+  {slot=3,odds=1/64},--classic chomp
+  {slot=4,odds=1/3.75},--classic common
+  {slot=1}--rare
+ },num=1},
 --foil
-   {rates={
-    {slot=5,odds=1/147},--gold mew
-    {slot=6,odds=1/24.5},--Oak FA
-    {slot=7,odds=1/13},--Vmax
-    {slot=8,odds=1/9},--Pikachu
-    {slot=9,odds=1/4},--V
-    {slot=10}--holo
-   },num=1},
-  }]]
+ {rates={
+  {slot=5,odds=1/147},--gold mew
+  {slot=6,odds=1/24.5},--Oak FA
+  {slot=7,odds=1/13},--Vmax
+  {slot=8,odds=1/9},--Pikachu
+  {slot=9,odds=1/4},--V
+  {slot=10}--holo
+ },num=1},
+}]]
  }
 },
 {setName="Fusion Strike",
@@ -4696,34 +4721,34 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-   {cards={2,5,8,10,17,25,27,30,31,35,36,38,41,49,111,122,129,132,134,136,141,143,207,208,211,213,215,216,220,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,151,153,154,160,163,167,169,171,173,174,177,181,183,187,192,196,198,200,54,56,63,69,72,75,77,81,83,85,92,96,99,100},num=3},
+  {cards={2,5,8,10,17,25,27,30,31,35,36,38,41,49,111,122,129,132,134,136,141,143,207,208,211,213,215,216,220,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,151,153,154,160,163,167,169,171,173,174,177,181,183,187,192,196,198,200,54,56,63,69,72,75,77,81,83,85,92,96,99,100},num=3},
 --2 energy TODO find a way to get energies reliably
-   {cards={},num=0,size=8,energy=true},
+  {cards={},num=0,size=8,energy=true},
 --3 gold
-   {cards={280,281,282,283,284},num=0},
+  {cards={280,281,282,283,284},num=0},
 --4 Rainbow
-   {cards={265,267,268,272,273,274,275,276,277,278,279},num=0},
+  {cards={265,267,268,272,273,274,275,276,277,278,279},num=0},
 --5 alt Vmax
-   {cards={266,271,269,270},num=0},
+  {cards={266,271,269,270},num=0},
 --6 alt V
-   {cards={251,245,252,255,257},num=0},
+  {cards={251,245,252,255,257},num=0},
 --7 FA mon
-   {cards={253,254,256,246,247,248,249,250},num=0},
+  {cards={253,254,256,246,247,248,249,250},num=0},
 --8 FA trainer
-   {cards={258,259,260,261,262,263,264},num=0},
+  {cards={258,259,260,261,262,263,264},num=0},
 --9 Vmax
-   {cards={23,40,45,104,114,218,157,79},num=0},
+  {cards={23,40,45,104,114,218,157,79},num=0},
 --10 V
-   {cards={6,21,22,26,39,43,44,103,113,146,201,217,156,158,185,73,76,78,86},num=0},
+  {cards={6,21,22,26,39,43,44,103,113,146,201,217,156,158,185,73,76,78,86},num=0},
 --11 holo
-   {cards={3,107,108,120,130,139,148,161,178,189,53,57,64},num=0},
+  {cards={3,107,108,120,130,139,148,161,178,189,53,57,64},num=0},
 --12 rare
-   {cards={11,12,14,15,20,33,42,48,101,102,116,118,124,126,137,145,203,204,164,166,175,190,193,194,197,51,59,66,67,88,93,97},num=0},
+  {cards={11,12,14,15,20,33,42,48,101,102,116,118,124,126,137,145,203,204,164,166,175,190,193,194,197,51,59,66,67,88,93,97},num=0},
 --13 reverse
-   {cards={1,4,7,9,13,16,18,19,24,28,29,32,34,37,46,47,50,105,106,109,110,112,115,117,119,121,123,125,127,128,131,133,135,138,140,142,144,147,149,150,202,205,206,209,210,212,214,219,221,222,152,155,159,162,165,168,170,172,176,179,180,182,184,186,188,191,195,199,52,55,58,60,61,62,65,68,70,71,74,80,82,84,87,89,90,91,94,95,98,11,12,14,15,20,33,42,48,101,102,116,118,124,126,137,145,203,204,164,166,175,190,193,194,197,51,59,66,67,88,93,97,2,5,8,10,17,25,27,30,31,35,36,38,41,49,111,122,129,132,134,136,141,143,207,208,211,213,215,216,220,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,151,153,154,160,163,167,169,171,173,174,177,181,183,187,192,196,198,200,54,56,63,69,72,75,77,81,83,85,92,96,99,100,3,107,108,120,130,139,148,161,178,189,53,57,64},num=1},
+  {cards={1,4,7,9,13,16,18,19,24,28,29,32,34,37,46,47,50,105,106,109,110,112,115,117,119,121,123,125,127,128,131,133,135,138,140,142,144,147,149,150,202,205,206,209,210,212,214,219,221,222,152,155,159,162,165,168,170,172,176,179,180,182,184,186,188,191,195,199,52,55,58,60,61,62,65,68,70,71,74,80,82,84,87,89,90,91,94,95,98,11,12,14,15,20,33,42,48,101,102,116,118,124,126,137,145,203,204,164,166,175,190,193,194,197,51,59,66,67,88,93,97,2,5,8,10,17,25,27,30,31,35,36,38,41,49,111,122,129,132,134,136,141,143,207,208,211,213,215,216,220,223,224,225,226,227,228,229,230,231,232,233,234,235,236,237,238,239,240,241,242,243,244,151,153,154,160,163,167,169,171,173,174,177,181,183,187,192,196,198,200,54,56,63,69,72,75,77,81,83,85,92,96,99,100,3,107,108,120,130,139,148,161,178,189,53,57,64},num=1},
 --14 common
-   {cards={1,4,7,9,13,16,18,19,24,28,29,32,34,37,46,47,50,105,106,109,110,112,115,117,119,121,123,125,127,128,131,133,135,138,140,142,144,147,149,150,202,205,206,209,210,212,214,219,221,222,152,155,159,162,165,168,170,172,176,179,180,182,184,186,188,191,195,199,52,55,58,60,61,62,65,68,70,71,74,80,82,84,87,89,90,91,94,95,98},num=5},
-  }]],
+  {cards={1,4,7,9,13,16,18,19,24,28,29,32,34,37,46,47,50,105,106,109,110,112,115,117,119,121,123,125,127,128,131,133,135,138,140,142,144,147,149,150,202,205,206,209,210,212,214,219,221,222,152,155,159,162,165,168,170,172,176,179,180,182,184,186,188,191,195,199,52,55,58,60,61,62,65,68,70,71,74,80,82,84,87,89,90,91,94,95,98},num=5},
+}]],
   pullRates=[[{
  {rates={
   {slot=3,odds=1/124},--gold
