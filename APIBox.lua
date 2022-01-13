@@ -3243,7 +3243,7 @@ custom={
 }]]
  }},
 {setName="SM Black Star Promos",
- size=250,
+ size=251,
  setID="smp",
  custom={
   mesh=SQUAREBOXMESH,
@@ -4902,7 +4902,7 @@ function changeSettings(setting,value)
 end
 
 function clearCache()
- Global.setTable("PPacksCache["..setData[curSet].setName.."]",{loading=0,cache=nil})
+ Global.setTable("PPacksCache["..setData[curSet].setName.."]",{loading=nil,cache=nil})
 end
 
 function incAPI(obj,color,alt)
@@ -4947,7 +4947,7 @@ function getSet(obj,color,alt)
  if setCache and setCache.cache then
    setDeck=spawnObjectData({data=setCache.cache,position=spawnPos,rotation=self.GetRotation()})
  else
-  if not setCache or not setCache.loading or setCache.loading==0 then
+  if not setCache or not setCache.loading then
    r={}
    decoded={}
    local orderText="&orderBy=number"
