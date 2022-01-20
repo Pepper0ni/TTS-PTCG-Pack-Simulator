@@ -160,16 +160,16 @@ setData={
    "http://cloud-3.steamusercontent.com/ugc/1023948379558683544/1A85959BA5246A6CAF3096FDFD314CCBBCA52AB1/",
   },
   dropSlots=[[{
---1 common
-  {cards={{49,70},78,79},num=7,size=24},
+--1 uncommon
+  {cards={{32,48},{73,77},81,82},num=3,size=24},
 --2 secret
   {cards={83},size=1,num=0},
 --3 holo
   {cards={{1,17}},num=0,size=17},
 --4 rare
   {cards={{18,31},71,72,80},num=0,size=17},
---5 uncommon
-  {cards={{32,48},{73,77},81,82},num=3,size=24},
+--5 common
+  {cards={{49,70},78,79},num=7,size=24},
 }]],
   pullRates=[[{
 --rare
@@ -297,20 +297,20 @@ setData={
    "http://cloud-3.steamusercontent.com/ugc/1023948676532789390/E737FDC9F7BE596B49790A447AA43D8EFF61E3EF/",
   },
   dropSlots=[[{
---1 common
-  {cards={{53,71},75},num=7,size=20},
---2 holo
+--1 holo
   {cards={{1,17}},num=0,size=17},
---3 rare
+--2 rare
   {cards={{18,36}},num=0,size=19},
---4 uncommon
+--3 uncommon
   {cards={{37,52},{72,74}},num=3,size=19},
+--4 common
+  {cards={{53,71},75},num=7,size=20},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/3},--holo
-  {slot=3}--rare
+  {slot=1,odds=1/3},--holo
+  {slot=2}--rare
  },num=1},
 }]]
  }},
@@ -1229,7 +1229,7 @@ setData={
 --premium
  {rates={
   {slot=2,odds=1/36},--star
-  {slot=3,odds=1/12},--ex
+  {slot=3,odds=1/8},--ex
   {slot=4,remaining=true,odds=1/3},--holo
   {slot=5}--rare
  },num=1},
@@ -2033,7 +2033,7 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-  {cards={101,102,103,3,4,8,11,17,18,22,24,29,30,34,35,38,42,48,51,53,56,60,64,72,75,79,82,85,87,90,92,94,95,96,97,98,99},num=3},
+  {cards={{101,103},3,4,8,11,17,18,22,24,29,30,34,35,38,42,48,51,53,56,60,64,72,75,79,82,85,87,90,92,{94,99}},size=37,num=3},
 --2 secret
   {cards={115},num=0},
 --3 ultra
@@ -2043,11 +2043,11 @@ custom={
 --5 rare
   {cards={10,12,14,25,37,39,43,46,49,54,61,62,67,69,73,83,86,89,91},num=0},
 --6 reverse
-  {cards={101,102,103,3,4,8,11,17,18,22,24,29,30,34,35,38,42,48,51,53,56,60,64,72,75,79,82,85,87,90,92,94,95,96,97,98,99,104,1,2,7,9,13,15,16,21,23,27,28,33,36,40,41,44,45,50,52,55,58,59,63,66,68,70,74,77,78,80,81,84,88,93,100,5,6,19,20,26,31,32,47,57,65,71,76,10,12,14,25,37,39,43,46,49,54,61,62,67,69,73,83,86,89,91},num=1},
+  {cards={{1,104}},size=104,num=1},
 --7 common
   {cards={104,1,2,7,9,13,15,16,21,23,27,28,33,36,40,41,44,45,50,52,55,58,59,63,66,68,70,74,77,78,80,81,84,88,93,100},num=4},
 --8 energy
-  {cards={105,106,107,108,109,110,111,112},num=0,energy=true},
+  {cards={{105,112}},size=8,num=0,energy=true},
 }]],
   pullRates=[[{
 --rare
@@ -2080,7 +2080,7 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-  {cards={79,81,83,85,90,91,92,93,94,95,96,5,6,11,14,25,34,39,41,42,45,46,51,52,54,58,59,61,66,73,75},num=3},
+  {cards={79,81,83,85,{90,96},5,6,11,14,25,34,39,41,42,45,46,51,52,54,58,59,61,66,73,75},size=34,num=3},
 --2 ultra
   {cards={97,98},num=0},
 --3 holo
@@ -2088,7 +2088,7 @@ custom={
 --4 rare
   {cards={76,82,2,7,8,12,16,19,21,23,27,31,37,40,48,53,57,62,65,69,72},num=0},
 --5 reverse
-  {cards={76,82,2,7,8,12,16,19,21,23,27,31,37,40,48,53,57,62,65,69,72,77,88,89,17,30,35,47,56,63,67,78,80,84,86,87,1,3,4,9,10,13,15,18,20,22,24,26,28,29,32,33,36,38,43,44,49,50,55,60,64,68,70,71,74,79,81,83,85,90,91,92,93,94,95,96,5,6,11,14,25,34,39,41,42,45,46,51,52,54,58,59,61,66,73,75},num=1},
+  {cards={{1,96}},size=96,num=1},
 --6 common
   {cards={78,80,84,86,87,1,3,4,9,10,13,15,18,20,22,24,26,28,29,32,33,36,38,43,44,49,50,55,60,64,68,70,71,74},num=5}
 }]],
@@ -2117,17 +2117,17 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-  {cards={76,78,83,85,87,90,91,92,93,94,95,96,2,7,10,17,18,23,25,28,32,37,40,49,51,59,63,66,68,70},num=3},
+  {cards={76,78,83,85,87,{90,96},2,7,10,17,18,23,25,28,32,37,40,49,51,59,63,66,68,70},size=30,num=3},
 --2 secret
   {cards={102},num=0},
 --3 ultra
-  {cards={97,98,99,100,101},num=0},
+  {cards={{97,101}},size=5,num=0},
 --4 holo
   {cards={79,82,84,88,3,13,14,15,34,41,64,73,74},num=0},
 --5 rare
   {cards={80,89,5,12,21,24,26,29,31,33,36,43,46,47,52,53,56,60,61,65,67,72},num=0},
 --6 reverse
-  {cards={76,78,83,85,87,90,91,92,93,94,95,96,2,7,10,17,18,23,25,28,32,37,40,49,51,59,63,66,68,70,77,81,86,1,4,6,8,9,11,16,19,20,22,27,30,35,38,39,42,44,45,48,50,54,55,57,58,62,69,71,75,79,82,84,88,3,13,14,15,34,41,64,73,74},num=1},
+  {cards={{1,96}},size=96,num=1},
 --7 common
   {cards={77,81,86,1,4,6,8,9,11,16,19,20,22,27,30,35,38,39,42,44,45,48,50,54,55,57,58,62,69,71,75},num=5},
 }]],
@@ -2781,8 +2781,8 @@ custom={
 --rare
  {rates={
   {slot=2,odds=1/72},--secret
-  {slot=3,odds=1/36},--ultra
-  {slot=4,odds=1/18},--ex
+  {slot=3,odds=1/18},--ultra
+  {slot=4,odds=1/9},--ex
   {slot=5,remaining=true,odds=1/3},--holo
   {slot=6}--rare
  },num=1},
@@ -2855,9 +2855,9 @@ custom={
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/111.11,flag=true},--secret
-  {slot=3,odds=1/18.8,flag=true},--FA
-  {slot=4,odds=1/9,flag=true},--EX
+  {slot=2,odds=1/111.11},--secret
+  {slot=3,odds=1/18.8},--FA
+  {slot=4,odds=1/9},--EX
   {slot=5,remaining=true,odds=1/3},--holo
   {slot=6}--rare
  },num=1},
@@ -2898,9 +2898,9 @@ custom={
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/125,flag=true},--secret
-  {slot=3,odds=1/18,flag=true},--FA
-  {slot=4,odds=1/9,flag=true},--EX
+  {slot=2,odds=1/125},--secret
+  {slot=3,odds=1/18},--FA
+  {slot=4,odds=1/9},--EX
   {slot=5,remaining=true,odds=1/3},--holo
   {slot=6}--rare
  },num=1},
@@ -3199,21 +3199,19 @@ custom={
   {cards={4,6,10,20,24,44,48,50,58,71,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90},num=0},
 --3 ultra
   {cards={101,102,103,104,105,106,107,108,100},num=0},
---4 mega ex
-  {cards={2,13,22,27,65},num=0},
---5 ex
-  {cards={1,12,21,26,52,64,72},num=0},
---6 holo
+--4 ex
+  {cards={2,13,22,27,65,1,12,21,26,52,64,72},num=0},
+--5 holo
   {cards={11,15,25,34,36,38,42,45,53,59,62,63,70},num=0},
---7 rare
+--6 rare
   {cards={7,18,29,31,40,51,56,67,68},num=0},
---8 BREAK
+--7 BREAK
   {cards={16,32,46,60},num=0},
---9 reverse (energy is placed twice to simulator higher pull rate)
+--8 reverse (energy is placed twice to simulator higher pull rate)
   {cards={3,5,8,9,14,17,19,23,28,30,33,35,37,39,41,43,47,49,54,55,57,61,66,69,4,6,10,20,24,44,48,50,58,71,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,7,18,29,31,40,51,56,67,68,11,15,25,34,36,38,42,45,53,59,62,63,70,91,92,93,94,95,96,97,98,99,91,92,93,94,95,96,97,98,99},num=0},
---10 common
+--9 common
   {cards={3,5,8,9,14,17,19,23,28,30,33,35,37,39,41,43,47,49,54,55,57,61,66,69},num=4},
---11 energy
+--10 energy
   {cards={91,92,93,94,95,96,97,98,99},num=0,energy=true},
 }]],
   pullRates=[[{
@@ -3225,20 +3223,19 @@ custom={
 --rare
  {rates={
   {slot=3,odds=1/15,flag=true},--ultra
-  {slot=4,odds=1/20.3,flag=true},--mega
-  {slot=5,odds=1/14,flag=true},--EX
-  {slot=6,odds=1/10.1,flag=true},--holo
-  {slot=7}--rare
+  {slot=4,odds=1/8.3,flag=true},--EX
+  {slot=5,odds=1/10.1,flag=true},--holo
+  {slot=6}--rare
  },num=1},
 --reverse
  {rates={
-  {slot=8,odds=1/15.75,flagExclude=true},--break
-  {slot=9}--reverse
+  {slot=7,odds=1/15.75,flagExclude=true},--break
+  {slot=8}--reverse
  },num=1},
 --common
  {rates={
-  {slot=10,odds=2/3},--common
-  {slot=11}--energy
+  {slot=9,odds=2/3},--common
+  {slot=10}--energy
  },num=1},
 }]]
  }},
@@ -3272,19 +3269,17 @@ custom={
   {cards={158,159,160,161,162,163},num=0},
 --4 Rainbow
   {cards={150,151,152,153,154,155,156,157},num=0},
---5 full art mon
-  {cards={138,139,140,141,142,143,144,145},num=0},
---6 full art trainer
-  {cards={146,147,148,149},num=0},
---7 GX
+--5 FA
+  {cards={138,139,140,141,142,143,144,145,146,147,148,149},num=0},
+--6 GX
   {cards={110,12,15,27,35,42,61,66,80,89,100},num=0},
---8 holo
+--7 holo
   {cards={113,17,20,22,32,52,56,58,63,71,82,85,87,93,96,99},num=0},
---9 rare
+--8 rare
   {cards={105,108,112,3,5,8,11,26,29,34,41,43,48,50,65,68,75},num=0},
---10 reverse
+--9 reverse
   {cards={101,103,106,109,111,1,4,7,9,13,14,16,18,21,23,24,28,30,33,37,39,45,49,53,54,57,59,62,64,67,69,72,74,76,78,81,83,86,88,90,92,94,97,98,102,104,107,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,2,6,10,19,25,31,36,38,40,44,46,47,51,55,60,70,73,77,79,84,91,95,105,108,112,3,5,8,11,26,29,34,41,43,48,50,65,68,75,113,17,20,22,32,52,56,58,63,71,82,85,87,93,96,99},num=1},
---11 common
+--10 common
   {cards={101,103,106,109,111,1,4,7,9,13,14,16,18,21,23,24,28,30,33,37,39,45,49,53,54,57,59,62,64,67,69,72,74,76,78,81,83,86,88,90,92,94,97,98},num=5}
 }]],
   pullRates=[[{
@@ -3292,11 +3287,10 @@ custom={
  {rates={
   {slot=3,odds=1/121.14},--gold
   {slot=4,odds=1/69.1},--Rainbow
-  {slot=5,odds=1/35.5},--full art mon
-  {slot=6,odds=1/72.1},--full art trainer
-  {slot=7,odds=1/9},--GX
-  {slot=8,remaining=true,odds=1/3},--holo
-  {slot=9}--rare
+  {slot=5,odds=1/23.8},--FA
+  {slot=6,odds=1/9},--GX
+  {slot=7,remaining=true,odds=1/3},--holo
+  {slot=8}--rare
  },num=1},
 }]]
  }},
@@ -3324,19 +3318,17 @@ custom={
   {cards={172,173,174,175,176,177,178,179,180},num=0},
 --4 Rainbow
   {cards={156,157,158,159,160,161,162,163,164,165,166,167,169,170,171},num=0},
---5 full art mon
-  {cards={151,152,141,142,143,144,145,146,147,148,149,150},num=0},
---6 full art trainer
-  {cards={153,154,155},num=0},
---7 GX
+--5 FA
+  {cards={{141,155}},size=15,num=0},
+--6 GX
   {cards={78,89,96,105,120,18,24,40,47,49,60,63},num=0},
---8 holo
+--7 holo
   {cards={80,81,85,98,101,102,107,9,10,13,27,44,61,62,69},num=0},
---9 rare
+--8 rare
   {cards={83,86,90,91,109,111,116,3,5,7,14,16,17,21,30,32,37,46,48,53,57,58,59,65,75},num=0},
---10 reverse
+--9 reverse
   {cards={76,77,79,82,87,92,94,99,103,106,108,110,112,114,117,1,4,6,8,11,15,19,22,25,28,29,31,33,35,39,42,45,50,52,55,66,67,71,73,74,80,81,85,98,101,102,107,9,10,13,27,44,61,62,69,83,86,90,91,109,111,116,3,5,7,14,16,17,21,30,32,37,46,48,53,57,58,59,65,75,84,88,93,95,100,104,113,115,118,119,121,122,123,124,125,126,128,129,130,132,134,135,136,138,139,2,12,26,34,36,38,41,43,51,56,68,70,72},num=1},
---11 common
+--10 common
   {cards={76,77,79,82,87,92,94,99,103,106,108,110,112,114,117,1,4,6,8,11,15,19,22,25,28,29,31,33,35,39,42,45,50,52,55,66,67,71,73,74},num=5}
 }]],
   pullRates=[[{
@@ -3344,11 +3336,10 @@ custom={
  {rates={
   {slot=3,odds=1/122.8},--gold
   {slot=4,odds=1/77.33},--Rainbow
-  {slot=5,odds=1/34.8},--full art mon
-  {slot=6,odds=1/139.2},--full art trainer
-  {slot=7,odds=1/9},--GX
-  {slot=8,remaining=true,odds=1/3},--holo
-  {slot=9}--rare
+  {slot=5,odds=1/27.84},--FA
+  {slot=6,odds=1/9},--GX
+  {slot=7,remaining=true,odds=1/3},--holo
+  {slot=8}--rare
  },num=1},
 }]]
  }},
@@ -3376,19 +3367,17 @@ custom={
   {cards={169,170,171,172,173,174,175,176,177},num=0},
 --4 Rainbow
   {cards={156,157,158,159,160,161,162,163,164,165,166,167,168},num=0},
---5 full art mon
-  {cards={151,152,153,154,155,137,138,139,140,141,142,143,144},num=0},
---6 full art trainer
-  {cards={145,146,147,148,149,150},num=0},
---7 GX
+--5 FA
+  {cards={145,146,147,148,149,150,151,152,153,154,155,137,138,139,140,141,142,143,144},size=19,num=0},
+--6 GX
   {cards={82,86,90,97,103,17,21,22,26,40,65,66},num=0},
---8 holo
+--7 holo
   {cards={77,89,98,104,109,6,32,34,43,55,64,69,73},num=0},
---9 rare
+--8 rare
   {cards={76,78,80,81,84,88,93,102,106,116,3,8,10,11,15,27,29,36,39,45,48,50,57,60,62},num=0},
---10 reverse
+--9 reverse
   {cards={76,78,80,81,84,88,93,102,106,116,3,8,10,11,15,27,29,36,39,45,48,50,57,60,62,77,89,98,104,109,6,32,34,43,55,64,69,73,79,83,85,87,92,94,99,101,105,107,111,114,115,1,4,7,9,12,14,16,18,23,28,30,33,35,37,42,46,49,53,56,58,61,63,67,72,74,75,95,100,108,112,113,117,119,120,121,123,125,126,127,128,129,130,131,132,133,134,135,136,2,5,13,20,24,25,31,38,44,47,51,52,54,59,68,70,71},num=1},
---11 common
+--10 common
   {cards={79,83,85,87,92,94,99,101,105,107,111,114,115,1,4,7,9,12,14,16,18,23,28,30,33,35,37,42,46,49,53,56,58,61,63,67,72,74,75},num=5}
 }]],
   pullRates=[[{
@@ -3396,11 +3385,10 @@ custom={
  {rates={
   {slot=3,odds=1/105.8},--gold
   {slot=4,odds=1/62.8},--Rainbow
-  {slot=5,odds=1/37.2},--full art mon
-  {slot=6,odds=1/80.4},--full art trainer
-  {slot=7,odds=1/9.14},--GX
-  {slot=8,remaining=true,odds=1/3},--holo
-  {slot=9}--rare
+  {slot=5,odds=1/25.44},--FA
+  {slot=6,odds=1/9.14},--GX
+  {slot=7,remaining=true,odds=1/3},--holo
+  {slot=8}--rare
  },num=1},
 }]]
  }},
@@ -3486,19 +3474,17 @@ custom={
   {cards={122,123,124,125,126},num=0},
 --4 Rainbow
   {cards={114,115,116,117,118,119,120,121},num=0},
---5 FA mon
-  {cards={103,104,105,106,107,108,109,110},num=0},
---6 FA trainer
-  {cards={111,112,113},num=0},
---7 GX
+--5 FA
+  {cards={111,112,113,103,104,105,106,107,108,109,110},num=0},
+--6 GX
   {cards={92,18,34,49,57,63,71,75},num=0},
---8 holo
+--7 holo
   {cards={85,91,11,12,27,28,31,38,47,56,68,74},num=0},
---9 rare
+--8 rare
   {cards={78,81,84,3,6,14,16,21,23,25,40,45,48,51,53,59,62,69,70,73},num=0},
---10 reverse
+--9 reverse
   {cards={76,80,82,87,89,1,4,5,7,8,10,13,15,17,19,22,24,26,29,30,32,36,39,41,43,44,46,50,52,55,58,60,66,72,77,79,83,88,90,93,94,95,96,97,98,99,100,101,102,2,9,20,33,35,37,42,54,61,65,67,78,81,84,3,6,14,16,21,23,25,40,45,48,51,53,59,62,69,70,73,85,91,11,12,27,28,31,38,47,56,68,74},num=1},
---11 common
+--10 common
   {cards={76,80,82,87,89,1,4,5,7,8,10,13,15,17,19,22,24,26,29,30,32,36,39,41,43,44,46,50,52,55,58,60,66,72},num=5}
 }]],
   pullRates=[[{
@@ -3506,11 +3492,10 @@ custom={
  {rates={
   {slot=3,odds=1/90},--gold
   {slot=4,odds=1/90},--Rainbow
-  {slot=5,odds=1/30.6},--FA mon
-  {slot=6,odds=1/85},--FA trainer
-  {slot=7,odds=1/12},--GX
-  {slot=8,remaining=true,odds=1/3},--holo
-  {slot=9}--rare
+  {slot=5,odds=1/22.5},--FA
+  {slot=6,odds=1/12},--GX
+  {slot=7,remaining=true,odds=1/3},--holo
+  {slot=8}--rare
  },num=1},
 }]]
  }},
@@ -3558,16 +3543,16 @@ custom={
   pullRates=[[{
 --rare
  {rates={
-  {slot=3,odds=1/140.44},--gold
-  {slot=4,odds=1/74.35},--Rainbow
-  {slot=5,odds=1/43.6},--full art mon
-  {slot=6,odds=1/79},--full art trainer
-  {slot=7,odds=1/13.45},--GX
+  {slot=3,odds=1/128.77},--gold
+  {slot=4,odds=1/66.96},--Rainbow
+  {slot=5,odds=1/42.92},--full art mon
+  {slot=6,odds=1/50.73},--full art trainer
+  {slot=7,odds=1/12.49},--GX
   {slot=8,remaining=true,odds=1/3},--holo
   {slot=9}--rare
  },num=1},
  {rates={
-  {slot=10,odds=1/12.64},--prism star
+  {slot=10,odds=1/11.47},--prism star
   {slot=11}--reverse
  },num=1},
 }]]
@@ -3926,7 +3911,7 @@ custom={
   pullRates=[[{
 --rare
  {rates={
-  {slot=3,odds=1/111.01},--gold
+  {slot=3,odds=1/111},--gold
   {slot=4,odds=1/72},--Rainbow
   {slot=5,odds=1/32.1},--full art mon
   {slot=6,odds=1/99.69},--full art trainer
@@ -4009,7 +3994,7 @@ custom={
   {cards={},num=0,size=8,energy=true},
 --3 Rainbow
   {cards={69},num=0},
---4 FA mon TODO are alt art mons a seperate slot?
+--4 FA mon
   {cards={66},num=0},
 --5 FA trainer
   {cards={67,68},num=0},
@@ -4158,12 +4143,12 @@ custom={
   {cards={152,153,2,3,5,7,10,11,16,17,20,22,27,30,31,37,38,40,42,43,45,46,54,55,60,63,65,67,68,70,73,74,77,81,83,87,89,92,96,97,101,102,105,107,108,111,112,117,121,123,125,127,129,130,133,136,143,145,146,150},num=5},
 }]],
   pullRates=[[{
- {rates={ --TODO get foil rate
-  {slot=3,odds=1/110.2},--gold
-  {slot=4,odds=1/81.2},--Rainbow
-  {slot=5,odds=1/113},--FA trainer
+ {rates={
+  {slot=3,odds=1/107.5},--gold
+  {slot=4,odds=1/81.8},--Rainbow
+  {slot=5,odds=1/109},--FA trainer
   {slot=6,odds=1/35},--FA mon
-  {slot=7,odds=1/45.3},--Vmax
+  {slot=7,odds=1/44.7},--Vmax
   {slot=8,odds=1/7},--V
   {slot=9,remaining=true,odds=0.4},--holo
   {slot=10}--rare
@@ -4211,7 +4196,7 @@ custom={
   {cards={151,1,4,7,10,12,14,16,20,21,24,27,29,31,37,39,41,44,47,52,56,58,60,63,68,74,76,78,81,83,86,89,94,96,97,99,101,103,105,112,114,117,119,123,126,129,133,143,146,149},num=5},
 }]],
   pullRates=[[{
- {rates={ --TODO get foil rate
+ {rates={
   {slot=3,odds=1/105.2},--gold
   {slot=4,odds=1/66.7},--Rainbow
   {slot=5,odds=1/137},--FA trainer
@@ -4264,7 +4249,7 @@ custom={
   {cards={151,152,154,76,79,82,84,86,89,93,97,100,102,106,108,112,120,121,125,129,131,134,135,137,138,141,145,148,150,3,6,8,9,11,14,17,22,26,29,35,38,41,43,45,48,50,51,55,58,62,67,70,73},num=5},
 }]],
   pullRates=[[{
- {rates={ --TODO get foil rate
+ {rates={
   {slot=3,odds=1/114.5},--gold
   {slot=4,odds=1/84},--Rainbow
   {slot=5,odds=1/88.4},--FA trainer
@@ -4326,17 +4311,17 @@ custom={
 }]],
   pullRates=[[{
  {rates={
-  {slot=3,odds=1/97},--shiny zard
-  {slot=4,odds=1/97},--gold can
-  {slot=5,odds=1/71},--Rainbow
-  {slot=6,odds=1/82},--FA trainer
-  {slot=7,odds=1/36},--FA mon
-  {slot=8,odds=1/22.5},--Vmax
-  {slot=9,odds=1/7.5},--V
+  {slot=3,odds=1/240.4},--shiny zard
+  {slot=4,odds=1/112.4},--gold can
+  {slot=5,odds=1/62.8},--Rainbow
+  {slot=6,odds=1/61.4},--FA trainer
+  {slot=7,odds=1/26.6},--FA mon
+  {slot=8,odds=1/28.1},--Vmax
+  {slot=9,odds=1/6.35},--V
   {slot=10}--holo
  },num=1},
  {rates={
-  --{slot=11,odds=1/18},--rev energy
+  --{slot=11,odds=1/10.5},--rev energy
   {slot=12}--reverse
  },num=1}
 }]]
@@ -4420,22 +4405,22 @@ custom={
   {cards={5,7,12,15,23,28,32,34,57,59,61,62,63},num=3},
 --2 energy TODO find a way to get energies reliably
   {cards={},num=0,size=8,energy=true},
---3 gold
-  {cards={194,195},num=0},
---4 Rainbow
+--3 Rainbow
   {cards={73},num=0},
---5 FA trainer
+--4 FA trainer
   {cards={65,66,67,68,69,70,71,72},num=0},
---6 alcreme
+--5 alcreme
   {cards={64},num=0},
---7 Vmax
+--6 Vmax
   {cards={10,19,38,45,51,55},num=0},
---8 V
+--7 V
   {cards={9,18,37,39,44,50,53,54},num=0},
---9 holo
+--8 holo
   {cards={8,13,30,33,42,48,56},num=0},
---10 rare
+--9 rare
   {cards={2,3,16,24,25,27,58,60},num=0},
+--10 gold
+  {cards={194,195},num=0},
 --11 amazing
   {cards={17,21,46},num=0},
 --12 shiny Vmax
@@ -4451,20 +4436,20 @@ custom={
 }]],
   pullRates=[[{
  {rates={
-  {slot=3,odds=1/111},--gold
-  {slot=4,odds=1/83},--Rainbow
-  {slot=5,odds=1/30},--FA trainer
-  {slot=6,odds=1/192.5},--alcreme
-  {slot=7,odds=1/19},--Vmax
-  {slot=8,odds=1/9},--V
-  {slot=9,remaining=true,odds=0.4},--holo
-  {slot=10}--rare
+  {slot=3,odds=1/81.6},--Rainbow
+  {slot=4,odds=1/31.6},--FA trainer
+  {slot=5,odds=1/192.6},--alcreme
+  {slot=6,odds=1/19.7},--Vmax
+  {slot=7,odds=1/9},--V
+  {slot=8,remaining=true,odds=0.4},--holo
+  {slot=9}--rare
  },num=1},
  {rates={
-  {slot=11,odds=1/17},--amazing
-  {slot=12,odds=1/28.6},--shiny VMax
-  {slot=13,odds=1/17.3},--shiny V
-  {slot=14,odds=1/4.4},--shiny
+  {slot=10,odds=1/98.8},--gold
+  {slot=11,odds=1/17.25},--amazing
+  {slot=12,odds=1/28},--shiny VMax
+  {slot=13,odds=1/16},--shiny V
+  {slot=14,odds=1/4.45},--shiny
   {slot=15}--reverse
  },num=1}
 }]]
@@ -4496,36 +4481,39 @@ custom={
   {cards={168,170},num=0},
 --6 alt V
   {cards={146,151,153,155},num=0},
---7 FA trainer
-  {cards={158,159,160,161,162,163},num=0},
---8 FA mon
+--7 FA Phoebe
+  {cards={161},num=0},
+--8 Other FA trainer
+  {cards={158,159,160,162,163},num=0},
+--9 FA mon
   {cards={142,143,144,145,147,148,149,150,152,154,156,157},num=0},
---9 Vmax
+--10 Vmax
   {cards={86,88,110,19,22,51},num=0},
---10 V
+--11 V
   {cards={62,63,85,87,97,109,117,6,18,21,40,50},num=0},
---11 holo
+--12 holo
   {cards={61,65,80,82,91,96,99,102,107,8,16,20,25,33,37,48},num=0},
---12 rare
+--13 rare
   {cards={67,70,75,77,83,84,92,108,114,119,3,13,15,28,30,35,42,45,53,58},num=0},
---13 reverse
+--14 reverse
   {cards={61,65,80,82,91,96,99,102,107,8,16,20,25,33,37,48,64,72,74,79,90,94,98,104,106,112,116,118,120,2,5,9,10,12,24,26,32,39,43,47,56,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,66,68,69,71,73,76,78,81,89,93,95,100,101,103,105,111,113,115,1,4,7,11,14,17,23,27,29,31,34,36,38,41,44,46,49,52,54,55,57,59,60,67,70,75,77,83,84,92,108,114,119,3,13,15,28,30,35,42,45,53,58},num=1},
---14 common
+--15 common
   {cards={66,68,69,71,73,76,78,81,89,93,95,100,101,103,105,111,113,115,1,4,7,11,14,17,23,27,29,31,34,36,38,41,44,46,49,52,54,55,57,59,60},num=5},
 }]],
   pullRates=[[{
---rare TODO get foil rate
+--rare
  {rates={
   {slot=3,odds=1/106.5},--gold
   {slot=4,odds=1/91},--Rainbow
   {slot=5,odds=1/697},--alt Vmax
   {slot=6,odds=1/159},--alt V
-  {slot=7,odds=1/71.5},--FA trainer
-  {slot=8,odds=1/55},--FA mon
-  {slot=9,odds=1/23},--Vmax
-  {slot=10,odds=1/8},--V
-  {slot=11,remaining=true,odds=0.4},--holo
-  {slot=12}--rare
+  {slot=7,odds=1/673},--FA Phoebe
+  {slot=8,odds=1/80},--Other FA trainer
+  {slot=9,odds=1/55},--FA mon
+  {slot=10,odds=1/23},--Vmax
+  {slot=11,odds=1/8},--V
+  {slot=12,remaining=true,odds=0.4},--holo
+  {slot=13}--rare
  },num=1},
 }]]
  }},
@@ -4574,7 +4562,7 @@ custom={
   {cards={121,126,127,62,65,67,69,71,76,78,82,84,86,91,93,94,101,105,109,116,1,4,6,9,11,13,16,22,23,26,29,30,32,33,34,35,37,41,47,50,54,55,59},num=5},
 }]],
   pullRates=[[{
---rare TODO get foil rate
+--rare
  {rates={
   {slot=3,odds=1/106.5},--gold
   {slot=4,odds=1/95.5},--Rainbow
@@ -4608,44 +4596,47 @@ custom={
   {cards={3,12,23,25,27,33,45,47,53,55,62,69,72,79,85,87,89,96,99,108,114,127,130,134,137,139,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165},num=3},
 --2 energy TODO find a way to get energies reliably
   {cards={},num=0,size=8,energy=true},
---3 shiny
+--3 gold
   {cards={{226,237}},num=0,size=12},
---4 Rainbow
-  {cards={204,{206,208},210,211,213,214,216,217,219,{212,225}},num=0,size=16},
---5 alt Vmax
+--4 Rainbow Eeveelutions
+  {cards={204,208,211,214},num=0,size=4},
+--5 Other Rainbow
+  {cards={206,207,210,213,216,217,219,{212,225}},num=0,size=12},
+--6 alt Vmax
   {cards={205,209,212,215,218,220},num=0},
---6 alt V
+--7 alt V
   {cards={167,175,180,182,184,186,189,192,194,196,198},num=0},
---7 FA mon
+--8 FA mon
   {cards={166,{168,174},{176,179},181,183,185,187,188,190,191,193,195,197},num=0,size=22},
---8 FA trainer
+--9 FA trainer
   {cards={{199,203}},num=0,size=5},
---9 Vmax
+--10 Vmax
   {cards={8,14,18,29,30,41,51,59,65,75,92,95,101,111,123},num=0},
---10 V
+--11 V
   {cards={7,13,21,28,31,40,48,58,64,70,74,83,91,94,100,110,117,122},num=0},
---11 holo
+--12 holo
   {cards={4,16,19,20,34,50,60,63,73,80,82,93,103,109,112,115,116,118,124,131},num=0},
---12 rare
+--13 rare
   {cards={1,6,10,36,38,46,56,77,88,90,97,105,106,119,120,121,128,135,140},num=0},
---13 reverse
+--14 reverse
   {cards={{1,6},{9,12},{15,17},19,20,{22,27},{32,39},{42,47},49,50,{52,57},{60,63},{66,69},{71,73},{76,82},{84,90},93,{96,99},{102,109},{112,116},{118,121},{124,165}},num=1,size=132},
---14 common
+--15 common
   {cards={2,5,9,11,15,17,22,24,26,32,35,37,39,42,43,44,49,52,54,57,61,66,67,68,71,76,78,81,84,86,98,102,104,107,113,125,126,129,132,133,136,138},num=5},
 }]],
   pullRates=[[{
---rare TODO get foil odds
+--rare
  {rates={
-  {slot=3,odds=1/106},--shiny
-  {slot=4,odds=1/97.5},--Rainbow
-  {slot=5,odds=1/289},--alt Vmax
-  {slot=6,odds=1/94.5},--alt V
-  {slot=7,odds=1/50},--FA mon
-  {slot=8,odds=1/162},--FA trainer
-  {slot=9,odds=1/18},--Vmax
-  {slot=10,odds=1/11},--V
-  {slot=11,remaining=true,odds=0.4},--holo
-  {slot=12}--rare
+  {slot=3,odds=1/106},--gold
+  {slot=4,odds=1/710},--Rainbow Eeveelutions
+  {slot=5,odds=1/113},--Other Rainbows
+  {slot=6,odds=1/289},--alt Vmax
+  {slot=7,odds=1/94.5},--alt V
+  {slot=8,odds=1/50},--FA mon
+  {slot=9,odds=1/162},--FA trainer
+  {slot=10,odds=1/18},--Vmax
+  {slot=11,odds=1/11},--V
+  {slot=12,remaining=true,odds=0.4},--holo
+  {slot=13}--rare
  },num=1},
 }]]
  }},
@@ -4663,43 +4654,43 @@ custom={
    "http://cloud-3.steamusercontent.com/ugc/1731063025325961700/E2A47E91A07BFF268BCD7494EB259E140D0955D6/",
   },
   dropSlots=[[{
---1 rare
-  {cards={1,2,3,4,10,12,13,14,17,19,20,22},num=2},
---2 classic rare
-  {cards={27,35,38,39,40,42,44,45,46,47,48,49,50},num=0},
---3 classic chomp
-  {cards={43},num=0},
---4 classic common
-  {cards={26,28,29,30,31,32,33,34,36,37,41},num=0},
---5 gold mew
+--1 gold mew
   {cards={25},num=0},
---6 Oak FA
+--2 Oak FA
   {cards={24},num=0},
---7 Vmax
+--3 Vmax
   {cards={7,9},num=0},
---8 pikachu
+--4 pikachu
   {cards={5},num=0},
---9 V
+--5 V
   {cards={6,8,16,18},num=0},
---10 holo
+--6 holo
   {cards={11,15,21,23},num=0},
+--7 classic rare
+  {cards={27,35,38,39,40,42,44,45,46,47,48,49,50},num=0},
+--8 classic chomp
+  {cards={43},num=0},
+--9 classic common
+  {cards={26,28,29,30,31,32,33,34,36,37,41},num=0},
+--10 rare
+  {cards={1,2,3,4,10,12,13,14,17,19,20,22},num=2},
 }]],
   pullRates=[[{
+--holo
+ {rates={
+  {slot=1,odds=1/147},--gold mew
+  {slot=2,odds=1/24.5},--Oak FA
+  {slot=3,odds=1/13},--Vmax
+  {slot=4,odds=1/9},--Pikachu
+  {slot=5,odds=1/4},--V
+  {slot=6}--holo
+ },num=1},
 --classic
  {rates={
-  {slot=2,odds=1/8.3},--classic rare
-  {slot=3,odds=1/64},--classic chomp
-  {slot=4,odds=1/3.75},--classic common
-  {slot=1}--rare
- },num=1},
---foil
- {rates={
-  {slot=5,odds=1/147},--gold mew
-  {slot=6,odds=1/24.5},--Oak FA
-  {slot=7,odds=1/13},--Vmax
-  {slot=8,odds=1/9},--Pikachu
-  {slot=9,odds=1/4},--V
-  {slot=10}--holo
+  {slot=7,odds=1/8.3},--classic rare
+  {slot=8,odds=1/64},--classic chomp
+  {slot=9,odds=1/3.75},--classic common
+  {slot=10}--rare
  },num=1},
 }]]
  }
