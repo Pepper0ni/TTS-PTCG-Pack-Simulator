@@ -4700,15 +4700,15 @@ custom={
  setID="swsh8",
  custom={
   mesh=PACKMESH,
-  diffuse="https://f.eu1.jwwb.nl/public/h/t/i/temp-zjpebgcobmaxydcmrfwb/1py7fz/Pokemon_TCG_Sword_ShieldFusion_Strike_Booster_Wrap_Gengar.jpg",
+  diffuse="http://cloud-3.steamusercontent.com/ugc/1809885360395492413/B30B5901E4E0555C201523C4BCB62E23FFC93151/",
   normal=PACKNORMAL
  },
  packData={
   art={
-   "https://f.eu1.jwwb.nl/public/h/t/i/temp-zjpebgcobmaxydcmrfwb/yxdux6/Pokemon_TCG_Sword_ShieldFusion_Strike_Booster_Wrap_Boltund.jpg",
-   "https://f.eu1.jwwb.nl/public/h/t/i/temp-zjpebgcobmaxydcmrfwb/emgwx6/Pokemon_TCG_Sword_ShieldFusion_Strike_Booster_Wrap_Genesect.jpg",
-   "https://f.eu1.jwwb.nl/public/h/t/i/temp-zjpebgcobmaxydcmrfwb/1py7fz/Pokemon_TCG_Sword_ShieldFusion_Strike_Booster_Wrap_Gengar.jpg",
-   "https://f.eu1.jwwb.nl/public/h/t/i/temp-zjpebgcobmaxydcmrfwb/28m8os/Pokemon_TCG_Sword_ShieldFusion_Strike_Booster_Wrap_Mew.jpg",
+   "http://cloud-3.steamusercontent.com/ugc/1809885360395492413/B30B5901E4E0555C201523C4BCB62E23FFC93151/",
+   "http://cloud-3.steamusercontent.com/ugc/1809885360395492199/A48317186A1B03B8301FFDA37B696864BBEB2507/",
+   "http://cloud-3.steamusercontent.com/ugc/1809885360395492656/C78A3373666FF9203F6B0A9AD89D82777FD6DD1E/",
+   "http://cloud-3.steamusercontent.com/ugc/1809885360395493022/130BD6BC30225C93ABF4B8ACD876AA5A848A269B/",
   },
   dropSlots=[[{
 --1 uncommon
@@ -4794,7 +4794,7 @@ function onLoad(state)
   if state.settings then
    settings=state.settings
   else
-   settings={energy=1,on=true,spread=false,APICalls=3,hundred=false}
+   settings={energy=1,on=true,spread=false,APICalls=3,hundred=false,debug=false}
   end
   Global.SetTable("PPacks",settings)
  end
@@ -4863,16 +4863,21 @@ function setUpContextMenu()
  else
   self.addContextMenuItem("Enable Spread", function() changeSettings("spread",true) end)
  end
- if settings.on then
-  self.addContextMenuItem("Disable Packs", function() changeSettings("on",false) end)
+ if settings.debug then
+  if settings.on then
+   self.addContextMenuItem("Disable Packs", function() changeSettings("on",false) end)
+  else
+   self.addContextMenuItem("Enable Packs", function() changeSettings("on",true) end)
+  end
+  self.addContextMenuItem("Clear pack Cache", function() clearCache() end)
+  if settings.hundred then
+   self.addContextMenuItem("Disable 100 packs", function() changeSettings("hundred",false) end)
+  else
+   self.addContextMenuItem("Enable 100 packs", function() changeSettings("hundred",true) end)
+  end
+  self.addContextMenuItem("Close Debug Menu", function() changeSettings("debug",false) end)
  else
-  self.addContextMenuItem("Enable Packs", function() changeSettings("on",true) end)
- end
- self.addContextMenuItem("Clear pack Cache", function() clearCache() end)
- if settings.hundred then
-  self.addContextMenuItem("Disable 100 packs", function() changeSettings("hundred",false) end)
- else
-  self.addContextMenuItem("Enable 100 packs", function() changeSettings("hundred",true) end)
+  self.addContextMenuItem("Enable Debug Menu", function() changeSettings("debug",true) end)
  end
 end
 
@@ -4932,7 +4937,7 @@ function getSet(obj,color,alt)
  local setPos=self.GetPosition()
  setPos.x=setPos.x+3
  local setName=setData[curSet].setName
- spawnPos=self.positionToWorld({0,1,7})
+ local spawnPos=self.positionToWorld({0,1,7})
  setCache=Global.getTable("PPacksCache["..setName.."]")
 
  if setCache and setCache.cache then
@@ -4990,15 +4995,17 @@ function cacheSet(request,setName,color,page)
 --use the below line in the parse instead if this line of code ever breaks
 --string.gsub(request.text,[[\u([0-9a-fA-F]+)]],function(s)return([[\u{%s}]]):format(s)end)
   if cache.loading==1 then
+   local spawnPos=self.positionToWorld({0,1,7})
    local count=1
-   for _,jsons in ipairs(decoded)do
-    for _,cardData in ipairs(jsons.data)do
+   for a=1,#decoded do
+    local cardData=decoded[a].data
+    for b=1,#cardData do
      local card=spawnObject({type="CardCustom",position={x=spawnPos.x,y=spawnPos.y+(0.01*count),z=spawnPos.z},rotation=self.GetRotation()})
-     card.setCustomObject({face=cardData.images.large.."?count="..tostring(count),back="http://cloud-3.steamusercontent.com/ugc/809997459557414686/9ABD9158841F1167D295FD1295D7A597E03A7487/"})
-     card.setName(cardData.name)
-     card.setDescription(cardData.set.name.." #"..cardData.number)
-     card.setGMNotes(enumTypes(cardData.supertype,cardData.subtypes)..convertNatDex(cardData.nationalPokedexNumbers)or"")
-     card.memo=string.gsub(cardData.set.releaseDate,"/","")..string.gsub(cardData.number,"[^%d]","")
+     card.setCustomObject({face=cardData[b].images.large.."?count="..tostring(count),back="http://cloud-3.steamusercontent.com/ugc/809997459557414686/9ABD9158841F1167D295FD1295D7A597E03A7487/"})
+     card.setName(cardData[b].name)
+     card.setDescription(cardData[b].set.name.." #"..cardData[b].number)
+     card.setGMNotes(enumTypes(cardData[b].supertype,cardData[b].subtypes)..convertNatDex(cardData[b].nationalPokedexNumbers)or"")
+     card.memo=string.gsub(cardData[b].set.releaseDate,"/","")..string.gsub(cardData[b].number,"[^%d]","")
      if setDeck==nil then
       setDeck=card
      elseif setDeck.type=="Card"then
@@ -5026,10 +5033,10 @@ function convertNatDex(dexNums)
 end
 
 function enumTypes(Type,subTypes)
- local enum=TypeNums[Type] or 0
+ local enum=TypeNums[Type]or 0
  if subTypes then
-  for _,subType in pairs(subTypes)do
-   enum=enum+(TypeNums[subType] or 0)
+  for c=1,#subTypes do
+   enum=enum+(TypeNums[subTypes[c]]or 0)
   end
  end
  return tostring(enum)
