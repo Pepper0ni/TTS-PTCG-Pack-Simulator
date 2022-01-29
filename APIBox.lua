@@ -3022,19 +3022,19 @@ custom={
   },
   dropSlots=[[{
 --1 uncommon
-  {cards={4,20,31,34,41,44,51,52,54,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74},num=2},
+  {cards={{60,74},76,4,20,32,35,42,45,52,53,55},num=2,size=25},
 --2 rc common
   {cards={86,87,88,89,92,94,96,97,99,102,108,110,111},num=1},
 --3 FA
-  {cards={25,29},num=0},
+  {cards={25,30},num=0},
 --4 zard ex
   {cards={11,12},num=0},
 --5 ex
-  {cards={1,2,10,13,17,18,24,28,37,46},num=0},
+  {cards={1,2,10,13,17,18,24,28,38,47},num=0},
 --6 holo
-  {cards={5,27,35,42,45},num=0},
+  {cards={5,27,36,43,46},num=0},
 --7 rare
-  {cards={7,9,15,23,36,39,47,48,56,57,58},num=0},
+  {cards={7,9,15,23,37,40,48,49,57,58,59},num=0},
 --8 rc FA ex
   {cards={113,117},num=0},
 --9 rc FA
@@ -3044,11 +3044,11 @@ custom={
 --11 rc uncommon
   {cards={90,93,95,98,100,101,103,104,105,107,109,112},num=0},
 --12 reverse (energy is placed twice to simulator higher pull rate)
-  {cards={75,76,77,78,79,80,81,82,83,4,20,31,34,41,44,51,52,54,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,5,27,35,42,45,7,9,15,23,36,39,47,48,56,57,58,3,6,8,14,16,19,21,22,26,30,32,33,38,40,43,49,50,53,55},num=1},
+  {cards={{3,9},{14,16},{19,23},26,27,{31,37},{39,46},{48,74},76,{77,85},{77,85}},num=1,size=78},
 --13 common
-  {cards={3,6,8,14,16,19,21,22,26,30,32,33,38,40,43,49,50,53,55},num=2},
+  {cards={3,6,8,14,16,19,21,22,26,31,33,34,39,41,44,50,51,54,56},num=2},
 --14 energy
-  {cards={75,76,77,78,79,80,81,82,83},num=0,energy=true},
+  {cards={{77,85}},num=0,energy=true,size=9},
 }]],
   pullRates=[[{
 --rare
@@ -3074,7 +3074,8 @@ custom={
 --common 2
  {rates={
   {slot=13,odds=1/14},--common
-  {slot=14}--energy
+  {slot=14},--energy
+  {slot=13}--common
  },num=1},
 }]]
  }},
@@ -4996,28 +4997,40 @@ function cacheSet(request,setName,color,page)
 --string.gsub(request.text,[[\u([0-9a-fA-F]+)]],function(s)return([[\u{%s}]]):format(s)end)
   if cache.loading==1 then
    local spawnPos=self.positionToWorld({0,1,7})
-   local count=1
+   local curCard=1
+   local deckData=
+    {Name="Deck",
+    Transform={posX=spawnPos[1],posY=spawnPos[2],posZ=spawnPos[3],rotX=0,rotY=0,rotZ=0,scaleX=1,scaleY=1,scaleZ=1},
+    DeckIDs={},
+    CustomDeck={},
+    ContainedObjects={}
+   }
    for a=1,#decoded do
     local cardData=decoded[a].data
     for b=1,#cardData do
-     local card=spawnObject({type="CardCustom",position={x=spawnPos.x,y=spawnPos.y+(0.01*count),z=spawnPos.z},rotation=self.GetRotation()})
-     card.setCustomObject({face=cardData[b].images.large.."?count="..tostring(count),back="http://cloud-3.steamusercontent.com/ugc/809997459557414686/9ABD9158841F1167D295FD1295D7A597E03A7487/"})
-     card.setName(cardData[b].name)
-     card.setDescription(cardData[b].set.name.." #"..cardData[b].number)
-     card.setGMNotes(enumTypes(cardData[b].supertype,cardData[b].subtypes)..convertNatDex(cardData[b].nationalPokedexNumbers)or"")
-     card.memo=string.gsub(cardData[b].set.releaseDate,"/","")..string.gsub(cardData[b].number,"[^%d]","")
-     if setDeck==nil then
-      setDeck=card
-     elseif setDeck.type=="Card"then
-      setDeck=setDeck.putObject(card)
-     else
-      setDeck=setDeck.putObject(card)
-      card.destruct()
-     end
-     count=count+1
+     local DeckID=999+curCard
+     local customData={
+       FaceURL=cardData[b].images.large.."?count="..tostring(curCard),
+       BackURL="http://cloud-3.steamusercontent.com/ugc/809997459557414686/9ABD9158841F1167D295FD1295D7A597E03A7487/",
+       NumWidth=1,
+       NumHeight=1,
+      }
+     deckData.DeckIDs[curCard]=DeckID*100
+     deckData.CustomDeck[DeckID]=customData
+     deckData.ContainedObjects[curCard]={
+      Name="CardCustom",
+      Nickname=cardData[b].name,
+      Description=cardData[b].set.name.." #"..cardData[b].number,
+      GMNotes=enumTypes(cardData[b].supertype,cardData[b].subtypes)..convertNatDex(cardData[b].nationalPokedexNumbers)or"",
+      Memo=string.gsub(cardData[b].set.releaseDate,"/","")..string.gsub(cardData[b].number,"[^%d]",""),
+      CardID=DeckID*100,
+      CustomDeck={[DeckID]=customData}
+     }
+     curCard=curCard+1
     end
    end
-   Global.setTable("PPacksCache["..setName.."]",{loading=nil,cache=setDeck.getData()})
+   spawnObjectData({data=deckData,rotation=self.GetRotation()})
+   Global.setTable("PPacksCache["..setName.."]",{loading=nil,cache=deckData})
   else
    Global.SetTable("PPacksCache["..setName.."]",{loading=cache.loading-1,cache=nil})
   end

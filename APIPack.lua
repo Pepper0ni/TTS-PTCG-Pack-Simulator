@@ -18,18 +18,13 @@ function onObjectLeaveContainer(cont,leaving)
 
  packPos=self.getPosition()
  cardRot=self.getRotation()
- secondCard=self.positionToWorld({x=2.25,y=0,z=0})
- deckDisplace=self.positionToWorld({x=0,y=0.1,z=0})
- if settings.spread then cardRot.z=0 else cardRot.z=cardRot.z+180 end
-
  ProcessPack(false,false)
-
  leaving.destruct()
  self.destruct()
 end
 
 function ProcessPack(loop,loading)
- setCache=Global.getTable("PPacksCache["..setName.."]")
+ local setCache=Global.getTable("PPacksCache["..setName.."]")
  if not setCache or not setCache.cache then
   if setCache and setCache.loading and setCache.loading!=0 then
    if not loading then broadcastToAll("Loading Cards...",{0,1,0})end
@@ -58,21 +53,31 @@ function ProcessPack(loop,loading)
   if SMEnergy then requestSMEnergy(count) end
   return
  end
- for count=1,100 do
-  curCard=0
+ for a=1,100 do
+  local setData=setCache.cache.ContainedObjects
+  curCard=1
   packFlag=false
   local slotsAdded={}
-  for a=1,#pullRates do
-   for c=1,pullRates[a].num do
-    slotsAdded=doPullRates(pullRates[a].rates,slotsAdded)
+  for b=1,#pullRates do
+   for c=1,pullRates[b].num do
+    slotsAdded=doPullRates(pullRates[b].rates,slotsAdded)
    end
   end
-
-  for slotNum,slot in pairs(dropSlots)do
-   if slot.fixed then doFixed(slot,slotsAdded[slotNum] or 0)elseif not slot.energy or settings.energy==1 then chooseCard(slot,slotsAdded[slotNum] or 0)end
+  local packData=getDeckData(packPos,cardRot)
+  for b=1,#dropSlots do
+   local choices=chooseCards(dropSlots[b],slotsAdded[b]or 0)
+   for c=1,#choices do
+    local CardID=setData[choices[c]].CardID
+    packData.DeckIDs[curCard]=CardID
+    packData.CustomDeck[CardID*0.01]=setData[choices[c]].CustomDeck[CardID*0.01]
+    packData.ContainedObjects[curCard]=setData[choices[c]]
+    curCard=curCard+1
+   end
   end
-  if pulls then pulls.use_hands=true end
+  local deck=spawnObjectData({data=packData})
+  if settings.spread then deck.spread(2.25) end
   if not settings.hundred then return end
+  packPos[2]=packPos[2]+2
  end
 end
 
@@ -104,34 +109,54 @@ function cacheSet(request,page)
 --credit to dzikakulka and Larikk
 --use the below line in the parse if this line of code ever breaks
 --string.gsub(request.text,[[\u([0-9a-fA-F]+)]],function(s)return([[\u{%s}]]):format(s)end)
-  local spawnPos={packPos[1],packPos[2],packPos[3]+5}
   if cache.loading==1 then
-   local count=1
+   local spawnPos={packPos[1],packPos[2],packPos[3]+5}
+   local curCard=1
+   local deckData=getDeckData(spawnPos,cardRot)
    for a=1,#decoded do
     local cardData=decoded[a].data
     for b=1,#cardData do
-     local card=spawnObject({type="CardCustom",position={x=spawnPos[1],y=spawnPos[2]+(0.01*count),z=spawnPos[3]}})
-     card.setCustomObject({face=cardData[b].images.large.."?count="..tostring(count),back="http://cloud-3.steamusercontent.com/ugc/809997459557414686/9ABD9158841F1167D295FD1295D7A597E03A7487/"})
-     card.setName(cardData[b].name)
-     card.setDescription(cardData[b].set.name.." #"..cardData[b].number)
-     card.setGMNotes(enumTypes(cardData[b].supertype,cardData[b].subtypes)..convertNatDex(cardData[b].nationalPokedexNumbers)or"")
-     card.memo=string.gsub(cardData[b].set.releaseDate,"/","")..string.gsub(cardData[b].number,"[^%d]","")
-     setDeck=addToDeck(card,setDeck)
-     count=count+1
+     local DeckID=999+curCard
+     local customData={
+       FaceURL=cardData[b].images.large.."?count="..tostring(curCard),
+       BackURL="http://cloud-3.steamusercontent.com/ugc/809997459557414686/9ABD9158841F1167D295FD1295D7A597E03A7487/",
+       NumWidth=1,
+       NumHeight=1,
+      }
+     deckData.DeckIDs[curCard]=DeckID*100
+     deckData.CustomDeck[DeckID]=customData
+     deckData.ContainedObjects[curCard]={
+      Name="CardCustom",
+      Nickname=cardData[b].name,
+      Description=cardData[b].set.name.." #"..cardData[b].number,
+      GMNotes=enumTypes(cardData[b].supertype,cardData[b].subtypes)..convertNatDex(cardData[b].nationalPokedexNumbers)or"",
+      Memo=string.gsub(cardData[b].set.releaseDate,"/","")..string.gsub(cardData[b].number,"[^%d]",""),
+      CardID=DeckID*100,
+      CustomDeck={[DeckID]=customData}
+     }
+     curCard=curCard+1
     end
    end
-  Global.setTable("PPacksCache["..setName.."]",{loading=nil,cache=setDeck.getData()})
-  setDeck.destruct()
-  ProcessPack(true,false)
+   Global.setTable("PPacksCache["..setName.."]",{loading=nil,cache=deckData})
+   ProcessPack(true,false)
   else
   Global.SetTable("PPacksCache["..setName.."]",{loading=cache.loading-1,cache=nil})
   end
  end
 end
 
+function getDeckData(spawnPos,cardRot)
+ return {Name="Deck",
+  Transform={posX=spawnPos[1],posY=spawnPos[2],posZ=spawnPos[3],rotX=cardRot[1],rotY=cardRot[2],rotZ=cardRot[3],scaleX=1,scaleY=1,scaleZ=1},
+  DeckIDs={},
+  CustomDeck={},
+  ContainedObjects={}
+ }
+end
+
 function convertNatDex(dexNums)
  if dexNums then dexNum=dexNums[1]else return "00000" end
- if natDexReplace[dexNum] then return natDexReplace[dexNum] end
+ if natDexReplace[dexNum]then return natDexReplace[dexNum]end
  dexNum = tostring(dexNum*10)
  while #dexNum<5 do dexNum="0"..dexNum end
  return dexNum
@@ -164,25 +189,32 @@ function doPullRates(rates,slotsAdded)
  return slotsAdded
 end
 
-function chooseCard(slot,added)
+function chooseCards(slot,added)
  local chosen={}
- local c=1
- local spawnPos={packPos[1],packPos[2],packPos[3]}
- local cardMov={spawnPos[1]-secondCard[1],spawnPos[2]-secondCard[2],spawnPos[3]-secondCard[3]}
- local locDisplace={spawnPos[1]-deckDisplace[1],spawnPos[2]-deckDisplace[2],spawnPos[3]-deckDisplace[3]}
- while c<=slot.num+added do
-  local choice=nil
-  if slot.size then
-   choice=chooseRandCard(slot.cards,slot.size)
+ local choices={}
+ if not slot.energy or settings.energy==1 then
+  if slot.fixed then
+   local deckPos=randomFromRange(1,#slot.cards)
+   for c=1,slot.num+added do
+    choices[c]=slot.cards[deckPos]
+    if deckPos==#slot.cards then deckPos=1 else deckPos=deckPos+1 end
+   end
   else
-   choice=slot.cards[randomFromRange(1,#slot.cards)]
-  end
-  if not chosen[choice] then
-   chosen[choice]=true
-   c=c+1
-   spawnCard(choice,spawnPos,cardMov,locDisplace)
+   while #choices<slot.num+added do
+    local choice=nil
+    if slot.size then
+     choice=chooseRandCard(slot.cards,slot.size)
+    else
+     choice=slot.cards[randomFromRange(1,#slot.cards)]
+    end
+    if not chosen[choice]then
+     chosen[choice]=true
+     choices[#choices+1]=choice
+    end
+   end
   end
  end
+ return choices
 end
 
 function chooseRandCard(cards,size)
@@ -192,19 +224,8 @@ function chooseRandCard(cards,size)
    local size=cards[c][2]-cards[c][1]+1
    if rand>=size then rand=rand-size else return cards[c][1]+rand end
   else
-   if rand==0 then return cards[c] else rand=rand-1 end
+   if rand==0 then return cards[c]else rand=rand-1 end
   end
- end
-end
-
-function doFixed(slot,added)
- local deckPos=randomFromRange(1,#slot.cards)
- local spawnPos={packPos[1],packPos[2],packPos[3]}
- local cardMov={spawnPos[1]-secondCard[1],spawnPos[2]-secondCard[2],spawnPos[3]-secondCard[3]}
- local locDisplace={spawnPos[1]-deckDisplace[1],spawnPos[2]-deckDisplace[2],spawnPos[3]-deckDisplace[3]}
- for c=1,slot.num+added do
-  spawnCard(slot.cards[deckPos],spawnPos,cardMov,locDisplace)
-  if deckPos==#slot.cards then deckPos=1 else deckPos=deckPos+1 end
  end
 end
 
@@ -212,33 +233,6 @@ function randomFromRange(low,high)--Credit dzikakulka
  local rand=Global.call("PPacks.rand")
  local scale=high-low+1
  return math.floor(low+rand*scale)
-end
-
-function spawnCard(index,spawnPos,cardMov,locDisplace)
- local card=spawnObjectData({data=setCache.cache.ContainedObjects[index],position={spawnPos[1]+(locDisplace[1]*curCard),spawnPos[2]+(locDisplace[2]*curCard),spawnPos[3]+(locDisplace[3]*curCard)},rotation=cardRot})
-
- if settings.spread then
-  if settings.hundred then
-   card.setPosition({spawnPos[1]+(cardMov[1]*curCard),spawnPos[2]+(cardMov[2]*curCard),spawnPos[3]+(cardMov[3]*curCard)})
-  else
-   card.setPositionSmooth({spawnPos[1]+(cardMov[1]*curCard),spawnPos[2]+(cardMov[2]*curCard),spawnPos[3]+(cardMov[3]*curCard)},false,false)
-  end
- else
-  pulls=addToDeck(card,pulls)
- end
- curCard=curCard+1
-end
-
-function addToDeck(card,deck)
- if deck==nil then
-  deck=card
- elseif deck.type=="Card"then
-  deck=deck.putObject(card)
- else
-  deck=deck.putObject(card)
-  card.destruct()
- end
- return deck
 end
 
 TypeNums={
