@@ -1,6 +1,6 @@
 EARLYBOXMESH="http://cloud-3.steamusercontent.com/ugc/1023948871904321932/742E0B15FF0AB4C47A476822C6A30FD9D4469A04/"
-MODERNBOXMESH="http://cloud-3.steamusercontent.com/ugc/1023949183708861413/AB11C0364C61F5D683E8718CD5A0835D451F57D1/"
-SQUAREBOXMESH="http://cloud-3.steamusercontent.com/ugc/1030706251248908108/5E55F317F16A216BE2E0DB27EF13BD13068B6D5A/"
+MODERNBOXMESH="http://cloud-3.steamusercontent.com/ugc/1841411102549381827/AB11C0364C61F5D683E8718CD5A0835D451F57D1/"
+SQUAREBOXMESH="http://cloud-3.steamusercontent.com/ugc/1841411102549341476/9A81D6EFDB30D6EFAC0DCEC77282DB7E548655B0/"
 TINMESH="http://cloud-3.steamusercontent.com/ugc/1030706251249348501/4E69F41EAEE557C7909B9ED16D2C6EFF5CABD7F9/"
 PACKMESH="http://pastebin.com/raw/PqfGKtKR"
 PACKNORMAL="http://cloud-3.steamusercontent.com/ugc/861734852198391028/D75480247FA058266F0D423501D867407458666D/"
@@ -4849,44 +4849,44 @@ function setUpButtons()
 end
 
 function setUpContextMenu()
- self.addContextMenuItem("Deal 36 Packs", function(player_color) dealPacks(player_color,36) end)
+ self.addContextMenuItem("Deal 36 Packs",function(player_color)dealPacks(player_color,36)end)
  if settings.energy!=1 then
-  self.addContextMenuItem("Enable Energy", function() changeSettings("energy",1) end)
+  self.addContextMenuItem("Enable Energy",function()changeSettings("energy",1)end)
  end
  if settings.energy!=0 then
-  self.addContextMenuItem("Disable Energy", function() changeSettings("energy",0) end)
+  self.addContextMenuItem("Disable Energy",function()changeSettings("energy",0)end)
  end
  if settings.energy!=2 then
-  self.addContextMenuItem("Replace Energy", function() changeSettings("energy",2) end)
+  self.addContextMenuItem("Replace Energy",function()changeSettings("energy",2)end)
  end
  if settings.spread then
-  self.addContextMenuItem("Disable Spread", function() changeSettings("spread",false) end)
+  self.addContextMenuItem("Disable Spread",function()changeSettings("spread",false)end)
  else
-  self.addContextMenuItem("Enable Spread", function() changeSettings("spread",true) end)
+  self.addContextMenuItem("Enable Spread",function()changeSettings("spread",true)end)
  end
  if settings.debug then
   if settings.on then
-   self.addContextMenuItem("Disable Packs", function() changeSettings("on",false) end)
+   self.addContextMenuItem("Disable Packs",function()changeSettings("on",false)end)
   else
-   self.addContextMenuItem("Enable Packs", function() changeSettings("on",true) end)
+   self.addContextMenuItem("Enable Packs",function()changeSettings("on",true)end)
   end
-  self.addContextMenuItem("Clear pack Cache", function() clearCache() end)
+  self.addContextMenuItem("Clear pack Cache",function()clearCache()end)
   if settings.hundred then
-   self.addContextMenuItem("Disable 100 packs", function() changeSettings("hundred",false) end)
+   self.addContextMenuItem("Disable 100 packs",function()changeSettings("hundred",false)end)
   else
-   self.addContextMenuItem("Enable 100 packs", function() changeSettings("hundred",true) end)
+   self.addContextMenuItem("Enable 100 packs",function()changeSettings("hundred",true)end)
   end
-  self.addContextMenuItem("Close Debug Menu", function() changeSettings("debug",false) end)
+  self.addContextMenuItem("Close Debug Menu",function()changeSettings("debug",false)end)
  else
-  self.addContextMenuItem("Enable Debug Menu", function() changeSettings("debug",true) end)
+  self.addContextMenuItem("Enable Debug Menu",function()changeSettings("debug",true)end)
  end
 end
 
-function dealPacks(colour,number)
+function dealPacks(color,number)
  if setData[curSet].packData then
   self.deal(number)
  else
-  broadcastToColor("This set has no Pack.",colour,{1,0,0})
+  broadcastToColor("This set has no Pack.",color,{1,0,0})
  end
 end
 
@@ -4958,8 +4958,8 @@ function getSet(obj,color,alt)
    if setData[curSet].SMEnergy then loadingNum=loadingNum+1 end
    Global.setTable("PPacksCache["..setName.."]",{loading=loadingNum,cache=nil})
    local count=requestSet(1,callPerSet,setData[curSet].setID,setName,setData[curSet].size or 300,orderText,color)
-   if setData[curSet].subSet then count=requestSet(count,callPerSet,setData[curSet].subSet.setID,setName,setData[curSet].subSet.size or 300,orderText,color) end
-   if setData[curSet].SMEnergy then requestSMEnergy(count,setName,color) end
+   if setData[curSet].subSet then count=requestSet(count,callPerSet,setData[curSet].subSet.setID,setName,setData[curSet].subSet.size or 300,orderText,color)end
+   if setData[curSet].SMEnergy then requestSMEnergy(count,setName,color)end
   else
    broadcastToColor("Loading Cards, Please Wait",color,{0,1,0})
   end
@@ -4969,7 +4969,7 @@ end
 function requestSet(count,calls,setIDToLoad,setName,size,orderText,color)
  for c=1,calls do
   local page=count
-  r[count]=WebRequest.get('https://api.pokemontcg.io/v2/cards?q=!set.id:"'..setIDToLoad..'"&page='..tostring(c)..'&pageSize='..tostring(math.ceil(size/calls))..orderText, function() cacheSet(r[page],setName,color,page)end)
+  r[count]=WebRequest.get('https://api.pokemontcg.io/v2/cards?q=!set.id:"'..setIDToLoad..'"&page='..tostring(c)..'&pageSize='..tostring(math.ceil(size/calls))..orderText,function()cacheSet(r[page],setName,color,page)end)
   count=count+1
  end
  return count
@@ -4977,7 +4977,7 @@ end
 
 function requestSMEnergy(count,setName,color)
  local page=count
- r[count]=WebRequest.get("https://api.pokemontcg.io/v2/cards?q=number:%5B164%20TO%20172%5D%20!set.id:sm1&order_by=number", function() cacheSet(r[page],setName,color,page)end)
+ r[count]=WebRequest.get("https://api.pokemontcg.io/v2/cards?q=number:%5B164%20TO%20172%5D%20!set.id:sm1&order_by=number",function()cacheSet(r[page],setName,color,page)end)
  count=count+1
  return count
 end
@@ -5014,6 +5014,7 @@ function cacheSet(request,setName,color,page)
        BackURL="http://cloud-3.steamusercontent.com/ugc/809997459557414686/9ABD9158841F1167D295FD1295D7A597E03A7487/",
        NumWidth=1,
        NumHeight=1,
+       BackIsHidden=true
       }
      deckData.DeckIDs[curCard]=DeckID*100
      deckData.CustomDeck[DeckID]=customData

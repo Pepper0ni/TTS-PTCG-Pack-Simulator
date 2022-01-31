@@ -18,6 +18,7 @@ function onObjectLeaveContainer(cont,leaving)
 
  packPos=self.getPosition()
  cardRot=self.getRotation()
+ cardRot[3]=cardRot[3]+180
  ProcessPack(false,false)
  leaving.destruct()
  self.destruct()
@@ -63,7 +64,7 @@ function ProcessPack(loop,loading)
     slotsAdded=doPullRates(pullRates[b].rates,slotsAdded)
    end
   end
-  local packData=getDeckData(packPos,cardRot)
+  local packData=getDeckData(packPos,cardRot,true)
   for b=1,#dropSlots do
    local choices=chooseCards(dropSlots[b],slotsAdded[b]or 0)
    for c=1,#choices do
@@ -112,7 +113,7 @@ function cacheSet(request,page)
   if cache.loading==1 then
    local spawnPos={packPos[1],packPos[2],packPos[3]+5}
    local curCard=1
-   local deckData=getDeckData(spawnPos,cardRot)
+   local deckData=getDeckData(spawnPos,cardRot,false)
    for a=1,#decoded do
     local cardData=decoded[a].data
     for b=1,#cardData do
@@ -122,6 +123,7 @@ function cacheSet(request,page)
        BackURL="http://cloud-3.steamusercontent.com/ugc/809997459557414686/9ABD9158841F1167D295FD1295D7A597E03A7487/",
        NumWidth=1,
        NumHeight=1,
+       BackIsHidden=true
       }
      deckData.DeckIDs[curCard]=DeckID*100
      deckData.CustomDeck[DeckID]=customData
@@ -145,9 +147,10 @@ function cacheSet(request,page)
  end
 end
 
-function getDeckData(spawnPos,cardRot)
+function getDeckData(spawnPos,cardRot,hands)
  return {Name="Deck",
   Transform={posX=spawnPos[1],posY=spawnPos[2],posZ=spawnPos[3],rotX=cardRot[1],rotY=cardRot[2],rotZ=cardRot[3],scaleX=1,scaleY=1,scaleZ=1},
+  Hands=hands,
   DeckIDs={},
   CustomDeck={},
   ContainedObjects={}
