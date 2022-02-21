@@ -119,7 +119,7 @@ function cacheSet(request,page)
     for b=1,#cardData do
      local DeckID=999+curCard
      local customData={
-       FaceURL=cardData[b].images.large.."?count="..tostring(curCard),
+       FaceURL=cardData[b].images.large.."?count="..cardData[b].number or"",
        BackURL="http://cloud-3.steamusercontent.com/ugc/809997459557414686/9ABD9158841F1167D295FD1295D7A597E03A7487/",
        NumWidth=1,
        NumHeight=1,

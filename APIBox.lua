@@ -6,10 +6,10 @@ PACKMESH="http://pastebin.com/raw/PqfGKtKR"
 PACKNORMAL="http://cloud-3.steamusercontent.com/ugc/861734852198391028/D75480247FA058266F0D423501D867407458666D/"
 BLISTERMESH="http://cloud-3.steamusercontent.com/ugc/1670239067235311651/D0BD0C84FF352C54A9C26E5BBB86FDE15BF57173/"
 
-genPoints={1,9,19,41,64,77,93,110}
+genPoints={1,9,19,43,66,79,95,112}
 
 setData={
-{setName="Base",--1
+{setName="Base",
  size=102,
  setID="base1",
  custom={
@@ -145,7 +145,7 @@ setData={
  },num=1},
 }]]
  }},
-{setName="Team Rocket",--6
+{setName="Team Rocket",
  size=83,
  setID="base5",
  custom={
@@ -248,7 +248,7 @@ setData={
  },num=1},
 }]]
  }},
-{setName="Neo Genesis",--9
+{setName="Neo Genesis",
  size=111,
  setID="neo1",
  custom={
@@ -423,7 +423,7 @@ setData={
  },num=1},
 }]]
  }},
-{setName="Expedition Base Set",--14
+{setName="Expedition Base Set",
  size=165,
  setID="ecard1",
  custom={
@@ -538,7 +538,7 @@ setData={
  },num=1},
 }]]
  }},
-{setName="Nintendo Black Star Promos",--18
+{setName="Nintendo Black Star Promos",
  size=40,
  setID="np",
  custom={
@@ -701,7 +701,14 @@ setData={
  },num=1},
 }]]
  }},
-{setName="Hidden Legends",--23
+{setName="Trainer Kit EX Latias and Latios",
+ size=10,
+ setID="tk1a",
+ subSet={size=10,setID="tk1b"},
+ custom={
+  mesh=SQUAREBOXMESH,
+  diffuse="http://cloud-3.steamusercontent.com/ugc/961982434508821791/54711C520A9A3F585D7A2A839076B555E7E0120E/"}},
+{setName="Hidden Legends",
  size=102,
  setID="ex5",
  custom={
@@ -828,7 +835,7 @@ setData={
  },num=1},
 }]]
  }},
-{setName="Deoxys",--27
+{setName="Deoxys",
  size=108,
  setID="ex8",
  custom={
@@ -1058,7 +1065,14 @@ setData={
   diffuse="http://cloud-3.steamusercontent.com/ugc/975479281169887419/6B067A4AE30DB0ECEFA7CC022B008C00E57372A2/",
   normal=PACKNORMAL
  }},
-{setName="Holon Phantoms",--34
+{setName="Trainer Kit EX Plusle and Minun",
+ size=12,
+ setID="tk2a",
+ subSet={size=12,setID="tk2b"},
+ custom={
+  mesh=SQUAREBOXMESH,
+  diffuse="http://cloud-3.steamusercontent.com/ugc/961982434508351845/38CEB4BC6F042539CAE708E417C8E5088F997238/"}},
+{setName="Holon Phantoms",
  size=111,
  setID="ex13",
  custom={
@@ -1248,7 +1262,7 @@ setData={
   diffuse="http://cloud-3.steamusercontent.com/ugc/975479281169889066/5B3E6BB221E05ED4DECF4A6BA9813F655EF89ED5/",
   normal=PACKNORMAL
  }},
-{setName="DP Black Star Promos",--40
+{setName="DP Black Star Promos",
  size=56,
  setID="dpp",
  custom={mesh=SQUAREBOXMESH,
@@ -2016,7 +2030,7 @@ custom={
   mesh=SQUAREBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/966473467903509409/E901F00A9DE4C845E1CEE4D1B62EAEF3FD67351E/",
   normal=""
-  }},--63
+  }},
 {setName="Black & White",
  size=115,
  setID="bw1",
@@ -2560,7 +2574,7 @@ custom={
   mesh=SQUAREBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/966473053148158881/78D6C18B73964ADE74C7904E5C4B9E2500744C04/",
   normal=""
- }},--77
+ }},
 {setName="Kalos Starter Set",
  size=39,
  setID="xy0",
@@ -3246,7 +3260,7 @@ custom={
  custom={
   mesh=SQUAREBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/970979204690618490/99C2E6F978D9099ECA2489A31BF4CCCBAEEE4F45/"
-}},--93
+}},
 {setName="Sun & Moon",
  size=173,
  setID="sm1",
@@ -4102,7 +4116,7 @@ custom={
  custom={
   mesh=SQUAREBOXMESH,
   diffuse="http://cloud-3.steamusercontent.com/ugc/794258704672243938/D2657D9105DDAE7C48866D4BA06BD6C170AEE71C/"
- }},--110
+ }},
 {setName="Sword & Shield",
  size=216,
  setID="swsh1",
@@ -5010,7 +5024,7 @@ function cacheSet(request,setName,color,page)
     for b=1,#cardData do
      local DeckID=999+curCard
      local customData={
-       FaceURL=cardData[b].images.large.."?count="..tostring(curCard),
+       FaceURL=cardData[b].images.large.."?count="..cardData[b].number or"",
        BackURL="http://cloud-3.steamusercontent.com/ugc/809997459557414686/9ABD9158841F1167D295FD1295D7A597E03A7487/",
        NumWidth=1,
        NumHeight=1,
