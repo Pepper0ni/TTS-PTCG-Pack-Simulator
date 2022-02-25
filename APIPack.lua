@@ -128,6 +128,8 @@ function cacheSet(request,page)
      deckData.DeckIDs[curCard]=DeckID*100
      deckData.CustomDeck[DeckID]=customData
      deckData.ContainedObjects[curCard]={
+      GUID=tostring(123456+curCard),
+      Transform=deckData.Transform,
       Name="CardCustom",
       Nickname=cardData[b].name,
       Description=cardData[b].set.name.." #"..cardData[b].number,
@@ -305,4 +307,11 @@ natDexReplace={
  [433]="03575",
  [478]="03625",
  [867]="05635",
+ [899]="02345",
+ [900]="01237",
+ [901]="02175",
+ [902]="05505",
+ [903]="02157",
+ [904]="02115",
+ [902]="02157",
 }
