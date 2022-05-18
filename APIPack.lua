@@ -133,8 +133,8 @@ function cacheSet(request,page)
       Name="CardCustom",
       Nickname=cardData[b].name,
       Description=cardData[b].set.name.." #"..cardData[b].number,
-      GMNotes=enumTypes(cardData[b].supertype,cardData[b].subtypes)..convertNatDex(cardData[b].nationalPokedexNumbers)or"",
-      Memo=string.gsub(cardData[b].set.releaseDate,"/","")..string.gsub(cardData[b].number,"[^%d]",""),
+      GMNotes=enumTypes(cardData[b].supertype,cardData[b].subtypes,TypeNums)..convertNatDex(cardData[b].nationalPokedexNumbers)or"",
+      Memo=string.gsub(cardData[b].set.releaseDate,"/","")..buildFullCardNumber(cardData[b].number),
       CardID=DeckID*100,
       CustomDeck={[DeckID]=customData}
      }
@@ -147,6 +147,24 @@ function cacheSet(request,page)
   Global.SetTable("PPacksCache["..setName.."]",{loading=cache.loading-1,cache=nil})
   end
  end
+end
+
+function buildFullCardNumber(cardNum)
+ cardNum=buildCardNumber(cardNum)
+ while #cardNum<3 do cardNum="0"..cardNum end
+ return cardNum
+end
+
+function buildCardNumber(cardNum)
+ local numOnly=string.gsub(cardNum,"[^%d]","")
+ if numOnly==cardNum then return cardNum end
+ local finalNum=(tonumber(numOnly)or 0)+500
+ for c in cardNum:gmatch"[^%d]" do
+  if c=="?"then c="}"end
+  if c=="!"then c="{"end
+  finalNum=string.byte(c)-65+finalNum
+ end
+ return tostring(finalNum)
 end
 
 function getDeckData(spawnPos,cardRot,hands)
@@ -167,11 +185,11 @@ function convertNatDex(dexNums)
  return dexNum
 end
 
-function enumTypes(Type,subTypes)
- local enum=TypeNums[Type]or 0
+function enumTypes(Type,subTypes,TypeTable)
+ local enum=TypeTable[Type]or 0
  if subTypes then
   for c=1,#subTypes do
-   enum=enum+(TypeNums[subTypes[c]]or 0)
+   enum=enum+(TypeTable[subTypes[c]]or 0)
   end
  end
  return tostring(enum)
@@ -246,9 +264,11 @@ TypeNums={
  ["Supporter"]=1,
  ["Stadium"]=2,
  ["Pokémon Tool"]=3,
+ ["Technical Machine"]=3,
  ["Special"]=1,
  ["Level-Up"]=1,
 }
+
 natDexReplace={
  [172]="00245",
  [173]="00345",

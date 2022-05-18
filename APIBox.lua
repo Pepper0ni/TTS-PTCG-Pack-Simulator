@@ -1,6 +1,7 @@
 EARLYBOXMESH="1023948871904321932/742E0B15FF0AB4C47A476822C6A30FD9D4469A04/"
 MODERNBOXMESH="1841411102549381827/AB11C0364C61F5D683E8718CD5A0835D451F57D1/"
-SQUAREBOXMESH="1841411102549341476/9A81D6EFDB30D6EFAC0DCEC77282DB7E548655B0/"
+SQUAREBOXMESH="1848173079363295760/90E61F924B6B7399CFCB2E8351C58CE471AA9BA2/"
+OLDSQUAREMESH="1841411102549341476/9A81D6EFDB30D6EFAC0DCEC77282DB7E548655B0/"
 TINMESH="1030706251249348501/4E69F41EAEE557C7909B9ED16D2C6EFF5CABD7F9/"
 PACKMESH="1809886125985857567/79E20FF167592798FFD8579BAF7E3A8412885535/"
 PACKNORMAL="http://cloud-3.steamusercontent.com/ugc/861734852198391028/D75480247FA058266F0D423501D867407458666D/"
@@ -78,7 +79,7 @@ setData={
  setID="basep",
  custom={
   mesh=SQUAREBOXMESH,
-  diffuse="968725783503128833/A70313105D2DF941D9689E149AD6941E4B1EDE7A/"
+  diffuse="1848173079360052348/29E3C3BCD1646F2A8BB41EC8A4DB3A8484D379FD/"
  }},
 {setName="Fossil",
  size=62,
@@ -319,7 +320,7 @@ setData={
  setID="si1",
  custom={
   mesh=SQUAREBOXMESH,
-  diffuse="968725783503129849/113C2D2767FD989E7EF6546A0AF0636AC82B6BE8/"
+  diffuse="1848173079360052265/FABA60560ACCDE2715749A75CDE3F9580D463169/"
  }},
 {setName="Neo Revelation",
  size=66,
@@ -462,7 +463,7 @@ setData={
  setID="bp",
  custom={
   mesh=SQUAREBOXMESH,
-  diffuse="968725783503131051/2575CF394E08C1A8459E375526AC8D606E6067FB/"
+  diffuse="1848173079360051661/420C5E9D7CF3C44735556312CFF3CC8829AC6B73/"
  }},
 {setName="Aquapolis",
  size=182,
@@ -543,7 +544,7 @@ setData={
  setID="np",
  custom={
   mesh=SQUAREBOXMESH,
-  diffuse="968725783503127953/A80DA05A30BA633BBAFD59842B16AD1078DE0005/"}},
+  diffuse="1848173079360052122/1133D4091EBEE8654DDE923FB492709BFB3633CC/"}},
 {setName="Ruby & Sapphire",
  size=109,
  setID="ex1",
@@ -707,7 +708,7 @@ setData={
  subSet={size=10,setID="tk1b"},
  custom={
   mesh=SQUAREBOXMESH,
-  diffuse="961982434508821791/54711C520A9A3F585D7A2A839076B555E7E0120E/"}},
+  diffuse="1848173079360051920/CA71FF60A6DCD4F102B9733823CC1C67446AA558/"}},
 {setName="Hidden Legends",
  size=102,
  setID="ex5",
@@ -778,7 +779,7 @@ setData={
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/108},--secret
+  {slot=2,odds=1/36},--secret
   {slot=3,odds=1/12},--ex
   {slot=4,remaining=true,odds=1/3},--holo
   {slot=5}--rare
@@ -1071,7 +1072,7 @@ setData={
  subSet={size=12,setID="tk2b"},
  custom={
   mesh=SQUAREBOXMESH,
-  diffuse="961982434508351845/38CEB4BC6F042539CAE708E417C8E5088F997238/"}},
+  diffuse="1848173079360051989/6D1D6ED79B20D4CDB4FB0E8B938FBEB76D94EF54/"}},
 {setName="Holon Phantoms",
  size=111,
  setID="ex13",
@@ -1266,7 +1267,7 @@ setData={
  size=56,
  setID="dpp",
  custom={mesh=SQUAREBOXMESH,
-  diffuse="966473786650425856/ED85BF6CAFC88EE1717A1BE3F68E8B760E1832DA/"
+  diffuse="1848173079360051848/A0BD5B946B074CB4F934FFC49BCFBF15082BDFAB/"
  }},
 {setName="Diamond & Pearl",
  size=130,
@@ -1772,14 +1773,14 @@ setData={
  setID="ru1",
  custom={
   mesh=SQUAREBOXMESH,
-  diffuse="968725783503126946/4B2735F4DF641BEC1978F512488195F23B0EBC12/"
+  diffuse="1848173079360052196/C1BACBC854E43665E0D1B5D7C8D05B24C25B516F/"
  }},
 {setName="HGSS Black Star Promos",
  size=25,
  setID="hsp",
  custom={
   mesh=SQUAREBOXMESH,
-  diffuse="966473467911533530/AFDEFB276D510D093106981B8DD73DD369BC1367/"
+  diffuse="1848173079360052038/34D538BB05B97C338229A41EF54DED3781D45B3C/"
  }},
 {setName="HeartGold & SoulSilver",
  size=124,
@@ -2028,7 +2029,7 @@ setData={
  setID="bwp",
 custom={
   mesh=SQUAREBOXMESH,
-  diffuse="966473467903509409/E901F00A9DE4C845E1CEE4D1B62EAEF3FD67351E/",
+  diffuse="1848173079360051765/9B208AE51A8C8ECB517E29951C08660FA25BDC6A/",
 
   }},
 {setName="Black & White",
@@ -2572,14 +2573,14 @@ custom={
  setID="xyp",
  custom={
   mesh=SQUAREBOXMESH,
-  diffuse="966473053148158881/78D6C18B73964ADE74C7904E5C4B9E2500744C04/",
+  diffuse="1848173079360052411/265682A28EB8AC3217B360B07204845F92530E1B/",
  }},
 {setName="Kalos Starter Set",
  size=39,
  setID="xy0",
  custom={
   mesh=SQUAREBOXMESH,
-  diffuse="966473053148163964/B19E66B0F50076C0625523C67B353BEA1E1B7D85/",
+  diffuse="1848173079360031991/17642D8E291E80267A42F06774EF4FAE92A46A71/",
  }},
 {setName="XY",
  size=146,
@@ -3022,7 +3023,7 @@ custom={
  size=117,
  setID="g1",
  custom=
-  {mesh=SQUAREBOXMESH,
+  {mesh=OLDSQUAREMESH,
   diffuse="1030706251248906884/4DD17D273D0FCD9F1E135DBD48950BE77728BA7E/"
  },
  packData={
@@ -3257,7 +3258,7 @@ custom={
  setID="smp",
  custom={
   mesh=SQUAREBOXMESH,
-  diffuse="970979204690618490/99C2E6F978D9099ECA2489A31BF4CCCBAEEE4F45/"
+  diffuse="1848173079360031289/E30625362132A3B65488091077963448D0C675CF/"
 }},
 {setName="Sun & Moon",
  size=173,
@@ -3410,7 +3411,7 @@ custom={
  setID="sm35",
  SMEnergy=true,
  custom={
-  mesh=SQUAREBOXMESH,
+  mesh=OLDSQUAREMESH,
   diffuse="1030706720824004414/449EDB8EC75FC286834DB0D300A87B15275728AF/"
  },
  packData={
@@ -3691,7 +3692,7 @@ custom={
  setID="sm75",
  SMEnergy=true,
  custom={
-  mesh=SQUAREBOXMESH,
+  mesh=OLDSQUAREMESH,
   diffuse="1030706720824692197/92ABF851389DB7FC2AA2BA945D5C4B0491D929BB/"
  },
  packData={
@@ -3990,7 +3991,7 @@ custom={
  setID="sm115",
  subSet={size=94,setID="sma"},
  custom={
-  mesh=SQUAREBOXMESH,
+  mesh=OLDSQUAREMESH,
   diffuse="1030706720825085766/F0F09A6F571FB67E86E3AC178310015920B2FAAA/"
  },
  packData={
@@ -4113,7 +4114,7 @@ custom={
  setID="swshp",
  custom={
   mesh=SQUAREBOXMESH,
-  diffuse="794258704672243938/D2657D9105DDAE7C48866D4BA06BD6C170AEE71C/"
+  diffuse="1848173079360029041/5B20F857803464844D18FE750DFF8158E60B0180/"
  }},
 {setName="Sword & Shield",
  size=216,
@@ -4285,7 +4286,7 @@ custom={
  size=80,
  setID="swsh35",
  custom={
-  mesh=SQUAREBOXMESH,
+  mesh=OLDSQUAREMESH,
   diffuse="1639829753513359249/E8E086E52B72A0AB816802A76069835E0C36445C/"},
  packData={
   art={
@@ -4403,7 +4404,7 @@ custom={
  setID="swsh45",
  subSet={size=122,setID="swsh45sv"},
  custom={
-  mesh=SQUAREBOXMESH,
+  mesh=OLDSQUAREMESH,
   diffuse="1773825330007107488/EA5783CE54C9EAA33CE5AA02597D84AA12E56A70/"
  },
  packData={
@@ -5123,8 +5124,8 @@ function cacheSet(request,setName,color,page)
       Transform=deckData.Transform,
       Nickname=cardData[b].name,
       Description=cardData[b].set.name.." #"..cardData[b].number,
-      GMNotes=enumTypes(cardData[b].supertype,cardData[b].subtypes)..convertNatDex(cardData[b].nationalPokedexNumbers)or"",
-      Memo=string.gsub(cardData[b].set.releaseDate,"/","")..string.gsub(cardData[b].number,"[^%d]",""),
+      GMNotes=enumTypes(cardData[b].supertype,cardData[b].subtypes,TypeNums)..convertNatDex(cardData[b].nationalPokedexNumbers)or"",
+      Memo=string.gsub(cardData[b].set.releaseDate,"/","")..buildFullCardNumber(cardData[b].number),
       CardID=DeckID*100,
       CustomDeck={[DeckID]=customData}
      }
@@ -5139,6 +5140,24 @@ function cacheSet(request,setName,color,page)
  end
 end
 
+function buildFullCardNumber(cardNum)
+ cardNum=buildCardNumber(cardNum)
+ while #cardNum<3 do cardNum="0"..cardNum end
+ return cardNum
+end
+
+function buildCardNumber(cardNum)
+ local numOnly=string.gsub(cardNum,"[^%d]","")
+ if numOnly==cardNum then return cardNum end
+ local finalNum=(tonumber(numOnly)or 0)+500
+ for c in cardNum:gmatch"[^%d]" do
+  if c=="?"then c="}"end
+  if c=="!"then c="{"end
+  finalNum=string.byte(c)-65+finalNum
+ end
+ return tostring(finalNum)
+end
+
 function convertNatDex(dexNums)
  if dexNums then dexNum=dexNums[1]else return "00000" end
  if natDexReplace[dexNum] then return natDexReplace[dexNum] end
@@ -5147,11 +5166,11 @@ function convertNatDex(dexNums)
  return dexNum
 end
 
-function enumTypes(Type,subTypes)
- local enum=TypeNums[Type]or 0
+function enumTypes(Type,subTypes,TypeTable)
+ local enum=TypeTable[Type]or 0
  if subTypes then
   for c=1,#subTypes do
-   enum=enum+(TypeNums[subTypes[c]]or 0)
+   enum=enum+(TypeTable[subTypes[c]]or 0)
   end
  end
  return tostring(enum)
@@ -5233,6 +5252,7 @@ TypeNums={
  ["Supporter"]=1,
  ["Stadium"]=2,
  ["Pokémon Tool"]=3,
+ ["Technical Machine"]=3,
  ["Special"]=1,
  ["Level-Up"]=1,
 }
