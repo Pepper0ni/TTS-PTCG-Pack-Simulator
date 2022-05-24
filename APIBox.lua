@@ -5275,12 +5275,16 @@ function cacheSet(request,setName,color,page)
       }
      deckData.DeckIDs[curCard]=DeckID*100
      deckData.CustomDeck[DeckID]=customData
+     local rar=""
+     if cardData[b].rarity then
+      rar=" "..string.gsub(cardData[b].rarity,"[^%u]","")
+     end
      deckData.ContainedObjects[curCard]={
       Name="CardCustom",
       GUID=tostring(123456+curCard),
       Transform=deckData.Transform,
       Nickname=cardData[b].name,
-      Description=cardData[b].set.name.." #"..cardData[b].number,
+      Description=cardData[b].set.name.." #"..cardData[b].number..rar,
       GMNotes=enumTypes(cardData[b].supertype,cardData[b].subtypes,TypeNums)..convertNatDex(cardData[b].nationalPokedexNumbers)or"",
       Memo=string.gsub(cardData[b].set.releaseDate,"/","")..buildFullCardNumber(cardData[b].number),
       CardID=DeckID*100,
