@@ -220,7 +220,14 @@ function chooseCards(slot,added)
  local chosen={}
  local choices={}
  if not slot.energy or settings.energy==1 then
-  if slot.fixed then
+  if settings.slotTest then
+   if slot.size then
+    choice=chooseRandCard(slot.cards,slot.size)
+   else
+    choice=slot.cards[randomFromRange(1,#slot.cards)]
+   end
+   choices[1]=choice
+  elseif slot.fixed then
    local deckPos=randomFromRange(1,#slot.cards)
    for c=1,slot.num+added do
     choices[c]=slot.cards[deckPos]
