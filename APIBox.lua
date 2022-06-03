@@ -4494,7 +4494,7 @@ custom={
 --11 amazing
   {cards={17,21,46},num=0},
 --12 shiny Vmax
-  {cards={179,190,182,184,186,190,192},num=0},
+  {cards={179,180,182,184,186,190,192},num=0},
 --13 shiny V
   {cards={178,181,183,185,187,188,189,191,193},num=0},
 --14 shiny
@@ -4993,25 +4993,25 @@ custom={
 }]],
   pullRates=[[{
  {rates={
-  {slot=3,odds=1/119.3},--gold
-  {slot=4,odds=1/81.8},--Rainbow
-  {slot=5,odds=1/144.3},--alt V
-  {slot=6,odds=1/48.9},--FA mon
-  {slot=7,odds=1/73.0},--FA trainer
-  {slot=8,odds=1/179.2},--Vmax
-  {slot=9,odds=1/37},--Vstar
-  {slot=10,odds=1/7.88},--V
+  {slot=3,odds=1/117.3},--gold
+  {slot=4,odds=1/80.4},--Rainbow
+  {slot=5,odds=1/145.7},--alt V
+  {slot=6,odds=1/51},--FA mon
+  {slot=7,odds=1/72.8},--FA trainer
+  {slot=8,odds=1/167.8},--Vmax
+  {slot=9,odds=1/37.9},--Vstar
+  {slot=10,odds=1/7.91},--V
   {slot=11,remaining=true,odds=0.4},--holo
   {slot=12}--rare
  },num=1},
 --reverse
  {rates={
-  {slot=13,odds=1/138.3},--TG gold
-  {slot=14,odds=1/101.25},--TG trainer
-  {slot=15,odds=1/398},--TG Vmax
-  {slot=16,odds=1/45},--TG V
-  {slot=17,odds=1/11.75},--TG holo
-  {slot=18,odds=1/20.7},--radiant
+  {slot=13,odds=1/133.4},--TG gold
+  {slot=14,odds=1/108.4},--TG trainer
+  {slot=15,odds=1/338.1},--TG Vmax
+  {slot=16,odds=1/51.5},--TG V
+  {slot=17,odds=1/11.8},--TG holo
+  {slot=18,odds=1/20.1},--radiant
   {slot=19}--reverse
  },num=1}
 }]]
