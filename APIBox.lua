@@ -4068,13 +4068,13 @@ custom={
 --8 rare
   {cards={3,17,22,23,27,29,32,35,40,43,47,50,51,52,56},num=0},
 --9 gold
-  {cards={{87,94}},size=8,num=0},
+  {cards={{156,163}},size=8,num=0},
 --10 Shiny FA trainer
-  {cards={{81,86}},size=6,num=0},
+  {cards={{150,155}},size=6,num=0},
 --11 shiny GX
-  {cards={{46,80}},size=35,num=0},
+  {cards={{115,149}},size=35,num=0},
 --12 shiny
-  {cards={{1,45}},size=45,num=0},
+  {cards={{70,114}},size=45,num=0},
 --13 reverse energy TODO find a way to get energies reliably
   {cards={},num=0,energy=true},
 --14 reverse
@@ -4909,14 +4909,14 @@ custom={
 }]],
   pullRates=[[{
  {rates={
-  {slot=3,odds=1/139},--gold
-  {slot=4,odds=1/68},--Rainbow
-  {slot=5,odds=1/166},--alt V
-  {slot=6,odds=1/42.125},--FA mon
-  {slot=7,odds=1/84.25},--FA trainer
-  {slot=8,odds=1/77.6},--Vmax
-  {slot=9,odds=1/67.9},--Vstar
-  {slot=10,odds=1/7.35},--V
+  {slot=3,odds=1/141.125},--gold
+  {slot=4,odds=1/69.1},--Rainbow
+  {slot=5,odds=1/154},--alt V
+  {slot=6,odds=1/43.4},--FA mon
+  {slot=7,odds=1/82.6},--FA trainer
+  {slot=8,odds=1/78.7},--Vmax
+  {slot=9,odds=1/67},--Vstar
+  {slot=10,odds=1/7.4},--V
   {slot=11,remaining=true,odds=0.4},--holo
   {slot=12}--rare
  },num=1},
@@ -4924,9 +4924,9 @@ custom={
  {rates={
   {slot=13,odds=1/221.5},--TG gold
   {slot=14,odds=1/181.2},--TG trainer
-  {slot=15,odds=1/186.3},--TG Vmax
-  {slot=16,odds=1/113},--TG V
-  {slot=17,odds=1/18.75},--TG holo
+  {slot=15,odds=1/186.9},--TG Vmax
+  {slot=16,odds=1/112.8},--TG V
+  {slot=17,odds=1/17.5},--TG holo
   {slot=18}--reverse
  },num=1}
 }]]
@@ -4993,25 +4993,25 @@ custom={
 }]],
   pullRates=[[{
  {rates={
-  {slot=3,odds=1/117.3},--gold
-  {slot=4,odds=1/80.4},--Rainbow
-  {slot=5,odds=1/145.7},--alt V
-  {slot=6,odds=1/51},--FA mon
-  {slot=7,odds=1/72.8},--FA trainer
-  {slot=8,odds=1/167.8},--Vmax
-  {slot=9,odds=1/37.9},--Vstar
+  {slot=3,odds=1/118.2},--gold
+  {slot=4,odds=1/80.17},--Rainbow
+  {slot=5,odds=1/146.8},--alt V
+  {slot=6,odds=1/51.1},--FA mon
+  {slot=7,odds=1/73},--FA trainer
+  {slot=8,odds=1/160.9},--Vmax
+  {slot=9,odds=1/38.2},--Vstar
   {slot=10,odds=1/7.91},--V
   {slot=11,remaining=true,odds=0.4},--holo
   {slot=12}--rare
  },num=1},
 --reverse
  {rates={
-  {slot=13,odds=1/133.4},--TG gold
+  {slot=13,odds=1/132.6},--TG gold
   {slot=14,odds=1/108.4},--TG trainer
-  {slot=15,odds=1/338.1},--TG Vmax
-  {slot=16,odds=1/51.5},--TG V
+  {slot=15,odds=1/315},--TG Vmax
+  {slot=16,odds=1/52.5},--TG V
   {slot=17,odds=1/11.8},--TG holo
-  {slot=18,odds=1/20.1},--radiant
+  {slot=18,odds=1/20},--radiant
   {slot=19}--reverse
  },num=1}
 }]]
