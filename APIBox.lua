@@ -5044,19 +5044,14 @@ end
 
 function onLoad(state)
  settings=Global.GetTable("PPacks")
- if state=="" then
-  curSet=1
- else
+ if state and state!="" then
   state=json.parse(state)
   curSet=state.set or 1
+ else
+  curSet=1
  end
-
  if not settings then
-  if state.settings then
-   settings=state.settings
-  else
-   settings={energy=1,on=true,spread=false,APICalls=3,hundred=false,debug=false,slotTest=false}
-  end
+  if state.settings then settings=state.settings else settings={energy=1,on=true,spread=false,APICalls=3,hundred=false,debug=false,slotTest=false}end
   Global.SetTable("PPacks",settings)
  end
  saveData()
@@ -5067,48 +5062,34 @@ end
 function setUpButtons()
  local selfScale=self.getScale()
  local params={
- click_function='getSet',
  function_owner=self,
- label='Get Whole Set',
- position={0,0.5,4},
  width=3500,
  height=500,
  font_size=450,
  scale={1/selfScale.x,1/selfScale.y,1/selfScale.z},
  }
- self.createButton(params)
-
+ butWrapper(params,{0,0.5,3},'Get Whole Set',"","getSet")
  params.width=500
- params.click_function='prevSet'
- params.label='<'
- params.position[1]=-4.2
- self.createButton(params)
+ butWrapper(params,{-4.2,0.5,3},'<',"","prevSet")
+ butWrapper(params,{4.2,0.5,3},'>',"","nextSet")
+end
 
- params.click_function='nextSet'
- params.label='>'
- params.position[1]=4.2
- self.createButton(params)
-
- params.tooltip='Toggle the number of simultainious API calls used when fetching sets. More connections will use up API rate limit (30 per minute) faster but may speed up initial pack/set loading'
- params.width=6000
- params.position={0,0.5,3}
- params.click_function='dummyFunc'
- params.label="Num of API calls per fetch: "..settings.APICalls
- self.createButton(params)
-
- params.label="+"
- params.width=550
- params.position[1]=6.5
- params.click_function='incAPI'
- self.createButton(params)
-
- params.label="-"
- params.position[1]=-6.5
- params.click_function='decAPI'
+function butWrapper(params,pos,label,tool,func)
+ params.position=pos
+ params.label=label
+ params.tooltip=tool
+ params.click_function=func
  self.createButton(params)
 end
 
 function setUpContextMenu()
+ if settings.debug then
+  self.addContextMenuItem("Clear pack Cache",function()clearCache()end)
+  addContextToggle("hundred","100 Packs")
+  addContextToggle("slotTest","Slot Test")
+  addContextToggle("on","Packs")
+  self.addContextMenuItem("Close Debug Menu",function()changeSettings("debug",false)end)
+ end
  self.addContextMenuItem("Deal 36 Packs",function(player_color)dealPacks(player_color,36)end)
  if settings.energy!=1 then
   self.addContextMenuItem("Enable Energy",function()changeSettings("energy",1)end)
@@ -5119,31 +5100,26 @@ function setUpContextMenu()
  if settings.energy!=2 then
   self.addContextMenuItem("Replace Energy",function()changeSettings("energy",2)end)
  end
- if settings.spread then
-  self.addContextMenuItem("Disable Spread",function()changeSettings("spread",false)end)
- else
-  self.addContextMenuItem("Enable Spread",function()changeSettings("spread",true)end)
+ addContextToggle("spread","Spread")
+ if settings.APICalls!=10 then
+  self.addContextMenuItem("Max API calls",function()changeSettings("APICalls",10)end)
  end
- if settings.debug then
-  if settings.on then
-   self.addContextMenuItem("Disable Packs",function()changeSettings("on",false)end)
-  else
-   self.addContextMenuItem("Enable Packs",function()changeSettings("on",true)end)
-  end
-  self.addContextMenuItem("Clear pack Cache",function()clearCache()end)
-  if settings.hundred then
-   self.addContextMenuItem("Disable 100 packs",function()changeSettings("hundred",false)end)
-  else
-   self.addContextMenuItem("Enable 100 packs",function()changeSettings("hundred",true)end)
-  end
-  if settings.slotTest then
-   self.addContextMenuItem("Disable Slot Test",function()changeSettings("slotTest",false)end)
-  else
-   self.addContextMenuItem("Enable Slot Test",function()changeSettings("slotTest",true)end)
-  end
-  self.addContextMenuItem("Close Debug Menu",function()changeSettings("debug",false)end)
+ if settings.APICalls!=5 then
+  self.addContextMenuItem("Mid API calls",function()changeSettings("APICalls",5)end)
+ end
+ if settings.APICalls!=2 then
+  self.addContextMenuItem("Min API calls",function()changeSettings("APICalls",2)end)
+ end
+ if not settings.debug then
+  self.addContextMenuItem("Open Debug Menu",function()changeSettings("debug",true)end)
+ end
+end
+
+function addContextToggle(setting,desc)
+ if settings[setting]then
+  self.addContextMenuItem("Disable "..desc,function()changeSettings(setting,false)end)
  else
-  self.addContextMenuItem("Enable Debug Menu",function()changeSettings("debug",true)end)
+  self.addContextMenuItem("Enable "..desc,function()changeSettings(setting,true)end)
  end
 end
 
@@ -5165,35 +5141,6 @@ end
 
 function clearCache()
  Global.setTable("PPacksCache["..setData[curSet].setName.."]",{loading=nil,cache=nil})
-end
-
-function incAPI(obj,color,alt)
- if settings.APICalls==10 then
-  broadcastToColor("API rate maxed",color,{1,0,0})
-  return
- else
-  settings.APICalls=settings.APICalls+1
- end
- Global.SetTable("PPacks",settings)
- saveData()
- self.clearButtons()
- setUpButtons()
-end
-
-function decAPI(obj,color,alt)
- if settings.APICalls==2 then
-  broadcastToColor("API rate at minimum",color,{1,0,0})
-  return
- else
-  settings.APICalls=settings.APICalls-1
- end
- Global.SetTable("PPacks",settings)
- saveData()
- self.clearButtons()
- setUpButtons()
-end
-
-function dummyFunc()
 end
 
 r={}
@@ -5234,7 +5181,7 @@ end
 function requestSet(count,calls,setIDToLoad,setName,size,orderText,color)
  for c=1,calls do
   local page=count
-  r[count]=WebRequest.get('https://api.pokemontcg.io/v2/cards?q=!set.id:"'..setIDToLoad..'"&page='..tostring(c)..'&pageSize='..tostring(math.ceil(size/calls))..orderText,function()cacheSet(r[page],setName,color,page)end)
+  r[count]=WebRequest.get('https://api.pokemontcg.io/v2/cards?q=!set.id:"'..setIDToLoad..'"&page='..tostring(c)..'&pageSize='..tostring(math.ceil(size/calls))..orderText.."&select=id,name,images,number,rarity,set,supertype,subtypes,types,nationalPokedexNumbers",function()cacheSet(r[page],setName,color,page)end)
   count=count+1
  end
  return count
@@ -5242,7 +5189,7 @@ end
 
 function requestSMEnergy(count,setName,color)
  local page=count
- r[count]=WebRequest.get("https://api.pokemontcg.io/v2/cards?q=number:%5B164%20TO%20172%5D%20!set.id:sm1&order_by=number",function()cacheSet(r[page],setName,color,page)end)
+ r[count]=WebRequest.get("https://api.pokemontcg.io/v2/cards?q=number:%5B164%20TO%20172%5D%20!set.id:sm1&order_by=number&select=id,name,images,number,rarity,set,supertype,subtypes,types,nationalPokedexNumbers",function()cacheSet(r[page],setName,color,page)end)
  count=count+1
  return count
 end
@@ -5274,30 +5221,11 @@ function cacheSet(request,setName,color,page)
     local cardData=decoded[a].data
     for b=1,#cardData do
      local DeckID=999+curCard
-     local customData={
-       FaceURL=cardData[b].images.large.."?count="..cardData[b].number or"",
-       BackURL=getSteamUrl("809997459557414686/9ABD9158841F1167D295FD1295D7A597E03A7487"),
-       NumWidth=1,
-       NumHeight=1,
-       BackIsHidden=true
-      }
+     local customData=getCustomData(cardData[b])
      deckData.DeckIDs[curCard]=DeckID*100
      deckData.CustomDeck[DeckID]=customData
-     local rar=""
-     if cardData[b].rarity then
-      rar=" "..string.gsub(cardData[b].rarity,"[^%u]","")
-     end
-     deckData.ContainedObjects[curCard]={
-      Name="CardCustom",
-      GUID=tostring(123456+curCard),
-      Transform=deckData.Transform,
-      Nickname=cardData[b].name,
-      Description=cardData[b].set.name.." #"..cardData[b].number..rar,
-      GMNotes=enumTypes(cardData[b].supertype,cardData[b].subtypes,TypeNums)..convertNatDex(cardData[b].nationalPokedexNumbers)or"",
-      Memo=string.gsub(cardData[b].set.releaseDate,"/","")..buildFullCardNumber(cardData[b].number),
-      CardID=DeckID*100,
-      CustomDeck={[DeckID]=customData}
-     }
+     deckData.ContainedObjects[curCard]=getCardData(deckData.Transform,cardData[b],customData,DeckID*100,DeckID)
+     deckData.ContainedObjects[curCard]["GUID"]=tostring(123456+curCard)
      curCard=curCard+1
     end
    end
@@ -5309,40 +5237,68 @@ function cacheSet(request,setName,color,page)
  end
 end
 
-function buildFullCardNumber(cardNum)
- cardNum=buildCardNumber(cardNum)
- while #cardNum<3 do cardNum="0"..cardNum end
- return cardNum
+function getCardData(spawnLoc,cardData,customData,cardID,deckID)
+ local cardType=enumTable(enumTable(subTypeNums[cardData.supertype]or 0,cardData.subtypes,monSubTypeNums,0,0),cardData.subtypes,subTypeNums,0,0)
+ local monType=enumTable(0,cardData.types,TypeNums,10,200)
+ if monType==0 then monType=500 end
+ local rar=""
+ if cardData.rarity then
+  rar=" "..string.gsub(cardData.rarity,"[^%u]","")
+ end
+ return{Name="CardCustom",
+ Transform=spawnLoc,
+ Nickname=cardData.name,
+ Description=cardData.set.name.." #"..cardData.number..rar,
+ GMNotes=tostring(cardType)..convertNatDex(cardData.nationalPokedexNumbers)or"",
+ Memo=string.gsub(cardData.set.releaseDate,"/","")..buildCardNumber(cardData.number),
+ CardID=cardID,
+ CustomDeck={[deckID]=customData},
+ LuaScriptState=tostring(monType)
+}
+end
+
+function getCustomData(cardData)
+ return{FaceURL=cardData.images.large.."?count="..cardData.number or"",
+  BackURL="http://cloud-3.steamusercontent.com/ugc/809997459557414686/9ABD9158841F1167D295FD1295D7A597E03A7487/",
+  NumWidth=1,
+  NumHeight=1,
+  BackIsHidden=true
+ }
 end
 
 function buildCardNumber(cardNum)
  local numOnly=string.gsub(cardNum,"[^%d]","")
- if numOnly==cardNum then return cardNum end
- local finalNum=(tonumber(numOnly)or 0)+500
- for c in cardNum:gmatch"[^%d]" do
-  if c=="?"then c="}"end
-  if c=="!"then c="{"end
-  finalNum=string.byte(c)-65+finalNum
+ if numOnly!=cardNum then
+  local finalNum=(tonumber(numOnly)or 0)+500
+  for c in cardNum:gmatch"[^%d]" do
+   if c=="?"then c="}"end
+   if c=="!"then c="{"end
+   finalNum=string.byte(c)-65+finalNum
+  end
+  cardNum=tostring(finalNum)
  end
- return tostring(finalNum)
+ while #cardNum<3 do cardNum="0"..cardNum end
+ return cardNum
 end
 
 function convertNatDex(dexNums)
  if dexNums then dexNum=dexNums[1]else return "00000" end
  if natDexReplace[dexNum] then return natDexReplace[dexNum] end
- dexNum = tostring(dexNum*10)
+ dexNum=tostring(dexNum*10)
  while #dexNum<5 do dexNum="0"..dexNum end
  return dexNum
 end
 
-function enumTypes(Type,subTypes,TypeTable)
- local enum=TypeTable[Type]or 0
- if subTypes then
-  for c=1,#subTypes do
-   enum=enum+(TypeTable[subTypes[c]]or 0)
+function enumTable(enum,input,values,multi,extramulti)
+ if input then
+  for c=1,#input do
+   if values[input[c]]then
+    enum=enum+values[input[c]]*(1+multi)
+    if multi==0 then enum=enum+extramulti else multi=0 end
+   end
   end
  end
- return tostring(enum)
+ return enum
 end
 
 function prevSet(obj,color,alt)
@@ -5362,10 +5318,7 @@ end
 
 function SetAsPreviousGen()
  for c=#genPoints,1,-1 do
-  if genPoints[c]<curSet then
-   curSet=genPoints[c]
-   return
-  end
+  if genPoints[c]<curSet then curSet=genPoints[c]return end
  end
  curSet=genPoints[#genPoints]
 end
@@ -5387,16 +5340,13 @@ end
 
 function SetAsNextGen()
  for c=1,#genPoints do
-  if genPoints[c]>curSet then
-   curSet=genPoints[c]
-   return
-  end
+  if genPoints[c]>curSet then curSet=genPoints[c]return end
  end
  curSet=genPoints[1]
 end
 
 function getSteamUrl(url)
- if url then return "http://cloud-3.steamusercontent.com/ugc/"..url.."/"end
+ if url then return"http://cloud-3.steamusercontent.com/ugc/"..url.."/"end
 end
 
 function changeSet()
@@ -5415,7 +5365,7 @@ function saveData()
  self.script_state=json.serialize({set=curSet,settings=settings})
 end
 
-TypeNums={
+subTypeNums={
  ["Trainer"]=3,
  ["Energy"]=7,
  ["Supporter"]=1,
@@ -5423,6 +5373,23 @@ TypeNums={
  ["Pokémon Tool"]=3,
  ["Technical Machine"]=3,
  ["Special"]=1,
+}
+
+TypeNums={
+ Grass=1,
+ Fire=2,
+ Water=3,
+ Lightning=4,
+ Psychic=5,
+ Fighting=6,
+ Darkness=7,
+ Metal=8,
+ Fairy=9,
+ Dragon=10,
+ Colorless=11,
+}
+
+monSubTypeNums={
  ["Level-Up"]=1,
 }
 
