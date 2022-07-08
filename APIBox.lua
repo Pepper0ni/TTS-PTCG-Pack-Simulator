@@ -1,11 +1,11 @@
-EARLYBOXMESH="1023948871904321932/742E0B15FF0AB4C47A476822C6A30FD9D4469A04"
-MODERNBOXMESH="1841411102549381827/AB11C0364C61F5D683E8718CD5A0835D451F57D1"
-SQUAREBOXMESH="1848173079363295760/90E61F924B6B7399CFCB2E8351C58CE471AA9BA2"
-OLDSQUAREMESH="1841411102549341476/9A81D6EFDB30D6EFAC0DCEC77282DB7E548655B0"
-TINMESH="1030706251249348501/4E69F41EAEE557C7909B9ED16D2C6EFF5CABD7F9"
-PACKMESH="1809886125985857567/79E20FF167592798FFD8579BAF7E3A8412885535"
+EARLYBOXMESH="1847055358305950144/11EACB36A7A38654DA899E5D64888C9675AA41A2"
+MODERNBOXMESH="1847055358305976885/D62B63AABFF557AB5FED90C8F5F19CA599A23994"
+PROMOMESH="1848173079363295760/90E61F924B6B7399CFCB2E8351C58CE471AA9BA2"
+ETBMESH="1847055358306066655/9B94652745574FAC60A8D98EE68FCB56D841A94A"
+TINMESH="1847055358306165178/724B3213D226C2039D623E7E61773F9AA2D94EE5"
+PACKMESH="1847055267608913658/06B7E2D18FE9EAB64EF2402CD5BE728C70CD991E"
 PACKNORMAL="861734852198391028/D75480247FA058266F0D423501D867407458666D"
-BLISTERMESH="1670239067235311651/D0BD0C84FF352C54A9C26E5BBB86FDE15BF57173"
+BLISTERMESH="1847055358306028759/0EEDCE334679246BA73E535487283C64C64EFA9B"
 
 genPoints={1,9,19,43,66,81,98,116}
 
@@ -78,7 +78,7 @@ setData={
  size=53,
  setID="basep",
  custom={
-  mesh=SQUAREBOXMESH,
+  mesh=PROMOMESH,
   diffuse="1848173079360052348/29E3C3BCD1646F2A8BB41EC8A4DB3A8484D379FD"
  }},
 {setName="Fossil",
@@ -319,7 +319,7 @@ setData={
  size=18,
  setID="si1",
  custom={
-  mesh=SQUAREBOXMESH,
+  mesh=PROMOMESH,
   diffuse="1848173079360052265/FABA60560ACCDE2715749A75CDE3F9580D463169"
  }},
 {setName="Neo Revelation",
@@ -462,7 +462,7 @@ setData={
  size=9,
  setID="bp",
  custom={
-  mesh=SQUAREBOXMESH,
+  mesh=PROMOMESH,
   diffuse="1848173079360051661/420C5E9D7CF3C44735556312CFF3CC8829AC6B73"
  }},
 {setName="Aquapolis",
@@ -543,7 +543,7 @@ setData={
  size=40,
  setID="np",
  custom={
-  mesh=SQUAREBOXMESH,
+  mesh=PROMOMESH,
   diffuse="1848173079360052122/1133D4091EBEE8654DDE923FB492709BFB3633CC"}},
 {setName="Ruby & Sapphire",
  size=109,
@@ -707,7 +707,7 @@ setData={
  setID="tk1a",
  subSet={size=10,setID="tk1b"},
  custom={
-  mesh=SQUAREBOXMESH,
+  mesh=PROMOMESH,
   diffuse="1848173079360051920/CA71FF60A6DCD4F102B9733823CC1C67446AA558"}},
 {setName="Hidden Legends",
  size=102,
@@ -1071,7 +1071,7 @@ setData={
  setID="tk2a",
  subSet={size=12,setID="tk2b"},
  custom={
-  mesh=SQUAREBOXMESH,
+  mesh=PROMOMESH,
   diffuse="1848173079360051989/6D1D6ED79B20D4CDB4FB0E8B938FBEB76D94EF54"}},
 {setName="Holon Phantoms",
  size=111,
@@ -1266,7 +1266,7 @@ setData={
 {setName="DP Black Star Promos",
  size=56,
  setID="dpp",
- custom={mesh=SQUAREBOXMESH,
+ custom={mesh=PROMOMESH,
   diffuse="1848173079360051848/A0BD5B946B074CB4F934FFC49BCFBF15082BDFAB"
  }},
 {setName="Diamond & Pearl",
@@ -1772,14 +1772,14 @@ setData={
  size=16,
  setID="ru1",
  custom={
-  mesh=SQUAREBOXMESH,
+  mesh=PROMOMESH,
   diffuse="1848173079360052196/C1BACBC854E43665E0D1B5D7C8D05B24C25B516F"
  }},
 {setName="HGSS Black Star Promos",
  size=25,
  setID="hsp",
  custom={
-  mesh=SQUAREBOXMESH,
+  mesh=PROMOMESH,
   diffuse="1848173079360052038/34D538BB05B97C338229A41EF54DED3781D45B3C"
  }},
 {setName="HeartGold & SoulSilver",
@@ -2028,7 +2028,7 @@ setData={
  size=101,
  setID="bwp",
 custom={
-  mesh=SQUAREBOXMESH,
+  mesh=PROMOMESH,
   diffuse="1848173079360051765/9B208AE51A8C8ECB517E29951C08660FA25BDC6A",
 
   }},
@@ -2083,7 +2083,7 @@ custom={
  size=12,
  setID="mcd11",
  custom={
-  mesh=SQUAREBOXMESH,
+  mesh=PROMOMESH,
   diffuse="1829036352663765525/5CD4F01D2C09532C7871F1200CAD77E02158A3DE"
  }},
 {setName="Emerging Powers",
@@ -2253,7 +2253,7 @@ custom={
  size=12,
  setID="mcd12",
  custom={
-  mesh=SQUAREBOXMESH,
+  mesh=PROMOMESH,
   diffuse="1829036352663766112/B3E77C1E337E1390295E2ABBA0D1723C3FBA4522"
  }},
 {setName="Dragons Exalted",
@@ -2586,14 +2586,14 @@ custom={
  size=216,
  setID="xyp",
  custom={
-  mesh=SQUAREBOXMESH,
+  mesh=PROMOMESH,
   diffuse="1848173079360052411/265682A28EB8AC3217B360B07204845F92530E1B",
  }},
 {setName="Kalos Starter Set",
  size=39,
  setID="xy0",
  custom={
-  mesh=SQUAREBOXMESH,
+  mesh=PROMOMESH,
   diffuse="1848173079360031991/17642D8E291E80267A42F06774EF4FAE92A46A71",
  }},
 {setName="XY",
@@ -2690,7 +2690,7 @@ custom={
 --  size=12,
 --  setID="mcd14",
 --  custom={
---   mesh=SQUAREBOXMESH,
+--   mesh=PROMOMESH,
 --   diffuse="1829036352663955607/BAABDB14C35540FA45A343E576C534CE037A4430"
 --  }},
 {setName="Furious Fists",
@@ -2994,7 +2994,7 @@ custom={
 --  size=12,
 --  setID="mcd15",
 --  custom={
---   mesh=SQUAREBOXMESH,
+--   mesh=PROMOMESH,
 --   diffuse="1829036352664058331/2BE759A5B389628B9372BA2DAFA8A2080982B445"
 --  }},
 {setName="BREAKpoint",
@@ -3051,7 +3051,7 @@ custom={
  size=117,
  setID="g1",
  custom=
-  {mesh=OLDSQUAREMESH,
+  {mesh=ETBMESH,
   diffuse="1030706251248906884/4DD17D273D0FCD9F1E135DBD48950BE77728BA7E"
  },
  packData={
@@ -3224,7 +3224,7 @@ custom={
  size=12,
  setID="mcd16",
  custom={
-  mesh=SQUAREBOXMESH,
+  mesh=PROMOMESH,
   diffuse="1829036352668490865/D85F0E0D19A83C44B647997880C0F997B17FB84B"
  }},
 {setName="Evolutions",
@@ -3292,7 +3292,7 @@ custom={
  size=251,
  setID="smp",
  custom={
-  mesh=SQUAREBOXMESH,
+  mesh=PROMOMESH,
   diffuse="1848173079360031289/E30625362132A3B65488091077963448D0C675CF"
 }},
 {setName="Sun & Moon",
@@ -3446,7 +3446,7 @@ custom={
  setID="sm35",
  SMEnergy=true,
  custom={
-  mesh=OLDSQUAREMESH,
+  mesh=ETBMESH,
   diffuse="1030706720824004414/449EDB8EC75FC286834DB0D300A87B15275728AF"
  },
  packData={
@@ -3552,7 +3552,7 @@ custom={
 --  size=12,
 --  setID="mcd17",
 --  custom={
---   mesh=SQUAREBOXMESH,
+--   mesh=PROMOMESH,
 --   diffuse="1829036352668491374/D63012154ACF93CCF27C3355DC0F4080FFF5E360"
 --  }},
 {setName="Ultra Prism",
@@ -3734,7 +3734,7 @@ custom={
  setID="sm75",
  SMEnergy=true,
  custom={
-  mesh=OLDSQUAREMESH,
+  mesh=ETBMESH,
   diffuse="1030706720824692197/92ABF851389DB7FC2AA2BA945D5C4B0491D929BB"
  },
  packData={
@@ -3788,7 +3788,7 @@ custom={
 --  size=12,
 --  setID="mcd18",
 --  custom={
---   mesh=SQUAREBOXMESH,
+--   mesh=PROMOMESH,
 --   diffuse="1829036352668491656/3A69AA2BB927C75779CA62477D8AF40906AD9165"
 --  }},
 {setName="Lost Thunder",
@@ -4040,7 +4040,7 @@ custom={
  setID="sm115",
  subSet={size=94,setID="sma"},
  custom={
-  mesh=OLDSQUAREMESH,
+  mesh=ETBMESH,
   diffuse="1030706720825085766/F0F09A6F571FB67E86E3AC178310015920B2FAAA"
  },
  packData={
@@ -4106,7 +4106,7 @@ custom={
  size=12,
  setID="mcd19",
  custom={
-  mesh=SQUAREBOXMESH,
+  mesh=PROMOMESH,
   diffuse="1829036352668492001/EC6D4BE2414CE50FE470150D12EF43052C5652CC"
  }},
 {setName="Cosmic Eclipse",
@@ -4169,7 +4169,7 @@ custom={
 {setName="SWSH Black Star Promos",
  setID="swshp",
  custom={
-  mesh=SQUAREBOXMESH,
+  mesh=PROMOMESH,
   diffuse="1848173079360029041/5B20F857803464844D18FE750DFF8158E60B0180"
  }},
 {setName="Sword & Shield",
@@ -4342,7 +4342,7 @@ custom={
  size=80,
  setID="swsh35",
  custom={
-  mesh=OLDSQUAREMESH,
+  mesh=ETBMESH,
   diffuse="1639829753513359249/E8E086E52B72A0AB816802A76069835E0C36445C"},
  packData={
   art={
@@ -4460,7 +4460,7 @@ custom={
  setID="swsh45",
  subSet={size=122,setID="swsh45sv"},
  custom={
-  mesh=OLDSQUAREMESH,
+  mesh=ETBMESH,
   diffuse="1773825330007107488/EA5783CE54C9EAA33CE5AA02597D84AA12E56A70"
  },
  packData={
@@ -4714,7 +4714,7 @@ custom={
  size=25,
  setID="mcd21",
  custom={
-  mesh=SQUAREBOXMESH,
+  mesh=PROMOMESH,
   diffuse="1829036352668492469/EC30817B517A553A4D2F08D935AC05EF4428EDA4"
  },
  packData={
@@ -5017,6 +5017,71 @@ custom={
 }]]
  }
 },
+{setName="Pokémon Go",
+ size=88,
+ setID="pgo",
+ custom={
+  mesh=PACKMESH,
+  diffuse="1847053979878381372/E4DF611A16F1F497A852CA406D574C345131CBF2",
+  normal=PACKNORMAL
+ },
+ packData={
+  art={
+   "1847053979878381372/E4DF611A16F1F497A852CA406D574C345131CBF2"
+  },
+  dropSlots=[[{
+--1 uncommon
+  {cards={2,7,9,14,16,20,33,34,38,39,44,51,{63,70}},size=20,num=3},
+--2 energy TODO find a way to get energies reliably. 1/10.75 chance of being a vstar marker instead
+  {cards={},num=0,size=8,energy=true},
+--3 gold
+  {cards={86,87,88},num=0},
+--4 Rainbow
+  {cards={{79,85}},size=7,num=0},
+--5 alt V
+  {cards={72,74},num=0},
+--6 FA mon
+  {cards={71,73,75,76,77},num=0},
+--7 FA trainer
+  {cards={78},num=0},
+--8 Vstar
+  {cards={31,50},num=0},
+--9 Vmax
+  {cards={48},num=0},
+--10 V
+  {cards={5,30,40,47,49,58},num=0},
+--11 holo
+  {cards={3,10,12,17,22,23,24,26,28,29,35,43,46,52,55},num=0},
+--12 Ditto
+  {cards={53},num=0},
+--13 radiant
+  {cards={4,11,18},num=0},
+--14 reverse
+  {cards={{1,3},{6,10},{12,17},{19,29},{32,39},{41,46},51,52,{54,57},{59,70}},size=57,num=0},
+--15 common
+  {cards={1,6,8,13,15,19,21,25,27,32,36,37,41,42,45,54,56,57,59,60,61,62},num=5},
+}]],
+  pullRates=[[{
+ {rates={
+  {slot=3,odds=1/80.3},--gold
+  {slot=4,odds=1/45.3},--Rainbow
+  {slot=5,odds=1/122},--alt V
+  {slot=6,odds=1/24.7},--FA mon
+  {slot=7,odds=1/234},--FA trainer
+  {slot=8,odds=1/53.6},--Vmax
+  {slot=9,odds=1/34.7},--Vstar
+  {slot=10,odds=1/6.16},--V
+  {slot=11}--holo
+ },num=1},
+--reverse
+ {rates={
+  {slot=12,odds=1/54.1},--Ditto
+  {slot=13,odds=1/19},--radiant
+  {slot=14}--reverse
+ },num=1}
+}]]
+ }
+},
 }
 
 function onObjectLeaveContainer(cont,leaving)
@@ -5068,10 +5133,10 @@ function setUpButtons()
  font_size=450,
  scale={1/selfScale.x,1/selfScale.y,1/selfScale.z},
  }
- butWrapper(params,{0,0.5,3},'Get Whole Set',"","getSet")
+ butWrapper(params,{0,0.1,3},'Get Whole Set',"","getSet")
  params.width=500
- butWrapper(params,{-4.2,0.5,3},'<',"","prevSet")
- butWrapper(params,{4.2,0.5,3},'>',"","nextSet")
+ butWrapper(params,{-4.2,0.1,3},'<',"","prevSet")
+ butWrapper(params,{4.2,0.1,3},'>',"","nextSet")
 end
 
 function butWrapper(params,pos,label,tool,func)
@@ -5238,7 +5303,7 @@ function cacheSet(request,setName,color,page)
 end
 
 function getCardData(spawnLoc,cardData,customData,cardID,deckID)
- local cardType=enumTable(enumTable(subTypeNums[cardData.supertype]or 0,cardData.subtypes,monSubTypeNums,0,0),cardData.subtypes,subTypeNums,0,0)
+ local cardType=enumTable(subTypeNums[cardData.supertype]or 0,cardData.subtypes,subTypeNums,0,0)
  local monType=enumTable(0,cardData.types,TypeNums,10,200)
  if monType==0 then monType=500 end
  local rar=""
@@ -5249,7 +5314,7 @@ function getCardData(spawnLoc,cardData,customData,cardID,deckID)
  Transform=spawnLoc,
  Nickname=cardData.name,
  Description=cardData.set.name.." #"..cardData.number..rar,
- GMNotes=tostring(cardType)..convertNatDex(cardData.nationalPokedexNumbers)or"",
+ GMNotes=tostring(cardType)..convertNatDex(cardData.nationalPokedexNumbers,cardData.subtypes),
  Memo=string.gsub(cardData.set.releaseDate,"/","")..buildCardNumber(cardData.number),
  CardID=cardID,
  CustomDeck={[deckID]=customData},
@@ -5281,12 +5346,17 @@ function buildCardNumber(cardNum)
  return cardNum
 end
 
-function convertNatDex(dexNums)
- if dexNums then dexNum=dexNums[1]else return "00000" end
- if natDexReplace[dexNum] then return natDexReplace[dexNum] end
- dexNum=tostring(dexNum*10)
- while #dexNum<5 do dexNum="0"..dexNum end
- return dexNum
+function convertNatDex(dexNums,subTypes)
+ if dexNums then dexNum=dexNums[1]else return"0000000"end
+ if natDexReplace[dexNum] then
+  dexNum=natDexReplace[dexNum]
+ else
+  dexNum=tostring(dexNum*10)
+  while #dexNum<5 do dexNum="0"..dexNum end
+ end
+ local monSubType=tostring(enumTable(0,subTypes,monSubTypeNums,0,0))
+ while #monSubType<2 do monSubType="0"..monSubType end
+ return dexNum..monSubType
 end
 
 function enumTable(enum,input,values,multi,extramulti)
@@ -5391,6 +5461,16 @@ TypeNums={
 
 monSubTypeNums={
  ["Level-Up"]=1,
+ BREAK=2,
+ EX=3,
+ MEGA=1,
+ GX=5,
+ ["TAG TEAM"]=1,
+ SP=7,
+ LEGEND=9,
+ V=10,
+ VMAX=11,
+ VSTAR=12,
 }
 
 natDexReplace={

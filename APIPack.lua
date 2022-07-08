@@ -146,7 +146,7 @@ function cacheSet(request,page)
 end
 
 function getCardData(spawnLoc,cardData,customData,cardID,deckID)
- local cardType=enumTable(enumTable(subTypeNums[cardData.supertype]or 0,cardData.subtypes,monSubTypeNums,0,0),cardData.subtypes,subTypeNums,0,0)
+ local cardType=enumTable(subTypeNums[cardData.supertype]or 0,cardData.subtypes,subTypeNums,0,0)
  local monType=enumTable(0,cardData.types,TypeNums,10,200)
  if monType==0 then monType=500 end
  local rar=""
@@ -157,7 +157,7 @@ function getCardData(spawnLoc,cardData,customData,cardID,deckID)
  Transform=spawnLoc,
  Nickname=cardData.name,
  Description=cardData.set.name.." #"..cardData.number..rar,
- GMNotes=tostring(cardType)..convertNatDex(cardData.nationalPokedexNumbers)or"",
+ GMNotes=tostring(cardType)..convertNatDex(cardData.nationalPokedexNumbers,cardData.subtypes),
  Memo=string.gsub(cardData.set.releaseDate,"/","")..buildCardNumber(cardData.number),
  CardID=cardID,
  CustomDeck={[deckID]=customData},
@@ -199,12 +199,17 @@ function getDeckData(spawnPos,cardRot,hands)
  }
 end
 
-function convertNatDex(dexNums)
- if dexNums then dexNum=dexNums[1]else return "00000" end
- if natDexReplace[dexNum]then return natDexReplace[dexNum]end
- dexNum=tostring(dexNum*10)
- while #dexNum<5 do dexNum="0"..dexNum end
- return dexNum
+function convertNatDex(dexNums,subTypes)
+ if dexNums then dexNum=dexNums[1]else return"0000000"end
+ if natDexReplace[dexNum] then
+  dexNum=natDexReplace[dexNum]
+ else
+  dexNum=tostring(dexNum*10)
+  while #dexNum<5 do dexNum="0"..dexNum end
+ end
+ local monSubType=tostring(enumTable(0,subTypes,monSubTypeNums,0,0))
+ while #monSubType<2 do monSubType="0"..monSubType end
+ return dexNum..monSubType
 end
 
 function enumTable(enum,input,values,multi,extramulti)
@@ -315,6 +320,16 @@ TypeNums={
 
 monSubTypeNums={
  ["Level-Up"]=1,
+ BREAK=2,
+ EX=3,
+ MEGA=1,
+ GX=5,
+ ["TAG TEAM"]=1,
+ SP=7,
+ LEGEND=9,
+ V=10,
+ VMAX=11,
+ VSTAR=12,
 }
 
 natDexReplace={
