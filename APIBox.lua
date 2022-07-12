@@ -5063,20 +5063,20 @@ custom={
 }]],
   pullRates=[[{
  {rates={
-  {slot=3,odds=1/80.3},--gold
-  {slot=4,odds=1/45.3},--Rainbow
-  {slot=5,odds=1/122},--alt V
-  {slot=6,odds=1/24.7},--FA mon
-  {slot=7,odds=1/234},--FA trainer
-  {slot=8,odds=1/53.6},--Vmax
-  {slot=9,odds=1/34.7},--Vstar
-  {slot=10,odds=1/6.16},--V
+  {slot=3,odds=1/86.5},--gold
+  {slot=4,odds=1/45},--Rainbow
+  {slot=5,odds=1/123.1},--alt V
+  {slot=6,odds=1/24.3},--FA mon
+  {slot=7,odds=1/226.8},--FA trainer
+  {slot=8,odds=1/54},--Vmax
+  {slot=9,odds=1/33.8},--Vstar
+  {slot=10,odds=1/6.24},--V
   {slot=11}--holo
  },num=1},
 --reverse
  {rates={
-  {slot=12,odds=1/54.1},--Ditto
-  {slot=13,odds=1/19},--radiant
+  {slot=12,odds=1/28.44},--Ditto
+  {slot=13,odds=1/19.8},--radiant
   {slot=14}--reverse
  },num=1}
 }]]
