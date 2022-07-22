@@ -1,11 +1,11 @@
-EARLYBOXMESH="1847055358305950144/11EACB36A7A38654DA899E5D64888C9675AA41A2"
-MODERNBOXMESH="1847055358305976885/D62B63AABFF557AB5FED90C8F5F19CA599A23994"
+EARLYBOXMESH="1915736343863475528/8C70A62362271019A822CA9C7B8FBF4CFF91E62A"
+MODERNBOXMESH="1915736343864395246/70BDADDE29B37E0D18AFE3C0B37839B0CE0E8652"
 PROMOMESH="1848173079363295760/90E61F924B6B7399CFCB2E8351C58CE471AA9BA2"
-ETBMESH="1847055358306066655/9B94652745574FAC60A8D98EE68FCB56D841A94A"
+ETBMESH="1915736343864444836/FC413408EE51C52BF8FB089315AF51CC49F5D357"
 TINMESH="1847055358306165178/724B3213D226C2039D623E7E61773F9AA2D94EE5"
 PACKMESH="1847055267608913658/06B7E2D18FE9EAB64EF2402CD5BE728C70CD991E"
 PACKNORMAL="861734852198391028/D75480247FA058266F0D423501D867407458666D"
-BLISTERMESH="1847055358306028759/0EEDCE334679246BA73E535487283C64C64EFA9B"
+BLISTERMESH="1915736343864551541/81D61FA5E52BB4A69F8860FCD8D6015C75DF378E"
 
 genPoints={1,9,19,43,66,81,98,116}
 
@@ -24,22 +24,22 @@ setData={
    "1023948379557819667/24029F76817150DA9E8D4BEB38525D09ECFBD2D3"
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={{23,42},{80,90},96},num=3,size=32},
---2 holo
+--2 RH
   {cards={{1,7},{9,16}},num=0,size=15},
---3 rare
+--3 R
   {cards={{17,22},{70,79}},num=0,size=16},
 --4 energy
   {energy=true,cards={{97,102}},num=2,size=6},
---5 common
+--5 C
   {cards={{43,69},{91,95}},num=5,size=32},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/3},--holo
-  {slot=3}--rare
+  {slot=2,odds=1/3},--RH
+  {slot=3}--R
  },num=1},
 }]]
  }},
@@ -57,20 +57,20 @@ setData={
    "1023948314360453625/4F532455E266DAFAECE2D169EADB625C5730E2AB"
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={{33,48}},num=3,size=16},
---2 holo
+--2 RH
   {cards={{1,16}},num=0,size=16},
---3 rare
+--3 R
   {cards={{17,32}},num=0,size=16},
---4 common
+--4 C
   {cards={{49,64}},num=7,size=16},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/3},--holo
-  {slot=3}--rare
+  {slot=2,odds=1/3},--RH
+  {slot=3}--R
  },num=1},
 }]]
  }},
@@ -95,20 +95,20 @@ setData={
    "1023948379558161578/4777AED88EFF568E0103CE291159C3ED19D5D46C"
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={{31,45},58},num=3,size=16},
---2 holo
+--2 RH
   {cards={{1,15}},num=0,size=15},
---3 rare
+--3 R
   {cards={{16,30}},num=0,size=15},
---4 common
+--4 C
   {cards={{46,57},{59,62}},num=7,size=16},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/3},--holo
-  {slot=3}--rare
+  {slot=2,odds=1/3},--RH
+  {slot=3}--R
  },num=1},
 }]]
  }},
@@ -129,20 +129,20 @@ setData={
   dropSlots=[[{
 --1 energy
   {cards={{125,130}},size=6,num=2,energy=true},
---2 holo
+--2 RH
   {cards={{1,20}},num=0,size=20},
---3 rare
+--3 R
   {cards={{21,32},{101,108}},num=0,size=20},
---4 common
+--4 C
   {cards={{65,100},{118,123}},num=5,size=42},
---5 uncommon
+--5 U
   {cards={{33,64},{109,117},124},num=3,size=42},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/3},--holo
-  {slot=3}--rare
+  {slot=2,odds=1/3},--RH
+  {slot=3}--R
  },num=1},
 }]]
  }},
@@ -161,23 +161,23 @@ setData={
    "1023948379558683544/1A85959BA5246A6CAF3096FDFD314CCBBCA52AB1",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={{32,48},{73,77},81,82},num=3,size=24},
---2 secret
+--2 RS
   {cards={83},size=1,num=0},
---3 holo
+--3 RH
   {cards={{1,17}},num=0,size=17},
---4 rare
+--4 R
   {cards={{18,31},71,72,80},num=0,size=17},
---5 common
+--5 C
   {cards={{49,70},78,79},num=7,size=24},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/54},--secret
-  {slot=3,remaining=true,odds=1/3},--holo
-  {slot=4}--rare
+  {slot=2,odds=1/54},--RS
+  {slot=3,remaining=true,odds=1/3},--RH
+  {slot=4}--R
  },num=1},
 }]]
  }},
@@ -198,20 +198,20 @@ setData={
   dropSlots=[[{
 --1 energy
   {cards={{127,132}},size=6,num=1,energy=true},
---2 uncommon
+--2 U
   {cards={{35,60},{105,120}},num=3,size=42},
---3 holo
+--3 RH
   {cards={{1,19}},num=0,size=19},
---4 rare
+--4 R
   {cards={{20,34},{97,104}},num=0,size=23},
---5 common
+--5 C
   {cards={{61,96},{121,126}},num=6,size=42},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=3,odds=1/3},--holo
-  {slot=4}--rare
+  {slot=3,odds=1/3},--RH
+  {slot=4}--R
  },num=1},
 }]]
  }},
@@ -232,20 +232,20 @@ setData={
   dropSlots=[[{
 --1 energy
   {cards={{127,132}},size=6,num=1,energy=true},
---2 uncommon
+--2 U
   {cards={{31,59},{111,123}},num=3,size=42},
---3 holo
+--3 RH
   {cards={{1,20}},num=0,size=20},
---4 rare
+--4 R
   {cards={{21,30},{100,110}},num=0,size=21},
---5 common
+--5 C
   {cards={{60,99},{124,126}},num=6,size=43},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=3,odds=1/3},--holo
-  {slot=4}--rare
+  {slot=3,odds=1/3},--RH
+  {slot=4}--R
  },num=1},
 }]]
  }},
@@ -264,13 +264,13 @@ setData={
    "1023948522915282099/3848FFAC41FCB9D6728010757F9D28A696ABEEC3",
   },
   dropSlots=[[{
---1 common
+--1 C
   {cards={{53,82},{99,103}},num=6,size=35},
---2 uncommon
+--2 U
   {cards={{26,52},{91,98}},num=3,size=35},
---3 holo
+--3 RH
   {cards={{1,19}},num=0,size=19},
---4 rare
+--4 R
   {cards={{20,25},{83,90},104,105},num=0,size=16},
 --5 energy
   {cards={{106,111}},size=6,num=1,energy=true},
@@ -278,8 +278,8 @@ setData={
   pullRates=[[{
 --rare
  {rates={
-  {slot=3,odds=1/3},--holo
-  {slot=4}--rare
+  {slot=3,odds=1/3},--RH
+  {slot=4}--R
  },num=1},
 }]]
  }},
@@ -298,20 +298,20 @@ setData={
    "1023948676532789390/E737FDC9F7BE596B49790A447AA43D8EFF61E3EF",
   },
   dropSlots=[[{
---1 holo
+--1 RH
   {cards={{1,17}},num=0,size=17},
---2 rare
+--2 R
   {cards={{18,36}},num=0,size=19},
---3 uncommon
+--3 U
   {cards={{37,52},{72,74}},num=3,size=19},
---4 common
+--4 C
   {cards={{53,71},75},num=7,size=20},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=1,odds=1/3},--holo
-  {slot=2}--rare
+  {slot=1,odds=1/3},--RH
+  {slot=2}--R
  },num=1},
 }]]
  }},
@@ -337,23 +337,23 @@ setData={
    "1023948676533119311/2638963C22739698CF7EF61209B85D21C7AD4426",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={{28,40},{60,63}},num=3,size=17},
 --2 shiny
   {cards={65,66},num=0,size=2},
---3 holo
+--3 RH
   {cards={{1,14}},num=0,size=14},
---4 rare
+--4 R
   {cards={{15,27}},num=0,size=13},
---5 common
+--5 C
   {cards={{41,59},64},num=7,size=20},
 }]],
  pullRates=[[{
 --rare
  {rates={
   {slot=2,odds=1/18},--shiny
-  {slot=3,remaining=true,odds=1/3},--holo
-  {slot=4}--rare
+  {slot=3,remaining=true,odds=1/3},--RH
+  {slot=4}--R
   },num=1},
  }]]
  }},
@@ -372,23 +372,23 @@ setData={
    "1023948676537153536/63942AA55FED9C0B928020A98CDF03F8DAA63F59",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={{31,60},{97,103}},num=3,size=37},
 --2 shiny
   {cards={{106,113}},num=0,size=8},
---3 holo
+--3 RH
   {cards={{1,16}},num=0,size=16},
---4 rare
+--4 R
   {cards={{17,30},{92,96}},num=0,size=19},
---5 common
+--5 C
   {cards={{61,91},104,105},num=7,size=33},
 }]],
   pullRates=[[{
 --rare
  {rates={
   {slot=2,odds=1/12},--shiny
-  {slot=3,remaining=true,odds=1/3},--holo
-  {slot=4}--rare
+  {slot=3,remaining=true,odds=1/3},--RH
+  {slot=4}--R
  },num=1},
 }]]
  }},
@@ -407,11 +407,11 @@ setData={
    "1023948676537155797/74A4733966DCC86B3EB85605FA1A6D940ECE7AB4",
   },
   dropSlots=[[{
---1 reverse
+--1 rev
   {cards={{1,110}},num=1,size=110},
---2 holo
+--2 RH
   {cards={{1,19}},num=0,size=19},
---3 rare
+--3 R
   {cards={{20,35},{102,104}},num=0,size=19},
 --4 others
   {cards={97,63,86,80,65,86,97,105,80,72,38,72,93,106,93,76,46,76,73,64,73,67,49,67,94,42,94,99,50,99,83,56,83,78,100,75,78,53,75,108,82,55,82,69,54,69,68,47,68,89,61,89,108,36,74,98,107,98,87,60,87,70,37,70,110,45,85,71,41,71,90,91,62,91,90,101,84,81,59,81,79,51,79,77,44,77,84,48,109,109,57,110,96,66,96,95,39,95,85,58,74,92,40,92,88,43,88,110,52,108},num=9,fixed=true},
@@ -419,8 +419,8 @@ setData={
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/3},--holo
-  {slot=3}--rare
+  {slot=2,odds=1/3},--RH
+  {slot=3}--R
  },num=1},
 }]]
  }},
@@ -439,22 +439,22 @@ setData={
    "1023948784651240428/EA1613EBED94D963F28199C7434F18EA6FB0BFAF",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={{71,92},{137,152}},num=2,size=38},
---2 rare
+--2 R
   {cards={{33,70},158,159},num=1,size=40},
---3 reverse
+--3 rev
   {cards={{33,159}},num=1,size=127},
---4 holo
+--4 RH
   {cards={{1,32}},num=0,size=32},
---5 common
+--5 C
   {cards={{93,136},{153,157}},num=4,size=49},
 }]],
   pullRates=[[{
 --premium
  {rates={
-  {slot=4,odds=1/3},--holo
-  {slot=5}--common
+  {slot=4,odds=1/3},--RH
+  {slot=5}--C
  },num=1},
 }]]
  }},
@@ -480,25 +480,25 @@ setData={
    "1023948871895086295/38985CF03E53B1844DFB886DB26BFA10D1EDA1A7",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={{45,66},{119,141},{145,147}},num=2,size=48},
---2 rare
+--2 R
   {cards={{1,44},118,{142,144}},num=1,size=48},
---3 reverse
+--3 rev
   {cards={{1,147}},num=1,size=147},
 --4 crystal
   {cards={{148,150}},num=0,size=3},
---5 holo
+--5 RH
   {cards={{151,182}},num=0,size=32},
---6 common
+--6 C
   {cards={{67,117},{121,125}},num=4,size=51},
 }]],
   pullRates=[[{
 --premium
  {rates={
   {slot=4,odds=1/36},--crystal
-  {slot=5,remaining=true,odds=1/3},--holo
-  {slot=6}--common
+  {slot=5,remaining=true,odds=1/3},--RH
+  {slot=6}--C
  },num=1},
 }]]
  }},
@@ -517,25 +517,25 @@ setData={
    "1023948871895139847/6509B33110F0190D18D339F1EE6DD0ACA3552C1B",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={{36,45},{119,144}},num=2,size=36},
---2 rare
+--2 R
   {cards={{1,35}},num=1,size=35},
---3 reverse
+--3 rev
   {cards={{1,144}},num=1,size=144},
 --4 crystal
   {cards={{145,150}},num=0,size=6},
---5 holo
+--5 RH
   {cards={{151,182}},num=0,size=32},
---6 common
+--6 C
   {cards={{46,118}},num=4,size=73},
 }]],
   pullRates=[[{
 --premium
  {rates={
   {slot=4,odds=1/12},--crystal
-  {slot=5,remaining=true,odds=1/3},--holo
-  {slot=6}--common
+  {slot=5,remaining=true,odds=1/3},--RH
+  {slot=6}--C
  },num=1},
 }]]
  }},
@@ -560,28 +560,28 @@ setData={
    "1023948871899168209/6623CA011679B62C64A5BF78AC130488E44C9F58",
   },
   dropSlots=[[{
---1 rare
+--1 R
   {cards={{15,24},{93,95}},num=1,size=13},
---2 reverse
+--2 rev
   {cards={{1,95},{104,109}},num=1,size=101},
---3 uncommon
+--3 U
   {cards={{25,48},{80,89}},num=2,size=34},
 --4 energy
   {cards={{104,109}},num=0,size=6,energy=true},
 --5 ex
   {cards={{96,103}},num=0,size=8},
---6 holo
+--6 RH
   {cards={{1,14}},num=0,size=14},
---7 common
+--7 C
   {cards={{49,79},{90,92}},num=4,size=34},
 }]],
   pullRates=[[{
 --premium
  {rates={
   {slot=5,odds=1/6},--ex
-  {slot=6,odds=1/6},--holo
+  {slot=6,odds=1/6},--RH
   {slot=4,odds=1/3},--energy
-  {slot=7}--common
+  {slot=7}--C
  },num=1},
 }]]
  }},
@@ -600,25 +600,25 @@ setData={
    "1023948871899479045/3F3A0C047791064882425A1293DE9E55B7255ED2",
   },
   dropSlots=[[{
---1 rare
+--1 R
   {cards={{15,26},93},num=1,size=13},
---2 reverse
+--2 rev
   {cards={{1,93}},num=1,size=93},
---3 uncommon
+--3 U
   {cards={{27,55},{86,89}},num=2,size=33},
 --4 ex
   {cards={{94,100}},num=0,size=7},
---5 holo
+--5 RH
   {cards={{1,14}},num=0,size=14},
---6 common
+--6 C
   {cards={{56,85},{90,92}},num=4,size=33},
 }]],
   pullRates=[[{
 --premium
  {rates={
   {slot=4,odds=1/6},--ex
-  {slot=5,odds=1/6},--holo
-  {slot=6}--common
+  {slot=5,odds=1/6},--RH
+  {slot=6}--C
  },num=1},
 }]]
  }},
@@ -637,28 +637,28 @@ setData={
    "1023948871900884755/525DF9F64BB40C73E35F03BBA9AABB06E6F32643",
   },
   dropSlots=[[{
---1 rare
+--1 R
   {cards={{13,22}},num=1,size=10},
---2 reverse
+--2 rev
   {cards={{1,88}},num=1,size=88},
---3 secret
+--3 RS
   {cards={{98,100}},num=0,size=3},
 --4 ex
   {cards={{89,97}},num=0,size=9},
---5 holo
+--5 RH
   {cards={{1,12}},num=0,size=12},
---6 uncommon
+--6 U
   {cards={{23,48},{82,88}},num=2,size=33},
---7 common
+--7 C
   {cards={{49,81}},num=4,size=33},
 }]],
   pullRates=[[{
 --premium
  {rates={
-  {slot=3,odds=1/36},--secret
+  {slot=3,odds=1/36},--RS
   {slot=4,odds=1/6},--ex
-  {slot=5,odds=5/36},--holo
-  {slot=7}--common
+  {slot=5,odds=5/36},--RH
+  {slot=7}--C
  },num=1},
 }]]
  }},
@@ -677,28 +677,28 @@ setData={
    "1023948871903707286/B155FC84F4BEE273CA990E6959EEE37DC454A95A",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={{24,38},{71,87}},num=2,size=32},
---2 secret
+--2 RS
   {cards={97},num=0},
 --3 ex
   {cards={{89,95}},num=0,size=7},
---4 holo
+--4 RH
   {cards={{1,12}},num=0,size=12},
---5 rare
+--5 R
   {cards={{13,23},88},num=0,size=12},
---6 reverse
+--6 rev
   {cards={{1,88}},num=1,size=88},
---7 common
+--7 C
   {cards={{39,70}},num=5,size=32},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/108},--secret
+  {slot=2,odds=1/108},--RS
   {slot=3,odds=1/12},--ex
-  {slot=4,remaining=true,odds=1/3},--holo
-  {slot=5}--rare
+  {slot=4,remaining=true,odds=1/3},--RH
+  {slot=5}--R
  },num=1},
 }]]
  }},
@@ -724,25 +724,25 @@ setData={
    "1023949075505640664/6A634E5766A8461E4961E54AE69A87C60CD97B52",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={{28,51},{84,92}},num=2,size=33},
 --2 ex
   {cards={{93,101}},num=0,size=9},
---3 holo
+--3 RH
   {cards={{1,15}},num=0,size=15},
---4 rare
+--4 R
   {cards={{16,27}},num=0,size=12},
---5 reverse
+--5 rev
   {cards={{1,92}},num=1,size=92},
---6 common
+--6 C
   {cards={{52,83}},num=5,size=32},
 }]],
   pullRates=[[{
 --rare
  {rates={
   {slot=2,odds=1/12},--ex
-  {slot=3,remaining=true,odds=1/3},--holo
-  {slot=4}--rare
+  {slot=3,remaining=true,odds=1/3},--RH
+  {slot=4}--R
  },num=1},
 }]]
  }},
@@ -761,28 +761,28 @@ setData={
    "1023949075505826214/16973664DAA71E9EB2A2DFC1C8A6B8279441BCCE",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={{31,52},{87,100}},num=2,size=36},
---2 secret
+--2 RS
   {cards={114,115,116},num=0},
 --3 ex
   {cards={{104,112}},num=0,size=9},
---4 holo
+--4 RH
   {cards={{1,17}},num=0,size=17},
---5 rare
+--5 R
   {cards={{18,30},103},num=0,size=14},
---6 reverse
+--6 rev
   {cards={{1,103}},num=1,size=103},
---7 common
+--7 C
   {cards={{53,86},101,102},num=5,size=36},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/36},--secret
+  {slot=2,odds=1/36},--RS
   {slot=3,odds=1/12},--ex
-  {slot=4,remaining=true,odds=1/3},--holo
-  {slot=5}--rare
+  {slot=4,remaining=true,odds=1/3},--RH
+  {slot=5}--R
  },num=1},
 }]]
  }},
@@ -808,31 +808,31 @@ setData={
    "1023949075505833941/3206FE187232B85DC0AFB12D5A1B94EC64B553A9",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={{29,50},{83,95}},num=2,size=35},
---2 gold
+--2 star
   {cards={107,108,109},num=0},
---3 secret
+--3 RS
   {cards={111},num=0},
 --4 ex
   {cards={{96,106}},num=0,size=11},
---5 holo
+--5 RH
   {cards={{1,14}},num=0,size=14},
---6 rare
+--6 R
   {cards={{15,28}},num=0,size=14},
---7 reverse
+--7 rev
   {cards={{1,95}},num=1,size=95},
---8 common
+--8 C
   {cards={{51,82}},num=5,size=32},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/72},--gold
-  {slot=3,odds=1/108},--secret
+  {slot=2,odds=1/72},--star
+  {slot=3,odds=1/108},--RS
   {slot=4,odds=1/12},--ex
-  {slot=5,remaining=true,odds=1/3},--holo
-  {slot=6}--rare
+  {slot=5,remaining=true,odds=1/3},--RH
+  {slot=6}--R
  },num=1},
 }]]
  }},
@@ -851,28 +851,28 @@ setData={
    "1023949075506750742/1AA4EDE036B9D1410F0272BBD7F2DDFFD4F4EDDD",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={{30,51},{84,95}},num=2,size=34},
---2 gold
+--2 start
   {cards={105,106,107},num=0},
 --3 ex
   {cards={{96,104}},num=0,size=9},
---4 holo
+--4 RH
   {cards={{1,15}},num=0,size=15},
---5 rare
+--5 R
   {cards={{16,29}},num=0,size=14},
---6 reverse
+--6 rev
   {cards={{1,95}},num=1,size=95},
---7 common
+--7 C
   {cards={{52,83}},num=5,size=32},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/72},--gold
+  {slot=2,odds=1/72},--start
   {slot=3,odds=1/12},--ex
-  {slot=4,remaining=true,odds=1/3},--holo
-  {slot=5}--rare
+  {slot=4,remaining=true,odds=1/3},--RH
+  {slot=5}--R
  },num=1},
 }]]
  }},
@@ -891,32 +891,32 @@ setData={
    "1023949183704940542/4C05299915F6583F8CC46D952CC70D6BC9D376B8",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={{22,42},{75,85}},num=2,size=32},
 --2 ex
   {cards={{90,100}},num=0,size=11},
---3 holo
+--3 RH
   {cards={{1,11}},num=0,size=11},
---4 rare
+--4 R
   {cards={{12,21},{86,89}},num=0,size=14},
 --5 energy
   {cards={{101,106}},num=0,size=6,energy=true},
---6 reverse
+--6 rev
   {cards={{1,89}},num=0,size=89},
---7 common
+--7 C
   {cards={{43,74}},num=5,size=32},
 }]],
   pullRates=[[{
---premium
+--rare
  {rates={
   {slot=2,odds=1/12},--ex
-  {slot=3,remaining=true,odds=1/3},--holo
-  {slot=4}--rare
+  {slot=3,remaining=true,odds=1/3},--RH
+  {slot=4}--R
  },num=1},
---reverse
+--rev
  {rates={
   {slot=5,odds=1/3},--energy
-  {slot=6}--reverse
+  {slot=6}--rev
  },num=1}
 }]]
  }},
@@ -943,38 +943,38 @@ setData={
    "1023949183704942940/38CC5D2ED944DA7B99D72DB51F0C3D8FB751D3BB",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={{34,50},{80,93},{98,100}},num=2,size=34},
---2 gold
+--2 star
   {cards={113,114,115},num=0},
---3 secret
+--3 RS
   {cards={117},num=0},
 --4 ex
   {cards={{101,112}},num=0,size=12},
---5 holo
+--5 RH
   {cards={{1,19}},num=0,size=19},
---6 rare
+--6 R
   {cards={{20,33},96,97},num=0,size=16},
 --7 unown
   {cards={{118,145}},num=0,size=28},
---8 reverse
+--8 rev
   {cards={{1,100}},num=0,size=100},
---9 common
+--9 C
   {cards={{51,79},94,95},num=5,size=31},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/72},--gold
-  {slot=3,odds=1/36},--secret
+  {slot=2,odds=1/72},--star
+  {slot=3,odds=1/36},--RS
   {slot=4,odds=1/12},--ex
-  {slot=5,remaining=true,odds=1/3},--holo
-  {slot=6}--rare
+  {slot=5,remaining=true,odds=1/3},--RH
+  {slot=6}--R
  },num=1},
---reverse
+--rev
 {rates={
   {slot=7,odds=1/5},--unown
-  {slot=8}--rare
+  {slot=8}--R
  },num=1}
 }]]
  }},
@@ -993,28 +993,28 @@ setData={
    "1023949183704945075/EE38127934824E9DD30906240CA5B303FEA345E8",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={{34,56},{89,100}},num=2,size=35},
---2 gold
+--2 star
   {cards={111,112,113},num=0},
 --3 ex
   {cards={108,109,110},num=0},
---4 holo
+--4 RH
   {cards={{1,18}},num=0,size=18},
---5 rare
+--5 R
   {cards={{19,33},{103,107}},num=0,size=20},
---6 reverse
+--6 rev
   {cards={{1,95}},num=1,size=95},
---7 common
+--7 C
   {cards={{57,88},101,102},num=5,size=34},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/72},--gold
+  {slot=2,odds=1/72},--star
   {slot=3,odds=1/36},--ex
-  {slot=4,remaining=true,odds=1/3},--holo
-  {slot=5}--rare
+  {slot=4,remaining=true,odds=1/3},--RH
+  {slot=5}--R
  },num=1},
 }]]
  }},
@@ -1033,28 +1033,28 @@ setData={
    "1023949183704947153/0094CC1D543E5C465F1D2B770EFAB4CDC264ABA6",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={{29,47},{72,77},82},num=2,size=26},
---2 gold
+--2 star
   {cards={90,91,92},num=0},
 --3 ex
   {cards={{83,89}},num=0,size=7},
---4 holo
+--4 RH
   {cards={{1,14}},num=0,size=14},
---5 rare
+--5 R
   {cards={{15,28},81},num=0,size=15},
---6 reverse
+--6 rev
   {cards={{1,82}},num=1,size=82},
---7 common
+--7 C
   {cards={{48,71},{78,80}},num=5,size=27},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/72},--gold
+  {slot=2,odds=1/72},--star
   {slot=3,odds=1/12},--ex
-  {slot=4,remaining=true,odds=1/3},--holo
-  {slot=5}--rare
+  {slot=4,remaining=true,odds=1/3},--RH
+  {slot=5}--R
  },num=1},
 }]]
  }},
@@ -1088,35 +1088,35 @@ setData={
    "1023949183704949380/856F25AFC4F2F0F1D0EDB7BA2AB3E1B5E268D786",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={{35,56},{85,90},97,98},num=2,size=30},
 --2 star
   {cards={{102,104}},num=0,size=3},
 --3 ex
   {cards={{99,101}},num=0,size=3},
---4 holo
+--4 RH
   {cards={{1,17}},num=0,size=17},
---5 rare
+--5 R
   {cards={{18,34},{94,96}},num=0,size=20},
 --6 energy
   {cards={{105,110}},num=0,size=6,energy=true},
---7 reverse
+--7 rev
   {cards={{1,98}},num=0,size=98},
---8 common
+--8 C
   {cards={{57,84},{91,93}},num=5,size=31},
 }]],
   pullRates=[[{
---premium
+--rare
  {rates={
   {slot=2,odds=1/72},--star
   {slot=3,odds=1/36},--ex
-  {slot=4,remaining=true,odds=1/3},--holo
-  {slot=5}--rare
+  {slot=4,remaining=true,odds=1/3},--RH
+  {slot=5}--R
  },num=1},
---reverse
+--rev
  {rates={
   {slot=6,odds=1/3},--energy
-  {slot=7}--reverse
+  {slot=7}--rev
  },num=1}
 }]]
  }},
@@ -1143,28 +1143,28 @@ setData={
    "1023949183704951387/E62ECB89E1D4BF7D1C06B964904C79AC1B10CD81",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={{29,43},{71,85}},num=2,size=30},
---2 gold
+--2 star
   {cards={99,100},num=0},
 --3 ex
   {cards={{89,98}},num=0,size=10},
---4 holo
+--4 RH
   {cards={{1,13}},num=0,size=13},
---5 rare
+--5 R
   {cards={{14,28},88},num=0,size=16},
---6 reverse
+--6 rev
   {cards={{1,88}},num=1,size=88},
---7 common
+--7 C
   {cards={{44,70},86,87},num=5,size=29},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/72},--gold
+  {slot=2,odds=1/72},--star
   {slot=3,odds=1/12},--ex
-  {slot=4,remaining=true,odds=1/3},--holo
-  {slot=5}--rare
+  {slot=4,remaining=true,odds=1/3},--RH
+  {slot=5}--R
  },num=1},
 }]]
  }},
@@ -1183,28 +1183,28 @@ setData={
    "1023949183704953274/916AF7B811E68402517D09B1673F644DA95ADD81",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={{26,42},{72,82},{87,89}},num=2,size=31},
---2 gold
+--2 star
   {cards={100,101},num=0},
 --3 ex
   {cards={{90,99}},num=0,size=10},
---4 holo
+--4 RH
   {cards={{1,12}},num=0,size=12},
---5 rare
+--5 R
   {cards={{13,25},{84,86}},num=0,size=16},
---6 reverse
+--6 rev
   {cards={{1,89}},num=1,size=89},
---7 common
+--7 C
   {cards={{43,71},83},num=5,size=30},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/72},--gold
+  {slot=2,odds=1/72},--star
   {slot=3,odds=1/12},--ex
-  {slot=4,remaining=true,odds=1/3},--holo
-  {slot=5}--rare
+  {slot=4,remaining=true,odds=1/3},--RH
+  {slot=5}--R
  },num=1},
 }]]
  }},
@@ -1223,35 +1223,35 @@ setData={
    "1023949183704955312/F02C30DFAF228625E82F181867C250FAB7C28343",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={{26,41},{71,83},90,91},num=2,size=31},
 --2 star
   {cards={{100,102}},num=0,size=3},
 --3 ex
   {cards={{92,99}},num=0,size=8},
---4 holo
+--4 RH
   {cards={{1,13}},num=0,size=13},
---5 rare
+--5 R
   {cards={{14,25},{87,89}},num=0,size=15},
 --6 energy
   {cards={{103,108}},num=0,size=6,energy=true},
---7 reverse
+--7 rev
   {cards={{1,91}},num=0,size=91},
---8 common
+--8 C
   {cards={{42,70},{84,86}},num=5,size=32},
 }]],
   pullRates=[[{
---premium
+--rare
  {rates={
   {slot=2,odds=1/36},--star
   {slot=3,odds=1/8},--ex
-  {slot=4,remaining=true,odds=1/3},--holo
-  {slot=5}--rare
+  {slot=4,remaining=true,odds=1/3},--RH
+  {slot=5}--R
  },num=1},
---reverse
+--rev
  {rates={
   {slot=6,odds=1/4},--energy
-  {slot=7}--reverse
+  {slot=7}--rev
  },num=1}
 }]]
  }},
@@ -1284,17 +1284,17 @@ setData={
    "1023949183708870658/D02F4296EC5C3743489E2EF423816649B8145279",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={{43,68},{105,116}},num=3,size=38},
 --2 lvx
   {cards={120,121,122},num=0},
---3 holo
+--3 RH
   {cards={{1,17}},num=0,size=17},
---4 rare
+--4 R
   {cards={{18,42}},num=0,size=25},
---5 reverse
+--5 rev
   {cards={{1,119}},num=1,size=119},
---6 common
+--6 C
   {cards={{69,104},{117,119}},num=4,size=39},
 --7 energy
   {cards={{123,130}},num=0,size=8,energy=true},
@@ -1303,13 +1303,13 @@ setData={
 --rare
  {rates={
   {slot=2,odds=1/36},--lvx
-  {slot=3,remaining=true,odds=1/3},--holo
-  {slot=4}--rare
+  {slot=3,remaining=true,odds=1/3},--RH
+  {slot=4}--R
  },num=1},
 --energy
  {rates = {
   {slot=7,odds=1/4},--energy
-  {slot=6}--common
+  {slot=6}--C
  },num=1},
 }]]
  }},
@@ -1328,28 +1328,28 @@ setData={
    "1023949287964132130/4D0ECB3618C94DD761B43AB25565ADE943C24BE6",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={{41,68},{109,115},119,120},num=3,size=37},
---2 secret
+--2 RS
   {cards={124},num=0},
 --3 lvx
   {cards={121,122,123},num=0},
---4 holo
+--4 RH
   {cards={{1,18}},num=0,size=18},
---5 rare
+--5 R
   {cards={{19,40},118},num=0,size=23},
---6 reverse
+--6 rev
   {cards={{1,119}},num=1,size=119},
---7 common
+--7 C
   {cards={{69,108},116,117},num=5,size=42},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/72},--secret
+  {slot=2,odds=1/72},--RS
   {slot=3,odds=1/36},--lvx
-  {slot=4,remaining=true,odds=1/3},--holo
-  {slot=5}--rare
+  {slot=4,remaining=true,odds=1/3},--RH
+  {slot=5}--R
  },num=1},
 }]]
  }},
@@ -1376,25 +1376,25 @@ setData={
    "1023949287964134121/C5FAC71CB01C429B1383102E4CB2D56F1464E90C",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={{45,75},{119,126},129,130},num=3,size=41},
 --2 lvx
   {cards={131,132},num=0},
---3 holo
+--3 RH
   {cards={{1,20}},num=0,size=20},
---4 rare
+--4 R
   {cards={{21,44}},num=0,size=24},
---5 reverse
+--5 rev
   {cards={{1,130}},num=1,size=130},
---6 common
+--6 C
   {cards={{76,118},127,128},num=5,size=45},
 }]],
   pullRates=[[{
 --rare
  {rates={
   {slot=2,odds=1/36},--lvx
-  {slot=3,remaining=true,odds=1/3},--holo
-  {slot=4}--rare
+  {slot=3,remaining=true,odds=1/3},--RH
+  {slot=4}--R
  },num=1},
 }]]
  }},
@@ -1413,25 +1413,25 @@ setData={
    "1023949287964136078/7F996F1EFB2D2BF46869C039E01800918C0594AA",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={{33,59},{92,102}},num=3,size=33},
 --2 lvx
   {cards={103,104,105,106},num=0},
---3 holo
+--3 RH
   {cards={{1,11}},num=0,size=11},
---4 rare
+--4 R
   {cards={{12,32}},num=0,size=21},
---5 reverse
+--5 rev
   {cards={{1,102}},num=1,size=102},
---6 common
+--6 C
   {cards={{60,96}},num=5,size=37},
 }]],
   pullRates=[[{
 --rare
  {rates={
   {slot=2,odds=1/36},--lvx
-  {slot=3,remaining=true,odds=1/3},--holo
-  {slot=4}--rare
+  {slot=3,remaining=true,odds=1/3},--RH
+  {slot=4}--R
  },num=1},
 }]]
  }},
@@ -1458,25 +1458,25 @@ setData={
    "1023949287964138061/EA588D9D6A7526A97D0DE5174668A3925FBEC158",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={{35,49},{79,88},{92,96}},num=3,size=30},
 --2 lvx
   {cards={97,98,99,100},num=0},
---3 holo
+--3 RH
   {cards={{1,14}},num=0,size=14},
---4 rare
+--4 R
   {cards={{15,34}},num=0,size=20},
---5 reverse
+--5 rev
   {cards={{1,96}},num=1,size=96},
---6 common
+--6 C
   {cards={{50,78},{89,91}},num=5,size=32},
 }]],
   pullRates=[[{
 --rare
  {rates={
   {slot=2,odds=1/36},--lvx
-  {slot=3,remaining=true,odds=1/3},--holo
-  {slot=4}--rare
+  {slot=3,remaining=true,odds=1/3},--RH
+  {slot=4}--R
  },num=1},
 }]]
  }},
@@ -1495,25 +1495,25 @@ setData={
    "1023949287964139848/5D6B7EFA2E3BA7588617A83198CD131C2562672F",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={{46,82},{129,137},{92,96}},num=3,size=46},
 --2 lvx
   {cards={{140,146}},num=0,size=7},
---3 holo
+--3 RH
   {cards={{1,17}},num=0,size=17},
---4 rare
+--4 R
   {cards={{18,45}},num=0,size=28},
---5 reverse
+--5 rev
   {cards={{1,139}},num=1,size=139},
---6 common
+--6 C
   {cards={{83,128},138,139},num=5,size=48},
 }]],
   pullRates=[[{
 --rare
  {rates={
   {slot=2,odds=1/12},--lvx
-  {slot=3,remaining=true,odds=1/3},--holo
-  {slot=4}--rare
+  {slot=3,remaining=true,odds=1/3},--RH
+  {slot=4}--R
  },num=1},
 }]]
  }},
@@ -1540,35 +1540,35 @@ setData={
    "1023949287964141481/93E45AC21B822AD9418643E91512AC2751ADA186",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={{32,52},{82,91},94,95},num=3,size=33},
---2 secret
+--2 RS
   {cards={101,102,103},num=0},
 --3 lvx
   {cards={96,97,98,99,100},num=0},
---4 holo
+--4 RH
   {cards={{1,11}},num=0,size=11},
---5 rare
+--5 R
   {cards={{12,31}},num=0,size=20},
 --6 shiny
   {cards={104,105,106},num=0},
---7 reverse
+--7 rev
   {cards={{1,95}},num=0,size=95},
---8 common
+--8 C
   {cards={{53,81},92,93},num=5,size=31},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/36},--secret
+  {slot=2,odds=1/36},--RS
   {slot=3,odds=1/12},--lvx
-  {slot=4,remaining=true,odds=1/3},--holo
-  {slot=5}--rare
+  {slot=4,remaining=true,odds=1/3},--RH
+  {slot=5}--R
  },num=1},
---reverse
+--rev
  {rates={
   {slot=6,odds=1/36},--shiny
-  {slot=7}--reverse
+  {slot=7}--rev
  },num=1},
 }]]
  }},
@@ -1587,35 +1587,35 @@ setData={
    "1023949407635455537/DEDA351C9EDD95646656D940DAE031A884D755CA",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={{41,66},{104,118},94,95},num=3,size=42},
---2 secret
+--2 RS
   {cards={128,129,130},num=0},
 --3 lvx
   {cards={122,123,124,125,126,127},num=0},
---4 holo
+--4 RH
   {cards={{1,17}},num=0,size=17},
---5 rare
+--5 R
   {cards={{18,40},121},num=0,size=23},
 --6 shiny
   {cards={131,132,133},num=0},
---7 reverse
+--7 rev
   {cards={{1,121}},num=0,size=121},
---8 common
+--8 C
   {cards={{67,103},119,120},num=5,size=39},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/36},--secret
+  {slot=2,odds=1/36},--RS
   {slot=3,odds=1/12},--lvx
-  {slot=4,remaining=true,odds=1/3},--holo
-  {slot=5}--rare
+  {slot=4,remaining=true,odds=1/3},--RH
+  {slot=5}--R
  },num=1},
---reverse
+--rev
  {rates={
   {slot=6,odds=1/36},--shiny
-  {slot=7}--reverse
+  {slot=7}--rev
  },num=1},
 }]]
  }},
@@ -1642,35 +1642,35 @@ setData={
    "1023949407635457746/3292ADD5FF54401CC175245B3D2AB75928EB7E7F",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={{38,54},{88,102}},num=3,size=32},
---2 secret
+--2 RS
   {cards={112,113,114},num=0},
 --3 lvx
   {cards={103,104,105,106,107,108,109,110,111},num=0},
---4 holo
+--4 RH
   {cards={{1,13}},num=0,size=13},
---5 rare
+--5 R
   {cards={{14,37}},num=0,size=24},
 --6 rotom
   {cards={115,116,117,118,119,120},num=0},
---7 reverse
+--7 rev
   {cards={{1,102}},num=0,size=102},
---8 common
+--8 C
   {cards={{55,87}},num=5,size=33},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/36},--secret
+  {slot=2,odds=1/36},--RS
   {slot=3,odds=1/12},--lvx
-  {slot=4,remaining=true,odds=1/3},--holo
-  {slot=5}--rare
+  {slot=4,remaining=true,odds=1/3},--RH
+  {slot=5}--R
  },num=1},
---reverse
+--rev
  {rates={
   {slot=6,odds=1/18},--rotom
-  {slot=7}--reverse
+  {slot=7}--rev
  },num=1},
 }]]
  }},
@@ -1689,35 +1689,35 @@ setData={
    "1023949407635460168/448AF0B711FBC6558A2347B00F6F2AD4B8FA8618",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={{49,88},{134,140}},num=3,size=47},
---2 secret
+--2 RS
   {cards={148,149,150},num=0},
 --3 lvx
   {cards={141,142,143,144,145,146,147},num=0},
---4 holo
+--4 RH
   {cards={{1,14}},num=0,size=14},
---5 rare
+--5 R
   {cards={{15,48}},num=0,size=34},
 --6 shiny
   {cards={151,152,153},num=0},
---7 reverse
+--7 rev
   {cards={{1,140}},num=0,size=140},
---8 common
+--8 C
   {cards={{89,133}},num=5,size=45},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/36},--secret
+  {slot=2,odds=1/36},--RS
   {slot=3,odds=1/9},--lvx
-  {slot=4,remaining=true,odds=1/3},--holo
-  {slot=5}--rare
+  {slot=4,remaining=true,odds=1/3},--RH
+  {slot=5}--R
  },num=1},
---reverse
+--rev
  {rates={
   {slot=6,odds=1/36},--shiny
-  {slot=7}--reverse
+  {slot=7}--rev
  },num=1},
 }]]
  }},
@@ -1736,35 +1736,35 @@ setData={
    "1023949407635461714/ACF4D6F696B0227C3E7DDD42C1856000847D4B40",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={{33,51},{82,91}},num=3,size=29},
 --2 lvx
   {cards={94,95,96,97,98,99},num=0},
---3 holo
+--3 RH
   {cards={{1,12}},num=0,size=12},
---4 rare
+--4 R
   {cards={{13,32}},num=0,size=20},
 --5 arceus
   {cards={{103,111}},num=0,size=9},
 --6 shiny
   {cards={{100,102}},num=0,size=3},
---7 reverse
+--7 rev
   {cards={{1,93}},num=0,size=93},
---8 common
+--8 C
   {cards={{52,81},92,93},num=5,size=32},
 }]],
   pullRates=[[{
 --rare
  {rates={
   {slot=2,odds=1/12},--lvx
-  {slot=3,remaining=true,odds=1/3},--holo
-  {slot=4}--rare
+  {slot=3,remaining=true,odds=1/3},--RH
+  {slot=4}--R
  },num=1},
---reverse
+--rev
  {rates={
   {slot=5,odds=1/4},--arceus
   {slot=6,odds=1/36},--shiny
-  {slot=7}--reverse
+  {slot=7}--rev
  },num=1},
 }]]
  }},
@@ -1797,45 +1797,45 @@ setData={
    "1023949420066555806/25EA16C59CCCF3834FB7005490CFEBE42AF883DD",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={{35,56},{89,104}},num=3,size=38},
---2 secret
+--2 RS
   {cards={124},num=0},
 --3 shiny
   {cards={123},num=0},
 --4 legend
   {cards={111,112,113,114},num=0},
---5 holo
+--5 RH
   {cards={{1,13}},num=0,size=13},
---6 rare
+--6 R
   {cards={{14,34}},num=0,size=21},
---7 prime
+--7 RP
   {cards={{105,110}},num=0,size=6},
---8 reverse
+--8 rev
   {cards={{1,104}},num=0,size=104},
 --9 energy
   {cards={{115,122}},num=0,size=8,energy=true},
---10 common
+--10 C
   {cards={{57,88}},num=4,size=32},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/108},--secret
+  {slot=2,odds=1/108},--RS
   {slot=3,odds=1/36},--shiny
   {slot=4,odds=1/18},--legend
-  {slot=5,remaining=true,odds=1/3},--holo
-  {slot=6}--rare
+  {slot=5,remaining=true,odds=1/3},--RH
+  {slot=6}--R
  },num=1},
---reverse
+--rev
  {rates = {
-  {slot=7,odds=1/6},--prime
-  {slot=8}--reverse
+  {slot=7,odds=1/6},--RP
+  {slot=8}--rev
  },num=1},
 --energy
  {rates = {
   {slot=9,odds=1/4},--energy
-  {slot=10}--common
+  {slot=10}--C
  },num=1},
 }]]
  }},
@@ -1854,35 +1854,35 @@ setData={
    "1023949420066557733/E2724963BF96F0B4DC5626EF5F340CB83FCB63CD",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={{28,42},{71,83}},num=3,size=28},
---2 secret
+--2 RS
   {cards={96},num=0},
 --3 legend
   {cards={90,91,92,93,94,95},num=0},
---4 holo
+--4 RH
   {cards={{1,11}},num=0,size=11},
---5 rare
+--5 R
   {cards={{12,27}},num=0,size=16},
---6 prime
+--6 RP
   {cards={{84,89}},num=0,size=6},
---7 reverse
+--7 rev
   {cards={{1,83}},num=0,size=83},
---8 common
+--8 C
   {cards={{43,70}},num=5,size=28},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/108},--secret
+  {slot=2,odds=1/108},--RS
   {slot=3,odds=1/12},--legend
-  {slot=4,remaining=true,odds=1/3},--holo
-  {slot=5}--rare
+  {slot=4,remaining=true,odds=1/3},--RH
+  {slot=5}--R
  },num=1},
---reverse
+--rev
  {rates = {
-  {slot=6,odds=1/7},--prime
-  {slot=7}--reverse
+  {slot=6,odds=1/7},--RP
+  {slot=7}--rev
  },num=1},
 }]]
  }},
@@ -1901,35 +1901,35 @@ setData={
    "1023949420066560092/EC8C0345230A0C88A55FAA88E0D3A3391714AF1E",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={{26,41},{71,80}},num=3,size=26},
---2 secret
+--2 RS
   {cards={91},num=0},
 --3 legend
   {cards={87,88,89,90},num=0},
---4 holo
+--4 RH
   {cards={{1,10}},num=0,size=10},
---5 rare
+--5 R
   {cards={{11,25}},num=0,size=15},
---6 prime
+--6 RP
   {cards={{81,86}},num=0,size=6},
---7 reverse
+--7 rev
   {cards={{1,80}},num=0,size=80},
---8 common
+--8 C
   {cards={{42,70}},num=5,size=29},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/108},--secret
+  {slot=2,odds=1/108},--RS
   {slot=3,odds=1/18},--legend
-  {slot=4,remaining=true,odds=1/3},--holo
-  {slot=5}--rare
+  {slot=4,remaining=true,odds=1/3},--RH
+  {slot=5}--R
  },num=1},
---reverse
+--rev
  {rates = {
-  {slot=6,odds=1/7},--prime
-  {slot=7}--reverse
+  {slot=6,odds=1/7},--RP
+  {slot=7}--rev
  },num=1},
 }]]
  }},
@@ -1948,35 +1948,35 @@ setData={
    "1023949420066561727/B3644AF4A0D852361FF2AF37AC5B7F3190D76D85",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={{32,54},{85,90}},num=3,size=29},
---2 secret
+--2 RS
   {cards={103},num=0},
 --3 legend
   {cards={99,100,101,102},num=0},
---4 holo
+--4 RH
   {cards={{1,12}},num=0,size=12},
---5 rare
+--5 R
   {cards={{13,31}},num=0,size=19},
---6 prime
+--6 RP
   {cards={{91,98}},num=0,size=8},
---7 reverse
+--7 rev
   {cards={{1,90}},num=0,size=90},
---8 common
+--8 C
   {cards={{55,84}},num=5,size=30},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/108},--secret
+  {slot=2,odds=1/108},--RS
   {slot=3,odds=1/18},--legend
-  {slot=4,remaining=true,odds=1/3},--holo
-  {slot=5}--rare
+  {slot=4,remaining=true,odds=1/3},--RH
+  {slot=5}--R
  },num=1},
---reverse
+--rev
  {rates = {
-  {slot=6,odds=1/7},--prime
-  {slot=7}--reverse
+  {slot=6,odds=1/7},--RP
+  {slot=7}--rev
  },num=1},
 }]]
  }},
@@ -1995,32 +1995,32 @@ setData={
    "1025076138123192368/9CE72E15224D6C9BAF0A93001DAE2EE4B3A404D7",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={{40,52},{76,87}},num=3,size=25},
---2 holo
+--2 RH
   {cards={{1,22}},num=0,size=22},
---3 rare
+--3 R
   {cards={{23,39}},num=0,size=17},
 --4 shiny
   {cards={{96,106}},num=0,size=11},
 --5 energy
   {cards={{88,95}},num=0,size=8,energy=true},
---6 reverse
+--6 rev
   {cards={{1,87}},num=0,size=87},
---7 common
+--7 C
   {cards={{53,75}},num=5,size=23},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/3},--holo
-  {slot=3}--rare
+  {slot=2,odds=1/3},--RH
+  {slot=3}--R
  },num=1},
---reverse
+--rev
  {rates = {
   {slot=4,odds=1/18},--shiny
   {slot=5,odds=1/9},--energy
-  {slot=6}--reverse
+  {slot=6}--rev
  },num=1},
 }]]
  }},
@@ -2047,19 +2047,19 @@ custom={
    "1025076138123197132/FCFE53B52285B571FA8C34F96614407B1190D564",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={3,4,8,11,17,18,22,24,29,30,34,35,38,42,48,51,53,56,60,64,72,75,79,82,85,87,90,92,{94,99},{101,103}},size=37,num=3},
---2 secret
+--2 RS
   {cards={115},num=0},
---3 ultra
+--3 RU
   {cards={113,114},num=0},
---4 holo
+--4 RH
   {cards={5,6,19,20,26,31,32,47,57,65,71,76},num=0},
---5 rare
+--5 R
   {cards={10,12,14,25,37,39,43,46,49,54,61,62,67,69,73,83,86,89,91},num=0},
---6 reverse
+--6 rev
   {cards={{1,104}},size=104,num=1},
---7 common
+--7 C
   {cards={104,1,2,7,9,13,15,16,21,23,27,28,33,36,40,41,44,45,50,52,55,58,59,63,66,68,70,74,77,78,80,81,84,88,93,100},num=4},
 --8 energy
   {cards={{105,112}},size=8,num=0,energy=true},
@@ -2067,15 +2067,15 @@ custom={
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/72},--secret
-  {slot=3,odds=1/36},--ultra
-  {slot=4,remaining=true,odds=1/3},--holo
-  {slot=5}--rare
+  {slot=2,odds=1/72},--RS
+  {slot=3,odds=1/36},--RU
+  {slot=4,remaining=true,odds=1/3},--RH
+  {slot=5}--R
  },num=1},
---common
+--C
  {rates={
   {slot=8,odds=1/2.545},--energy
-  {slot=7}--common
+  {slot=7}--C
  },num=1},
 }]]
  }},
@@ -2101,25 +2101,25 @@ custom={
    "1025076138123201055/D7DE8EFA1CDBA173ABEAC81484D9C1A06BC1C487",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={5,6,11,14,25,34,39,41,42,45,46,51,52,54,58,59,61,66,73,75,79,81,83,85,{90,96}},size=31,num=3},
---2 ultra
+--2 RU
   {cards={97,98},num=0},
---3 holo
+--3 RH
   {cards={17,30,35,47,56,63,67,77,88,89},num=0},
---4 rare
+--4 R
   {cards={2,7,8,12,16,19,21,23,27,31,37,40,48,53,57,62,65,69,72,76,82},num=0},
---5 reverse
+--5 rev
   {cards={{1,96}},size=96,num=1},
---6 common
+--6 C
   {cards={1,3,4,9,10,13,15,18,20,22,24,26,28,29,32,33,36,38,43,44,49,50,55,60,64,68,70,71,74,78,80,84,86,87},num=5}
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/36},--ultra
-  {slot=3,remaining=true,odds=1/3},--holo
-  {slot=4}--rare
+  {slot=2,odds=1/36},--RU
+  {slot=3,remaining=true,odds=1/3},--RH
+  {slot=4}--R
  },num=1},
 }]]
  }},
@@ -2138,28 +2138,28 @@ custom={
    "1025076138123204999/335D497AC6D2437171BB7240159EB0E91326A664",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={2,7,10,17,18,23,25,28,32,37,40,49,51,59,63,66,68,70,76,78,83,85,87,{90,96}},size=30,num=3},
---2 secret
+--2 RS
   {cards={102},num=0},
---3 ultra
+--3 RU
   {cards={{97,101}},size=5,num=0},
---4 holo
+--4 RH
   {cards={3,{13,15},34,41,64,73,74,79,82,84,88},num=0,size=13},
---5 rare
+--5 R
   {cards={5,12,21,24,26,29,31,33,36,43,46,47,52,53,56,60,61,65,67,72,80,89},num=0},
---6 reverse
+--6 rev
   {cards={{1,96}},size=96,num=1},
---7 common
+--7 C
   {cards={1,4,6,8,9,11,16,19,20,22,27,30,35,38,39,42,44,45,48,50,54,55,57,58,62,69,71,75,77,81,86},num=5},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/72},--secret
-  {slot=3,odds=1/18},--ultra
-  {slot=4,remaining=true,odds=1/3},--holo
-  {slot=5}--rare
+  {slot=2,odds=1/72},--RS
+  {slot=3,odds=1/18},--RU
+  {slot=4,remaining=true,odds=1/3},--RH
+  {slot=5}--R
  },num=1}
 }]]
  }},
@@ -2178,31 +2178,31 @@ custom={
    "1025076138123210326/E9C3D28326962C9520055579860338147A2A4F3F",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={4,13,19,24,26,30,32,34,40,44,45,49,56,66,68,71,73,78,84,{86,93}},num=3,size=27},
---2 secret
+--2 RS
   {cards={{100,103}},num=0,size=4},
---3 ultra
+--3 RU
   {cards={{94,99}},num=0,size=6},
 --4 ex
   {cards={5,22,38,51,54,82},num=0},
---5 holo
+--5 RH
   {cards={14,20,27,33,41,46,57,64,74,85},num=0},
---6 rare
+--6 R
   {cards={1,7,9,12,16,21,25,29,35,37,48,50,53,59,60,62,70,72,76,79,81},num=0},
---7 reverse
+--7 rev
   {cards={{1,4},{6,21},{23,37},{39,50},52,53,{55,81},{83,93}},num=1,size=87},
---8 common
+--8 C
   {cards={2,3,6,8,10,11,15,17,18,23,28,31,36,39,42,43,47,52,55,58,61,63,65,67,69,75,77,80,83},num=5},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/72},--secret
-  {slot=3,odds=1/36},--ultra
+  {slot=2,odds=1/72},--RS
+  {slot=3,odds=1/36},--RU
   {slot=4,odds=1/18},--ex
-  {slot=5,remaining=true,odds=1/3},--holo
-  {slot=6}--rare
+  {slot=5,remaining=true,odds=1/3},--RH
+  {slot=6}--R
  },num=1}
 }]]
  }},
@@ -2221,31 +2221,31 @@ custom={
    "1025076138123213585/66F0489DAFA00EC70DF8ACEC53417508D89F43EA",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={2,4,8,12,16,18,24,25,28,32,34,37,46,51,{59,62},65,73,76,85,87,{91,102}},num=3,size=35},
---2 secret
+--2 RS
   {cards={109,110,111},num=0},
---3 ultra
+--3 RU
   {cards={{103,108}},num=0,size=6},
 --4 ex
   {cards={13,26,38,54,63,90},num=0},
---5 holo
+--5 RH
   {cards={3,17,22,29,47,66,77,82,89},num=0},
---6 rare
+--6 R
   {cards={5,6,11,19,30,36,43,48,49,52,53,56,57,68,71,72,74,79,88},num=0},
---7 reverse
+--7 rev
   {cards={{1,12},{14,25},{27,37},{39,53},{55,62},{64,89},{91,102}},num=1,size=96},
---8 common
+--8 C
   {cards={1,7,9,10,14,15,20,21,23,27,31,33,35,{39,42},44,45,50,55,58,64,67,69,70,75,78,80,81,83,84,86},num=5,size=33},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/72},--secret
-  {slot=3,odds=1/36},--ultra
+  {slot=2,odds=1/72},--RS
+  {slot=3,odds=1/36},--RU
   {slot=4,odds=1/18},--ex
-  {slot=5,remaining=true,odds=1/3},--holo
-  {slot=6}--rare
+  {slot=5,remaining=true,odds=1/3},--RH
+  {slot=6}--R
  },num=1}
 }]]
  }},
@@ -2271,31 +2271,31 @@ custom={
    "1025076138123220769/B99D9271E93B9FAAD31AC17D1C31084E1BAB31A3",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={2,7,9,11,12,14,16,25,30,33,35,39,45,56,66,{68,70},77,79,83,88,89,95,96,102,104,107,108,110,{113,118}},num=3,size=36},
---2 secret
+--2 RS
   {cards={{125,128}},num=0,size=4},
---3 ultra
+--3 RU
   {cards={{119,124}},num=0,size=6},
 --4 ex
   {cards={22,46,71,81,85,92},num=0},
---5 holo
+--5 RH
   {cards={19,26,28,40,52,54,59,67,80,84,90,97,103},num=0},
---6 rare
+--6 R
   {cards={3,5,8,15,21,24,31,36,37,43,44,47,48,51,57,61,64,73,75,82,91,98,100,112},num=0},
---7 reverse
+--7 rev
   {cards={{1,21},{23,45},{47,70},{72,80},{82,84},{86,91},{93,118}},num=1,size=112},
---8 common
+--8 C
   {cards={1,4,6,10,13,17,18,20,23,27,29,32,34,38,41,42,49,50,53,55,58,60,62,63,65,72,74,76,78,86,87,93,94,99,101,105,106,109,111},num=5},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/72},--secret
-  {slot=3,odds=1/36},--ultra
+  {slot=2,odds=1/72},--RS
+  {slot=3,odds=1/36},--RU
   {slot=4,odds=1/18},--ex
-  {slot=5,remaining=true,odds=1/3},--holo
-  {slot=6}--rare
+  {slot=5,remaining=true,odds=1/3},--RH
+  {slot=6}--R
  },num=1}
 }]]
  }},
@@ -2315,16 +2315,16 @@ custom={
    "1670239067234182038/93E79A7B77090AE4B0F7A73E26159E30C6C0CB2B",
   },
   dropSlots=[[{
---1 secret --randomly positioned in real packs
+--1 RS --randomly positioned in real packs
   {cards={21},num=0},
---2 holo
+--2 RH
   {cards={{1,20}},num=4,size=20},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=1,odds=1/72},--secret
-  {slot=2}--holo
+  {slot=1,odds=1/72},--RS
+  {slot=2}--RH
  },num=1},
 }]]
  }},
@@ -2343,37 +2343,37 @@ custom={
    "1025076138123907161/1CDCF027860B353EED3ADA3E449F8AB659442F0B",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={2,8,12,16,19,25,28,30,34,37,38,40,43,46,52,58,62,65,68,73,76,79,87,88,93,{95,98},105,107,109,114,117,119,121,124,127,129,130,133,134,136},num=3,size=43},
---2 secret
+--2 RS
   {cards={{150,153}},num=0,size=4},
---3 ultra
+--3 RU
   {cards={{141,149}},num=0,size=9},
 --4 ex
   {cards={9,49,67,89,101,103},num=0},
---5 holo
+--5 RH
   {cards={3,6,13,20,26,31,41,47,54,57,63,74,77,81,85,91,94,99,108,122},num=0},
---6 rare
+--6 R
   {cards={4,10,15,17,22,23,35,45,48,60,66,69,71,100,102,125,126},num=0},
---7 ace
+--7 RAS
   {cards={{137,140}},num=0,size=4},
---8 reverse
+--8 rev
   {cards={{1,8},{10,48},{50,66},{68,88},{90,100},102,{104,136}},num=0,size=130},
---9 common
+--9 C
   {cards={1,5,7,11,14,18,21,24,27,29,32,33,36,39,42,44,50,51,53,55,56,59,61,64,70,72,75,78,80,{82,84},86,90,92,104,106,{110,113},115,116,118,120,123,128,131,132,135},num=5,size=50},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/72},--secret
-  {slot=3,odds=1/36},--ultra
+  {slot=2,odds=1/72},--RS
+  {slot=3,odds=1/36},--RU
   {slot=4,odds=1/18},--ex
-  {slot=5,remaining=true,odds=1/3},--holo
-  {slot=6}--rare
+  {slot=5,remaining=true,odds=1/3},--RH
+  {slot=6}--R
  },num=1},
  {rates={
-  {slot=7,odds=1/18},--ace
-  {slot=8}--reverse
+  {slot=7,odds=1/18},--RAS
+  {slot=8}--rev
  },num=1}
 }]]
  }},
@@ -2392,37 +2392,37 @@ custom={
    "1025076138123911476/D99281E681F17A1D00AE731C701C5831B954A287",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={2,9,11,13,16,20,22,23,27,30,36,44,45,49,51,54,57,60,63,69,{72,74},77,80,89,91,92,103,106,112,{117,127}},num=3,size=42},
---2 secret
+--2 RS
   {cards={136,137,138},num=0},
---3 ultra
+--3 RU
   {cards={{131,135}},num=0,size=5},
 --4 ex
   {cards={14,18,25,48,93,95,96,108},num=0},
---5 holo
+--5 RH
   {cards={17,34,46,55,58,61,66,78,90,104},num=0},
---6 rare
+--6 R
   {cards={3,5,7,10,28,31,33,37,39,41,47,62,67,70,81,84,86,87,94,98,100,101,107,113,114,116},num=0},
---7 ace
+--7 RAS
   {cards={128,129,130},num=0},
---8 reverse
+--8 rev
   {cards={{1,13},{15,17},{19,24},{26,47},{49,92},94,{97,107},{109,127}},num=0,size=119},
---9 common
+--9 C
   {cards={1,4,6,8,12,15,19,21,24,26,29,32,35,38,40,42,43,50,52,53,56,59,64,65,68,71,75,76,79,82,83,85,88,97,99,102,105,{109,111},115},num=5,size=41},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/72},--secret
-  {slot=3,odds=1/36},--ultra
+  {slot=2,odds=1/72},--RS
+  {slot=3,odds=1/36},--RU
   {slot=4,odds=1/18},--ex
-  {slot=5,remaining=true,odds=1/3},--holo
-  {slot=6}--rare
+  {slot=5,remaining=true,odds=1/3},--RH
+  {slot=6}--R
  },num=1},
  {rates={
-  {slot=7,odds=1/18},--ace
-  {slot=8}--reverse
+  {slot=7,odds=1/18},--RAS
+  {slot=8}--rev
  },num=1}
 }]]
  }},
@@ -2441,37 +2441,37 @@ custom={
    "1025076138123914864/8AF4649EA8CFE6E3163BFBFE6AF98B08C045EF04",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={2,4,7,12,15,19,20,25,28,30,34,36,41,44,48,51,61,69,74,77,80,82,92,93,96,99,100,{102,106}},num=3,size=32},
---2 secret
+--2 RS
   {cards={{117,122}},num=0,size=6},
---3 ultra
+--3 RU
   {cards={{109,116}},num=0,size=8},
 --4 ex
   {cards={13,38,53,85,86,98},num=0},
---5 holo
+--5 RH
   {cards={8,16,17,31,33,39,52,56,64,67,78,83,84,101},num=0},
---6 rare
+--6 R
   {cards={3,5,10,11,22,23,26,29,42,46,47,49,57,58,63,66,70,73,79,88,94,97},num=0},
---7 ace
+--7 RAS
   {cards={107,108},num=0},
---8 reverse
+--8 rev
   {cards={{1,12},{14,37},{39,52},{54,84},{87,97},{99,106}},num=0,size=100},
---9 common
+--9 C
   {cards={1,6,9,14,18,21,24,27,32,35,37,40,43,45,50,54,55,59,60,62,65,68,71,72,75,76,81,87,89,90,91,95},num=5},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/72},--secret
-  {slot=3,odds=1/36},--ultra
+  {slot=2,odds=1/72},--RS
+  {slot=3,odds=1/36},--RU
   {slot=4,odds=1/18},--ex
-  {slot=5,remaining=true,odds=1/3},--holo
-  {slot=6}--rare
+  {slot=5,remaining=true,odds=1/3},--RH
+  {slot=6}--R
  },num=1},
  {rates={
-  {slot=7,odds=1/18},--ace
-  {slot=8}--reverse
+  {slot=7,odds=1/18},--RAS
+  {slot=8}--rev
  },num=1}
 }]]
  }},
@@ -2490,37 +2490,37 @@ custom={
    "1025076138123917899/F2A9C1F6A5536BC0A2691CDFF32D47B6A1AF6DB2",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={3,5,15,19,22,24,26,27,32,40,43,48,53,58,63,68,73,{76,91}},num=3,size=33},
---2 secret
+--2 RS
   {cards={{102,105}},num=0,size=4},
---3 ultra
+--3 RU
   {cards={{96,101}},num=0,size=6},
 --4 ex
   {cards={9,11,30,60,65,66},num=0},
---5 holo
+--5 RH
   {cards={16,33,37,41,46,49,54,56,64,69,74},num=0},
---6 rare
+--6 R
   {cards={2,4,8,10,13,20,23,28,35,36,38,44,50,59,61},num=0},
---7 ace
+--7 RAS
   {cards={{92,95}},num=0,size=4},
---8 reverse
+--8 rev
   {cards={{1,8},10,{12,29},{31,59},{61,64},{67,91}},num=0,size=85},
---9 common
+--9 C
   {cards={1,6,7,12,14,17,18,21,25,29,31,34,39,42,45,47,51,52,55,57,62,67,70,71,72,75},num=5},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/72},--secret
-  {slot=3,odds=1/36},--ultra
+  {slot=2,odds=1/72},--RS
+  {slot=3,odds=1/36},--RU
   {slot=4,odds=1/18},--ex
-  {slot=5,remaining=true,odds=1/3},--holo
-  {slot=6}--rare
+  {slot=5,remaining=true,odds=1/3},--RH
+  {slot=6}--R
  },num=1},
  {rates={
-  {slot=7,odds=1/18},--ace
-  {slot=8}--reverse
+  {slot=7,odds=1/18},--RAS
+  {slot=8}--rev
  },num=1}
 }]]
  }},
@@ -2539,9 +2539,9 @@ custom={
    "1025076138123920853/59C6971540E7C9009E4B6F476C073403D672B0E3",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={{3,5},7,11,14,18,26,34,38,41,{47,49},60,61,65,71,75,79,83,87,92,95,98,106,107,{109,113}},size=32,num=2},
---2 RC common
+--2 RC C
   {cards={116,117,120,123,124,130,131,132,133,135},num=1},
 --3 RC EX
   {cards={126},num=0},
@@ -2549,36 +2549,36 @@ custom={
   {cards={{136,140}},num=0,size=5},
 --5 RC unc
   {cards={118,119,121,122,125,127,128,129,134},num=0},
---6 gold
+--6 RS
   {cards={114,115},num=0},
 --7 EX
   {cards={24,29,44,45,52,54,77,82,88,100,101,102},num=0},
---8 rare
+--8 R
   {cards={76,81,86,2,21,31,35,36,42,56,58,63},num=0},
---9 holo
+--9 RH
   {cards={8,12,15,16,19,22,23,27,28,32,39,43,46,50,51,53,66,68,72,78,80,84,85,90,91,93,96,99,105,108},num=0},
---10 reverse
+--10 rev
   {cards={{1,23},{25,28},{30,43},{46,51},53,{55,76},{78,81},{83,87},{89,99},{103,113}},size=101,num=0},
---11 common
+--11 C
   {cards={1,6,9,10,13,17,20,25,30,33,37,40,55,57,59,62,64,67,69,70,73,74,89,94,97,103,104},num=4},
 }]],
   pullRates=[[{
---RC
+--rareC
  {rates={
   {slot=3,odds=1/29},--RC EX
   {slot=4,odds=1/4},--RC FA
   {slot=5}--unc
  },num=1},
---rare
+--R
  {rates={
-  {slot=6,odds=1/72},--gold
+  {slot=6,odds=1/72},--RS
   {slot=7,odds=1/7},--EX
-  {slot=8}--rare
+  {slot=8}--R
  },num=1},
---reverse
+--rev
  {rates={
-  {slot=9,odds=1/2},--holo
-  {slot=10}--reverse
+  {slot=9,odds=1/2},--RH
+  {slot=10}--rev
  },num=1}
 }]]
  }},
@@ -2611,19 +2611,19 @@ custom={
    "1025076138123925654/4BC13BE2CCA2AA3B4355AFE414AE4FAD06C4DC0A",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={4,{7,9},13,16,25,27,36,40,45,52,63,64,66,68,70,74,84,91,99,101,105,109,112,{115,131}},num=3,size=42},
 --2 FA
   {cards={{141,146}},size=6,num=0},
 --3 ex
   {cards={1,2,29,30,46,79,80,97},num=0},
---4 holo
+--4 RH
   {cards={14,17,19,26,28,35,41,43,55,57,62,73,86,93,95,114},num=0},
---5 rare
+--5 R
   {cards={5,11,21,23,32,34,38,48,50,53,59,61,67,71,76,77,78,82,85,89,90,96,100,103,107,110},num=0},
---6 reverse
+--6 rev
   {cards={{3,28},{31,45},{47,78},{81,96},{98,140}},num=1,size=132},
---7 common
+--7 C
   {cards={3,6,10,12,15,18,20,22,24,31,33,37,39,42,44,47,49,51,54,56,58,60,65,69,72,75,81,83,87,88,92,94,98,102,104,106,108,111,113},num=4},
 --8 energy
   {cards={{132,140}},num=0,energy=true,size=9},
@@ -2631,15 +2631,15 @@ custom={
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/36},--ultra
+  {slot=2,odds=1/36},--RU
   {slot=3,odds=1/18},--ex
-  {slot=4,remaining=true,odds=1/3},--holo
-  {slot=5}--rare
+  {slot=4,remaining=true,odds=1/3},--RH
+  {slot=5}--R
  },num=1},
 --energy
  {rates={
   {slot=8,odds=1/2},--energy
-  {slot=7}--common
+  {slot=7}--C
  },num=1},
 }]]
  }},
@@ -2658,31 +2658,31 @@ custom={
    "1025076138123929583/5715A37E097CEFCD3A7B2325E91FFB731DF8AF5B",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={2,6,9,10,{15,17},25,27,31,33,39,46,50,57,65,73,76,83,87,88,{90,100}},size=32,num=3},
---2 secret
+--2 RS
   {cards={108,109,110},num=0},
 --3 FA
   {cards={{101,107}},size=7,num=0},
 --4 ex
   {cards={11,12,13,35,41,69,78,79},num=0},
---5 holo
+--5 RH
   {cards={7,20,23,40,66,68,70,74},num=0},
---6 rare
+--6 R
   {cards={3,21,26,29,34,37,43,47,49,52,55,59,60,61,64,71,77,80,82,85},num=0},
---8 reverse
+--8 rev
   {cards={{1,10},{14,34},{36,40},{42,68},{70,77},{80,88},{90,100}},size=91,num=1},
---9 common
+--9 C
   {cards={1,4,5,8,14,18,19,22,24,28,30,32,36,38,42,44,45,48,51,53,54,56,58,62,63,67,72,75,81,84,86},num=5},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/72},--secret
-  {slot=3,odds=1/36},--ultra
+  {slot=2,odds=1/72},--RS
+  {slot=3,odds=1/36},--RU
   {slot=4,odds=1/18},--ex
-  {slot=5,remaining=true,odds=1/3},--holo
-  {slot=6}--rare
+  {slot=5,remaining=true,odds=1/3},--RH
+  {slot=6}--R
  },num=1},
 }]]
  }},
@@ -2708,31 +2708,31 @@ custom={
    "1025076138123933316/2D59921A6989A6C3118978992120B2D285FB980C",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={2,9,13,16,25,28,34,40,45,{47,49},58,60,62,68,72,74,76,80,83,86,{89,105}},size=39,num=3},
---2 secret
+--2 RS
   {cards={113,114},num=0},
 --3 FA
   {cards={{106,112}},size=7,num=0},
 --4 ex
   {cards={4,5,20,54,55,65,75},num=0},
---5 holo
+--5 RH
   {cards={3,14,17,24,46,59,64,78,84},num=0},
---6 rare
+--6 R
   {cards={7,11,18,19,22,26,30,33,36,37,41,43,50,52,63,66,69,73,77,87},num=0},
---8 reverse
+--8 rev
   {cards={{1,3},{6,19},{21,53},{57,64},{66,74},{76,105}},size=97,num=1},
---9 common
+--9 C
   {cards={1,6,8,10,12,15,21,23,27,29,31,32,35,38,39,42,44,51,53,57,61,67,70,71,79,81,82,85,88},num=5},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/72},--secret
-  {slot=3,odds=1/36},--ultra
+  {slot=2,odds=1/72},--RS
+  {slot=3,odds=1/36},--RU
   {slot=4,odds=1/18},--ex
-  {slot=5,remaining=true,odds=1/3},--holo
-  {slot=6}--rare
+  {slot=5,remaining=true,odds=1/3},--RH
+  {slot=6}--R
  },num=1},
 }]]
  }},
@@ -2751,31 +2751,31 @@ custom={
    "1025076138123936569/902F159B1BE879AA5CD872B15855AFE03AB013D1",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={6,9,14,16,19,33,37,43,50,58,68,75,78,81,84,86,{92,98},{101,114}},size=37,num=3},
---2 secret
+--2 RS
   {cards={122,123,124},num=0},
 --3 FA
   {cards={{115,121}},size=7,num=0},
 --4 ex
   {cards={23,24,35,36,59,63,66,69},num=0},
---5 holo
+--5 RH
   {cards={12,17,31,44,46,51,64,71,73,76,79,88,99,100},num=0},
---6 rare
+--6 R
   {cards={2,4,7,10,21,26,28,34,39,41,48,53,55,56,62,65,83,87,90},num=0},
---8 reverse
+--8 rev
   {cards={{1,22},{26,34},{37,58},{60,62},64,65,68,{70,114}},size=104,num=1},
---9 common
+--9 C
   {cards={1,3,5,8,11,13,15,18,20,22,27,29,30,32,38,40,42,45,47,49,52,54,57,60,61,70,72,74,77,80,82,85,89,91},num=5},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/72},--secret
-  {slot=3,odds=1/36},--ultra
+  {slot=2,odds=1/72},--RS
+  {slot=3,odds=1/36},--RU
   {slot=4,odds=1/18},--ex
-  {slot=5,remaining=true,odds=1/3},--holo
-  {slot=6}--rare
+  {slot=5,remaining=true,odds=1/3},--RH
+  {slot=6}--R
  },num=1},
 }]]
  }},
@@ -2794,31 +2794,31 @@ custom={
    "1025076138123940461/5AE3E1CF73F0A239B3D6D2E85D21FA2BCD2DD156",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={2,7,11,14,23,26,27,31,34,40,47,51,58,60,63,67,68,71,75,99,101,109,112,{117,119},{121,144}},size=50,num=3},
---2 secret
+--2 RS
   {cards={{161,164}},size=4,num=0},
 --3 FA
   {cards={{145,160}},size=16,num=0},
 --4 ex
   {cards={19,29,38,54,55,85,86,91,93,94,105,106},num=0},
---5 holo
+--5 RH
   {cards={9,12,28,36,44,50,56,61,65,77,80,88,92,97,100,104,108,110},num=0},
---6 rare
+--6 R
   {cards={3,5,8,16,21,24,35,37,41,48,52,53,64,69,72,73,76,81,84,90,95,96,103,107,114},num=0},
---8 reverse
+--8 rev
   {cards={{1,18},{20,28},{30,37},{39,53},{56,84},{87,90},92,{95,104},{107,144}},size=132,num=1},
---9 common
+--9 C
   {cards={1,4,6,10,13,15,17,18,20,22,25,30,32,33,39,42,43,45,46,49,57,59,62,66,70,74,78,79,82,83,87,89,98,102,111,113,115,116,120},num=5},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/72},--secret
-  {slot=3,odds=1/18},--ultra
+  {slot=2,odds=1/72},--RS
+  {slot=3,odds=1/18},--RU
   {slot=4,odds=1/9},--ex
-  {slot=5,remaining=true,odds=1/3},--holo
-  {slot=6}--rare
+  {slot=5,remaining=true,odds=1/3},--RH
+  {slot=6}--R
  },num=1},
 }]]
  }},
@@ -2835,22 +2835,22 @@ custom={
    "1670239067235984110/DEBA3D12027E1596D21C01307A8F601371594ABC"
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={{23,34}},size=12,num=2},
 --2 ex
   {cards={6,15},num=0},
---3 holo
+--3 RH
   {cards={2,5,8,11,14,21},num=0},
---4 reverse
+--4 rev
   {cards={{1,5},{7,14},{16,34}},size=32,num=1},
---5 common
+--5 C
   {cards={1,3,4,7,9,10,12,13,{16,20},22},size=14,num=3},
 }]],
   pullRates=[[{
 --rare
  {rates={
   {slot=2,odds=1/6.5},--ex
-  {slot=3}--holo
+  {slot=3}--RH
  },num=1},
 }]]
  }},
@@ -2869,31 +2869,31 @@ custom={
    "1025076138123944147/F57E7545DC09981E524308A77C60DD30B04D98F0",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={2,4,7,10,12,14,19,22,25,37,44,50,53,56,66,80,81,{84,93},{95,99}},size=32,num=3},
---2 secret
+--2 RS
   {cards={111,112},num=0},
 --3 FA
   {cards={{100,110}},size=11,num=0},
 --4 ex
   {cards={26,34,35,{58,62},{75,77}},size=11,num=0},
---5 holo
+--5 RH
   {cards={5,33,40,42,46,52,57,63,64,72},num=0},
---6 rare
+--6 R
   {cards={8,11,13,15,16,17,23,29,31,32,45,47,48,51,69,71,74,82},num=0},
---8 reverse
+--8 rev
   {cards={{1,25},{27,33},{36,57},{63,74},{79,93},{95,99}},size=86,num=1},
---9 common
+--9 C
   {cards={1,3,6,9,18,20,21,24,27,28,30,36,38,39,41,43,49,54,55,65,67,68,70,73,79,83},num=5},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/111.11},--secret
+  {slot=2,odds=1/111.11},--RS
   {slot=3,odds=1/18.8},--FA
   {slot=4,odds=1/9},--EX
-  {slot=5,remaining=true,odds=1/3},--holo
-  {slot=6}--rare
+  {slot=5,remaining=true,odds=1/3},--RH
+  {slot=6}--R
  },num=1},
 }]]
  }},
@@ -2912,31 +2912,31 @@ custom={
    "1025076138123947036/98AACF10CA933FFAAE62AC25036DC20C80507956",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={2,4,6,10,13,22,29,44,48,53,56,59,65,{69,75},{77,84}},size=28,num=3},
---2 secret
+--2 RS
   {cards={{97,101}},size=5,num=0},
 --3 FA
   {cards={{85,96}},size=12,num=0},
 --4 ex
   {cards={7,8,25,27,28,36,37,42,43,57,68},num=0},
---5 holo
+--5 RH
   {cards={12,15,17,21,26,54,60,67},num=0},
---6 rare
+--6 R
   {cards={3,11,14,18,20,24,33,35,40,49,50,51,66},num=0},
---8 reverse
+--8 rev
   {cards={{1,6},{9,24},26,{29,35},{38,41},{44,56},{58,67},{69,75},{77,84}},size=72,num=1},
---9 common
+--9 C
   {cards={1,5,9,16,19,23,{30,32},34,38,39,41,{45,47},52,55,58,{61,64}},size=23,num=5},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/125},--secret
+  {slot=2,odds=1/125},--RS
   {slot=3,odds=1/18},--FA
   {slot=4,odds=1/9},--EX
-  {slot=5,remaining=true,odds=1/3},--holo
-  {slot=6}--rare
+  {slot=5,remaining=true,odds=1/3},--RH
+  {slot=6}--R
  },num=1},
 }]]
  }},
@@ -2955,38 +2955,38 @@ custom={
    "1025076138123956815/F86548EEAD485928076AB71DD5A3BF932D5913F3",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={3,10,14,17,19,26,28,30,37,44,47,53,56,57,59,67,69,72,74,76,81,88,99,102,110,118,122,126,{133,146},{148,153}},size=48,num=3},
---2 secret
+--2 RS
   {cards={164,165},num=0},
 --3 FA
   {cards={{154,163}},size=10,num=0},
 --4 ex
   {cards={21,22,34,35,61,62,63,64},num=0},
---5 holo
+--5 RH
   {cards={11,15,20,33,38,54,55,60,66,82,84,85,91,94,107,111},num=0},
---6 rare
+--6 R
   {cards={2,6,24,40,42,45,49,70,78,87,96,97,103,106,112,117,120,123,127,128,130},num=0},
 --7 BREAK
   {cards={12,50,79,92,104,113},num=0},
---8 reverse
+--8 rev
   {cards={{1,11},{13,20},{23,33},{36,49},{51,60},{65,78},{80,91},{93,103},{105,112},{114,146},{148,153}},size=138,num=0},
---9 common
+--9 C
   {cards={1,4,5,{7,9},13,16,18,23,25,27,29,31,32,36,39,41,43,46,48,51,52,58,65,68,71,73,75,77,80,83,86,89,90,93,95,98,100,101,105,108,109,{114,116},119,121,124,125,129,131,132},size=53,num=5},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/136.36,flag=true},--secret
+  {slot=2,odds=1/136.36,flag=true},--RS
   {slot=3,odds=1/18.5,flag=true},--FA
   {slot=4,odds=1/11.11,flag=true},--EX
-  {slot=5,remaining=true,odds=1/3},--holo
-  {slot=6}--rare
+  {slot=5,remaining=true,odds=1/3},--RH
+  {slot=6}--R
  },num=1},
---reverse
+--rev
  {rates={
   {slot=7,odds=1/8.32,flagExclude=true},--break
-  {slot=8}--reverse
+  {slot=8}--rev
  },num=1}
 }]]
  }},
@@ -3012,38 +3012,38 @@ custom={
    "1025076138123961574/F1FB362BD6FD591932E42C896ED56DC115B32C8B",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={2,6,9,11,15,20,24,28,34,37,39,43,45,55,61,67,69,72,78,85,90,91,94,{96,98},{101,109},{111,116}},size=41,num=3},
---2 secret
+--2 RS
   {cards={126},num=0},
 --3 FA
   {cards={{117,125}},size=9,num=0},
 --4 ex
   {cards={14,26,27,31,32,52,74,76,77,83,92},num=0},
---5 holo
+--5 RH
   {cards={3,21,30,57,62,70,86},num=0},
---6 rare
+--6 R
   {cards={8,13,17,35,40,46,49,51,54,59,65,73,75,80,82,88},num=0},
 --7 BREAK
   {cards={18,41,47,66,89},num=0},
---8 reverse
+--8 rev
   {cards={{1,13},{15,17},{19,25},{28,30},{33,40},{42,46},{48,51},{53,65},{67,73},75,{78,82},{84,88},90,91,{93,98},{101,109},{111,116}},size=97,num=0},
---9 common
+--9 C
   {cards={1,4,5,7,10,12,16,19,22,23,25,29,33,36,38,42,44,48,50,53,56,58,60,63,64,68,71,79,81,84,87,93,95},num=5},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/166.66,flag=true},--secret
+  {slot=2,odds=1/166.66,flag=true},--RS
   {slot=3,odds=1/18,flag=true},--FA
   {slot=4,odds=1/10.5,flag=true},--EX
-  {slot=5,remaining=true,odds=1/3},--holo
-  {slot=6}--rare
+  {slot=5,remaining=true,odds=1/3},--RH
+  {slot=6}--R
  },num=1},
---reverse
+--rev
  {rates={
   {slot=7,odds=1/10,flagExclude=true},--break
-  {slot=8}--reverse
+  {slot=8}--rev
  },num=1}
 }]]
  }},
@@ -3062,9 +3062,9 @@ custom={
    "1025076138123965227/F95F9448E8E7B41A1F281F1B86964FD89401AA15",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={{60,74},76,4,20,32,35,42,45,52,53,55},num=2,size=25},
---2 rc common
+--2 rc C
   {cards={86,87,88,89,92,94,96,97,99,102,108,110,111},num=1},
 --3 FA
   {cards={25,30},num=0},
@@ -3072,9 +3072,9 @@ custom={
   {cards={11,12},num=0},
 --5 ex
   {cards={1,2,10,13,17,18,24,28,38,47},num=0},
---6 holo
+--6 RH
   {cards={5,27,36,43,46},num=0},
---7 rare
+--7 R
   {cards={7,9,15,23,37,40,48,49,57,58,59},num=0},
 --8 rc FA ex
   {cards={113,117},num=0},
@@ -3082,11 +3082,11 @@ custom={
   {cards={114,115,116},num=0},
 --10 rc ex
   {cards={91,106},num=0},
---11 rc uncommon
+--11 rc U
   {cards={90,93,95,98,100,101,103,104,105,107,109,112},num=0},
---12 reverse (energy is placed twice to simulate higher pull rate)
+--12 rev (energy is placed twice to simulate higher pull rate)
   {cards={{3,9},{14,16},{19,23},26,27,{31,37},{39,46},{48,74},76,{77,85},{77,85}},num=1,size=78},
---13 common
+--13 C
   {cards={3,6,8,14,16,19,21,22,26,31,33,34,39,41,44,50,51,54,56},num=2},
 --14 energy
   {cards={{77,85}},num=0,energy=true,size=9},
@@ -3097,8 +3097,8 @@ custom={
   {slot=3,odds=1/43.5},--FA
   {slot=4,odds=1/61},--zard EX
   {slot=5,odds=1/5.2},--EX
-  {slot=6,odds=1/9.5},--holo
-  {slot=7}--rare
+  {slot=6,odds=1/9.5},--RH
+  {slot=7}--R
  },num=1},
 --RC unc
  {rates={
@@ -3107,16 +3107,16 @@ custom={
   {slot=10,odds=1/6},--EX
   {slot=11}--unc
  },num=1},
---common 1
+--C 1
  {rates={
   {slot=14,odds=1/14},--energy
-  {slot=13}--common
+  {slot=13}--C
  },num=1},
---common 2
+--C 2
  {rates={
-  {slot=13,odds=1/14},--common
+  {slot=13,odds=1/14},--C
   {slot=14},--energy
-  {slot=13}--common
+  {slot=13}--C
  },num=1},
 }]]
  }},
@@ -3135,38 +3135,38 @@ custom={
    "1025076138123968839/28D8BF3F873F26587F0CA8E531E599B26B8452C1",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={1,3,6,12,16,17,28,34,38,42,45,49,53,61,68,73,77,83,{90,107},{109,114},{116,119}},size=46,num=3},
---2 secret
+--2 RS
   {cards={129},num=0},
 --3 FA
   {cards={{120,128}},size=9,num=0},
 --4 ex
   {cards={20,25,26,43,55,57,66,71,74,75,{85,87}},size=13,num=0},
---5 holo
+--5 RH
   {cards={13,21,29,58,65},num=0},
---6 rare
+--6 R
   {cards={4,7,9,18,23,24,31,35,37,39,48,50,54,60,63,69,78,79,80,84},num=0},
 --7 BREAK
   {cards={14,19,52,64,81},num=0},
---8 reverse
+--8 rev
   {cards={{1,13},{15,18},{21,24},{27,42},{45,51},53,54,{58,63},65,{67,70},72,73,{76,80},{82,84},{88,107},{109,114},{116,119}},size=97,num=0},
---9 common
+--9 C
   {cards={2,5,8,10,11,15,22,27,30,32,33,36,40,41,46,47,51,59,62,67,70,72,76,82,88,89},num=5},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/102.85,flag=true},--secret
+  {slot=2,odds=1/102.85,flag=true},--RS
   {slot=3,odds=1/18,flag=true},--FA
   {slot=4,odds=1/7.6,flag=true},--EX
-  {slot=5,remaining=true,odds=1/3},--holo
-  {slot=6}--rare
+  {slot=5,remaining=true,odds=1/3},--RH
+  {slot=6}--R
  },num=1},
---reverse
+--rev
  {rates={
   {slot=7,odds=1/10,flagExclude=true},--break
-  {slot=8}--reverse
+  {slot=8}--rev
  },num=1}
 }]]
  }},
@@ -3185,38 +3185,38 @@ custom={
    "1025076138123972143/4919ACB916E36CFC34965CA012099757B79066E2",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={2,4,10,17,19,31,39,44,47,49,56,69,72,77,80,85,89,91,93,95,{97,106}},size=30,num=3},
---2 secret
+--2 RS
   {cards={115,116},num=0},
 --3 FA
   {cards={{107,114}},size=8,num=0},
 --4 ex
   {cards={26,67,68,75,78,79},num=0},
---5 holo
+--5 RH
   {cards={11,20,40,50,64,65,73,81,86},num=0},
---6 rare
+--6 R
   {cards={5,7,13,15,23,25,29,32,34,37,42,45,51,53,55,57,59,61,62,70,74,83,96},num=0},
 --7 BREAK
   {cards={8,21,24,35,66,82,87},num=0},
---8 reverse
+--8 rev
   {cards={{1,7},{9,20},22,23,25,{27,34},{36,65},{69,74},76,77,80,81,{83,86},{88,106}},size=93,num=0},
---9 common
+--9 C
   {cards={1,3,6,9,12,14,16,18,22,27,28,30,33,36,38,41,43,46,48,52,54,58,60,63,71,76,84,88,90,92,94},num=5},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=2,odds=1/132.4,flag=true},--secret
+  {slot=2,odds=1/132.4,flag=true},--RS
   {slot=3,odds=1/17.7,flag=true},--FA
   {slot=4,odds=1/14.45,flag=true},--EX
-  {slot=5,remaining=true,odds=1/3},--holo
-  {slot=6}--rare
+  {slot=5,remaining=true,odds=1/3},--RH
+  {slot=6}--R
  },num=1},
---reverse
+--rev
  {rates={
   {slot=7,odds=1/10,flagExclude=true},--break
-  {slot=8}--reverse
+  {slot=8}--rev
  },num=1}
 }]]
  }},
@@ -3242,48 +3242,48 @@ custom={
    "1025076138123975144/63E8587ADF26BDE49571261BBC748C356E1CF5A5",
   },
   dropSlots=[[{
---1 secret
+--1 RS
   {cards={{109,113}},size=5,num=0},
---2 uncommon
+--2 U
   {cards={4,6,10,20,24,44,48,50,58,71,{73,90}},size=28,num=0},
---3 ultra
+--3 RU
   {cards={{100,108}},size=9,num=0},
 --4 ex
   {cards={1,2,12,13,21,22,26,27,52,64,65,72},num=0},
---5 holo
+--5 RH
   {cards={11,15,25,34,36,38,42,45,53,59,62,63,70},num=0},
---6 rare
+--6 R
   {cards={7,18,29,31,40,51,56,67,68},num=0},
 --7 BREAK
   {cards={16,32,46,60},num=0},
---8 reverse (energy is placed twice to simulate higher pull rate)
+--8 rev (energy is placed twice to simulate higher pull rate)
   {cards={{3,11},14,15,{17,20},{23,25},{28,31},{33,45},{47,51},{53,59},{61,63},{66,71},{73,99},{91,99}},size=92,num=0},
---9 common
+--9 C
   {cards={3,5,8,9,14,17,19,23,28,30,33,35,37,39,41,43,47,49,54,55,57,61,66,69},num=4},
 --10 energy
   {cards={91,92,93,94,95,96,97,98,99},num=0,energy=true},
 }]],
   pullRates=[[{
---uncommons
+--Us
  {rates={
   {slot=1,odds=1/23.2},
   {slot=2}--unc
  },num=3},
---rare
+--R
  {rates={
-  {slot=3,odds=1/15,flag=true},--ultra
+  {slot=3,odds=1/15,flag=true},--RU
   {slot=4,odds=1/8.3,flag=true},--EX
-  {slot=5,odds=1/10.1,flag=true},--holo
-  {slot=6}--rare
+  {slot=5,odds=1/10.1,flag=true},--RH
+  {slot=6}--R
  },num=1},
---reverse
+--rev
  {rates={
   {slot=7,odds=1/15.75,flagExclude=true},--break
-  {slot=8}--reverse
+  {slot=8}--rev
  },num=1},
---common
+--C
  {rates={
-  {slot=9,odds=2/3},--common
+  {slot=9,odds=2/3},--C
   {slot=10}--energy
  },num=1},
 }]]
@@ -3310,36 +3310,36 @@ custom={
    "1025076138123979294/866649351BC90328494B6E1850DD7C4FBB4CF4C4",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={2,6,10,19,25,31,36,38,40,44,46,47,51,55,60,70,73,77,79,84,91,95,103,105,108,{115,138}},size=49,num=3},
 --2 energy
   {cards={{165,173}},num=1,size=9,energy=true},
---3 gold
+--3 RS
   {cards={{159,164}},size=6,num=0},
---4 Rainbow
+--4 RR
   {cards={{151,158}},size=8,num=0},
 --5 FA
   {cards={{139,150}},size=12,num=0},
 --6 GX
   {cards={12,15,27,35,42,61,66,80,89,100,111},num=0},
---7 holo
+--7 RH
   {cards={17,20,22,32,52,56,58,63,71,82,85,87,93,96,99,114},num=0},
---8 rare
+--8 R
   {cards={3,5,8,11,26,29,34,41,43,48,50,65,68,75,106,109,113},num=0},
---9 reverse
+--9 rev
   {cards={{1,11},13,14,{16,26},{28,34},{36,41},{43,60},{62,65},{67,79},{81,88},{90,99},101,{103,110},{112,138}},size=126,num=1},
---10 common
+--10 C
   {cards={1,4,7,9,13,14,16,18,21,23,24,28,30,33,37,39,45,49,53,54,57,59,62,64,67,69,72,74,76,78,81,83,86,88,90,92,94,97,98,101,104,107,110,112},num=5}
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=3,odds=1/121.14},--gold
-  {slot=4,odds=1/69.1},--Rainbow
+  {slot=3,odds=1/121.14},--RS
+  {slot=4,odds=1/69.1},--RR
   {slot=5,odds=1/23.8},--FA
   {slot=6,odds=1/9},--GX
-  {slot=7,remaining=true,odds=1/3},--holo
-  {slot=8}--rare
+  {slot=7,remaining=true,odds=1/3},--RH
+  {slot=8}--R
  },num=1},
 }]]
  }},
@@ -3359,36 +3359,36 @@ custom={
    "1025076138123982901/4E7E585E42C954398B04A3A8E5F774B56BFBD454",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={2,12,26,34,36,38,41,43,51,56,68,70,72,84,88,93,95,100,104,113,115,118,119,{121,126},{128,130},132,{134,136},138,139},size=38,num=3},
 --2 energy
   {cards={{181,189}},num=1,size=9,energy=true},
---3 gold
+--3 RS
   {cards={{172,180}},size=9,num=0},
---4 Rainbow
+--4 RR
   {cards={{156,167},{169,171}},size=15,num=0},
 --5 FA
   {cards={{141,155}},size=15,num=0},
 --6 GX
   {cards={18,24,40,47,49,60,63,78,89,96,105,120},num=0},
---7 holo
+--7 RH
   {cards={9,10,13,27,44,61,62,69,80,81,85,98,101,102,107},num=0},
---8 rare
+--8 R
   {cards={3,5,7,14,16,17,21,30,32,37,46,48,53,57,58,59,65,75,83,86,90,91,109,111,116},num=0},
---9 reverse
+--9 rev
   {cards={{1,17},19,21,22,{25,39},{41,46},48,{50,53},{55,59},61,62,{65,77},{79,88},{90,95},{98,104},{106,119},{121,126},{128,130},132,{134,136},138,139},size=118,num=1},
---10 common
+--10 C
   {cards={1,4,6,8,11,15,19,22,25,28,29,31,33,35,39,42,45,50,52,55,66,67,71,73,74,76,77,79,82,87,92,94,99,103,106,108,110,112,114,117},num=5}
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=3,odds=1/122.8},--gold
-  {slot=4,odds=1/77.33},--Rainbow
+  {slot=3,odds=1/122.8},--RS
+  {slot=4,odds=1/77.33},--RR
   {slot=5,odds=1/27.84},--FA
   {slot=6,odds=1/9},--GX
-  {slot=7,remaining=true,odds=1/3},--holo
-  {slot=8}--rare
+  {slot=7,remaining=true,odds=1/3},--RH
+  {slot=8}--R
  },num=1},
 }]]
  }},
@@ -3408,36 +3408,36 @@ custom={
    "1025076138123987388/45652369C49E4E7F9D4DB5736F029A6EFF20FBEA",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={2,5,13,20,24,25,31,38,44,47,51,52,54,59,68,70,71,95,100,108,112,113,117,{119,121},123,{125,136}},size=39,num=3},
 --2 energy
   {cards={{178,186}},num=1,size=9,energy=true},
---3 gold
+--3 RS
   {cards={{169,177}},size=9,num=0},
---4 Rainbow
+--4 RR
   {cards={{156,168}},size=13,num=0},
 --5 FA
   {cards={{137,155}},size=19,num=0},
 --6 GX
   {cards={17,21,22,26,40,65,66,82,86,90,97,103},num=0},
---7 holo
+--7 RH
   {cards={6,32,34,43,55,64,69,73,77,89,98,104,109},num=0},
---8 rare
+--8 R
   {cards={3,8,10,11,15,27,29,36,39,45,48,50,57,60,62,76,78,80,81,84,88,93,102,106,116},num=0},
---9 reverse
+--9 rev
   {cards={{1,16},18,20,{23,25},{27,39},{42,64},{67,81},{83,85},{87,89},{92,95},{98,102},{104,109},{111,117},{119,121},123,{125,136}},size=116,num=1},
---10 common
+--10 C
   {cards={1,4,7,9,12,14,16,18,23,28,30,33,35,37,42,46,49,53,56,58,61,63,67,72,74,75,79,83,85,87,92,94,99,101,105,107,111,114,115},num=5}
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=3,odds=1/105.8},--gold
-  {slot=4,odds=1/62.8},--Rainbow
+  {slot=3,odds=1/105.8},--RS
+  {slot=4,odds=1/62.8},--RR
   {slot=5,odds=1/25.44},--FA
   {slot=6,odds=1/9.14},--GX
-  {slot=7,remaining=true,odds=1/3},--holo
-  {slot=8}--rare
+  {slot=7,remaining=true,odds=1/3},--RH
+  {slot=8}--R
  },num=1},
 }]]
  }},
@@ -3457,45 +3457,45 @@ custom={
    "1025076138123991122/823C5257958656415E64511A5D4B217E1B147C4A",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={3,6,14,18,21,24,32,38,45,48,50,52,{59,69},71,72},size=25,num=3},
 --2 energy
   {cards={{82,90}},num=1,size=9,energy=true},
 --3 tube mewtwo
   {cards={81},num=0},
---4 Rainbow
+--4 RR
   {cards={{76,79}},size=4,num=0},
 --5 FA mon
   {cards={73,74},num=0},
---6 FA trainer
+--6 FA sup
   {cards={75},num=0},
 --7 shiny
   {cards={9,28,41,43,57,58},num=0},
 --8 GX
   {cards={10,30,40,54},num=0},
---9 holo
+--9 RH
   {cards={7,8,15,25,26,27,33,36,42,46,55,56},num=0},
---10 reverse energy
+--10 rev energy
   {cards={{82,90}},num=0,size=9,energy=true},
---11 reverse
+--11 rev
   {cards={{1,8},{12,27},29,{31,39},42,{44,53},55,56,{59,69},71,72},size=60,num=0},
---12 common
+--12 C
   {cards={1,2,4,5,12,13,16,17,19,20,22,23,29,31,34,35,37,39,44,47,49,51,53},num=5}
 }]],
   pullRates=[[{
 --rare
  {rates={
   {slot=3,odds=1/109.7},--tube mewtwo
-  {slot=4,odds=1/66.8},--Rainbow
+  {slot=4,odds=1/66.8},--RR
   {slot=5,odds=1/35.7},--FA mon
-  {slot=6,odds=1/85.33},--FA trainer
+  {slot=6,odds=1/85.33},--FA sup
   {slot=7,odds=1/11.45},--shiny
   {slot=8,odds=1/8.44},--GX
-  {slot=9}--holo
+  {slot=9}--RH
  },num=1},
  {rates={
   {slot=10,odds=1/3.78},--rev energy
-  {slot=11}--reverse
+  {slot=11}--rev
  },num=1}
 }]]
  }},
@@ -3515,36 +3515,36 @@ custom={
    "1025076138123994653/5ED86875C494D97F4299360E58A04162A8A7E343",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={2,9,20,33,35,37,42,54,61,65,67,77,79,83,88,90,{93,102}},size=26,num=3},
 --2 energy
   {cards={{127,135}},num=1,size=9,energy=true},
---3 gold
+--3 RS
   {cards={{122,126}},size=5,num=0},
---4 Rainbow
+--4 RR
   {cards={{114,121}},size=8,num=0},
 --5 FA
   {cards={{103,113}},size=11,num=0},
 --6 GX
   {cards={18,34,49,57,63,71,75,92},num=0},
---7 holo
+--7 RH
   {cards={11,12,27,28,31,38,47,56,68,74,85,91},num=0},
---8 rare
+--8 R
   {cards={3,6,14,16,21,23,25,40,45,48,51,53,59,62,69,70,73,78,81,84},num=0},
---9 reverse
+--9 rev
   {cards={{1,17},{19,33},{35,48},{50,56},{58,62},{65,70},{72,74},{76,85},{87,91},{93,102}},size=92,num=1},
---10 common
+--10 C
   {cards={1,4,5,7,8,10,13,15,17,19,22,24,26,29,30,32,36,39,41,43,44,46,50,52,55,58,60,66,72,76,80,82,87,89},num=5}
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=3,odds=1/90},--gold
-  {slot=4,odds=1/90},--Rainbow
+  {slot=3,odds=1/90},--RS
+  {slot=4,odds=1/90},--RR
   {slot=5,odds=1/22.5},--FA
   {slot=6,odds=1/12},--GX
-  {slot=7,remaining=true,odds=1/3},--holo
-  {slot=8}--rare
+  {slot=7,remaining=true,odds=1/3},--RH
+  {slot=8}--R
  },num=1},
 }]]
  }},
@@ -3571,45 +3571,45 @@ custom={
    "1025076138123997661/E56FC6C7C5486522A54D5472E8F3EAE525953A0E",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={3,8,11,22,27,33,36,42,47,50,52,53,61,64,72,76,79,82,84,87,98,107,109,113,114,118,119,122,123,{125,127},{129,138},141,142},size=44,num=3},
 --2 energy
   {cards={{179,187}},num=1,size=9,energy=true},
---3 gold
+--3 RS
   {cards={{171,178}},size=8,num=0},
---4 Rainbow
+--4 RR
   {cards={{162,170}},size=9,num=0},
---5 full art mon
+--5 FA mon
   {cards={{143,151}},size=9,num=0},
---6 full art trainer
+--6 FA sup
   {cards={{152,157},{159,161}},size=9,num=0},
 --7 GX
   {cards={13,39,63,90,100,101,116},num=0},
---8 holo
+--8 RH
   {cards={9,15,19,23,48,59,65,67,74,83,85,88,117},num=0},
---9 rare
+--9 R
   {cards={5,14,17,24,26,29,34,38,40,41,44,55,57,69,91,93,94,95,99,103,110,111,115},num=0},
---10 prism star
+--10 RPS
   {cards={58,62,77,89,121,140},num=0},
---11 reverse
+--11 rev
   {cards={{1,12},{14,38},{40,57},{59,61},{64,76},{78,88},{91,99},{102,115},{117,119},122,123,{125,127},{129,138},141,142},size=125,num=0},
---12 common
+--12 C
   {cards={1,2,4,6,7,10,12,16,18,20,21,25,28,30,31,32,35,37,43,45,46,49,51,54,56,60,66,68,70,71,73,75,78,80,81,86,92,96,97,102,104,105,106,108,112},num=5}
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=3,odds=1/128.77},--gold
-  {slot=4,odds=1/66.96},--Rainbow
-  {slot=5,odds=1/42.92},--full art mon
-  {slot=6,odds=1/50.73},--full art trainer
+  {slot=3,odds=1/128.77},--RS
+  {slot=4,odds=1/66.96},--RR
+  {slot=5,odds=1/42.92},--FA mon
+  {slot=6,odds=1/50.73},--FA sup
   {slot=7,odds=1/12.49},--GX
-  {slot=8,remaining=true,odds=1/3},--holo
-  {slot=9}--rare
+  {slot=8,remaining=true,odds=1/3},--RH
+  {slot=9}--R
  },num=1},
  {rates={
-  {slot=10,odds=1/11.47},--prism star
-  {slot=11}--reverse
+  {slot=10,odds=1/11.47},--RPS
+  {slot=11}--rev
  },num=1},
 }]]
  }},
@@ -3629,45 +3629,45 @@ custom={
    "1025076138124001048/2A098D20E3F333F2B0052B7A782FBC8B5F5FCEC0",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={8,11,17,24,28,34,36,39,{42,44},49,55,56,62,69,71,72,86,89,90,94,99,105,106,{108,111},113,114,116,{118,120},122},size=36,num=3},
 --2 energy
   {cards={{151,159}},num=1,size=9,energy=true},
---3 gold
+--3 RS
   {cards={{145,150}},size=6,num=0},
---4 Rainbow
+--4 RR
   {cards={{136,144}},size=9,num=0},
 --5 FA mon
   {cards={{123,131}},size=9,num=0},
---6 FA trainer
+--6 FA sup
   {cards={132,133,134,135},num=0},
 --7 GX
   {cards={21,25,57,74,80,83,91,96},num=0},
---8 holo
+--8 RH
   {cards={12,18,20,29,60,63,70,81,82,95,107},num=0},
---9 rare
+--9 R
   {cards={2,5,9,13,14,27,31,37,40,41,46,50,52,54,59,65,68,73,77,78,79,87,88,102,103},num=0},
---10 prism star
+--10 RPS
   {cards={32,75,97,112,121},num=0},
---11 reverse
+--11 rev
   {cards={1,2,{4,20},{22,24},{26,31},{33,56},{58,73},{76,79},81,82,{84,90},{92,95},{98,103},{105,111},113,114,116,{118,120},122},size=105,num=0},
---12 common
+--12 C
   {cards={1,4,6,7,10,15,16,19,22,23,26,30,33,35,38,45,47,48,51,53,58,61,64,66,67,76,84,85,92,93,98,100,101},num=5}
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=3,odds=1/140.44},--gold
-  {slot=4,odds=1/74.35},--Rainbow
+  {slot=3,odds=1/140.44},--RS
+  {slot=4,odds=1/74.35},--RR
   {slot=5,odds=1/43.6},--FA mon
-  {slot=6,odds=1/79},--FA trainer
+  {slot=6,odds=1/79},--FA sup
   {slot=7,odds=1/13.45},--GX
-  {slot=8,remaining=true,odds=1/3},--holo
-  {slot=9}--rare
+  {slot=8,remaining=true,odds=1/3},--RH
+  {slot=9}--R
  },num=1},
  {rates={
-  {slot=10,odds=1/12.64},--prism star
-  {slot=11}--reverse
+  {slot=10,odds=1/12.64},--RPS
+  {slot=11}--rev
  },num=1},
 }]]
  }},
@@ -3687,45 +3687,45 @@ custom={
    "1025076138124005142/3BFFB8F1F56388EAA683BD6290602DAF2FF995AD",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={2,4,9,14,{17,19},21,22,28,30,31,35,38,43,44,51,{54,56},59,63,74,76,84,89,92,95,106,111,113,115,119,123,124,{126,146},{148,150},{152,154}},size=62,num=3},
 --2 energy
   {cards={{188,196}},num=1,size=9,energy=true},
---3 gold
+--3 RS
   {cards={{182,187}},size=6,num=0},
---4 Rainbow
+--4 RR
   {cards={{172,180}},size=9,num=0},
 --5 FA mon
   {cards={{155,163}},size=9,num=0},
---6 FA trainer
+--6 FA sup
   {cards={{164,171}},size=8,num=0},
 --7 GX
   {cards={15,29,32,49,57,67,83,86,91,103,110},num=0},
---8 holo
+--8 RH
   {cards={3,6,39,47,62,68,71,82,88,90,96,99,100,101,107,116,122,147},num=0},
---9 rare
+--9 R
   {cards={10,23,25,36,41,46,53,61,66,69,70,78,80,81,97,102,120},num=0},
---10 prism star
+--10 RPS
   {cards={98,108,109},num=0},
---11 reverse
+--11 rev
   {cards={{1,10},{12,14},{16,28},30,31,{33,48},{50,56},{58,66},{68,82},84,85,{87,90},{92,97},{99,102},{104,107},{111,124},{126,150},{152,154}},size=137,num=0},
---12 common
+--12 C
   {cards={1,5,7,8,12,13,16,20,24,26,27,33,34,37,40,42,45,48,50,52,58,60,64,65,72,73,75,77,79,85,87,93,94,104,105,112,114,117,118,121},num=5}
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=3,odds=1/113.8},--gold
-  {slot=4,odds=1/82.2},--Rainbow
+  {slot=3,odds=1/113.8},--RS
+  {slot=4,odds=1/82.2},--RR
   {slot=5,odds=1/47.7},--FA mon
-  {slot=6,odds=1/59.2},--FA trainer
+  {slot=6,odds=1/59.2},--FA sup
   {slot=7,odds=1/9.67},--GX
-  {slot=8,remaining=true,odds=1/3},--holo
-  {slot=9}--rare
+  {slot=8,remaining=true,odds=1/3},--RH
+  {slot=9}--R
  },num=1},
  {rates={
-  {slot=10,odds=1/18.2},--prism star
-  {slot=11}--reverse
+  {slot=10,odds=1/18.2},--RPS
+  {slot=11}--rev
  },num=1},
 }]]
  }},
@@ -3745,42 +3745,42 @@ custom={
    "1025076138124008914/23F02422A9DB26537E8C06D23BD673294F1A4D3C",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={2,5,9,10,14,17,21,23,26,29,30,36,39,44,46,50,51,52,60,61,64,65,66},num=3},
 --2 energy
   {cards={{81,89}},num=1,size=9,energy=true},
---3 gold
+--3 RS
   {cards={77,78,79,80},num=0},
---4 Rainbow
+--4 RR
   {cards={76,73,74,75},num=0},
 --5 FA mon
   {cards={67,68,69,70},num=0},
---6 FA trainer
+--6 FA sup
   {cards={71,72},num=0},
 --7 GX
   {cards={11,18,37,42,45,49},num=0},
---8 holo
+--8 RH
   {cards={3,6,20,24,33,40,47,48,55,59},num=0},
---9 prism star
+--9 RPS
   {cards={7,63},num=0},
---10 reverse
+--10 rev
   {cards={{1,6},{8,10},{12,17},{19,36},{38,40},43,44,{46,48},{50,61},{64,66}},size=56,num=0},
---11 common
+--11 C
   {cards={1,4,8,12,13,15,16,19,22,25,27,28,31,32,34,35,38,43,53,54,56,57,58},num=5}
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=3,odds=1/129.6},--gold
-  {slot=4,odds=1/43.2},--Rainbow
+  {slot=3,odds=1/129.6},--RS
+  {slot=4,odds=1/43.2},--RR
   {slot=5,odds=1/32.4},--FA mon
-  {slot=6,odds=1/26},--FA trainer
+  {slot=6,odds=1/26},--FA sup
   {slot=7,odds=1/6.5},--GX
-  {slot=8}--holo
+  {slot=8}--RH
  },num=1},
  {rates={
-  {slot=9,odds=1/9.25},--prism star
-  {slot=10}--reverse
+  {slot=9,odds=1/9.25},--RPS
+  {slot=10}--rev
  },num=1},
 }]]
  }},
@@ -3807,45 +3807,45 @@ custom={
    "1025076138124012336/0C7CCB5FFF7D7B0C7C782B0225BBA6F1C08E5998",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={4,7,10,13,16,18,21,25,27,30,32,36,41,57,58,66,71,77,88,94,96,102,110,113,116,123,131,140,142,143,148,156,161,162,165,{167,172},{174,178},180,182,{184,188},190,192,194,{196,198}},size=59,num=3},
 --2 energy
   {cards={{241,249}},num=1,size=9,energy=true},
---3 gold
+--3 RS
   {cards={{232,240}},size=9,num=0},
---4 Rainbow
+--4 RR
   {cards={{219,231}},size=13,num=0},
 --5 FA mon
   {cards={{199,211}},size=13,num=0},
---6 FA trainer
+--6 FA sup
   {cards={{212,218}},size=7,num=0},
 --7 GX
   {cards={17,22,34,44,52,60,86,98,121,130,132,149,159},num=0},
---8 holo
+--8 RH
   {cards={8,14,33,37,42,48,59,63,78,85,97,103,106,108,126,127,129,141,150,151,153},num=0},
---9 rare
+--9 R
   {cards={2,26,28,38,46,47,49,51,55,56,62,67,69,72,74,79,82,89,90,91,92,93,95,100,104,112,119,120,124,125,134,136,138,146,157,158,160,166},num=0},
---10 prism star
+--10 RPS
   {cards={19,144,154,179,181,183,195},num=0},
---11 reverse
+--11 rev
   {cards={{1,16},18,20,21,{23,33},{35,43},{45,51},{53,59},{61,85},{87,97},{99,120},{122,129},131,{133,143},{145,148},{150,153},{155,158},{160,172},{174,178},180,182,{184,188},190,192,194,{196,198}},size=174,num=0},
---12 common
+--12 C
   {cards={1,3,5,6,9,11,12,15,20,23,24,29,31,35,39,40,43,45,50,53,54,61,64,65,68,70,73,75,76,80,81,83,84,87,99,101,105,107,109,111,114,115,117,118,122,128,133,135,137,139,145,147,152,155,163,164},num=5}
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=3,odds=1/98},--gold
-  {slot=4,odds=1/75},--Rainbow
+  {slot=3,odds=1/98},--RS
+  {slot=4,odds=1/75},--RR
   {slot=5,odds=1/32},--FA mon
-  {slot=6,odds=1/80},--FA trainer
+  {slot=6,odds=1/80},--FA sup
   {slot=7,odds=1/9.75},--GX
-  {slot=8,remaining=true,odds=1/3},--holo
-  {slot=9}--rare
+  {slot=8,remaining=true,odds=1/3},--RH
+  {slot=9}--R
  },num=1},
  {rates={
-  {slot=10,odds=1/8.2},--prism star
-  {slot=11}--reverse
+  {slot=10,odds=1/8.2},--RPS
+  {slot=11}--rev
  },num=1},
 }]]
  }},
@@ -3864,45 +3864,45 @@ custom={
    "1025076138124015895/DBE23F7AAC4E5DB958FBC811147219638160ED24",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={4,13,18,21,24,27,36,42,50,55,58,61,68,70,{73,75},77,80,89,108,118,{126,129},{135,139},{141,152},{155,159}},size=48,num=3},
---2 energy TODO find a way to get energies reliably
+--2 energy TODO add energy
   {cards={},num=0,size=8,energy=true},
---3 gold
+--3 RS
   {cards={{194,198}},size=5,num=0},
---4 Rainbow
+--4 RR
   {cards={{184,193}},size=10,num=0},
 --5 FA mon TODO are alt art mons a seperate slot?
   {cards={{161,173}},size=13,num=0},
---6 FA trainer
+--6 FA sup
   {cards={{174,183}},size=10,num=0},
 --7 GX
   {cards={1,33,43,53,67,82,96,97,106,113,120},num=0},
---8 holo
+--8 RH
   {cards={19,30,32,39,40,52,76,85,88,91,95,99,109,111,119,131,132,133,140},num=0},
---9 rare
+--9 R
   {cards={5,7,9,14,16,25,31,37,45,48,56,59,{63,66},72,78,84,87,93,94,98,101,103,105,112,114,115,124,130},size=31,num=0},
---10 prism star
+--10 RPS
   {cards={10,51,134,160},num=0},
---11 reverse
+--11 rev
   {cards={{2,9},{11,32},{34,42},{44,50},52,{54,66},{68,81},{83,95},{98,105},{107,112},{114,119},{121,133},{135,152},{155,159}},size=143,num=0},
---12 common
+--12 C
   {cards={2,3,6,8,11,12,15,17,20,22,23,26,28,29,34,35,38,41,44,46,47,49,54,57,60,62,69,71,79,81,83,86,90,92,100,102,104,107,110,116,117,121,122,123,125},num=5}
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=3,odds=1/145},--gold
-  {slot=4,odds=1/97},--Rainbow
+  {slot=3,odds=1/145},--RS
+  {slot=4,odds=1/97},--RR
   {slot=5,odds=1/41.5},--FA mon
-  {slot=6,odds=1/41.5},--FA trainer
+  {slot=6,odds=1/41.5},--FA sup
   {slot=7,odds=1/10.75},--GX
-  {slot=8,remaining=true,odds=1/3},--holo
-  {slot=9}--rare
+  {slot=8,remaining=true,odds=1/3},--RH
+  {slot=9}--R
  },num=1},
  {rates={
-  {slot=10,odds=1/16.7},--prism star
-  {slot=11}--reverse
+  {slot=10,odds=1/16.7},--RPS
+  {slot=11}--rev
  },num=1},
 }]]
  }},
@@ -3922,7 +3922,7 @@ custom={
   {cards={5,9,12,17},num=0},
 --2 black star
   {cards={2,6,10,11,13,18},num=0},
---3 common
+--3 C
   {cards={1,3,4,7,8,14,15,16},num=3},
 }]],
   pullRates=[[{
@@ -3948,39 +3948,39 @@ custom={
    "1025076138124021974/1FA9712F30C1BC03155BC9E5CB4BDF952F5CB2AF",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={3,7,14,28,34,38,41,52,53,58,65,69,88,94,{99,101},115,124,131,137,144,146,151,156,161,162,{164,182},185,{187,191},193},size=53,num=3},
---2 energy TODO find a way to get energies reliably
+--2 energy TODO add energy
   {cards={},num=0,size=8,energy=true},
---3 gold
+--3 RS
   {cards={{233,238}},size=6,num=0},
---4 Rainbow
+--4 RR
   {cards={{219,232}},size=14,num=0},
 --5 FA mon TODO are alt art mons a seperate slot?
   {cards={{194,198},{200,212}},size=18,num=0},
---6 FA trainer
+--6 FA sup
   {cards={{213,218}},size=6,num=0},
 --7 GX
   {cards={1,12,20,35,57,61,82,107,109,120,130,140,149,163},num=0},
---8 holo
+--8 RH
   {cards={8,19,22,25,43,50,59,66,76,81,89,103,106,112,117,119,126,129,138,157,158,186},num=0},
---9 rare
+--9 R
   {cards={4,11,15,17,24,29,31,32,39,45,47,49,55,56,60,63,70,72,74,75,78,80,84,86,91,95,97,105,111,116,122,125,127,133,135,142,148,153,160},num=0},
---11 reverse
+--11 rev
   {cards={{2,11},{13,19},{21,34},{36,56},{58,60},{62,81},{83,106},108,{110,119},{121,129},{131,139},{141,148},{150,162},{164,182},{185,191},193},size=176,num=1},
---12 common
+--12 C
   {cards={2,5,6,9,10,13,16,18,21,23,26,27,30,33,36,37,40,42,44,46,48,51,54,62,64,67,68,71,73,77,79,83,85,87,90,92,93,96,98,102,104,108,110,113,114,118,121,123,128,132,134,136,139,141,143,145,147,150,152,154,155,159},num=5},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=3,odds=1/111},--gold
-  {slot=4,odds=1/72},--Rainbow
-  {slot=5,odds=1/32.1},--full art mon
-  {slot=6,odds=1/99.69},--full art trainer
+  {slot=3,odds=1/111},--RS
+  {slot=4,odds=1/72},--RR
+  {slot=5,odds=1/32.1},--FA mon
+  {slot=6,odds=1/99.69},--FA sup
   {slot=7,odds=1/10.13},--GX
-  {slot=8,remaining=true,odds=1/3},--holo
-  {slot=9}--rare
+  {slot=8,remaining=true,odds=1/3},--RH
+  {slot=9}--R
  },num=1}
 }]]
  }},
@@ -3999,39 +3999,39 @@ custom={
    "1025076138124025351/B66611F8DEAD1C436C68479A1E6224AC284C0A0E",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={3,8,16,18,20,29,36,40,{43,45},52,59,65,68,76,77,85,86,88,90,91,95,108,109,112,114,121,134,146,150,151,156,165,167,170,173,174,176,178,179,183,184,{186,192},{194,208},{210,216}},size=72,num=3},
---2 energy TODO find a way to get energies reliably
+--2 energy TODO add energy
   {cards={},num=0,size=8,energy=true},
---3 gold
+--3 RS
   {cards={{253,261}},size=9,num=0},
---4 Rainbow
+--4 RR
   {cards={{240,252}},size=13,num=0},
---5 full art mon TODO are alt art mons a seperate slot?
+--5 FA mon TODO are alt art mons a seperate slot?
   {cards={{217,233}},size=17,num=0},
---6 full art trainer
+--6 FA sup
   {cards={{234,239}},size=6,num=0},
 --7 GX
   {cards={1,25,35,47,54,71,72,78,79,107,126,127,133,142,147,153,161},num=0},
---8 holo
+--8 RH
   {cards={4,19,26,30,38,51,57,60,66,69,84,87,96,115,123,140,141,157,164,171,185},num=0},
---9 rare
+--9 R
   {cards={9,11,14,22,24,32,34,42,49,53,62,70,74,75,82,92,98,100,102,105,111,118,120,122,124,125,131,135,137,139,143,145,152,154,160,163,177,182},num=0},
---11 reverse
+--11 rev
   {cards={{2,24},{26,34},{36,46},{48,53},{55,70},{73,77},{81,106},{108,125},{128,132},{134,141},{143,146},{148,152},{154,160},{162,192},{194,208},{210,216}},size=196,
---12 common
+--12 C
   {cards={2,{5,7},10,12,13,15,17,21,23,27,28,31,33,37,39,41,46,48,50,55,56,58,61,63,64,67,73,81,83,89,93,94,97,99,101,103,104,106,110,113,116,117,119,{128,130},132,136,138,144,148,149,155,158,159,162,166,168,169,172,175,180,181},size=65},num=5},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=3,odds=1/111.1},--gold
-  {slot=4,odds=1/69.4},--Rainbow
-  {slot=5,odds=1/31.3},--full art mon
-  {slot=6,odds=1/85.4},--full art trainer
+  {slot=3,odds=1/111.1},--RS
+  {slot=4,odds=1/69.4},--RR
+  {slot=5,odds=1/31.3},--FA mon
+  {slot=6,odds=1/85.4},--FA sup
   {slot=7,odds=1/8.2},--GX
-  {slot=8,remaining=true,odds=1/3},--holo
-  {slot=9}--rare
+  {slot=8,remaining=true,odds=1/3},--RH
+  {slot=9}--R
  },num=1}
 }]]
  }},
@@ -4051,54 +4051,55 @@ custom={
    "1025076138124028809/E9B9EA347693116CD0275A4ACD7491C9513F9574",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={2,5,8,10,30,34,45,46,53,54,57,59,60,61,62,64,65},num=3},
---2 energy TODO find a way to get energies reliably
+--2 energy TODO add energy
   {cards={},num=0,size=8,energy=true},
---3 Rainbow
+--3 RR
   {cards={69},num=0},
 --4 FA mon
   {cards={66},num=0},
---5 FA trainer
+--5 FA sup
   {cards={67,68},num=0},
 --6 GX
   {cards={6,9,14,16,20,31,36,42,44},num=0},
---7 holo
+--7 RH
   {cards={18,24,48,55,58,63},num=0},
---8 rare
+--8 R
   {cards={3,17,22,23,27,29,32,35,40,43,47,50,51,52,56},num=0},
---9 gold
+--9 RS
   {cards={{156,163}},size=8,num=0},
---10 Shiny FA trainer
+--10 SV FA sup
   {cards={{150,155}},size=6,num=0},
---11 shiny GX
+--11 SV GX
   {cards={{115,149}},size=35,num=0},
---12 shiny
+--12 SV
   {cards={{70,114}},size=45,num=0},
---13 reverse energy TODO find a way to get energies reliably
+--13 rev energy TODO add energy
   {cards={},num=0,energy=true},
---14 reverse
+--14 rev
   {cards={{1,5},7,8,{10,13},15,{17,19},{21,30},{32,35},{37,41},43,{45,65}},size=56,num=0},
---15 common
+--15 C
   {cards={1,4,7,11,12,13,15,19,21,25,26,28,33,37,38,39,41,49},num=5}
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=3,odds=1/63},--Rainbow
+  {slot=3,odds=1/63},--RR
   {slot=4,odds=1/78.2},--FA mon
-  {slot=5,odds=1/47.7},--FA trainer
+  {slot=5,odds=1/47.7},--FA sup
   {slot=6,odds=1/6.6},--GX
-  {slot=7,remaining=true,odds=1/3},--holo
-  {slot=8}--rare
+  {slot=7,remaining=true,odds=1/3},--RH
+  {slot=8}--R
  },num=1},
+--rev
  {rates={
-  {slot=9,odds=1/112},--gold
-  {slot=10,odds=1/76.1},--FA trainer
-  {slot=11,odds=1/9.1},--shiny GX
-  {slot=12,odds=1/4.5},--shiny
+  {slot=9,odds=1/112},--RS
+  {slot=10,odds=1/76.1},--SV FA sup
+  {slot=11,odds=1/9.1},--SV GX
+  {slot=12,odds=1/4.5},--SV
   --{slot=13,odds=1/30.36},--rev energy
-  {slot=14}--reverse
+  {slot=14}--rev
  },num=1}
 }]]
  }},
@@ -4124,45 +4125,45 @@ custom={
    "1025076138124032169/9EEBE6E91C4495F8990C5768CBB40B0C3F2445F5",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={3,6,9,10,12,14,19,24,25,29,32,34,37,41,42,51,55,65,70,73,81,84,86,96,98,101,109,111,118,120,133,135,140,141,145,152,163,169,171,174,176,184,{186,204},{206,210}},size=66,num=3},
---2 energy TODO find a way to get energies reliably
+--2 energy TODO add energy
   {cards={},num=0,size=8,energy=true},
---3 gold
+--3 RS
   {cards={{264,272}},size=9,num=0},
---4 Rainbow
+--4 RR
   {cards={{250,263}},size=14,num=0},
---5 full art mon TODO are alt art mons a seperate slot?
+--5 FA mon TODO are alt art mons a seperate slot?
   {cards={{211,228}},size=18,num=0},
---6 full art trainer
+--6 FA sup
   {cards={{229,237}},size=9,num=0},
 --7 GX
   {cards={1,4,22,35,38,185,63,75,95,110,129,143,157,158,159,166},num=0},
---8 holo
+--8 RH
   {cards={16,20,21,30,205,61,62,69,82,85,102,104,115,124,136,139,142,146,153,164,165,177},num=0},
---9 rare
+--9 R
   {cards={8,11,27,28,33,44,46,48,52,53,56,57,60,181,183,67,72,77,79,88,90,92,94,97,103,112,113,117,122,127,131,138,149,155,156,160,173,179},num=0},
---10 poke&trainer secret
+--10 TG
   {cards={{238,249}},size=12,num=0},
---11 reverse
+--11 rev
   {cards={2,3,{5,21},{23,34},36,37,{39,62},{64,74},{76,94},{96,109},{111,128},{130,142},{145,156},{160,165},{167,184},{186,210}},size=193,num=0},
---12 common
+--12 C
   {cards={2,5,7,13,15,17,18,23,26,31,36,39,40,43,45,47,49,50,54,58,59,182,64,66,68,71,74,76,78,80,83,87,89,91,93,99,100,105,106,107,108,114,116,119,121,123,125,126,128,130,132,134,137,147,148,150,151,154,161,162,167,168,170,172,175,178,180},num=5},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=3,odds=1/112},--gold
-  {slot=4,odds=1/66.75},--Rainbow
-  {slot=5,odds=1/37.33},--full art mon
-  {slot=6,odds=1/101.15},--full art trainer
+  {slot=3,odds=1/112},--RS
+  {slot=4,odds=1/66.75},--RR
+  {slot=5,odds=1/37.33},--FA mon
+  {slot=6,odds=1/101.15},--FA sup
   {slot=7,odds=1/8.4},--GX
-  {slot=8,remaining=true,odds=1/3},--holo
-  {slot=9}--rare
+  {slot=8,remaining=true,odds=1/3},--RH
+  {slot=9}--R
  },num=1},
  {rates={
-  {slot=10,odds=1/9.9},--poke&trainer secret
-  {slot=11}--reverse
+  {slot=10,odds=1/9.9},--TG
+  {slot=11}--rev
  },num=1},
 }]]
  }},
@@ -4187,15 +4188,15 @@ custom={
    "1025076138124036999/42F360700859B76A4E10E65745261791274ACBE5",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={12,13,18,21,26,28,32,33,44,47,51,52,56,57,71,84,{93,95},98,100,118,131,132,134,151,154,{156,168},{170,177},{179,186}},size=56,num=3},
---2 energy TODO find a way to get energies reliably
+--2 energy TODO add energy
   {cards={},num=0,size=8,energy=true},
---3 gold
+--3 RS
   {cards={{211,216}},size=6,num=0},
---4 Rainbow
+--4 RR
   {cards={{203,210}},size=8,num=0},
---5 FA trainer
+--5 FA sup
   {cards={199,200,201,202},num=0},
 --6 FA mon
   {cards={{187,198}},size=12,num=0},
@@ -4203,25 +4204,25 @@ custom={
   {cards={50,80,116,142},num=0},
 --8 V
   {cards={1,9,24,25,49,53,72,79,86,91,104,115,120,138,139,141,155},num=0},
---9 holo
+--9 RH
   {cards={14,34,35,58,64,75,76,85,99,110,119,124,128,137,148,169,178},num=0},
---10 rare
+--10 R
   {cards={4,6,8,15,19,23,29,36,39,41,48,59,61,62,66,69,78,82,88,90,103,106,109,113,114,122,126,135,140,144,147,149},num=0},
---11 reverse
+--11 rev
   {cards={{2,8},{10,23},{26,48},51,52,{54,71},{73,78},{81,85},{87,90},{92,103},{105,114},{117,119},{121,137},140,{143,154},{156,186}},size=165,num=1},
---12 common
+--12 C
   {cards={2,3,5,7,10,11,16,17,20,22,27,30,31,37,38,40,42,43,45,46,54,55,60,63,65,67,68,70,73,74,77,81,83,87,89,92,96,97,101,102,105,107,108,111,112,117,121,123,125,127,129,130,133,136,143,145,146,150,152,153},num=5},
 }]],
   pullRates=[[{
  {rates={
-  {slot=3,odds=1/107.5},--gold
-  {slot=4,odds=1/81.8},--Rainbow
-  {slot=5,odds=1/109},--FA trainer
+  {slot=3,odds=1/107.5},--RS
+  {slot=4,odds=1/81.8},--RR
+  {slot=5,odds=1/109},--FA sup
   {slot=6,odds=1/35},--FA mon
   {slot=7,odds=1/44.7},--Vmax
   {slot=8,odds=1/7},--V
-  {slot=9,remaining=true,odds=0.4},--holo
-  {slot=10}--rare
+  {slot=9,remaining=true,odds=0.4},--RH
+  {slot=10}--R
  },num=1}
 }]]
  }},
@@ -4240,15 +4241,15 @@ custom={
    "1025076138124039811/0305B15D69EB7336D6A49929AC7AC8C1778B2097",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={2,5,6,8,11,32,34,42,45,57,61,64,65,73,77,82,84,88,90,98,106,109,115,124,130,132,134,142,144,148,150,{155,174}},size=51,num=3},
---2 energy TODO find a way to get energies reliably
+--2 energy TODO add energy
   {cards={},num=0,size=8,energy=true},
---3 gold
+--3 RS
   {cards={{204,209}},size=6,num=0},
---4 Rainbow
+--4 RR
   {cards={{193,203}},size=11,num=0},
---5 FA trainer
+--5 FA sup
   {cards={189,190,191,192},num=0},
 --6 FA mon
   {cards={{175,188}},size=14,num=0},
@@ -4256,25 +4257,25 @@ custom={
   {cards={18,36,50,71,93,122,137},num=0},
 --8 V
   {cards={17,19,26,35,43,49,55,67,70,72,92,108,110,121,136,153},num=0},
---9 holo
+--9 RH
   {cards={22,23,33,40,54,62,66,75,79,85,91,95,107,111,113,125,138,154},num=0},
---10 rare
+--10 R
   {cards={3,9,13,15,25,28,30,38,46,48,51,53,59,69,80,87,100,102,104,116,118,120,127,128,131,135,139,140,141,145,147,152},num=0},
---11 reverse
+--11 rev
   {cards={{1,16},{20,25},{27,34},{37,42},{44,48},{51,54},{56,66},68,69,{73,91},{94,107},109,{111,120},{123,135},{138,152},{154,174}},size=151,num=1},
---12 common
+--12 C
   {cards={1,4,7,10,12,14,16,20,21,24,27,29,31,37,39,41,44,47,52,56,58,60,63,68,74,76,78,81,83,86,89,94,96,97,99,101,103,105,112,114,117,119,123,126,129,133,143,146,149,151},num=5},
 }]],
   pullRates=[[{
  {rates={
-  {slot=3,odds=1/105.2},--gold
-  {slot=4,odds=1/66.7},--Rainbow
-  {slot=5,odds=1/137},--FA trainer
+  {slot=3,odds=1/105.2},--RS
+  {slot=4,odds=1/66.7},--RR
+  {slot=5,odds=1/137},--FA sup
   {slot=6,odds=1/33},--FA mon
   {slot=7,odds=1/29.5},--Vmax
   {slot=8,odds=1/8},--V
-  {slot=9,remaining=true,odds=0.4},--holo
-  {slot=10}--rare
+  {slot=9,remaining=true,odds=0.4},--RH
+  {slot=10}--R
  },num=1}
 }]]
  }},
@@ -4293,15 +4294,15 @@ custom={
    "1268275191472326920/B02E109B03E5E0F60338A7975DEA14EFAEA7D0FB",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={4,5,7,12,15,23,27,31,40,42,46,52,56,72,74,78,80,83,85,87,90,92,103,109,122,126,136,139,146,155,{157,176}},size=50,num=3},
---2 energy TODO find a way to get energies reliably
+--2 energy TODO add energy
   {cards={},num=0,size=8,energy=true},
---3 gold
+--3 RS
   {cards={{197,201}},size=5,num=0},
---4 Rainbow
+--4 RR
   {cards={{190,196}},size=7,num=0},
---5 FA trainer
+--5 FA sup
   {cards={186,187,188,189},num=0},
 --6 FA mon
   {cards={{177,185}},size=9,num=0},
@@ -4309,25 +4310,25 @@ custom={
   {cards={2,20,34,115,117,119,144},num=0},
 --8 V
   {cards={1,19,21,33,60,69,95,99,104,114,116,118,128,143},num=0},
---9 holo
+--9 RH
   {cards={13,18,24,25,37,39,53,61,63,64,66,88,105,111,123,132,133,156},num=0},
---10 rare
+--10 R
   {cards={10,16,28,30,32,36,44,47,49,54,57,59,65,68,71,75,77,81,91,94,96,98,101,107,110,113,124,127,130,140,142,147,149,153},num=0},
---11 reverse
+--11 rev
   {cards={{3,18},{22,32},{35,59},{61,68},{70,94},{96,98},{100,103},{105,113},{120,127},{129,142},{145,176}},size=155,num=1},
---12 common
+--12 C
   {cards={3,6,8,9,11,14,17,22,26,29,35,38,41,43,45,48,50,51,55,58,62,67,70,73,76,79,82,84,86,89,93,97,100,102,106,108,112,120,121,125,129,131,134,135,137,138,141,145,148,150,151,152,154},num=5},
 }]],
   pullRates=[[{
  {rates={
-  {slot=3,odds=1/114.5},--gold
-  {slot=4,odds=1/84},--Rainbow
-  {slot=5,odds=1/88.4},--FA trainer
+  {slot=3,odds=1/114.5},--RS
+  {slot=4,odds=1/84},--RR
+  {slot=5,odds=1/88.4},--FA sup
   {slot=6,odds=1/36.8},--FA mon
   {slot=7,odds=1/26},--Vmax
   {slot=8,odds=1/8},--V
-  {slot=9,remaining=true,odds=0.4},--holo
-  {slot=10}--rare
+  {slot=9,remaining=true,odds=0.4},--RH
+  {slot=10}--R
  },num=1}
 }]]
  }},
@@ -4352,17 +4353,17 @@ custom={
    "1639829753513219001/0B4A75FF76AA77532A88D4F2E3F9A7B705109DBF",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={4,7,12,19,25,34,38,40,45,{50,55},57,58,60,{63,68}},size=24,num=3},
---2 energy TODO find a way to get energies reliably
+--2 energy TODO add energy
   {cards={},num=0,size=8,energy=true},
 --3 shiny zard
   {cards={79},num=0},
---4 gold can
+--4 RS
   {cards={80},num=0},
---5 Rainbow
+--5 RR
   {cards={74,75,76,77,78},num=0},
---6 FA trainer
+--6 FA sup
   {cards={73},num=0},
 --7 FA mon
   {cards={69,70,71,72},num=0},
@@ -4370,29 +4371,29 @@ custom={
   {cards={15,17,23},num=0},
 --9 V
   {cards={1,5,8,13,14,16,21,22,27,32,47},num=0},
---10 holo
+--10 RH
   {cards={10,20,26,28,30,37,42,49,56,62},num=0},
 --11 rev energy TODO find a way to add energy
   {cards={},num=0},
---12 reverse
+--12 rev
   {cards={{2,4},6,7,{9,12},{18,20},{24,26},{28,31},{33,46},{48,68}},size=54,num=0},
---13 common
+--13 C
   {cards={2,3,6,9,11,18,24,29,31,33,35,36,39,41,43,44,46,48,59,61},num=5},
 }]],
   pullRates=[[{
  {rates={
   {slot=3,odds=1/240.4},--shiny zard
-  {slot=4,odds=1/112.4},--gold can
-  {slot=5,odds=1/62.8},--Rainbow
-  {slot=6,odds=1/61.4},--FA trainer
+  {slot=4,odds=1/112.4},--RS
+  {slot=5,odds=1/62.8},--RR
+  {slot=6,odds=1/61.4},--FA sup
   {slot=7,odds=1/26.6},--FA mon
   {slot=8,odds=1/28.1},--Vmax
   {slot=9,odds=1/6.35},--V
-  {slot=10}--holo
+  {slot=10}--RH
  },num=1},
  {rates={
   --{slot=11,odds=1/10.5},--rev energy
-  {slot=12}--reverse
+  {slot=12}--rev
  },num=1}
 }]]
  }},
@@ -4411,15 +4412,15 @@ custom={
    "1639829753513411191/6752A08862BC4614DEA91E03D75EFAE681AC97E7",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={2,11,18,19,24,28,34,40,54,56,58,62,65,70,74,85,88,104,105,108,117,122,124,125,134,136,144,{146,153},{155,165}},size=46,num=3},
---2 energy TODO find a way to get energies reliably
+--2 energy TODO add energy
   {cards={},num=0,size=8,energy=true},
---3 gold
+--3 RS
   {cards={{198,203}},size=6,num=0},
---4 Rainbow
+--4 RR
   {cards={{186,197}},size=12,num=0},
---5 FA trainer
+--5 FA sup
   {cards={{179,185}},size=7,num=0},
 --6 FA mon
   {cards={{166,178}},size=13,num=0},
@@ -4427,31 +4428,31 @@ custom={
   {cards={21,37,44,99,127,141},num=0},
 --8 V
   {cards={20,22,29,36,43,49,98,106,115,126,140},num=0},
---9 holo
+--9 RH
   {cards={15,16,32,46,48,60,61,71,78,79,89,93,121,128,129,131,132,142,154},num=0},
---10 rare
+--10 R
   {cards={3,5,7,12,14,25,26,30,35,39,42,47,52,59,64,66,68,76,81,84,87,92,95,97,101,109,111,113,114,118,120,137,145},num=0},
---11 amazing
+--11 AR
   {cards={9,50,82,102,119,138},num=0},
---12 reverse
+--12 rev
   {cards={{1,8},{10,19},{23,28},{30,35},{38,42},{45,48},{51,81},{83,97},100,101,{103,105},{107,114},{116,118},{120,125},{128,137},139,{142,165}},size=142,num=0},
---13 common
+--13 C
   {cards={1,4,6,8,10,13,17,23,27,31,33,38,41,45,51,53,55,57,63,67,69,72,73,75,77,80,83,86,90,91,94,96,100,103,107,110,112,116,123,130,133,135,139,143},num=5},
 }]],
   pullRates=[[{
  {rates={
-  {slot=3,odds=1/96},--gold
-  {slot=4,odds=1/72},--Rainbow
-  {slot=5,odds=1/81.6},--FA trainer
+  {slot=3,odds=1/96},--RS
+  {slot=4,odds=1/72},--RR
+  {slot=5,odds=1/81.6},--FA sup
   {slot=6,odds=1/36},--FA mon
   {slot=7,odds=1/22.5},--Vmax
   {slot=8,odds=1/7.56},--V
-  {slot=9,remaining=true,odds=0.4},--holo
-  {slot=10}--rare
+  {slot=9,remaining=true,odds=0.4},--RH
+  {slot=10}--R
  },num=1},
  {rates={
-  {slot=11,odds=1/18},--amazing
-  {slot=12}--reverse
+  {slot=11,odds=1/18},--AR
+  {slot=12}--rev
  },num=1}
 }]]
  }},
@@ -4471,13 +4472,13 @@ custom={
    "1669110667999461992/0B2A47333BC6D7F3FE5D9334D28C81576D06BC5D",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={5,7,12,15,23,28,32,34,57,59,61,62,63},num=3},
---2 energy TODO find a way to get energies reliably
+--2 energy TODO add energy
   {cards={},num=0,size=8,energy=true},
---3 Rainbow
+--3 RR
   {cards={73},num=0},
---4 FA trainer
+--4 FA sup
   {cards={{65,72}},size=8,num=0},
 --5 alcreme
   {cards={64},num=0},
@@ -4485,42 +4486,42 @@ custom={
   {cards={10,19,38,45,51,55},num=0},
 --7 V
   {cards={9,18,37,39,44,50,53,54},num=0},
---8 holo
+--8 RH
   {cards={8,13,30,33,42,48,56},num=0},
---9 rare
+--9 R
   {cards={2,3,16,24,25,27,58,60},num=0},
---10 gold
+--10 RS
   {cards={194,195},num=0},
---11 amazing
+--11 AR
   {cards={17,21,46},num=0},
---12 shiny Vmax
+--12 SV Vmax
   {cards={179,180,182,184,186,190,192},num=0},
---13 shiny V
+--13 SV V
   {cards={178,181,183,185,187,188,189,191,193},num=0},
---14 shiny
+--14 SV
   {cards={{74,177}},size=104,num=0},
---15 reverse
+--15 rev
   {cards={{1,8},{11,16},20,{22,36},{40,43},{47,49},52,{56,63}},size=46,num=0},
---16 common
+--16 C
   {cards={1,4,6,11,14,20,22,26,29,31,35,36,40,41,43,47,49,52},num=5},
 }]],
   pullRates=[[{
  {rates={
-  {slot=3,odds=1/81.6},--Rainbow
-  {slot=4,odds=1/31.6},--FA trainer
+  {slot=3,odds=1/81.6},--RR
+  {slot=4,odds=1/31.6},--FA sup
   {slot=5,odds=1/192.6},--alcreme
   {slot=6,odds=1/19.7},--Vmax
   {slot=7,odds=1/9},--V
-  {slot=8,remaining=true,odds=0.4},--holo
-  {slot=9}--rare
+  {slot=8,remaining=true,odds=0.4},--RH
+  {slot=9}--R
  },num=1},
  {rates={
-  {slot=10,odds=1/98.8},--gold
-  {slot=11,odds=1/17.25},--amazing
-  {slot=12,odds=1/28},--shiny VMax
-  {slot=13,odds=1/16},--shiny V
-  {slot=14,odds=1/4.45},--shiny
-  {slot=15}--reverse
+  {slot=10,odds=1/98.8},--RS
+  {slot=11,odds=1/17.25},--AR
+  {slot=12,odds=1/28},--SV VMax
+  {slot=13,odds=1/16},--SV V
+  {slot=14,odds=1/4.45},--SV
+  {slot=15}--rev
  },num=1}
 }]]
  }},
@@ -4539,13 +4540,13 @@ custom={
    "1809862209417190980/41442ED8DAF5B5EF39F4BE8F28E17697D6CF3D75",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={2,5,9,10,12,24,26,32,39,43,47,56,64,72,74,79,90,94,98,104,106,112,116,118,{120,141}},size=46,num=3},
---2 energy TODO find a way to get energies reliably
+--2 energy TODO add energy
   {cards={},num=0,size=8,energy=true},
---3 gold
+--3 RS
   {cards={{178,183}},size=6,num=0},
---4 Rainbow
+--4 RR
   {cards={{164,167},169,{171,177}},size=12,num=0},
 --5 alt Vmax
   {cards={168,170},num=0},
@@ -4553,7 +4554,7 @@ custom={
   {cards={146,151,153,155},num=0},
 --7 FA Phoebe
   {cards={161},num=0},
---8 Other FA trainer
+--8 Other FA sup
   {cards={158,159,160,162,163},num=0},
 --9 FA mon
   {cards={{142,145},{147,150},152,{154,157}},size=12,num=0},
@@ -4561,29 +4562,29 @@ custom={
   {cards={19,22,51,86,88,110},num=0},
 --11 V
   {cards={6,18,21,40,50,62,63,85,87,97,109,117},num=0},
---12 holo
+--12 RH
   {cards={8,16,20,25,33,37,48,61,65,80,82,91,96,99,102,107},num=0},
---13 rare
+--13 R
   {cards={3,13,15,28,30,35,42,45,53,58,67,70,75,77,83,84,92,108,114,119},num=0},
---14 reverse
+--14 rev
   {cards={{1,5},{7,17},20,{23,39},{41,49},{52,61},{64,84},{89,96},{98,108},{111,116},{118,141}},size=123,num=1},
---15 common
+--15 C
   {cards={1,4,7,11,14,17,23,27,29,31,34,36,38,41,44,46,49,52,54,55,57,59,60,66,68,69,71,73,76,78,81,89,93,95,100,101,103,105,111,113,115},num=5},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=3,odds=1/106.5},--gold
-  {slot=4,odds=1/91},--Rainbow
+  {slot=3,odds=1/106.5},--RS
+  {slot=4,odds=1/91},--RR
   {slot=5,odds=1/697},--alt Vmax
   {slot=6,odds=1/159},--alt V
   {slot=7,odds=1/673},--FA Phoebe
-  {slot=8,odds=1/80},--Other FA trainer
+  {slot=8,odds=1/80},--Other FA sup
   {slot=9,odds=1/55},--FA mon
   {slot=10,odds=1/23},--Vmax
   {slot=11,odds=1/8},--V
-  {slot=12,remaining=true,odds=0.4},--holo
-  {slot=13}--rare
+  {slot=12,remaining=true,odds=0.4},--RH
+  {slot=13}--R
  },num=1},
 }]]
  }},
@@ -4602,19 +4603,19 @@ custom={
    "1701782454894597609/2C84DC9286363ABEF243368D112172C30A79620D",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={2,5,14,17,27,38,42,48,56,60,72,85,106,110,117,{129,159}},size=46,num=3},
---2 energy TODO find a way to get energies reliably
+--2 energy TODO add energy
   {cards={},num=0,size=8,energy=true},
---3 gold
+--3 RS
   {cards={{222,233}},size=12,num=0},
---4 Rainbow
+--4 RR
   {cards={199,200,202,204,{206,221}},size=20,num=0},
 --5 alt Vmax
   {cards={201,203,205},num=0},
 --6 alt V
   {cards={164,166,168,170,172,174,177,179,183,185},num=0},
---7 FA trainer
+--7 FA sup
   {cards={{186,198}},size=13,num=0},
 --8 FA mon
   {cards={181,182,184,160,161,162,163,165,167,169,171,173,175,176,178,180},num=0},
@@ -4622,28 +4623,28 @@ custom={
   {cards={8,21,46,75,90,100,113,125},num=0},
 --10 V
   {cards={7,20,25,45,53,58,74,80,89,97,99,104,112,119,124},num=0},
---11 holo
+--11 RH
   {cards={3,18,19,28,31,36,40,43,44,52,57,61,64,73,83,87,92,98,108,114,115,118,123,128},num=0},
---12 rare
+--12 R
   {cards={10,12,15,24,39,49,51,63,66,68,70,77,79,81,88,95,96,102,103,107,111,120,122},num=0},
---13 reverse
+--13 rev
   {cards={{1,6},{9,19},{22,24},{26,44},{47,52},{54,57},{59,73},{76,79},{81,88},{91,96},98,{101,103},{105,111},{114,118},{120,123},{126,159}},size=136,num=1},
---14 common
+--14 C
   {cards={1,4,6,9,11,13,16,22,23,26,29,30,32,33,34,35,37,41,47,50,54,55,59,62,65,67,69,71,76,78,82,84,86,91,93,94,101,105,109,116,121,126,127},num=5},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=3,odds=1/106.5},--gold
-  {slot=4,odds=1/95.5},--Rainbow
+  {slot=3,odds=1/106.5},--RS
+  {slot=4,odds=1/95.5},--RR
   {slot=5,odds=1/611},--alt Vmax
   {slot=6,odds=1/132},--alt V
-  {slot=7,odds=1/78},--FA trainer
+  {slot=7,odds=1/78},--FA sup
   {slot=8,odds=1/56.5},--FA mon
   {slot=9,odds=1/24},--Vmax
   {slot=10,odds=1/8},--V
-  {slot=11,remaining=true,odds=0.4},--holo
-  {slot=12}--rare
+  {slot=11,remaining=true,odds=0.4},--RH
+  {slot=12}--R
  },num=1},
 }]]
  }},
@@ -4662,15 +4663,15 @@ custom={
    "1693905007833462822/F222B803DE5002ACEA8DD81FB7848F8B6697067F",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={3,12,23,25,27,33,45,47,53,55,62,69,72,79,85,87,89,96,99,108,114,127,130,134,137,139,{141,165}},size=51,num=3},
---2 energy TODO find a way to get energies reliably
+--2 energy TODO add energy
   {cards={},num=0,size=8,energy=true},
---3 gold
+--3 RS
   {cards={{226,237}},num=0,size=12},
---4 Rainbow Eeveelutions
+--4 RR Eeveelutions
   {cards={204,208,211,214},num=0,size=4},
---5 Other Rainbow
+--5 Other RR
   {cards={206,207,210,213,216,217,219,{221,225}},num=0,size=12},
 --6 alt Vmax
   {cards={205,209,212,215,218,220},num=0},
@@ -4678,35 +4679,35 @@ custom={
   {cards={167,175,180,182,184,186,189,192,194,196,198},num=0},
 --8 FA mon
   {cards={166,{168,174},{176,179},181,183,185,187,188,190,191,193,195,197},num=0,size=22},
---9 FA trainer
+--9 FA sup
   {cards={{199,203}},num=0,size=5},
 --10 Vmax
   {cards={8,14,18,29,30,41,51,59,65,75,92,95,101,111,123},num=0},
 --11 V
   {cards={7,13,21,28,31,40,48,58,64,70,74,83,91,94,100,110,117,122},num=0},
---12 holo
+--12 RH
   {cards={4,16,19,20,34,50,60,63,73,80,82,93,103,109,112,115,116,118,124,131},num=0},
---13 rare
+--13 R
   {cards={1,6,10,36,38,46,56,77,88,90,97,105,106,119,120,121,128,135,140},num=0},
---14 reverse
+--14 rev
   {cards={{1,6},{9,12},{15,17},19,20,{22,27},{32,39},{42,47},49,50,{52,57},{60,63},{66,69},{71,73},{76,82},{84,90},93,{96,99},{102,109},{112,116},{118,121},{124,165}},num=1,size=132},
---15 common
+--15 C
   {cards={2,5,9,11,15,17,22,24,26,32,35,37,39,42,43,44,49,52,54,57,61,66,67,68,71,76,78,81,84,86,98,102,104,107,113,125,126,129,132,133,136,138},num=5},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=3,odds=1/106},--gold
-  {slot=4,odds=1/710},--Rainbow Eeveelutions
-  {slot=5,odds=1/113},--Other Rainbows
+  {slot=3,odds=1/106},--RS
+  {slot=4,odds=1/710},--RR Eeveelutions
+  {slot=5,odds=1/113},--Other RRs
   {slot=6,odds=1/289},--alt Vmax
   {slot=7,odds=1/94.5},--alt V
   {slot=8,odds=1/50},--FA mon
-  {slot=9,odds=1/162},--FA trainer
+  {slot=9,odds=1/162},--FA sup
   {slot=10,odds=1/18},--Vmax
   {slot=11,odds=1/11},--V
-  {slot=12,remaining=true,odds=0.4},--holo
-  {slot=13}--rare
+  {slot=12,remaining=true,odds=0.4},--RH
+  {slot=13}--R
  },num=1},
 }]]
  }},
@@ -4722,9 +4723,9 @@ custom={
    "1829036352668711926/59153C40E1C940B32F648785C2F2651F15EE5F06",
   },
   dropSlots=[[{
---1 holo
+--1 RH
   {cards={{1,25}},num=1,size=25},
---2 common
+--2 C
   {cards={{1,25}},num=3,size=25},
 }]],
   pullRates="{}"
@@ -4743,7 +4744,7 @@ custom={
    "1731063025325961700/E2A47E91A07BFF268BCD7494EB259E140D0955D6",
   },
   dropSlots=[[{
---1 gold mew
+--1 RS mew
   {cards={25},num=0},
 --2 Oak FA
   {cards={24},num=0},
@@ -4753,7 +4754,7 @@ custom={
   {cards={5},num=0},
 --5 V
   {cards={6,8,16,18},num=0},
---6 holo
+--6 RH
   {cards={11,15,21,23},num=0},
 --7 classic rarest
   {cards={27,36,41,47,48,49,50},num=0},
@@ -4765,18 +4766,18 @@ custom={
   {cards={26,28,34,35,38},num=0},
 --11 classic common
   {cards={29,30,31,32,33,37},num=0},
---12 rare
+--12 R
   {cards={1,2,3,4,10,12,13,14,17,19,20,22},num=2},
 }]],
   pullRates=[[{
---holo
+--rareH
  {rates={
-  {slot=1,odds=1/147},--gold mew
+  {slot=1,odds=1/147},--RS mew
   {slot=2,odds=1/24.5},--Oak FA
   {slot=3,odds=1/13},--Vmax
   {slot=4,odds=1/9},--Pikachu
   {slot=5,odds=1/4},--V
-  {slot=6}--holo
+  {slot=6}--RH
  },num=1},
 --classic
  {rates={
@@ -4785,7 +4786,7 @@ custom={
   {slot=9,odds=1/64.25},--classic chomp
   {slot=10,odds=1/9.3},--classic uncommon
   {slot=11,odds=1/6.25},--classic common
-  {slot=12}--rare
+  {slot=12}--R
  },num=1},
 }]]
  }
@@ -4806,13 +4807,13 @@ custom={
    "1809885360395493022/130BD6BC30225C93ABF4B8ACD876AA5A848A269B",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={2,5,8,10,17,25,27,30,31,35,36,38,41,49,54,56,63,69,72,75,77,81,83,85,92,96,99,100,111,122,129,132,134,136,141,143,151,153,154,160,163,167,169,171,173,174,177,181,183,187,192,196,198,200,207,208,211,213,215,216,220,{223,244}},size=83,num=3},
---2 energy TODO find a way to get energies reliably
+--2 energy TODO add energy
   {cards={},num=0,size=8,energy=true},
---3 gold
+--3 RS
   {cards={{280,284}},size=5,num=0},
---4 Rainbow
+--4 RR
   {cards={265,267,268,{272,279}},size=11,num=0},
 --5 alt Vmax
   {cards={266,271,269,270},num=0},
@@ -4820,33 +4821,33 @@ custom={
   {cards={251,245,252,255,257},num=0},
 --7 FA mon
   {cards={{246,250},253,254,256},size=8,num=0},
---8 FA trainer
+--8 FA sup
   {cards={{258,264}},size=7,num=0},
 --9 Vmax
   {cards={23,40,45,79,104,114,157,218},num=0},
 --10 V
   {cards={6,21,22,26,39,43,44,73,76,78,86,103,113,146,156,158,185,201,217},num=0},
---11 holo
+--11 RH
   {cards={3,53,57,64,107,108,120,130,139,148,161,178,189},num=0},
---12 rare
+--12 R
   {cards={11,12,14,15,20,33,42,48,51,59,66,67,88,93,97,101,102,116,118,124,126,137,145,164,166,175,190,193,194,197,203,204},num=0},
---13 reverse
+--13 rev
   {cards={{1,5},{7,20},24,25,{27,38},41,42,{46,72},74,75,77,{80,85},{87,102},{105,112},{115,145},{147,155},{159,184},{186,200},{202,216},{219,244}},size=217,num=1},
---14 common
+--14 C
   {cards={1,4,7,9,13,16,18,19,24,28,29,32,34,37,46,47,50,52,55,58,60,61,62,65,68,70,71,74,80,82,84,87,89,90,91,94,95,98,105,106,109,110,112,115,117,119,121,123,125,127,128,131,133,135,138,140,142,144,147,149,150,152,155,159,162,165,168,170,172,176,179,180,182,184,186,188,191,195,199,202,205,206,209,210,212,214,219,221,222},num=5},
 }]],
   pullRates=[[{
  {rates={
-  {slot=3,odds=1/124},--gold
-  {slot=4,odds=1/125},--Rainbow
+  {slot=3,odds=1/124},--RS
+  {slot=4,odds=1/125},--RR
   {slot=5,odds=1/271},--alt Vmax
   {slot=6,odds=1/131},--alt V
   {slot=7,odds=1/61},--FA mon
-  {slot=8,odds=1/70},--FA trainer
+  {slot=8,odds=1/70},--FA sup
   {slot=9,odds=1/29},--Vmax
   {slot=10,odds=1/8},--V
-  {slot=11,remaining=true,odds=0.4},--holo
-  {slot=12}--rare
+  {slot=11,remaining=true,odds=0.4},--RH
+  {slot=12}--R
  },num=1},
 }]]
  }
@@ -4868,19 +4869,19 @@ custom={
    "1832406432241867509/315AAE6A1D2994EA739F80342E07091A50782C4F",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={2,5,7,23,25,33,36,39,43,50,52,55,59,61,66,72,75,87,93,99,103,108,111,118,125,{129,131},{133,146},{148,151}},size=46,num=3},
---2 energy TODO find a way to get energies reliably. 1/10.75 chance of being a vstar marker instead
+--2 energy TODO add energy and vstar
   {cards={},num=0,size=8,energy=true},
---3 gold
+--3 RS
   {cards={{181,186}},size=6,num=0},
---4 Rainbow
+--4 RR
   {cards={{173,180}},size=8,num=0},
 --5 alt V
   {cards={154,156,162,166},num=0},
 --6 FA mon
   {cards={152,153,155,{157,161},{163,165}},size=11,num=0},
---7 FA trainer
+--7 FA sup
   {cards={{167,172}},size=6,num=0},
 --8 Vstar
   {cards={14,18,65,123},num=0},
@@ -4888,11 +4889,11 @@ custom={
   {cards={29,69,97},num=0},
 --10 V
   {cards={13,16,17,22,27,28,40,45,48,57,64,68,88,95,96,105,106,114,122,128},num=0},
---11 holo
+--11 RH
   {cards={8,21,26,37,62,79,109,121,132,147},num=0},
---12 rare
+--12 R
   {cards={4,10,11,20,31,41,44,47,51,54,56,71,76,77,83,85,91,94,98,100,101,104,112,113,119,126},num=0},
---13 TG gold
+--13 TG RS
   {cards={215,216},num=0},
 --14 TG Trainer
   {cards={{210,214}},size=5,num=0},
@@ -4900,34 +4901,34 @@ custom={
   {cards={201,203,205,207,209},num=0},
 --16 TG V
   {cards={199,200,202,204,206,208},num=0},
---17 TG holo
+--17 TG RH
   {cards={{187,198}},size=12,num=0},
---18 reverse
+--18 rev
   {cards={{1,12},15,{19,21},{23,26},{30,39},{41,44},46,47,{49,56},{58,63},66,67,{70,87},{89,94},{98,104},{107,113},{115,121},{124,127},{129,151}},size=124,num=0},
---19 common
+--19 C
   {cards={1,3,6,9,12,15,19,24,30,32,34,35,38,42,46,49,53,58,60,63,67,70,73,74,78,80,81,82,84,86,89,90,92,102,107,110,115,116,117,120,124,127},num=5},
 }]],
   pullRates=[[{
  {rates={
-  {slot=3,odds=1/141.125},--gold
-  {slot=4,odds=1/69.1},--Rainbow
+  {slot=3,odds=1/141.125},--RS
+  {slot=4,odds=1/69.1},--RR
   {slot=5,odds=1/154},--alt V
   {slot=6,odds=1/43.4},--FA mon
-  {slot=7,odds=1/82.6},--FA trainer
+  {slot=7,odds=1/82.6},--FA sup
   {slot=8,odds=1/78.7},--Vmax
   {slot=9,odds=1/67},--Vstar
   {slot=10,odds=1/7.4},--V
-  {slot=11,remaining=true,odds=0.4},--holo
-  {slot=12}--rare
+  {slot=11,remaining=true,odds=0.4},--RH
+  {slot=12}--R
  },num=1},
---reverse
+--rev
  {rates={
-  {slot=13,odds=1/221.5},--TG gold
+  {slot=13,odds=1/221.5},--TG RS
   {slot=14,odds=1/181.2},--TG trainer
   {slot=15,odds=1/186.9},--TG Vmax
   {slot=16,odds=1/112.8},--TG V
-  {slot=17,odds=1/17.5},--TG holo
-  {slot=18}--reverse
+  {slot=17,odds=1/17.5},--TG RH
+  {slot=18}--rev
  },num=1}
 }]]
  }
@@ -4950,19 +4951,19 @@ custom={
    "1829036352672359916/BBB3B164778BCA6F101CF8E53921656DCEB69327",
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={3,7,10,20,24,29,32,36,42,56,61,64,65,67,76,80,90,106,109,112,116,121,123,128,{136,146},{148,159}},size=47,num=3},
---2 energy TODO find a way to get energies reliably. 1/10.75 chance of being a vstar marker instead
+--2 energy TODO add energy and vstar
   {cards={},num=0,size=8,energy=true},
---3 gold
+--3 RS
   {cards={{208,216}},size=9,num=0},
---4 Rainbow
+--4 RR
   {cards={{190,207}},size=18,num=0},
 --5 alt V
   {cards={161,163,167,172,175,177},num=0},
 --6 FA mon
   {cards={160,162,164,165,166,168,169,170,171,173,174,176,178,179,180},num=0},
---7 FA trainer
+--7 FA sup
   {cards={{181,189}},size=9,num=0},
 --8 Vstar
   {cards={18,40,54,84,99,102,114},num=0},
@@ -4970,11 +4971,11 @@ custom={
   {cards={26,73},num=0},
 --10 V
   {cards={1,17,25,30,39,49,50,53,72,78,83,87,94,98,101,113,117,133,134},num=0},
---11 holo
+--11 RH
   {cards={16,45,52,57,62,66,68,69,77,82,86,93,97,100,107,110,126,130,135,147},num=0},
---12 rare
+--12 R
   {cards={12,13,14,22,33,37,38,44,48,51,59,71,75,85,91,96,104,108,118,124,132},num=0},
---13 TG gold
+--13 TG RS
   {cards={245,246},num=0},
 --14 TG Trainer
   {cards={{240,244}},size=5,num=0},
@@ -4982,37 +4983,37 @@ custom={
   {cards={231,234},num=0},
 --16 TG V
   {cards={229,230,232,233,{235,239}},size=9,num=0},
---17 TG holo
+--17 TG RH
   {cards={{217,228}},size=12,num=0},
 --18 radiant
   {cards={27,46,81},num=0},
---19 reverse
+--19 rev
   {cards={{2,16},{19,24},28,29,{31,38},{41,45},47,48,51,52,{55,71},{74,77},79,80,82,85,86,{88,93},{95,97},100,{103,112},115,116,{118,132},{135,159}},size=128,num=0},
---20 common
+--20 C
   {cards={2,4,5,6,8,9,11,15,19,21,23,28,31,34,35,41,43,47,55,58,60,63,70,74,79,88,89,92,95,103,105,111,115,119,120,122,125,127,129,131},num=5},
 }]],
   pullRates=[[{
  {rates={
-  {slot=3,odds=1/118.2},--gold
-  {slot=4,odds=1/80.17},--Rainbow
+  {slot=3,odds=1/118.2},--RS
+  {slot=4,odds=1/80.17},--RR
   {slot=5,odds=1/146.8},--alt V
   {slot=6,odds=1/51.1},--FA mon
-  {slot=7,odds=1/73},--FA trainer
+  {slot=7,odds=1/73},--FA sup
   {slot=8,odds=1/160.9},--Vmax
   {slot=9,odds=1/38.2},--Vstar
   {slot=10,odds=1/7.91},--V
-  {slot=11,remaining=true,odds=0.4},--holo
-  {slot=12}--rare
+  {slot=11,remaining=true,odds=0.4},--RH
+  {slot=12}--R
  },num=1},
---reverse
+--rev
  {rates={
-  {slot=13,odds=1/132.6},--TG gold
+  {slot=13,odds=1/132.6},--TG RS
   {slot=14,odds=1/108.4},--TG trainer
   {slot=15,odds=1/315},--TG Vmax
   {slot=16,odds=1/52.5},--TG V
-  {slot=17,odds=1/11.8},--TG holo
+  {slot=17,odds=1/11.8},--TG RH
   {slot=18,odds=1/20},--radiant
-  {slot=19}--reverse
+  {slot=19}--rev
  },num=1}
 }]]
  }
@@ -5030,19 +5031,19 @@ custom={
    "1847053979878381372/E4DF611A16F1F497A852CA406D574C345131CBF2"
   },
   dropSlots=[[{
---1 uncommon
+--1 U
   {cards={2,7,9,14,16,20,33,34,38,39,44,51,{63,70}},size=20,num=3},
---2 energy TODO find a way to get energies reliably. 1/10.75 chance of being a vstar marker instead
+--2 energy TODO add energy and vstar
   {cards={},num=0,size=8,energy=true},
---3 gold
+--3 RS
   {cards={86,87,88},num=0},
---4 Rainbow
+--4 RR
   {cards={{79,85}},size=7,num=0},
 --5 alt V
   {cards={72,74},num=0},
 --6 FA mon
   {cards={71,73,75,76,77},num=0},
---7 FA trainer
+--7 FA sup
   {cards={78},num=0},
 --8 Vstar
   {cards={31,50},num=0},
@@ -5050,34 +5051,34 @@ custom={
   {cards={48},num=0},
 --10 V
   {cards={5,30,40,47,49,58},num=0},
---11 holo
+--11 RH
   {cards={3,10,12,17,22,23,24,26,28,29,35,43,46,52,55},num=0},
 --12 Ditto
   {cards={53},num=0},
 --13 radiant
   {cards={4,11,18},num=0},
---14 reverse
+--14 rev
   {cards={{1,3},{6,10},{12,17},{19,29},{32,39},{41,46},51,52,{54,57},{59,70}},size=57,num=0},
---15 common
+--15 C
   {cards={1,6,8,13,15,19,21,25,27,32,36,37,41,42,45,54,56,57,59,60,61,62},num=5},
 }]],
   pullRates=[[{
  {rates={
-  {slot=3,odds=1/86.5},--gold
-  {slot=4,odds=1/45},--Rainbow
+  {slot=3,odds=1/86.5},--RS
+  {slot=4,odds=1/45},--RR
   {slot=5,odds=1/123.1},--alt V
   {slot=6,odds=1/24.3},--FA mon
-  {slot=7,odds=1/226.8},--FA trainer
+  {slot=7,odds=1/226.8},--FA sup
   {slot=8,odds=1/54},--Vmax
   {slot=9,odds=1/33.8},--Vstar
   {slot=10,odds=1/6.24},--V
-  {slot=11}--holo
+  {slot=11}--RH
  },num=1},
---reverse
+--rev
  {rates={
   {slot=12,odds=1/28.44},--Ditto
   {slot=13,odds=1/19.8},--radiant
-  {slot=14}--reverse
+  {slot=14}--rev
  },num=1}
 }]]
  }
@@ -5087,8 +5088,7 @@ custom={
 function onObjectLeaveContainer(cont,leaving)
  if cont~=self then return end
  if not setData[curSet].packData then
-  local text="This set has no Pack."
-  if leaving.held_by_color then broadcastToColor(text,leaving.held_by_color,{1,0,0})else broadcastToAll(text,{1,0,0})end
+  sendError(leaving.held_by_color)
   leaving.destruct()
   return
  end
@@ -5103,8 +5103,22 @@ function onObjectLeaveContainer(cont,leaving)
  if setData[curSet].SMEnergy then
   scriptAddOn=scriptAddOn..'SMEnergy=true\n'
  end
- leaving.setCustomObject({diffuse=getSteamUrl(packData.art[math.random(1,#packData.art)])})
  leaving.setLuaScript(scriptAddOn..leaving.getLuaScript())
+ leaving.setCustomObject({diffuse=getSteamUrl(packData.art[math.random(1,#packData.art)])})
+end
+
+function onNumberTyped(color,num)--credit Eldin
+ if setData[curSet].packData then
+  for x=1,num do Wait.frames(||self.deal(1,color),x)end
+ else
+  sendError(color)
+ end
+ return true
+end
+
+function sendError(color)
+ local text="This set has no Pack."
+ if color then broadcastToColor(text,color,{1,0,0})else broadcastToAll(text,{1,0,0})end
 end
 
 function onLoad(state)
@@ -5119,24 +5133,23 @@ function onLoad(state)
   if state.settings then settings=state.settings else settings={energy=1,on=true,spread=false,APICalls=3,hundred=false,debug=false,slotTest=false}end
   Global.SetTable("PPacks",settings)
  end
+ self.max_typed_number=99
  saveData()
  setUpButtons()
  setUpContextMenu()
 end
 
 function setUpButtons()
- local selfScale=self.getScale()
  local params={
  function_owner=self,
- width=3500,
+ width=500,
  height=500,
  font_size=450,
- scale={1/selfScale.x,1/selfScale.y,1/selfScale.z},
  }
- butWrapper(params,{0,0.1,3},'Get Whole Set',"","getSet")
- params.width=500
  butWrapper(params,{-4.2,0.1,3},'<',"","prevSet")
  butWrapper(params,{4.2,0.1,3},'>',"","nextSet")
+ params.width=3500
+ butWrapper(params,{0,0.1,3},'Get Whole Set',"","getSet")
 end
 
 function butWrapper(params,pos,label,tool,func)
@@ -5149,50 +5162,41 @@ end
 
 function setUpContextMenu()
  if settings.debug then
-  self.addContextMenuItem("Clear pack Cache",function()clearCache()end)
+  self.addContextMenuItem("Clear pack Cache",||clearCache())
   addContextToggle("hundred","100 Packs")
   addContextToggle("slotTest","Slot Test")
   addContextToggle("on","Packs")
-  self.addContextMenuItem("Close Debug Menu",function()changeSettings("debug",false)end)
+  self.addContextMenuItem("Close Debug Menu",||changeSettings("debug",false))
  end
- self.addContextMenuItem("Deal 36 Packs",function(player_color)dealPacks(player_color,36)end)
  if settings.energy!=1 then
-  self.addContextMenuItem("Enable Energy",function()changeSettings("energy",1)end)
+  self.addContextMenuItem("Enable Energy",||changeSettings("energy",1))
  end
  if settings.energy!=0 then
-  self.addContextMenuItem("Disable Energy",function()changeSettings("energy",0)end)
+  self.addContextMenuItem("Disable Energy",||changeSettings("energy",0))
  end
  if settings.energy!=2 then
-  self.addContextMenuItem("Replace Energy",function()changeSettings("energy",2)end)
+  self.addContextMenuItem("Replace Energy",||changeSettings("energy",2))
  end
  addContextToggle("spread","Spread")
  if settings.APICalls!=10 then
-  self.addContextMenuItem("Max API calls",function()changeSettings("APICalls",10)end)
+  self.addContextMenuItem("Max API calls",||changeSettings("APICalls",10))
  end
  if settings.APICalls!=5 then
-  self.addContextMenuItem("Mid API calls",function()changeSettings("APICalls",5)end)
+  self.addContextMenuItem("Mid API calls",||changeSettings("APICalls",5))
  end
  if settings.APICalls!=2 then
-  self.addContextMenuItem("Min API calls",function()changeSettings("APICalls",2)end)
+  self.addContextMenuItem("Min API calls",||changeSettings("APICalls",2))
  end
  if not settings.debug then
-  self.addContextMenuItem("Open Debug Menu",function()changeSettings("debug",true)end)
+  self.addContextMenuItem("Open Debug Menu",||changeSettings("debug",true))
  end
 end
 
 function addContextToggle(setting,desc)
  if settings[setting]then
-  self.addContextMenuItem("Disable "..desc,function()changeSettings(setting,false)end)
+  self.addContextMenuItem("Disable "..desc,||changeSettings(setting,false))
  else
-  self.addContextMenuItem("Enable "..desc,function()changeSettings(setting,true)end)
- end
-end
-
-function dealPacks(color,number)
- if setData[curSet].packData then
-  self.deal(number)
- else
-  broadcastToColor("This set has no Pack.",color,{1,0,0})
+  self.addContextMenuItem("Enable "..desc,||changeSettings(setting,true))
  end
 end
 
@@ -5246,7 +5250,7 @@ end
 function requestSet(count,calls,setIDToLoad,setName,size,orderText,color)
  for c=1,calls do
   local page=count
-  r[count]=WebRequest.get('https://api.pokemontcg.io/v2/cards?q=!set.id:"'..setIDToLoad..'"&page='..tostring(c)..'&pageSize='..tostring(math.ceil(size/calls))..orderText.."&select=id,name,images,number,rarity,set,supertype,subtypes,types,nationalPokedexNumbers",function()cacheSet(r[page],setName,color,page)end)
+  r[count]=WebRequest.get('https://api.pokemontcg.io/v2/cards?q=!set.id:"'..setIDToLoad..'"&page='..tostring(c)..'&pageSize='..tostring(math.ceil(size/calls))..orderText.."&select=id,name,images,number,rarity,set,supertype,subtypes,types,nationalPokedexNumbers",||cacheSet(r[page],setName,color,page))
   count=count+1
  end
  return count
@@ -5254,7 +5258,7 @@ end
 
 function requestSMEnergy(count,setName,color)
  local page=count
- r[count]=WebRequest.get("https://api.pokemontcg.io/v2/cards?q=number:%5B164%20TO%20172%5D%20!set.id:sm1&order_by=number&select=id,name,images,number,rarity,set,supertype,subtypes,types,nationalPokedexNumbers",function()cacheSet(r[page],setName,color,page)end)
+ r[count]=WebRequest.get("https://api.pokemontcg.io/v2/cards?q=number:%5B164%20TO%20172%5D%20!set.id:sm1&order_by=number&select=id,name,images,number,rarity,set,supertype,subtypes,types,nationalPokedexNumbers",||cacheSet(r[page],setName,color,page))
  count=count+1
  return count
 end
@@ -5271,7 +5275,7 @@ function cacheSet(request,setName,color,page)
   decoded[page]=json.parse(string.gsub(request.text,"\\u0026","&"))
 --credit to dzikakulka and Larikk
 --use the below line in the parse instead if this line of code ever breaks
---string.gsub(request.text,[[\u([0-9a-fA-F]+)]],function(s)return([[\u{%s}]]):format(s)end)
+--string.gsub(request.text,[[\u([0-9a-fA-F]+)]],|s|return([[\u{%s}]]):format(s))
   if cache.loading==1 then
    local spawnPos=self.positionToWorld({0,1,7})
    local curCard=1
