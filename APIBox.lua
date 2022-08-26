@@ -5055,30 +5055,33 @@ custom={
   {cards={3,10,12,17,22,23,24,26,28,29,35,43,46,52,55},num=0},
 --12 Ditto
   {cards={53},num=0},
---13 radiant
-  {cards={4,11,18},num=0},
---14 rev
+--13 radiant zard
+  {cards={11},num=0},
+--14 radiant other
+  {cards={4,18},num=0},
+--15 rev
   {cards={{1,3},{6,10},{12,17},{19,29},{32,39},{41,46},51,52,{54,57},{59,70}},size=57,num=0},
---15 C
+--16 C
   {cards={1,6,8,13,15,19,21,25,27,32,36,37,41,42,45,54,56,57,59,60,61,62},num=5},
 }]],
   pullRates=[[{
  {rates={
-  {slot=3,odds=1/86.5},--RS
-  {slot=4,odds=1/45},--RR
-  {slot=5,odds=1/123.1},--alt V
-  {slot=6,odds=1/24.3},--FA mon
-  {slot=7,odds=1/226.8},--FA sup
-  {slot=8,odds=1/54},--Vmax
-  {slot=9,odds=1/33.8},--Vstar
+  {slot=3,odds=1/88.9},--RS
+  {slot=4,odds=1/46.1},--RR
+  {slot=5,odds=1/128.8},--alt V
+  {slot=6,odds=1/25.24},--FA mon
+  {slot=7,odds=1/233.5},--FA sup
+  {slot=8,odds=1/55},--Vmax
+  {slot=9,odds=1/30.8},--Vstar
   {slot=10,odds=1/6.24},--V
   {slot=11}--RH
  },num=1},
 --rev
  {rates={
-  {slot=12,odds=1/28.44},--Ditto
-  {slot=13,odds=1/19.8},--radiant
-  {slot=14}--rev
+  {slot=12,odds=1/30.27},--Ditto
+  {slot=13,odds=1/101},--radiant zard
+  {slot=14,odds=1/24.4},--radiant other
+  {slot=15}--rev
  },num=1}
 }]]
  }
@@ -5109,7 +5112,7 @@ end
 
 function onNumberTyped(color,num)--credit Eldin
  if setData[curSet].packData then
-  for x=1,num do Wait.frames(||self.deal(1,color),x)end
+  for x=1,num do Wait.frames(function()self.deal(1,color)end,x)end
  else
   sendError(color)
  end
@@ -5123,7 +5126,7 @@ end
 
 function onLoad(state)
  settings=Global.GetTable("PPacks")
- if state and state!="" then
+ if state and state~="" then
   state=json.parse(state)
   curSet=state.set or 1
  else
@@ -5162,42 +5165,32 @@ end
 
 function setUpContextMenu()
  if settings.debug then
-  self.addContextMenuItem("Clear pack Cache",||clearCache())
+  self.addContextMenuItem("Clear pack Cache",function()clearCache()end)
   addContextToggle("hundred","100 Packs")
   addContextToggle("slotTest","Slot Test")
   addContextToggle("on","Packs")
-  self.addContextMenuItem("Close Debug Menu",||changeSettings("debug",false))
+  addSetting("Close Debug Menu","debug",false)
  end
- if settings.energy!=1 then
-  self.addContextMenuItem("Enable Energy",||changeSettings("energy",1))
- end
- if settings.energy!=0 then
-  self.addContextMenuItem("Disable Energy",||changeSettings("energy",0))
- end
- if settings.energy!=2 then
-  self.addContextMenuItem("Replace Energy",||changeSettings("energy",2))
- end
+ if settings.energy~=1 then addSetting("Enable Energy","energy",1)end
+ if settings.energy~=0 then addSetting("Disable Energy","energy",0)end
+ if settings.energy~=2 then addSetting("Replace Energy","energy",2)end
  addContextToggle("spread","Spread")
- if settings.APICalls!=10 then
-  self.addContextMenuItem("Max API calls",||changeSettings("APICalls",10))
- end
- if settings.APICalls!=5 then
-  self.addContextMenuItem("Mid API calls",||changeSettings("APICalls",5))
- end
- if settings.APICalls!=2 then
-  self.addContextMenuItem("Min API calls",||changeSettings("APICalls",2))
- end
- if not settings.debug then
-  self.addContextMenuItem("Open Debug Menu",||changeSettings("debug",true))
- end
+ if settings.APICalls~=10 then addSetting("Max API calls","APICalls",10)end
+ if settings.APICalls~=5 then addSetting("Mid API calls","APICalls",5)end
+ if settings.APICalls~=2 then addSetting("Min API calls","APICalls",2)end
+ if not settings.debug then addSetting("Open Debug Menu","debug",true)end
 end
 
 function addContextToggle(setting,desc)
  if settings[setting]then
-  self.addContextMenuItem("Disable "..desc,||changeSettings(setting,false))
+  addSetting("Disable "..desc,"setting",false)
  else
-  self.addContextMenuItem("Enable "..desc,||changeSettings(setting,true))
+  addSetting("Disable "..desc,"setting",true)
  end
+end
+
+function addSetting(text,setName,setting)
+ self.addContextMenuItem(text,function()changeSettings(setName,setting)end)
 end
 
 function changeSettings(setting,value)
@@ -5250,7 +5243,7 @@ end
 function requestSet(count,calls,setIDToLoad,setName,size,orderText,color)
  for c=1,calls do
   local page=count
-  r[count]=WebRequest.get('https://api.pokemontcg.io/v2/cards?q=!set.id:"'..setIDToLoad..'"&page='..tostring(c)..'&pageSize='..tostring(math.ceil(size/calls))..orderText.."&select=id,name,images,number,rarity,set,supertype,subtypes,types,nationalPokedexNumbers",||cacheSet(r[page],setName,color,page))
+  r[count]=WebRequest.get('https://api.pokemontcg.io/v2/cards?q=!set.id:"'..setIDToLoad..'"&page='..tostring(c)..'&pageSize='..tostring(math.ceil(size/calls))..orderText.."&select=id,name,images,number,rarity,set,supertype,subtypes,types,nationalPokedexNumbers",function()cacheSet(r[page],setName,color,page)end)
   count=count+1
  end
  return count
@@ -5258,7 +5251,7 @@ end
 
 function requestSMEnergy(count,setName,color)
  local page=count
- r[count]=WebRequest.get("https://api.pokemontcg.io/v2/cards?q=number:%5B164%20TO%20172%5D%20!set.id:sm1&order_by=number&select=id,name,images,number,rarity,set,supertype,subtypes,types,nationalPokedexNumbers",||cacheSet(r[page],setName,color,page))
+ r[count]=WebRequest.get("https://api.pokemontcg.io/v2/cards?q=number:%5B164%20TO%20172%5D%20!set.id:sm1&order_by=number&select=id,name,images,number,rarity,set,supertype,subtypes,types,nationalPokedexNumbers",function()cacheSet(r[page],setName,color,page)end)
  count=count+1
  return count
 end
@@ -5337,7 +5330,7 @@ end
 
 function buildCardNumber(cardNum)
  local numOnly=string.gsub(cardNum,"[^%d]","")
- if numOnly!=cardNum then
+ if numOnly~=cardNum then
   local finalNum=(tonumber(numOnly)or 0)+500
   for c in cardNum:gmatch"[^%d]" do
    if c=="?"then c="}"end

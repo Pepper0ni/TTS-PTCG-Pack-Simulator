@@ -1,0 +1,37 @@
+{
+  "name": "The name of the pack",
+  "id": "The ID of the pack",
+  "size": "The number of cards in the pack",
+  "sets": [
+    {
+      "setName": "the name of the set",
+      "setId": "The id of the set",
+      "setSize": "the size of the set",
+    }
+  ],
+  "energy": "add basic energy of the specified art to the end of the sets, currently only sun and moons first art is included as it is the only one on the API that is not already on the setlists for the appropriote sets",
+  "dropSlots": [
+    {
+      "description": "The various slots and what cards can be in them are defined here, ordered based on the order they appear in the pack.",
+      "name": "name of the rarity, DOES NOT ALWAYS MATCH THE RARITY IN THE API",
+      "cards": "a list of cards that this slot can generate, based on position of the list",
+      "number": "the number of cards from this slot that are ALWAYS in the pack",
+      "fixed": "Optional: if true, the slot is a fixed order slot like legendary collection"
+    }
+  ],
+  "pullRates": [
+    {
+      "description": "Where chance based slots are defined, every rate is run once with a single random number call and the selected slot's number is incremented by one this pack",
+      "rates": [
+        {
+          "slot": "the slot to increment if this rate is chosen",
+          "odds": "the odds of the slot being chosen, as a number between 0 and 1. I enter x/y into the lua but that's a trick, as this causes the math to be done real time (this is done for coder friendliess). Optional: if not there this is the default option to be picked if no other rate is chosen, equivelent to setting remaining to 1",
+          "remaining": "Optional: if true then instead of describing the chance to select this slot only, odds is the chance including all the previous slections, acting as a remainder of sorts. this is done to easilly and dynamically calculate the overall holo chance, as the chance of all holos and up combined is often a known constant (0.33~ or 0.4, depending on gen) but the actual chance of a holo is not due to inconsistent data collection.",
+          "flag": "Optional: if true, then slots later in the pack marked as flagExclude cannot be chosen. Is used for BREAKs as they can only appear alongside normal rares",
+          "flagExclude": "Optional: if true, skip this rarity if a slot with 'flag' has been previously selected"
+        }
+      ],
+      "num": "the number of times to run this pull rate"
+    }
+  ]
+}
