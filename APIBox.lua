@@ -792,7 +792,32 @@ setData={
  custom={
   mesh=PACKMESH,
   diffuse="975479281169885966/313E41A20B3608461D37E2693560F9E4E662F8FD",
-  normal=PACKNORMAL}},
+  normal=PACKNORMAL},
+ packData={
+  art={
+   "975479281169885966/313E41A20B3608461D37E2693560F9E4E662F8FD"
+  },
+  dropSlots=[[{
+--1 R
+  {cards={{1,5},16,17},num=0,size=7},
+--2 U
+  {cards={{6,10}},num=0,size=5},
+--3 C
+  {cards={{11,15}},num=0,size=5},
+}]],
+  pullRates=[[{
+--rare
+ {rates={
+  {slot=1,odds=1/8.8},--R
+  {slot=3}--C
+ },num=1},
+--unc
+ {rates={
+  {slot=2,odds=0.31},--U
+  {slot=3}--C
+ },num=1},
+}]]
+ }},
 {setName="Team Rocket Returns",
  size=111,
  setID="ex7",
@@ -927,6 +952,31 @@ setData={
   mesh=PACKMESH,
   diffuse="975479281169886474/698A59A92DB1EE82607A780863B40F706ED8364F",
   normal=PACKNORMAL
+ },
+ packData={
+  art={
+   "975479281169886474/698A59A92DB1EE82607A780863B40F706ED8364F"
+  },
+  dropSlots=[[{
+--1 R
+  {cards={{1,6},17},num=0,size=7},
+--2 U
+  {cards={{7,11}},num=0,size=5},
+--3 C
+  {cards={{12,16}},num=0,size=5},
+}]],
+  pullRates=[[{
+--rare
+ {rates={
+  {slot=1,odds=1/8.125},--R
+  {slot=3}--C
+ },num=1},
+--unc
+ {rates={
+  {slot=2,odds=0.315},--U
+  {slot=3}--C
+ },num=1},
+}]]
  }},
 {setName="Unseen Forces",
  size=145,
@@ -1065,6 +1115,31 @@ setData={
   mesh=PACKMESH,
   diffuse="975479281169887419/6B067A4AE30DB0ECEFA7CC022B008C00E57372A2",
   normal=PACKNORMAL
+ },
+ packData={
+  art={
+   "975479281169887419/6B067A4AE30DB0ECEFA7CC022B008C00E57372A2"
+  },
+  dropSlots=[[{
+--1 C
+  {cards={{12,16}},num=0,size=5},
+--2 U
+  {cards={{7,11}},num=0,size=5},
+--3 R
+  {cards={{1,6},17},num=0,size=7},
+}]],
+  pullRates=[[{
+--unc
+ {rates={
+  {slot=2,odds=0.311},--U
+  {slot=1}--C
+ },num=1},
+--rare
+ {rates={
+  {slot=3,odds=1/9.825},--R
+  {slot=1}--C
+ },num=1},
+}]]
  }},
 {setName="Trainer Kit EX Plusle and Minun",
  size=12,
@@ -1127,6 +1202,31 @@ setData={
   mesh=PACKMESH,
   diffuse="975479281169888199/A719AE48B1FF73C6FC0D2A72DE79DD2B9E7A4E7B",
   normal=PACKNORMAL
+ },
+ packData={
+  art={
+   "975479281169888199/A719AE48B1FF73C6FC0D2A72DE79DD2B9E7A4E7B"
+  },
+  dropSlots=[[{
+--1 R
+  {cards={{1,5},17},num=0,size=6},
+--2 U
+  {cards={{6,10}},num=0,size=5},
+--3 C
+  {cards={{11,16}},num=0,size=6},
+}]],
+  pullRates=[[{
+--rare
+ {rates={
+  {slot=1,odds=1/10.125},--R
+  {slot=3}--C
+ },num=1},
+--unc
+ {rates={
+  {slot=2,odds=0.315},--U
+  {slot=3}--C
+ },num=1},
+}]]
  }},
 {setName="Crystal Guardians",
  size=111,
@@ -1262,6 +1362,31 @@ setData={
   mesh=PACKMESH,
   diffuse="975479281169889066/5B3E6BB221E05ED4DECF4A6BA9813F655EF89ED5",
   normal=PACKNORMAL
+ },
+ packData={
+  art={
+   "975479281169889066/5B3E6BB221E05ED4DECF4A6BA9813F655EF89ED5"
+  },
+  dropSlots=[[{
+--1 R
+  {cards={{1,4},16,17},num=0,size=6},
+--2 U
+  {cards={{5,9}},num=0,size=5},
+--3 C
+  {cards={{10,15}},num=0,size=6},
+}]],
+  pullRates=[[{
+--rare
+ {rates={
+  {slot=1,odds=0.1125},--R
+  {slot=3}--C
+ },num=1},
+--unc
+ {rates={
+  {slot=2,odds=0.325},--U
+  {slot=3}--C
+ },num=1},
+}]]
  }},
 {setName="DP Black Star Promos",
  size=56,
@@ -1360,6 +1485,26 @@ setData={
   mesh=PACKMESH,
   diffuse="975479281169889617/A27578C4087933521AA9FD73C942AC21AB6ADD87",
   normal=PACKNORMAL
+ },
+ packData={
+  art={
+   "975479281169889617/A27578C4087933521AA9FD73C942AC21AB6ADD87"
+  },
+  dropSlots=[[{
+--1 R
+  {cards={{1,5}},num=1,size=5},
+--2 U
+  {cards={{6,10}},num=0,size=5},
+--3 C
+  {cards={{11,17}},num=0,size=7},
+}]],
+  pullRates=[[{
+--unc
+ {rates={
+  {slot=2,odds=0.1355},--U
+  {slot=3}--C
+ },num=1}
+}]]
  }},
 {setName="Secret Wonders",
  size=132,
@@ -1442,6 +1587,31 @@ setData={
   mesh=PACKMESH,
    diffuse="975479281169890134/DD42A0E149D6D9A64AD135AD9F3D8282D4411BEC",
    normal=PACKNORMAL
+ },
+ packData={
+  art={
+   "975479281169890134/DD42A0E149D6D9A64AD135AD9F3D8282D4411BEC"
+  },
+  dropSlots=[[{
+--1 R
+  {cards={{1,5}},num=0,size=5},
+--2 U
+  {cards={{6,10}},num=0,size=5},
+--3 C
+  {cards={{11,17}},num=0,size=7},
+}]],
+  pullRates=[[{
+--rare
+ {rates={
+  {slot=1,odds=1/19},--R
+  {slot=3}--C
+ },num=1},
+--unc
+ {rates={
+  {slot=2,odds=0.326},--U
+  {slot=3}--C
+ },num=1},
+}]]
  }},
 {setName="Majestic Dawn",
  size=100,
@@ -1524,6 +1694,29 @@ setData={
   mesh=PACKMESH,
   diffuse="975479281169890613/35D8E0C6FF0FA12A87518CB79C1A53C604713D70",
   normal=PACKNORMAL
+ },
+ packData={
+  art={
+   "975479281169890613/35D8E0C6FF0FA12A87518CB79C1A53C604713D70"
+  },
+  dropSlots=[[{
+--1 C
+  {cards={{12,17}},num=1,size=6},
+--2 R
+  {cards={{1,5}},num=0,size=5},
+--3 U
+  {cards={{6,11}},num=0,size=6},
+--4 energy TODO add energy
+-- {cards={{18,25}},num=1,size=8},
+}]],
+  pullRates=[[{
+--unc
+ {rates={
+  {slot=2,odds=1/5},--R
+  {slot=3,odds=0.295},--U
+  {slot=1}--C
+ },num=1}
+}]]
  }},
 {setName="Stormfront",
  size=106,
@@ -1626,6 +1819,29 @@ setData={
   mesh=PACKMESH,
   diffuse="975479281169891089/ACF4363E14F0E6C6E9FDE771287089C85250EC17",
   normal=PACKNORMAL
+ },
+ packData={
+  art={
+   "975479281169891089/ACF4363E14F0E6C6E9FDE771287089C85250EC17"
+  },
+  dropSlots=[[{
+--1 C
+  {cards={{12,17}},num=1,size=6},
+--2 R
+  {cards={{1,5}},num=0,size=5},
+--3 U
+  {cards={{6,11}},num=0,size=6},
+--4 energy TODO add energy
+-- {cards={{18,25}},num=1,size=8},
+}]],
+  pullRates=[[{
+--unc
+ {rates={
+  {slot=2,odds=1/8},--R
+  {slot=3,odds=0.32},--U
+  {slot=1}--C
+ },num=1}
+}]]
  }},
 {setName="Rising Rivals",
  size=120,
@@ -5086,6 +5302,109 @@ custom={
 }]]
  }
 },
+-- {setName="McDonald's Collection 2022",
+--  size=15,
+--  setID="mcd22",
+--  custom={
+--   mesh=PROMOMESH,
+--   diffuse=""
+--  },
+--  packData={
+--   art={
+--    "1816660956749881780/669E8228D38A63394610380AABEA5ED2CC1CDE92",
+--   },
+--   dropSlots=[[{
+-- --1 C
+--   {cards={1,6,{8,14}},num=3,size=9},
+-- --2 RH
+--   {cards={{2,5},7,15},num=1,size=6},
+-- }]],
+--   pullRates="{}"
+--  }},
+{setName="Lost Origin",
+ --size=,
+ setID="swsh11",
+ subSet={size=30,setID="swsh11tg"},
+ custom={
+  mesh=PACKMESH,
+  diffuse="1816660956749882311/711CCD0F3CB841747DA1D7D463644FE0ED02FED7",
+  normal=PACKNORMAL
+ },
+ packData={
+  art={
+   "1816660956749882311/711CCD0F3CB841747DA1D7D463644FE0ED02FED7",
+   "1816660956749882673/DE66363BF1EC2C4AE7B257DF2CF9F4FF9D5454C7",
+   "1816660956749884903/5065260B722C46D44FCBC3320E12F26743DC0A6D",
+   "1816660956749885287/6636EC15AA1524C1F5E5F2B64903752F94397C63",
+  },
+  dropSlots=[[{
+--1 U
+  {cards={2,7,9,12,15,19,23,25,31,36,41,43,47,60,65,87,90,98,{100,102},104,108,116,126,127,133,139,141,145,149,{152,168},170,171},size=50,num=3},
+--2 energy TODO add energy and vstar
+  {cards={},num=0,size=8,energy=true},
+--3 RS
+  {cards={{212,217}},size=6,num=0},
+--4 RR
+  {cards={{197,211}},size=15,num=0},
+--5 alt V
+  {cards={177,180,184,186},num=0},
+--6 FA mon
+  {cards={{172,176},178,179,{181,183},185,187,188},size=13,num=0},
+--7 FA sup
+  {cards={{189,196}},size=8,num=0},
+--8 Vstar
+  {cards={57,93,119,131,136,147},num=0},
+--9 Vmax
+  {cards={49},num=0},
+--10 V
+  {cards={27,48,56,58,82,92,118,129,130,135,137,146},num=0},
+--11 RH
+  {cards={3,8,13,17,20,26,29,37,45,51,66,70,74,76,81,84,88,107,120,134,143,169},num=0},
+--12 R
+  {cards={5,10,22,32,34,50,53,55,61,63,67,73,78,79,80,85,91,96,105,111,113,115,117,122,128,142,148,151},num=0},
+--13 TG RS
+  {cards={246,247},num=0},
+--14 TG Trainer
+  {cards={{240,245}},size=6,num=0},
+--15 TG Vmax
+  {cards={230,232,234,239},num=0},
+--16 TG V
+  {cards={229,231,233,{235,238}},size=7,num=0},
+--17 TG RH
+  {cards={{218,228}},size=11,num=0},
+--18 radiant
+  {cards={69,123,124},num=0},
+--19 rev
+  {cards={{1,26},{28,47},{50,55},{59,68},{70,81},{83,91},{94,117},{120,122},{125,128},{132,134},{138,145},{148,171}},size=149,num=0},
+--20 C
+  {cards={1,4,6,11,14,16,18,21,24,28,30,33,35,38,39,40,42,44,46,52,54,59,62,64,68,71,72,75,77,83,86,89,94,95,97,99,103,106,109,110,112,114,121,125,132,138,140,144,150},num=5},
+}]],
+  pullRates=[[{
+ {rates={
+  {slot=3,odds=1/112.8},--RS
+  {slot=4,odds=1/67},--RR
+  {slot=5,odds=1/457.5},--alt V
+  {slot=6,odds=1/45.25},--FA mon
+  {slot=7,odds=1/80.7},--FA sup
+  {slot=8,odds=1/152.5},--Vmax
+  {slot=9,odds=1/24},--Vstar
+  {slot=10,odds=1/8.3},--V
+  {slot=11,remaining=true,odds=0.4},--RH
+  {slot=12}--R
+ },num=1},
+--rev
+ {rates={
+  {slot=13,odds=1/114.4},--TG RS
+  {slot=14,odds=1/85},--TG trainer
+  {slot=15,odds=1/155.3},--TG Vmax
+  {slot=16,odds=1/72.25},--TG V
+  {slot=17,odds=1/11.7},--TG RH
+  {slot=18,odds=1/19.5},--radiant
+  {slot=19}--rev
+ },num=1}
+}]]
+ }
+},
 }
 
 function onObjectLeaveContainer(cont,leaving)
@@ -5183,9 +5502,9 @@ end
 
 function addContextToggle(setting,desc)
  if settings[setting]then
-  addSetting("Disable "..desc,"setting",false)
+  addSetting("Disable "..desc,setting,false)
  else
-  addSetting("Disable "..desc,"setting",true)
+  addSetting("Enable "..desc,setting,true)
  end
 end
 
