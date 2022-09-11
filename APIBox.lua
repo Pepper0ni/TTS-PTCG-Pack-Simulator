@@ -5381,25 +5381,25 @@ custom={
 }]],
   pullRates=[[{
  {rates={
-  {slot=3,odds=1/112.8},--RS
-  {slot=4,odds=1/67},--RR
-  {slot=5,odds=1/457.5},--alt V
-  {slot=6,odds=1/45.25},--FA mon
-  {slot=7,odds=1/80.7},--FA sup
-  {slot=8,odds=1/152.5},--Vmax
-  {slot=9,odds=1/24},--Vstar
-  {slot=10,odds=1/8.3},--V
+  {slot=3,odds=1/109.8},--RS
+  {slot=4,odds=1/66.1},--RR
+  {slot=5,odds=1/506},--alt V
+  {slot=6,odds=1/45.4},--FA mon
+  {slot=7,odds=1/80.2},--FA sup
+  {slot=8,odds=1/163.9},--Vmax
+  {slot=9,odds=1/24.4},--Vstar
+  {slot=10,odds=1/8.36},--V
   {slot=11,remaining=true,odds=0.4},--RH
   {slot=12}--R
  },num=1},
 --rev
  {rates={
-  {slot=13,odds=1/114.4},--TG RS
-  {slot=14,odds=1/85},--TG trainer
-  {slot=15,odds=1/155.3},--TG Vmax
-  {slot=16,odds=1/72.25},--TG V
-  {slot=17,odds=1/11.7},--TG RH
-  {slot=18,odds=1/19.5},--radiant
+  {slot=13,odds=1/120.25},--TG RS
+  {slot=14,odds=1/89.1},--TG trainer
+  {slot=15,odds=1/141.7},--TG Vmax
+  {slot=16,odds=1/74.4},--TG V
+  {slot=17,odds=1/11.75},--TG RH
+  {slot=18,odds=1/20.2},--radiant
   {slot=19}--rev
  },num=1}
 }]]
