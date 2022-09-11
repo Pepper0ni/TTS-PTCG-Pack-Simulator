@@ -5095,33 +5095,31 @@ custom={
   {cards={{173,180}},size=8,num=0},
 --5 alt V
   {cards={154,156,162,166},num=0},
---6 FA mon
-  {cards={152,153,155,{157,161},{163,165}},size=11,num=0},
---7 FA sup
-  {cards={{167,172}},size=6,num=0},
---8 Vstar
+--6 FA
+  {cards={152,153,155,{157,161},{163,165},{167,172}},size=17,num=0},
+--7 Vstar
   {cards={14,18,65,123},num=0},
---9 Vmax
+--8 Vmax
   {cards={29,69,97},num=0},
---10 V
+--9 V
   {cards={13,16,17,22,27,28,40,45,48,57,64,68,88,95,96,105,106,114,122,128},num=0},
---11 RH
+--10 RH
   {cards={8,21,26,37,62,79,109,121,132,147},num=0},
---12 R
+--11 R
   {cards={4,10,11,20,31,41,44,47,51,54,56,71,76,77,83,85,91,94,98,100,101,104,112,113,119,126},num=0},
---13 TG RS
+--12 TG RS
   {cards={215,216},num=0},
---14 TG Trainer
+--13 TG Trainer
   {cards={{210,214}},size=5,num=0},
---15 TG Vmax
+--14 TG Vmax
   {cards={201,203,205,207,209},num=0},
---16 TG V
+--15 TG V
   {cards={199,200,202,204,206,208},num=0},
---17 TG RH
+--16 TG RH
   {cards={{187,198}},size=12,num=0},
---18 rev
+--17 rev
   {cards={{1,12},15,{19,21},{23,26},{30,39},{41,44},46,47,{49,56},{58,63},66,67,{70,87},{89,94},{98,104},{107,113},{115,121},{124,127},{129,151}},size=124,num=0},
---19 C
+--18 C
   {cards={1,3,6,9,12,15,19,24,30,32,34,35,38,42,46,49,53,58,60,63,67,70,73,74,78,80,81,82,84,86,89,90,92,102,107,110,115,116,117,120,124,127},num=5},
 }]],
   pullRates=[[{
@@ -5129,22 +5127,21 @@ custom={
   {slot=3,odds=1/141.125},--RS
   {slot=4,odds=1/69.1},--RR
   {slot=5,odds=1/154},--alt V
-  {slot=6,odds=1/43.4},--FA mon
-  {slot=7,odds=1/82.6},--FA sup
-  {slot=8,odds=1/78.7},--Vmax
-  {slot=9,odds=1/67},--Vstar
-  {slot=10,odds=1/7.4},--V
-  {slot=11,remaining=true,odds=0.4},--RH
-  {slot=12}--R
+  {slot=6,odds=1/28.45},--FA
+  {slot=7,odds=1/78.7},--Vmax
+  {slot=8,odds=1/67},--Vstar
+  {slot=9,odds=1/7.4},--V
+  {slot=10,remaining=true,odds=0.4},--RH
+  {slot=11}--R
  },num=1},
 --rev
  {rates={
-  {slot=13,odds=1/221.5},--TG RS
-  {slot=14,odds=1/181.2},--TG trainer
-  {slot=15,odds=1/186.9},--TG Vmax
-  {slot=16,odds=1/112.8},--TG V
-  {slot=17,odds=1/17.5},--TG RH
-  {slot=18}--rev
+  {slot=12,odds=1/221.5},--TG RS
+  {slot=13,odds=1/181.2},--TG trainer
+  {slot=14,odds=1/186.9},--TG Vmax
+  {slot=15,odds=1/112.8},--TG V
+  {slot=16,odds=1/17.5},--TG RH
+  {slot=17}--rev
  },num=1}
 }]]
  }
@@ -5178,34 +5175,32 @@ custom={
 --5 alt V
   {cards={161,163,167,172,175,177},num=0},
 --6 FA mon
-  {cards={160,162,164,165,166,168,169,170,171,173,174,176,178,179,180},num=0},
---7 FA sup
-  {cards={{181,189}},size=9,num=0},
---8 Vstar
+  {cards={160,162,164,165,166,168,169,170,171,173,174,176,{178,189}},size=24,num=0},
+--7 Vstar
   {cards={18,40,54,84,99,102,114},num=0},
---9 Vmax
+--8 Vmax
   {cards={26,73},num=0},
---10 V
+--9 V
   {cards={1,17,25,30,39,49,50,53,72,78,83,87,94,98,101,113,117,133,134},num=0},
---11 RH
+--10 RH
   {cards={16,45,52,57,62,66,68,69,77,82,86,93,97,100,107,110,126,130,135,147},num=0},
---12 R
+--11 R
   {cards={12,13,14,22,33,37,38,44,48,51,59,71,75,85,91,96,104,108,118,124,132},num=0},
---13 TG RS
+--12 TG RS
   {cards={245,246},num=0},
---14 TG Trainer
+--13 TG Trainer
   {cards={{240,244}},size=5,num=0},
---15 TG Vmax
+--14 TG Vmax
   {cards={231,234},num=0},
---16 TG V
+--15 TG V
   {cards={229,230,232,233,{235,239}},size=9,num=0},
---17 TG RH
+--16 TG RH
   {cards={{217,228}},size=12,num=0},
---18 radiant
+--17 radiant
   {cards={27,46,81},num=0},
---19 rev
+--18 rev
   {cards={{2,16},{19,24},28,29,{31,38},{41,45},47,48,51,52,{55,71},{74,77},79,80,82,85,86,{88,93},{95,97},100,{103,112},115,116,{118,132},{135,159}},size=128,num=0},
---20 C
+--19 C
   {cards={2,4,5,6,8,9,11,15,19,21,23,28,31,34,35,41,43,47,55,58,60,63,70,74,79,88,89,92,95,103,105,111,115,119,120,122,125,127,129,131},num=5},
 }]],
   pullRates=[[{
@@ -5213,23 +5208,22 @@ custom={
   {slot=3,odds=1/118.2},--RS
   {slot=4,odds=1/80.17},--RR
   {slot=5,odds=1/146.8},--alt V
-  {slot=6,odds=1/51.1},--FA mon
-  {slot=7,odds=1/73},--FA sup
-  {slot=8,odds=1/160.9},--Vmax
-  {slot=9,odds=1/38.2},--Vstar
-  {slot=10,odds=1/7.91},--V
-  {slot=11,remaining=true,odds=0.4},--RH
-  {slot=12}--R
+  {slot=6,odds=1/30},--FA
+  {slot=7,odds=1/160.9},--Vmax
+  {slot=8,odds=1/38.2},--Vstar
+  {slot=9,odds=1/7.91},--V
+  {slot=10,remaining=true,odds=0.4},--RH
+  {slot=11}--R
  },num=1},
 --rev
  {rates={
-  {slot=13,odds=1/132.6},--TG RS
-  {slot=14,odds=1/108.4},--TG trainer
-  {slot=15,odds=1/315},--TG Vmax
-  {slot=16,odds=1/52.5},--TG V
-  {slot=17,odds=1/11.8},--TG RH
-  {slot=18,odds=1/20},--radiant
-  {slot=19}--rev
+  {slot=12,odds=1/132.6},--TG RS
+  {slot=13,odds=1/108.4},--TG trainer
+  {slot=14,odds=1/315},--TG Vmax
+  {slot=15,odds=1/52.5},--TG V
+  {slot=16,odds=1/11.8},--TG RH
+  {slot=17,odds=1/20},--radiant
+  {slot=18}--rev
  },num=1}
 }]]
  }
@@ -5348,35 +5342,33 @@ custom={
   {cards={{197,211}},size=15,num=0},
 --5 alt V
   {cards={177,180,184,186},num=0},
---6 FA mon
-  {cards={{172,176},178,179,{181,183},185,187,188},size=13,num=0},
---7 FA sup
-  {cards={{189,196}},size=8,num=0},
---8 Vstar
+--6 FA
+  {cards={{172,176},178,179,{181,183},185,{187,196}},size=21,num=0},
+--7 Vstar
   {cards={57,93,119,131,136,147},num=0},
---9 Vmax
+--8 Vmax
   {cards={49},num=0},
---10 V
+--9 V
   {cards={27,48,56,58,82,92,118,129,130,135,137,146},num=0},
---11 RH
+--10 RH
   {cards={3,8,13,17,20,26,29,37,45,51,66,70,74,76,81,84,88,107,120,134,143,169},num=0},
---12 R
+--11 R
   {cards={5,10,22,32,34,50,53,55,61,63,67,73,78,79,80,85,91,96,105,111,113,115,117,122,128,142,148,151},num=0},
---13 TG RS
+--12 TG RS
   {cards={246,247},num=0},
---14 TG Trainer
+--13 TG Trainer
   {cards={{240,245}},size=6,num=0},
---15 TG Vmax
+--14 TG Vmax
   {cards={230,232,234,239},num=0},
---16 TG V
+--15 TG V
   {cards={229,231,233,{235,238}},size=7,num=0},
---17 TG RH
+--16 TG RH
   {cards={{218,228}},size=11,num=0},
---18 radiant
+--17 radiant
   {cards={69,123,124},num=0},
---19 rev
+--18 rev
   {cards={{1,26},{28,47},{50,55},{59,68},{70,81},{83,91},{94,117},{120,122},{125,128},{132,134},{138,145},{148,171}},size=149,num=0},
---20 C
+--19 C
   {cards={1,4,6,11,14,16,18,21,24,28,30,33,35,38,39,40,42,44,46,52,54,59,62,64,68,71,72,75,77,83,86,89,94,95,97,99,103,106,109,110,112,114,121,125,132,138,140,144,150},num=5},
 }]],
   pullRates=[[{
@@ -5384,23 +5376,22 @@ custom={
   {slot=3,odds=1/109.8},--RS
   {slot=4,odds=1/66.1},--RR
   {slot=5,odds=1/506},--alt V
-  {slot=6,odds=1/45.4},--FA mon
-  {slot=7,odds=1/80.2},--FA sup
-  {slot=8,odds=1/163.9},--Vmax
-  {slot=9,odds=1/24.4},--Vstar
-  {slot=10,odds=1/8.36},--V
-  {slot=11,remaining=true,odds=0.4},--RH
-  {slot=12}--R
+  {slot=6,odds=1/29},--FA
+  {slot=7,odds=1/163.9},--Vmax
+  {slot=8,odds=1/24.4},--Vstar
+  {slot=9,odds=1/8.36},--V
+  {slot=10,remaining=true,odds=0.4},--RH
+  {slot=11}--R
  },num=1},
 --rev
  {rates={
-  {slot=13,odds=1/120.25},--TG RS
-  {slot=14,odds=1/89.1},--TG trainer
-  {slot=15,odds=1/141.7},--TG Vmax
-  {slot=16,odds=1/74.4},--TG V
-  {slot=17,odds=1/11.75},--TG RH
-  {slot=18,odds=1/20.2},--radiant
-  {slot=19}--rev
+  {slot=12,odds=1/120.25},--TG RS
+  {slot=13,odds=1/89.1},--TG trainer
+  {slot=14,odds=1/141.7},--TG Vmax
+  {slot=15,odds=1/74.4},--TG V
+  {slot=16,odds=1/11.75},--TG RH
+  {slot=17,odds=1/20.2},--radiant
+  {slot=18}--rev
  },num=1}
 }]]
  }
