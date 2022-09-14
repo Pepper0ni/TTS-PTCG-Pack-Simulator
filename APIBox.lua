@@ -5171,7 +5171,7 @@ custom={
   {cards={{190,207}},size=18,num=0},
 --5 alt V
   {cards={161,163,167,172,175,177},num=0},
---6 FA mon
+--6 FA
   {cards={160,162,164,165,166,168,169,170,171,173,174,176,{178,189}},size=24,num=0},
 --7 Vstar
   {cards={18,40,54,84,99,102,114},num=0},
@@ -5365,10 +5365,10 @@ custom={
 }]],
   pullRates=[[{
  {rates={
-  {slot=3,odds=1/112},--RS
-  {slot=4,odds=1/67},--RR
-  {slot=5,odds=1/506},--alt V
-  {slot=6,odds=1/28.8},--FA
+  {slot=3,odds=1/112.6},--RS
+  {slot=4,odds=1/68.9},--RR
+  {slot=5,odds=1/313},--alt V
+  {slot=6,odds=1/28.3},--FA
   {slot=7,odds=1/164.25},--Vmax
   {slot=8,odds=1/24.3},--Vstar
   {slot=9,odds=1/8.3},--V
