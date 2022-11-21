@@ -5292,25 +5292,25 @@ custom={
 }]]
  }
 },
--- {setName="McDonald's Collection 2022",
---  size=15,
---  setID="mcd22",
---  custom={
---   mesh=PROMOMESH,
---   diffuse="1890974789081497232/E4FF622A14E4C9EED44C560C8D0B79DF6294AF85/"
---  },
---  packData={
---   art={
---    "1890974789081497232/E4FF622A14E4C9EED44C560C8D0B79DF6294AF85",
---   },
---   dropSlots=[[{
--- --1 C
---   {cards={1,6,{8,14}},num=3,size=9},
--- --2 RH
---   {cards={{2,5},7,15},num=1,size=6},
--- }]],
---   pullRates="{}"
---  }},
+{setName="McDonald's Collection 2022",
+ size=15,
+ setID="mcd22",
+ custom={
+  mesh=PROMOMESH,
+  diffuse="1937139674426628073/00937BB7D23645B42A08F19B532B4F8C563EC3D4"
+ },
+ packData={
+  art={
+   "1890974789081497232/E4FF622A14E4C9EED44C560C8D0B79DF6294AF85",
+  },
+  dropSlots=[[{
+--1 C
+  {cards={1,6,{8,14}},num=3,size=9},
+--2 RH
+  {cards={{2,5},7,15},num=1,size=6},
+}]],
+  pullRates="{}"
+ }},
 {setName="Lost Origin",
  size=217,
  setID="swsh11",
@@ -5416,53 +5416,59 @@ custom={
   {cards={{196,209}},size=14,num=0},
 --5 alt V
   {cards={177,181,184,186},num=0},
---6 FA
-  {cards={{170,176},{178,180},182,183,185,{187,195}},size=22,num=0},
---7 Vmax
+--6 FA mon
+  {cards={{170,176},{178,180},182,183,185,187},size=14,num=0},
+--7 FA sup
+  {cards={{188,195}},size=8,num=0},
+--8 Vmax
   {cards={58},num=0},
---8 Vstar
+--9 Vstar
   {cards={8,34,66,71,136,139},num=0},
---9 V
+--10 V
   {cards={7,15,24,33,35,57,65,70,90,102,108,128,135,138,140},num=0},
---10 RH
+--11 RH
   {cards={4,22,36,73,78,89,97,105,113,119,131,147,154,156},num=0},
---11 R
+--12 R
   {cards={10,12,14,20,23,27,29,32,40,43,45,46,56,64,69,96,125,126,133,134,149},num=0},
---12 TG RS
+--13 TG RS
   {cards={244,245},num=0},
---13 TG sup+vmax
-  {cards={230,234,235,236,{238,243}},size=10,num=0},
---14 TG V
+--14 TG sup
+  {cards={{238,243}},size=6,num=0},
+--15 TG vmax
+  {cards={230,234,235,236},size=4,num=0},
+--16 TG V
   {cards={227,228,229,231,232,233,237},num=0},
---15 TG RH
+--17 TG RH
   {cards={{216,226}},size=11,num=0},
---16 radiant
+--18 radiant
   {cards={16,59,120},num=0},
---17 rev
+--19 rev
   {cards={{1,6},{9,14},{17,23},{25,32},{36,56},{60,64},{67,69},{72,89},{91,101},{103,107},{109,119},{121,127},{129,134},137,{141,153},155,{157,169}},size=142,num=0},
---18 C
+--20 C
   {cards={1,3,5,9,11,13,17,19,21,25,30,37,39,41,44,47,49,51,53,54,55,60,63,67,72,74,76,79,81,83,86,87,91,93,98,99,103,106,109,111,114,117,121,123,127,129,132,137,141,142,144,148,150},num=5},
 }]],
   pullRates=[[{
  {rates={
-  {slot=3,odds=1/94.27},--RS
-  {slot=4,odds=1/94.27},--RR
-  {slot=5,odds=1/145.2},--alt V
-  {slot=6,odds=1/29.5},--FA
-  {slot=7,odds=1/210.3},--Vmax
-  {slot=8,odds=1/32.1},--Vstar
-  {slot=9,odds=1/8},--V
-  {slot=10,remaining=true,odds=0.4},--RH
-  {slot=11}--R
+  {slot=3,odds=1/101.1},--RS
+  {slot=4,odds=1/83},--RR
+  {slot=5,odds=1/160.7},--alt V
+  {slot=6,odds=1/39},--FA mon
+  {slot=7,odds=1/100.5},--FA sup
+  {slot=8,odds=1/142},--Vmax
+  {slot=9,odds=1/33.1},--Vstar
+  {slot=10,odds=1/8.43},--V
+  {slot=11,remaining=true,odds=0.4},--RH
+  {slot=12}--R
  },num=1},
 --rev
  {rates={
-  {slot=12,odds=1/130.7},--TG RS
-  {slot=13,odds=1/45},--TG sup+vmax
-  {slot=14,odds=1/102.7},--TG V
-  {slot=15,odds=1/11.2},--TG RH
-  {slot=16,odds=1/20.1},--radiant
-  {slot=17}--rev
+  {slot=13,odds=1/114.6},--TG RS
+  {slot=14,odds=1/75.5},--TG sup
+  {slot=15,odds=1/154.66},--TG vmax
+  {slot=16,odds=1/83.2},--TG V
+  {slot=17,odds=1/12.1},--TG RH
+  {slot=18,odds=1/21.6},--radiant
+  {slot=19}--rev
  },num=1}
 }]]
  }
