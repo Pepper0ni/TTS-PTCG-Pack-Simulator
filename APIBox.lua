@@ -5073,6 +5073,8 @@ custom={
 {setName="Brilliant Stars",
  size=186,
  setID="swsh9",
+ BSEnergy=true,
+ VStar=true,
  subSet={size=30,setID="swsh9tg"},
  custom={
   mesh=PACKMESH,
@@ -5089,58 +5091,66 @@ custom={
   dropSlots=[[{
 --1 U
   {cards={2,5,7,23,25,33,36,39,43,50,52,55,59,61,66,72,75,87,93,99,103,108,111,118,125,{129,131},{133,146},{148,151}},size=46,num=3},
---2 energy TODO add energy and vstar
-  {cards={},num=0,size=8,energy=true},
---3 RS
+--2 marker
+  {cards={225},num=0,energy=true},
+--3 energy
+  {cards={{217,224}},num=0,size=8,energy=true},
+--4 RS
   {cards={{181,186}},size=6,num=0},
---4 RR
+--5 RR
   {cards={{173,180}},size=8,num=0},
---5 alt V
+--6 alt V
   {cards={154,156,162,166},num=0},
---6 FA
+--7 FA
   {cards={152,153,155,{157,161},{163,165},{167,172}},size=17,num=0},
---7 Vmax
+--8 Vmax
   {cards={29,69,97},num=0},
---8 Vstar
+--9 Vstar
   {cards={14,18,65,123},num=0},
---9 V
+--10 V
   {cards={13,16,17,22,27,28,40,45,48,57,64,68,88,95,96,105,106,114,122,128},num=0},
---10 RH
+--11 RH
   {cards={8,21,26,37,62,79,109,121,132,147},num=0},
---11 R
+--12 R
   {cards={4,10,11,20,31,41,44,47,51,54,56,71,76,77,83,85,91,94,98,100,101,104,112,113,119,126},num=0},
---12 TG RS
+--13 TG RS
   {cards={215,216},num=0},
---13 TG sup+Vmax
+--14 TG sup+Vmax
   {cards={201,203,205,207,{209,214}},size=10,num=0},
---14 TG V
+--15 TG V
   {cards={199,200,202,204,206,208},num=0},
---15 TG RH
+--16 TG RH
   {cards={{187,198}},size=12,num=0},
---16 rev
+--17 rev
   {cards={{1,12},15,{19,21},{23,26},{30,39},{41,44},46,47,{49,56},{58,63},66,67,{70,87},{89,94},{98,104},{107,113},{115,121},{124,127},{129,151}},size=124,num=0},
---17 C
+--18 C
   {cards={1,3,6,9,12,15,19,24,30,32,34,35,38,42,46,49,53,58,60,63,67,70,73,74,78,80,81,82,84,86,89,90,92,102,107,110,115,116,117,120,124,127},num=5},
 }]],
   pullRates=[[{
+--energy
  {rates={
-  {slot=3,odds=1/133.3},--RS
-  {slot=4,odds=1/68.2},--RR
-  {slot=5,odds=1/144},--alt V
-  {slot=6,odds=1/28.45},--FA
-  {slot=7,odds=1/82},--Vmax
-  {slot=8,odds=1/58.4},--Vstar
-  {slot=9,odds=1/7},--V
-  {slot=10,remaining=true,odds=0.4},--RH
-  {slot=11}--R
+  {slot=2,odds=1/10.35},--marker
+  {slot=3},--energy
+ },num=1},
+--rare
+ {rates={
+  {slot=4,odds=1/133.3},--RS
+  {slot=5,odds=1/68.2},--RR
+  {slot=6,odds=1/144},--alt V
+  {slot=7,odds=1/28.45},--FA
+  {slot=8,odds=1/82},--Vmax
+  {slot=9,odds=1/58.4},--Vstar
+  {slot=10,odds=1/7},--V
+  {slot=11,remaining=true,odds=0.4},--RH
+  {slot=12}--R
  },num=1},
 --rev
  {rates={
-  {slot=12,odds=1/221.5},--TG RS
-  {slot=13,odds=1/92},--TG sup+Vmax
-  {slot=14,odds=1/112.8},--TG V
-  {slot=15,odds=1/17.5},--TG RH
-  {slot=16}--rev
+  {slot=13,odds=1/221.5},--TG RS
+  {slot=14,odds=1/92},--TG sup+Vmax
+  {slot=15,odds=1/112.8},--TG V
+  {slot=16,odds=1/17.5},--TG RH
+  {slot=17}--rev
  },num=1}
 }]]
  }
@@ -5148,6 +5158,8 @@ custom={
 {setName="Astral Raidiance",
  size=216,
  setID="swsh10",
+ BSEnergy=true,
+ VStar=true,
  subSet={size=30,setID="swsh10tg"},
  custom={
   mesh=PACKMESH,
@@ -5165,61 +5177,69 @@ custom={
   dropSlots=[[{
 --1 U
   {cards={3,7,10,20,24,29,32,36,42,56,61,64,65,67,76,80,90,106,109,112,116,121,123,128,{136,146},{148,159}},size=47,num=3},
---2 energy TODO add energy and vstar
-  {cards={},num=0,size=8,energy=true},
---3 RS
+--2 marker
+  {cards={255},num=0,energy=true},
+--3 energy
+  {cards={{247,254}},num=0,size=8,energy=true},
+--4 RS
   {cards={{208,216}},size=9,num=0},
---4 RR
+--5 RR
   {cards={{190,207}},size=18,num=0},
---5 alt V
+--6 alt V
   {cards={161,163,167,172,175,177},num=0},
---6 FA
+--7 FA
   {cards={160,162,164,165,166,168,169,170,171,173,174,176,{178,189}},size=24,num=0},
---7 Vmax
+--8 Vmax
   {cards={26,73},num=0},
---8 Vstar
+--9 Vstar
   {cards={18,40,54,84,99,102,114},num=0},
---9 V
+--10 V
   {cards={1,17,25,30,39,49,50,53,72,78,83,87,94,98,101,113,117,133,134},num=0},
---10 RH
+--11 RH
   {cards={16,45,52,57,62,66,68,69,77,82,86,93,97,100,107,110,126,130,135,147},num=0},
---11 R
+--12 R
   {cards={12,13,14,22,33,37,38,44,48,51,59,71,75,85,91,96,104,108,118,124,132},num=0},
---12 TG RS
+--13 TG RS
   {cards={245,246},num=0},
---13 TG sup+vmax
+--14 TG sup+vmax
   {cards={231,234,{240,244}},size=7,num=0},
---14 TG V
+--15 TG V
   {cards={229,230,232,233,{235,239}},size=9,num=0},
---15 TG RH
+--16 TG RH
   {cards={{217,228}},size=12,num=0},
---16 radiant
+--17 radiant
   {cards={27,46,81},num=0},
---17 rev
+--18 rev
   {cards={{2,16},{19,24},28,29,{31,38},{41,45},47,48,51,52,{55,71},{74,77},79,80,82,85,86,{88,93},{95,97},100,{103,112},115,116,{118,132},{135,159}},size=128,num=0},
---18 C
+--19 C
   {cards={2,4,5,6,8,9,11,15,19,21,23,28,31,34,35,41,43,47,55,58,60,63,70,74,79,88,89,92,95,103,105,111,115,119,120,122,125,127,129,131},num=5},
 }]],
   pullRates=[[{
+--energy
  {rates={
-  {slot=3,odds=1/115.4},--RS
-  {slot=4,odds=1/77.5},--RR
-  {slot=5,odds=1/147},--alt V
-  {slot=6,odds=1/30.2},--FA
-  {slot=7,odds=1/169.3},--Vmax
-  {slot=8,odds=1/38},--Vstar
-  {slot=9,odds=1/8},--V
-  {slot=10,remaining=true,odds=0.4},--RH
-  {slot=11}--R
+  {slot=2,odds=1/10.35},--marker
+  {slot=3},--energy
+ },num=1},
+--rare
+ {rates={
+  {slot=4,odds=1/115.4},--RS
+  {slot=5,odds=1/77.5},--RR
+  {slot=6,odds=1/147},--alt V
+  {slot=7,odds=1/30.2},--FA
+  {slot=8,odds=1/169.3},--Vmax
+  {slot=9,odds=1/38},--Vstar
+  {slot=10,odds=1/8},--V
+  {slot=11,remaining=true,odds=0.4},--RH
+  {slot=12}--R
  },num=1},
 --rev
  {rates={
-  {slot=12,odds=1/136},--TG RS
-  {slot=13,odds=1/78.4},--TG sup+vmax
-  {slot=14,odds=1/55.6},--TG V
-  {slot=15,odds=1/11.9},--TG RH
-  {slot=16,odds=1/21},--radiant
-  {slot=17}--rev
+  {slot=13,odds=1/136},--TG RS
+  {slot=14,odds=1/78.4},--TG sup+vmax
+  {slot=15,odds=1/55.6},--TG V
+  {slot=16,odds=1/11.9},--TG RH
+  {slot=17,odds=1/21},--radiant
+  {slot=18}--rev
  },num=1}
 }]]
  }
@@ -5227,6 +5247,8 @@ custom={
 {setName="Pokémon Go",
  size=88,
  setID="pgo",
+ BSEnergy=true,
+ VStar=true,
  custom={
   mesh=PACKMESH,
   diffuse="1890974789081468689/BD016D5205210AC41731A173B0183E8C41A904FC",
@@ -5239,8 +5261,10 @@ custom={
   dropSlots=[[{
 --1 U
   {cards={2,7,9,14,16,20,33,34,38,39,44,51,{63,70}},size=20,num=3},
---2 energy TODO add energy and vstar
-  {cards={},num=0,size=8,energy=true},
+--2 marker
+  {cards={97},num=0,energy=true},
+--3 energy
+  {cards={{89,96}},num=0,size=8,energy=true},
 --3 RS
   {cards={86,87,88},num=0},
 --4 RR
@@ -5271,23 +5295,29 @@ custom={
   {cards={1,6,8,13,15,19,21,25,27,32,36,37,41,42,45,54,56,57,59,60,61,62},num=5},
 }]],
   pullRates=[[{
+--energy
  {rates={
-  {slot=3,odds=1/88.9},--RS
-  {slot=4,odds=1/46.1},--RR
-  {slot=5,odds=1/128.8},--alt V
-  {slot=6,odds=1/25.24},--FA mon
-  {slot=7,odds=1/233.5},--FA sup
-  {slot=8,odds=1/55},--Vmax
-  {slot=9,odds=1/30.8},--Vstar
-  {slot=10,odds=1/6.24},--V
-  {slot=11}--RH
+  {slot=2,odds=1/10.35},--marker
+  {slot=3},--energy
+ },num=1},
+--rare
+ {rates={
+  {slot=4,odds=1/88.9},--RS
+  {slot=5,odds=1/46.1},--RR
+  {slot=6,odds=1/128.8},--alt V
+  {slot=7,odds=1/25.24},--FA mon
+  {slot=8,odds=1/233.5},--FA sup
+  {slot=9,odds=1/55},--Vmax
+  {slot=10,odds=1/30.8},--Vstar
+  {slot=11,odds=1/6.24},--V
+  {slot=12}--RH
  },num=1},
 --rev
  {rates={
-  {slot=12,odds=1/30.27},--Ditto
-  {slot=13,odds=1/101},--radiant zard
-  {slot=14,odds=1/24.4},--radiant other
-  {slot=15}--rev
+  {slot=13,odds=1/30.27},--Ditto
+  {slot=14,odds=1/101},--radiant zard
+  {slot=15,odds=1/24.4},--radiant other
+  {slot=16}--rev
  },num=1}
 }]]
  }
@@ -5314,6 +5344,8 @@ custom={
 {setName="Lost Origin",
  size=217,
  setID="swsh11",
+ BSEnergy=true,
+ VStar=true,
  subSet={size=30,setID="swsh11tg"},
  custom={
   mesh=PACKMESH,
@@ -5330,144 +5362,250 @@ custom={
   dropSlots=[[{
 --1 U
   {cards={2,7,9,12,15,19,23,25,31,36,41,43,47,60,65,87,90,98,{100,102},104,108,116,126,127,133,139,141,145,149,{152,168},170,171},size=50,num=3},
---2 energy TODO add energy and vstar
-  {cards={},num=0,size=8,energy=true},
---3 RS
+--2 marker
+  {cards={256},num=0,energy=true},
+--3 energy
+  {cards={{248,255}},num=0,size=8,energy=true},
+--4 RS
   {cards={{212,217}},size=6,num=0},
---4 RR
+--5 RR
   {cards={{197,211}},size=15,num=0},
---5 alt V
+--6 alt V
   {cards={177,180,184,186},num=0},
---6 FA
+--7 FA
   {cards={{172,176},178,179,{181,183},185,{187,196}},size=21,num=0},
---7 Vmax
+--8 Vmax
   {cards={49},num=0},
---8 Vstar
+--9 Vstar
   {cards={57,93,119,131,136,147},num=0},
---9 V
+--10 V
   {cards={27,48,56,58,82,92,118,129,130,135,137,146},num=0},
---10 RH
+--11 RH
   {cards={3,8,13,17,20,26,29,37,45,51,66,70,74,76,81,84,88,107,120,134,143,169},num=0},
---11 R
+--12 R
   {cards={5,10,22,32,34,50,53,55,61,63,67,73,78,79,80,85,91,96,105,111,113,115,117,122,128,142,148,151},num=0},
---12 TG RS
+--13 TG RS
   {cards={246,247},num=0},
---13 TG sup+vmax
+--14 TG sup+vmax
   {cards={230,232,234,{239,245}},size=10,num=0},
---14 TG V
+--15 TG V
   {cards={229,231,233,{235,238}},size=7,num=0},
---15 TG RH
+--16 TG RH
   {cards={{218,228}},size=11,num=0},
---16 radiant
+--17 radiant
   {cards={69,123,124},num=0},
---17 rev
+--18 rev
   {cards={{1,26},{28,47},{50,55},{59,68},{70,81},{83,91},{94,117},{120,122},{125,128},{132,134},{138,145},{148,171}},size=149,num=0},
---18 C
+--19 C
   {cards={1,4,6,11,14,16,18,21,24,28,30,33,35,38,39,40,42,44,46,52,54,59,62,64,68,71,72,75,77,83,86,89,94,95,97,99,103,106,109,110,112,114,121,125,132,138,140,144,150},num=5},
 }]],
   pullRates=[[{
+--energy
  {rates={
-  {slot=3,odds=1/118.3},--RS
-  {slot=4,odds=1/71.4},--RR
-  {slot=5,odds=1/251},--alt V
-  {slot=6,odds=1/29.26},--FA
-  {slot=7,odds=1/158.5},--Vmax
-  {slot=8,odds=1/25.1},--Vstar
-  {slot=9,odds=1/8.5},--V
-  {slot=10,remaining=true,odds=0.4},--RH
-  {slot=11}--R
+  {slot=2,odds=1/10.35},--marker
+  {slot=3},--energy
  },num=1},
---rev
+--rare
  {rates={
-  {slot=12,odds=1/112.3},--TG RS
-  {slot=13,odds=1/56},--TG sup+vmax
-  {slot=14,odds=1/73.2},--TG V
-  {slot=15,odds=1/11.9},--TG RH
-  {slot=16,odds=1/20.13},--radiant
-  {slot=17}--rev
- },num=1}
-}]]
- }
-},
-{setName="Silver tempest",
- size=215,
- setID="swsh12",
- subSet={size=30,setID="swsh12tg"},
- custom={
-  mesh=PACKMESH,
-  diffuse="1878591893797171394/E234E642EEF3A147DA60283B614CAB3F237B4E58/",
-  normal=PACKNORMAL
- },
- packData={
-  art={
-   "1878591893797171394/E234E642EEF3A147DA60283B614CAB3F237B4E58/",
-   "1878591893797171702/B85E1642707D531024392B73C3E5AEFFF790AA1F/",
-   "1878591893797171040/798F10A8F6BA9B686B1DB3060372FA42D09E08A5/",
-   "1878591893797170733/909FC1E22AA3B2E6FF4E7928E91B1426D6D6EE4B/",
-  },
-  dropSlots=[[{
---1 U
-  {cards={2,6,18,26,28,31,38,42,48,50,52,61,62,68,75,77,80,82,84,85,88,92,94,95,100,101,104,107,110,112,115,116,118,122,124,130,143,145,146,{151,153},155,{157,169}},size=56,num=3},
---2 energy TODO add energy and vstar
-  {cards={},num=0,size=8,energy=true},
---3 RS
-  {cards={{210,215}},size=6,num=0},
---4 RR
-  {cards={{196,209}},size=14,num=0},
---5 alt V
-  {cards={177,181,184,186},num=0},
---6 FA mon
-  {cards={{170,176},{178,180},182,183,185,187},size=14,num=0},
---7 FA sup
-  {cards={{188,195}},size=8,num=0},
---8 Vmax
-  {cards={58},num=0},
---9 Vstar
-  {cards={8,34,66,71,136,139},num=0},
---10 V
-  {cards={7,15,24,33,35,57,65,70,90,102,108,128,135,138,140},num=0},
---11 RH
-  {cards={4,22,36,73,78,89,97,105,113,119,131,147,154,156},num=0},
---12 R
-  {cards={10,12,14,20,23,27,29,32,40,43,45,46,56,64,69,96,125,126,133,134,149},num=0},
---13 TG RS
-  {cards={244,245},num=0},
---14 TG sup
-  {cards={{238,243}},size=6,num=0},
---15 TG vmax
-  {cards={230,234,235,236},size=4,num=0},
---16 TG V
-  {cards={227,228,229,231,232,233,237},num=0},
---17 TG RH
-  {cards={{216,226}},size=11,num=0},
---18 radiant
-  {cards={16,59,120},num=0},
---19 rev
-  {cards={{1,6},{9,14},{17,23},{25,32},{36,56},{60,64},{67,69},{72,89},{91,101},{103,107},{109,119},{121,127},{129,134},137,{141,153},155,{157,169}},size=142,num=0},
---20 C
-  {cards={1,3,5,9,11,13,17,19,21,25,30,37,39,41,44,47,49,51,53,54,55,60,63,67,72,74,76,79,81,83,86,87,91,93,98,99,103,106,109,111,114,117,121,123,127,129,132,137,141,142,144,148,150},num=5},
-}]],
-  pullRates=[[{
- {rates={
-  {slot=3,odds=1/101.1},--RS
-  {slot=4,odds=1/83},--RR
-  {slot=5,odds=1/160.7},--alt V
-  {slot=6,odds=1/39},--FA mon
-  {slot=7,odds=1/100.5},--FA sup
-  {slot=8,odds=1/142},--Vmax
-  {slot=9,odds=1/33.1},--Vstar
-  {slot=10,odds=1/8.43},--V
+  {slot=4,odds=1/118.3},--RS
+  {slot=5,odds=1/71.4},--RR
+  {slot=6,odds=1/251},--alt V
+  {slot=7,odds=1/29.26},--FA
+  {slot=8,odds=1/158.5},--Vmax
+  {slot=9,odds=1/25.1},--Vstar
+  {slot=10,odds=1/8.5},--V
   {slot=11,remaining=true,odds=0.4},--RH
   {slot=12}--R
  },num=1},
 --rev
  {rates={
-  {slot=13,odds=1/114.6},--TG RS
-  {slot=14,odds=1/75.5},--TG sup
-  {slot=15,odds=1/154.66},--TG vmax
-  {slot=16,odds=1/83.2},--TG V
-  {slot=17,odds=1/12.1},--TG RH
-  {slot=18,odds=1/21.6},--radiant
+  {slot=13,odds=1/112.3},--TG RS
+  {slot=14,odds=1/56},--TG sup+vmax
+  {slot=15,odds=1/73.2},--TG V
+  {slot=16,odds=1/11.9},--TG RH
+  {slot=17,odds=1/20.13},--radiant
+  {slot=18}--rev
+ },num=1}
+}]]
+ }
+},
+{setName="Silver Tempest",
+ size=215,
+ setID="swsh12",
+ BSEnergy=true,
+ VStar=true,
+ subSet={size=30,setID="swsh12tg"},
+ custom={
+  mesh=PACKMESH,
+  diffuse="1878591893797171394/E234E642EEF3A147DA60283B614CAB3F237B4E58",
+  normal=PACKNORMAL
+ },
+ packData={
+  art={
+   "1878591893797171394/E234E642EEF3A147DA60283B614CAB3F237B4E58",
+   "1878591893797171702/B85E1642707D531024392B73C3E5AEFFF790AA1F",
+   "1878591893797171040/798F10A8F6BA9B686B1DB3060372FA42D09E08A5",
+   "1878591893797170733/909FC1E22AA3B2E6FF4E7928E91B1426D6D6EE4B",
+  },
+  dropSlots=[[{
+--1 U
+  {cards={2,6,18,26,28,31,38,42,48,50,52,61,62,68,75,77,80,82,84,85,88,92,94,95,100,101,104,107,110,112,115,116,118,122,124,130,143,145,146,{151,153},155,{157,169}},size=56,num=3},
+--2 marker
+  {cards={254},num=0,energy=true},
+--3 energy
+  {cards={{246,253}},num=0,size=8,energy=true},
+--4 RS
+  {cards={{210,215}},size=6,num=0},
+--5 RR
+  {cards={{196,209}},size=14,num=0},
+--6 alt V
+  {cards={177,181,184,186},num=0},
+--7 FA mon
+  {cards={{170,176},{178,180},182,183,185,187},size=14,num=0},
+--8 FA sup
+  {cards={{188,195}},size=8,num=0},
+--9 Vmax
+  {cards={58},num=0},
+--10 Vstar
+  {cards={8,34,66,71,136,139},num=0},
+--11 V
+  {cards={7,15,24,33,35,57,65,70,90,102,108,128,135,138,140},num=0},
+--12 RH
+  {cards={4,22,36,73,78,89,97,105,113,119,131,147,154,156},num=0},
+--13 R
+  {cards={10,12,14,20,23,27,29,32,40,43,45,46,56,64,69,96,125,126,133,134,149},num=0},
+--14 TG RS
+  {cards={244,245},num=0},
+--15 TG sup
+  {cards={{238,243}},size=6,num=0},
+--16 TG vmax
+  {cards={230,234,235,236},size=4,num=0},
+--17 TG V
+  {cards={227,228,229,231,232,233,237},num=0},
+--18 TG RH
+  {cards={{216,226}},size=11,num=0},
+--19 radiant
+  {cards={16,59,120},num=0},
+--20 rev
+  {cards={{1,6},{9,14},{17,23},{25,32},{36,56},{60,64},{67,69},{72,89},{91,101},{103,107},{109,119},{121,127},{129,134},137,{141,153},155,{157,169}},size=142,num=0},
+--21 C
+  {cards={1,3,5,9,11,13,17,19,21,25,30,37,39,41,44,47,49,51,53,54,55,60,63,67,72,74,76,79,81,83,86,87,91,93,98,99,103,106,109,111,114,117,121,123,127,129,132,137,141,142,144,148,150},num=5},
+}]],
+  pullRates=[[{
+--energy
+ {rates={
+  {slot=2,odds=1/10.35},--marker
+  {slot=3},--energy
+ },num=1},
+--rare
+ {rates={
+  {slot=4,odds=1/101.1},--RS
+  {slot=5,odds=1/83},--RR
+  {slot=6,odds=1/160.7},--alt V
+  {slot=7,odds=1/39},--FA mon
+  {slot=8,odds=1/100.5},--FA sup
+  {slot=9,odds=1/142},--Vmax
+  {slot=10,odds=1/33.1},--Vstar
+  {slot=11,odds=1/8.43},--V
+  {slot=12,remaining=true,odds=0.4},--RH
+  {slot=13}--R
+ },num=1},
+--rev
+ {rates={
+  {slot=14,odds=1/114.6},--TG RS
+  {slot=15,odds=1/75.5},--TG sup
+  {slot=16,odds=1/154.66},--TG vmax
+  {slot=17,odds=1/83.2},--TG V
+  {slot=18,odds=1/12.1},--TG RH
+  {slot=19,odds=1/21.6},--radiant
+  {slot=20}--rev
+ },num=1}
+}]]
+ }
+},
+{setName="Crown Zenith",
+ size=160,
+ setID="swsh12pt5",
+ VStar=true,
+ subSet={size=70,setID="swsh12pt5gg"},
+ custom={
+  mesh=PACKMESH,
+  diffuse="2012580224554286850/374AE2F7A902FACE7FDC49AD92D398EF0E56A068",
+  normal=PACKNORMAL
+ },
+ packData={
+  art={
+   "2012580224554286850/374AE2F7A902FACE7FDC49AD92D398EF0E56A068",
+  },
+  dropSlots=[[{
+--1 U
+  {cards={2,12,28,41,42,48,56,{61,63},68,69,79,88,90,93,115,125,126,{129,132},135,138,141,142,145,146},size=29,num=3},
+--2 marker
+  {cards={231},num=0,energy=true},
+--3 energy
+  {cards={{152,159}},num=0,size=8,energy=true},
+--4 RS
+  {cards={160},num=0},
+--5 FA sup
+  {cards={{147,151}},size=5,num=0},
+--6 Vmax
+  {cards={54,66,101,102,104},num=0},
+--7 Vstar
+  {cards={14,19,23,46,55,96,99,114},num=0},
+--8 V
+  {cards={13,18,22,37,38,45,53,60,65,95,98,100,103,108,113,116,120},num=0},
+--9 RH
+  {cards={16,17,21,26,36,59,64,76,83,89,94,97,107,123,124,133,134,136,140,143},num=0},
+--10 R
+  {cards={3,5,9,25,32,43,44,50,52,58,67,74,78,80,82,85,86,106,109,118,119,122},num=0},
+--11 rev energy
+  {cards={{152,159}},num=0,size=8,energy=true},
+--12 GG RS
+  {cards={{227,230}},size=4,num=0},
+--13 GG sup
+  {cards={{217,226}},size=10,num=0},
+--14 GG V
+  {cards={196,198,199,201,208,209,211,213,214},num=0},
+--15 GG Vmax
+  {cards={202,205,207},num=0},
+--16 GG Vstar
+  {cards={195,197,200,203,204,206,210,212,215,216},num=0},
+--17 GG RH
+  {cards={{161,194}},size=34,num=0},
+--18 radiant
+  {cards={20,51,105},num=0},
+--19 rev
+  {cards={{1,12},{15,17},21,{24,36},{39,44},{47,50},52,{56,59},{61,64},{67,94},97,106,107,{109,112},115,{117,119},{121,142},{144,146}},size=112,num=0},
+--20 C
+  {cards={1,4,{6,8},10,11,15,24,27,{29,31},{33,35},39,40,47,49,57,{70,73},75,77,81,84,87,91,92,{110,112},117,121,127,128,137,139,144},size=42,num=5},
+}]],
+  pullRates=[[{
+--energy
+{rates={
+  {slot=2,odds=1/10.35},--marker
+  {slot=3},--energy
+ },num=1},
+--rare
+ {rates={
+  {slot=3,odds=1/42.15}, --energy
+  {slot=4,odds=1/109.4},--RS
+  {slot=5,odds=1/63.4},--FA sup
+  {slot=6,odds=1/39.88},--Vmax
+  {slot=7,odds=1/26.66},--Vstar
+  {slot=8,odds=1/8.32},--V
+  {slot=9,remaining=true,odds=0.4},--RH
+  {slot=10}--R
+ },num=1},
+--rev
+ {rates={
+  {slot=11,odds=1/25.36}, --rev energy
+  {slot=12,odds=1/122.75},--TG RS
+  {slot=13,odds=1/34},--TG sup
+  {slot=14,odds=1/32.1},--TG V
+  {slot=15,odds=1/101},--TG Vmax
+  {slot=16,odds=1/34},--TG Vstar
+  {slot=17,odds=1/4.62},--TG RH
+  {slot=18,odds=1/25.1},--radiant
   {slot=19}--rev
  },num=1}
 }]]
@@ -5493,9 +5631,17 @@ function onObjectLeaveContainer(cont,leaving)
  if setData[curSet].SMEnergy then
   scriptAddOn=scriptAddOn..'SMEnergy=true\n'
  end
+ if setData[curSet].BSEnergy then
+  scriptAddOn=scriptAddOn..'BSEnergy=true\n'
+ end
+ if setData[curSet].VStar then
+  scriptAddOn=scriptAddOn..'VStar=true\n'
+ end
  leaving.setLuaScript(scriptAddOn..leaving.getLuaScript())
  leaving.setCustomObject({diffuse=getSteamUrl(packData.art[math.random(1,#packData.art)])})
 end
+
+VStar=false
 
 function onNumberTyped(color,num)--credit Eldin
  if setData[curSet].packData then
@@ -5617,10 +5763,16 @@ function getSet(obj,color,alt)
     loadingNum=callPerSet*2
    end
    if setData[curSet].SMEnergy then loadingNum=loadingNum+1 end
+   if setData[curSet].BSEnergy then loadingNum=loadingNum+1 end
    Global.setTable("PPacksCache["..setName.."]",{loading=loadingNum,cache=nil})
    local count=requestSet(1,callPerSet,setData[curSet].setID,setName,setData[curSet].size or 300,orderText,color)
    if setData[curSet].subSet then count=requestSet(count,callPerSet,setData[curSet].subSet.setID,setName,setData[curSet].subSet.size or 300,orderText,color)end
    if setData[curSet].SMEnergy then requestSMEnergy(count,setName,color)end
+   VStar=false
+   if setData[curSet].VStar then
+    VStar=true
+   end
+   if setData[curSet].BSEnergy then requestBSEnergy(count,setName,color)end
   else
    broadcastToColor("Loading Cards, Please Wait",color,{0,1,0})
   end
@@ -5639,6 +5791,13 @@ end
 function requestSMEnergy(count,setName,color)
  local page=count
  r[count]=WebRequest.get("https://api.pokemontcg.io/v2/cards?q=number:%5B164%20TO%20172%5D%20!set.id:sm1&order_by=number&select=id,name,images,number,rarity,set,supertype,subtypes,types,nationalPokedexNumbers",function()cacheSet(r[page],setName,color,page)end)
+ count=count+1
+ return count
+end
+
+function requestBSEnergy(count,setName,color)
+ local page=count
+ r[count]=WebRequest.get("https://api.pokemontcg.io/v2/cards?q=number:%5B152%20TO%20159%5D%20!set.id:swsh12pt5&order_by=number&select=id,name,images,number,rarity,set,supertype,subtypes,types,nationalPokedexNumbers",function()cacheSet(r[page],setName,color,page)end)
  count=count+1
  return count
 end
@@ -5678,6 +5837,24 @@ function cacheSet(request,setName,color,page)
      curCard=curCard+1
     end
    end
+   if VStar then
+    local DeckID=999+curCard
+    local customData={FaceURL=getSteamUrl("2012580224574675678/71C7CEACF71693E12FE3AF2FF32F7A53CF4B5917"),
+     BackURL=getSteamUrl("2012580224574713180/BA2458015FEBD79B9D15478AA51316B44B7FCAA4"),
+     NumWidth=1,
+     NumHeight=1,
+     BackIsHidden=true
+    }
+    deckData.DeckIDs[curCard]=DeckID*100
+    deckData.CustomDeck[DeckID]=customData
+    deckData.ContainedObjects[curCard]={Name="CardCustom",
+     Transform=deckData.Transform,
+     Nickname="Vstar Marker",
+     CardID=DeckID*100,
+     CustomDeck={[DeckID]=customData},
+    }
+    deckData.ContainedObjects[curCard]["GUID"]=tostring(123456+curCard)
+   end
    spawnObjectData({data=deckData,rotation=self.GetRotation()})
    Global.setTable("PPacksCache["..setName.."]",{loading=nil,cache=deckData})
   else
@@ -5708,7 +5885,7 @@ end
 
 function getCustomData(cardData)
  return{FaceURL=cardData.images.large.."?count="..cardData.number or"",
-  BackURL="http://cloud-3.steamusercontent.com/ugc/809997459557414686/9ABD9158841F1167D295FD1295D7A597E03A7487/",
+  BackURL=getSteamUrl("809997459557414686/9ABD9158841F1167D295FD1295D7A597E03A7487"),
   NumWidth=1,
   NumHeight=1,
   BackIsHidden=true

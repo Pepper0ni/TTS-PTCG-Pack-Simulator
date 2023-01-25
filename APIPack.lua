@@ -47,11 +47,13 @@ function ProcessPack(loop,loading)
    loadingNum=callPerSet*2
   end
   if SMEnergy then loadingNum=loadingNum+1 end
+  if BSEnergy then loadingNum=loadingNum+1 end
   Global.setTable("PPacksCache["..setName.."]",{loading=loadingNum,cache=nil})
   broadcastToAll("Loading Cards...",{0,1,0})
   local count=requestSet(1,callPerSet,setID,setSize,orderText)
   if subSetID then count=requestSet(count,callPerSet,subSetID,subSetSize,orderText) end
   if SMEnergy then requestSMEnergy(count) end
+  if BSEnergy then requestBSEnergy(count,setName,color)end
   return
  end
  local setData=setCache.cache.ContainedObjects
@@ -108,6 +110,14 @@ function requestSMEnergy(count)
  return count
 end
 
+function requestBSEnergy(count,setName,color)
+ local page=count
+ VStar=true
+ r[count]=WebRequest.get("https://api.pokemontcg.io/v2/cards?q=number:%5B152%20TO%20159%5D%20!set.id:swsh12pt5&order_by=number&select=id,name,images,number,rarity,set,supertype,subtypes,types,nationalPokedexNumbers",function()cacheSet(r[page],page)end)
+ count=count+1
+ return count
+end
+
 function cacheSet(request,page)
  local cache=Global.GetTable("PPacksCache["..setName.."]")
  if request.is_error or request.response_code>=400 then
@@ -136,6 +146,24 @@ function cacheSet(request,page)
      deckData.ContainedObjects[curCard]["GUID"]=tostring(123456+curCard)
      curCard=curCard+1
     end
+   end
+   if VStar then
+    local DeckID=999+curCard
+    local customData={FaceURL="http://cloud-3.steamusercontent.com/ugc/2012580224574675678/71C7CEACF71693E12FE3AF2FF32F7A53CF4B5917/",
+     BackURL="http://cloud-3.steamusercontent.com/ugc/2012580224574713180/BA2458015FEBD79B9D15478AA51316B44B7FCAA4/",
+     NumWidth=1,
+     NumHeight=1,
+     BackIsHidden=true
+    }
+    deckData.DeckIDs[curCard]=DeckID*100
+    deckData.CustomDeck[DeckID]=customData
+    deckData.ContainedObjects[curCard]={Name="CardCustom",
+     Transform=deckData.Transform,
+     Nickname="Vstar Marker",
+     CardID=DeckID*100,
+     CustomDeck={[DeckID]=customData},
+    }
+    deckData.ContainedObjects[curCard]["GUID"]=tostring(123456+curCard)
    end
    Global.setTable("PPacksCache["..setName.."]",{loading=nil,cache=deckData})
    ProcessPack(true,false)
