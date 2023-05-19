@@ -62,13 +62,83 @@ function ProcessPack(loop,loading)
  openPack(setData,packs)
 end
 
+function getSlotFromRatio(slot,ratio)
+ local slotpos=1
+ local rand=math.random()
+ for f=1,#ratio do
+  rand=rand-ratio[f]
+  if rand<=0 then
+   return slot[slotpos]
+  end
+  slotpos=slotpos+1
+ end
+ return slot[slotpos]
+end
+
+function setBoxData()
+ math.randomseed(boxID)
+ local box={}
+ for c=1,#boxPulls do
+  local nums={}
+  local total=0
+  box[c]={}
+  if boxPulls[c].rates then
+   for d=1,#boxPulls[c].rates do
+    local rate=boxPulls[c].rates[d]
+    numToAdd=getBoxPullNum(rate.chances)
+    total=total+numToAdd
+    if rate.ratio then
+     for e=1,numToAdd do
+      local slotNum=getSlotFromRatio(rate.slot,rate.ratio)
+      if not nums[slotNum]then nums[slotNum]=0 end
+      nums[slotNum]=nums[slotNum]+1
+     end
+    else
+     nums[rate.slot]=numToAdd
+    end
+   end
+   if total>36 then total=36 end
+   local packs={1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36}
+   local targets=randomFromTable(packs,total,#packs,false)
+   count=1
+   for k,v in pairs(nums)do
+    for d=1,nums[k] do
+     box[c][targets[count]]=k
+     count=count+1
+    end
+   end
+  end
+  for d=1,36 do
+   if not box[c][d]then
+    if boxPulls[c].otherRat then
+     box[c][d]=getSlotFromRatio(boxPulls[c].other,boxPulls[c].otherRat)
+    else
+     box[c][d]=boxPulls[c].other
+    end
+   end
+  end
+ end
+ Global.SetTable("PPBoxChances["..tostring(boxID).."]",box)
+ return box
+end
+
 function openPack(setData,packs)
  local curCard=1
  packFlag=false
  local slotsAdded={}
- for b=1,#pullRates do
-  for c=1,pullRates[b].num do
-   slotsAdded=doPullRates(pullRates[b].rates,slotsAdded)
+ if boxID and boxPulls then
+  local box=Global.GetTable("PPBoxChances["..tostring(boxID).."]")
+  if not box then
+   box=setBoxData()
+  end
+  for rate=1,#box do
+   AddToSlotsAdded(slotsAdded,box[rate][packNum])
+  end
+ else
+  for b=1,#pullRates do
+   for c=1,pullRates[b].num do
+    slotsAdded=doPullRates(pullRates[b].rates,slotsAdded)
+   end
   end
  end
  local packData=getDeckData(packPos,cardRot,true)
@@ -261,15 +331,31 @@ function getSubTypeNum(subTypes)
  return false
 end
 
+function getBoxPullNum(chances)
+ local rand=math.random()
+ for e=1,#chances do
+  rand=rand-(chances[e].odds or 1)
+  if rand<=0 then
+   return chances[e].num
+  end
+ end
+ return 0
+end
+
+function AddToSlotsAdded(slotsAdded,slot)
+ if not slotsAdded[slot]then slotsAdded[slot]=0 end
+ slotsAdded[slot]=slotsAdded[slot]+1
+ return slotsAdded
+end
+
 function doPullRates(rates,slotsAdded)
  local rand=Global.call("PPacks.rand")
  local initrand=rand
  for c=1,#rates do
-  if(not packFlag or not rates[c].flagExclude) then
-   if rates[c].remaining then rand=initrand-(rates[c].odds or 1) else rand=rand-(rates[c].odds or 1) end
+  if(not packFlag or not rates[c].flagExclude)then
+   if rates[c].remaining then rand=initrand-(rates[c].odds or 1)else rand=rand-(rates[c].odds or 1)end
    if rand<=0 and(settings.energy!=2 or not dropSlots[rates[c].slot].energy)then
-    if not slotsAdded[rates[c].slot]then slotsAdded[rates[c].slot]=0 end
-    slotsAdded[rates[c].slot]=slotsAdded[rates[c].slot]+1
+    AddToSlotsAdded(slotsAdded,rates[c].slot)
     if rates[c].flag then packFlag=true end
     return slotsAdded
    end
@@ -279,42 +365,52 @@ function doPullRates(rates,slotsAdded)
 end
 
 function chooseCards(slot,added)
- local chosen={}
- local choices={}
  if not slot.energy or settings.energy==1 then
   if settings.slotTest then
-   if slot.size then
-    choice=chooseRandCard(slot.cards,slot.size)
-   else
-    choice=slot.cards[randomFromRange(1,#slot.cards)]
-   end
-   choices[1]=choice
+   choices=randomFromTable(slot.cards,1,slot.size,true)
   elseif slot.fixed then
-   local deckPos=randomFromRange(1,#slot.cards)
+   local choices={}
+   local deckPos=randomFromRange(1,#slot.cards,true)
    for c=1,slot.num+added do
     choices[c]=slot.cards[deckPos]
     if deckPos==#slot.cards then deckPos=1 else deckPos=deckPos+1 end
    end
   else
-   while #choices<slot.num+added do
-    local choice=nil
-    if slot.size then
-     choice=chooseRandCard(slot.cards,slot.size)
-    else
-     choice=slot.cards[randomFromRange(1,#slot.cards)]
-    end
-    if not chosen[choice]then
-     chosen[choice]=true
-     choices[#choices+1]=choice
-    end
-   end
+  choices=randomFromTable(slot.cards,slot.num+added,slot.size,true)
   end
  end
  return choices
 end
 
-function chooseRandCard(cards,size)
- local rand=randomFromRange(0,size-1)
+function randomFromTable(options,num,size,useGlobal)
+ local choices={}
+ local chosen={}
+ while #choices<num do
+  local choice=nil
+  if size then
+   choice=chooseRandCard(options,size,useGlobal)
+  else
+   if useGlobal then
+    choice=options[randomFromRange(1,#options)]
+   else
+    choice=options[math.random(1,#options)]
+   end
+  end
+  if not chosen[choice]then
+   chosen[choice]=true
+   choices[#choices+1]=choice
+  end
+ end
+ return choices
+end
+
+function chooseRandCard(cards,size,useGlobal)
+ local rand=nil
+ if useGlobal then
+  rand=randomFromRange(0,size-1)
+ else
+  rand=math.random(0,size-1)
+ end
  for c=1,#cards do
   if type(cards[c])=="table"then
    local size=cards[c][2]-cards[c][1]+1
@@ -433,4 +529,9 @@ natDexReplace={
  [902]="05505",
  [903]="02157",
  [904]="02115",
+ [979]="00575",
+ [980]="01945",
+ [981]="02035",
+ [982]="02065",
+ [983]="06255",
 }

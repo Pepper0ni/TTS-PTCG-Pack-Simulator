@@ -56,12 +56,52 @@ for c=1,#setData do
    for e=1,#pullRates[d].rates do
     local rates=pullRates[d]["rates"][e]
     jsonTable[count]["pullRates"][d]["rates"][e]={
-      slot=rates.slot-1,
-      remaining=rates.remaining,
-      flag=rates.flag,
-      flagExclude=rates.flagExclude
-     }
-     if rates.odds then jsonTable[count]["pullRates"][d]["rates"][e].odds=rates.odds end
+     slot=rates.slot-1,
+     remaining=rates.remaining,
+     flag=rates.flag,
+     flagExclude=rates.flagExclude
+    }
+    if rates.odds then jsonTable[count]["pullRates"][d]["rates"][e].odds=rates.odds end
+   end
+  end
+  if packData.boxPulls then
+   jsonTable[count]["boxPulls"]={}
+   local boxPulls=load("return "..packData.boxPulls)()
+   for d=1,#boxPulls do
+    local rOther=boxPulls[d].other
+    if type(boxPulls[d].other)=="table" then
+     for f=1,#rOther do
+      rOther[f]=rOther[f]-1
+     end
+    else
+     rOther=boxPulls[d].other-1
+    end
+    jsonTable[count]["boxPulls"][d]={
+     other=rOther,
+     otherRat=boxPulls[d].otherRat
+    }
+    if boxPulls[d].rates then
+    jsonTable[count]["boxPulls"][d].rates={}
+     for e=1,#boxPulls[d].rates do
+      local rates=boxPulls[d]["rates"][e]
+      local rSlot=rates.slot
+      if type(rates.slot)=="table" then
+       for f=1,#rSlot do
+        rSlot[f]=rSlot[f]-1
+       end
+      else
+       rSlot=rates.slot-1
+      end
+      entry={
+       slot=rSlot,
+       chances={}
+      }
+      for f=1,#rates.chances do
+       entry["chances"][f]=rates.chances[f]
+      end
+      jsonTable[count]["boxPulls"][d]["rates"][e]=entry
+     end
+    end
    end
   end
   count=count+1

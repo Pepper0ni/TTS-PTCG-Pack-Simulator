@@ -6,8 +6,9 @@ TINMESH="1847055358306165178/724B3213D226C2039D623E7E61773F9AA2D94EE5"
 PACKMESH="1847055267608913658/06B7E2D18FE9EAB64EF2402CD5BE728C70CD991E"
 PACKNORMAL="861734852198391028/D75480247FA058266F0D423501D867407458666D"
 BLISTERMESH="1915736343864551541/81D61FA5E52BB4A69F8860FCD8D6015C75DF378E"
+MINIBOXMESH="2038481810653562830/CB500EB276390B06271D25E708431FFFB273DE9F"
 
-genPoints={1,9,19,43,66,81,98,116}
+genPoints={1,9,19,43,66,81,98,116,137}
 
 setData={
 {setName="Base",
@@ -789,6 +790,7 @@ setData={
 {setName="POP Series 1",
  size=17,
  setID="pop1",
+ noBox=true,
  custom={
   mesh=PACKMESH,
   diffuse="1890974789082362853/65B60C254E9E4419BEF99BF422853F2E664233EF",
@@ -948,6 +950,7 @@ setData={
 {setName="POP Series 2",
  size=17,
  setID="pop2",
+ noBox=true,
  custom={
   mesh=PACKMESH,
   diffuse="1890974789082569778/BC2679CB39620513D422573998F854A2B9DBEE1B",
@@ -1111,6 +1114,7 @@ setData={
 {setName="POP Series 3",
  size=17,
  setID="pop3",
+ noBox=true,
  custom={
   mesh=PACKMESH,
   diffuse="1890974789082772229/B9070F5001BCC284530DB7A8DC4BB942B5976044",
@@ -1198,6 +1202,7 @@ setData={
 {setName="POP Series 4",
  size=17,
  setID="pop4",
+ noBox=true,
  custom={
   mesh=PACKMESH,
   diffuse="1890974789082764438/2896E9BFFFF1AF2460AA49ACB192E3DF1A52F633",
@@ -1358,6 +1363,7 @@ setData={
 {setName="POP Series 5",
  size=17,
  setID="pop5",
+ noBox=true,
  custom={
   mesh=PACKMESH,
   diffuse="1890974789082764092/80CFB937F6B0D71305DB8305346295FC872DDE71",
@@ -1481,6 +1487,7 @@ setData={
 {setName="POP Series 6",
  size=17,
  setID="pop6",
+ noBox=true,
  custom={
   mesh=PACKMESH,
   diffuse="1890974789082762267/C3333D89A9BD7724A59049F3377A773F38E0B22C",
@@ -1583,6 +1590,7 @@ setData={
 {setName="POP Series 7",
  size=17,
  setID="pop7",
+ noBox=true,
  custom={
   mesh=PACKMESH,
    diffuse="1890974789082763553/504BAEF38429048A7CE2D01D958578995E41DB3A",
@@ -1690,6 +1698,7 @@ setData={
 {setName="POP Series 8",
  size=17,
  setID="pop8",
+ noBox=true,
  custom={
   mesh=PACKMESH,
   diffuse="1890974789082363232/5DF655D365CE4C0DCDEB9927769680FCD8FF4030",
@@ -1815,6 +1824,7 @@ setData={
 {setName="POP Series 9",
  size=17,
  setID="pop9",
+ noBox=true,
  custom={
   mesh=PACKMESH,
   diffuse="1890974789082364020/5B6406B5E82B2D5170F767EDE3DD84497E1A9F66",
@@ -2518,6 +2528,7 @@ custom={
 {setName="Dragon Vault",
  size=21,
  setID="dv1",
+ noBox=true,
  custom={
   mesh=BLISTERMESH,
   diffuse="1670239067234150993/599C07557270AC2171B79D3E32FA5763C2EF1D79"
@@ -3041,6 +3052,7 @@ custom={
 {setName="Double Crisis",
  size=34,
  setID="dc1",
+ noBox=true,
  custom=
   {mesh=BLISTERMESH,
   diffuse="1670239067235925410/6046B505EB56839C2F534965D880B5D44A3005A1"
@@ -3266,6 +3278,7 @@ custom={
 {setName="Generations",
  size=117,
  setID="g1",
+ noBox=true,
  custom=
   {mesh=ETBMESH,
   diffuse="1030706251248906884/4DD17D273D0FCD9F1E135DBD48950BE77728BA7E"
@@ -3662,6 +3675,7 @@ custom={
  size=81,
  setID="sm35",
  SMEnergy=true,
+ noBox=true,
  custom={
   mesh=ETBMESH,
   diffuse="1030706720824004414/449EDB8EC75FC286834DB0D300A87B15275728AF"
@@ -3950,6 +3964,7 @@ custom={
  size=80,
  setID="sm75",
  SMEnergy=true,
+ noBox=true,
  custom={
   mesh=ETBMESH,
   diffuse="1030706720824692197/92ABF851389DB7FC2AA2BA945D5C4B0491D929BB"
@@ -4126,6 +4141,7 @@ custom={
 {setName="Detective Pikachu",
  size=18,
  setID="det1",
+ noBox=true,
  custom={
   mesh=TINMESH,
   diffuse="1030706251249532184/95E9A61C0BA9B10C8EF096E12A441122692B4198"
@@ -4255,6 +4271,7 @@ custom={
 {setName="Hidden Fates",
  size=69,
  setID="sm115",
+ noBox=true,
  subSet={size=94,setID="sma"},
  custom={
   mesh=ETBMESH,
@@ -4559,6 +4576,7 @@ custom={
 {setName="Champion's Path",
  size=80,
  setID="swsh35",
+ noBox=true,
  custom={
   mesh=ETBMESH,
   diffuse="1639829753513359249/E8E086E52B72A0AB816802A76069835E0C36445C"},
@@ -4676,6 +4694,7 @@ custom={
 {setName="Shining Fates",
  size=73,
  setID="swsh45",
+ noBox=true,
  subSet={size=122,setID="swsh45sv"},
  custom={
   mesh=ETBMESH,
@@ -4951,11 +4970,11 @@ custom={
 {setName="Celebrations",
  size=25,
  setID="cel25",
+ noBox=true,
  subSet={size=25,setID="cel25c"},
  custom={
-  mesh=PACKMESH,
-  diffuse="1890974789081481042/C2F415A23903BAE63CC80DCB8B7243BE34E6301C",
-  normal=PACKNORMAL
+  mesh=MINIBOXMESH,
+  diffuse="1890974789081481042/C2F415A23903BAE63CC80DCB8B7243BE34E6301C"
  },
  packData={
   art={
@@ -5013,9 +5032,8 @@ custom={
  size=284,
  setID="swsh8",
  custom={
-  mesh=PACKMESH,
-  diffuse="1809885360395492413/B30B5901E4E0555C201523C4BCB62E23FFC93151",
-  normal=PACKNORMAL
+  mesh=MINIBOXMESH,
+  diffuse="1809885360395492413/B30B5901E4E0555C201523C4BCB62E23FFC93151"
  },
  packData={
   art={
@@ -5077,9 +5095,8 @@ custom={
  VStar=true,
  subSet={size=30,setID="swsh9tg"},
  custom={
-  mesh=PACKMESH,
-  diffuse="1890974789081475009/C64C956DC8BFB556BA1F6CE934EAEB707E0A66C9",
-  normal=PACKNORMAL
+  mesh=MINIBOXMESH,
+  diffuse="1890974789081475009/C64C956DC8BFB556BA1F6CE934EAEB707E0A66C9"
  },
  packData={
   art={
@@ -5162,9 +5179,8 @@ custom={
  VStar=true,
  subSet={size=30,setID="swsh10tg"},
  custom={
-  mesh=PACKMESH,
-  diffuse="1890974789081492204/DE04C966FB99DF18EAE9E4F11D0441430B5BC6B1",
-  normal=PACKNORMAL
+  mesh=MINIBOXMESH,
+  diffuse="1890974789081492204/DE04C966FB99DF18EAE9E4F11D0441430B5BC6B1"
  },
  packData={
   art={
@@ -5247,12 +5263,12 @@ custom={
 {setName="Pokémon Go",
  size=88,
  setID="pgo",
+ noBox=true,
  BSEnergy=true,
  VStar=true,
  custom={
-  mesh=PACKMESH,
-  diffuse="1890974789081468689/BD016D5205210AC41731A173B0183E8C41A904FC",
-  normal=PACKNORMAL
+  mesh=MINIBOXMESH,
+  diffuse="1890974789081468689/BD016D5205210AC41731A173B0183E8C41A904FC"
  },
  packData={
   art={
@@ -5348,9 +5364,8 @@ custom={
  VStar=true,
  subSet={size=30,setID="swsh11tg"},
  custom={
-  mesh=PACKMESH,
-  diffuse="1890974789081465067/FFEAEB2948B358C1F876CEE8457E87CB5915D978",
-  normal=PACKNORMAL
+  mesh=MINIBOXMESH,
+  diffuse="1890974789081465067/FFEAEB2948B358C1F876CEE8457E87CB5915D978"
  },
  packData={
   art={
@@ -5426,6 +5441,77 @@ custom={
   {slot=17,odds=1/20.13},--radiant
   {slot=18}--rev
  },num=1}
+}]],
+  boxPulls=[[{
+  --energy
+  {
+   other={2,3},
+   otherRat={0.1035}
+  },
+  --rare
+  {rates={
+   {slot={4,5,6},
+    ratio={0.319,0.529},
+    chances={
+    {num=0,odds=0.315},
+    {num=1,odds=0.453},
+    {num=2,odds=0.195},
+    {num=3,odds=0.0385},
+    {num=4},
+   }},
+   {slot=7,chances={
+    {num=0,odds=0.09436},
+    {num=1,odds=0.59},
+    {num=2,odds=0.306},
+    {num=3},
+   }},
+   {slot={8,9},
+    ratio={0.137},
+    chances={
+    {num=0,odds=0.0242},
+    {num=1,odds=0.383},
+    {num=2,odds=0.5253},
+    {num=3,odds=0.053},
+    {num=4},
+   }},
+   {slot=10,chances={
+    {num=3,odds=0.0633},
+    {num=4,odds=0.66988},
+    {num=5,odds=0.229},
+    {num=6},
+   }}},
+   other={11,12},
+   otherRat={0.233}
+  },
+  --rev
+  {rates={
+   {slot=13,chances={
+    {num=0,odds=0.679},
+    {num=1},
+   }},
+   {slot={14,15},
+    ratio={0.5664},
+    chances={
+    {num=0,odds=0.06},
+    {num=1,odds=0.7566},
+    {num=2,odds=0.1735},
+    {num=3},
+   }},
+   {slot=16,
+    chances={
+    {num=2,odds=0.1258},
+    {num=3,odds=0.73},
+    {num=4,odds=0.1325},
+    {num=5},
+   }},
+   {slot=17,
+    chances={
+    {num=1,odds=0.25},
+    {num=2,odds=0.718},
+    {num=3},
+   }}},
+   other=18
+  },
 }]]
  }
 },
@@ -5436,9 +5522,8 @@ custom={
  VStar=true,
  subSet={size=30,setID="swsh12tg"},
  custom={
-  mesh=PACKMESH,
-  diffuse="1878591893797171394/E234E642EEF3A147DA60283B614CAB3F237B4E58",
-  normal=PACKNORMAL
+  mesh=MINIBOXMESH,
+  diffuse="1878591893797171394/E234E642EEF3A147DA60283B614CAB3F237B4E58"
  },
  packData={
   art={
@@ -5527,11 +5612,11 @@ custom={
  size=160,
  setID="swsh12pt5",
  VStar=true,
+ noBox=true,
  subSet={size=70,setID="swsh12pt5gg"},
  custom={
-  mesh=PACKMESH,
-  diffuse="2012580224554286850/374AE2F7A902FACE7FDC49AD92D398EF0E56A068",
-  normal=PACKNORMAL
+  mesh=MINIBOXMESH,
+  diffuse="2012580224554286850/374AE2F7A902FACE7FDC49AD92D398EF0E56A068"
  },
  packData={
   art={
@@ -5587,7 +5672,7 @@ custom={
  },num=1},
 --rare
  {rates={
-  {slot=3,odds=1/42.15}, --energy
+  {slot=3,odds=1/42.15},--energy
   {slot=4,odds=1/109.4},--RS
   {slot=5,odds=1/63.4},--FA sup
   {slot=6,odds=1/39.88},--Vmax
@@ -5608,19 +5693,103 @@ custom={
   {slot=18,odds=1/25.1},--radiant
   {slot=19}--rev
  },num=1}
+}]],
+ }
+},
+{setName="Scarlet & Violet Promos",
+ setID="svp",
+ custom={
+  mesh=PROMOMESH,
+  diffuse="2038483691948670739/C977D94E125477CFF4A6F7ED16FA6CC49D9D0976"
+ }},
+{setName="Scarlet & Violet",
+ setID="sv1",
+ size=258,
+ custom={
+  mesh=MINIBOXMESH,
+  diffuse="2038482593604678770/8F278AADAB7FC6AD8F753E6CCAA6A6C212D16BC5"
+ },
+ packData={
+  art={
+   "2038482593604678770/8F278AADAB7FC6AD8F753E6CCAA6A6C212D16BC5",
+   "2038482593604679027/3F2EA5AE9B8293652101EACA8FF03BE46526C55B",
+   "2038482593604679357/FBF31B87BE6AFEB1968E37AA2CD97F56DD31B339",
+   "2038482593604678493/E6A7C234D96F9F85CF37E2E5F4A8AAE960F1D163",
+  },
+  dropSlots=[[{
+--TODO energy
+--1 UR
+  {cards={{223,242}},size=20,num=0},
+--2 DR
+  {cards={19,32,45,65,81,86,88,123,125,131,143,158},num=0},
+--3 rare
+  {cards={15,23,38,41,43,54,61,76,80,96,106,109,118,122,124,134,142,153,164,189,190},num=0},
+--4 HR
+  {cards={{253,258}},size=6,num=0},
+--5 SIR
+  {cards={{243,252}},size=10,num=0},
+--6 IR
+  {cards={{199,222}},size=24,num=0},
+--7 rev
+  {cards={{1,18},{20,31},{33,44},{46,64},{66,80},{82,85},87,{89,122},124,{126,130},{132,142},{144,157},{159,198}},size=186,num=1},
+--8 U
+  {cards={2,4,6,10,14,26,29,35,37,47,53,57,60,62,67,68,72,79,83,90,93,99,103,111,114,117,120,121,127,129,{137,139},145,147,150,152,157,161,163,{165,167},169,170,{174,179},181,183,184,192,193,{195,198}},size=60,num=3},
+--9 C
+  {cards={1,3,5,{7,9},{11,13},{16,18},{20,22},24,25,27,28,30,31,33,34,36,39,40,42,44,46,{48,52},55,56,58,59,63,64,66,{69,71},{73,75},77,78,82,84,85,87,89,91,92,94,95,97,98,{100,102},104,105,107,108,110,112,113,115,116,119,126,128,130,132,133,135,136,140,141,144,146,148,149,151,{154,156},159,160,162,168,{171,173},180,182,{185,188},191,194},size=105,num=4},
+}]],
+  pullRates=[[{
+--rare
+ {rates={
+  {slot=1,odds=1/15},--UR
+  {slot=2,odds=1/7.36},--DR
+  {slot=3}--R
+ },num=1},
+--rev
+ {rates={
+  {slot=4,odds=1/53.5},--HR
+  {slot=5,odds=1/30.8},--SIR
+  {slot=6,odds=1/13},--IR
+  {slot=7}--rev
+ },num=1}
+}]],
+  boxPulls=[[{
+  --rare
+  {rates={
+   {slot=1,chances={
+    {num=2,odds=0.627},
+    {num=3,odds=0.35514},
+    {num=4},
+   }},
+   {slot=2,chances={
+    {num=3,odds=0.00834},
+    {num=4,odds=0.17757},
+    {num=5,odds=0.728},
+    {num=6},
+   }}},
+   other=3
+  },
+  --rev
+  {rates={
+   {slot={4,5},
+   ratio={0.3658},
+   chances={
+    {num=1,odds=0.1676},
+    {num=2,odds=0.8317},
+    {num=3},
+   }},
+   {slot=6,chances={
+    {num=2,odds=0.2512},
+    {num=3,odds=0.7196},
+    {num=4},
+   }}},
+   other=7
+  },
 }]]
  }
 },
 }
 
-function onObjectLeaveContainer(cont,leaving)
- if cont~=self then return end
- if not setData[curSet].packData then
-  sendError(leaving.held_by_color)
-  leaving.destruct()
-  return
- end
- local packData=setData[curSet].packData
+function GetScriptAddOn(packData,boxID,packNum)
  local scriptAddOn='dropSlots='..packData.dropSlots..'\npullRates='..packData.pullRates..'\nsetName="'..setData[curSet].setName..'"\nsetSize='..tostring(setData[curSet].size or 300)..'\nsetID="'..setData[curSet].setID..'"\n'
  if setData[curSet].unordered then
   scriptAddOn=scriptAddOn..'setUnordered=true\n'
@@ -5637,8 +5806,28 @@ function onObjectLeaveContainer(cont,leaving)
  if setData[curSet].VStar then
   scriptAddOn=scriptAddOn..'VStar=true\n'
  end
+ if boxID then
+  scriptAddOn=scriptAddOn..'boxPulls='..packData.boxPulls..'\n'..'boxID='..tostring(boxID)..'\npackNum='..tostring(packNum)..'\n'
+ end
+ return scriptAddOn
+end
+
+function getRandomArt(packData)
+ return getSteamUrl(packData.art[math.random(1,#packData.art)])
+end
+
+function onObjectLeaveContainer(cont,leaving)
+ if cont~=self then return end
+ if not setData[curSet].packData then
+  sendError(leaving.held_by_color)
+  leaving.destruct()
+  return
+ end
+ local packData=setData[curSet].packData
+ scriptAddOn=GetScriptAddOn(packData,false,0)
+
  leaving.setLuaScript(scriptAddOn..leaving.getLuaScript())
- leaving.setCustomObject({diffuse=getSteamUrl(packData.art[math.random(1,#packData.art)])})
+ leaving.setCustomObject({diffuse=getRandomArt(packData)})
 end
 
 VStar=false
@@ -5679,13 +5868,17 @@ function setUpButtons()
  local params={
  function_owner=self,
  width=500,
- height=500,
+ height=1000,
  font_size=450,
  }
- butWrapper(params,{-4.2,0.1,3},'<',"","prevSet")
- butWrapper(params,{4.2,0.1,3},'>',"","nextSet")
+ butWrapper(params,{-4.2,0.1,3.5},'<',"","prevSet")
+ butWrapper(params,{4.2,0.1,3.5},'>',"","nextSet")
  params.width=3500
+ params.height=500
  butWrapper(params,{0,0.1,3},'Get Whole Set',"","getSet")
+ if setData[curSet].packData and not setData[curSet].noBox then
+  butWrapper(params,{0,0.1,4},'Get a Box',"","getBox")
+ end
 end
 
 function butWrapper(params,pos,label,tool,func)
@@ -5778,6 +5971,63 @@ function getSet(obj,color,alt)
   end
  end
 end
+
+function getBox(obj,color,alt)
+ local boxPos=self.GetPosition()
+ boxPos.x=boxPos.x+3
+ local setName=setData[curSet].setName
+ local spawnPos=self.positionToWorld({0,1,7})
+ local custom=setData[curSet].custom
+
+ boxData={Name="Custom_Model_Bag",
+  Transform={posX=spawnPos[1],posY=spawnPos[2],posZ=spawnPos[3],rotX=0,rotY=0,rotZ=0,scaleX=0.5,scaleY=0.5,scaleZ=0.5},
+  CustomMesh={
+   MeshURL=getSteamUrl(custom.mesh),
+   DiffuseURL=getSteamUrl(custom.diffuse),
+   NormalURL=getSteamUrl(custom.normal)or"",
+   ColliderURL=getSteamUrl(custom.mesh)or"",
+   Convex=true,
+   MaterialIndex=3,
+   TypeIndex=6,
+   CastShadows=true
+  },
+  ContainedObjects={}
+ }
+ local packScript=self.getData().ContainedObjects[1].LuaScript
+ local packData=setData[curSet].packData
+ selfRot=self.GetRotation()
+ BoxID=false
+ if packData.boxPulls then
+  BoxID=math.random(-2147483648,2147483646)
+ end
+ for c=1,36 do
+  scriptAddOn=GetScriptAddOn(packData,BoxID,c)
+  boxData.ContainedObjects[c]={
+  Name="Custom_Model_Bag",
+  Transform={posX=spawnPos[1],posY=spawnPos[2],posZ=spawnPos[3],rotX=selfRot.x,rotY=selfRot.y,rotZ=selfRot.z,scaleX=0.5,scaleY=0.5,scaleZ=0.5},
+  CustomMesh={
+   MeshURL=getSteamUrl(PACKMESH),
+   DiffuseURL=getRandomArt(packData),
+   NormalURL=getSteamUrl(PACKNORMAL),
+   ColliderURL=getSteamUrl(PACKMESH),
+   Convex=true,
+   MaterialIndex=2,
+   TypeIndex=6,
+   CastShadows=true,
+   CustomShader={SpecularColor={r=0.29,g=0.29,b=0.29,a=1},
+   SpecularIntensity=0.9,
+   SpecularSharpness=7,
+   FresnelStrength=0
+   }
+  },
+  LuaScript=scriptAddOn..packScript,
+  ContainedObjects={{Name="BlockSquare",
+   Transform={posX=spawnPos[1],posY=spawnPos[2],posZ=spawnPos[3],rotX=0,rotY=0,rotZ=0,scaleX=0.5,scaleY=0.5,scaleZ=0.5},}
+  }}
+ end
+ spawnObjectData({data=boxData,position=spawnPos,rotation=self.GetRotation()})
+end
+
 
 function requestSet(count,calls,setIDToLoad,setName,size,orderText,color)
  for c=1,calls do
@@ -6107,4 +6357,9 @@ natDexReplace={
  [902]="05505",
  [903]="02157",
  [904]="02115",
+ [979]="00575",
+ [980]="01945",
+ [981]="02035",
+ [982]="02065",
+ [983]="06255",
 }

@@ -9,7 +9,7 @@
       "setSize": "the size of the set",
     }
   ],
-  "energy": "add basic energy of the specified art to the end of the sets, currently only SMs first art and Swsh's Second art is included as it is the only one on the API that is not already on the setlists for the appropriote sets",
+  "energy": "add basic energy of the specified art to the end of the sets, currently only SMs first art and Swsh's Second art is included as it is the only one on the API that is not already on the setlists for the appropriate sets",
   "VStar": "Add the VStar marker card to the end of the set (after the energy)",
   "dropSlots": [
     {
@@ -33,6 +33,25 @@
         }
       ],
       "num": "the number of times to run this pull rate"
+    }
+  ],
+  "boxPulls":[
+    {
+      "description": "Where chance based slots are defined for box based pull rates. When this exists, if a box is generated run the following process INSTEAD OF pullRates. For each rate, every num is run with once with a single random number call and the number of the specific slot is added to the box in random positions. No more than 1 card should not be added to any individual pack this way for each set of rates",
+      "other": "if no slot is added to any specific pack, add a card from this slot(s)",
+      "otherRat": "if more than 1 slot is provided for other, this detemines the chance for each slot to be chosen as a number between 0 and 1. This is rolled seperatly for each card added to the box. The last slot is chosen if no other is. Optional: is only needed if other has multiple slots",
+      "rates": [
+        {
+          "slot": "The slot(s) that is added with this rate",
+          "ratio": "if more than 1 slot is provided, this detemines the chance for each slot to be chosen as a number between 0 and 1. This is rolled seperatly for each card added to the box. The last slot is chosen if no other is. Optional: is only needed for those with multiple slots",
+          "chances":[
+            {
+              "num": "the number of this slot to be added if this chance is chosen.",
+              "odds": "the odds of this number being chosen, as a number between 0 and 1. I enter x/y into the lua but that's a trick, as this causes the math to be done real time (this is done for coder friendliess). Optional: if not there this is the default option to be picked if no other odds is chosen, equivelent to setting remaining to 1",
+            }
+          ]
+        },
+      ],
     }
   ]
 }
