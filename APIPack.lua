@@ -48,12 +48,14 @@ function ProcessPack(loop,loading)
   end
   if SMEnergy then loadingNum=loadingNum+1 end
   if BSEnergy then loadingNum=loadingNum+1 end
+  if SVEnergy then loadingNum=loadingNum+1 end
   Global.setTable("PPacksCache["..setName.."]",{loading=loadingNum,cache=nil})
   broadcastToAll("Loading Cards...",{0,1,0})
   local count=requestSet(1,callPerSet,setID,setSize,orderText)
   if subSetID then count=requestSet(count,callPerSet,subSetID,subSetSize,orderText) end
   if SMEnergy then requestSMEnergy(count) end
   if BSEnergy then requestBSEnergy(count,setName,color)end
+  if SVEnergy then requestSVEnergy(count,setName,color)end
   return
  end
  local setData=setCache.cache.ContainedObjects
@@ -180,10 +182,17 @@ function requestSMEnergy(count)
  return count
 end
 
-function requestBSEnergy(count,setName,color)
+function requestBSEnergy(count)
  local page=count
  VStar=true
  r[count]=WebRequest.get("https://api.pokemontcg.io/v2/cards?q=number:%5B152%20TO%20159%5D%20!set.id:swsh12pt5&order_by=number&select=id,name,images,number,rarity,set,supertype,subtypes,types,nationalPokedexNumbers",function()cacheSet(r[page],page)end)
+ count=count+1
+ return count
+end
+
+function requestSVEnergy(count)
+ local page=count
+ r[count]=WebRequest.get("https://api.pokemontcg.io/v2/cards?q=!set.id:sve&order_by=number&select=id,name,images,number,rarity,set,supertype,subtypes,types,nationalPokedexNumbers",function()cacheSet(r[page],page)end)
  count=count+1
  return count
 end

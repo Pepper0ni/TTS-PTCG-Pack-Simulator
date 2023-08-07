@@ -5704,6 +5704,7 @@ custom={
  }},
 {setName="Scarlet & Violet",
  setID="sv1",
+ SVEnergy=true,
  size=258,
  custom={
   mesh=MINIBOXMESH,
@@ -5717,78 +5718,80 @@ custom={
    "2038482593604678493/E6A7C234D96F9F85CF37E2E5F4A8AAE960F1D163",
   },
   dropSlots=[[{
---TODO energy
---1 UR
+--1 energy
+  {cards={{259,266}},size=8,num=1},
+--2 UR
   {cards={{223,242}},size=20,num=0},
---2 DR
+--3 DR
   {cards={19,32,45,65,81,86,88,123,125,131,143,158},num=0},
---3 rare
+--4 rare
   {cards={15,23,38,41,43,54,61,76,80,96,106,109,118,122,124,134,142,153,164,189,190},num=0},
---4 HR
+--5 HR
   {cards={{253,258}},size=6,num=0},
---5 SIR
+--6 SIR
   {cards={{243,252}},size=10,num=0},
---6 IR
+--7 IR
   {cards={{199,222}},size=24,num=0},
---7 rev
+--8 rev
   {cards={{1,18},{20,31},{33,44},{46,64},{66,80},{82,85},87,{89,122},124,{126,130},{132,142},{144,157},{159,198}},size=186,num=1},
---8 U
+--9 U
   {cards={2,4,6,10,14,26,29,35,37,47,53,57,60,62,67,68,72,79,83,90,93,99,103,111,114,117,120,121,127,129,{137,139},145,147,150,152,157,161,163,{165,167},169,170,{174,179},181,183,184,192,193,{195,198}},size=60,num=3},
---9 C
+--10 C
   {cards={1,3,5,{7,9},{11,13},{16,18},{20,22},24,25,27,28,30,31,33,34,36,39,40,42,44,46,{48,52},55,56,58,59,63,64,66,{69,71},{73,75},77,78,82,84,85,87,89,91,92,94,95,97,98,{100,102},104,105,107,108,110,112,113,115,116,119,126,128,130,132,133,135,136,140,141,144,146,148,149,151,{154,156},159,160,162,168,{171,173},180,182,{185,188},191,194},size=105,num=4},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=1,odds=1/15},--UR
-  {slot=2,odds=1/7.36},--DR
-  {slot=3}--R
+  {slot=2,odds=1/15},--UR
+  {slot=3,odds=1/7.36},--DR
+  {slot=4}--R
  },num=1},
 --rev
  {rates={
-  {slot=4,odds=1/53.5},--HR
-  {slot=5,odds=1/30.8},--SIR
-  {slot=6,odds=1/13},--IR
-  {slot=7}--rev
+  {slot=5,odds=1/53.5},--HR
+  {slot=6,odds=1/30.8},--SIR
+  {slot=7,odds=1/13},--IR
+  {slot=8}--rev
  },num=1}
 }]],
   boxPulls=[[{
   --rare
   {rates={
-   {slot=1,chances={
+   {slot=2,chances={
     {num=2,odds=0.627},
     {num=3,odds=0.35514},
     {num=4},
    }},
-   {slot=2,chances={
+   {slot=3,chances={
     {num=3,odds=0.00834},
     {num=4,odds=0.17757},
     {num=5,odds=0.728},
     {num=6},
    }}},
-   other=3
+   other=4
   },
   --rev
   {rates={
-   {slot={4,5},
+   {slot={5,6},
    ratio={0.3658},
    chances={
     {num=1,odds=0.1676},
     {num=2,odds=0.8317},
     {num=3},
    }},
-   {slot=6,chances={
+   {slot=7,chances={
     {num=2,odds=0.2512},
     {num=3,odds=0.7196},
     {num=4},
    }}},
-   other=7
+   other=8
   },
 }]]
  }
 },
 {setName="Paldea Evolved",
  setID="sv2",
+ SVEnergy=true,
  size=279,
  custom={
   mesh=MINIBOXMESH,
@@ -5803,42 +5806,43 @@ custom={
    "2029481402812784152/AE4F64547E9B5391AC89B47DB3B978A3AA37F13A",
   },
   dropSlots=[[{
---TODO energy
---1 UR mons
+--1 energy
+  {cards={{280,287}},size=8,num=1},
+--2 UR mons
   {cards={{230,247}},size=18,num=0},
---2 UR sup
+--3 UR sup
   {cards={{248,255}},size=8,num=0},
---3 DR
+--4 DR
   {cards={5,15,27,37,40,52,61,63,79,86,93,117,127,130,150,153,169},num=0},
---4 rare
+--5 rare
   {cards={3,11,21,33,43,56,60,71,76,84,89,{97,99},105,113,123,126,{134,136},140,151,162,172},size=25,num=0},
---5 HR
+--6 HR
   {cards={{271,279}},size=9,num=0},
---6 SIR
+--7 SIR
   {cards={{256,270}},size=15,num=0},
---7 IR
+--8 IR
   {cards={{194,229}},size=36,num=0},
---8 rev
+--9 rev
   {cards={{1,4},{6,14},{16,26},{28,36},38,39,{41,51},{53,60},62,{64,78},{80,85},{87,92},{94,116},{118,126},128,129,{131,149},151,152,{154,168},{170,193}},size=176,num=1},
---9 U
+--10 U
   {cards={2,6,9,14,18,24,{28,30},32,36,41,45,48,51,55,59,64,67,70,73,75,82,88,91,92,94,96,103,104,{107,109},111,115,118,122,132,137,139,143,{146,148},155,157,159,161,165,168,170,171,{173,176},{178,182},{184,187},{189,193}},size=70,num=3},
---10 C
+--11 C
   {cards={1,4,7,8,10,12,13,16,17,19,20,22,23,25,26,31,34,35,38,39,42,44,46,47,49,50,53,54,57,58,62,65,66,68,69,72,74,77,78,80,81,83,85,87,90,95,{100,102},106,110,112,114,116,{119,121},124,125,128,129,131,133,138,141,142,144,145,149,152,154,156,158,160,163,164,166,167,177,183,188},size=81,num=4},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=1,odds=1/23.15},--UR mons
-  {slot=2,odds=1/43.44},--UR sup
-  {slot=3,odds=1/7.365},--DR
-  {slot=4}--R
+  {slot=2,odds=1/23.15},--UR mons
+  {slot=3,odds=1/43.44},--UR sup
+  {slot=4,odds=1/7.365},--DR
+  {slot=5}--R
  },num=1},
 --rev
  {rates={
-  {slot=5,odds=1/52.84},--HR
-  {slot=6,odds=1/31.2},--SIR
-  {slot=7,odds=1/13.39},--IR
-  {slot=8}--rev
+  {slot=6,odds=1/52.84},--HR
+  {slot=7,odds=1/31.2},--SIR
+  {slot=8,odds=1/13.39},--IR
+  {slot=9}--rev
  },num=1}
 }]]
  }
@@ -5858,6 +5862,9 @@ function GetScriptAddOn(packData,boxID,packNum)
  end
  if setData[curSet].BSEnergy then
   scriptAddOn=scriptAddOn..'BSEnergy=true\n'
+ end
+ if setData[curSet].SVEnergy then
+  scriptAddOn=scriptAddOn..'SVEnergy=true\n'
  end
  if setData[curSet].VStar then
   scriptAddOn=scriptAddOn..'VStar=true\n'
@@ -6013,6 +6020,7 @@ function getSet(obj,color,alt)
    end
    if setData[curSet].SMEnergy then loadingNum=loadingNum+1 end
    if setData[curSet].BSEnergy then loadingNum=loadingNum+1 end
+   if setData[curSet].SVEnergy then loadingNum=loadingNum+1 end
    Global.setTable("PPacksCache["..setName.."]",{loading=loadingNum,cache=nil})
    local count=requestSet(1,callPerSet,setData[curSet].setID,setName,setData[curSet].size or 300,orderText,color)
    if setData[curSet].subSet then count=requestSet(count,callPerSet,setData[curSet].subSet.setID,setName,setData[curSet].subSet.size or 300,orderText,color)end
@@ -6022,6 +6030,7 @@ function getSet(obj,color,alt)
     VStar=true
    end
    if setData[curSet].BSEnergy then requestBSEnergy(count,setName,color)end
+   if setData[curSet].SVEnergy then requestSVEnergy(count,setName,color)end
   else
    broadcastToColor("Loading Cards, Please Wait",color,{0,1,0})
   end
@@ -6104,6 +6113,13 @@ end
 function requestBSEnergy(count,setName,color)
  local page=count
  r[count]=WebRequest.get("https://api.pokemontcg.io/v2/cards?q=number:%5B152%20TO%20159%5D%20!set.id:swsh12pt5&order_by=number&select=id,name,images,number,rarity,set,supertype,subtypes,types,nationalPokedexNumbers",function()cacheSet(r[page],setName,color,page)end)
+ count=count+1
+ return count
+end
+
+function requestSVEnergy(count,setName,color)
+ local page=count
+ r[count]=WebRequest.get("https://api.pokemontcg.io/v2/cards?q=!set.id:sve&order_by=number&select=id,name,images,number,rarity,set,supertype,subtypes,types,nationalPokedexNumbers",function()cacheSet(r[page],setName,color,page)end)
  count=count+1
  return count
 end

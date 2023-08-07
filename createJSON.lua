@@ -35,6 +35,7 @@ for c=1,#setData do
   }
   if setData[c].SMEnergy then jsonTable[count].energy="SM1"end
   if setData[c].BSEnergy then jsonTable[count].energy="SWSH2"end
+  if setData[c].SVEnergy then jsonTable[count].energy="SVE"end
   if setData[c].VStar then jsonTable[count].VStar=true end
   if setData[c].subSet then
    jsonTable[count].sets[2]={

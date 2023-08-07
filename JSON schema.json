@@ -9,7 +9,7 @@
       "setSize": "the size of the set",
     }
   ],
-  "energy": "add basic energy of the specified art to the end of the sets, currently only SMs first art and Swsh's Second art is included as it is the only one on the API that is not already on the setlists for the appropriate sets",
+  "energy": "add basic energy of the specified art to the end of the sets, currently only SMs first art, Swsh's Second art and SV's art is included as they are the only ones on the API that are not already on the setlists for the appropriate sets",
   "VStar": "Add the VStar marker card to the end of the set (after the energy)",
   "dropSlots": [
     {
