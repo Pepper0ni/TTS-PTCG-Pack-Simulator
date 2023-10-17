@@ -32,7 +32,8 @@
           "flagExclude": "Optional: if true, skip this rarity if a slot with 'flag' has been previously selected"
         }
       ],
-      "num": "the number of times to run this pull rate"
+      "num": "the number of times to run this pull rate",
+      "noGod": "If true, do not roll this pull rate for God Packs"
     }
   ],
   "boxPulls":[
@@ -53,5 +54,8 @@
         },
       ],
     }
-  ]
+  ],
+  "godChance": "The chance of a pack being a god pack.",
+  "godSlot": "The dropSlot in which god pack cards are inserted before. If not provided, the god pack is at the back of the pack.",
+  "godPacks": "A list of lists. each list is a possible combonation of cards included in a god pack, in the order provided."
 }

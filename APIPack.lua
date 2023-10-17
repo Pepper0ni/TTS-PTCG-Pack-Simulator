@@ -125,9 +125,12 @@ function setBoxData()
 end
 
 function openPack(setData,packs)
- local curCard=1
  packFlag=false
  local slotsAdded={}
+ local godPack=false
+ if godChance and(settings.allGods or Global.call("PPacks.rand")<godChance)then
+  godPack=true
+ end
  if boxID and boxPulls then
   local box=Global.GetTable("PPBoxChances["..tostring(boxID).."]")
   if not box then
@@ -138,23 +141,42 @@ function openPack(setData,packs)
   end
  else
   for b=1,#pullRates do
-   for c=1,pullRates[b].num do
-    slotsAdded=doPullRates(pullRates[b].rates,slotsAdded)
+   if not(pullRates[b].noGod and godPack)then
+    for c=1,pullRates[b].num do
+     slotsAdded=doPullRates(pullRates[b].rates,slotsAdded)
+    end
    end
   end
  end
  local packData=getDeckData(packPos,cardRot,true)
+ if godPack and not godSlot then
+  addGodPack(packData,setData)
+ end
  for b=1,#dropSlots do
   local choices=chooseCards(dropSlots[b],slotsAdded[b]or 0)
   for c=1,#choices do
-   local CardID=setData[choices[c]].CardID
-   packData.DeckIDs[curCard]=CardID
-   packData.CustomDeck[CardID*0.01]=setData[choices[c]].CustomDeck[CardID*0.01]
-   packData.ContainedObjects[curCard]=setData[choices[c]]
-   curCard=curCard+1
+   packData=addCard(packData,setData[choices[c]])
+  end
+  if godPack and godSlot and godSlot==b then
+   addGodPack(packData,setData)
   end
  end
  Wait.frames(function()createPack(packData,setData,packs)end,1)
+end
+
+function addCard(packData,cardToAdd)
+ packData.DeckIDs[#packData.DeckIDs+1]=cardToAdd.CardID
+ packData.CustomDeck[cardToAdd.CardID*0.01]=cardToAdd.CustomDeck[cardToAdd.CardID*0.01]
+ packData.ContainedObjects[#packData.ContainedObjects+1]=cardToAdd
+ return packData
+end
+
+function addGodPack(packData,setData)
+ local packChoice=godPacks[randomFromRange(1,#godPacks)]
+ for c=1,#packChoice do
+  addCard(packData,setData[packChoice[c]])
+ end
+ return packData
 end
 
 function createPack(packData,setData,packs)
@@ -361,7 +383,7 @@ function doPullRates(rates,slotsAdded)
  local rand=Global.call("PPacks.rand")
  local initrand=rand
  for c=1,#rates do
-  if(not packFlag or not rates[c].flagExclude)then
+  if not(packFlag and rates[c].flagExclude)then
    if rates[c].remaining then rand=initrand-(rates[c].odds or 1)else rand=rand-(rates[c].odds or 1)end
    if rand<=0 and(settings.energy!=2 or not dropSlots[rates[c].slot].energy)then
     AddToSlotsAdded(slotsAdded,rates[c].slot)
@@ -543,4 +565,5 @@ natDexReplace={
  [981]="02035",
  [982]="02065",
  [983]="06255",
+ [1011]="08425",
 }

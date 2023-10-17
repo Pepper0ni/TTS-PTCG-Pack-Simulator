@@ -54,6 +54,7 @@ for c=1,#setData do
   local pullRates=load("return "..packData.pullRates)()
   for d=1,#pullRates do
    jsonTable[count]["pullRates"][d]={rates={},num=pullRates[d].num}
+   if pullRates[d].noGod then jsonTable[count]["pullRates"][d].noGod=pullRates[d].noGod end
    for e=1,#pullRates[d].rates do
     local rates=pullRates[d]["rates"][e]
     jsonTable[count]["pullRates"][d]["rates"][e]={
@@ -104,6 +105,10 @@ for c=1,#setData do
      end
     end
    end
+  end
+  if setData[c].godChance then jsonTable[count].godChance=setData[c].godChance end
+  if setData[c].godSlot then jsonTable[count].godSlot=setData[c].godSlot end
+  if setData[c].godPacks then jsonTable[count].godPacks=setData[c].godPacks end
   end
   count=count+1
  end

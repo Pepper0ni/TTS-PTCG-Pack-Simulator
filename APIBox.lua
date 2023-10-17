@@ -5904,6 +5904,72 @@ custom={
 }]]
  }
 },
+{setName="151",
+ setID="sv3pt5",
+ SVEnergy=true,
+ noBox=true,
+ size=207,
+ custom={
+  mesh=MINIBOXMESH,
+  diffuse="2089163611609765200/19E13E19AB6877F5FA54E3E0F7A6E6E5210B1824"
+ },
+ packData={
+  art={
+   "2089163611609765200/19E13E19AB6877F5FA54E3E0F7A6E6E5210B1824",
+  },
+  dropSlots=[[{
+--1 energy
+  {cards={{208,215}},size=8,num=1},
+--2 UR mons
+  {cards={{182,193}},size=12,num=0},
+--3 UR sup
+  {cards={{194,197}},size=4,num=0},
+--4 DR
+  {cards={3,6,9,24,38,40,65,76,115,124,145,151},num=0},
+--5 rare
+  {cards={15,26,34,45,68,85,94,101,105,110,113,121,122,130,132,134,135,136,139,141,142,144,146,149,150},num=0},
+--6 HR
+  {cards={{205,207}},size=3,num=0},
+--7 SIR
+  {cards={{198,204}},size=7,num=0},
+--8 IR
+  {cards={{166,181}},size=16,num=0},
+--9 rev
+  {cards={1,2,4,5,7,8,{10,23},{25,37},39,{41,64},{66,75},{77,114},{116,123},{125,144},{146,150},{152,165}},size=153,num=0},
+--10 U
+  {cards={2,5,8,12,18,20,22,28,30,31,33,36,42,44,47,49,51,53,55,57,59,62,64,67,71,73,75,78,80,82,87,89,91,93,95,97,99,103,106,107,112,117,119,123,127,128,131,138,140,143,148,{155,165}},size=62,num=3},
+--11 C
+  {cards={1,4,7,10,11,13,14,16,17,19,21,23,25,27,29,32,35,37,39,41,43,46,48,50,52,54,56,58,60,61,63,66,69,70,72,74,77,79,81,83,84,86,88,90,92,96,98,100,102,104,108,109,111,114,116,118,120,125,126,129,133,137,147,{152,154}},size=66,num=4},
+}]],
+  pullRates=[[{
+--rare
+ {rates={
+  {slot=2,odds=1/20.8},--UR mons
+  {slot=3,odds=1/95.68},--UR sup
+  {slot=4,odds=1/7.2},--DR
+  {slot=5}--R
+ },num=1,noGod=true},
+--rev
+ {rates={
+  {slot=6,odds=1/46.27},--HR
+  {slot=7,odds=1/31.73},--SIR
+  {slot=8,odds=1/12.57},--IR
+  {slot=9}--rev
+ },num=1,noGod=true},
+ --rev2
+ {rates={
+  {slot=9}--rev
+ },num=1,noGod=true}
+}]],
+  godChance=0.001,
+  godSlot=1,
+  godPacks=[[{
+   {198,167,166},
+   {199,168,169},
+   {200,170,171}
+}]]
+ }
+},
 }
 
 function GetScriptAddOn(packData,boxID,packNum)
@@ -5927,7 +5993,13 @@ function GetScriptAddOn(packData,boxID,packNum)
   scriptAddOn=scriptAddOn..'VStar=true\n'
  end
  if boxID then
-  scriptAddOn=scriptAddOn..'boxPulls='..packData.boxPulls..'\n'..'boxID='..tostring(boxID)..'\npackNum='..tostring(packNum)..'\n'
+  scriptAddOn=scriptAddOn..'boxPulls='..packData.boxPulls..'\nboxID='..tostring(boxID)..'\npackNum='..tostring(packNum)..'\n'
+ end
+ if packData.godChance then
+  scriptAddOn=scriptAddOn..'godChance='..tostring(packData.godChance)..'\ngodPacks='..tostring(packData.godPacks)..'\n'
+ end
+ if packData.godSlot then
+  scriptAddOn=scriptAddOn..'godSlot='..tostring(packData.godSlot)..'\n'
  end
  return scriptAddOn
 end
@@ -5975,7 +6047,7 @@ function onLoad(state)
   curSet=1
  end
  if not settings then
-  if state.settings then settings=state.settings else settings={energy=1,on=true,spread=false,APICalls=3,hundred=false,debug=false,slotTest=false}end
+  if state.settings then settings=state.settings else settings={energy=1,on=true,spread=false,APICalls=3,hundred=false,debug=false,slotTest=false,allGods=false}end
   Global.SetTable("PPacks",settings)
  end
  self.max_typed_number=99
@@ -6015,6 +6087,7 @@ function setUpContextMenu()
   addContextToggle("hundred","100 Packs")
   addContextToggle("slotTest","Slot Test")
   addContextToggle("on","Packs")
+  addContextToggle("allGods","All God Packs")
   addSetting("Close Debug Menu","debug",false)
  end
  if settings.energy~=1 then addSetting("Enable Energy","energy",1)end
@@ -6491,4 +6564,5 @@ natDexReplace={
  [981]="02035",
  [982]="02065",
  [983]="06255",
+ [1011]="08425",
 }
