@@ -32,7 +32,7 @@ setData={
 --3 R
   {cards={{17,22},{70,79}},num=0,size=16},
 --4 energy
-  {energy=true,cards={{97,102}},num=2,size=6},
+  {cards={{97,102}},num=2,size=6,energy=true},
 --5 C
   {cards={{43,69},{91,95}},num=5,size=32},
 }]],
@@ -2853,7 +2853,7 @@ custom={
 --7 C
   {cards={3,6,10,12,15,18,20,22,24,31,33,37,39,42,44,47,49,51,54,56,58,60,65,69,72,75,81,83,87,88,92,94,98,102,104,106,108,111,113},num=4},
 --8 energy
-  {cards={{132,140}},num=0,energy=true,size=9},
+  {cards={{132,140}},num=0,size=9,energy=true},
 }]],
   pullRates=[[{
 --rare
@@ -3318,7 +3318,7 @@ custom={
 --13 C
   {cards={3,6,8,14,16,19,21,22,26,31,33,34,39,41,44,50,51,54,56},num=2},
 --14 energy
-  {cards={{77,85}},num=0,energy=true,size=9},
+  {cards={{77,85}},num=0,size=9,energy=true},
 }]],
   pullRates=[[{
 --rare
@@ -4609,7 +4609,7 @@ custom={
 --10 RH
   {cards={10,20,26,28,30,37,42,49,56,62},num=0},
 --11 rev energy TODO find a way to add energy
-  {cards={},num=0},
+  {cards={},num=0,energy=true},
 --12 rev
   {cards={{2,4},6,7,{9,12},{18,20},{24,26},{28,31},{33,46},{48,68}},size=54,num=0},
 --13 C
@@ -5443,75 +5443,75 @@ custom={
  },num=1}
 }]],
   boxPulls=[[{
-  --energy
-  {
-   other={2,3},
-   otherRat={0.1035}
-  },
-  --rare
-  {rates={
-   {slot={4,5,6},
-    ratio={0.319,0.529},
-    chances={
-    {num=0,odds=0.315},
-    {num=1,odds=0.453},
-    {num=2,odds=0.195},
-    {num=3,odds=0.0385},
-    {num=4},
-   }},
-   {slot=7,chances={
-    {num=0,odds=0.09436},
-    {num=1,odds=0.59},
-    {num=2,odds=0.306},
-    {num=3},
-   }},
-   {slot={8,9},
-    ratio={0.137},
-    chances={
-    {num=0,odds=0.0242},
-    {num=1,odds=0.383},
-    {num=2,odds=0.5253},
-    {num=3,odds=0.053},
-    {num=4},
-   }},
-   {slot=10,chances={
-    {num=3,odds=0.0633},
-    {num=4,odds=0.66988},
-    {num=5,odds=0.229},
-    {num=6},
-   }}},
-   other={11,12},
-   otherRat={0.233}
-  },
-  --rev
-  {rates={
-   {slot=13,chances={
-    {num=0,odds=0.679},
-    {num=1},
-   }},
-   {slot={14,15},
-    ratio={0.5664},
-    chances={
-    {num=0,odds=0.06},
-    {num=1,odds=0.7566},
-    {num=2,odds=0.1735},
-    {num=3},
-   }},
-   {slot=16,
-    chances={
-    {num=2,odds=0.1258},
-    {num=3,odds=0.73},
-    {num=4,odds=0.1325},
-    {num=5},
-   }},
-   {slot=17,
-    chances={
-    {num=1,odds=0.25},
-    {num=2,odds=0.718},
-    {num=3},
-   }}},
-   other=18
-  },
+--energy
+{
+  other={2,3},
+  otherRat={0.1035}
+},
+--rare
+{rates={
+  {slot={4,5,6},
+  ratio={0.319,0.529},
+  chances={
+   {num=0,odds=0.315},
+   {num=1,odds=0.453},
+   {num=2,odds=0.195},
+   {num=3,odds=0.0385},
+   {num=4},
+  }},
+  {slot=7,chances={
+   {num=0,odds=0.09436},
+   {num=1,odds=0.59},
+   {num=2,odds=0.306},
+   {num=3},
+  }},
+  {slot={8,9},
+  ratio={0.137},
+  chances={
+   {num=0,odds=0.0242},
+   {num=1,odds=0.383},
+   {num=2,odds=0.5253},
+   {num=3,odds=0.053},
+   {num=4},
+  }},
+  {slot=10,chances={
+   {num=3,odds=0.0633},
+   {num=4,odds=0.66988},
+   {num=5,odds=0.229},
+   {num=6},
+  }}},
+  other={11,12},
+  otherRat={0.233}
+},
+--rev
+{rates={
+ {slot=13,chances={
+  {num=0,odds=0.679},
+  {num=1},
+}},
+ {slot={14,15},
+ ratio={0.5664},
+ chances={
+  {num=0,odds=0.06},
+  {num=1,odds=0.7566},
+  {num=2,odds=0.1735},
+  {num=3},
+}},
+ {slot=16,
+ chances={
+  {num=2,odds=0.1258},
+  {num=3,odds=0.73},
+  {num=4,odds=0.1325},
+  {num=5},
+}},
+ {slot=17,
+ chances={
+  {num=1,odds=0.25},
+  {num=2,odds=0.718},
+  {num=3},
+ }}},
+ other=18
+},
 }]]
  }
 },
@@ -5719,7 +5719,7 @@ custom={
   },
   dropSlots=[[{
 --1 energy
-  {cards={{259,266}},size=8,num=1},
+  {cards={{259,266}},size=8,num=1,energy=true},
 --2 UR
   {cards={{223,242}},size=20,num=0},
 --3 DR
@@ -5754,38 +5754,38 @@ custom={
   {slot=8}--rev
  },num=1}
 }]],
-  boxPulls=[[{
-  --rare
-  {rates={
-   {slot=2,chances={
-    {num=2,odds=0.627},
-    {num=3,odds=0.35514},
-    {num=4},
-   }},
-   {slot=3,chances={
-    {num=3,odds=0.00834},
-    {num=4,odds=0.17757},
-    {num=5,odds=0.728},
-    {num=6},
-   }}},
-   other=4
-  },
-  --rev
-  {rates={
-   {slot={5,6},
+boxPulls=[[{
+--rare
+{rates={
+  {slot=2,chances={
+  {num=2,odds=0.627},
+  {num=3,odds=0.35514},
+  {num=4},
+ }},
+  {slot=3,chances={
+  {num=3,odds=0.00834},
+  {num=4,odds=0.17757},
+  {num=5,odds=0.728},
+  {num=6},
+ }}},
+  other=4
+},
+--rev
+ {rates={
+  {slot={5,6},
    ratio={0.3658},
    chances={
-    {num=1,odds=0.1676},
-    {num=2,odds=0.8317},
-    {num=3},
-   }},
+   {num=1,odds=0.1676},
+   {num=2,odds=0.8317},
+   {num=3},
+  }},
    {slot=7,chances={
-    {num=2,odds=0.2512},
-    {num=3,odds=0.7196},
-    {num=4},
-   }}},
-   other=8
-  },
+   {num=2,odds=0.2512},
+   {num=3,odds=0.7196},
+   {num=4},
+ }}},
+  other=8
+ },
 }]]
  }
 },
@@ -5807,7 +5807,7 @@ custom={
   },
   dropSlots=[[{
 --1 energy
-  {cards={{280,287}},size=8,num=1},
+  {cards={{280,287}},size=8,num=1,energy=true},
 --2 UR mons
   {cards={{230,247}},size=18,num=0},
 --3 UR sup
@@ -5864,7 +5864,7 @@ custom={
   },
   dropSlots=[[{
 --1 energy
-  {cards={{231,238}},size=8,num=1},
+  {cards={{231,238}},size=8,num=1,energy=true},
 --2 UR mons
   {cards={{210,217}},size=8,num=0},
 --3 UR sup
@@ -5919,7 +5919,7 @@ custom={
   },
   dropSlots=[[{
 --1 energy
-  {cards={{208,215}},size=8,num=1},
+  {cards={{208,215}},size=8,num=1,energy=true},
 --2 UR mons
   {cards={{182,193}},size=12,num=0},
 --3 UR sup
@@ -5987,7 +5987,7 @@ custom={
   },
   dropSlots=[[{
 --1 energy
-  {cards={{267,274}},size=8,num=1},
+  {cards={{267,274}},size=8,num=1,energy=true},
 --2 UR mons
   {cards={{217,234}},size=18,num=0},
 --3 UR sup
@@ -6022,6 +6022,135 @@ custom={
   {slot=6,odds=0.0162,flagExclude=true},--HR
   {slot=7,odds=0.268,flagExclude=true},--SIR
   {slot=8,odds=0.099,flagExclude=true},--IR
+  {slot=9}--rev
+ },num=1}
+}]]
+ }
+},
+{setName="Paldean Fates",
+ setID="sv4pt5",
+ SVEnergy=true,
+ noBox=true,
+ size=245,
+ custom={
+  mesh=MINIBOXMESH,
+  diffuse="2280577380397840092/FCAE9E6918372553C4F0EB7047479AEB90C67F2E"
+ },
+ packData={
+  art={
+   "2280577380397840092/FCAE9E6918372553C4F0EB7047479AEB90C67F2E",
+   "2280577380397838487/E29CD4F0C1E7376B90EE79EE07357AEC7DE33031",
+   "2280577380397837407/D80BA4F93D6BEBB9005ADAB7AADABB73E29AB261",
+   "2280577380397836300/FC8704B9012032BD890FC5EE6489EB9EBAE92D2D",
+  },
+  dropSlots=[[{
+--1 energy
+  {cards={{246,253}},size=8,num=1,energy=true},
+--2 UR
+  {cards={{227,231}},size=5,num=0},
+--3 DR
+  {cards={2,5,6,29,53,54,59,66,69,75},num=0},
+--4 rare
+  {cards={10,13,15,19,24,26,37,40,43,47,63,65,67,70,87,88},num=0},
+--5 HR
+  {cards={{240,245}},size=6,num=0},
+--6 SIR
+  {cards={{232,239}},size=8,num=0},
+--7 IR
+  {cards={{224,226}},size=3,num=0},
+--8 rev
+  {cards={1,3,4,{7,28},{30,52},{55,58},{60,65},67,68,{70,74},{76,91}},size=81,num=0},
+--9 shiny FA
+  {cards={{212,223}},size=12,num=0},
+--10 shiny
+  {cards={{92,211}},size=120,num=0},
+--11 U
+  {cards={8,12,21,22,28,33,35,39,46,49,52,57,61,72,74,{76,81},83,84,90,91},size=25,num=3},
+--12 C
+  {cards={1,3,4,7,9,11,14,{16,18},20,23,25,27,{30,32},34,36,38,41,42,44,45,48,50,51,55,56,58,60,62,64,68,71,73,82,85,86,89},size=40,num=4},
+}]],
+  pullRates=[[{
+--rare
+ {rates={
+  {slot=2,odds=1/14,flag=true},--UR
+  {slot=3,odds=1/6.7,flag=true},--DR
+  {slot=4}--R
+ },num=1},
+--rev/art/hyper
+ {rates={
+  {slot=5,odds=0.0177,flagExclude=true},--HR
+  {slot=6,odds=0.0241,flagExclude=true},--SIR
+  {slot=7,odds=0.0976,flagExclude=true},--IR
+  {slot=8}--rev
+ },num=1},
+--rev/shiny
+ {rates={
+  {slot=9,odds=0.093,flagExclude=true},--shiny FA
+  {slot=10,odds=0.3225,flagExclude=true},--shiny
+  {slot=8}--rev
+ },num=1}
+}]]
+ }
+},
+{setName="Temporal Forces",
+ setID="sv5",
+ SVEnergy=true,
+ size=218,
+ custom={
+  mesh=MINIBOXMESH,
+  diffuse="2415690703815243875/C565DB3CA4C3C4C251BAB31F394D08359BD500FC"
+ },
+ packData={
+  art={
+   "2415690703815243875/C565DB3CA4C3C4C251BAB31F394D08359BD500FC",
+   "2415690703815243170/60BACCC16DCE179A5CE69F6182256160B68B89DD",
+   "2415690703815242714/6832CC268341C3F322F040B5A94F62E69224D6C3",
+   "2415690703815242246/AE37C0EC09C2AA31F89671E92F4F62DE5C9D558E",
+  },
+  dropSlots=[[{
+--1 energy
+  {cards={{219,226}},size=8,num=1,energy=true},
+--2 UR sup
+  {cards={{197,202}},size=6,num=0},
+--3 UR mons
+  {cards={{185,196}},size=12,num=0},
+--4 DR
+  {cards={12,22,25,34,38,50,60,81,99,104,108,111,120,122,123},num=0},
+--5 rare
+  {cards={15,21,29,41,62,78,80,84,109,117,119,121,129,138},num=0},
+--6 HR
+  {cards={{213,218}},size=6,num=0},
+--7 SIR
+  {cards={{203,212}},size=10,num=0},
+--8 IR
+  {cards={{163,184}},size=22,num=0},
+--9 rev
+  {cards={{1,11},{13,21},23,24,{26,33},{35,37},{39,49},{51,59},{61,80},{82,98},{100,103},{105,107},109,110,{112,119},121,{124,140},{142,151},155,156,{159,161}},size=140,num=0},
+--10 ACE
+  {cards={141,152,153,154,157,158,162},num=0},
+--11 U
+  {cards={5,9,13,17,19,24,27,37,43,44,49,54,56,57,59,61,67,69,72,74,76,77,79,86,88,90,92,{95,98},107,110,115,118,131,135,137,139,140,{142,151},155,156,{159,161}},size=55,num=3},
+--12 C
+  {cards={{1,4},{6,8},10,11,14,16,18,20,23,26,28,{30,33},35,36,39,40,42,{45,48},{51,53},55,58,{63,66},68,70,71,73,75,82,83,85,87,89,91,93,94,{100,103},105,106,{112,114},116,{124,128},130,{132,134},136},size=71,num=4},
+}]],
+  pullRates=[[{
+--rare
+ {rates={
+  {slot=2,odds=1/52.831},--UR sup
+  {slot=3,odds=1/21.31},--UR mons
+  {slot=4,odds=1/5.945},--DR
+  {slot=5}--R
+ },num=1},
+--rev/art/hyper
+ {rates={
+  {slot=6,odds=1/138.9},--HR
+  {slot=7,odds=1/81.83},--SIR
+  {slot=8,odds=1/13.14},--IR
+  {slot=9}--rev
+ },num=1},
+--rev/ace
+ {rates={
+  {slot=10,odds=1/19.62},
   {slot=9}--rev
  },num=1}
 }]]
@@ -6622,4 +6751,6 @@ natDexReplace={
  [982]="02065",
  [983]="06255",
  [1011]="08425",
+ [1018]="08845",
+ [1019]="08426",
 }

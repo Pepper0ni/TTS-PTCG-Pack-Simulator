@@ -396,11 +396,11 @@ function doPullRates(rates,slotsAdded)
 end
 
 function chooseCards(slot,added)
+ local choices={}
  if not slot.energy or settings.energy==1 then
   if settings.slotTest then
    choices=randomFromTable(slot.cards,1,slot.size,true)
   elseif slot.fixed then
-   local choices={}
    local deckPos=randomFromRange(1,#slot.cards,true)
    for c=1,slot.num+added do
     choices[c]=slot.cards[deckPos]
@@ -566,4 +566,6 @@ natDexReplace={
  [982]="02065",
  [983]="06255",
  [1011]="08425",
+ [1018]="08845",
+ [1019]="08426",
 }
