@@ -6013,15 +6013,15 @@ boxPulls=[[{
 --rare
  {rates={
   {slot=2,odds=1/23.9,flag=true},--UR mons
-  {slot=3,odds=1/38.5,flag=true},--UR sup
+  {slot=3,odds=1/38.95,flag=true},--UR sup
   {slot=4,odds=1/6.46,flag=true},--DR
   {slot=5}--R
  },num=1},
 --rev
  {rates={
   {slot=6,odds=0.0162,flagExclude=true},--HR
-  {slot=7,odds=0.268,flagExclude=true},--SIR
-  {slot=8,odds=0.099,flagExclude=true},--IR
+  {slot=7,odds=0.0268,flagExclude=true},--SIR
+  {slot=8,odds=0.0994,flagExclude=true},--IR
   {slot=9}--rev
  },num=1}
 }]]
@@ -6151,6 +6151,131 @@ boxPulls=[[{
 --rev/ace
  {rates={
   {slot=10,odds=1/19.62},
+  {slot=9}--rev
+ },num=1}
+}]]
+ }
+},
+{setName="Twilight Masqurade",
+ setID="sv6",
+ SVEnergy=true,
+ size=226,
+ custom={
+  mesh=MINIBOXMESH,
+  diffuse="2447222068927760051/53B9717F67AD1C8FB712A4FEFFAD01B4B8172EE7"
+ },
+ packData={
+  art={
+   "2447222068927760527/55F6295999D9CE99E1C1D348ED461A3C3FD0E68C",
+   "2447222068927760051/53B9717F67AD1C8FB712A4FEFFAD01B4B8172EE7",
+   "2447222068927759500/1A65536BBB6857C62E0948DE696C045D7B3291E4",
+   "2447222068927759126/3411C5B08755E0573044621107FD03A9304951E0",
+  },
+  dropSlots=[[{
+--1 energy
+  {cards={{227,234}},size=8,num=1,energy=true},
+--2 UR
+  {cards={{189,209}},size=21,num=0},
+--3 DR
+  {cards={23,25,29,40,61,64,68,77,94,106,112,130,134,141},num=0},
+--4 rare
+  {cards={19,22,24,33,38,53,63,65,82,93,95,96,100,110,111,123},num=0},
+--5 HR
+  {cards={{221,226}},size=6,num=0},
+--6 SIR
+  {cards={{210,220}},size=11,num=0},
+--7 IR
+  {cards={{168,188}},size=21,num=0},
+--8 rev
+  {cards={{1,22},24,{26,28},{30,39},{41,60},62,63,{65,67},{69,76},{78,93},{95,105},{107,111},{113,129},{131,133},{135,140},{142,151},{153,161},166},size=147,num=0},
+--9 ACE
+  {cards={152,{162,165},167},size=6,num=0},
+--10 U
+  {cards={5,7,8,11,16,18,35,39,43,50,52,54,58,60,62,72,74,76,79,84,88,90,98,102,105,109,114,117,118,122,125,127,131,136,138,140,142,143,{145,151},{153,161},166},size=55,num=3},
+--11 C
+  {cards={{1,4},6,9,10,{12,15},17,20,21,{26,28},{30,32},34,36,37,41,42,{44,49},51,{55,57},59,66,67,{69,71},73,75,78,80,81,83,{85,87},89,91,92,97,99,101,103,104,107,108,113,115,116,{119,121},124,126,128,129,132,133,135,137,139,144},size=76,num=4},
+}]],
+  pullRates=[[{
+--rare
+ {rates={
+  {slot=2,odds=1/14.95},--UR
+  {slot=3,odds=1/5.87},--DR
+  {slot=4}--R
+ },num=1},
+--rev/art/hyper
+ {rates={
+  {slot=5,odds=1/137.95},--HR
+  {slot=6,odds=1/78.78},--SIR
+  {slot=7,odds=1/12.79},--IR
+  {slot=8}--rev
+ },num=1},
+--rev/ace
+ {rates={
+  {slot=9,odds=1/19.53},
+  {slot=8}--rev
+ },num=1}
+}]]
+ }
+},
+{setName="Shrouded Fable",
+ setID="sv6pt5",
+ SVEnergy=true,
+ size=97,
+ custom={
+  mesh=MINIBOXMESH,
+  diffuse="2467493883643886189/5E276A051D752BED1ADDEBFC9BC3BCA25A8DC4C3"
+ },
+ packData={
+  art={
+   "2467493883643887626/BB24F86788594D63A03AAF8D36A6EDAC8C376B87",
+   "2467493883643887212/E28A08535BF697FB43D909463299B9D48E1F01DD",
+   "2467493883643886748/3742F27228A8694B1BD44892B696DFBEAB3FDCE9",
+   "2467493883643886189/5E276A051D752BED1ADDEBFC9BC3BCA25A8DC4C3",
+  },
+  dropSlots=[[{
+--1 energy
+  {cards={{100,107}},size=8,num=1,energy=true},
+--2 UR sup
+  {cards={{86,89}},size=4,num=0},
+--3 UR mons
+  {cards={{80,85}},size=6,num=0},
+--4 DR
+  {cards={12,15,{36,39}},size=6,num=0},
+--5 rare
+  {cards={6,20,21,25,32,42,46},num=0},
+--6 HR
+  {cards={{95,99}},size=5,num=0},
+--7 SIR
+  {cards={{90,94}},size=5,num=0},
+--8 IR
+  {cards={{65,79}},size=15,num=0},
+--9 rev
+  {cards={{1,11},13,14,{16,35},{40,57},59,61,63,64},size=55,num=0},
+--10 ACE
+  {cards={58,60,62},num=0},
+--11 U
+  {cards={2,5,9,14,17,22,26,29,34,35,40,47,{54,57},59,61,63,64},size=20,num=3},
+--12 C
+  {cards={1,3,4,7,8,10,11,13,16,18,19,23,24,27,28,30,31,33,41,{43,45},{48,53}},size=28,num=4},
+}]],
+  pullRates=[[{
+--rare
+ {rates={
+  {slot=2,odds=1/33.25},--UR sup
+  {slot=3,odds=1/25.43},--UR mons
+  {slot=4,odds=1/5.66},--DR
+  {slot=5}--R
+ },num=1},
+--rev/art/hyper
+ {rates={
+  {slot=6,odds=1/148.6},--HR
+  {slot=7,odds=1/73.1},--SIR
+  {slot=8,odds=1/12.58},--IR
+  {slot=9}--rev
+ },num=1},
+--rev/ace
+ {rates={
+  {slot=10,odds=1/21},
   {slot=9}--rev
  },num=1}
 }]]
@@ -6476,7 +6601,7 @@ function cacheSet(request,setName,color,page)
     end
    end
    if VStar then
-    local DeckID=999+curCard
+    local DeckID=999
     local customData={FaceURL=getSteamUrl("2012580224574675678/71C7CEACF71693E12FE3AF2FF32F7A53CF4B5917"),
      BackURL=getSteamUrl("2012580224574713180/BA2458015FEBD79B9D15478AA51316B44B7FCAA4"),
      NumWidth=1,
@@ -6624,7 +6749,7 @@ function SetAsNextGen()
 end
 
 function getSteamUrl(url)
- if url then return"http://cloud-3.steamusercontent.com/ugc/"..url.."/"end
+ if url then return"https://steamusercontent-a.akamaihd.net/ugc/"..url.."/"end
 end
 
 function changeSet()

@@ -221,7 +221,7 @@ end
 
 function cacheSet(request,page)
  local cache=Global.GetTable("PPacksCache["..setName.."]")
- if request.is_error or request.response_code>=400 then
+ if request.is_error or request.response_code>=400 or request.response_code==0 then
   log(request.error)
   log(request.text)
   log(request.response_code)
@@ -249,9 +249,9 @@ function cacheSet(request,page)
     end
    end
    if VStar then
-    local DeckID=999+curCard
-    local customData={FaceURL="http://cloud-3.steamusercontent.com/ugc/2012580224574675678/71C7CEACF71693E12FE3AF2FF32F7A53CF4B5917/",
-     BackURL="http://cloud-3.steamusercontent.com/ugc/2012580224574713180/BA2458015FEBD79B9D15478AA51316B44B7FCAA4/",
+    local DeckID=999
+    local customData={FaceURL="https://steamusercontent-a.akamaihd.net/ugc/2012580224574675678/71C7CEACF71693E12FE3AF2FF32F7A53CF4B5917/",
+     BackURL="https://steamusercontent-a.akamaihd.net/ugc/2012580224574713180/BA2458015FEBD79B9D15478AA51316B44B7FCAA4/",
      NumWidth=1,
      NumHeight=1,
      BackIsHidden=true
@@ -296,7 +296,7 @@ end
 
 function getCustomData(cardData)
  return{FaceURL=cardData.images.large.."?count="..cardData.number or"",
-  BackURL="http://cloud-3.steamusercontent.com/ugc/809997459557414686/9ABD9158841F1167D295FD1295D7A597E03A7487/",
+  BackURL="https://steamusercontent-a.akamaihd.net/ugc/809997459557414686/9ABD9158841F1167D295FD1295D7A597E03A7487/",
   NumWidth=1,
   NumHeight=1,
   BackIsHidden=true
