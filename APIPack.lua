@@ -54,8 +54,8 @@ function ProcessPack(loop,loading)
   local count=requestSet(1,callPerSet,setID,setSize,orderText)
   if subSetID then count=requestSet(count,callPerSet,subSetID,subSetSize,orderText) end
   if SMEnergy then requestSMEnergy(count) end
-  if BSEnergy then requestBSEnergy(count,setName,color)end
-  if SVEnergy then requestSVEnergy(count,setName,color)end
+  if BSEnergy then requestBSEnergy(count)end
+  if SVEnergy then requestSVEnergy(SVEnergy,count)end
   return
  end
  local setData=setCache.cache.ContainedObjects
@@ -212,9 +212,9 @@ function requestBSEnergy(count)
  return count
 end
 
-function requestSVEnergy(count)
+function requestSVEnergy(num,count)
  local page=count
- r[count]=WebRequest.get("https://api.pokemontcg.io/v2/cards?q=!set.id:sve&order_by=number&select=id,name,images,number,rarity,set,supertype,subtypes,types,nationalPokedexNumbers",function()cacheSet(r[page],page)end)
+ r[count]=WebRequest.get("https://api.pokemontcg.io/v2/cards?q=number:%5B"..tostring(num).."%20TO%20"..tostring(num+7).."%5D%20!set.id:sve&order_by=number&select=id,name,images,number,rarity,set,supertype,subtypes,types,nationalPokedexNumbers",function()cacheSet(r[page],page)end)
  count=count+1
  return count
 end

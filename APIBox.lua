@@ -5704,7 +5704,7 @@ custom={
  }},
 {setName="Scarlet & Violet",
  setID="sv1",
- SVEnergy=true,
+ SVEnergy=1,
  size=258,
  custom={
   mesh=MINIBOXMESH,
@@ -5791,7 +5791,7 @@ boxPulls=[[{
 },
 {setName="Paldea Evolved",
  setID="sv2",
- SVEnergy=true,
+ SVEnergy=1,
  size=279,
  custom={
   mesh=MINIBOXMESH,
@@ -5849,7 +5849,7 @@ boxPulls=[[{
 },
 {setName="Obsidian Flames",
  setID="sv3",
- SVEnergy=true,
+ SVEnergy=1,
  size=230,
  custom={
   mesh=MINIBOXMESH,
@@ -5906,7 +5906,7 @@ boxPulls=[[{
 },
 {setName="151",
  setID="sv3pt5",
- SVEnergy=true,
+ SVEnergy=1,
  noBox=true,
  size=207,
  custom={
@@ -5972,7 +5972,7 @@ boxPulls=[[{
 },
 {setName="Paradox Rift",
  setID="sv4",
- SVEnergy=true,
+ SVEnergy=1,
  size=266,
  custom={
   mesh=MINIBOXMESH,
@@ -6029,7 +6029,7 @@ boxPulls=[[{
 },
 {setName="Paldean Fates",
  setID="sv4pt5",
- SVEnergy=true,
+ SVEnergy=1,
  noBox=true,
  size=245,
  custom={
@@ -6094,7 +6094,7 @@ boxPulls=[[{
 },
 {setName="Temporal Forces",
  setID="sv5",
- SVEnergy=true,
+ SVEnergy=1,
  size=218,
  custom={
   mesh=MINIBOXMESH,
@@ -6158,7 +6158,7 @@ boxPulls=[[{
 },
 {setName="Twilight Masqurade",
  setID="sv6",
- SVEnergy=true,
+ SVEnergy=1,
  size=226,
  custom={
   mesh=MINIBOXMESH,
@@ -6219,7 +6219,7 @@ boxPulls=[[{
 },
 {setName="Shrouded Fable",
  setID="sv6pt5",
- SVEnergy=true,
+ SVEnergy=1,
  size=97,
  custom={
   mesh=MINIBOXMESH,
@@ -6283,7 +6283,7 @@ boxPulls=[[{
 },
 {setName="Stellar Crown",
  setID="sv7",
- --SVEnergy=true,
+ SVEnergy=9,
  size=175,
  custom={
   mesh=MINIBOXMESH,
@@ -6298,46 +6298,46 @@ boxPulls=[[{
   },
   dropSlots=[[{
 --1 energy
-  --{cards={},size=8,num=1,energy=true},
---1 UR
+  {cards={{176,183}},size=8,num=1,energy=true},
+--2 UR
   {cards={{156,166}},size=11,num=0},
---2 DR
+--3 DR
   {cards={1,14,28,30,32,41,51,67,80,82,89,105,110,128},num=0},
---3 rare
+--4 rare
   {cards={3,6,38,44,55,65,71,76,96,101,104,107,111,115,119},num=0},
---4 HR
+--5 HR
   {cards={{173,175}},size=3,num=0},
---5 SIR
+--6 SIR
   {cards={{167,172}},size=6,num=0},
---6 IR
+--7 IR
   {cards={{143,155}},size=13,num=0},
---7 rev
+--8 rev
   {cards={{2,13},{15,27},29,31,{33,40},{42,50},{52,66},{68,79},81,{83,88},{90,104},{106,109},{111,127},{129,133},135,{137,141}},size=125,num=0},
---8 ACE
+--9 ACE
   {cards={134,136,142},num=0},
---9 U
+--10 U
   {cards={4,11,18,20,22,24,31,34,36,40,42,45,47,49,53,54,58,59,61,73,84,86,90,92,93,98,109,120,123,125,{131,133},135,{137,141}},size=39,num=3},
---10 C
+--11 C
   {cards={2,5,{7,10},12,13,{15,17},19,21,23,{25,27},29,33,35,37,39,43,46,48,50,52,56,57,60,{62,64},66,{68,70},72,74,75,{77,79},81,83,85,87,88,91,94,95,97,99,100,102,103,106,108,{112,114},{116,118},121,122,124,126,127,129,130},size=71,num=4},
 }]],
   pullRates=[[{
 --rare
  {rates={
-  {slot=1,odds=1/14.72},--UR
-  {slot=2,odds=1/5.92},--DR
-  {slot=3}--R
+  {slot=2,odds=1/14.72},--UR
+  {slot=3,odds=1/5.92},--DR
+  {slot=4}--R
  },num=1},
 --rev/art/hyper
  {rates={
-  {slot=4,odds=1/139.6},--HR
-  {slot=5,odds=1/90.3},--SIR
-  {slot=6,odds=1/12.96},--IR
-  {slot=7}--rev
+  {slot=5,odds=1/139.6},--HR
+  {slot=6,odds=1/90.3},--SIR
+  {slot=7,odds=1/12.96},--IR
+  {slot=8}--rev
  },num=1},
 --rev/ace
  {rates={
-  {slot=8,odds=1/20.5},
-  {slot=7}--rev
+  {slot=9,odds=1/20.5},
+  {slot=8}--rev
  },num=1}
 }]]
  }
@@ -6359,7 +6359,7 @@ function GetScriptAddOn(packData,boxID,packNum)
   scriptAddOn=scriptAddOn..'BSEnergy=true\n'
  end
  if setData[curSet].SVEnergy then
-  scriptAddOn=scriptAddOn..'SVEnergy=true\n'
+  scriptAddOn=scriptAddOn..'SVEnergy='..tostring(setData[curSet].SVEnergy)..'\n'
  end
  if setData[curSet].VStar then
   scriptAddOn=scriptAddOn..'VStar=true\n'
@@ -6532,7 +6532,7 @@ function getSet(obj,color,alt)
     VStar=true
    end
    if setData[curSet].BSEnergy then requestBSEnergy(count,setName,color)end
-   if setData[curSet].SVEnergy then requestSVEnergy(count,setName,color)end
+   if setData[curSet].SVEnergy then requestSVEnergy(setData[curSet].SVEnergy,count,setName,color)end
   else
    broadcastToColor("Loading Cards, Please Wait",color,{0,1,0})
   end
@@ -6619,9 +6619,9 @@ function requestBSEnergy(count,setName,color)
  return count
 end
 
-function requestSVEnergy(count,setName,color)
+function requestSVEnergy(num,count,setName,color)
  local page=count
- r[count]=WebRequest.get("https://api.pokemontcg.io/v2/cards?q=!set.id:sve&order_by=number&select=id,name,images,number,rarity,set,supertype,subtypes,types,nationalPokedexNumbers",function()cacheSet(r[page],setName,color,page)end)
+ r[count]=WebRequest.get("https://api.pokemontcg.io/v2/cards?q=number:%5B"..tostring(num).."%20TO%20"..tostring(num+7).."%5D%20!set.id:sve&order_by=number&select=id,name,images,number,rarity,set,supertype,subtypes,types,nationalPokedexNumbers",function()cacheSet(r[page],setName,color,page)end)
  count=count+1
  return count
 end
