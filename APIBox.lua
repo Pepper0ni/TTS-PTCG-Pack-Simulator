@@ -6336,7 +6336,7 @@ boxPulls=[[{
  },num=1},
 --rev/ace
  {rates={
-  {slot=9,odds=1/20.5},
+  {slot=9,odds=1/20.58},
   {slot=8}--rev
  },num=1}
 }]]
@@ -6348,7 +6348,7 @@ boxPulls=[[{
  size=252,
  custom={
   mesh=MINIBOXMESH,
-  diffuse="9663902713504427/850DF1463DAD824397CB49533343538076B211FA/"
+  diffuse="9663902713504427/850DF1463DAD824397CB49533343538076B211FA"
  },
  packData={
   art={
@@ -6360,7 +6360,7 @@ boxPulls=[[{
   dropSlots=[[{
 --1 energy
   {cards={{253,260}},size=8,num=1,energy=true},
---2 UR Mons
+--2 UR
   {cards={{215,235}},size=21,num=0},
 --3 DR
   {cards={4,36,37,42,48,57,68,76,86,91,106,119,130,133,142,147,159,160},num=0},
@@ -6400,6 +6400,101 @@ boxPulls=[[{
   {slot=9,odds=1/20.12},
   {slot=8}--rev
  },num=1}
+}]]
+ }
+},
+{setName="Prismatic Evolutions",
+ setID="sv8pt5",
+ SVEnergy=9,
+ size=180,
+ custom={
+  mesh=MINIBOXMESH,
+  diffuse="9669610792355089/DF4C5318A50F8CC8738E624DC6F5D666209D7F86"
+ },
+ packData={
+  art={
+   "9669610792355089/DF4C5318A50F8CC8738E624DC6F5D666209D7F86",
+   "9669610792354726/8D75D75BC58A51F9C1F991E436E5B0EC0678311D",
+   "9669610792354566/FEF67EF42D79FBABBA362C3685D0A06D1400ACF8",
+   "9669610792354415/5D520C5592279AAF0D0C149BE2E740381368CE0F",
+  },
+  dropSlots=[[{
+--1 energy
+  {cards={{181,188}},size=8,num=1,energy=true},
+--2 UR
+  {cards={{132,143}},size=12,num=0},
+--3 DR
+  {cards={6,11,12,14,17,23,{26,28},{30,32},34,41,51,56,58,60,64,73,75,76,82,91,92},size=25,num=0},
+--4 rare
+  {cards={5,8,13,22,25,29,33,37,40,{43,46},49,54,57,59,65,70,78,80},size=21,num=0},
+--5 HR
+  {cards={{176,180}},size=5,num=0},
+--6 SIR
+  {cards={{144,175}},size=32,num=0},
+--7 SIR non-eevee
+  {cards={145,147,148,151,152,154,{157,160},{162,166},{168,175}},size=23,num=0},
+--8 SIR eevee
+  {cards={144,146,149,150,153,155,156,161,167},num=0},
+--9 rev MB
+  {cards={{1,5},{7,10},13,15,16,{18,22},24,25,29,33,{35,40},{42,50},{52,55},57,59,{61,63},{65,72},74,{77,81},{83,90}},size=67,num=0},
+--10 rev
+  {cards={{1,5},{7,10},13,15,16,{18,22},24,25,29,33,{35,40},{42,50},{52,55},57,59,{61,63},{65,72},74,{77,81},{83,90},{93,115},118,{120,127},130},size=100,num=0},
+--11 ACE
+  {cards={116,117,119,128,129,131},num=0},
+--12 U
+  {cards={2,10,16,19,21,24,42,55,67,68,86,87,89,94,95,{100,108},110,{112,114},118,120,121,126,130},size=33,num=0},
+--13 C
+  {cards={1,3,4,7,9,15,18,20,35,36,38,39,47,48,50,52,53,{61,63},66,69,71,72,74,77,79,81,{83,85},88,90,93,{96,99},109,111,115,{122,125},127},size=46,num=0},
+}]],
+  pullRates=[[{
+--rare
+ {rates={
+  {slot=7,odds=1/1500,flag=true},--Demigod
+  {slot=2,odds=1/14.61},--UR
+  {slot=3,odds=1/6.1},--DR
+  {slot=4}--R
+ },num=1,noGod=true},
+--rev/art/hyper
+ {rates={
+  {slot=5,odds=1/130.79,flagExclude=true},--HR
+  {slot=6,odds=1/74.6,flagExclude=true},--SIR
+  {slot=9,odds=1/19.9,flagExclude=true},--rev MB
+  {slot=10,flagExclude=true},--rev
+  {slot=7}--Demigod
+ },num=1,noGod=true},
+--rev/ace
+ {rates={
+  {slot=11,odds=1/20.5,flagExclude=true},
+  {slot=10,flagExclude=true},--rev
+  {slot=8}--Demigod
+ },num=1,noGod=true},
+--remove commons and uncommons when a god pack happens
+ {rates={
+  {slot=12}
+ },num=1,noGod=true},
+ {rates={
+  {slot=12}
+ },num=1,noGod=true},
+ {rates={
+  {slot=12}
+ },num=1,noGod=true},
+ {rates={
+  {slot=13}
+ },num=1,noGod=true},
+ {rates={
+  {slot=13}
+ },num=1,noGod=true},
+ {rates={
+  {slot=13}
+ },num=1,noGod=true},
+ {rates={
+  {slot=13}
+ },num=1,noGod=true},
+}]],
+  godChance=1/5000,
+  godSlot=1,
+  godPacks=[[{
+   {167,161,156,155,153,150,149,146,144,74},
 }]]
  }
 },
