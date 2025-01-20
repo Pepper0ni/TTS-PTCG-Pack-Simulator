@@ -6450,21 +6450,21 @@ boxPulls=[[{
 --rare
  {rates={
   {slot=7,odds=1/1500,flag=true},--Demigod
-  {slot=2,odds=1/14.61},--UR
+  {slot=2,odds=1/14.47},--UR
   {slot=3,odds=1/6.1},--DR
   {slot=4}--R
  },num=1,noGod=true},
 --rev/art/hyper
  {rates={
-  {slot=5,odds=1/130.79,flagExclude=true},--HR
-  {slot=6,odds=1/74.6,flagExclude=true},--SIR
-  {slot=9,odds=1/19.9,flagExclude=true},--rev MB
+  {slot=5,odds=1/161.04,flagExclude=true},--HR
+  {slot=6,odds=1/78.1,flagExclude=true},--SIR
+  {slot=9,odds=1/19.84,flagExclude=true},--rev MB
   {slot=10,flagExclude=true},--rev
   {slot=7}--Demigod
  },num=1,noGod=true},
 --rev/ace
  {rates={
-  {slot=11,odds=1/20.5,flagExclude=true},
+  {slot=11,odds=1/20.52,flagExclude=true},--ACE
   {slot=10,flagExclude=true},--rev
   {slot=8}--Demigod
  },num=1,noGod=true},
@@ -6491,7 +6491,7 @@ boxPulls=[[{
   {slot=13}
  },num=1,noGod=true},
 }]],
-  godChance=1/5000,
+  godChance=1/4000,
   godSlot=1,
   godPacks=[[{
    {167,161,156,155,153,150,149,146,144,74},
