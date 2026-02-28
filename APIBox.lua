@@ -1438,7 +1438,7 @@ setData={
   {slot=4}--R
  },num=1},
 --energy
- {rates = {
+ {rates={
   {slot=7,odds=1/4},--energy
   {slot=6}--C
  },num=1},
@@ -2054,12 +2054,12 @@ setData={
   {slot=6}--R
  },num=1},
 --rev
- {rates = {
+ {rates={
   {slot=7,odds=1/6},--RP
   {slot=8}--rev
  },num=1},
 --energy
- {rates = {
+ {rates={
   {slot=9,odds=1/4},--energy
   {slot=10}--C
  },num=1},
@@ -2106,7 +2106,7 @@ setData={
   {slot=5}--R
  },num=1},
 --rev
- {rates = {
+ {rates={
   {slot=6,odds=1/7},--RP
   {slot=7}--rev
  },num=1},
@@ -2153,7 +2153,7 @@ setData={
   {slot=5}--R
  },num=1},
 --rev
- {rates = {
+ {rates={
   {slot=6,odds=1/7},--RP
   {slot=7}--rev
  },num=1},
@@ -2200,7 +2200,7 @@ setData={
   {slot=5}--R
  },num=1},
 --rev
- {rates = {
+ {rates={
   {slot=6,odds=1/7},--RP
   {slot=7}--rev
  },num=1},
@@ -2243,7 +2243,7 @@ setData={
   {slot=3}--R
  },num=1},
 --rev
- {rates = {
+ {rates={
   {slot=4,odds=1/18},--shiny
   {slot=5,odds=1/9},--energy
   {slot=6}--rev
@@ -3208,7 +3208,7 @@ custom={
   {slot=2,odds=1/136.36,flag=true},--RS
   {slot=3,odds=1/18.5,flag=true},--FA
   {slot=4,odds=1/11.11,flag=true},--EX
-  {slot=5,remaining=true,odds=1/3},--RH
+  {slot=5,remaining=true,flag=true,odds=1/3},--RH
   {slot=6}--R
  },num=1},
 --rev
@@ -3265,7 +3265,7 @@ custom={
   {slot=2,odds=1/166.66,flag=true},--RS
   {slot=3,odds=1/18,flag=true},--FA
   {slot=4,odds=1/10.5,flag=true},--EX
-  {slot=5,remaining=true,odds=1/3},--RH
+  {slot=5,remaining=true,flag=true,odds=1/3},--RH
   {slot=6}--R
  },num=1},
 --rev
@@ -3389,7 +3389,7 @@ custom={
   {slot=2,odds=1/102.85,flag=true},--RS
   {slot=3,odds=1/18,flag=true},--FA
   {slot=4,odds=1/7.6,flag=true},--EX
-  {slot=5,remaining=true,odds=1/3},--RH
+  {slot=5,remaining=true,flag=true,odds=1/3},--RH
   {slot=6}--R
  },num=1},
 --rev
@@ -3439,7 +3439,7 @@ custom={
   {slot=2,odds=1/132.4,flag=true},--RS
   {slot=3,odds=1/17.7,flag=true},--FA
   {slot=4,odds=1/14.45,flag=true},--EX
-  {slot=5,remaining=true,odds=1/3},--RH
+  {slot=5,remaining=true,flag=true,odds=1/3},--RH
   {slot=6}--R
  },num=1},
 --rev
@@ -3493,7 +3493,7 @@ custom={
   {cards={91,92,93,94,95,96,97,98,99},num=0,energy=true},
 }]],
   pullRates=[[{
---Us
+--U
  {rates={
   {slot=1,odds=1/23.2},
   {slot=2}--unc
@@ -6602,6 +6602,238 @@ boxPulls=[[{
   {slot=6,odds=1/86.7},--SIR
   {slot=7,odds=1/11.64},--IR
   {slot=8}--rev
+ },num=1}
+}]]
+ }
+},
+{setName="Black Bolt",
+ setID="zsv10pt5",
+ --SVEnergy=9,
+ --size=180,
+ custom={
+  mesh=MINIBOXMESH,
+  diffuse="9981511988663528233/E0870965F956CA4A3A1F3298A6A0CAFC8B771FFC/"
+ },
+ packData={
+  art={
+   "9981511988663528233/E0870965F956CA4A3A1F3298A6A0CAFC8B771FFC",
+  },
+  dropSlots=[[{
+--1 energy
+  --{cards={{181,188}},size=8,num=1,energy=true},
+--1 UR
+  {cards={{156,163}},size=8,num=0},
+--2 DR
+  {cards={3,28,34,44,46,67},size=6,num=0},
+--3 rare
+  {cards={12,16,23,26,33,49,53,63,66,70},num=0},
+--4 BWR
+  {cards={172,171},num=0},
+--5 SIR
+  {cards={{164,170}},size=7,num=0},
+--6 IR
+  {cards={{87,155}},size=69,num=0},
+--7 rev
+  {cards={1,2,{4,27},{29,33},{35,43},45,{47,66},{68,86}},size=80,num=0},
+--8 rev MB
+  {cards={1,2,{4,27},{29,33},{35,43},45,{47,66},{68,78}},size=72,num=0},
+--9 U
+  {cards={5,7,11,14,18,21,22,24,27,31,32,36,39,41,43,50,52,56,59,60,65,73,76,78,79,{81,86}},size=31,num=0},
+--10 C
+  {cards={1,2,4,6,{8,10},13,15,17,19,20,25,29,30,35,37,38,40,42,45,47,48,51,54,55,57,58,61,62,64,68,69,71,72,74,75,77,80},size=39,num=0},
+}]],
+  pullRates=[[{
+--rare
+ {rates={
+  {slot=5,odds=1/2000,flag=true},--Demigod
+  {slot=1,odds=1/15.35},--UR
+  {slot=2,odds=1/4.65},--DR
+  {slot=3}--R
+ },num=1},
+--rev/art/hyper
+ {rates={
+  {slot=4,odds=1/1358.5,flagExclude=true},--BWR
+  {slot=5,odds=1/75.5,flagExclude=true},--SIR
+  {slot=6,odds=1/5.94,flagExclude=true},--IR
+  {slot=7,flagExclude=true},--rev
+  {slot=6}--Demigod
+ },num=1},
+--rev/ace
+ {rates={
+  {slot=8,odds=1/18.6,flagExclude=true},--rev MB
+  {slot=7,flagExclude=true},--rev
+  {slot=6}--Demigod
+ },num=1},
+--remove commons and uncommons when a god pack happens
+ {rates={
+  {slot=9,flagExclude=true},--unc
+  {slot=6}--Demigod
+ },num=1},
+ {rates={
+  {slot=9,flagExclude=true},--unc
+  {slot=6}--Demigod
+ },num=1},
+ {rates={
+  {slot=9,flagExclude=true},--unc
+  {slot=6}--Demigod
+ },num=1},
+ {rates={
+  {slot=10,flagExclude=true},--com
+  {slot=6}--Demigod
+ },num=1},
+ {rates={
+  {slot=10,flagExclude=true},--com
+  {slot=6}--Demigod
+ },num=1},
+ {rates={
+  {slot=10,flagExclude=true},--com
+  {slot=6}--Demigod
+ },num=1},
+ {rates={
+  {slot=10,flagExclude=true},--com
+  {slot=6}--Demigod
+ },num=1},
+}]]
+ }
+},
+{setName="White Flare",
+ setID="rsv10pt5",
+ --SVEnergy=9,
+ --size=180,
+ custom={
+  mesh=MINIBOXMESH,
+  diffuse="18348418917467348852/9516226CE4BDBF64974B4F2F243C0A47F5C73DBF"
+ },
+ packData={
+  art={
+   "18348418917467348852/9516226CE4BDBF64974B4F2F243C0A47F5C73DBF",
+  },
+  dropSlots=[[{
+--1 energy
+  --{cards={{181,188}},size=8,num=1,energy=true},
+--1 UR
+  {cards={{157,164}},size=8,num=0},
+--2 DR
+  {cards={5,20,30,45,67,77},size=6,num=0},
+--3 rare
+  {cards={10,13,18,23,40,43,51,54,62,78},num=0},
+--4 BWR
+  {cards={172,173},num=0},
+--5 SIR
+  {cards={{165,171}},size=7,num=0},
+--6 IR
+  {cards={{87,156}},size=70,num=0},
+--7 rev
+  {cards={{1,4},{6,19},{21,29},{31,44},{46,66},{68,76},{78,86}},size=80,num=0},
+--8 rev MB
+  {cards={{1,4},{6,19},{21,29},{31,44},{46,66},{68,76},78},size=72,num=0},
+--9 U
+  {cards={3,7,9,15,19,26,29,32,34,35,37,38,{48,50},53,56,58,60,64,{69,71},73,76,{80,86}},size=32,num=0},
+--10 C
+  {cards={1,2,4,6,8,11,12,14,16,17,21,22,24,25,27,28,31,33,36,39,41,42,44,46,47,52,55,57,59,61,63,65,66,68,72,74,75,79},num=0},
+}]],
+  pullRates=[[{
+--rare
+ {rates={
+  {slot=5,odds=1/2000,flag=true},--Demigod
+  {slot=1,odds=1/15.35},--UR
+  {slot=2,odds=1/4.65},--DR
+  {slot=3}--R
+ },num=1},
+--rev/art/hyper
+ {rates={
+  {slot=4,odds=1/1358.5,flagExclude=true},--BWR
+  {slot=5,odds=1/75.5,flagExclude=true},--SIR
+  {slot=6,odds=1/5.94,flagExclude=true},--IR
+  {slot=7,flagExclude=true},--rev
+  {slot=6}--Demigod
+ },num=1},
+--rev/ace
+ {rates={
+  {slot=8,odds=1/18.6,flagExclude=true},--rev MB
+  {slot=7,flagExclude=true},--rev
+  {slot=6}--Demigod
+ },num=1},
+--remove commons and uncommons when a god pack happens
+ {rates={
+  {slot=9,flagExclude=true},--unc
+  {slot=6}--Demigod
+ },num=1},
+ {rates={
+  {slot=9,flagExclude=true},--unc
+  {slot=6}--Demigod
+ },num=1},
+ {rates={
+  {slot=9,flagExclude=true},--unc
+  {slot=6}--Demigod
+ },num=1},
+ {rates={
+  {slot=10,flagExclude=true},--com
+  {slot=6}--Demigod
+ },num=1},
+ {rates={
+  {slot=10,flagExclude=true},--com
+  {slot=6}--Demigod
+ },num=1},
+ {rates={
+  {slot=10,flagExclude=true},--com
+  {slot=6}--Demigod
+ },num=1},
+ {rates={
+  {slot=10,flagExclude=true},--com
+  {slot=6}--Demigod
+ },num=1},
+}]]
+ }
+},
+{setName="Mega Evolution",
+ setID="me1",
+ --SVEnergy=9,
+ size=188,
+ custom={
+  mesh=MINIBOXMESH,
+  diffuse="10313428009841696943/34DF2DF93CA6DE0C97EA57D7E0F4F3004C20B82A"
+ },
+ packData={
+  art={
+   "10313428009841696943/34DF2DF93CA6DE0C97EA57D7E0F4F3004C20B82A",
+   "12053953165483858851/85307B938C2D047FA6A3493F8C61D760E4390B6F",
+   "12254264954528151554/39046CB1E9328A49792438162A947AAA8B5085E1",
+   "11818246298207572582/591F280A37869C88B15E38A7F423B9A45618D3E0",
+  },
+  dropSlots=[[{
+--1 UR
+  {cards={{155,176}},size=22,num=0},
+--2 DR
+  {cards={3,22,36,50,60,77,86,94,100,104},num=0},
+--3 rare
+  {cards={10,28,34,38,48,56,64,73,74,88,93,95},num=0},
+--4 MHR
+  {cards={187,188},size=2,num=0},
+--5 SIR
+  {cards={{177,186}},size=10,num=0},
+--6 IR
+  {cards={{133,154}},size=22,num=0},
+--7 rev
+  {cards={1,2,{4,21},{23,35},{37,49},{51,59},{61,76},{78,85},{87,93},{95,99},{101,103},{105,132}},size=122,num=1},
+--8 U
+  {cards={5,7,11,12,15,17,20,24,25,30,31,41,43,47,55,61,63,66,75,80,81,84,85,87,98,99,101,110,113,114,{116,122},124,{126,129},132},size=43,num=3},
+--9 C
+  {cards={1,2,4,6,8,9,13,14,16,18,19,21,23,26,27,29,32,33,35,37,39,40,42,{44,46},49,{51,54},{57,59},62,65,{67,72},76,78,79,82,83,{89,92},96,97,102,103,{105,109},111,112,115,123,125,130,131},size=67,num=4},
+}]],
+  pullRates=[[{
+--rare
+ {rates={
+  {slot=1,odds=1/12},--UR
+  {slot=2,odds=1/4.82},--DR
+  {slot=3}--R
+ },num=1},
+--rev/art/hyper
+ {rates={
+  {slot=4,odds=1/746},--MHR
+  {slot=5,odds=1/79.3},--SIR
+  {slot=6,odds=1/8.9},--IR
+  {slot=7}--rev
  },num=1}
 }]]
  }
